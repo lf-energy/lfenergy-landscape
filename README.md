@@ -1,10 +1,10 @@
-[![Dependency Status](https://img.shields.io/david/LFDLFoundation/lfdl-landscape.svg?style=flat-square)](https://david-dm.org/LFDLFoundation/lfdl-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/cb0bff52-871d-42c9-b46e-b3dbf8da9309/deploy-status)](https://app.netlify.com/sites/lfdllandscape/deploys)
+[![Dependency Status](https://img.shields.io/david/lf-energy/lfenergy-landscape.svg?style=flat-square)](https://david-dm.org/lfenergy/lfenergy-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/57bcc258-c6d6-4b74-ada3-f829c842e847/deploy-status)](https://app.netlify.com/sites/lfenergy/deploys)
 
-# Linux Foundation Edge Landscape
+# Linux Foundation Energy Landscape
 
-![LFEdge Landscape Logo](https://github.com/lf-edge/lfedge-landscape/blob/master/images/left-logo.svg)
+![LFEnergy Landscape Logo](https://github.com/lf-energy/lfenergy-landscape/blob/master/images/left-logo.svg)
 
-- [LF Edge Landscape](#cloud-native-landscape)
+- [LF Energy Landscape](#cloud-native-landscape)
   * [Current Version](#current-version)
   * [Interactive Version](#interactive-version)
   * [New Entries](#new-entries)
@@ -20,36 +20,20 @@
   * [Vulnerability reporting](#vulnerability-reporting)
   * [Adjusting the Landscape View](#adjusting-the-landscape-view)
 
-The intent is for the Landscape to be a living document that developers, investors, vendors, researchers and others can use as a resource on the landscape of edge computing. It is modelled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code. 
+The intent is for the Landscape to be a living document that developers, investors, vendors, researchers and others can use as a resource on the landscape of Energy computing. It is modelled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open source code. 
 
 ## Current Version
 
-[![LF Edge Landscape](https://landscape.lfedge.org/images/landscape.png)](https://landscape.lfedge.org/images/landscape.png)
+[![LF Energy Landscape](https://landscape.lfenergy.org/images/landscape.png)](https://landscape.lfenergy.org/images/landscape.png)
 
 ## Interactive Version
 
-Please see [landscape.lfedge.org](https://landscape.lfedge.org).
-
-## Categories
-* *.Org*: Standards and collaboration groups involved in facilitating discussion by edge stakeholders of edge.
-* *Traffic Routing*: DNS and software/projects to monitor and route traffic to the correct place.
-* *Platforms*: Platforms focused on deploying, managing, and scaling custom-workloads at the edge (CDN & Distributed Caches, Application Delivery Network (ADN), Edge PaaS, IoT Focused, Decentralized)
-* *Security*: Applications and projects focused primarily on security.
-* *Networking*: Software or solutions that control the movement of packets (e.g. SD-WAN, NFV, NOS)
-* *Infrastructure*: Infrastructure as a Service tools, vendors, and platforms for edge compute (Monitoring, Provisioning, Virtualization, Physical).
-* *Hardware*: Physical gear, including assembled components (Core Silicon, Accelerators).
-* *Edge OEMs*: Original Equipment Manufacturers (OEM) building key components critical for the edge ecosystem.
-* *Wireless & Wireline*: Physical network infrastructure , protocols, & tooling focused and used at the edge (Fiber & Peering, Wireless).
-* *Real Estate / Land / Data Centers*: Companies focused on building, maintaining, and operating data centers and related critical infrastructure for the edge (Tradition, Non-Traditional, Towers & Related, Municpal Right of Way)
-* *Services / System Integrators*: Services for people integrating and deploying at the edge.  
-* *Other Edge Related Software*: Software projects /platforms common, but not specific to any of the other categories. 
-* *LF Edge Member Companies*: Member companies of LF Edge.
-
+Please see [landscape.lfenergy.org](https://landscape.lfenergy.org).
 
 ## New Entries
 
 * Projects must be open source and hosted on or mirrored to GitHub.
-* Edge computing projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
+* Energy computing projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
 * We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
 * Your project or company needs a logo and the logo needs to include the name.
 * Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
@@ -104,13 +88,13 @@ The update server enhances the source data with the fetched data and saves the r
 As explained at https://bestpractices.coreinfrastructure.org/:
 >The Linux Foundation (LF) Core Infrastructure Initiative (CII) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice. The CII Best Practices Badge is inspired by the many badges available to projects on GitHub. Consumers of the badge can quickly assess which FLOSS projects are following best practices and as a result are more likely to produce higher-quality secure software.
 
-The interactive landscape displays the status (or non-existence) of a badge for each open-source project. There's also a feature not available through the filter bar to see all items [with](landscape.lfedge.org/bestpractices=yes) and [without](https://landscape.lfedge.org/bestpractices=no) badges. Note that a passing badge is a requirement for projects to [graduate](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc) in the CNCF.
+The interactive landscape displays the status (or non-existence) of a badge for each open-source project. There's also a feature not available through the filter bar to see all items [with](landscape.lfenergy.org/bestpractices=yes) and [without](https://landscape.lfenergy.org/bestpractices=no) badges. Note that a passing badge is a requirement for projects to [graduate](https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc) in the CNCF.
 
 ## Non-Updated Items
 
-We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. Here is view of projects sorted by last update: landscape.lfedge.org/grouping=no&license=open-source&sort=latest-commit
+We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. Here is view of projects sorted by last update: landscape.lfenergy.org/grouping=no&license=open-source&sort=latest-commit
 
-We generally remove closed source products when they have not tweeted in over 3 months. This doesn't apply to Chinese companies without Twitter accounts, since Twitter is blocked there. Here is a view of products sorted by last tweet: landscape.lfedge.org/grouping=no&license=not-open-source&sort=latest-tweet
+We generally remove closed source products when they have not tweeted in over 3 months. This doesn't apply to Chinese companies without Twitter accounts, since Twitter is blocked there. Here is a view of products sorted by last tweet: landscape.lfenergy.org/grouping=no&license=not-open-source&sort=latest-tweet
 
 Items that have been removed can apply to be re-added using the regular New Entries criteria above.
 
@@ -122,10 +106,10 @@ Everything else is under the Apache License, Version 2.0, except for project and
 
 ## Formats
 
-The LF Edge Landscape is available in these formats:
+The LF Energy Landscape is available in these formats:
 
-* [PNG](https://landscape.lfedge.org/images/landscape.png)
-* [PDF](https://landscape.lfedge.org/images/landscape.pdf)
+* [PNG](https://landscape.lfenergy.org/images/landscape.png)
+* [PDF](https://landscape.lfenergy.org/images/landscape.pdf)
 
 ## Installation
 
