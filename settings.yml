@@ -1,97 +1,97 @@
 global:
-  name: LF Edge Interactive Landscape
-  short_name: LFEdge
-  repo: lf-edge/lfedge-landscape
-  website: 'https://landscape.lfedge.org'
-  short_domain: l.lfedge.org
-  company_url: 'https://lfedge.org'
-  membership: LF Edge Member Company
-  email: info@lfedge.org
+  name: LF Energy Interactive Landscape
+  short_name: LFEnergy
+  repo: lf-energy/lfenergy-landscape
+  website: 'https://landscape.lfenergy.org'
+  short_domain: l.lfenergy.org
+  company_url: 'https://lfenergy.org'
+  membership: LF Energy Member Company
+  email: info@lfenergy.org
   meta:
-    title: LF Edge Landscape
+    title: LF Energy Landscape
     fb_admin: alex.contini.94
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
-    twitter: '@LF_Edge'
+    twitter: 'LFE_Foundation'
     google_site_verification: M_GmEYdzsEnvJiIcvfj7gmczKsme1N5rd9RwRD35Y98
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   flags:
     cncf_sandbox: false
-    companies: LF Edge Member Company
+    companies: LF Energy Member Company
     hide_license_for_categories:
       - .ORG
 twitter:
-  search: landscape.lfedge.org
-  url: 'https://landscape.lfedge.org'
-  text: LF Edge Landscape from @LF_Edge
+  search: landscape.lfenergy.org
+  url: 'https://landscape.lfenergy.org'
+  text: LF Energy Landscape from @LFE_Foundation
 relation:
-  label: LF Edge Relation
-  url: lfedge
+  label: LF Energy Relation
+  url: lfenergy
   values:
     - id: hosted
-      label: LF Edge Projects
+      label: LF Energy Projects
       children:
         - id: at_large
           label: Stage 1 At Large
-          prefix: LF Edge
+          prefix: LF Energy
           tag: At Large
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Edge At Large
+          big_picture_label: LF Energy At Large
           big_picture_color: 'rgb(24,54,114)'
         - id: growth
           label: Stage 2 Growth
-          prefix: LF Edge
+          prefix: LF Energy
           tag: Growth
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Edge Growth
+          big_picture_label: LF Energy Growth
           big_picture_color: 'rgb(24,54,114)'
         - id: impact
           label: Stage 3 Impact
-          prefix: LF Edge
+          prefix: LF Energy
           tag: Impact
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Edge Impact
+          big_picture_label: LF Energy Impact
           big_picture_color: 'rgb(24,54,114)'
         - id: emeritus
           label: Stage 4 Emeritus
-          prefix: LF Edge
+          prefix: LF Energy
           tag: Emeritus
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Edge Emeritus
+          big_picture_label: LF Energy Emeritus
           big_picture_color: 'rgb(24,54,114)'
     - id: company
-      label: LF Edge Members
+      label: LF Energy Members
       tag: Company
       big_picture_order: 3
     - id: member
-      label: LF Edge Member Products/Projects
-      tag: LF Edge Member
+      label: LF Energy Member Products/Projects
+      tag: LF Energy Member
     - id: false
-      label: Non-LF Edge Member Products/Projects
+      label: Non-LF Energy Member Products/Projects
       url: 'no'
 membership:
   Premium:
-    name: LF Edge
+    name: LF Energy
     label: Premier Member
     funding: Premier
   General:
-    name: LF Edge
+    name: LF Energy
     label: Member
     funding: General
   Associate:
-    name: LF Edge
+    name: LF Energy
     label: Associate
     funding: Associate
   'false':
     funding: 'No'
 home:
   header: >
-    <h1>LF Edge Interactive Landscape</h1> The LF Edge landscape (<a target="_blank" href="images/landscape.png">png</a>,  <a target="_blank"
+    <h1>LF Energy Interactive Landscape</h1> The LF Energy landscape (<a target="_blank" href="images/landscape.png">png</a>,  <a target="_blank"
     href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the  <a href="http://landscape.cncf.io">CNCF</a> and the <a
-    href="http://landscape.lfedge.io">LF Edge Foundation</a> landscapes and based on the same open source code.
+    href="http://landscape.lfenergy.org">LF Energy Foundation</a> landscapes and based on the same open source code.
   footer: null
 ads:
   - url: 'https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019//?utm_source=lfdl_landscape&utm_medium=web&utm_campaign=kccncna19'
@@ -116,8 +116,8 @@ big_picture:
     tab_index: -1
     url: landscape
     name: Landscape
-    title: LF Edge Landscape
-    fullscreen_header: See the interactive landscape at l.lfedge.org
+    title: LF Energy Landscape
+    fullscreen_header: See the interactive landscape at l.lfenergy.org
     method: getGroupedItemsForCncfBigPicture
     size:
       width: 2050
@@ -181,7 +181,7 @@ big_picture:
         color: 'rgb(74, 131, 104)'
         fit_width: true
       - type: HorizontalCategory
-        category: Other Edge Related Software
+        category: Other Energy Related Software
         rows: 3
         width: 620
         height: 160
@@ -199,7 +199,7 @@ big_picture:
         color: 'rgb(142, 209, 216)'
         fit_width: true
       - type: HorizontalCategory
-        category: Edge OEMs
+        category: Energy OEMs
         rows: 3
         width: 460
         height: 160
@@ -235,7 +235,7 @@ big_picture:
         color: 'rgb(64, 89, 163)'
         fit_width: true
       - type: HorizontalCategory
-        category: LF Edge Member Company
+        category: LF Energy Member Company
         rows: 10
         width: 2000
         height: 350
@@ -252,7 +252,7 @@ big_picture:
           - type: text
             text: >
               The intent is for the Landscape to be a living document that developers, investors, vendors, researchers and others can use as a resource on the
-              landscape of edge computing.
+              landscape of Energy computing.
             top: 20
             left: 100
             right: 120
@@ -264,7 +264,7 @@ big_picture:
             width: 90
             height: 90
           - type: title
-            title: l.lfedge.org
+            title: l.lfenergy.org
             top: 104
             left: 19
             font_size: 12
@@ -279,7 +279,7 @@ big_picture:
             right: 5
             top: 60
 test:
-  header: LF Edge Interactive Landscape
+  header: LF Energy Interactive Landscape
   section: Stage 2 Growth
   logo: project-eve.svg
 update_server:
