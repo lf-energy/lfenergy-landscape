@@ -1,7 +1,7 @@
 {
-  "name": "lfedge-interactive-landscape",
+  "name": "lfenergy-interactive-landscape",
   "version": "1.0.0",
-  "description": "Interactive visualization of Linux Foundation Edge Landscape",
+  "description": "Interactive visualization of Linux Foundation Energy",
   "engines": {
     "npm": ">=3",
     "node": ">= 10.5"
@@ -10,14 +10,14 @@
     "build": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore interactive-landscape -- npm run build",
     "latest": "npm install interactive-landscape@latest"
   },
-  "author": "LF Edge",
+  "author": "LFDL",
   "license": "Apache-2.0",
   "dependencies": {
-    "interactive-landscape": "1.0.247"
+    "interactive-landscape": "1.0.276"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lf-edge/lfedge-landscape"
+    "url": "https://github.com/lf-energy/lfenergy-landscape"
   }
 }
