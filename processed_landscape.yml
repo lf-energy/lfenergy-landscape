@@ -1068,6 +1068,31 @@ landscape:
         name: Premier
         items:
           - item:
+            name: Alliander
+            homepage_url: 'https://www.alliander.com/en'
+            logo: alliander.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alliander'
+            crunchbase_data:
+              name: Alliander
+              description: Alliander is an energy network company.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.alliander.com'
+              city: Arnhem
+              region: Gelderland
+              country: The Netherlands
+              twitter: 'https://twitter.com/alliander'
+              linkedin: 'https://www.linkedin.com/company/alliander'
+              parents: []
+            image_data:
+              fileName: alliander.svg
+              hash: QkFxCpJc2QsVU6vycwM8Hd4rmgDjftio85aKUV47iwY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-09T10:16:02.000Z
+          - item:
             name: RTE
             homepage_url: 'https://www.rte-france.com'
             logo: rte.svg
