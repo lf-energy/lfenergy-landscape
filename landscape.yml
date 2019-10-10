@@ -21,33 +21,33 @@ landscape:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
             homepage_url: 'http://eemeter.openee.io/'
-            repo_url: 'https://github.com/openeemeter/eemeter'
             project: growth
+            repo_url: 'https://github.com/openeemeter/eemeter'
             logo: openeemeter.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+          - item:
+            name: Operator Fabric
+            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
+            homepage_url: 'https://opfab.github.io'
+            project: growth
+            repo_url: 'https://github.com/opfab/operatorfabric-core'
+            logo: operatorfabric.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
           - item:
             name: Power System Blocks
             description: A High-Performance Computing Framework For Grid Simulation and Planning
             homepage_url: 'https://www.powsybl.org'
-            repo_url: 'https://github.com/powsybl/powsybl-core'
             project: growth
+            repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://riaps.isis.vanderbilt.edu'
+            project: growth
             repo_url: 'https://github.com/RIAPS/riaps-core'
-            project: growth
             logo: riaps.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-          - item:
-            name: Operator Fabric
-            description: A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations
-            homepage_url: 'https://opfab.github.io'
-            repo_url: 'https://github.com/opfab/operatorfabric-core'
-            project: growth
-            logo: operatorfabric.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
     name: LF Energy Member Company
@@ -144,15 +144,15 @@ landscape:
             logo: 'https://ncenergyconference.com/assets/img/sponsor/freedm-systems-center-logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/freedm-systems-center'
           - item:
-            name: Lucerne University of Applied Sciences and Arts
-            homepage_url: 'https://www.hslu.ch/en/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Hochschule_Luzern_Logo.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts'
-          - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
             logo: 'https://cdn.theme.iastate.edu/img/isu-stacked.svg'
             crunchbase: 'https://www.crunchbase.com/organization/iowa-state-university'
+          - item:
+            name: Lucerne University of Applied Sciences and Arts
+            homepage_url: 'https://www.hslu.ch/en/'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Hochschule_Luzern_Logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts'
           - item:
             name: Monash University
             homepage_url: 'https://www.monash.edu'

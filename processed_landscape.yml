@@ -43,7 +43,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T19:00:11.000Z
+              latest_tweet_date: 2019-10-09T22:00:08.000Z
   - category:
     name: Projects
     subcategories:
@@ -54,8 +54,8 @@ landscape:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
             homepage_url: 'http://eemeter.openee.io/'
-            repo_url: 'https://github.com/openeemeter/eemeter'
             project: growth
+            repo_url: 'https://github.com/openeemeter/eemeter'
             logo: openeemeter.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
             crunchbase_data:
@@ -95,11 +95,51 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-10-01T23:04:50.000Z
           - item:
+            name: Operator Fabric
+            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
+            homepage_url: 'https://opfab.github.io'
+            project: growth
+            repo_url: 'https://github.com/opfab/operatorfabric-core'
+            logo: operatorfabric.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              stars: 9
+              license: Mozilla Public License 2.0
+              description: Main operatorfabric program
+              latest_commit_date: '2019-10-10T09:21:19Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/9b77004afe76d7ac45e884f0067ec3d0f79e94e9
+              contributors_count: 10
+              contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /opfab/operatorfabric-core/commit/280e77186d33858a3e1e204e4601f7a7a15eea39
+              start_date: '2018-10-18T12:52:22Z'
+            image_data:
+              fileName: operator-fabric.svg
+              hash: 3RZF4TBQNX/0qiwubZ5YsyJ80VgL7hmstj9NIer96cw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-01T23:04:50.000Z
+          - item:
             name: Power System Blocks
             description: A High-Performance Computing Framework For Grid Simulation and Planning
             homepage_url: 'https://www.powsybl.org'
-            repo_url: 'https://github.com/powsybl/powsybl-core'
             project: growth
+            repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
             crunchbase_data:
@@ -140,8 +180,8 @@ landscape:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://riaps.isis.vanderbilt.edu'
-            repo_url: 'https://github.com/RIAPS/riaps-core'
             project: growth
+            repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
             crunchbase_data:
@@ -178,46 +218,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2019-10-01T23:04:50.000Z
-          - item:
-            name: Operator Fabric
-            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
-            homepage_url: 'https://opfab.github.io'
-            repo_url: 'https://github.com/opfab/operatorfabric-core'
-            project: growth
-            logo: operatorfabric.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            github_data:
-              stars: 9
-              license: Mozilla Public License 2.0
-              description: Main operatorfabric program
-              latest_commit_date: '2019-10-08T19:19:14Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/9239ef9aaa2d23bd9116550f9bd325c44152efa0
-              contributors_count: 10
-              contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /opfab/operatorfabric-core/commit/280e77186d33858a3e1e204e4601f7a7a15eea39
-              start_date: '2018-10-18T12:52:22Z'
-            image_data:
-              fileName: operator-fabric.svg
-              hash: 3RZF4TBQNX/0qiwubZ5YsyJ80VgL7hmstj9NIer96cw=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-10-01T23:04:50.000Z
   - category:
     name: LF Energy Member Company
     subcategories:
@@ -248,7 +248,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T10:16:02.000Z
+              latest_tweet_date: 2019-10-10T11:16:46.000Z
           - item:
             name: RTE
             homepage_url: 'https://www.rte-france.com'
@@ -273,7 +273,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T06:36:11.000Z
+              latest_tweet_date: 2019-10-10T09:24:57.000Z
           - item:
             name: The Faraday Grid
             homepage_url: 'https://www.faradaygrid.com'
@@ -323,7 +323,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 124453167104
+              market_cap: 123730157568
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -332,7 +332,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-08T19:06:00.000Z
+              latest_tweet_date: 2019-10-09T18:42:29.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -358,7 +358,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-08T23:00:45.000Z
+              latest_tweet_date: 2019-10-09T22:00:50.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -385,7 +385,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-08T13:01:15.000Z
+              latest_tweet_date: 2019-10-09T13:03:55.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -509,7 +509,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T04:09:14.000Z
+              latest_tweet_date: 2019-10-10T04:44:40.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -533,7 +533,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T07:16:25.000Z
+              latest_tweet_date: 2019-10-10T08:36:51.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -557,7 +557,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T07:59:47.000Z
+              latest_tweet_date: 2019-10-10T09:31:03.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -581,7 +581,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T07:40:04.000Z
+              latest_tweet_date: 2019-10-10T10:10:04.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -608,7 +608,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-08T14:09:35.000Z
+              latest_tweet_date: 2019-10-10T08:06:04.000Z
           - item:
             name: Freedm Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -631,30 +631,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: Lucerne University of Applied Sciences and Arts
-            homepage_url: 'https://www.hslu.ch/en/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Hochschule_Luzern_Logo.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts'
-            crunchbase_data:
-              name: Lucerne University of Applied Sciences and Arts
-              description: Lucerne University of Applied Sciences and Arts is a university of applied sciences.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'https://www.hslu.ch/'
-              city: Luzern
-              region: Luzern
-              country: Switzerland
-              twitter: 'https://twitter.com/hslu'
-              linkedin: 'https://www.linkedin.com/school/hochschule-luzern/'
-              parents: []
-            image_data:
-              fileName: lucerne-university-of-applied-sciences-and-arts.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-10-07T12:02:09.000Z
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -682,6 +658,30 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-10-09T21:23:13.000Z
           - item:
+            name: Lucerne University of Applied Sciences and Arts
+            homepage_url: 'https://www.hslu.ch/en/'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Hochschule_Luzern_Logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts'
+            crunchbase_data:
+              name: Lucerne University of Applied Sciences and Arts
+              description: Lucerne University of Applied Sciences and Arts is a university of applied sciences.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.hslu.ch/'
+              city: Luzern
+              region: Luzern
+              country: Switzerland
+              twitter: 'https://twitter.com/hslu'
+              linkedin: 'https://www.linkedin.com/school/hochschule-luzern/'
+              parents: []
+            image_data:
+              fileName: lucerne-university-of-applied-sciences-and-arts.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-07T12:02:09.000Z
+          - item:
             name: Monash University
             homepage_url: 'https://www.monash.edu'
             logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/monash-color.svg'
@@ -704,7 +704,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-10T02:09:24.000Z
+              latest_tweet_date: 2019-10-10T06:00:00.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -804,6 +804,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-09T11:35:36.000Z
+              latest_tweet_date: 2019-10-10T11:54:43.000Z
 twitter_options:
   count: 0
