@@ -3,7 +3,7 @@ landscape:
     name: Projects
     subcategories:
       - subcategory:
-        name: Projects
+        name: Metering & Compensation
         items:
           - item:
             name: Open EEmeter
@@ -13,6 +13,9 @@ landscape:
             repo_url: 'https://github.com/openeemeter/eemeter'
             logo: openeemeter.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+      - subcategory:
+        name: UX Components & Framework
+        items:
           - item:
             name: Open Energy Data Initiative (OEDI)
             description: Improving Data Access to Enable Advanced Analytics and Research Innovation
@@ -28,6 +31,9 @@ landscape:
             repo_url: 'https://github.com/opfab/operatorfabric-core'
             logo: operatorfabric.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+      - subcategory:
+        name: Power System Calculation
+        items:
           - item:
             name: Power System Blocks
             description: A High-Performance Computing Framework For Grid Simulation and Planning
@@ -36,6 +42,9 @@ landscape:
             repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+      - subcategory:
+        name: Edge Node Control
+        items:
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps

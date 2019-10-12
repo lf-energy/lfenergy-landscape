@@ -119,16 +119,16 @@ big_picture:
     fullscreen_header: See the interactive landscape at l.lfenergy.org
     method: getGroupedItemsForCncfBigPicture
     size:
-      width: 2050
-      height: 600
+      width: 1000
+      height: 420
     fullscreen_size:
-      width: 2050
-      height: 600
+      width: 1000
+      height: 420
     elements:
       - type: HorizontalCategory
         category: Projects
-        rows: 3
-        width: 545
+        rows: 2
+        width: 585
         height: 200
         top: 0
         left: 0
@@ -136,51 +136,51 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: LF Energy Member Company
-        rows: 10
-        width: 2000
-        height: 350
-        top: 580
+        rows: 3
+        width: 900
+        height: 170
+        top: 220
         left: 0
         color: 'rgb(124, 200, 182)'
         fit_width: true
       - type: LandscapeInfo
-        width: 390
-        height: 160
-        top: 220
-        left: 5
+        width: 280
+        height: 200
+        top: 0
+        left: 620
         children:
           - type: text
             text: >
-              The intent is for the Landscape to be a living document that developers, investors, vendors, researchers and others can use as a resource on the
-              landscape of Energy computing.
-            top: 20
-            left: 100
-            right: 120
+              This LF Energy Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource to better understand
+              the open energy ecosystem.
+            top: 55
+            left: 120
+            right: 20
             font_size: 10
           - type: image
             image: qr.svg
-            top: 15
-            left: 5
+            top: 55
+            left: 10
             width: 90
             height: 90
           - type: title
             title: l.lfenergy.org
-            top: 104
+            top: 150
             left: 19
             font_size: 12
           - type: image
             image: left-logo.svg
             width: 110
-            right: 5
-            top: 20
+            right: 160
+            top: 10
           - type: image
             image: right-logo.svg
             width: 109
-            right: 5
-            top: 60
+            right: 25
+            top: 15
 test:
   header: LF Energy Interactive Landscape
-  section: Projects
+  section: Stage 2 Growth
   logo: operator-fabric.svg
 update_server:
   ip: 147.75.106.211
