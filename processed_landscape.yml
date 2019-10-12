@@ -1,50 +1,6 @@
 # THIS FILE IS GENERATED AUTOMATICALLY!
 landscape:
   - category:
-    name: Developer Network
-    subcategories:
-      - subcategory:
-        name: Developer Network
-        items:
-          - item:
-            name: NREL Developer Network
-            homepage_url: 'https://developer.nrel.gov'
-            repo_url: 'https://github.com/NREL/developer.nrel.gov'
-            logo: 'https://www.fcpad.org/images/logo-nrel.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/national-renewable-energy-laboratory'
-            crunchbase_data:
-              name: National Renewable Energy Laboratory
-              description: NREL develops renewable energy and energy efficiency technologies and practices.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'http://www.nrel.gov'
-              city: Golden
-              region: Colorado
-              country: United States
-              twitter: 'http://twitter.com/nrel'
-              linkedin: 'https://www.linkedin.com/company/national-renewable-energy-laboratory'
-              parents: []
-              kind: funding
-              funding: 2800000
-            github_data:
-              stars: 16
-              license: Unknown License
-              description: 'An issue tracker for NREL''s APIs available at https://developer.nrel.gov'
-              latest_commit_date: '2019-10-04T17:32:13Z'
-              latest_commit_link: /NREL/developer.nrel.gov/commit/13e318c98de9e6f46f89551d4f34a208f9c51503
-              contributors_count: 17
-              contributors_link: 'https://github.com/NREL/developer.nrel.gov/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /NREL/developer.nrel.gov/commit/fa379bcfd8ce5a138b5a93fe12bc783147e59807
-              start_date: '2013-07-17T06:03:44Z'
-            image_data:
-              fileName: nrel-developer-network.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2019-10-11T22:00:59.000Z
-  - category:
     name: Projects
     subcategories:
       - subcategory:
@@ -89,6 +45,34 @@ landscape:
             image_data:
               fileName: open-e-emeter.svg
               hash: evEq1rvFMIq2Atb+gEblebiYC5lwR22ASHBcDgUt5Cc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-11T16:03:36.000Z
+          - item:
+            name: Open Energy Data Initiative (OEDI)
+            description: Improving Data Access to Enable Advanced Analytics and Research Innovation
+            homepage_url: 'https://openei.org/wiki/Data'
+            project: growth
+            logo: oedi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: open-energy-data-initiative-oedi.svg
+              hash: XlW2SD6FvkipdNnU21UEf4r673qUOJJ1waZs9wjf7Q8=
             best_practice_data:
               badge: false
               percentage: null
@@ -756,7 +740,7 @@ landscape:
             twitter_data:
               latest_tweet_date: 2019-09-05T20:45:49.000Z
           - item:
-            name: Standard University
+            name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Stanford_wordmark_%282012%29.svg'
             crunchbase: 'https://www.crunchbase.com/organization/stanford-university'
@@ -775,7 +759,7 @@ landscape:
               kind: funding
               funding: 5000000
             image_data:
-              fileName: standard-university.svg
+              fileName: stanford-university.svg
             best_practice_data:
               badge: false
               percentage: null
@@ -805,5 +789,103 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2019-10-10T11:54:43.000Z
+          - item:
+            name: The Energy Coalition
+            homepage_url: 'https://energycoalition.org'
+            logo: 'https://energycoalition.org/wp-content/uploads/2017/11/tec-logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/the-energy-coalition'
+            crunchbase_data:
+              name: The Energy Coalition
+              description: TEC helps create an abundant and healthy world by inspiring others to become energy architects of our sustainable future
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: 'https://energycoalition.org'
+              city: Irvine
+              region: California
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/the-energy-coalition/'
+              parents: []
+            image_data:
+              fileName: the-energy-coalition.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: University of Kassel
+            homepage_url: 'https://www.uni-kassel.de/uni/en/'
+            logo: 'https://www.uni-kassel.de/uni/fileadmin/sys/resources/images/logo/logo-main.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/university-of-kassel'
+            crunchbase_data:
+              name: University of Kassel
+              description: University of Kassel is a school in Kassel.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://cms.uni-kassel.de/index.php?id=grp-international'
+              city: Kassel
+              region: Hessen
+              country: Germany
+              twitter: 'https://www.twitter.com/presseunikassel'
+              linkedin: null
+              parents: []
+            image_data:
+              fileName: university-of-kassel.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-10T09:23:52.000Z
+          - item:
+            name: Vanderbilt University
+            homepage_url: 'https://www.vanderbilt.edu'
+            logo: 'https://upload.wikimedia.org/wikipedia/su/f/ff/Vanderbilt_University_wordmark.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/vanderbilt-university'
+            crunchbase_data:
+              name: Vanderbilt University
+              description: Vanderbilt University is a Nashville-based private research university offering various learning programs.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.vanderbilt.edu'
+              city: Nashville
+              region: Tennessee
+              country: United States
+              twitter: 'http://twitter.com/vanderbiltu'
+              linkedin: 'https://www.linkedin.com/company/vanderbilt-university'
+              parents: []
+              kind: funding
+              funding: 28552273
+            image_data:
+              fileName: vanderbilt-university.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-12T17:34:32.000Z
+          - item:
+            name: Washington State University
+            homepage_url: 'https://school.eecs.wsu.edu'
+            logo: 'https://brand.wsu.edu/wp-content/themes/brand/images/pages/logos/wsu-signature-vertical.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/washington-state-university'
+            crunchbase_data:
+              name: Washington State University
+              description: 'Washington State University is a school in Pullman, Washington.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://wsu.edu'
+              city: Pullman
+              region: Washington
+              country: United States
+              twitter: 'https://twitter.com/WSUPullman'
+              linkedin: 'https://www.linkedin.com/school/166875/'
+              parents: []
+              kind: funding
+              funding: 10000000
+            image_data:
+              fileName: washington-state-university.svg
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-11T19:18:44.000Z
 twitter_options:
   count: 0

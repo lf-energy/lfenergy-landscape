@@ -1,17 +1,5 @@
 landscape:
   - category:
-    name: Developer Network
-    subcategories:
-      - subcategory:
-        name: Developer Network
-        items:
-          - item:
-            name: NREL Developer Network
-            homepage_url: 'https://developer.nrel.gov'
-            repo_url: 'https://github.com/NREL/developer.nrel.gov'
-            logo: 'https://www.fcpad.org/images/logo-nrel.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/national-renewable-energy-laboratory'
-  - category:
     name: Projects
     subcategories:
       - subcategory:
@@ -24,6 +12,13 @@ landscape:
             project: growth
             repo_url: 'https://github.com/openeemeter/eemeter'
             logo: openeemeter.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+          - item:
+            name: Open Energy Data Initiative (OEDI)
+            description: Improving Data Access to Enable Advanced Analytics and Research Innovation
+            homepage_url: 'https://openei.org/wiki/Data'
+            project: growth
+            logo: oedi.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
           - item:
             name: Operator Fabric
@@ -169,7 +164,7 @@ landscape:
             logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/project-haystack-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/project-haystack'
           - item:
-            name: Standard University
+            name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Stanford_wordmark_%282012%29.svg'
             crunchbase: 'https://www.crunchbase.com/organization/stanford-university'
@@ -178,3 +173,23 @@ landscape:
             homepage_url: 'https://www.tennet.eu/'
             logo: 'https://euro-drone-inspections.eu/wp-content/uploads/2019/04/Tennet-Logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/tennet'
+          - item:
+            name: The Energy Coalition
+            homepage_url: 'https://energycoalition.org'
+            logo: 'https://energycoalition.org/wp-content/uploads/2017/11/tec-logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/the-energy-coalition'
+          - item:
+            name: University of Kassel
+            homepage_url: 'https://www.uni-kassel.de/uni/en/'
+            logo: 'https://www.uni-kassel.de/uni/fileadmin/sys/resources/images/logo/logo-main.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/university-of-kassel'
+          - item:
+            name: Vanderbilt University
+            homepage_url: 'https://www.vanderbilt.edu'
+            logo: 'https://upload.wikimedia.org/wikipedia/su/f/ff/Vanderbilt_University_wordmark.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/vanderbilt-university'
+          - item:
+            name: Washington State University
+            homepage_url: 'https://school.eecs.wsu.edu'
+            logo: 'https://brand.wsu.edu/wp-content/themes/brand/images/pages/logos/wsu-signature-vertical.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/washington-state-university'
