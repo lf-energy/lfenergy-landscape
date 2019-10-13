@@ -130,7 +130,7 @@ big_picture:
         rows: 2
         width: 585
         height: 200
-        top: 0
+        top: 10
         left: 0
         color: 'rgb(104, 145, 145)'
         fit_width: true
@@ -139,14 +139,14 @@ big_picture:
         rows: 3
         width: 900
         height: 170
-        top: 220
+        top: 230
         left: 0
         color: 'rgb(124, 200, 182)'
         fit_width: true
       - type: LandscapeInfo
         width: 280
         height: 200
-        top: 0
+        top: 10
         left: 620
         children:
           - type: text
