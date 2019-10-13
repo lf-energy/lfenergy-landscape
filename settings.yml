@@ -31,7 +31,7 @@ relation:
       label: LF Energy Projects
       children:
         - id: at_large
-          label: Stage 1 At Large
+          label: At Large
           prefix: LF Energy
           tag: At Large
           color: '#3570af'
@@ -39,28 +39,20 @@ relation:
           big_picture_label: LF Energy At Large
           big_picture_color: 'rgb(24,54,114)'
         - id: growth
-          label: Stage 2 Growth
+          label: Growth
           prefix: LF Energy
           tag: Growth
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: LF Energy Growth
           big_picture_color: 'rgb(24,54,114)'
-        - id: impact
-          label: Stage 3 Impact
+        - id: sandbox
+          label: Sandbox
           prefix: LF Energy
           tag: Impact
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: LF Energy Impact
-          big_picture_color: 'rgb(24,54,114)'
-        - id: emeritus
-          label: Stage 4 Emeritus
-          prefix: LF Energy
-          tag: Emeritus
-          color: '#3570af'
-          big_picture_order: 1
-          big_picture_label: LF Energy Emeritus
           big_picture_color: 'rgb(24,54,114)'
     - id: company
       label: LF Energy Members
