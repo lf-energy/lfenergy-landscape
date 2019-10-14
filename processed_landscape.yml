@@ -7,6 +7,48 @@ landscape:
         name: Metering & Compensation
         items:
           - item:
+            name: Energy Market Methods Consortium (EM2)
+            description: Reducing the costs of scaling demand-side energy through collaboration
+            homepage_url: 'http://docs.caltrack.org/en/latest/'
+            project: growth
+            repo_url: 'https://github.com/energy-market-methods/caltrack'
+            logo: em2.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              stars: 22
+              license: Creative Commons Zero v1.0 Universal
+              description: Shared repository for documentation and testing of CalTRACK methods
+              latest_commit_date: '2019-06-28T00:57:10Z'
+              latest_commit_link: /energy-market-methods/caltrack/commit/29e2b155438bf0d560938d07bb542b8c7acdd7c4
+              release_date: '2018-01-24T16:31:51Z'
+              release_link: 'https://github.com/energy-market-methods/caltrack/releases'
+              contributors_count: 15
+              contributors_link: 'https://github.com/energy-market-methods/caltrack/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /energy-market-methods/caltrack/commit/1688277b69d4e3b5c9d4eb8cf780c4e68031ad8e
+              start_date: '2016-08-25T14:53:20Z'
+            image_data:
+              fileName: energy-market-methods-consortium-em2.svg
+              hash: FGdXgrtVLy3aUXud4WovPZ5qDukhp5ttMuh241pdkRw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2019-10-11T16:03:36.000Z
+          - item:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
             homepage_url: 'http://eemeter.openee.io/'

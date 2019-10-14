@@ -6,6 +6,14 @@ landscape:
         name: Metering & Compensation
         items:
           - item:
+            name: Energy Market Methods Consortium (EM2)
+            description: Reducing the costs of scaling demand-side energy through collaboration
+            homepage_url: 'http://docs.caltrack.org/en/latest/'
+            project: growth
+            repo_url: 'https://github.com/energy-market-methods/caltrack'
+            logo: em2.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+          - item:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
             homepage_url: 'http://eemeter.openee.io/'
