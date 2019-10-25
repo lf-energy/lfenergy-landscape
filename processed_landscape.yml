@@ -28,6 +28,12 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
+              languages:
+                - name: Dockerfile
+                  value: 286
+                  color: '#384d54'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;2;0;8;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2018-10-28Z
               stars: 22
               license: Creative Commons Zero v1.0 Universal
               description: Shared repository for documentation and testing of CalTRACK methods
@@ -47,7 +53,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:01:01.000Z
+              latest_tweet_date: 2019-10-25T07:00:29.000Z
           - item:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
@@ -70,6 +76,18 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
+              languages:
+                - name: Python
+                  value: 466336
+                  color: '#3572A5'
+                - name: Shell
+                  value: 1054
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 483
+                  color: '#384d54'
+              contributions: 4;10;0;4;2;0;8;9;0;7;0;29;0;4;0;0;0;0;15;13;14;5;3;4;8;1;14;3;0;0;5;8;7;0;0;0;0;8;6;7;0;12;0;3;0;0;4;0;8;0;7;7
+              firstWeek: 2018-10-28Z
               stars: 97
               license: Apache License 2.0
               description: >-
@@ -91,7 +109,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:01:01.000Z
+              latest_tweet_date: 2019-10-25T07:00:29.000Z
       - subcategory:
         name: Data Management
         items:
@@ -122,7 +140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:01:01.000Z
+              latest_tweet_date: 2019-10-25T07:00:29.000Z
       - subcategory:
         name: UX Components & Framework
         items:
@@ -148,11 +166,39 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
+              languages:
+                - name: Java
+                  value: 895963
+                  color: '#b07219'
+                - name: TypeScript
+                  value: 836280
+                  color: '#2b7489'
+                - name: HTML
+                  value: 279772
+                  color: '#e34c26'
+                - name: Shell
+                  value: 31817
+                  color: '#89e051'
+                - name: CSS
+                  value: 20305
+                  color: '#563d7c'
+                - name: Dockerfile
+                  value: 7470
+                  color: '#384d54'
+                - name: JavaScript
+                  value: 3239
+                  color: '#f1e05a'
+                - name: Scala
+                  value: 1042
+                  color: '#c22d40'
+              contributions: >-
+                40;41;28;24;4;4;10;31;9;1;17;24;15;15;18;9;2;12;25;24;10;3;25;30;47;26;23;15;21;34;37;15;30;40;34;31;47;34;33;65;23;18;10;10;11;20;21;26;39;15;8;12
+              firstWeek: 2018-10-28Z
               stars: 9
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2019-10-23T12:42:43Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/c86eb82d1a46cf7ca730b9dfa3444cd202a0d4fd
+              latest_commit_date: '2019-10-24T12:27:56Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/3924dac568c2c4e779c285734a09a127fd94956b
               contributors_count: 10
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
             github_start_commit_data:
@@ -165,7 +211,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:01:01.000Z
+              latest_tweet_date: 2019-10-25T07:00:29.000Z
       - subcategory:
         name: Power System Calculation
         items:
@@ -191,14 +237,32 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
+              languages:
+                - name: Java
+                  value: 6636930
+                  color: '#b07219'
+                - name: Groovy
+                  value: 76647
+                  color: '#e69f56'
+                - name: Shell
+                  value: 6391
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 1612
+                  color: '#C1F12E'
+                - name: JavaScript
+                  value: 324
+                  color: '#f1e05a'
+              contributions: 4;5;10;10;5;9;11;5;2;0;7;3;6;11;5;13;7;12;9;9;9;5;9;6;8;3;6;4;14;6;15;7;8;9;4;6;5;10;4;3;3;3;4;15;21;16;8;5;9;4;5;5
+              firstWeek: 2018-10-28Z
               stars: 47
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2019-10-22T16:14:46Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/66bd97eb5a4f94330648c320a8405e3ae12b1b72
+              latest_commit_date: '2019-10-25T09:27:36Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/8cf9ed90f72045242c5d1d4c89e5a6977c3fdc47
               release_date: '2019-10-23T07:47:16Z'
               release_link: 'https://github.com/powsybl/powsybl-core/releases'
-              contributors_count: 0
+              contributors_count: 33
               contributors_link: 'https://github.com/powsybl/powsybl-core/graphs/contributors'
             github_start_commit_data:
               start_commit_link: /powsybl/powsybl-core/commit/7defb875a7fabb2c11020f797c32d26c786244d0
@@ -210,7 +274,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:01:01.000Z
+              latest_tweet_date: 2019-10-25T07:00:29.000Z
       - subcategory:
         name: Edge Node Control
         items:
@@ -236,6 +300,31 @@ landscape:
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
+              languages:
+                - name: C++
+                  value: 3141618
+                  color: '#f34b7d'
+                - name: Python
+                  value: 294847
+                  color: '#3572A5'
+                - name: CMake
+                  value: 87998
+                - name: Makefile
+                  value: 10885
+                  color: '#427819'
+                - name: C
+                  value: 8320
+                  color: '#555555'
+                - name: Cap'n Proto
+                  value: 7137
+                - name: Shell
+                  value: 5811
+                  color: '#89e051'
+                - name: Objective-C
+                  value: 120
+                  color: '#438eff'
+              contributions: 1;0;0;0;0;0;0;1;1;0;1;0;0;3;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0
+              firstWeek: 2018-10-28Z
               stars: 10
               license: Other
               description: C++ component model and discovery service implementation
@@ -255,7 +344,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:01:01.000Z
+              latest_tweet_date: 2019-10-25T07:00:29.000Z
   - category:
     name: LF Energy Member Company
     subcategories:
@@ -311,7 +400,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T07:00:20.000Z
+              latest_tweet_date: 2019-10-25T09:59:15.000Z
           - item:
             name: The Faraday Grid
             homepage_url: 'https://www.faradaygrid.com'
@@ -362,7 +451,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 119043891200
+              market_cap: 118769270784
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -371,7 +460,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T17:02:31.000Z
+              latest_tweet_date: 2019-10-25T02:19:24.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -397,7 +486,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T21:01:34.000Z
+              latest_tweet_date: 2019-10-24T21:00:44.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -424,7 +513,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T13:07:05.000Z
+              latest_tweet_date: 2019-10-24T13:09:00.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -548,7 +637,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T14:53:03.000Z
+              latest_tweet_date: 2019-10-25T08:01:44.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -572,7 +661,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T07:22:18.000Z
+              latest_tweet_date: 2019-10-25T12:17:42.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -596,7 +685,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T07:58:04.000Z
+              latest_tweet_date: 2019-10-25T10:04:01.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -620,7 +709,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T08:27:54.000Z
+              latest_tweet_date: 2019-10-25T11:40:22.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -647,7 +736,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T07:21:13.000Z
+              latest_tweet_date: 2019-10-25T09:45:23.000Z
           - item:
             name: Freedm Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -695,7 +784,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T17:09:08.000Z
+              latest_tweet_date: 2019-10-25T00:59:34.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -719,7 +808,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T07:43:00.000Z
+              latest_tweet_date: 2019-10-25T07:16:37.000Z
           - item:
             name: Monash University
             homepage_url: 'https://www.monash.edu'
@@ -743,7 +832,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T06:00:26.000Z
+              latest_tweet_date: 2019-10-25T05:14:21.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -769,7 +858,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T22:39:22.000Z
+              latest_tweet_date: 2019-10-24T21:00:12.000Z
           - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
@@ -793,7 +882,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-09-05T20:45:49.000Z
+              latest_tweet_date: 2019-10-24T15:00:14.000Z
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
@@ -819,7 +908,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-24T00:13:48.000Z
+              latest_tweet_date: 2019-10-25T12:30:08.000Z
           - item:
             name: Tennet
             homepage_url: 'https://www.tennet.eu/'
@@ -889,7 +978,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-21T09:51:10.000Z
+              latest_tweet_date: 2019-10-25T11:31:37.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -915,7 +1004,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T21:25:47.000Z
+              latest_tweet_date: 2019-10-24T15:14:26.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -941,6 +1030,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-10-23T16:04:31.000Z
+              latest_tweet_date: 2019-10-24T20:11:30.000Z
 twitter_options:
   count: 0
