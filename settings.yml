@@ -17,7 +17,6 @@ global:
     google_site_verification: M_GmEYdzsEnvJiIcvfj7gmczKsme1N5rd9RwRD35Y98
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
   flags:
-    cncf_sandbox: false
     companies: LF Energy Member Company
 twitter:
   search: landscape.lfenergy.org
@@ -54,6 +53,7 @@ relation:
           big_picture_order: 1
           big_picture_label: LF Energy Sandbox
           big_picture_color: 'rgb(24,54,114)'
+          additional_relation: member
     - id: company
       label: LF Energy Members
       tag: Company
@@ -109,7 +109,6 @@ big_picture:
     name: Landscape
     title: LF Energy Landscape
     fullscreen_header: See the interactive landscape at l.lfenergy.org
-    method: getGroupedItemsForCncfBigPicture
     size:
       width: 950
       height: 470
