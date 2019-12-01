@@ -1,4 +1,4 @@
-[![Dependency Status](https://img.shields.io/david/lf-energy/lfenergy-landscape.svg?style=flat-square)](https://david-dm.org/lfenergy/lfenergy-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/57bcc258-c6d6-4b74-ada3-f829c842e847/deploy-status)](https://app.netlify.com/sites/lfenergy/deploys)
+[![Dependency Status](https://img.shields.io/david/lf-energy/lfenergy-landscape.svg?style=flat-square)](https://david-dm.org/lf-energy/lfenergy-landscape) [![Netlify Status](https://api.netlify.com/api/v1/badges/57bcc258-c6d6-4b74-ada3-f829c842e847/deploy-status)](https://app.netlify.com/sites/lfenergy/deploys)
 
 # Linux Foundation Energy Landscape
 
