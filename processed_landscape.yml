@@ -32,7 +32,7 @@ landscape:
                 - name: Dockerfile
                   value: 286
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;2;0;9;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;2;0;9;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2018-12-09Z
               stars: 23
               license: Creative Commons Zero v1.0 Universal
@@ -53,7 +53,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T15:01:05.000Z
+              latest_tweet_date: 2019-12-03T15:39:23.000Z
           - item:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
@@ -86,7 +86,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 5;3;9;0;7;14;15;4;0;0;0;0;11;11;6;18;2;6;1;7;6;9;3;0;1;12;3;4;0;0;0;0;8;13;0;0;12;0;3;0;4;0;2;6;0;14;0;5;8;0;6;0
+              contributions: 5;5;7;0;7;24;5;4;0;0;0;0;15;11;2;19;1;6;8;0;15;3;0;0;5;8;7;0;0;0;0;6;6;9;0;2;10;0;3;0;4;0;2;6;0;14;0;5;8;0;6;0
               firstWeek: 2018-12-09Z
               stars: 101
               license: Apache License 2.0
@@ -109,7 +109,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T15:01:05.000Z
+              latest_tweet_date: 2019-12-03T15:39:23.000Z
       - subcategory:
         name: Data Management
         items:
@@ -140,7 +140,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T15:01:05.000Z
+              latest_tweet_date: 2019-12-03T15:39:23.000Z
       - subcategory:
         name: UX Components & Framework
         items:
@@ -191,7 +191,8 @@ landscape:
                 - name: Scala
                   value: 1042
                   color: '#c22d40'
-              contributions: 4;8;36;2;8;10;28;14;13;19;7;2;25;23;19;6;12;24;51;26;25;20;15;28;40;21;25;31;40;36;30;42;41;37;52;22;11;16;9;7;24;31;26;32;13;13;22;2;6;14;14;34
+              contributions: >-
+                6;16;27;1;10;12;30;14;8;20;6;3;27;21;19;4;19;23;52;27;26;18;10;32;44;12;26;37;48;24;35;33;44;48;41;26;4;16;13;13;17;29;33;28;12;17;15;3;9;13;14;31
               firstWeek: 2018-12-09Z
               stars: 9
               license: Mozilla Public License 2.0
@@ -210,7 +211,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T15:01:05.000Z
+              latest_tweet_date: 2019-12-03T15:39:23.000Z
       - subcategory:
         name: Power System Calculation
         items:
@@ -238,7 +239,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 7097244
+                  value: 7118439
                   color: '#b07219'
                 - name: Groovy
                   value: 84131
@@ -252,13 +253,13 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 13;7;4;0;5;3;4;8;10;5;15;7;14;4;13;6;7;7;9;3;6;4;8;10;6;17;7;6;9;8;4;8;7;3;2;2;4;5;20;19;14;7;4;8;5;4;6;4;14;10;5;7
+              contributions: 13;7;3;0;5;3;6;10;7;10;10;9;13;3;13;5;8;6;9;3;7;4;8;11;6;16;6;6;10;7;4;8;7;3;3;1;5;8;19;19;13;5;9;6;2;6;6;3;15;9;5;9
               firstWeek: 2018-12-09Z
               stars: 52
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2019-12-03T06:44:29Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/9f85f08a67d5fdca5a1133d8b9a3268c0d8959d4
+              latest_commit_date: '2019-12-03T20:21:28Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/07139f4539b4ea80ff3b9b699589fa406fff096f
               release_date: '2019-10-23T07:47:16Z'
               release_link: 'https://github.com/powsybl/powsybl-core/releases'
               contributors_count: 37
@@ -273,7 +274,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T15:01:05.000Z
+              latest_tweet_date: 2019-12-03T15:39:23.000Z
       - subcategory:
         name: Edge Node Control
         items:
@@ -319,7 +320,7 @@ landscape:
                 - name: Shell
                   value: 3320
                   color: '#89e051'
-              contributions: 0;0;2;0;0;1;0;0;3;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;2;0
+              contributions: 0;0;2;0;0;1;0;3;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;1;0
               firstWeek: 2018-12-09Z
               stars: 12
               license: Other
@@ -340,7 +341,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T15:01:05.000Z
+              latest_tweet_date: 2019-12-03T15:39:23.000Z
   - category:
     name: LF Energy Member Company
     subcategories:
@@ -396,7 +397,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T18:06:46.000Z
+              latest_tweet_date: 2019-12-03T17:47:41.000Z
           - item:
             name: The Faraday Grid
             homepage_url: 'https://www.faradaygrid.com'
@@ -447,7 +448,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 117710012416
+              market_cap: 117010358272
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -456,7 +457,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T20:53:00.000Z
+              latest_tweet_date: 2019-12-03T21:20:31.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -482,7 +483,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T23:01:00.000Z
+              latest_tweet_date: 2019-12-03T21:01:28.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -509,7 +510,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T14:04:56.000Z
+              latest_tweet_date: 2019-12-03T14:05:59.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -633,7 +634,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-03T06:00:34.000Z
+              latest_tweet_date: 2019-12-04T01:39:15.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -657,7 +658,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T13:48:48.000Z
+              latest_tweet_date: 2019-12-03T15:29:27.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -681,7 +682,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T18:00:28.000Z
+              latest_tweet_date: 2019-12-03T16:45:00.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -705,7 +706,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T17:12:23.000Z
+              latest_tweet_date: 2019-12-03T17:51:03.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -732,7 +733,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T14:31:41.000Z
+              latest_tweet_date: 2019-12-03T20:40:42.000Z
           - item:
             name: Freedm Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -780,7 +781,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-11-28T14:00:01.000Z
+              latest_tweet_date: 2019-12-03T22:12:59.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -804,7 +805,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-03T06:42:52.000Z
+              latest_tweet_date: 2019-12-03T16:25:12.000Z
           - item:
             name: Monash University
             homepage_url: 'https://www.monash.edu'
@@ -828,7 +829,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-03T06:00:08.000Z
+              latest_tweet_date: 2019-12-04T08:00:00.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -854,7 +855,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T22:00:07.000Z
+              latest_tweet_date: 2019-12-03T23:00:11.000Z
           - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
@@ -904,7 +905,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T22:28:15.000Z
+              latest_tweet_date: 2019-12-03T19:14:40.000Z
           - item:
             name: Tennet
             homepage_url: 'https://www.tennet.eu/'
@@ -974,7 +975,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T14:18:36.000Z
+              latest_tweet_date: 2019-12-04T08:15:57.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -1000,7 +1001,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T21:19:04.000Z
+              latest_tweet_date: 2019-12-03T14:43:00.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -1026,6 +1027,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2019-12-02T01:54:04.000Z
+              latest_tweet_date: 2019-12-04T05:00:39.000Z
 twitter_options:
   count: 0
