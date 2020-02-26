@@ -25,6 +25,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/LFE_Foundation'
               linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
@@ -32,9 +33,9 @@ landscape:
                 - name: Dockerfile
                   value: 286
                   color: '#384d54'
-              contributions: 0;0;0;0;2;0;9;0;1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;2;0;9;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-03-03Z
-              stars: 25
+              stars: 26
               license: Creative Commons Zero v1.0 Universal
               description: Shared repository for documentation and testing of CalTRACK methods
               latest_commit_date: '2019-06-28T00:57:10Z'
@@ -53,7 +54,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T14:01:52.000Z
+              latest_tweet_date: 2020-02-25T17:47:10.000Z
           - item:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
@@ -73,6 +74,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/LFE_Foundation'
               linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
@@ -86,9 +88,9 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 11;11;6;18;2;6;1;7;6;9;3;0;1;12;3;4;0;0;0;0;8;13;0;0;12;0;3;0;4;0;2;6;0;14;0;5;8;0;6;1;1;5;0;0;1;5;2;3;0;3;0;0
+              contributions: 15;11;2;19;1;6;8;0;15;3;0;0;5;8;7;0;0;0;0;6;6;9;0;2;10;0;3;0;4;0;2;6;0;14;0;5;8;0;6;1;3;3;0;0;3;5;0;3;0;3;0;0
               firstWeek: 2019-03-03Z
-              stars: 109
+              stars: 110
               license: Apache License 2.0
               description: >-
                 An open source python package for implementing and developing standard methods for calculating normalized metered energy consumption and avoided
@@ -109,7 +111,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T14:01:52.000Z
+              latest_tweet_date: 2020-02-25T17:47:10.000Z
       - subcategory:
         name: Data Management
         items:
@@ -131,6 +133,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/LFE_Foundation'
               linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             image_data:
@@ -140,7 +143,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T14:01:52.000Z
+              latest_tweet_date: 2020-02-25T17:47:10.000Z
       - subcategory:
         name: UX Components & Framework
         items:
@@ -163,24 +166,25 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/LFE_Foundation'
               linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               languages:
                 - name: Java
-                  value: 920221
+                  value: 924786
                   color: '#b07219'
                 - name: TypeScript
-                  value: 893741
+                  value: 894067
                   color: '#2b7489'
                 - name: HTML
                   value: 284236
                   color: '#e34c26'
                 - name: Shell
-                  value: 38496
+                  value: 38415
                   color: '#89e051'
                 - name: CSS
-                  value: 24869
+                  value: 24881
                   color: '#563d7c'
                 - name: Dockerfile
                   value: 7020
@@ -192,13 +196,13 @@ landscape:
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                25;23;19;6;12;24;51;26;25;20;15;28;40;21;25;31;40;36;30;42;41;37;52;22;11;16;9;7;24;31;26;32;13;13;22;2;6;14;14;34;3;18;19;14;18;19;29;33;44;39;19;13
+                27;21;19;4;19;23;52;27;26;18;10;32;44;12;26;37;48;24;35;33;44;48;41;26;4;16;13;13;17;29;33;28;12;17;15;3;9;13;14;31;10;13;20;16;16;23;30;40;32;41;15;28
               firstWeek: 2019-03-03Z
               stars: 10
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2020-02-24T11:15:36Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/5514333fbe8235ff7b2f5dc402a445b290d94e70
+              latest_commit_date: '2020-02-25T16:07:01Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/2aff65d8042c2b33d9eedb3fb43b62093688b18b
               contributors_count: 14
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
             github_start_commit_data:
@@ -211,7 +215,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T14:01:52.000Z
+              latest_tweet_date: 2020-02-25T17:47:10.000Z
       - subcategory:
         name: Power System Calculation
         items:
@@ -234,12 +238,13 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/LFE_Foundation'
               linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               languages:
                 - name: Java
-                  value: 6846360
+                  value: 6879435
                   color: '#b07219'
                 - name: Groovy
                   value: 83868
@@ -253,13 +258,13 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 14;4;13;6;7;7;9;3;6;4;8;10;6;17;7;6;9;8;4;8;7;3;2;2;4;5;20;19;14;7;4;8;5;4;6;4;14;10;5;7;13;18;5;1;2;8;6;11;8;4;7;5
+              contributions: 13;3;13;5;8;6;9;3;7;4;8;11;6;16;6;6;10;7;4;8;7;3;3;1;5;8;19;19;13;5;9;6;2;6;6;3;15;9;5;9;13;17;3;1;4;7;6;12;8;3;7;8
               firstWeek: 2019-03-03Z
               stars: 55
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2020-02-24T17:07:12Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/438c80b414fd45ca42732e177e23f66f265aadbd
+              latest_commit_date: '2020-02-25T15:51:09Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/2a99a79ed7353309bb121a7bf4fd0388adce5909
               release_date: '2020-01-08T14:05:05Z'
               release_link: 'https://github.com/powsybl/powsybl-core/releases'
               contributors_count: 40
@@ -274,7 +279,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T14:01:52.000Z
+              latest_tweet_date: 2020-02-25T17:47:10.000Z
       - subcategory:
         name: Edge Node Control
         items:
@@ -297,6 +302,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/LFE_Foundation'
               linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
@@ -320,7 +326,7 @@ landscape:
                 - name: Shell
                   value: 3320
                   color: '#89e051'
-              contributions: 0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-03-03Z
               stars: 14
               license: Other
@@ -341,7 +347,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T14:01:52.000Z
+              latest_tweet_date: 2020-02-25T17:47:10.000Z
   - category:
     name: LF Energy Member Company
     subcategories:
@@ -364,6 +370,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/alliander'
               linkedin: 'https://www.linkedin.com/company/alliander'
+              acquisitions: []
               parents: []
             image_data:
               fileName: alliander.svg
@@ -389,6 +396,7 @@ landscape:
               country: France
               twitter: 'https://www.twitter.com/rte_france'
               linkedin: 'https://www.linkedin.com/company/rte_245681'
+              acquisitions: []
               parents: []
             image_data:
               fileName: rte.svg
@@ -397,7 +405,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-20T17:24:03.000Z
+              latest_tweet_date: 2020-02-25T11:13:24.000Z
       - subcategory:
         name: General
         items:
@@ -417,11 +425,62 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/IBM'
               linkedin: 'https://www.linkedin.com/company/ibm/'
+              acquisitions:
+                - price:
+                  date: '2019-01-14'
+                  acquiree:
+                    name: T-Systems - Mainframe Services business
+                    permalink: t-systems-mainframe-services-business
+                - price: 34000000000
+                  date: '2018-10-28'
+                  acquiree:
+                    name: Red Hat
+                    permalink: red-hat
+                - price:
+                  date: '2018-06-15'
+                  acquiree:
+                    name: Oniqua Inc.
+                    permalink: oniqua-inc
+                - price:
+                  date: '2018-05-03'
+                  acquiree:
+                    name: Armanta
+                    permalink: armanta
+                - price:
+                  date: '2017-10-04'
+                  acquiree:
+                    name: Vivant
+                    permalink: vivant-2
+                - price:
+                  date: '2017-09-24'
+                  acquiree:
+                    name: Cloudigo
+                    permalink: cloudigo
+                - price:
+                  date: '2017-05-02'
+                  acquiree:
+                    name: Verizon - Cloud services
+                    permalink: verizon-cloud-services
+                - price:
+                  date: '2017-01-23'
+                  acquiree:
+                    name: Agile 3 Solutions
+                    permalink: agile-3-solutions
+                - price:
+                  date: '2016-11-01'
+                  acquiree:
+                    name: Expert Personal Shopper (XPS)
+                    permalink: expert-personal-shopper-xps
+                - price:
+                  date: '2016-10-27'
+                  acquiree:
+                    name: Sanovi Technologies
+                    permalink: sanovi-technologies
               parents: []
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 126732517376
+              market_cap: 125503627264
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -430,7 +489,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T19:23:28.000Z
+              latest_tweet_date: 2020-02-25T17:46:31.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -447,6 +506,12 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/OSIsoft'
               linkedin: 'https://www.linkedin.com/company/osisoft'
+              acquisitions:
+                - price:
+                  date: '2002-06-17'
+                  acquiree:
+                    name: Sequencia
+                    permalink: sequencia
               parents: []
               kind: funding
               funding: 139500000
@@ -456,7 +521,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T17:18:02.000Z
+              latest_tweet_date: 2020-02-25T16:45:12.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -473,6 +538,7 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/root9b'
               linkedin: 'https://www.linkedin.com/company/3044818'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 2250000
@@ -483,7 +549,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-21T14:07:15.000Z
+              latest_tweet_date: 2020-02-25T22:15:54.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -500,6 +566,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/recurveus'
               linkedin: 'https://www.linkedin.com/company/recurve-inc.'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 14000000
@@ -526,6 +593,17 @@ landscape:
               country: Czech Republic
               twitter: 'https://twitter.com/Unicorn_Systems'
               linkedin: 'https://www.linkedin.com/company/unicorn'
+              acquisitions:
+                - price:
+                  date: '2020-02-19'
+                  acquiree:
+                    name: Edookit
+                    permalink: edookit
+                - price:
+                  date: '2014-02-04'
+                  acquiree:
+                    name: Cygni Software A.s.
+                    permalink: cygni-software-a-s
               parents: []
             image_data:
               fileName: unicorn-systems.svg
@@ -554,6 +632,7 @@ landscape:
               country: Estonia
               twitter: null
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: elering.svg
@@ -576,6 +655,7 @@ landscape:
               country: Denmark
               twitter: 'https://www.twitter.com/energinetdk'
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: energinet.svg
@@ -600,6 +680,7 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/energyfdn'
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: energy-foundation.svg
@@ -607,7 +688,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T20:41:17.000Z
+              latest_tweet_date: 2020-02-25T22:05:09.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -624,6 +705,7 @@ landscape:
               country: Belgium
               twitter: 'https://twitter.com/entso_e'
               linkedin: 'https://www.linkedin.com/company/entso-e'
+              acquisitions: []
               parents: []
             image_data:
               fileName: entso-e.svg
@@ -631,7 +713,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T15:33:44.000Z
+              latest_tweet_date: 2020-02-25T13:28:44.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -648,6 +730,7 @@ landscape:
               country: Switzerland
               twitter: 'https://twitter.com/epfl_en'
               linkedin: 'https://www.linkedin.com/company/epfl'
+              acquisitions: []
               parents: []
             image_data:
               fileName: epfl.svg
@@ -655,7 +738,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T15:16:07.000Z
+              latest_tweet_date: 2020-02-25T09:42:27.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -672,6 +755,7 @@ landscape:
               country: Germany
               twitter: 'https://twitter.com/fiware'
               linkedin: 'https://www.linkedin.com/company/fi-ware'
+              acquisitions: []
               parents: []
             image_data:
               fileName: fiware.svg
@@ -679,7 +763,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T19:02:22.000Z
+              latest_tweet_date: 2020-02-25T18:12:34.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -696,6 +780,7 @@ landscape:
               country: Germany
               twitter: 'http://twitter.com/Fraunhofer'
               linkedin: 'https://www.linkedin.com/company/fraunhofer-gesellschaft'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 1318968
@@ -723,6 +808,7 @@ landscape:
               country: United States
               twitter: null
               linkedin: 'https://www.linkedin.com/groups/FREEDM-Systems-Center-3603321/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: freedm-systems-center.svg
@@ -745,6 +831,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/iowastateu'
               linkedin: 'https://www.linkedin.com/edu/school?id=50016&trk=edu-cp-title'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 250000
@@ -754,7 +841,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T22:52:55.000Z
+              latest_tweet_date: 2020-02-25T19:19:55.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -771,6 +858,7 @@ landscape:
               country: Switzerland
               twitter: 'https://twitter.com/hslu'
               linkedin: 'https://www.linkedin.com/school/hochschule-luzern/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: lucerne-university-of-applied-sciences-and-arts.svg
@@ -778,7 +866,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T07:51:09.000Z
+              latest_tweet_date: 2020-02-25T14:11:32.000Z
           - item:
             name: Monash University
             homepage_url: 'https://www.monash.edu'
@@ -795,6 +883,7 @@ landscape:
               country: Australia
               twitter: 'http://twitter.com/MonashUni'
               linkedin: 'https://www.linkedin.com/company/monash-university'
+              acquisitions: []
               parents: []
             image_data:
               fileName: monash-university.svg
@@ -802,7 +891,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-25T05:25:37.000Z
+              latest_tweet_date: 2020-02-26T04:03:30.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -819,6 +908,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/nrel'
               linkedin: 'https://www.linkedin.com/company/national-renewable-energy-laboratory'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 3800000
@@ -828,7 +918,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T23:21:52.000Z
+              latest_tweet_date: 2020-02-25T23:00:24.000Z
           - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
@@ -845,6 +935,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/haystackTagging'
               linkedin: 'https://www.linkedin.com/company/project-haystack.org/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: project-haystack.svg
@@ -869,6 +960,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/Stanford'
               linkedin: 'https://www.linkedin.com/company/stanford-university'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 5000000
@@ -878,7 +970,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T21:30:48.000Z
+              latest_tweet_date: 2020-02-25T20:54:27.000Z
           - item:
             name: Tennet
             homepage_url: 'https://www.tennet.eu/'
@@ -895,6 +987,7 @@ landscape:
               country: The Netherlands
               twitter: 'https://twitter.com/tennettso'
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: tennet.svg
@@ -902,7 +995,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-19T12:10:42.000Z
+              latest_tweet_date: 2020-02-25T09:52:55.000Z
           - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
@@ -919,6 +1012,7 @@ landscape:
               country: United States
               twitter: null
               linkedin: 'https://www.linkedin.com/company/the-energy-coalition/'
+              acquisitions: []
               parents: []
             image_data:
               fileName: the-energy-coalition.svg
@@ -941,6 +1035,7 @@ landscape:
               country: Germany
               twitter: 'https://www.twitter.com/presseunikassel'
               linkedin: null
+              acquisitions: []
               parents: []
             image_data:
               fileName: university-of-kassel.svg
@@ -948,7 +1043,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-21T13:01:06.000Z
+              latest_tweet_date: 2020-02-25T15:15:07.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -965,6 +1060,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/vanderbiltu'
               linkedin: 'https://www.linkedin.com/company/vanderbilt-university'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 28552273
@@ -974,7 +1070,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T22:35:48.000Z
+              latest_tweet_date: 2020-02-25T18:45:00.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -991,6 +1087,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/WSUPullman'
               linkedin: 'https://www.linkedin.com/school/166875/'
+              acquisitions: []
               parents: []
               kind: funding
               funding: 10000000
@@ -1000,6 +1097,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-02-24T18:40:24.000Z
+              latest_tweet_date: 2020-02-25T23:26:52.000Z
 twitter_options:
   count: 0
