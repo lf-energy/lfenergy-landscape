@@ -33,7 +33,7 @@ landscape:
                 - name: Dockerfile
                   value: 286
                   color: '#384d54'
-              contributions: 5;4;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 8;1;1;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-04-07Z
               stars: 27
               license: Creative Commons Zero v1.0 Universal
@@ -88,7 +88,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 6;8;0;15;3;0;0;5;8;7;0;0;0;0;8;4;9;0;4;8;0;3;0;4;0;8;0;7;7;2;3;8;2;4;1;5;1;0;0;3;5;0;3;0;3;0;0;0;0;0;0;0
+              contributions: 4;8;1;14;3;0;0;5;8;7;0;0;0;0;8;6;7;0;12;0;3;0;0;4;0;8;0;7;7;2;11;0;6;0;1;5;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0
               firstWeek: 2019-04-07Z
               stars: 110
               license: Apache License 2.0
@@ -171,14 +171,14 @@ landscape:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
             github_data:
               languages:
-                - name: TypeScript
-                  value: 809360
-                  color: '#2b7489'
                 - name: Java
-                  value: 797295
+                  value: 806789
                   color: '#b07219'
+                - name: TypeScript
+                  value: 786353
+                  color: '#2b7489'
                 - name: HTML
-                  value: 285715
+                  value: 285803
                   color: '#e34c26'
                 - name: Gherkin
                   value: 83595
@@ -199,13 +199,13 @@ landscape:
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                25;49;31;19;18;19;29;46;9;31;37;40;24;42;35;39;56;31;26;8;12;11;20;13;30;35;21;13;19;11;4;12;11;17;26;12;11;20;16;18;24;32;49;24;48;2;36;32;15;11;20;26
+                30;47;26;23;15;21;34;37;15;30;40;34;31;47;34;33;65;23;18;10;10;11;20;21;26;39;15;14;24;3;6;12;12;24;17;14;11;19;16;20;29;34;47;26;38;5;34;30;17;17;18;32
               firstWeek: 2019-04-07Z
               stars: 10
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2020-04-01T20:06:56Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/730b1c1be6bfb50e4c8e1c2375b8b7ef9effd252
+              latest_commit_date: '2020-04-02T13:57:31Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/299754167ddb640638730059344ebbfca9d3d472
               contributors_count: 14
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
             github_start_commit_data:
@@ -247,7 +247,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 7078748
+                  value: 7078879
                   color: '#b07219'
                 - name: Groovy
                   value: 91833
@@ -261,13 +261,13 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 7;6;5;5;4;14;6;16;7;4;11;6;6;5;9;5;3;3;3;3;16;13;23;8;6;7;6;3;5;7;5;14;7;5;10;22;10;0;1;7;4;12;7;7;5;7;12;10;10;9;10;7
+              contributions: 6;8;3;6;4;14;6;15;7;8;9;4;6;5;10;4;3;3;3;4;15;21;16;8;5;9;4;5;5;5;8;12;6;5;12;20;10;0;2;6;4;15;5;6;5;7;12;12;11;9;8;7
               firstWeek: 2019-04-07Z
               stars: 57
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2020-04-02T07:55:41Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/e1df3ba85e4a286e682f71b91e39312c927db3db
+              latest_commit_date: '2020-04-03T07:28:11Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/16ed0fd2b314a58074598dcfd4f6fa09d30571e7
               release_date: '2020-02-28T16:59:21Z'
               release_link: 'https://github.com/powsybl/powsybl-core/releases'
               contributors_count: 41
@@ -382,7 +382,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-03-29T10:57:40.000Z
+              latest_tweet_date: 2020-04-02T11:03:48.000Z
           - item:
             name: RTE
             homepage_url: 'https://www.rte-france.com'
@@ -408,7 +408,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-02T08:07:49.000Z
+              latest_tweet_date: 2020-04-03T10:52:49.000Z
       - subcategory:
         name: General
         items:
@@ -816,7 +816,7 @@ landscape:
               ticker: IBM
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 93407215616
+              market_cap: 97724882944
               effective_ticker: IBM
             image_data:
               fileName: ibm.svg
@@ -825,7 +825,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T18:45:36.000Z
+              latest_tweet_date: 2020-04-02T19:38:36.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -854,7 +854,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T16:00:38.000Z
+              latest_tweet_date: 2020-04-02T16:00:41.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -938,7 +938,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T09:15:37.000Z
+              latest_tweet_date: 2020-04-02T14:18:13.000Z
       - subcategory:
         name: Associate
         items:
@@ -1040,7 +1040,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T07:13:49.000Z
+              latest_tweet_date: 2020-04-02T12:53:02.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -1065,7 +1065,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-02T07:26:56.000Z
+              latest_tweet_date: 2020-04-02T13:24:00.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -1090,7 +1090,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-02T08:16:15.000Z
+              latest_tweet_date: 2020-04-03T09:49:34.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -1118,7 +1118,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-02T07:02:43.000Z
+              latest_tweet_date: 2020-04-03T11:07:15.000Z
           - item:
             name: Freedm Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -1168,7 +1168,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T17:10:14.000Z
+              latest_tweet_date: 2020-04-02T21:20:32.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -1193,7 +1193,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-02T07:57:29.000Z
+              latest_tweet_date: 2020-04-03T07:51:56.000Z
           - item:
             name: Monash University
             homepage_url: 'https://www.monash.edu'
@@ -1218,7 +1218,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-02T03:27:17.000Z
+              latest_tweet_date: 2020-04-03T05:53:39.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -1245,7 +1245,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T21:43:47.000Z
+              latest_tweet_date: 2020-04-02T22:00:14.000Z
           - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
@@ -1297,7 +1297,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T23:54:17.000Z
+              latest_tweet_date: 2020-04-03T01:19:09.000Z
           - item:
             name: Tennet
             homepage_url: 'https://www.tennet.eu/'
@@ -1370,7 +1370,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-01T09:43:27.000Z
+              latest_tweet_date: 2020-04-03T08:58:41.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -1397,7 +1397,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-03-31T14:08:16.000Z
+              latest_tweet_date: 2020-04-02T23:32:25.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -1424,6 +1424,6 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-02T04:06:43.000Z
+              latest_tweet_date: 2020-04-03T03:23:42.000Z
 twitter_options:
   count: 0
