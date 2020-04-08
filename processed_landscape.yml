@@ -10,7 +10,7 @@ landscape:
             name: Energy Market Methods Consortium (EM2)
             description: Reducing the costs of scaling demand-side energy through collaboration
             homepage_url: 'https://www.energymarketmethods.org'
-            project: growth
+            project: earlyadoption
             repo_url: 'https://github.com/energy-market-methods/caltrack'
             logo: em2.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -59,7 +59,7 @@ landscape:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
             homepage_url: 'http://eemeter.openee.io/'
-            project: growth
+            project: earlyadoption
             repo_url: 'https://github.com/openeemeter/eemeter'
             logo: openeemeter.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -119,7 +119,7 @@ landscape:
             name: Open Energy Data Initiative (OEDI)
             description: Improving Data Access to Enable Advanced Analytics and Research Innovation
             homepage_url: 'https://openei.org/wiki/Data'
-            project: growth
+            project: incubation
             logo: oedi.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
             crunchbase_data:
@@ -151,7 +151,7 @@ landscape:
             name: Operator Fabric
             description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
             homepage_url: 'https://opfab.github.io'
-            project: sandbox
+            project: incubation
             repo_url: 'https://github.com/opfab/operatorfabric-core'
             logo: operatorfabric.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -226,7 +226,7 @@ landscape:
             name: Power System Blocks
             description: A High-Performance Computing Framework For Grid Simulation and Planning
             homepage_url: 'https://www.powsybl.org'
-            project: sandbox
+            project: incubation
             repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -290,7 +290,7 @@ landscape:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://riaps.isis.vanderbilt.edu'
-            project: sandbox
+            project: earlyadoption
             repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -351,8 +351,82 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-04-06T15:02:38.000Z
+      - subcategory:
+        name: Smart Device Control
+        items:
+          - item:
+            name: Grid eXchange Fabric
+            description: Control and Monitor Smart Devices
+            homepage_url: 'https://opensmartgridplatform.org/'
+            project: earlyadoption
+            repo_url: 'https://github.com/OSGP/open-smart-grid-platform'
+            logo: gxf.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages:
+                - name: Java
+                  value: 10714309
+                  color: '#b07219'
+                - name: Gherkin
+                  value: 716235
+                  color: '#5B2063'
+                - name: TSQL
+                  value: 108518
+                - name: PLSQL
+                  value: 35171
+                  color: '#dad8d8'
+                - name: Groovy
+                  value: 18631
+                  color: '#e69f56'
+                - name: PLpgSQL
+                  value: 12795
+                - name: Shell
+                  value: 5505
+                  color: '#89e051'
+                - name: SQLPL
+                  value: 840
+                - name: Dockerfile
+                  value: 359
+                  color: '#384d54'
+              contributions: 19;17;16;8;7;7;11;3;4;9;16;36;16;1;4;34;21;4;11;20;22;15;2;25;10;8;2;4;2;15;10;17;18;9;21;11;3;1;1;4;5;4;2;10;22;51;19;14;32;7;36;5
+              firstWeek: 2019-04-14Z
+              stars: 39
+              license: Apache License 2.0
+              description: >-
+                This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
+                Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly
+                mode to preserve the historical information.
+              latest_commit_date: '2020-04-07T14:54:25Z'
+              latest_commit_link: /OSGP/open-smart-grid-platform/commit/d2a3637fcf4189ec6c9648dbb753034fd47f17cb
+              contributors_count: 41
+              contributors_link: 'https://github.com/OSGP/open-smart-grid-platform/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /OSGP/open-smart-grid-platform/commit/ca5f57a4f1571aee3d71b2003a4d93ebb4f4d60c
+              start_date: '2015-03-25T22:26:20Z'
+            image_data:
+              fileName: grid-e-xchange-fabric.svg
+              hash: INByt/ozNLob9+HP33T2fen7VgifyEY4rVRkdjxEFOA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-06T15:02:38.000Z
   - category:
-    name: LF Energy Member Company
+    name: LF Energy Member
     subcategories:
       - subcategory:
         name: Premier
@@ -413,423 +487,100 @@ landscape:
         name: General
         items:
           - item:
-            name: IBM
-            homepage_url: 'https://www.ibm.com/us-en/'
-            logo: ibm.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            name: CloudBees
+            homepage_url: 'https://www.cloudbees.com/'
+            logo: cloudbees.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cloudbees'
             crunchbase_data:
-              name: IBM
-              description: 'IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.ibm.com/'
-              city: Armonk
-              region: New York
+              name: CloudBees
+              description: CloudBees develops an end-to-end automated software delivery system that allows companies to balance governance and developer freedom.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: 'http://www.cloudbees.com'
+              city: San Jose
+              region: California
               country: United States
-              twitter: 'http://twitter.com/IBM'
-              linkedin: 'https://www.linkedin.com/company/ibm/'
+              twitter: 'http://twitter.com/CloudBees'
+              linkedin: 'https://www.linkedin.com/company/cloudbees'
               acquisitions:
-                - date: '2019-01-14'
-                  acquiree: T-Systems - Mainframe Services business
-                - date: '2018-10-28'
-                  acquiree: Red Hat
-                  price: 34000000000
-                - date: '2018-06-15'
-                  acquiree: Oniqua Inc.
-                - date: '2018-05-03'
-                  acquiree: Armanta
-                - date: '2017-10-04'
-                  acquiree: Vivant
-                - date: '2017-09-24'
-                  acquiree: Cloudigo
-                - date: '2017-05-02'
-                  acquiree: Verizon - Cloud services
-                - date: '2017-01-23'
-                  acquiree: Agile 3 Solutions
-                - date: '2016-11-01'
-                  acquiree: Expert Personal Shopper (XPS)
-                - date: '2016-10-27'
-                  acquiree: Sanovi Technologies
-                - date: '2016-09-29'
-                  acquiree: Promontory Financial Group
-                - date: '2016-06-01'
-                  acquiree: EZSource
-                - date: '2016-03-30'
-                  acquiree: Bluewolf
-                  price: 200000000
-                - date: '2016-03-17'
-                  acquiree: Optevia
-                - date: '2016-02-29'
-                  acquiree: IBM Resilient
-                - date: '2016-02-18'
-                  acquiree: Truven Health Analytics
-                  price: 2600000000
-                - date: '2016-02-03'
-                  acquiree: Ecx.io
-                - date: '2016-02-02'
-                  acquiree: Aperto
-                - date: '2016-01-28'
-                  acquiree: Resource/Ammirati
-                - date: '2016-01-21'
-                  acquiree: Ustream
-                - date: '2016-01-15'
-                  acquiree: IRIS Analytics
-                - date: '2015-12-08'
-                  acquiree: Clearleap
-                - date: '2015-11-03'
-                  acquiree: Gravitant
-                - date: '2015-10-28'
-                  acquiree: The Weather Company
-                - date: '2015-10-05'
-                  acquiree: Cleversafe
-                  price: 1300000000
-                - date: '2015-09-28'
-                  acquiree: Meteorix
-                - date: '2015-09-10'
-                  acquiree: StrongLoop
-                - date: '2015-08-06'
-                  acquiree: Merge Healthcare
-                  price: 1000000000
-                - date: '2015-07-23'
-                  acquiree: Compose
-                - date: '2015-06-03'
-                  acquiree: Blue Box
-                - date: '2015-05-04'
-                  acquiree: Phytel
-                - date: '2015-04-16'
-                  acquiree: Explorys
-                - date: '2015-03-27'
-                  acquiree: Blekko
-                - date: '2015-03-04'
-                  acquiree: AlchemyAPI
-                - date: '2014-07-31'
-                  acquiree: CrossIdeas
-                - date: '2014-05-20'
-                  acquiree: Cognea
-                - date: '2014-04-10'
-                  acquiree: Silverpop
-                  price: 270000000
-                - date: '2014-02-24'
-                  acquiree: Cloudant
-                - date: '2013-12-19'
-                  acquiree: Aspera
-                - date: '2013-12-18'
-                  acquiree: Fiberlink
-                  price: 375000000
-                - date: '2013-10-29'
-                  acquiree: The Now Factory
-                - date: '2013-10-03'
-                  acquiree: Xtify
-                - date: '2013-09-19'
-                  acquiree: Daeja Image Systems
-                - date: '2013-08-15'
-                  acquiree: Trusteer
-                - date: '2013-07-10'
-                  acquiree: CSL International
-                - date: '2013-06-04'
-                  acquiree: SoftLayer
-                  price: 2000000000
-                - date: '2013-04-22'
-                  acquiree: Urbancode
-                - date: '2013-03-20'
-                  acquiree: Star Analytics
-                - date: '2013-02-07'
-                  acquiree: StoredIQ
-                - date: '2012-09-24'
-                  acquiree: Butterfly Software
-                - date: '2012-08-28'
-                  acquiree: Kenexa
-                - date: '2012-08-16'
-                  acquiree: Texas Memory Systems
-                - date: '2012-07-01'
-                  acquiree: Cibecs
-                - date: '2012-05-02'
-                  acquiree: Tealeaf
-                - date: '2012-04-25'
-                  acquiree: Vivisimo
-                - date: '2012-04-13'
-                  acquiree: Varicent Software
-                - date: '2012-01-31'
-                  acquiree: Worklight
-                  price: 70000000
-                - date: '2012-01-04'
-                  acquiree: Green Hat
-                - date: '2011-12-20'
-                  acquiree: Cúram Software
-                - date: '2011-12-15'
-                  acquiree: Emptoris
-                - date: '2011-12-08'
-                  acquiree: DemandTec
-                  price: 440000000
-                - date: '2011-10-11'
-                  acquiree: Platform Computing
-                - date: '2011-10-04'
-                  acquiree: Q1 Labs
-                - date: '2011-09-01'
-                  acquiree: Algorithmics
-                  price: 380200000
-                - date: '2011-08-31'
-                  acquiree: i2
-                - date: '2011-04-14'
-                  acquiree: TRIRIGA
-                - date: '2010-10-21'
-                  acquiree: Clarity Systems
-                - date: '2010-10-13'
-                  acquiree: PSS Systems
-                - date: '2010-09-27'
-                  acquiree: BLADE Network Technologies
-                - date: '2010-09-20'
-                  acquiree: Netezza
-                  price: 1800000000
-                - date: '2010-09-15'
-                  acquiree: OpenPages
-                - date: '2010-08-13'
-                  acquiree: Unica
-                  price: 480000000
-                - date: '2010-08-10'
-                  acquiree: Datacap
-                - date: '2010-07-01'
-                  acquiree: BigFix
-                - date: '2010-06-15'
-                  acquiree: Coremetrics
-                - date: '2010-06-14'
-                  acquiree: Storwize
-                  price: 140000000
-                - date: '2010-05-24'
-                  acquiree: Sterling Commerce
-                - date: '2010-05-03'
-                  acquiree: Cast Iron Systems
-                - date: '2010-02-16'
-                  acquiree: Intelliden
-                - date: '2010-02-03'
-                  acquiree: Initiate Systems
-                - date: '2010-01-20'
-                  acquiree: National Interest Security Company
-                - date: '2009-12-16'
-                  acquiree: Lombardi Software
-                - date: '2009-11-30'
-                  acquiree: Guardium
-                  price: 225000000
-                - date: '2009-09-22'
-                  acquiree: RedPill Solutions
-                - date: '2009-07-28'
-                  acquiree: Ounce Labs
-                - date: '2009-07-28'
-                  acquiree: SPSS
-                - date: '2009-05-05'
-                  acquiree: Exeros
-                - date: '2009-04-16'
-                  acquiree: Outblaze
-                - date: '2008-11-18'
-                  acquiree: Transitive
-                - date: '2008-07-28'
-                  acquiree: ILOG
-                - date: '2008-07-02'
-                  acquiree: Platform Solutions
-                - date: '2008-04-29'
-                  acquiree: InfoDyne Corporation
-                - date: '2008-04-22'
-                  acquiree: Diligent
-                - date: '2008-04-10'
-                  acquiree: FilesX
-                - date: '2008-03-12'
-                  acquiree: Encentuate
-                - date: '2008-01-31'
-                  acquiree: Cognos
-                - date: '2008-01-23'
-                  acquiree: AptSoft
-                - date: '2008-01-18'
-                  acquiree: Net Integration Technologies
-                - date: '2008-01-02'
-                  acquiree: XIV
-                - date: '2007-12-21'
-                  acquiree: Solid Information Technology
-                - date: '2007-12-06'
-                  acquiree: Arsenal Digital Solutions
-                - date: '2007-10-24'
-                  acquiree: NovusCG
-                - date: '2007-09-04'
-                  acquiree: DataMirror
-                - date: '2007-08-22'
-                  acquiree: Webdialogs
-                - date: '2007-08-03'
-                  acquiree: Princeton Softech
-                - date: '2007-07-23'
-                  acquiree: Watchfire
-                - date: '2007-06-11'
-                  acquiree: Telelogic
-                  price: 745000000
-                - date: '2007-04-20'
-                  acquiree: Unicible
-                - date: '2007-03-01'
-                  acquiree: Softek Storage Solutions
-                - date: '2007-02-14'
-                  acquiree: Vallent Corporation
-                - date: '2006-12-05'
-                  acquiree: Consul Risk Management International
-                - date: '2006-11-10'
-                  acquiree: Palisades Technology Partners
-                - date: '2006-10-20'
-                  acquiree: Internet Security Systems
-                - date: '2006-10-12'
-                  acquiree: FileNet Corporation
-                  price: 1600000000
-                - date: '2006-10-05'
-                  acquiree: MRO Software
-                - date: '2006-09-30'
-                  acquiree: Valchemy
-                - date: '2006-09-06'
-                  acquiree: Global Value Solutions
-                - date: '2006-08-02'
-                  acquiree: Webify
-                - date: '2006-05-18'
-                  acquiree: Rembo Technology
-                - date: '2006-05-08'
-                  acquiree: Unicorn Solutions
-                - date: '2006-05-02'
-                  acquiree: BuildForge
-                - date: '2006-03-16'
-                  acquiree: Language Analysis Systems
-                - date: '2006-02-08'
-                  acquiree: Viacore
-                - date: '2006-01-27'
-                  acquiree: ARGUS Semiconductor Software
-                - date: '2006-01-25'
-                  acquiree: CIMS Lab
-                - date: '2005-12-21'
-                  acquiree: Micromuse
-                - date: '2005-12-20'
-                  acquiree: Bowstreet
-                - date: '2005-11-16'
-                  acquiree: Collation
-                - date: '2005-11-09'
-                  acquiree: Network Solutions Private Limited
-                - date: '2005-11-01'
-                  acquiree: iPhrase Technologies
-                - date: '2005-10-18'
-                  acquiree: DataPower Technology
-                - date: '2005-08-05'
-                  acquiree: PureEdge Solutions
-                - date: '2005-08-02'
-                  acquiree: DWL
-                - date: '2005-07-27'
-                  acquiree: Isogon Corporation
-                - date: '2005-06-23'
-                  acquiree: Meiosys
-                - date: '2005-05-10'
-                  acquiree: Gluecode Software
-                - date: '2005-05-02'
-                  acquiree: Ascential Software
-                - date: '2005-02-02'
-                  acquiree: Equitant
-                - date: '2005-01-25'
-                  acquiree: Corio
-                  price: 182000000
-                - date: '2005-01-07'
-                  acquiree: SRD
-                - date: '2005-01-07'
-                  acquiree: Systems Research & Development
-                - date: '2004-12-13'
-                  acquiree: KeyMRO
-                - date: '2004-11-23'
-                  acquiree: Liberty Insurance Services
-                - date: '2004-10-12'
-                  acquiree: Systemcorp A.L.G.
-                - date: '2004-08-26'
-                  acquiree: Venetica
-                - date: '2004-08-17'
-                  acquiree: Maersk Data
-                - date: '2004-07-29'
-                  acquiree: Cyanea Systems
-                - date: '2004-07-14'
-                  acquiree: AlphaBlox
-                - date: '2004-06-07'
-                  acquiree: Candle Corporation
-                - date: '2004-04-07'
-                  acquiree: Daksh eServices
-                - date: '2004-04-07'
-                  acquiree: Daksh Infosoft
-                - date: '2004-03-09'
-                  acquiree: Trigo Technologies
-                - date: '2003-12-17'
-                  acquiree: Green Pasture Software
-                - date: '2003-11-13'
-                  acquiree: Productivity Solutions
-                - date: '2003-10-14'
-                  acquiree: CrossAccess
-                - date: '2003-07-15'
-                  acquiree: Presence Online
-                - date: '2003-05-14'
-                  acquiree: Think Dynamics
-                - date: '2003-02-20'
-                  acquiree: Rational Software
-                - date: '2002-11-04'
-                  acquiree: Tarian Software
-                - date: '2002-10-07'
-                  acquiree: EADS Matra Datavision
-                - date: '2002-10-02'
-                  acquiree: PwC Consulting
-                  price: 3500000000
-                - date: '2002-09-12'
-                  acquiree: HOLOSOFX
-                - date: '2002-09-03'
-                  acquiree: Access360
-                - date: '2002-08-29'
-                  acquiree: TrelliSoft
-                - date: '2002-06-25'
-                  acquiree: Metamerge
-                - date: '2002-01-14'
-                  acquiree: CrossWorlds Software
-                  price: 129000000
-                - date: '2001-06-07'
-                  acquiree: Mainspring
-                - date: '1999-09-22'
-                  acquiree: Dascom
-                - date: '1999-07-27'
-                  acquiree: Mylex
-                  price: 240000000
-                - date: '1999-07-12'
-                  acquiree: Sequent Computer Systems Inc
-                - date: '1996-02-01'
-                  acquiree: Tivoli Systems
-                  price: 743000000
-                - date: '1995-07-06'
-                  acquiree: Lotus Development Corporation
-                  price: 3500000000
-                - date: '1994-08-01'
-                  acquiree: Transarc
-                - date: '1984-09-26'
-                  acquiree: ROLM Corporation
-                - date: '1974-01-01'
-                  acquiree: Satellite Business Systems
-                - date: '1964-01-01'
-                  acquiree: Science Research Associates
-                - date: '1941-01-01'
-                  acquiree: Munitions Manufacturing Corporation
-                - date: '1932-01-01'
-                  acquiree: National Counting Scale Company
-                - date: '1930-01-01'
-                  acquiree: The Automatic Accounting Scale Company
-                - date: '1923-01-01'
-                  acquiree: Dehomag
+                - date: '2019-06-11'
+                  acquiree: Rollout.io
+                - date: '2019-04-18'
+                  acquiree: Electric Cloud
+                - date: '2018-02-06'
+                  acquiree: Codeship
+                - date: '2013-07-24'
+                  acquiree: FoxWeave
+                - date: '2010-12-14'
+                  acquiree: Stax Networks
+                - date: '2010-11-09'
+                  acquiree: InfraDNA
               parents: []
-              ticker: IBM
-              kind: market_cap
-            yahoo_finance_data:
-              market_cap: 102007005184
-              effective_ticker: IBM
+              kind: funding
+              funding: 121200000
             image_data:
-              fileName: ibm.svg
-              hash: ZjpUH4pNt5l4oDV4GctJSS85QJTidUBMfrDP2Kl4y8w=
+              fileName: cloud-bees.svg
+              hash: c3QWpOIwOPVhXPQ2e7Lqj6mYJPZNVlCNYEApU1X32yA=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-06T22:06:11.000Z
+              latest_tweet_date: 2020-04-07T18:48:51.000Z
+          - item:
+            name: Elering
+            homepage_url: 'https://elering.ee'
+            logo: elering.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/elering'
+            crunchbase_data:
+              name: Elering
+              description: Elering is an independent and independent electricity and gas system operator.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://vana.elering.ee/'
+              city: Tallinn
+              region: Harjumaa
+              country: Estonia
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+            image_data:
+              fileName: elering.svg
+              hash: EaSjSvTCKFartRPDglQmURrf5of1nylPZSnzxxnOdt0=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Monash University
+            homepage_url: 'https://www.monash.edu'
+            logo: monash-university.svg
+            crunchbase: 'https://www.crunchbase.com/organization/monash-university'
+            crunchbase_data:
+              name: Monash University
+              description: 'Monash University offers undergraduate, graduate, and research courses in the fields of business, social sciences, science, and law.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.monash.edu.au/'
+              city: Clayton
+              region: Victoria
+              country: Australia
+              twitter: 'http://twitter.com/MonashUni'
+              linkedin: 'https://www.linkedin.com/company/monash-university'
+              acquisitions: []
+              parents: []
+            image_data:
+              fileName: monash-university.svg
+              hash: QholJ/+8gclUwoXz1XcMDbV3r0AbD0EVV6Wg1rHYKLE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-07T06:40:57.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
-            logo: 'https://my.osisoft.com/Microsite/images/osisoft-logo.svg'
+            logo: osisoft.svg
             crunchbase: 'https://www.crunchbase.com/organization/osisoft'
             crunchbase_data:
               name: OSIsoft
@@ -850,6 +601,7 @@ landscape:
               funding: 139500000
             image_data:
               fileName: os-isoft.svg
+              hash: Tedaq6AgW2L0R143SVIINzQqwjOcgTs3cgUzjcYjmg4=
             best_practice_data:
               badge: false
               percentage: null
@@ -886,7 +638,7 @@ landscape:
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/logo-recurve.svg'
+            logo: recurve.svg
             crunchbase: 'https://www.crunchbase.com/organization/recurve'
             crunchbase_data:
               name: Recurve
@@ -905,6 +657,7 @@ landscape:
               funding: 14000000
             image_data:
               fileName: recurve.svg
+              hash: 0W4oUUIep+kVLYw0a3WcdvjG7zyPhOFBiCewKn22lXU=
             best_practice_data:
               badge: false
               percentage: null
@@ -913,7 +666,7 @@ landscape:
           - item:
             name: Unicorn Systems
             homepage_url: 'https://unicorn.com'
-            logo: 'http://www.akubat-asociace.cz/wp-content/uploads/2017/08/logo-unicorn.svg'
+            logo: unicorn-systems.svg
             crunchbase: 'https://www.crunchbase.com/organization/unicorn-systems'
             crunchbase_data:
               name: Unicorn Systems
@@ -934,42 +687,85 @@ landscape:
               parents: []
             image_data:
               fileName: unicorn-systems.svg
+              hash: eECMNnM15ratzc/7ocIElLON6DqCNvX3qPmOEcw6s1E=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-04-06T14:18:28.000Z
+          - item:
+            name: Wind River Systems
+            homepage_url: 'https://www.windriver.com'
+            logo: wind-river.svg
+            crunchbase: 'https://www.crunchbase.com/organization/wind-river'
+            crunchbase_data:
+              name: Wind River
+              description: 'Wind River enables companies to develop, run and manage device software faster and more reliably at a lower cost.'
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.windriver.com'
+              city: Alameda
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/WindRiver'
+              linkedin: 'https://www.linkedin.com/company/wind-river'
+              acquisitions:
+                - date: '2020-01-16'
+                  acquiree: Star Lab Corp.
+                - date: '2016-04-04'
+                  acquiree: Arynga
+                - date: '2010-02-05'
+                  acquiree: Virtutech
+                  price: 45000000
+                - date: '2009-02-28'
+                  acquiree: Tilcon Software Ltd.
+                - date: '2000-10-09'
+                  acquiree: Rapid Logic
+                  price: 58300000
+                - date: '2000-03-14'
+                  acquiree: AudeSi Technologies
+              parents: []
+            image_data:
+              fileName: wind-river-systems.svg
+              hash: 94dI1N50N8Hq/ViMhcstBc7ZA5CW1uc7s+xmqatDM1E=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-07T20:34:06.000Z
       - subcategory:
         name: Associate
         items:
           - item:
-            name: Elering
-            homepage_url: 'https://elering.ee'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/elering-color.svg'
-            twitter: null
-            crunchbase: 'https://www.crunchbase.com/organization/elering'
+            name: RWTH Aachen University
+            homepage_url: 'https://www.rwth-aachen.de/go/id/a/?lidx=1'
+            logo: rwth-aachen.svg
+            crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
             crunchbase_data:
-              name: Elering
-              description: Elering is an independent and independent electricity and gas system operator.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://vana.elering.ee/'
-              city: Tallinn
-              region: Harjumaa
-              country: Estonia
-              twitter: null
+              name: RWTH Aachen University
+              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.rwth-aachen.de/lang/en'
+              city: Aachen
+              region: Nordrhein-Westfalen
+              country: Germany
+              twitter: 'https://www.twitter.com/rwth'
               linkedin: null
               acquisitions: []
               parents: []
             image_data:
-              fileName: elering.svg
+              fileName: rwth-aachen-university.svg
+              hash: N8HfkQkpKwL6C9lBMrWKhnREvEK4NtaMW2JjmoTXGkU=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-03T14:23:32.000Z
           - item:
             name: Energinet
             homepage_url: 'https://energinet.dk'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/energinet-color.svg'
+            logo: energinet.svg
             crunchbase: 'https://www.crunchbase.com/organization/energinet-dk'
             crunchbase_data:
               name: Energinet
@@ -986,6 +782,7 @@ landscape:
               parents: []
             image_data:
               fileName: energinet.svg
+              hash: 5S0U93ZztekPKbuX54gkZow0KCychn2XT/DCCI/FurQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -994,7 +791,7 @@ landscape:
           - item:
             name: Energy Foundation
             homepage_url: 'https://www.ef.org'
-            logo: 'https://www.ef.org/wp-content/themes/energy-foundation/dist/images/ef-dark-logo.svg'
+            logo: ef.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-energy-foundation'
             crunchbase_data:
               name: The Energy Foundation
@@ -1011,6 +808,7 @@ landscape:
               parents: []
             image_data:
               fileName: energy-foundation.svg
+              hash: zR/D57mCjtjUGCyag3MRFyhI7gxXMt2zanEhcLeH6j4=
             best_practice_data:
               badge: false
               percentage: null
@@ -1019,7 +817,7 @@ landscape:
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/entso-color.svg'
+            logo: entso-e.svg
             crunchbase: 'https://www.crunchbase.com/organization/entso-e'
             crunchbase_data:
               name: ENTSO-E
@@ -1036,6 +834,7 @@ landscape:
               parents: []
             image_data:
               fileName: entso-e.svg
+              hash: 3vhYnHwdmOjOilyfZlFRrNQCXYLSkVqDz3qyv0D7C2c=
             best_practice_data:
               badge: false
               percentage: null
@@ -1044,7 +843,7 @@ landscape:
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
-            logo: 'https://www.epfl.ch/wp-content/themes/wp-theme-2018/assets/svg/epfl-logo.svg'
+            logo: epfl.svg
             crunchbase: 'https://www.crunchbase.com/organization/epfl'
             crunchbase_data:
               name: École Polytechnique Fédérale de Lausanne
@@ -1061,6 +860,7 @@ landscape:
               parents: []
             image_data:
               fileName: epfl.svg
+              hash: 3UQ9iCUSjnCTILIqqEod6bUH7WlTDNAt/VrLyyzJbJs=
             best_practice_data:
               badge: false
               percentage: null
@@ -1069,7 +869,7 @@ landscape:
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/fiware-color.svg'
+            logo: fiware.svg
             crunchbase: 'https://www.crunchbase.com/organization/fi-ware'
             crunchbase_data:
               name: FIWARE
@@ -1086,6 +886,7 @@ landscape:
               parents: []
             image_data:
               fileName: fiware.svg
+              hash: 82vb29KXduaWIsG7zoS4K1V1P/WHrCOJ1AUWIOqllZk=
             best_practice_data:
               badge: false
               percentage: null
@@ -1120,9 +921,9 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-04-07T06:48:47.000Z
           - item:
-            name: Freedm Systems Center
+            name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
-            logo: 'https://ncenergyconference.com/assets/img/sponsor/freedm-systems-center-logo.svg'
+            logo: freedm.svg
             crunchbase: 'https://www.crunchbase.com/organization/freedm-systems-center'
             crunchbase_data:
               name: Freedm Systems Center
@@ -1139,13 +940,40 @@ landscape:
               parents: []
             image_data:
               fileName: freedm-systems-center.svg
+              hash: 0tYRfm5NJv3qxXaM/pAzxUNdK2SNGm8UkHohHsdJrgI=
             best_practice_data:
               badge: false
               percentage: null
           - item:
+            name: Friedrich-Alexander Universität Erlangen-Nürnberg
+            homepage_url: 'https://www.fau.eu/'
+            logo: friedrich-alexander.svg
+            crunchbase: 'https://www.crunchbase.com/organization/friedrich-alexander-university'
+            crunchbase_data:
+              name: Friedrich Alexander Universität Erlangen Nürnberg
+              description: Friedrich-Alexander-Universität Erlangen-Nürnberg
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://fau.eu/'
+              city: Erlangen
+              region: Bayern
+              country: Germany
+              twitter: 'http://twitter.com/UniFAU'
+              linkedin: null
+              acquisitions: []
+              parents: []
+            image_data:
+              fileName: friedrich-alexander-universit-t-erlangen-n-rnberg.svg
+              hash: oAJbIRV3TTO9UHY2RU1XStDbeom37YG2caS1hGktCwY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-08T07:45:17.000Z
+          - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
-            logo: 'https://cdn.theme.iastate.edu/img/isu-stacked.svg'
+            logo: iowa-state-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/iowa-state-university'
             crunchbase_data:
               name: Iowa State University
@@ -1164,6 +992,7 @@ landscape:
               funding: 250000
             image_data:
               fileName: iowa-state-university.svg
+              hash: subuh7K9jcgUboYwQA1hhMGF2DolN4aU3nqOBLZamOg=
             best_practice_data:
               badge: false
               percentage: null
@@ -1172,7 +1001,7 @@ landscape:
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Hochschule_Luzern_Logo.svg'
+            logo: hochschule-luzern.svg
             crunchbase: 'https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts'
             crunchbase_data:
               name: Lucerne University of Applied Sciences and Arts
@@ -1189,40 +1018,16 @@ landscape:
               parents: []
             image_data:
               fileName: lucerne-university-of-applied-sciences-and-arts.svg
+              hash: PeTqNEIuir+pGinX4pil0CkhiRr8k8cZnz0sep9Oc0Q=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-04-06T14:30:06.000Z
           - item:
-            name: Monash University
-            homepage_url: 'https://www.monash.edu'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/monash-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/monash-university'
-            crunchbase_data:
-              name: Monash University
-              description: 'Monash University offers undergraduate, graduate, and research courses in the fields of business, social sciences, science, and law.'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://www.monash.edu.au/'
-              city: Clayton
-              region: Victoria
-              country: Australia
-              twitter: 'http://twitter.com/MonashUni'
-              linkedin: 'https://www.linkedin.com/company/monash-university'
-              acquisitions: []
-              parents: []
-            image_data:
-              fileName: monash-university.svg
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-04-07T06:40:57.000Z
-          - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
-            logo: 'https://www.fcpad.org/images/logo-nrel.svg'
+            logo: nrel.svg
             crunchbase: 'https://www.crunchbase.com/organization/national-renewable-energy-laboratory'
             crunchbase_data:
               name: National Renewable Energy Laboratory
@@ -1241,15 +1046,42 @@ landscape:
               funding: 3800000
             image_data:
               fileName: nrel.svg
+              hash: bgBb27Ya2WnvyaCz1gvZ+Lr80+58pP5dYhqoD8Bze4s=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-04-07T02:00:07.000Z
           - item:
+            name: Pecan Street
+            homepage_url: 'https://www.pecanstreet.org/'
+            logo: pecan-street.svg
+            crunchbase: 'https://www.crunchbase.com/organization/pecan-street'
+            crunchbase_data:
+              name: Pecan Street
+              description: 'Pecan Street research and develop clean energy and smart grid technologies, systems and business models.'
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://www.pecanstreet.org/'
+              city: Austin
+              region: Texas
+              country: United States
+              twitter: 'https://twitter.com/pecanstreetinc'
+              linkedin: 'https://www.linkedin.com/company/pecan-street-inc'
+              acquisitions: []
+              parents: []
+            image_data:
+              fileName: pecan-street.svg
+              hash: tGYhVbJMuhhDqtYTWYWobDAGY4Du1oXKBIV3dfzbQPM=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-07T20:12:44.000Z
+          - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/project-haystack-color.svg'
+            logo: project-haystack.svg
             crunchbase: 'https://www.crunchbase.com/organization/project-haystack'
             crunchbase_data:
               name: Project Haystack
@@ -1266,6 +1098,7 @@ landscape:
               parents: []
             image_data:
               fileName: project-haystack.svg
+              hash: cAKPkA/DYnEJ5BfYVBCoNkrqFtCdeSKfTzQfPSd9OmU=
             best_practice_data:
               badge: false
               percentage: null
@@ -1274,7 +1107,7 @@ landscape:
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Stanford_wordmark_%282012%29.svg'
+            logo: stanford-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/stanford-university'
             crunchbase_data:
               name: Stanford University
@@ -1293,15 +1126,16 @@ landscape:
               funding: 5000000
             image_data:
               fileName: stanford-university.svg
+              hash: +zqdeASvnldx2e86yIIxgLPyejdUW3by4q4kR0Y9z2E=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-04-03T18:22:39.000Z
           - item:
-            name: Tennet
+            name: TenneT
             homepage_url: 'https://www.tennet.eu/'
-            logo: 'https://euro-drone-inspections.eu/wp-content/uploads/2019/04/Tennet-Logo.svg'
+            logo: tennet.svg
             crunchbase: 'https://www.crunchbase.com/organization/tennet'
             crunchbase_data:
               name: Tennet
@@ -1317,16 +1151,45 @@ landscape:
               acquisitions: []
               parents: []
             image_data:
-              fileName: tennet.svg
+              fileName: tenne-t.svg
+              hash: ztBroV0JpKqwVBKwdFuByRQCepvkdLtXSy66CKYivJ4=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-04-06T11:52:45.000Z
           - item:
+            name: The Alan Turing Institute
+            homepage_url: 'https://www.turing.ac.uk/'
+            logo: turing.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alan-turing-institute'
+            crunchbase_data:
+              name: Alan Turing Institute
+              description: |+
+                The Alan Turing Institute is the national institute for data science, headquartered at the British Library.
+
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'https://www.turing.ac.uk/'
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: 'https://www.twitter.com/turinginst'
+              linkedin: 'https://www.linkedin.com/company/the-alan-turing-institute'
+              acquisitions: []
+              parents: []
+            image_data:
+              fileName: the-alan-turing-institute.svg
+              hash: zwv/sFz2l1Bttzwrcj0yuZPVsdu+ouVnoVGLSmBiOfo=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-04-07T15:11:09.000Z
+          - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
-            logo: 'https://energycoalition.org/wp-content/uploads/2017/11/tec-logo.svg'
+            logo: the-energy-coalition.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-energy-coalition'
             crunchbase_data:
               name: The Energy Coalition
@@ -1343,13 +1206,14 @@ landscape:
               parents: []
             image_data:
               fileName: the-energy-coalition.svg
+              hash: KR5m9pRs3u8xZNwO5WZ3WOPcI2yfLsOHNHi4qJiJ7o0=
             best_practice_data:
               badge: false
               percentage: null
           - item:
             name: University of Kassel
             homepage_url: 'https://www.uni-kassel.de/uni/en/'
-            logo: 'https://www.uni-kassel.de/uni/fileadmin/sys/resources/images/logo/logo-main.svg'
+            logo: university-of-kassel.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-kassel'
             crunchbase_data:
               name: University of Kassel
@@ -1366,6 +1230,7 @@ landscape:
               parents: []
             image_data:
               fileName: university-of-kassel.svg
+              hash: HZKA/atTxJbn1Y2wVmqc6cYcuGpKaNVQhHTEwIQo7m0=
             best_practice_data:
               badge: false
               percentage: null
@@ -1374,7 +1239,7 @@ landscape:
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
-            logo: 'https://upload.wikimedia.org/wikipedia/su/f/ff/Vanderbilt_University_wordmark.svg'
+            logo: vanderbilt-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/vanderbilt-university'
             crunchbase_data:
               name: Vanderbilt University
@@ -1393,6 +1258,7 @@ landscape:
               funding: 28552273
             image_data:
               fileName: vanderbilt-university.svg
+              hash: ikssMeWlYxnBl4LYK6ZFve7dVE1Cyb3LnnS23OnDfBs=
             best_practice_data:
               badge: false
               percentage: null
@@ -1401,7 +1267,7 @@ landscape:
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
-            logo: 'https://brand.wsu.edu/wp-content/themes/brand/images/pages/logos/wsu-signature-vertical.svg'
+            logo: washington-state-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/washington-state-university'
             crunchbase_data:
               name: Washington State University
@@ -1420,6 +1286,7 @@ landscape:
               funding: 10000000
             image_data:
               fileName: washington-state-university.svg
+              hash: YBnLO+oY6UBN6t1VRBNccVo4HLKUflQqOX88ABpNefk=
             best_practice_data:
               badge: false
               percentage: null

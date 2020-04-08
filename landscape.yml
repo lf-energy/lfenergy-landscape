@@ -28,7 +28,7 @@ landscape:
             name: Open Energy Data Initiative (OEDI)
             description: Improving Data Access to Enable Advanced Analytics and Research Innovation
             homepage_url: 'https://openei.org/wiki/Data'
-            project: sandbox
+            project: incubation
             logo: oedi.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
@@ -38,7 +38,7 @@ landscape:
             name: Operator Fabric
             description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
             homepage_url: 'https://opfab.github.io'
-            project: sandbox
+            project: incubation
             repo_url: 'https://github.com/opfab/operatorfabric-core'
             logo: operatorfabric.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -49,7 +49,7 @@ landscape:
             name: Power System Blocks
             description: A High-Performance Computing Framework For Grid Simulation and Planning
             homepage_url: 'https://www.powsybl.org'
-            project: sandbox
+            project: incubation
             repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -64,7 +64,6 @@ landscape:
             repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-                  - subcategory:
       - subcategory:
         name: Smart Device Control
         items:
@@ -73,11 +72,11 @@ landscape:
             description: Control and Monitor Smart Devices
             homepage_url: 'https://opensmartgridplatform.org/'
             project: earlyadoption
-            repo_url: 'https://github.com/osgp'
+            repo_url: 'https://github.com/OSGP/open-smart-grid-platform'
             logo: gxf.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
-    name: LF Energy Member Company
+    name: LF Energy Member
     subcategories:
       - subcategory:
         name: Premier
@@ -110,7 +109,7 @@ landscape:
             name: Monash University
             homepage_url: 'https://www.monash.edu'
             logo: monash-university.svg
-            crunchbase: 'https://www.crunchbase.com/organization/monash-university'          
+            crunchbase: 'https://www.crunchbase.com/organization/monash-university'
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -140,9 +139,9 @@ landscape:
         name: Associate
         items:
           - item:
-            name: RWTH Aachen University 
+            name: RWTH Aachen University
             homepage_url: 'https://www.rwth-aachen.de/go/id/a/?lidx=1'
-            logo: 'rwth-aachen.svg'
+            logo: rwth-aachen.svg
             crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
           - item:
             name: Energinet
@@ -183,7 +182,7 @@ landscape:
             name: Friedrich-Alexander Universität Erlangen-Nürnberg
             homepage_url: 'https://www.fau.eu/'
             logo: friedrich-alexander.svg
-            crunchbase: 'https://www.crunchbase.com/organization/friedrich-alexander-universit%C3%A4t-erlangen-n%C3%BCrnberg'
+            crunchbase: 'https://www.crunchbase.com/organization/friedrich-alexander-university'
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -242,5 +241,5 @@ landscape:
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
-            logo: washington-state-university
+            logo: washington-state-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/washington-state-university'
