@@ -9,7 +9,7 @@ landscape:
             name: Energy Market Methods Consortium (EM2)
             description: Reducing the costs of scaling demand-side energy through collaboration
             homepage_url: 'https://www.energymarketmethods.org'
-            project: growth
+            project: earlyadoption
             repo_url: 'https://github.com/energy-market-methods/caltrack'
             logo: em2.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -17,7 +17,7 @@ landscape:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
             homepage_url: 'http://eemeter.openee.io/'
-            project: growth
+            project: earlyadoption
             repo_url: 'https://github.com/openeemeter/eemeter'
             logo: openeemeter.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -28,7 +28,7 @@ landscape:
             name: Open Energy Data Initiative (OEDI)
             description: Improving Data Access to Enable Advanced Analytics and Research Innovation
             homepage_url: 'https://openei.org/wiki/Data'
-            project: growth
+            project: sandbox
             logo: oedi.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
@@ -60,9 +60,20 @@ landscape:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://riaps.isis.vanderbilt.edu'
-            project: sandbox
+            project: earlyadoption
             repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+                  - subcategory:
+        name: Smart Device Control
+        items:
+          - item:
+            name: Grid eXchange Fabric
+            description: Control and Monitor Smart Devices
+            homepage_url: 'https://opensmartgridplatform.org/'
+            project: earlyadoption
+            repo_url: 'https://github.com/osgp'
+            logo: gxf.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
     name: LF Energy Member Company
@@ -84,14 +95,25 @@ landscape:
         name: General
         items:
           - item:
-            name: IBM
-            homepage_url: 'https://www.ibm.com/us-en/'
-            logo: ibm.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            name: CloudBees
+            homepage_url: 'https://www.cloudbees.com/'
+            logo: cloudbees.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cloudbees'
+          - item:
+            name: Elering
+            homepage_url: 'https://elering.ee'
+            logo: elering.svg
+            twitter: null
+            crunchbase: 'https://www.crunchbase.com/organization/elering'
+          - item:
+            name: Monash University
+            homepage_url: 'https://www.monash.edu'
+            logo: monash-university.svg
+            crunchbase: 'https://www.crunchbase.com/organization/monash-university'          
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
-            logo: 'https://my.osisoft.com/Microsite/images/osisoft-logo.svg'
+            logo: osisoft.svg
             crunchbase: 'https://www.crunchbase.com/organization/osisoft'
           - item:
             name: R9b
@@ -101,46 +123,50 @@ landscape:
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/logo-recurve.svg'
+            logo: recurve.svg
             crunchbase: 'https://www.crunchbase.com/organization/recurve'
           - item:
             name: Unicorn Systems
             homepage_url: 'https://unicorn.com'
-            logo: 'http://www.akubat-asociace.cz/wp-content/uploads/2017/08/logo-unicorn.svg'
+            logo: unicorn-systems.svg
             crunchbase: 'https://www.crunchbase.com/organization/unicorn-systems'
+          - item:
+            name: Wind River Systems
+            homepage_url: 'https://www.windriver.com'
+            logo: wind-river.svg
+            crunchbase: 'https://www.crunchbase.com/organization/wind-river'
       - subcategory:
         name: Associate
         items:
           - item:
-            name: Elering
-            homepage_url: 'https://elering.ee'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/elering-color.svg'
-            twitter: null
-            crunchbase: 'https://www.crunchbase.com/organization/elering'
+            name: RWTH Aachen University 
+            homepage_url: 'https://www.rwth-aachen.de/go/id/a/?lidx=1'
+            logo: 'rwth-aachen.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/rwth-aachen-university'
           - item:
             name: Energinet
             homepage_url: 'https://energinet.dk'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/energinet-color.svg'
+            logo: energinet.svg
             crunchbase: 'https://www.crunchbase.com/organization/energinet-dk'
           - item:
             name: Energy Foundation
             homepage_url: 'https://www.ef.org'
-            logo: 'https://www.ef.org/wp-content/themes/energy-foundation/dist/images/ef-dark-logo.svg'
+            logo: ef.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-energy-foundation'
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/entso-color.svg'
+            logo: entso-e.svg
             crunchbase: 'https://www.crunchbase.com/organization/entso-e'
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
-            logo: 'https://www.epfl.ch/wp-content/themes/wp-theme-2018/assets/svg/epfl-logo.svg'
+            logo: epfl.svg
             crunchbase: 'https://www.crunchbase.com/organization/epfl'
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/fiware-color.svg'
+            logo: fiware.svg
             crunchbase: 'https://www.crunchbase.com/organization/fi-ware'
           - item:
             name: Fraunhofer
@@ -148,62 +174,72 @@ landscape:
             logo: fraunhofer.svg
             crunchbase: 'https://www.crunchbase.com/organization/fraunhofer-gesellschaft'
           - item:
-            name: Freedm Systems Center
+            name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
-            logo: 'https://ncenergyconference.com/assets/img/sponsor/freedm-systems-center-logo.svg'
+            logo: freedm.svg
             crunchbase: 'https://www.crunchbase.com/organization/freedm-systems-center'
+          - item:
+            name: Friedrich-Alexander Universität Erlangen-Nürnberg
+            homepage_url: 'https://www.fau.eu/'
+            logo: friedrich-alexander.svg
+            crunchbase: 'https://www.crunchbase.com/organization/friedrich-alexander-universit%C3%A4t-erlangen-n%C3%BCrnberg'
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
-            logo: 'https://cdn.theme.iastate.edu/img/isu-stacked.svg'
+            logo: iowa-state-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/iowa-state-university'
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Hochschule_Luzern_Logo.svg'
+            logo: hochschule-luzern.svg
             crunchbase: 'https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts'
-          - item:
-            name: Monash University
-            homepage_url: 'https://www.monash.edu'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/monash-color.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/monash-university'
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
-            logo: 'https://www.fcpad.org/images/logo-nrel.svg'
+            logo: nrel.svg
             crunchbase: 'https://www.crunchbase.com/organization/national-renewable-energy-laboratory'
+          - item:
+            name: Pecan Street
+            homepage_url: 'https://www.pecanstreet.org/'
+            logo: pecan-street.svg
+            crunchbase: 'https://www.crunchbase.com/organization/pecan-street'
           - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
-            logo: 'https://www.lfenergy.org/wp-content/uploads/sites/67/2019/05/project-haystack-color.svg'
+            logo: project-haystack.svg
             crunchbase: 'https://www.crunchbase.com/organization/project-haystack'
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Stanford_wordmark_%282012%29.svg'
+            logo: stanford-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/stanford-university'
           - item:
-            name: Tennet
+            name: TenneT
             homepage_url: 'https://www.tennet.eu/'
-            logo: 'https://euro-drone-inspections.eu/wp-content/uploads/2019/04/Tennet-Logo.svg'
+            logo: tennet.svg
             crunchbase: 'https://www.crunchbase.com/organization/tennet'
+          - item:
+            name: The Alan Turing Institute
+            homepage_url: 'https://www.turing.ac.uk/'
+            logo: turing.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alan-turing-institute'
           - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
-            logo: 'https://energycoalition.org/wp-content/uploads/2017/11/tec-logo.svg'
+            logo: the-energy-coalition.svg
             crunchbase: 'https://www.crunchbase.com/organization/the-energy-coalition'
           - item:
             name: University of Kassel
             homepage_url: 'https://www.uni-kassel.de/uni/en/'
-            logo: 'https://www.uni-kassel.de/uni/fileadmin/sys/resources/images/logo/logo-main.svg'
+            logo: university-of-kassel.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-kassel'
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
-            logo: 'https://upload.wikimedia.org/wikipedia/su/f/ff/Vanderbilt_University_wordmark.svg'
+            logo: vanderbilt-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/vanderbilt-university'
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
-            logo: 'https://brand.wsu.edu/wp-content/themes/brand/images/pages/logos/wsu-signature-vertical.svg'
+            logo: washington-state-university
             crunchbase: 'https://www.crunchbase.com/organization/washington-state-university'
