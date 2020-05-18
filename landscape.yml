@@ -3,77 +3,72 @@ landscape:
     name: Acquisition and Control
     subcategories:
       - subcategory:
-        name: Aggregation Node
-      - subcategory:
-        name: Central Hub
-      - subcategory:
-        name: Communication Infrastructure
-      - subcategory:
-        name: Critical Equipments
-      - subcategory:
-        name: Distributed Node
-      - subcategory:
         name: Edge Node Control
-      - subcategory:
-        name: Equipment Node
+        items:
+          - item:
+            name: RIAPS
+            homepage_url: 'https://www.lfenergy.org/projects/riaps/'
+            repo_url: 'https://github.com/riaps'
+            logo: riaps.svg
       - subcategory:
         name: Infrastructure Management
-      - subcategory:
-        name: Less Critical Equipments
-      - subcategory:
-        name: Substation Node
+        items:
+          - item:
+            name: Grid eXchange Fabric
+            homepage_url: 'https://www.lfenergy.org/projects/gxf/'
+            repo_url: 'https://github.com/osgp'
+            logo:  gxf.svg
   - category:
     name: Asset Management
-    subcategories:
-      - subcategory:
-        name: Analytics
-      - subcategory:
-        name: Asset Investment Planning
-      - subcategory:
-        name: Asset Repository
-      - subcategory:
-        name: Asset Supervision
-      - subcategory:
-        name: Field Work Management
-      - subcategory:
-        name: Outage Management
   - category:
     name: Customer and Market 
     subcategories:
       - subcategory:
         name: Customer Relationship and Communication
-      - subcategory:
-        name: Customer Response
-      - subcategory:
-        name: Market Platform Gateway
+        items:
+          - item:
+            name: OpenEEmeter
+            homepage_url: 'https://www.lfenergy.org/projects/openeemeter/'
+            repo_url: 'https://github.com/openeemeter'
+            logo: openeemeter.svg
       - subcategory:
         name: Metering and Compensation
+        items:
+          - item:
+            name: Energy Market Methods Consortium
+            homepage_url: 'https://www.lfenergy.org/projects/em2/'
+            repo_url: ''
+            logo: em2.svg
   - category:
     name: Shared
     subcategories:
       - subcategory:
-        name: Common Communication Media
-      - subcategory:
         name: Data Management
-      - subcategory:
-        name: IT management Supervision
-      - subcategory:
-        name: Security Management
-      - subcategory:
-        name: Systems Governance
+        items:
+          - item:
+            name: OEDI
+            homepage_url: 'https://www.lfenergy.org/projects/oedi/'
+            repo_url: 'https://github.com/openedi'
+            logo: oedi.svg
       - subcategory:
         name: Unified Operator's UX Components and Framework
+        items:
+          - item:
+            name: OperatorFabric
+            homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
+            repo_url: 'https://github.com/opfab'
+            logo: operatorfabric.svg
   - category:
     name: System Management
     subcategories:
       - subcategory:
-        name: Forecasting
-      - subcategory:
-        name: Market Signal
-      - subcategory:
         name: Power System Calculation
-      - subcategory:
-        name: System Control
+        items:
+          - item:
+            name: PowSyBl
+            homepage_url: 'https://www.lfenergy.org/projects/powsybl/'
+            repo_url: 'https://github.com/powsybl'
+            logo: powsybl.svg
   - category:
     name: Projects
     subcategories:
