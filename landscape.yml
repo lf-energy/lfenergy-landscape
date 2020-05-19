@@ -1,5 +1,16 @@
 landscape:
   - category:
+    name: Shared
+    subcategories:
+      - subcategory:
+        name: Data Management
+        items:
+          - item:
+            name: OEDI
+            homepage_url: 'https://www.lfenergy.org/projects/oedi/'
+            logo: oedi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+  - category:
     name: System Management
     subcategories:
       - subcategory:
