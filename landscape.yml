@@ -1,6 +1,16 @@
 landscape:
   - category:
-    name: Asset Management
+    name: Acquisition and Control
+    subcategories:
+      - subcategory:
+        name: Edge Node Control
+        items:
+          - item:
+            name: RIAPS
+            homepage_url: 'https://www.lfenergy.org/projects/riaps/'
+            repo_url: 'https://github.com/RIAPS/riaps.github.io'
+            logo: riaps.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
     name: Customer and Market
     subcategories:
