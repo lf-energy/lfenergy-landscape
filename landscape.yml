@@ -78,23 +78,15 @@ landscape:
         items:
           - item:
             name: PowSyBl
-            homepage_url: 'https://www.lfenergy.org/projects/powsybl/'
-            logo: powsybl.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-  - category:
-    name: Projects
-    subcategories:
-      - subcategory:
-        name: Power System Calculation
-        items:
-          - item:
-            name: Power System Blocks
             description: A High-Performance Computing Framework For Grid Simulation and Planning
             homepage_url: 'https://www.powsybl.org'
             project: incubation
             repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+  - category:
+    name: Projects
+    subcategories:
       - subcategory:
         name: Smart Device Control
         items:
