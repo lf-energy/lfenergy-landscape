@@ -7,8 +7,10 @@ landscape:
         items:
           - item:
             name: RIAPS
+            description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://www.lfenergy.org/projects/riaps/'
-            repo_url: 'https://github.com/RIAPS/riaps.github.io'
+            project: incubation
+            repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
@@ -113,17 +115,6 @@ landscape:
             project: incubation
             repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-      - subcategory:
-        name: Edge Node Control
-        items:
-          - item:
-            name: RIAPS Project
-            description: An Effective Distributed Software Platform for Smart Grid Apps
-            homepage_url: 'https://riaps.isis.vanderbilt.edu'
-            project: incubation
-            repo_url: 'https://github.com/RIAPS/riaps-core'
-            logo: riaps.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
         name: Smart Device Control
