@@ -54,7 +54,10 @@ landscape:
         items:
           - item:
             name: OperatorFabric
+            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
             homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
+            project: incubation
+            repo_url: 'https://github.com/opfab/operatorfabric-core'
             logo: operatorfabric.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
@@ -99,17 +102,6 @@ landscape:
             homepage_url: 'https://openei.org/wiki/Data'
             project: incubation
             logo: oedi.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-      - subcategory:
-        name: UX Components & Framework
-        items:
-          - item:
-            name: Operator Fabric
-            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
-            homepage_url: 'https://opfab.github.io'
-            project: incubation
-            repo_url: 'https://github.com/opfab/operatorfabric-core'
-            logo: operatorfabric.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
         name: Power System Calculation
