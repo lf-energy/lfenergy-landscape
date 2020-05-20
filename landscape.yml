@@ -29,7 +29,10 @@ landscape:
         items:
           - item:
             name: OpenEEmeter
-            homepage_url: 'https://www.lfenergy.org/projects/openeemeter/'
+            description: Consistent treatment of energy meter data for demand flexibility
+            homepage_url: 'http://eemeter.openee.io/'
+            project: earlyadoption
+            repo_url: 'https://github.com/openeemeter/eemeter'
             logo: openeemeter.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
@@ -79,17 +82,6 @@ landscape:
   - category:
     name: Projects
     subcategories:
-      - subcategory:
-        name: Metering & Compensation
-        items:
-          - item:
-            name: Open EEmeter
-            description: Consistent treatment of energy meter data for demand flexibility
-            homepage_url: 'http://eemeter.openee.io/'
-            project: earlyadoption
-            repo_url: 'https://github.com/openeemeter/eemeter'
-            logo: openeemeter.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
         name: Data Management
         items:
