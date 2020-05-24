@@ -116,7 +116,7 @@ big_picture:
       - type: HorizontalCategory
         category: Acquisition and Control
         rows: 2
-        width: 200
+        width: 250
         height: 200
         top: 20
         left: 0
@@ -125,28 +125,28 @@ big_picture:
       - type: HorizontalCategory
         category: Customer and Market
         rows: 2
-        width: 200
+        width: 250
         height: 200
         top: 20
-        left: 210
+        left: 260
         color: 'rgb(179,60,133)'
         fit_width: true
       - type: HorizontalCategory
         category: Shared
         rows: 2
-        width: 200
+        width: 250
         height: 200
         top: 20
-        left: 420
+        left: 470
         color: 'rgb(193,83,21)'
         fit_width: true
       - type: HorizontalCategory
         category: System Management
         rows: 2
-        width: 200
+        width: 250
         height: 200
         top: 20
-        left: 630
+        left: 680
         color: 'rgb(106,44,218)'
         fit_width: true
       - type: HorizontalCategory
@@ -162,7 +162,7 @@ big_picture:
         width: 280
         height: 200
         top: 20
-        left: 840
+        left: 890
         children:
           - type: text
             text: >-
