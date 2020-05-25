@@ -131,7 +131,7 @@ big_picture:
       - type: HorizontalCategory
         category: Acquisition and Control
         rows: 2
-        width: 500
+        width: 1020
         height: 200
         top: 240
         left: 0
@@ -156,9 +156,9 @@ big_picture:
         color: 'rgb(37,81,209)'
         fit_width: true
       - type: LandscapeInfo
-        width: 280
-        height: 200
-        top: 900
+        width: 250
+        height: 170
+        top: 460
         left: 920
         children:
           - type: text
