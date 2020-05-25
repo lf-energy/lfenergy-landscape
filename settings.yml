@@ -129,6 +129,15 @@ big_picture:
         color: 'rgb(179,60,133)'
         fit_width: true
       - type: HorizontalCategory
+        category: Acquisition and Control
+        rows: 2
+        width: 500
+        height: 200
+        top: 240
+        left: 0
+        color: 'rgb(29,119,164)'
+        fit_width: true
+      - type: HorizontalCategory
         category: Shared
         rows: 2
         width: 500
@@ -136,15 +145,6 @@ big_picture:
         top: 660
         left: 0
         color: 'rgb(193,83,21)'
-        fit_width: true
-      - type: HorizontalCategory
-        category: System Management
-        rows: 2
-        width: 500
-        height: 200
-        top: 880
-        left: 0
-        color: 'rgb(29,119,164)'
         fit_width: true
       - type: HorizontalCategory
         category: LF Energy Member
