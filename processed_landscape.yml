@@ -34,7 +34,7 @@ landscape:
                 - name: Dockerfile
                   value: 286
                   color: '#384d54'
-              contributions: 0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-02Z
               stars: 28
               license: Creative Commons Zero v1.0 Universal
@@ -90,7 +90,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 8;7;0;0;0;0;8;6;7;0;12;0;3;0;0;4;0;8;0;7;7;2;11;0;6;0;1;5;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0
+              contributions: 8;7;0;0;0;0;8;13;0;0;12;0;3;0;0;4;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0
               firstWeek: 2019-06-02Z
               stars: 112
               license: Apache License 2.0
@@ -176,16 +176,16 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 949304
+                  value: 949701
                   color: '#b07219'
                 - name: TypeScript
-                  value: 749628
+                  value: 750062
                   color: '#2b7489'
                 - name: HTML
-                  value: 281663
+                  value: 281962
                   color: '#e34c26'
                 - name: Gherkin
-                  value: 173481
+                  value: 175329
                   color: '#5B2063'
                 - name: JavaScript
                   value: 60524
@@ -194,7 +194,7 @@ landscape:
                   value: 47081
                   color: '#89e051'
                 - name: CSS
-                  value: 28828
+                  value: 28871
                   color: '#563d7c'
                 - name: Dockerfile
                   value: 4526
@@ -203,13 +203,13 @@ landscape:
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                15;30;40;34;31;47;34;33;65;23;18;10;10;11;20;21;26;39;15;14;24;3;6;12;12;24;17;14;11;19;16;20;29;34;47;26;38;5;34;30;18;17;18;33;20;10;27;13;31;25;38;5
+                26;20;43;36;25;55;39;25;63;24;13;10;11;10;24;20;26;43;8;16;25;0;8;12;10;35;6;18;10;21;12;23;30;34;47;28;31;13;32;26;17;17;21;34;18;19;15;13;31;39;25;14
               firstWeek: 2019-06-02Z
               stars: 13
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2020-05-27T14:01:56Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/2a50bd67bc00b3d24ca1fcd804aaa690dcfae1f8
+              latest_commit_date: '2020-05-29T14:58:05Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/e36722f0407ce5934a6f162aa3e3d6057d8ed25f
               contributors_count: 17
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
             github_start_commit_data:
@@ -266,7 +266,7 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 7;8;9;4;6;5;10;4;3;3;3;4;15;21;16;8;5;9;4;5;5;5;8;12;6;5;12;20;10;0;2;6;4;15;5;6;5;7;12;12;11;9;8;7;17;12;10;3;4;5;1;7
+              contributions: 11;6;7;5;6;9;6;6;0;4;4;3;16;23;15;8;2;10;4;5;6;3;8;15;6;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;5;1;7
               firstWeek: 2019-06-02Z
               stars: 57
               license: Mozilla Public License 2.0
@@ -386,7 +386,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 10993277
+                  value: 10993046
                   color: '#b07219'
                 - name: Gherkin
                   value: 724862
@@ -409,7 +409,7 @@ landscape:
                 - name: Dockerfile
                   value: 359
                   color: '#384d54'
-              contributions: 4;3;16;19;35;6;2;16;32;13;9;7;33;15;7;4;23;13;4;3;2;7;17;13;20;7;16;16;9;1;1;5;0;8;2;5;9;32;50;12;32;10;19;28;30;20;38;25;22;20;6;7
+              contributions: 6;5;16;25;27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;3;2;5;16;42;37;11;31;8;23;30;28;22;40;26;14;19;6;12
               firstWeek: 2019-06-02Z
               stars: 41
               license: Apache License 2.0
@@ -417,8 +417,8 @@ landscape:
                 This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
                 Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly
                 mode to preserve the historical information.
-              latest_commit_date: '2020-05-28T09:56:15Z'
-              latest_commit_link: /OSGP/open-smart-grid-platform/commit/911a02d6f794d63d44129c81fa91fd6247237d8c
+              latest_commit_date: '2020-05-29T10:04:19Z'
+              latest_commit_link: /OSGP/open-smart-grid-platform/commit/581f9d7ec1caa193db2368e0bba0280a3e262955
               contributors_count: 42
               contributors_link: 'https://github.com/OSGP/open-smart-grid-platform/graphs/contributors'
             github_start_commit_data:
@@ -491,7 +491,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T16:10:43.000Z
+              latest_tweet_date: 2020-05-29T15:11:49.000Z
       - subcategory:
         name: General
         items:
@@ -535,7 +535,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T20:50:01.000Z
+              latest_tweet_date: 2020-05-30T01:45:01.000Z
           - item:
             name: Elering
             homepage_url: 'https://elering.ee'
@@ -588,7 +588,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-29T06:00:01.000Z
+              latest_tweet_date: 2020-05-30T04:00:00.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -619,7 +619,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T16:00:46.000Z
+              latest_tweet_date: 2020-05-29T16:00:44.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -749,7 +749,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T20:10:06.000Z
+              latest_tweet_date: 2020-05-29T22:10:28.000Z
       - subcategory:
         name: Associate
         items:
@@ -806,7 +806,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T17:58:19.000Z
+              latest_tweet_date: 2020-05-29T19:00:56.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -833,7 +833,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T20:11:56.000Z
+              latest_tweet_date: 2020-05-29T13:02:23.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -860,7 +860,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T15:50:49.000Z
+              latest_tweet_date: 2020-05-29T14:30:02.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -887,7 +887,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T16:45:34.000Z
+              latest_tweet_date: 2020-05-29T16:58:42.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -916,7 +916,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T15:05:13.000Z
+              latest_tweet_date: 2020-05-29T15:27:54.000Z
           - item:
             name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -968,7 +968,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-29T05:59:34.000Z
+              latest_tweet_date: 2020-05-29T12:52:22.000Z
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -997,7 +997,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-26T23:40:31.000Z
+              latest_tweet_date: 2020-05-30T01:41:15.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -1053,7 +1053,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T22:30:32.000Z
+              latest_tweet_date: 2020-05-29T22:35:32.000Z
           - item:
             name: Pecan Street
             homepage_url: 'https://www.pecanstreet.org/'
@@ -1080,7 +1080,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T15:42:48.000Z
+              latest_tweet_date: 2020-05-29T19:12:54.000Z
           - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
@@ -1134,7 +1134,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T15:03:51.000Z
+              latest_tweet_date: 2020-05-29T14:39:21.000Z
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
@@ -1163,7 +1163,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T17:26:20.000Z
+              latest_tweet_date: 2020-05-29T23:18:46.000Z
           - item:
             name: TenneT
             homepage_url: 'https://www.tennet.eu/'
@@ -1219,7 +1219,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T17:42:05.000Z
+              latest_tweet_date: 2020-05-29T16:12:05.000Z
           - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
@@ -1271,7 +1271,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T10:25:32.000Z
+              latest_tweet_date: 2020-05-29T08:04:41.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -1300,7 +1300,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-27T16:38:09.000Z
+              latest_tweet_date: 2020-05-29T18:47:11.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -1329,7 +1329,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-28T20:14:52.000Z
+              latest_tweet_date: 2020-05-30T02:10:36.000Z
 twitter_options:
   count: 0
-updated_at: 2020-05-29T06:44:17.176Z
+updated_at: 2020-05-30T05:51:50.108Z
