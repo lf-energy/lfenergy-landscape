@@ -9,4 +9,7 @@ npm install -g npm
 npm install
 cp -r node_modules/* ../node_modules
 PROJECT_PATH=../.. npm run build
+cd ../..
 cp -r dist netlify
+ls dist
+ls netlify/dist
