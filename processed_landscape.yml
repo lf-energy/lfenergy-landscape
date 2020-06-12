@@ -45,6 +45,9 @@ landscape:
               release_link: 'https://github.com/energy-market-methods/caltrack/releases'
               contributors_count: 15
               contributors_link: 'https://github.com/energy-market-methods/caltrack/graphs/contributors'
+            repos:
+              - url: 'https://github.com/energy-market-methods/caltrack'
+                stars: 28
             github_start_commit_data:
               start_commit_link: /energy-market-methods/caltrack/commit/1688277b69d4e3b5c9d4eb8cf780c4e68031ad8e
               start_date: '2016-08-25T14:53:20Z'
@@ -90,7 +93,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 0;0;0;0;8;4;9;0;4;8;0;3;0;4;0;8;0;7;7;2;3;8;2;4;1;5;1;0;0;3;5;0;3;0;3;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0
+              contributions: 0;0;0;0;8;6;7;0;12;0;3;0;0;4;0;8;0;7;7;2;11;0;6;0;1;5;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0
               firstWeek: 2019-06-16Z
               stars: 114
               license: Apache License 2.0
@@ -103,6 +106,9 @@ landscape:
               release_link: 'https://github.com/openeemeter/eemeter/releases'
               contributors_count: 24
               contributors_link: 'https://github.com/openeemeter/eemeter/graphs/contributors'
+            repos:
+              - url: 'https://github.com/openeemeter/eemeter'
+                stars: 114
             github_start_commit_data:
               start_commit_link: /openeemeter/eemeter/commit/8492336628c78356b5daa9c692d6b192d148c717
               start_date: '2014-10-21T17:12:50Z'
@@ -179,10 +185,10 @@ landscape:
                   value: 1013267
                   color: '#b07219'
                 - name: TypeScript
-                  value: 760169
+                  value: 720478
                   color: '#2b7489'
                 - name: HTML
-                  value: 291271
+                  value: 288616
                   color: '#e34c26'
                 - name: Gherkin
                   value: 195382
@@ -191,27 +197,30 @@ landscape:
                   value: 60783
                   color: '#f1e05a'
                 - name: Shell
-                  value: 39565
+                  value: 39761
                   color: '#89e051'
                 - name: CSS
-                  value: 33234
+                  value: 32859
                   color: '#563d7c'
                 - name: Dockerfile
-                  value: 3067
+                  value: 3338
                   color: '#384d54'
                 - name: Scala
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                37;40;24;42;35;39;56;31;26;8;12;11;20;13;30;35;21;13;19;11;4;12;11;17;26;12;11;20;16;18;24;32;49;24;48;2;36;32;18;11;20;32;23;9;29;13;23;23;52;11;19;21
+                40;34;31;47;34;33;65;23;18;10;10;11;20;21;26;39;15;14;24;3;6;12;12;24;17;14;11;19;16;20;29;34;47;26;38;5;34;30;18;17;18;33;20;10;27;13;31;25;41;13;24;24
               firstWeek: 2019-06-16Z
               stars: 13
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2020-06-11T12:09:35Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/be12a041b5c45e02dfbc686c7d21b22d0721c205
+              latest_commit_date: '2020-06-12T13:07:33Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/7ba8fd52aefa35e5b1ddd3ea1a758b1eff41fa02
               contributors_count: 18
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
+            repos:
+              - url: 'https://github.com/opfab/operatorfabric-core'
+                stars: 13
             github_start_commit_data:
               start_commit_link: /opfab/operatorfabric-core/commit/280e77186d33858a3e1e204e4601f7a7a15eea39
               start_date: '2018-10-18T12:52:22Z'
@@ -252,7 +261,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 7315305
+                  value: 7315567
                   color: '#b07219'
                 - name: Groovy
                   value: 88467
@@ -266,17 +275,20 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 11;6;6;5;9;5;3;3;3;3;16;13;23;8;6;7;6;3;5;7;5;14;7;5;10;22;10;0;1;7;4;12;7;7;5;7;12;10;10;9;10;7;18;7;13;5;4;5;2;3;4;11
+              contributions: 9;4;6;5;10;4;3;3;3;4;15;21;16;8;5;9;4;5;5;5;8;12;6;5;12;20;10;0;2;6;4;15;5;6;5;7;12;12;11;9;8;7;17;12;10;3;4;5;2;7;2;12
               firstWeek: 2019-06-16Z
               stars: 57
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2020-06-10T15:30:50Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/43d694dcf8ff1bdca743e21a72920be22949ad99
+              latest_commit_date: '2020-06-11T16:49:46Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/d571179242b1bff821f25b820a1ffb1abd9fe9d3
               release_date: '2020-04-29T08:52:58Z'
               release_link: 'https://github.com/powsybl/powsybl-core/releases'
               contributors_count: 45
               contributors_link: 'https://github.com/powsybl/powsybl-core/graphs/contributors'
+            repos:
+              - url: 'https://github.com/powsybl/powsybl-core'
+                stars: 57
             github_start_commit_data:
               start_commit_link: /powsybl/powsybl-core/commit/7defb875a7fabb2c11020f797c32d26c786244d0
               start_date: '2016-04-07T09:42:08Z'
@@ -346,6 +358,9 @@ landscape:
               release_link: 'https://github.com/RIAPS/riaps-core/releases'
               contributors_count: 5
               contributors_link: 'https://github.com/RIAPS/riaps-core/graphs/contributors'
+            repos:
+              - url: 'https://github.com/RIAPS/riaps-core'
+                stars: 14
             github_start_commit_data:
               start_commit_link: /RIAPS/riaps-core/commit/f1bcefe881c7c0e5e3236aabe9a3c70b4ac2119f
               start_date: '2016-09-12T15:46:10Z'
@@ -409,9 +424,9 @@ landscape:
                 - name: Dockerfile
                   value: 359
                   color: '#384d54'
-              contributions: 11;16;41;9;2;6;41;13;3;10;28;19;11;3;23;10;9;3;2;6;17;12;15;12;14;17;11;2;1;1;4;8;1;4;11;25;53;13;25;20;11;35;20;30;34;27;22;17;12;6;8;11
+              contributions: 16;19;35;6;2;16;32;13;9;7;33;15;7;4;23;13;4;3;2;7;17;13;20;7;16;16;9;1;1;5;0;8;2;5;9;32;50;12;32;10;19;28;30;20;38;25;22;20;6;8;10;7
               firstWeek: 2019-06-16Z
-              stars: 41
+              stars: 42
               license: Apache License 2.0
               description: >-
                 This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
@@ -421,6 +436,9 @@ landscape:
               latest_commit_link: /OSGP/open-smart-grid-platform/commit/39074693187aeb1d25d08755d6f7d83e3481e73d
               contributors_count: 42
               contributors_link: 'https://github.com/OSGP/open-smart-grid-platform/graphs/contributors'
+            repos:
+              - url: 'https://github.com/OSGP/open-smart-grid-platform'
+                stars: 42
             github_start_commit_data:
               start_commit_link: /OSGP/open-smart-grid-platform/commit/ca5f57a4f1571aee3d71b2003a4d93ebb4f4d60c
               start_date: '2015-03-25T22:26:20Z'
@@ -491,7 +509,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T12:35:17.000Z
+              latest_tweet_date: 2020-06-11T16:20:48.000Z
       - subcategory:
         name: General
         items:
@@ -535,7 +553,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T11:01:37.000Z
+              latest_tweet_date: 2020-06-12T00:00:16.000Z
           - item:
             name: Elering
             homepage_url: 'https://elering.ee'
@@ -588,7 +606,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T05:54:13.000Z
+              latest_tweet_date: 2020-06-12T04:13:05.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -619,7 +637,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-10T20:01:04.000Z
+              latest_tweet_date: 2020-06-11T20:05:03.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -648,7 +666,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T11:55:00.000Z
+              latest_tweet_date: 2020-06-12T12:00:00.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -708,7 +726,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-29T14:45:20.000Z
+              latest_tweet_date: 2020-06-12T08:30:26.000Z
           - item:
             name: Wind River Systems
             homepage_url: 'https://www.windriver.com'
@@ -749,7 +767,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-10T20:45:08.000Z
+              latest_tweet_date: 2020-06-12T13:16:54.000Z
       - subcategory:
         name: Associate
         items:
@@ -779,7 +797,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-08T08:09:02.000Z
+              latest_tweet_date: 2020-06-12T10:20:57.000Z
           - item:
             name: Energy Foundation
             homepage_url: 'https://www.ef.org'
@@ -806,7 +824,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-10T21:32:33.000Z
+              latest_tweet_date: 2020-06-11T15:33:49.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -833,7 +851,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T11:52:27.000Z
+              latest_tweet_date: 2020-06-12T13:16:21.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -860,7 +878,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T08:09:24.000Z
+              latest_tweet_date: 2020-06-12T13:28:33.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -887,7 +905,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T12:14:47.000Z
+              latest_tweet_date: 2020-06-12T10:05:06.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -916,7 +934,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-10T21:30:09.000Z
+              latest_tweet_date: 2020-06-12T07:06:11.000Z
           - item:
             name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -968,7 +986,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T08:57:24.000Z
+              latest_tweet_date: 2020-06-12T08:03:46.000Z
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -997,7 +1015,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-10T15:42:58.000Z
+              latest_tweet_date: 2020-06-11T22:30:24.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -1024,7 +1042,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-10T11:15:14.000Z
+              latest_tweet_date: 2020-06-12T10:00:19.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -1053,7 +1071,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T12:50:09.000Z
+              latest_tweet_date: 2020-06-11T22:00:08.000Z
           - item:
             name: Pecan Street
             homepage_url: 'https://www.pecanstreet.org/'
@@ -1134,7 +1152,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-10T11:14:00.000Z
+              latest_tweet_date: 2020-06-12T13:09:34.000Z
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
@@ -1190,7 +1208,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T12:28:30.000Z
+              latest_tweet_date: 2020-06-12T13:23:14.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: 'https://www.turing.ac.uk/'
@@ -1219,7 +1237,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T10:53:44.000Z
+              latest_tweet_date: 2020-06-12T12:10:51.000Z
           - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
@@ -1271,7 +1289,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-09T13:00:05.000Z
+              latest_tweet_date: 2020-06-12T11:55:33.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -1300,7 +1318,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T01:34:34.000Z
+              latest_tweet_date: 2020-06-11T18:50:35.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -1329,7 +1347,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-11T03:18:21.000Z
+              latest_tweet_date: 2020-06-11T21:36:28.000Z
 twitter_options:
   count: 0
-updated_at: 2020-06-11T13:06:21.777Z
+updated_at: 2020-06-12T13:42:32.386Z
