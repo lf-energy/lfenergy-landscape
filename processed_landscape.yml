@@ -1,6 +1,245 @@
 # THIS FILE IS GENERATED AUTOMATICALLY!
 landscape:
   - category:
+    name: Acquisition and Control
+    subcategories:
+      - subcategory:
+        name: Edge Node Control
+        items:
+          - item:
+            name: RIAPS
+            homepage_url: 'https://www.lfenergy.org/projects/riaps/'
+            repo_url: 'https://github.com/RIAPS/riaps.github.io'
+            logo: riaps.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;9;3;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-05-26Z
+              stars: 1
+              license: Other
+              description: RIAPS github website content.
+              latest_commit_date: '2020-02-04T14:43:42Z'
+              latest_commit_link: /RIAPS/riaps.github.io/commit/73ccf0c3ccd7511a19ce21d893c4426fbec5580c
+              contributors_count: 7
+              contributors_link: 'https://github.com/RIAPS/riaps.github.io/graphs/contributors'
+            github_start_commit_data:
+              start_commit_link: /RIAPS/riaps.github.io/commit/15909fcb26b0776f1b92558266777da639f350fc
+              start_date: '2018-09-06T18:34:17Z'
+            image_data:
+              fileName: riaps.svg
+              hash: Kn/K0D4Nh0nbQ2n3klgHMij/6pi+7uy670tkTosMs1E=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-15T19:02:02.000Z
+      - subcategory:
+        name: Infrastructure Management
+        items:
+          - item:
+            name: Grid eXchange Fabric
+            homepage_url: 'https://www.lfenergy.org/projects/gxf/'
+            logo: gxf.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: grid-e-xchange-fabric.svg
+              hash: INByt/ozNLob9+HP33T2fen7VgifyEY4rVRkdjxEFOA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-15T19:02:02.000Z
+  - category:
+    name: Asset Management
+  - category:
+    name: Customer and Market
+    subcategories:
+      - subcategory:
+        name: Customer Relationship and Communication
+        items:
+          - item:
+            name: OpenEEmeter
+            homepage_url: 'https://www.lfenergy.org/projects/openeemeter/'
+            logo: openeemeter.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: open-e-emeter.svg
+              hash: evEq1rvFMIq2Atb+gEblebiYC5lwR22ASHBcDgUt5Cc=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-15T19:02:02.000Z
+      - subcategory:
+        name: Metering and Compensation
+        items:
+          - item:
+            name: Energy Market Methods Consortium
+            homepage_url: 'https://www.lfenergy.org/projects/em2/'
+            logo: em2.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: energy-market-methods-consortium.svg
+              hash: FGdXgrtVLy3aUXud4WovPZ5qDukhp5ttMuh241pdkRw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-15T19:02:02.000Z
+  - category:
+    name: Shared
+    subcategories:
+      - subcategory:
+        name: Data Management
+        items:
+          - item:
+            name: OEDI
+            homepage_url: 'https://www.lfenergy.org/projects/oedi/'
+            logo: oedi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: oedi.svg
+              hash: XlW2SD6FvkipdNnU21UEf4r673qUOJJ1waZs9wjf7Q8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-15T19:02:02.000Z
+      - subcategory:
+        name: Unified Operator's UX Components and Framework
+        items:
+          - item:
+            name: OperatorFabric
+            homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
+            logo: operatorfabric.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: operator-fabric.svg
+              hash: 3RZF4TBQNX/0qiwubZ5YsyJ80VgL7hmstj9NIer96cw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-15T19:02:02.000Z
+  - category:
+    name: System Management
+    subcategories:
+      - subcategory:
+        name: Power System Calculation
+        items:
+          - item:
+            name: PowSyBl
+            homepage_url: 'https://www.lfenergy.org/projects/powsybl/'
+            logo: powsybl.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+            image_data:
+              fileName: pow-sy-bl.svg
+              hash: J3vFm3SiQoDXQbJ1Vtdm55JhtY7No6hBlj+BG4m/RMI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-05-15T19:02:02.000Z
+  - category:
     name: Projects
     subcategories:
       - subcategory:
@@ -304,7 +543,7 @@ landscape:
         name: Edge Node Control
         items:
           - item:
-            name: RIAPS
+            name: RIAPS Project
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://riaps.isis.vanderbilt.edu'
             project: incubation
@@ -365,7 +604,7 @@ landscape:
               start_commit_link: /RIAPS/riaps-core/commit/f1bcefe881c7c0e5e3236aabe9a3c70b4ac2119f
               start_date: '2016-09-12T15:46:10Z'
             image_data:
-              fileName: riaps.svg
+              fileName: riaps-project.svg
               hash: Kn/K0D4Nh0nbQ2n3klgHMij/6pi+7uy670tkTosMs1E=
             best_practice_data:
               badge: false
@@ -376,7 +615,7 @@ landscape:
         name: Smart Device Control
         items:
           - item:
-            name: Grid eXchange Fabric
+            name: Grid eXchange Fabric Project
             description: Control and Monitor Smart Devices
             homepage_url: 'https://opensmartgridplatform.org/'
             project: earlyadoption
@@ -443,7 +682,7 @@ landscape:
               start_commit_link: /OSGP/open-smart-grid-platform/commit/ca5f57a4f1571aee3d71b2003a4d93ebb4f4d60c
               start_date: '2015-03-25T22:26:20Z'
             image_data:
-              fileName: grid-e-xchange-fabric.svg
+              fileName: grid-e-xchange-fabric-project.svg
               hash: INByt/ozNLob9+HP33T2fen7VgifyEY4rVRkdjxEFOA=
             best_practice_data:
               badge: false

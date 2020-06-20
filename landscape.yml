@@ -1,77 +1,20 @@
 landscape:
   - category:
-    name: Projects
+    name: Acquisition and Control
     subcategories:
-      - subcategory:
-        name: Metering & Compensation
-        items:
-          - item:
-            name: Estfeed
-            description: Estfeed is a fully distributed consent management and consent-based data sharing platform.
-            homepage_url: 'https://www.estfeed.eu/en/home'
-            logo: estfeed.svg
-            crunchbase: 'https://www.crunchbase.com/organization/estfeed'
-          - item:
-            name: Energy Market Methods Consortium (EM2)
-            description: Reducing the costs of scaling demand-side energy through collaboration
-            homepage_url: 'https://www.energymarketmethods.org'
-            project: earlyadoption
-            repo_url: 'https://github.com/energy-market-methods/caltrack'
-            logo: em2.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-          - item:
-            name: Open EEmeter
-            description: Consistent treatment of energy meter data for demand flexibility
-            homepage_url: 'http://eemeter.openee.io/'
-            project: earlyadoption
-            repo_url: 'https://github.com/openeemeter/eemeter'
-            logo: openeemeter.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-      - subcategory:
-        name: Data Management
-        items:
-          - item:
-            name: Open Energy Data Initiative (OEDI)
-            description: Improving Data Access to Enable Advanced Analytics and Research Innovation
-            homepage_url: 'https://openei.org/wiki/Data'
-            project: incubation
-            logo: oedi.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-      - subcategory:
-        name: UX Components & Framework
-        items:
-          - item:
-            name: Operator Fabric
-            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
-            homepage_url: 'https://opfab.github.io'
-            project: incubation
-            repo_url: 'https://github.com/opfab/operatorfabric-core'
-            logo: operatorfabric.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-      - subcategory:
-        name: Power System Calculation
-        items:
-          - item:
-            name: Power System Blocks
-            description: A High-Performance Computing Framework For Grid Simulation and Planning
-            homepage_url: 'https://www.powsybl.org'
-            project: incubation
-            repo_url: 'https://github.com/powsybl/powsybl-core'
-            logo: powsybl.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
         name: Edge Node Control
         items:
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
-            homepage_url: 'https://riaps.isis.vanderbilt.edu'
+            homepage_url: 'https://www.lfenergy.org/projects/riaps/'
             project: incubation
             repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
-        name: Smart Device Control
+        name: Infrastructure Management
         items:
           - item:
             name: Grid eXchange Fabric
@@ -80,6 +23,75 @@ landscape:
             project: earlyadoption
             repo_url: 'https://github.com/OSGP/open-smart-grid-platform'
             logo: gxf.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+  - category:
+    name: Customer and Market
+    subcategories:
+      - subcategory:
+        name: Customer Relationship and Communication
+        items:
+          - item:
+            name: Estfeed
+            description: Estfeed is a fully distributed consent management and consent-based data sharing platform.
+            homepage_url: 'https://www.estfeed.eu/en/home'
+            logo: estfeed.svg
+            crunchbase: 'https://www.crunchbase.com/organization/estfeed'
+          - item:
+            name: OpenEEmeter
+            description: Consistent treatment of energy meter data for demand flexibility
+            homepage_url: 'http://eemeter.openee.io/'
+            project: earlyadoption
+            repo_url: 'https://github.com/openeemeter/eemeter'
+            logo: openeemeter.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+      - subcategory:
+        name: Metering and Compensation
+        items:
+          - item:
+            name: Energy Market Methods Consortium (EM2)
+            description: Reducing the costs of scaling demand-side energy through collaboration
+            homepage_url: 'https://www.lfenergy.org/projects/em2/'
+            project: earlyadoption
+            repo_url: 'https://github.com/energy-market-methods/caltrack'
+            logo: em2.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+  - category:
+    name: Shared
+    subcategories:
+      - subcategory:
+        name: Data Management
+        items:
+          - item:
+            name: OEDI
+            description: Improving Data Access to Enable Advanced Analytics and Research Innovation
+            homepage_url: 'https://www.lfenergy.org/projects/oedi/'
+            project: incubation
+            logo: oedi.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+      - subcategory:
+        name: Unified Operator's UX Components and Framework
+        items:
+          - item:
+            name: OperatorFabric
+            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
+            homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
+            project: incubation
+            repo_url: 'https://github.com/opfab/operatorfabric-core'
+            logo: operatorfabric.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+  - category:
+    name: System Management
+    subcategories:
+      - subcategory:
+        name: Power System Calculation
+        items:
+          - item:
+            name: PowSyBl
+            description: A High-Performance Computing Framework For Grid Simulation and Planning
+            homepage_url: 'https://www.powsybl.org'
+            project: incubation
+            repo_url: 'https://github.com/powsybl/powsybl-core'
+            logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
     name: LF Energy Member
@@ -248,3 +260,4 @@ landscape:
             homepage_url: 'https://school.eecs.wsu.edu'
             logo: washington-state-university.svg
             crunchbase: 'https://www.crunchbase.com/organization/washington-state-university'
+
