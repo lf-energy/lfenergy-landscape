@@ -267,14 +267,15 @@ landscape:
               acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
             github_data:
               languages:
                 - name: Dockerfile
                   value: 286
                   color: '#384d54'
-              contributions: 0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-05-26Z
-              stars: 28
+              contributions: 1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-06-23Z
+              stars: 29
               license: Creative Commons Zero v1.0 Universal
               description: Shared repository for documentation and testing of CalTRACK methods
               latest_commit_date: '2019-06-28T00:57:10Z'
@@ -283,6 +284,9 @@ landscape:
               release_link: 'https://github.com/energy-market-methods/caltrack/releases'
               contributors_count: 15
               contributors_link: 'https://github.com/energy-market-methods/caltrack/graphs/contributors'
+            repos:
+              - url: 'https://github.com/energy-market-methods/caltrack'
+                stars: 29
             github_start_commit_data:
               start_commit_link: /energy-market-methods/caltrack/commit/1688277b69d4e3b5c9d4eb8cf780c4e68031ad8e
               start_date: '2016-08-25T14:53:20Z'
@@ -293,7 +297,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
           - item:
             name: Open EEmeter
             description: Consistent treatment of energy meter data for demand flexibility
@@ -316,6 +320,7 @@ landscape:
               acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
             github_data:
               languages:
                 - name: Python
@@ -327,9 +332,9 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 1;4;8;7;0;0;0;0;8;13;0;0;12;0;3;0;0;4;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0
-              firstWeek: 2019-05-26Z
-              stars: 111
+              contributions: 0;0;0;8;13;0;0;12;0;3;0;0;4;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0
+              firstWeek: 2019-06-23Z
+              stars: 115
               license: Apache License 2.0
               description: >-
                 An open source python package for implementing and developing standard methods for calculating normalized metered energy consumption and avoided
@@ -340,6 +345,9 @@ landscape:
               release_link: 'https://github.com/openeemeter/eemeter/releases'
               contributors_count: 24
               contributors_link: 'https://github.com/openeemeter/eemeter/graphs/contributors'
+            repos:
+              - url: 'https://github.com/openeemeter/eemeter'
+                stars: 115
             github_start_commit_data:
               start_commit_link: /openeemeter/eemeter/commit/8492336628c78356b5daa9c692d6b192d148c717
               start_date: '2014-10-21T17:12:50Z'
@@ -350,7 +358,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
       - subcategory:
         name: Data Management
         items:
@@ -375,6 +383,7 @@ landscape:
               acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
             image_data:
               fileName: open-energy-data-initiative-oedi.svg
               hash: XlW2SD6FvkipdNnU21UEf4r673qUOJJ1waZs9wjf7Q8=
@@ -382,7 +391,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
       - subcategory:
         name: UX Components & Framework
         items:
@@ -408,45 +417,49 @@ landscape:
               acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
             github_data:
               languages:
                 - name: Java
-                  value: 926421
+                  value: 957567
                   color: '#b07219'
                 - name: TypeScript
-                  value: 746956
+                  value: 720539
                   color: '#2b7489'
                 - name: HTML
-                  value: 281207
+                  value: 614168
                   color: '#e34c26'
                 - name: Gherkin
-                  value: 170084
+                  value: 213303
                   color: '#5B2063'
+                - name: JavaScript
+                  value: 60783
+                  color: '#f1e05a'
                 - name: Shell
-                  value: 47668
+                  value: 40685
                   color: '#89e051'
                 - name: CSS
-                  value: 28601
+                  value: 38742
                   color: '#563d7c'
                 - name: Dockerfile
-                  value: 4510
+                  value: 2762
                   color: '#384d54'
-                - name: JavaScript
-                  value: 4111
-                  color: '#f1e05a'
                 - name: Scala
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                41;26;26;21;42;37;24;55;39;25;63;24;13;10;11;10;24;20;28;41;8;16;25;0;8;12;10;35;6;18;11;20;12;23;30;34;47;28;31;13;32;28;15;17;21;34;18;19;15;14;30;35
-              firstWeek: 2019-05-26Z
+                36;25;55;39;25;63;24;13;10;11;10;24;20;26;43;8;16;25;0;8;12;10;35;6;18;10;21;12;23;30;34;47;28;31;13;32;26;17;17;21;34;18;19;15;13;31;39;27;23;20;31;30
+              firstWeek: 2019-06-23Z
               stars: 13
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2020-05-15T15:15:16Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/5b008977e74184328d093e240e7c769901eb00af
-              contributors_count: 17
+              latest_commit_date: '2020-06-19T13:57:25Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/68f95794ab14e7559653aa91e8ed097a4bdaae3c
+              contributors_count: 18
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
+            repos:
+              - url: 'https://github.com/opfab/operatorfabric-core'
+                stars: 13
             github_start_commit_data:
               start_commit_link: /opfab/operatorfabric-core/commit/280e77186d33858a3e1e204e4601f7a7a15eea39
               start_date: '2018-10-18T12:52:22Z'
@@ -457,7 +470,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
       - subcategory:
         name: Power System Calculation
         items:
@@ -483,13 +496,14 @@ landscape:
               acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
             github_data:
               languages:
                 - name: Java
-                  value: 7219381
+                  value: 7368591
                   color: '#b07219'
                 - name: Groovy
-                  value: 85973
+                  value: 90814
                   color: '#e69f56'
                 - name: Shell
                   value: 7231
@@ -500,17 +514,20 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 6;14;11;6;7;5;7;8;6;6;0;4;4;3;16;23;15;8;2;10;5;4;6;3;8;17;4;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;5
-              firstWeek: 2019-05-26Z
+              contributions: 5;6;9;6;6;0;4;4;3;16;23;15;8;2;10;4;5;6;3;8;15;6;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;5;2;7;2;12;6
+              firstWeek: 2019-06-23Z
               stars: 57
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2020-05-13T13:30:01Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/e5a6c65b7ceb7c6d337d6e662294b509ee61c7f5
-              release_date: '2020-04-29T08:52:58Z'
+              latest_commit_date: '2020-06-19T12:04:16Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/cd69b068743a00939483888174dd4f35bc81c248
+              release_date: '2020-06-17T08:03:45Z'
               release_link: 'https://github.com/powsybl/powsybl-core/releases'
-              contributors_count: 44
+              contributors_count: 45
               contributors_link: 'https://github.com/powsybl/powsybl-core/graphs/contributors'
+            repos:
+              - url: 'https://github.com/powsybl/powsybl-core'
+                stars: 57
             github_start_commit_data:
               start_commit_link: /powsybl/powsybl-core/commit/7defb875a7fabb2c11020f797c32d26c786244d0
               start_date: '2016-04-07T09:42:08Z'
@@ -521,7 +538,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
       - subcategory:
         name: Edge Node Control
         items:
@@ -547,6 +564,7 @@ landscape:
               acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
             github_data:
               languages:
                 - name: C++
@@ -568,8 +586,8 @@ landscape:
                 - name: Shell
                   value: 3320
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-05-26Z
+              contributions: 0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-06-23Z
               stars: 14
               license: Other
               description: C++ component model and discovery service implementation
@@ -579,6 +597,9 @@ landscape:
               release_link: 'https://github.com/RIAPS/riaps-core/releases'
               contributors_count: 5
               contributors_link: 'https://github.com/RIAPS/riaps-core/graphs/contributors'
+            repos:
+              - url: 'https://github.com/RIAPS/riaps-core'
+                stars: 14
             github_start_commit_data:
               start_commit_link: /RIAPS/riaps-core/commit/f1bcefe881c7c0e5e3236aabe9a3c70b4ac2119f
               start_date: '2016-09-12T15:46:10Z'
@@ -589,7 +610,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
       - subcategory:
         name: Smart Device Control
         items:
@@ -615,16 +636,17 @@ landscape:
               acquisitions: []
               parents:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
             github_data:
               languages:
                 - name: Java
-                  value: 10956061
+                  value: 11052321
                   color: '#b07219'
                 - name: Gherkin
-                  value: 718542
+                  value: 725737
                   color: '#5B2063'
                 - name: TSQL
-                  value: 127128
+                  value: 112619
                 - name: PLSQL
                   value: 35171
                   color: '#dad8d8'
@@ -637,22 +659,25 @@ landscape:
                   value: 5505
                   color: '#89e051'
                 - name: SQLPL
-                  value: 840
+                  value: 1162
                 - name: Dockerfile
                   value: 359
                   color: '#384d54'
-              contributions: 5;10;6;5;16;25;27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;3;2;5;16;42;37;11;31;8;23;30;28;22;40;26;14;15
-              firstWeek: 2019-05-26Z
-              stars: 41
+              contributions: 25;27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;3;2;5;16;42;37;11;31;8;23;30;28;22;40;26;14;19;6;12;7;7;9
+              firstWeek: 2019-06-23Z
+              stars: 42
               license: Apache License 2.0
               description: >-
                 This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
                 Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly
                 mode to preserve the historical information.
-              latest_commit_date: '2020-05-14T16:06:15Z'
-              latest_commit_link: /OSGP/open-smart-grid-platform/commit/e24550e2471e946c55f7b4035fddbe3f1355ea6a
+              latest_commit_date: '2020-06-16T14:49:21Z'
+              latest_commit_link: /OSGP/open-smart-grid-platform/commit/bf737be1b4bfab6281acd3e5468b028963521d62
               contributors_count: 42
               contributors_link: 'https://github.com/OSGP/open-smart-grid-platform/graphs/contributors'
+            repos:
+              - url: 'https://github.com/OSGP/open-smart-grid-platform'
+                stars: 42
             github_start_commit_data:
               start_commit_link: /OSGP/open-smart-grid-platform/commit/ca5f57a4f1571aee3d71b2003a4d93ebb4f4d60c
               start_date: '2015-03-25T22:26:20Z'
@@ -663,7 +688,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
   - category:
     name: LF Energy Member
     subcategories:
@@ -688,6 +713,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/alliander'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: alliander.svg
               hash: QkFxCpJc2QsVU6vycwM8Hd4rmgDjftio85aKUV47iwY=
@@ -695,7 +721,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-07T16:23:00.000Z
+              latest_tweet_date: 2020-06-19T09:23:51.000Z
           - item:
             name: RTE
             homepage_url: 'https://www.rte-france.com'
@@ -714,6 +740,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/rte_245681'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: rte.svg
               hash: Yn0D1hszmlUIjWgtHsSL+S5XFTApkjM1Lebho1H4a8E=
@@ -721,7 +748,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T13:03:58.000Z
+              latest_tweet_date: 2020-06-19T08:45:53.000Z
       - subcategory:
         name: General
         items:
@@ -742,21 +769,22 @@ landscape:
               twitter: 'http://twitter.com/CloudBees'
               linkedin: 'https://www.linkedin.com/company/cloudbees'
               acquisitions:
-                - date: '2019-06-11'
-                  acquiree: Rollout.io
-                - date: '2019-04-18'
-                  acquiree: Electric Cloud
-                - date: '2018-02-06'
-                  acquiree: Codeship
-                - date: '2013-07-24'
-                  acquiree: FoxWeave
-                - date: '2010-12-14'
-                  acquiree: Stax Networks
                 - date: '2010-11-09'
                   acquiree: InfraDNA
+                - date: '2010-12-14'
+                  acquiree: Stax Networks
+                - date: '2013-07-24'
+                  acquiree: FoxWeave
+                - date: '2018-02-06'
+                  acquiree: Codeship
+                - date: '2019-04-18'
+                  acquiree: Electric Cloud
+                - date: '2019-06-11'
+                  acquiree: Rollout.io
               parents: []
-              kind: funding
               funding: 121200000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: cloud-bees.svg
               hash: c3QWpOIwOPVhXPQ2e7Lqj6mYJPZNVlCNYEApU1X32yA=
@@ -764,12 +792,11 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T19:29:03.000Z
+              latest_tweet_date: 2020-06-19T20:43:02.000Z
           - item:
             name: Elering
             homepage_url: 'https://elering.ee'
             logo: elering.svg
-            twitter: null
             crunchbase: 'https://www.crunchbase.com/organization/elering'
             crunchbase_data:
               name: Elering
@@ -784,6 +811,7 @@ landscape:
               linkedin: null
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: elering.svg
               hash: EaSjSvTCKFartRPDglQmURrf5of1nylPZSnzxxnOdt0=
@@ -808,6 +836,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/monash-university'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: monash-university.svg
               hash: QholJ/+8gclUwoXz1XcMDbV3r0AbD0EVV6Wg1rHYKLE=
@@ -815,7 +844,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-17T01:00:00.000Z
+              latest_tweet_date: 2020-06-20T00:01:18.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -836,8 +865,9 @@ landscape:
                 - date: '2002-06-17'
                   acquiree: Sequencia
               parents: []
-              kind: funding
               funding: 139500000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: os-isoft.svg
               hash: Tedaq6AgW2L0R143SVIINzQqwjOcgTs3cgUzjcYjmg4=
@@ -845,7 +875,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T20:40:03.000Z
+              latest_tweet_date: 2020-06-19T16:00:39.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -864,8 +894,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/3044818'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 2250000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: r9b.svg
               hash: qin6cKZ7qoBhqCF/vqjMJnaT4xjuii9WklgSpEQq4Z4=
@@ -873,7 +904,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T13:01:35.000Z
+              latest_tweet_date: 2020-06-18T12:03:41.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -892,8 +923,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/recurve-inc.'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 14000000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: recurve.svg
               hash: 0W4oUUIep+kVLYw0a3WcdvjG7zyPhOFBiCewKn22lXU=
@@ -919,11 +951,12 @@ landscape:
               twitter: 'https://twitter.com/Unicorn_Systems'
               linkedin: 'https://www.linkedin.com/company/unicorn'
               acquisitions:
-                - date: '2020-02-19'
-                  acquiree: Edookit
                 - date: '2014-02-04'
                   acquiree: Cygni Software A.s.
+                - date: '2020-02-19'
+                  acquiree: Edookit
               parents: []
+              stockExchange: null
             image_data:
               fileName: unicorn-systems.svg
               hash: eECMNnM15ratzc/7ocIElLON6DqCNvX3qPmOEcw6s1E=
@@ -931,7 +964,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-04-29T14:45:20.000Z
+              latest_tweet_date: 2020-06-12T08:30:26.000Z
           - item:
             name: Wind River Systems
             homepage_url: 'https://www.windriver.com'
@@ -949,21 +982,22 @@ landscape:
               twitter: 'http://twitter.com/WindRiver'
               linkedin: 'https://www.linkedin.com/company/wind-river'
               acquisitions:
-                - date: '2020-01-16'
-                  acquiree: Star Lab Corp.
-                - date: '2016-04-04'
-                  acquiree: Arynga
-                - date: '2010-02-05'
-                  acquiree: Virtutech
-                  price: 45000000
-                - date: '2009-02-28'
-                  acquiree: Tilcon Software Ltd.
+                - date: '2000-03-14'
+                  acquiree: AudeSi Technologies
                 - date: '2000-10-09'
                   acquiree: Rapid Logic
                   price: 58300000
-                - date: '2000-03-14'
-                  acquiree: AudeSi Technologies
+                - date: '2009-02-28'
+                  acquiree: Tilcon Software Ltd.
+                - date: '2010-02-05'
+                  acquiree: Virtutech
+                  price: 45000000
+                - date: '2016-04-04'
+                  acquiree: Arynga
+                - date: '2020-01-16'
+                  acquiree: Star Lab Corp.
               parents: []
+              stockExchange: null
             image_data:
               fileName: wind-river-systems.svg
               hash: 94dI1N50N8Hq/ViMhcstBc7ZA5CW1uc7s+xmqatDM1E=
@@ -971,7 +1005,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T18:30:05.000Z
+              latest_tweet_date: 2020-06-19T23:40:04.000Z
       - subcategory:
         name: Associate
         items:
@@ -993,6 +1027,7 @@ landscape:
               linkedin: null
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: energinet.svg
               hash: 5S0U93ZztekPKbuX54gkZow0KCychn2XT/DCCI/FurQ=
@@ -1000,7 +1035,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T13:35:20.000Z
+              latest_tweet_date: 2020-06-16T09:29:43.000Z
           - item:
             name: Energy Foundation
             homepage_url: 'https://www.ef.org'
@@ -1019,6 +1054,7 @@ landscape:
               linkedin: null
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: energy-foundation.svg
               hash: zR/D57mCjtjUGCyag3MRFyhI7gxXMt2zanEhcLeH6j4=
@@ -1026,7 +1062,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T15:38:48.000Z
+              latest_tweet_date: 2020-06-18T19:58:52.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -1045,6 +1081,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/entso-e'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: entso-e.svg
               hash: 3vhYnHwdmOjOilyfZlFRrNQCXYLSkVqDz3qyv0D7C2c=
@@ -1052,7 +1089,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T13:24:02.000Z
+              latest_tweet_date: 2020-06-19T12:30:57.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -1071,6 +1108,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/epfl'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: epfl.svg
               hash: 3UQ9iCUSjnCTILIqqEod6bUH7WlTDNAt/VrLyyzJbJs=
@@ -1078,7 +1116,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T10:07:39.000Z
+              latest_tweet_date: 2020-06-19T12:00:54.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -1097,6 +1135,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/fi-ware'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: fiware.svg
               hash: 82vb29KXduaWIsG7zoS4K1V1P/WHrCOJ1AUWIOqllZk=
@@ -1104,7 +1143,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T16:01:28.000Z
+              latest_tweet_date: 2020-06-19T18:52:35.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -1123,8 +1162,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/fraunhofer-gesellschaft'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 1318968
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: fraunhofer.svg
               hash: wKAxmqhx0DaCaBAQY/ghO+XvddMVIIRTYSg+S2cgkoQ=
@@ -1132,7 +1172,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T17:18:31.000Z
+              latest_tweet_date: 2020-06-19T10:43:23.000Z
           - item:
             name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -1151,6 +1191,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/groups/FREEDM-Systems-Center-3603321/'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: freedm-systems-center.svg
               hash: 0tYRfm5NJv3qxXaM/pAzxUNdK2SNGm8UkHohHsdJrgI=
@@ -1175,6 +1216,7 @@ landscape:
               linkedin: null
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: friedrich-alexander-universit-t-erlangen-n-rnberg.svg
               hash: oAJbIRV3TTO9UHY2RU1XStDbeom37YG2caS1hGktCwY=
@@ -1182,7 +1224,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-14T05:52:26.000Z
+              latest_tweet_date: 2020-06-19T11:09:13.000Z
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -1201,8 +1243,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/edu/school?id=50016&trk=edu-cp-title'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 250000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: iowa-state-university.svg
               hash: subuh7K9jcgUboYwQA1hhMGF2DolN4aU3nqOBLZamOg=
@@ -1210,7 +1253,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T23:36:32.000Z
+              latest_tweet_date: 2020-06-19T13:02:20.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -1229,6 +1272,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/school/hochschule-luzern/'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: lucerne-university-of-applied-sciences-and-arts.svg
               hash: PeTqNEIuir+pGinX4pil0CkhiRr8k8cZnz0sep9Oc0Q=
@@ -1236,7 +1280,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T08:00:20.000Z
+              latest_tweet_date: 2020-06-19T15:00:18.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -1255,8 +1299,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/national-renewable-energy-laboratory'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 3800000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: nrel.svg
               hash: bgBb27Ya2WnvyaCz1gvZ+Lr80+58pP5dYhqoD8Bze4s=
@@ -1264,7 +1309,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T22:00:10.000Z
+              latest_tweet_date: 2020-06-19T22:00:09.000Z
           - item:
             name: Pecan Street
             homepage_url: 'https://www.pecanstreet.org/'
@@ -1283,6 +1328,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/pecan-street-inc'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: pecan-street.svg
               hash: tGYhVbJMuhhDqtYTWYWobDAGY4Du1oXKBIV3dfzbQPM=
@@ -1290,7 +1336,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-13T21:00:00.000Z
+              latest_tweet_date: 2020-06-08T20:05:13.000Z
           - item:
             name: Project Haystack
             homepage_url: 'https://project-haystack.org'
@@ -1309,6 +1355,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/project-haystack.org/'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: project-haystack.svg
               hash: cAKPkA/DYnEJ5BfYVBCoNkrqFtCdeSKfTzQfPSd9OmU=
@@ -1316,7 +1363,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-13T15:08:13.000Z
+              latest_tweet_date: 2020-06-08T13:41:36.000Z
           - item:
             name: RWTH Aachen University
             homepage_url: 'https://www.rwth-aachen.de/go/id/a/?lidx=1'
@@ -1335,6 +1382,7 @@ landscape:
               linkedin: null
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: rwth-aachen-university.svg
               hash: N8HfkQkpKwL6C9lBMrWKhnREvEK4NtaMW2JjmoTXGkU=
@@ -1342,7 +1390,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-15T16:24:00.000Z
+              latest_tweet_date: 2020-06-19T13:04:38.000Z
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
@@ -1361,8 +1409,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/stanford-university'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 5000000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: stanford-university.svg
               hash: +zqdeASvnldx2e86yIIxgLPyejdUW3by4q4kR0Y9z2E=
@@ -1370,7 +1419,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T14:30:07.000Z
+              latest_tweet_date: 2020-06-20T00:04:57.000Z
           - item:
             name: TenneT
             homepage_url: 'https://www.tennet.eu/'
@@ -1389,6 +1438,7 @@ landscape:
               linkedin: null
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: tenne-t.svg
               hash: ztBroV0JpKqwVBKwdFuByRQCepvkdLtXSy66CKYivJ4=
@@ -1396,7 +1446,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-12T13:23:46.000Z
+              latest_tweet_date: 2020-06-19T18:30:00.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: 'https://www.turing.ac.uk/'
@@ -1417,6 +1467,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/the-alan-turing-institute'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: the-alan-turing-institute.svg
               hash: zwv/sFz2l1Bttzwrcj0yuZPVsdu+ouVnoVGLSmBiOfo=
@@ -1424,7 +1475,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T12:06:29.000Z
+              latest_tweet_date: 2020-06-19T15:57:51.000Z
           - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
@@ -1443,6 +1494,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/the-energy-coalition/'
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: the-energy-coalition.svg
               hash: KR5m9pRs3u8xZNwO5WZ3WOPcI2yfLsOHNHi4qJiJ7o0=
@@ -1467,6 +1519,7 @@ landscape:
               linkedin: null
               acquisitions: []
               parents: []
+              stockExchange: null
             image_data:
               fileName: university-of-kassel.svg
               hash: HZKA/atTxJbn1Y2wVmqc6cYcuGpKaNVQhHTEwIQo7m0=
@@ -1474,7 +1527,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-14T11:29:19.000Z
+              latest_tweet_date: 2020-06-19T05:45:14.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -1493,8 +1546,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/vanderbilt-university'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 28552273
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: vanderbilt-university.svg
               hash: ikssMeWlYxnBl4LYK6ZFve7dVE1Cyb3LnnS23OnDfBs=
@@ -1502,7 +1556,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T14:44:43.000Z
+              latest_tweet_date: 2020-06-19T21:00:42.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -1521,8 +1575,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/school/166875/'
               acquisitions: []
               parents: []
-              kind: funding
               funding: 10000000
+              stockExchange: null
+              kind: funding
             image_data:
               fileName: washington-state-university.svg
               hash: YBnLO+oY6UBN6t1VRBNccVo4HLKUflQqOX88ABpNefk=
@@ -1530,6 +1585,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-05-16T20:17:22.000Z
+              latest_tweet_date: 2020-06-19T22:32:34.000Z
 twitter_options:
   count: 0
+updated_at: 2020-06-20T01:03:16.032Z
