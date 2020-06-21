@@ -112,6 +112,7 @@ const makeLocalBuild = async function() {
       nvm use \`cat .nvmrc\`
       npm install -g npm --no-progress
       npm install -g yarn@latest
+      export NODE_OPTIONS="--unhandled-rejections=strict"
       ~/.nvm/versions/node/\`cat .nvmrc\`/bin/yarn >/dev/null
       export JEST_OPTIONS="-i"
       export USE_OLD_PUPPETEER=1
