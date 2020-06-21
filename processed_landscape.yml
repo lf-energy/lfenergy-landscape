@@ -8,250 +8,11 @@ landscape:
         items:
           - item:
             name: RIAPS
+            description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://www.lfenergy.org/projects/riaps/'
-            repo_url: 'https://github.com/RIAPS/riaps.github.io'
+            project: incubation
+            repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            github_data:
-              languages: []
-              contributions: 0;0;0;0;0;9;3;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-05-26Z
-              stars: 1
-              license: Other
-              description: RIAPS github website content.
-              latest_commit_date: '2020-02-04T14:43:42Z'
-              latest_commit_link: /RIAPS/riaps.github.io/commit/73ccf0c3ccd7511a19ce21d893c4426fbec5580c
-              contributors_count: 7
-              contributors_link: 'https://github.com/RIAPS/riaps.github.io/graphs/contributors'
-            github_start_commit_data:
-              start_commit_link: /RIAPS/riaps.github.io/commit/15909fcb26b0776f1b92558266777da639f350fc
-              start_date: '2018-09-06T18:34:17Z'
-            image_data:
-              fileName: riaps.svg
-              hash: Kn/K0D4Nh0nbQ2n3klgHMij/6pi+7uy670tkTosMs1E=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
-      - subcategory:
-        name: Infrastructure Management
-        items:
-          - item:
-            name: Grid eXchange Fabric
-            homepage_url: 'https://www.lfenergy.org/projects/gxf/'
-            logo: gxf.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            image_data:
-              fileName: grid-e-xchange-fabric.svg
-              hash: INByt/ozNLob9+HP33T2fen7VgifyEY4rVRkdjxEFOA=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
-  - category:
-    name: Asset Management
-  - category:
-    name: Customer and Market
-    subcategories:
-      - subcategory:
-        name: Customer Relationship and Communication
-        items:
-          - item:
-            name: OpenEEmeter
-            homepage_url: 'https://www.lfenergy.org/projects/openeemeter/'
-            logo: openeemeter.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            image_data:
-              fileName: open-e-emeter.svg
-              hash: evEq1rvFMIq2Atb+gEblebiYC5lwR22ASHBcDgUt5Cc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
-      - subcategory:
-        name: Metering and Compensation
-        items:
-          - item:
-            name: Energy Market Methods Consortium
-            homepage_url: 'https://www.lfenergy.org/projects/em2/'
-            logo: em2.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            image_data:
-              fileName: energy-market-methods-consortium.svg
-              hash: FGdXgrtVLy3aUXud4WovPZ5qDukhp5ttMuh241pdkRw=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
-  - category:
-    name: Shared
-    subcategories:
-      - subcategory:
-        name: Data Management
-        items:
-          - item:
-            name: OEDI
-            homepage_url: 'https://www.lfenergy.org/projects/oedi/'
-            logo: oedi.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            image_data:
-              fileName: oedi.svg
-              hash: XlW2SD6FvkipdNnU21UEf4r673qUOJJ1waZs9wjf7Q8=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
-      - subcategory:
-        name: Unified Operator's UX Components and Framework
-        items:
-          - item:
-            name: OperatorFabric
-            homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
-            logo: operatorfabric.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            image_data:
-              fileName: operator-fabric.svg
-              hash: 3RZF4TBQNX/0qiwubZ5YsyJ80VgL7hmstj9NIer96cw=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
-  - category:
-    name: System Management
-    subcategories:
-      - subcategory:
-        name: Power System Calculation
-        items:
-          - item:
-            name: PowSyBl
-            homepage_url: 'https://www.lfenergy.org/projects/powsybl/'
-            logo: powsybl.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-            image_data:
-              fileName: pow-sy-bl.svg
-              hash: J3vFm3SiQoDXQbJ1Vtdm55JhtY7No6hBlj+BG4m/RMI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-05-15T19:02:02.000Z
-  - category:
-    name: Projects
-    subcategories:
-      - subcategory:
-        name: Metering & Compensation
-        items:
-          - item:
-            name: Energy Market Methods Consortium (EM2)
-            description: Reducing the costs of scaling demand-side energy through collaboration
-            homepage_url: 'https://www.energymarketmethods.org'
-            project: earlyadoption
-            repo_url: 'https://github.com/energy-market-methods/caltrack'
-            logo: em2.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
             crunchbase_data:
               name: LF Energy
@@ -270,36 +31,162 @@ landscape:
               stockExchange: null
             github_data:
               languages:
-                - name: Dockerfile
-                  value: 286
-                  color: '#384d54'
-              contributions: 1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-06-23Z
-              stars: 29
-              license: Creative Commons Zero v1.0 Universal
-              description: Shared repository for documentation and testing of CalTRACK methods
-              latest_commit_date: '2019-06-28T00:57:10Z'
-              latest_commit_link: /energy-market-methods/caltrack/commit/29e2b155438bf0d560938d07bb542b8c7acdd7c4
-              release_date: '2019-11-14T21:34:37Z'
-              release_link: 'https://github.com/energy-market-methods/caltrack/releases'
-              contributors_count: 15
-              contributors_link: 'https://github.com/energy-market-methods/caltrack/graphs/contributors'
+                - name: C++
+                  value: 2312861
+                  color: '#f34b7d'
+                - name: CMake
+                  value: 39675
+                - name: Python
+                  value: 29979
+                  color: '#3572A5'
+                - name: Makefile
+                  value: 10885
+                  color: '#427819'
+                - name: C
+                  value: 8082
+                  color: '#555555'
+                - name: Cap'n Proto
+                  value: 7137
+                - name: Shell
+                  value: 3320
+                  color: '#89e051'
+              contributions: 0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-06-30Z
+              stars: 14
+              license: Other
+              description: C++ component model and discovery service implementation
+              latest_commit_date: '2019-11-20T18:14:10Z'
+              latest_commit_link: /RIAPS/riaps-core/commit/842fc9c01d4500f513e9792ceff0338e3de910a2
+              release_date: '2019-11-20T18:21:31Z'
+              release_link: 'https://github.com/RIAPS/riaps-core/releases'
+              contributors_count: 5
+              contributors_link: 'https://github.com/RIAPS/riaps-core/graphs/contributors'
             repos:
-              - url: 'https://github.com/energy-market-methods/caltrack'
-                stars: 29
+              - url: 'https://github.com/RIAPS/riaps-core'
+                stars: 14
             github_start_commit_data:
-              start_commit_link: /energy-market-methods/caltrack/commit/1688277b69d4e3b5c9d4eb8cf780c4e68031ad8e
-              start_date: '2016-08-25T14:53:20Z'
+              start_commit_link: /RIAPS/riaps-core/commit/f1bcefe881c7c0e5e3236aabe9a3c70b4ac2119f
+              start_date: '2016-09-12T15:46:10Z'
             image_data:
-              fileName: energy-market-methods-consortium-em2.svg
-              hash: FGdXgrtVLy3aUXud4WovPZ5qDukhp5ttMuh241pdkRw=
+              fileName: riaps.svg
+              hash: Kn/K0D4Nh0nbQ2n3klgHMij/6pi+7uy670tkTosMs1E=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-06-17T17:00:48.000Z
+      - subcategory:
+        name: Infrastructure Management
+        items:
           - item:
-            name: Open EEmeter
+            name: Grid eXchange Fabric
+            description: Control and Monitor Smart Devices
+            homepage_url: 'https://opensmartgridplatform.org/'
+            project: earlyadoption
+            repo_url: 'https://github.com/OSGP/open-smart-grid-platform'
+            logo: gxf.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Java
+                  value: 11052321
+                  color: '#b07219'
+                - name: Gherkin
+                  value: 725737
+                  color: '#5B2063'
+                - name: TSQL
+                  value: 112619
+                - name: PLSQL
+                  value: 35171
+                  color: '#dad8d8'
+                - name: Groovy
+                  value: 18631
+                  color: '#e69f56'
+                - name: PLpgSQL
+                  value: 12795
+                - name: Shell
+                  value: 5505
+                  color: '#89e051'
+                - name: SQLPL
+                  value: 1162
+                - name: Dockerfile
+                  value: 359
+                  color: '#384d54'
+              contributions: 25;27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;3;2;5;16;42;37;11;31;8;23;30;28;22;40;26;14;19;6;12;7;7;9
+              firstWeek: 2019-06-30Z
+              stars: 42
+              license: Apache License 2.0
+              description: >-
+                This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
+                Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly
+                mode to preserve the historical information.
+              latest_commit_date: '2020-06-16T14:49:21Z'
+              latest_commit_link: /OSGP/open-smart-grid-platform/commit/bf737be1b4bfab6281acd3e5468b028963521d62
+              contributors_count: 42
+              contributors_link: 'https://github.com/OSGP/open-smart-grid-platform/graphs/contributors'
+            repos:
+              - url: 'https://github.com/OSGP/open-smart-grid-platform'
+                stars: 42
+            github_start_commit_data:
+              start_commit_link: /OSGP/open-smart-grid-platform/commit/ca5f57a4f1571aee3d71b2003a4d93ebb4f4d60c
+              start_date: '2015-03-25T22:26:20Z'
+            image_data:
+              fileName: grid-e-xchange-fabric.svg
+              hash: INByt/ozNLob9+HP33T2fen7VgifyEY4rVRkdjxEFOA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
+  - category:
+    name: Customer and Market
+    subcategories:
+      - subcategory:
+        name: Customer Relationship and Communication
+        items:
+          - item:
+            name: Estfeed
+            description: Estfeed is a fully distributed consent management and consent-based data sharing platform.
+            homepage_url: 'https://www.estfeed.eu/en/home'
+            logo: estfeed.svg
+            crunchbase: 'https://www.crunchbase.com/organization/estfeed'
+            crunchbase_data:
+              name: Estfeed
+              description: Estfeed is a data sharing platform designed for organisations and individuals.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://estfeed.ee/en/'
+              city: Tallinn
+              region: Harjumaa
+              country: Estonia
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: estfeed.svg
+              hash: ws4EacqmloWjJnSflrH8t99xZqr4Y2tY4DEx19xkbpQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: OpenEEmeter
             description: Consistent treatment of energy meter data for demand flexibility
             homepage_url: 'http://eemeter.openee.io/'
             project: earlyadoption
@@ -333,7 +220,7 @@ landscape:
                   value: 483
                   color: '#384d54'
               contributions: 0;0;0;8;13;0;0;12;0;3;0;0;4;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0
-              firstWeek: 2019-06-23Z
+              firstWeek: 2019-06-30Z
               stars: 115
               license: Apache License 2.0
               description: >-
@@ -360,12 +247,71 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-06-17T17:00:48.000Z
       - subcategory:
+        name: Metering and Compensation
+        items:
+          - item:
+            name: Energy Market Methods Consortium (EM2)
+            description: Reducing the costs of scaling demand-side energy through collaboration
+            homepage_url: 'https://www.lfenergy.org/projects/em2/'
+            project: earlyadoption
+            repo_url: 'https://github.com/energy-market-methods/caltrack'
+            logo: em2.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Dockerfile
+                  value: 286
+                  color: '#384d54'
+              contributions: 1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-06-30Z
+              stars: 29
+              license: Creative Commons Zero v1.0 Universal
+              description: Shared repository for documentation and testing of CalTRACK methods
+              latest_commit_date: '2019-06-28T00:57:10Z'
+              latest_commit_link: /energy-market-methods/caltrack/commit/29e2b155438bf0d560938d07bb542b8c7acdd7c4
+              release_date: '2019-11-14T21:34:37Z'
+              release_link: 'https://github.com/energy-market-methods/caltrack/releases'
+              contributors_count: 15
+              contributors_link: 'https://github.com/energy-market-methods/caltrack/graphs/contributors'
+            repos:
+              - url: 'https://github.com/energy-market-methods/caltrack'
+                stars: 29
+            github_start_commit_data:
+              start_commit_link: /energy-market-methods/caltrack/commit/1688277b69d4e3b5c9d4eb8cf780c4e68031ad8e
+              start_date: '2016-08-25T14:53:20Z'
+            image_data:
+              fileName: energy-market-methods-consortium-em2.svg
+              hash: FGdXgrtVLy3aUXud4WovPZ5qDukhp5ttMuh241pdkRw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-17T17:00:48.000Z
+  - category:
+    name: Shared
+    subcategories:
+      - subcategory:
         name: Data Management
         items:
           - item:
-            name: Open Energy Data Initiative (OEDI)
+            name: OEDI
             description: Improving Data Access to Enable Advanced Analytics and Research Innovation
-            homepage_url: 'https://openei.org/wiki/Data'
+            homepage_url: 'https://www.lfenergy.org/projects/oedi/'
             project: incubation
             logo: oedi.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
@@ -385,7 +331,7 @@ landscape:
                 - 'https://www.crunchbase.com/organization/linux-foundation'
               stockExchange: null
             image_data:
-              fileName: open-energy-data-initiative-oedi.svg
+              fileName: oedi.svg
               hash: XlW2SD6FvkipdNnU21UEf4r673qUOJJ1waZs9wjf7Q8=
             best_practice_data:
               badge: false
@@ -393,12 +339,12 @@ landscape:
             twitter_data:
               latest_tweet_date: 2020-06-17T17:00:48.000Z
       - subcategory:
-        name: UX Components & Framework
+        name: Unified Operator's UX Components and Framework
         items:
           - item:
-            name: Operator Fabric
+            name: OperatorFabric
             description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
-            homepage_url: 'https://opfab.github.io'
+            homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
             project: incubation
             repo_url: 'https://github.com/opfab/operatorfabric-core'
             logo: operatorfabric.svg
@@ -448,8 +394,8 @@ landscape:
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                36;25;55;39;25;63;24;13;10;11;10;24;20;26;43;8;16;25;0;8;12;10;35;6;18;10;21;12;23;30;34;47;28;31;13;32;26;17;17;21;34;18;19;15;13;31;39;27;23;20;31;30
-              firstWeek: 2019-06-23Z
+                37;24;55;39;25;63;24;13;10;11;10;24;20;28;41;8;16;25;0;8;12;10;35;6;18;11;20;12;23;30;34;47;28;31;13;32;28;15;17;21;34;18;19;15;14;30;39;27;23;20;31;30
+              firstWeek: 2019-06-30Z
               stars: 13
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
@@ -471,11 +417,14 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-06-17T17:00:48.000Z
+  - category:
+    name: System Management
+    subcategories:
       - subcategory:
         name: Power System Calculation
         items:
           - item:
-            name: Power System Blocks
+            name: PowSyBl
             description: A High-Performance Computing Framework For Grid Simulation and Planning
             homepage_url: 'https://www.powsybl.org'
             project: incubation
@@ -514,8 +463,8 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 5;6;9;6;6;0;4;4;3;16;23;15;8;2;10;4;5;6;3;8;15;6;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;5;2;7;2;12;6
-              firstWeek: 2019-06-23Z
+              contributions: 5;7;8;6;6;0;4;4;3;16;23;15;8;2;10;5;4;6;3;8;17;4;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;5;2;7;2;12;6
+              firstWeek: 2019-06-30Z
               stars: 57
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
@@ -532,158 +481,8 @@ landscape:
               start_commit_link: /powsybl/powsybl-core/commit/7defb875a7fabb2c11020f797c32d26c786244d0
               start_date: '2016-04-07T09:42:08Z'
             image_data:
-              fileName: power-system-blocks.svg
+              fileName: pow-sy-bl.svg
               hash: J3vFm3SiQoDXQbJ1Vtdm55JhtY7No6hBlj+BG4m/RMI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
-      - subcategory:
-        name: Edge Node Control
-        items:
-          - item:
-            name: RIAPS Project
-            description: An Effective Distributed Software Platform for Smart Grid Apps
-            homepage_url: 'https://riaps.isis.vanderbilt.edu'
-            project: incubation
-            repo_url: 'https://github.com/RIAPS/riaps-core'
-            logo: riaps.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-              stockExchange: null
-            github_data:
-              languages:
-                - name: C++
-                  value: 2312861
-                  color: '#f34b7d'
-                - name: CMake
-                  value: 39675
-                - name: Python
-                  value: 29979
-                  color: '#3572A5'
-                - name: Makefile
-                  value: 10885
-                  color: '#427819'
-                - name: C
-                  value: 8082
-                  color: '#555555'
-                - name: Cap'n Proto
-                  value: 7137
-                - name: Shell
-                  value: 3320
-                  color: '#89e051'
-              contributions: 0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2019-06-23Z
-              stars: 14
-              license: Other
-              description: C++ component model and discovery service implementation
-              latest_commit_date: '2019-11-20T18:14:10Z'
-              latest_commit_link: /RIAPS/riaps-core/commit/842fc9c01d4500f513e9792ceff0338e3de910a2
-              release_date: '2019-11-20T18:21:31Z'
-              release_link: 'https://github.com/RIAPS/riaps-core/releases'
-              contributors_count: 5
-              contributors_link: 'https://github.com/RIAPS/riaps-core/graphs/contributors'
-            repos:
-              - url: 'https://github.com/RIAPS/riaps-core'
-                stars: 14
-            github_start_commit_data:
-              start_commit_link: /RIAPS/riaps-core/commit/f1bcefe881c7c0e5e3236aabe9a3c70b4ac2119f
-              start_date: '2016-09-12T15:46:10Z'
-            image_data:
-              fileName: riaps-project.svg
-              hash: Kn/K0D4Nh0nbQ2n3klgHMij/6pi+7uy670tkTosMs1E=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
-      - subcategory:
-        name: Smart Device Control
-        items:
-          - item:
-            name: Grid eXchange Fabric Project
-            description: Control and Monitor Smart Devices
-            homepage_url: 'https://opensmartgridplatform.org/'
-            project: earlyadoption
-            repo_url: 'https://github.com/OSGP/open-smart-grid-platform'
-            logo: gxf.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-            crunchbase_data:
-              name: LF Energy
-              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.lfenergy.org/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/LFE_Foundation'
-              linkedin: 'https://www.linkedin.com/company/lf-energy'
-              acquisitions: []
-              parents:
-                - 'https://www.crunchbase.com/organization/linux-foundation'
-              stockExchange: null
-            github_data:
-              languages:
-                - name: Java
-                  value: 11052321
-                  color: '#b07219'
-                - name: Gherkin
-                  value: 725737
-                  color: '#5B2063'
-                - name: TSQL
-                  value: 112619
-                - name: PLSQL
-                  value: 35171
-                  color: '#dad8d8'
-                - name: Groovy
-                  value: 18631
-                  color: '#e69f56'
-                - name: PLpgSQL
-                  value: 12795
-                - name: Shell
-                  value: 5505
-                  color: '#89e051'
-                - name: SQLPL
-                  value: 1162
-                - name: Dockerfile
-                  value: 359
-                  color: '#384d54'
-              contributions: 25;27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;3;2;5;16;42;37;11;31;8;23;30;28;22;40;26;14;19;6;12;7;7;9
-              firstWeek: 2019-06-23Z
-              stars: 42
-              license: Apache License 2.0
-              description: >-
-                This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
-                Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly
-                mode to preserve the historical information.
-              latest_commit_date: '2020-06-16T14:49:21Z'
-              latest_commit_link: /OSGP/open-smart-grid-platform/commit/bf737be1b4bfab6281acd3e5468b028963521d62
-              contributors_count: 42
-              contributors_link: 'https://github.com/OSGP/open-smart-grid-platform/graphs/contributors'
-            repos:
-              - url: 'https://github.com/OSGP/open-smart-grid-platform'
-                stars: 42
-            github_start_commit_data:
-              start_commit_link: /OSGP/open-smart-grid-platform/commit/ca5f57a4f1571aee3d71b2003a4d93ebb4f4d60c
-              start_date: '2015-03-25T22:26:20Z'
-            image_data:
-              fileName: grid-e-xchange-fabric-project.svg
-              hash: INByt/ozNLob9+HP33T2fen7VgifyEY4rVRkdjxEFOA=
             best_practice_data:
               badge: false
               percentage: null
@@ -792,7 +591,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T20:43:02.000Z
+              latest_tweet_date: 2020-06-20T20:12:02.000Z
           - item:
             name: Elering
             homepage_url: 'https://elering.ee'
@@ -1089,7 +888,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T12:30:57.000Z
+              latest_tweet_date: 2020-06-20T09:30:41.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -1143,7 +942,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T18:52:35.000Z
+              latest_tweet_date: 2020-06-20T21:51:31.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -1172,7 +971,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T10:43:23.000Z
+              latest_tweet_date: 2020-06-20T18:43:34.000Z
           - item:
             name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -1224,7 +1023,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T11:09:13.000Z
+              latest_tweet_date: 2020-06-20T18:09:36.000Z
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -1280,7 +1079,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T15:00:18.000Z
+              latest_tweet_date: 2020-06-20T10:00:30.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -1556,7 +1355,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T21:00:42.000Z
+              latest_tweet_date: 2020-06-20T16:30:05.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -1588,4 +1387,4 @@ landscape:
               latest_tweet_date: 2020-06-19T22:32:34.000Z
 twitter_options:
   count: 0
-updated_at: 2020-06-20T01:03:16.032Z
+updated_at: 2020-06-21T01:21:51.365Z
