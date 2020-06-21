@@ -302,6 +302,61 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-06-17T17:00:48.000Z
+      - subcategory:
+        name: Market Platform Gateway
+        items:
+          - item:
+            name: Autobidder
+            description: >-
+              Autobidder provides independent power producers, utilities and capital partners the ability to autonomously monetize battery assets. Autobidder is
+              a real-time trading and control platform that provides value-based asset management and portfolio optimization, enabling owners and operators to
+              configure operational strategies that maximize revenue according to their business objectives and risk preferences.
+            homepage_url: 'https://www.tesla.com/en_CA/support/autobidder'
+            logo: Tesla-Autobidder.svg
+            twitter: 'https://twitter.com/Tesla'
+            crunchbase: 'https://www.crunchbase.com/organization/tesla-motors'
+            crunchbase_data:
+              name: Tesla
+              description: Tesla Motors is a company developing a full range of electric cars.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.tesla.com/'
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/Tesla'
+              linkedin: 'https://www.linkedin.com/company/tesla-motors'
+              acquisitions:
+                - date: '2015-05-08'
+                  acquiree: Riviera Tool LLC
+                - date: '2016-06-22'
+                  acquiree: SolarCity
+                  price: 2600000000
+                - date: '2016-11-08'
+                  acquiree: Grohmann Engineering
+                - date: '2017-11-06'
+                  acquiree: Perbix
+                - date: '2019-02-04'
+                  acquiree: Maxwell Technologies
+                  price: 218000000
+                - date: '2019-10-01'
+                  acquiree: DeepScale
+              parents: []
+              ticker: TSLA
+              funding: 20434184632
+              stockExchange: nasdaq
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 185641943040
+              effective_ticker: TSLA
+            image_data:
+              fileName: autobidder.svg
+              hash: X0fyS8OL7uvN/+ADtkNKJiW18/N+R0FZQdyX9XgYQZw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-20T20:44:50.000Z
   - category:
     name: Shared
     subcategories:
@@ -488,6 +543,296 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-06-17T17:00:48.000Z
+      - subcategory:
+        name: System Control
+        items:
+          - item:
+            name: Spectrum Power
+            description: 'Spectrum Power, the open and scalable platform for High, Medium and Low Voltage grid operation.'
+            homepage_url: 'https://new.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/grid-control.html'
+            logo: Siemens-Spectrum-Power.svg
+            twitter: 'https://twitter.com/siemens_energy'
+            crunchbase: 'https://www.crunchbase.com/organization/siemens'
+            crunchbase_data:
+              name: Siemens
+              description: 'Siemens is a multinational engineering and electronics company involved in the fields of industry, energy, transportation and healthcare.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.siemens.com'
+              city: Munich
+              region: Bayern
+              country: Germany
+              twitter: 'http://twitter.com/Siemens'
+              linkedin: 'https://www.linkedin.com/company/siemens'
+              acquisitions:
+                - date: '1979-01-01'
+                  acquiree: Litronix
+                - date: '1990-05-14'
+                  acquiree: Siemens Nixdorf Informationssysteme AG
+                - date: '1999-03-01'
+                  acquiree: Argon Networks
+                  price: 240000000
+                - date: '2000-03-14'
+                  acquiree: Entex IT Service
+                  price: 105000000
+                - date: '2000-05-02'
+                  acquiree: Siemens Medical Solutions Health Services Corp
+                  price: 2100000000
+                - date: '2000-09-27'
+                  acquiree: Acuson
+                  price: 700000000
+                - date: '2001-12-20'
+                  acquiree: Pointshare
+                - date: '2002-01-02'
+                  acquiree: Efficient Networks
+                  price: 1500000000
+                - date: '2004-01-12'
+                  acquiree: eShip4u
+                - date: '2004-01-13'
+                  acquiree: IndX Software Corporation
+                - date: '2004-06-01'
+                  acquiree: Trench Electric Holding
+                - date: '2004-12-01'
+                  acquiree: Siemens Wind Power A/S
+                - date: '2004-12-10'
+                  acquiree: Chantry Networks
+                - date: '2005-03-18'
+                  acquiree: CTI Molecular Imaging
+                - date: '2005-03-30'
+                  acquiree: Flender Holding
+                - date: '2005-04-08'
+                  acquiree: Myrio
+                - date: '2005-07-11'
+                  acquiree: Robicon Corp.
+                - date: '2005-09-30'
+                  acquiree: Garderos Software Innovations
+                - date: '2005-11-03'
+                  acquiree: Bewator
+                - date: '2005-12-05'
+                  acquiree: Electrium
+                - date: '2005-12-14'
+                  acquiree: American Electronic Components
+                - date: '2006-04-27'
+                  acquiree: Diagnostic Products Corporation
+                - date: '2006-07-20'
+                  acquiree: Kuehnle Kopp Kausch AG
+                - date: '2006-10-31'
+                  acquiree: VistaScape
+                - date: '2007-01-01'
+                  acquiree: VAI – INGDESI Automation Ltda
+                - date: '2007-01-25'
+                  acquiree: UGS Corp
+                - date: '2007-04-05'
+                  acquiree: IBS AG
+                - date: '2009-04-01'
+                  acquiree: Elan Software Systems SA
+                - date: '2009-10-15'
+                  acquiree: Solel Solar Systems
+                  price: 418000000
+                - date: '2010-10-01'
+                  acquiree: SureGrid
+                - date: '2010-11-15'
+                  acquiree: Site Controls
+                - date: '2011-03-07'
+                  acquiree: Bennex AS
+                - date: '2011-03-07'
+                  acquiree: Poseidon Group AS
+                - date: '2011-07-07'
+                  acquiree: NEM B.V
+                - date: '2011-08-16'
+                  acquiree: Advanced Telemetry
+                - date: '2011-11-09'
+                  acquiree: Vistagy
+                - date: '2011-12-06'
+                  acquiree: eMeter
+                - date: '2012-01-10'
+                  acquiree: Pace Global Energy Services
+                - date: '2012-01-31'
+                  acquiree: RuggedCom
+                - date: '2012-03-20'
+                  acquiree: Expro International - Connectors & Measurements (C&M) Business
+                  price: 630000000
+                - date: '2012-04-25'
+                  acquiree: FCE LLC
+                - date: '2012-05-01'
+                  acquiree: Marine Current Turbines
+                - date: '2012-10-02'
+                  acquiree: VRcontext International
+                - date: '2012-11-08'
+                  acquiree: LMS International NV
+                - date: '2012-11-28'
+                  acquiree: Invensys Rail Ltd
+                  price: 2845428560
+                - date: '2013-06-03'
+                  acquiree: The Preactor Group
+                - date: '2013-07-01'
+                  acquiree: 'Service Guide, Inc.'
+                - date: '2013-12-19'
+                  acquiree: TESIS PLMware GmbH
+                - date: '2014-09-01'
+                  acquiree: Dresser-Rand Group
+                  price: 7600000000
+                - date: '2014-10-14'
+                  acquiree: Camstar Systems
+                - date: '2015-07-17'
+                  acquiree: Magazino
+                - date: '2016-01-25'
+                  acquiree: CD-adapco Group
+                  price: 970000000
+                - date: '2016-08-02'
+                  acquiree: Materials Solutions Ltd
+                - date: '2016-11-14'
+                  acquiree: Mentor Graphics
+                  price: 4500000000
+                - date: '2017-04-28'
+                  acquiree: HaCon Ingenieurges. mbH
+                - date: '2017-06-23'
+                  acquiree: MRX Technologies Group
+                - date: '2017-08-30'
+                  acquiree: Tass International
+                - date: '2017-11-21'
+                  acquiree: Solido Design Automation
+                - date: '2018-04-05'
+                  acquiree: Agilion GmbH
+                - date: '2018-05-17'
+                  acquiree: J2 Innovations
+                - date: '2018-06-22'
+                  acquiree: Austemper Design Systems
+                - date: '2018-06-26'
+                  acquiree: Comfy
+                - date: '2018-08-01'
+                  acquiree: Mendix
+                  price: 700000000
+                - date: '2019-06-11'
+                  acquiree: ESTEQ
+                - date: '2019-09-16'
+                  acquiree: Process Systems Enterprise
+                - date: '2019-11-15'
+                  acquiree: MultiMechanics
+                - date: '2020-01-24'
+                  acquiree: C&S Electric
+                  price: 297000000
+              parents: []
+              ticker: SIEMENS.NS
+              funding: 5178048063
+              stockExchange: nse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 4983416897
+              effective_ticker: SIEMENS.NS
+            image_data:
+              fileName: spectrum-power.svg
+              hash: +pT0JIKH6pOBtGj30jCY0vONu0FsX3Qn9+aYqMiuHAE=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-21T07:22:35.000Z
+          - item:
+            name: ADMS
+            description: Advanced Distribution Management Solutions
+            homepage_url: 'https://www.ge.com/digital/applications/advanced-distribution-management-solutions-adms'
+            logo: General-Electric-ADMS.svg
+            twitter: 'https://twitter.com/generalelectric'
+            crunchbase: 'https://www.crunchbase.com/organization/general-electric'
+            crunchbase_data:
+              name: General Electric (GE)
+              description: General Electric Company offers infrastructure and financial services worldwide.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.ge.com'
+              city: Boston
+              region: Massachusetts
+              country: United States
+              twitter: 'http://twitter.com/generalelectric'
+              linkedin: 'https://www.linkedin.com/company/ge'
+              acquisitions:
+                - date: '1980-01-01'
+                  acquiree: Intersil
+                - date: '1985-12-12'
+                  acquiree: RCA
+                  price: 6280000000
+                - date: '1986-04-25'
+                  acquiree: Kidder Peabody & Company
+                  price: 600000000
+                - date: '2002-01-22'
+                  acquiree: Bently Nevada
+                - date: '2003-10-09'
+                  acquiree: Instrumentarium
+                  price: 2400000000
+                - date: '2004-03-14'
+                  acquiree: 'InVision Technologies,Inc'
+                  price: 900000000
+                - date: '2007-01-11'
+                  acquiree: Terion
+                - date: '2007-09-03'
+                  acquiree: Sondex
+                  price: 583000000
+                - date: '2008-04-11'
+                  acquiree: Sensicore
+                - date: '2008-07-24'
+                  acquiree: Vital Signs
+                  price: 860000000
+                - date: '2008-09-30'
+                  acquiree: MicroCal
+                - date: '2009-11-23'
+                  acquiree: Naverus
+                - date: '2010-12-13'
+                  acquiree: Wellstream
+                - date: '2011-03-29'
+                  acquiree: Converteam
+                - date: '2011-04-26'
+                  acquiree: John Wood Group - Well Support
+                - date: '2012-05-18'
+                  acquiree: Industrea Limited
+                - date: '2012-11-26'
+                  acquiree: Albeo Technologies
+                - date: '2012-12-21'
+                  acquiree: Avio Aero
+                  price: 4300000000
+                - date: '2013-09-27'
+                  acquiree: Imbera Electronics
+                - date: '2014-01-21'
+                  acquiree: API Healthcare
+                - date: '2014-05-09'
+                  acquiree: Wurldtech
+                - date: '2014-07-02'
+                  acquiree: Monsal Holdings
+                - date: '2016-04-04'
+                  acquiree: Metem Corporation
+                - date: '2016-09-06'
+                  acquiree: Arcam
+                - date: '2016-10-11'
+                  acquiree: LM Wind Power
+                  price: 1650000000
+                - date: '2016-10-27'
+                  acquiree: Concept Laser
+                  price: 599000000
+                - date: '2016-11-15'
+                  acquiree: Bit Stew Systems
+                  price: 153000000
+                - date: '2016-11-15'
+                  acquiree: Wise.io
+                - date: '2017-07-02'
+                  acquiree: Baker Hughes
+                - date: '2017-07-30'
+                  acquiree: IQP Corporation
+              parents: []
+              ticker: GE
+              funding: 2000000
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 62541692928
+              effective_ticker: GE
+            image_data:
+              fileName: adms.svg
+              hash: +yIZugaROJm9Newmh6AcSJ9tEmFVqyfGd5l6WmRDpzg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-15T14:54:57.000Z
   - category:
     name: LF Energy Member
     subcategories:
