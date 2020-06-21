@@ -116,7 +116,7 @@ const makeLocalBuild = async function() {
       export JEST_OPTIONS="-i"
       export USE_OLD_PUPPETEER=1
       PROJECT_PATH=.. ~/.nvm/versions/node/\`cat .nvmrc\`/bin/yarn build
-    `, { assignFn: (x) => localPid = x, showOutputFn: () => remoteFailed });
+    `, { assignFn: (x) => localPid = x, showOutputFn: () => true });
 
     if (!buildDone) {
       buildDone = true;
