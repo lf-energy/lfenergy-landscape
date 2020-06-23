@@ -135,10 +135,102 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T17:30:01.000Z
+              latest_tweet_date: 2020-06-22T19:30:01.000Z
+          - item:
+            name: OpenMUC
+            description: 'OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.'
+            homepage_url: 'https://www.openmuc.org/'
+            repo_url: 'https://github.com/openmuc/jrxtx'
+            logo: openmuc-text.svg
+            twitter: 'https://twitter.com/FraunhoferISE'
+            crunchbase: 'https://www.crunchbase.com/organization/openmuc'
+            crunchbase_data:
+              name: OpenMUC
+              description: Software Solutions for Monitoring and Control Systems
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.openmuc.org/'
+              city: Freiburg Im Breisgau
+              region: Baden-Wurttemberg
+              country: Germany
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: C
+                  value: 504604
+                  color: '#555555'
+                - name: Java
+                  value: 340068
+                  color: '#b07219'
+                - name: C++
+                  value: 136962
+                  color: '#f34b7d'
+                - name: Shell
+                  value: 109041
+                  color: '#89e051'
+                - name: M4
+                  value: 21160
+                - name: Makefile
+                  value: 7921
+                  color: '#427819'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2019-06-30Z
+              stars: 55
+              license: GNU Lesser General Public License v2.1
+              description: 'The Java serial communication library. '
+              latest_commit_date: '2019-11-24T14:51:14Z'
+              latest_commit_link: /openmuc/jrxtx/commit/a785442a2925b3b55f91b9d53f744e8ab39a267b
+              release_date: '2017-02-13T16:28:11Z'
+              release_link: 'https://github.com/openmuc/jrxtx/releases'
+              contributors_count: 7
+              contributors_link: 'https://github.com/openmuc/jrxtx/graphs/contributors'
+            repos:
+              - url: 'https://github.com/openmuc/jrxtx'
+                stars: 55
+            github_start_commit_data:
+              start_commit_link: /openmuc/jrxtx/commit/18507807f86f10ecbd24c243e941c9957bb65c54
+              start_date: '2010-06-03T03:28:59Z'
+            image_data:
+              fileName: open-muc.svg
+              hash: cL4ekgg6FRJ1P0WDdx2uqKVDqUQ4ZHp9G4AYC3pMQHY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-22T08:52:49.000Z
       - subcategory:
         name: Edge Node Control
         items:
+          - item:
+            name: Grid Protection Alliance
+            description: GPA is a not-for-profit corporation formed to facilitate the development of comprehensive electric energy solutions.
+            homepage_url: 'https://www.gridprotectionalliance.org/'
+            logo: gridprotectionalliance.svg
+            crunchbase: 'https://www.crunchbase.com/organization/grid-protection-alliance'
+            crunchbase_data:
+              name: Grid Protection Alliance
+              description: Open Source Software & Services for Electric Utilities
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.gridprotectionalliance.org/'
+              city: Chattanooga
+              region: Tennessee
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: grid-protection-alliance.svg
+              hash: dnlm79LrFwg9k2QYUMlfdQ/qibxVLkXxoTaZKa8d/cc=
+            best_practice_data:
+              badge: false
+              percentage: null
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
@@ -183,7 +275,7 @@ landscape:
                 - name: Shell
                   value: 3320
                   color: '#89e051'
-              contributions: 0;2;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 1;1;0;1;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-06-30Z
               stars: 14
               license: Other
@@ -207,7 +299,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
       - subcategory:
         name: Infrastructure Management
         items:
@@ -260,7 +352,7 @@ landscape:
                 - name: Dockerfile
                   value: 359
                   color: '#384d54'
-              contributions: 25;27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;4;1;5;16;42;37;11;31;8;27;26;28;22;40;26;14;22;3;12;7;7;10
+              contributions: 32;23;1;2;32;22;7;8;17;23;18;4;18;13;12;2;3;2;8;15;18;20;5;20;11;8;0;2;4;5;4;2;8;18;48;27;12;30;9;38;15;25;28;37;25;19;15;6;9;9;7;8
               firstWeek: 2019-06-30Z
               stars: 42
               license: Apache License 2.0
@@ -285,7 +377,41 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
+      - subcategory:
+        name: Substation Node
+        items:
+          - item:
+            name: CoMPAS
+            description: 'Configuration Modules for Power industry Automation Systems, based on IEC 61850.'
+            homepage_url: 'https://www.lfenergy.org/projects/compas/'
+            project: earlyadoption
+            logo: compas-text.svg
+            twitter: 'https://twitter.com/LFE_Foundation'
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            crunchbase_data:
+              name: LF Energy
+              description: 'Open Source will speed technological innovation and enable the energy transition, globally.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.lfenergy.org/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/LFE_Foundation'
+              linkedin: 'https://www.linkedin.com/company/lf-energy'
+              acquisitions: []
+              parents:
+                - 'https://www.crunchbase.com/organization/linux-foundation'
+              stockExchange: null
+            image_data:
+              fileName: co-mpas.svg
+              hash: A5982g2uS49c/F2BwbGxz9pjSv6eMmWJ9tXJly9wI7Q=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
   - category:
     name: Customer and Market
     subcategories:
@@ -352,7 +478,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 0;0;0;8;13;0;0;12;0;3;0;2;2;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0
+              contributions: 0;0;0;8;13;0;0;12;0;3;0;4;0;2;6;0;14;0;5;8;0;6;1;1;5;0;0;1;5;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0
               firstWeek: 2019-06-30Z
               stars: 115
               license: Apache License 2.0
@@ -378,7 +504,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
       - subcategory:
         name: Metering and Compensation
         items:
@@ -434,7 +560,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
       - subcategory:
         name: Market Platform Gateway
         items:
@@ -446,7 +572,6 @@ landscape:
               configure operational strategies that maximize revenue according to their business objectives and risk preferences.
             homepage_url: 'https://www.tesla.com/en_CA/support/autobidder'
             logo: Tesla-Autobidder.svg
-            twitter: 'https://twitter.com/Tesla'
             crunchbase: 'https://www.crunchbase.com/organization/tesla-motors'
             crunchbase_data:
               name: Tesla
@@ -480,7 +605,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 185641943040
+              market_cap: 184421515264
               effective_ticker: TSLA
             image_data:
               fileName: autobidder.svg
@@ -496,6 +621,38 @@ landscape:
       - subcategory:
         name: Data Management
         items:
+          - item:
+            name: CIMContextor and CIMSyntaxgen
+            description: >-
+              CimConteXtor is an Enterprise Architect Add-In. The main purpose of CimConteXtor is to create a UML profile in EA, profile that is a subset of an
+              existing UML model. This sub-setting can be done only according to some rules. CimConteXtor has implemented some rules based on those proposed by
+              UN/Cefact1 Core Component Technical Specification and some of those adopted by IEC2 TC 57 (like IEC62325-450) for electricity market.
+            homepage_url: 'https://www.entsoe.eu/digital/cim/#cim-tool-governance-group'
+            logo: entsoe-CIM.svg
+            twitter: 'https://twitter.com/ENTSO_E'
+            crunchbase: 'https://www.crunchbase.com/organization/entso-e'
+            crunchbase_data:
+              name: ENTSO-E
+              description: ENTSO-E publishes its initial proposals on the Energy Union.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://entsoe.eu'
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              twitter: 'https://twitter.com/entso_e'
+              linkedin: 'https://www.linkedin.com/company/entso-e'
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: cim-contextor-and-cim-syntaxgen.svg
+              hash: tHJCxMJ78CefkD9WmnzIkXn0/rpF5+k1f4jZh7D2xzI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-22T12:20:25.000Z
           - item:
             name: OEDI
             description: Improving Data Access to Enable Advanced Analytics and Research Innovation
@@ -525,7 +682,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
       - subcategory:
         name: Unified Operator's UX Components and Framework
         items:
@@ -555,40 +712,40 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 957567
+                  value: 958038
                   color: '#b07219'
                 - name: TypeScript
-                  value: 720539
+                  value: 723361
                   color: '#2b7489'
                 - name: HTML
-                  value: 614168
+                  value: 614331
                   color: '#e34c26'
                 - name: Gherkin
-                  value: 213303
+                  value: 213009
                   color: '#5B2063'
                 - name: JavaScript
                   value: 60783
                   color: '#f1e05a'
                 - name: Shell
-                  value: 40685
+                  value: 40675
                   color: '#89e051'
                 - name: CSS
                   value: 38742
                   color: '#563d7c'
                 - name: Dockerfile
-                  value: 2762
+                  value: 2819
                   color: '#384d54'
                 - name: Scala
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                37;24;55;39;25;63;24;13;10;11;10;24;20;28;41;8;16;25;0;8;12;10;35;6;18;15;16;12;23;30;34;47;28;31;13;32;28;15;17;21;34;18;19;15;15;29;39;27;23;20;31;30
+                36;30;42;41;37;52;22;11;16;9;7;24;31;26;32;13;13;22;2;6;14;14;34;3;18;19;14;18;19;29;33;44;39;20;18;38;21;15;13;31;29;13;21;16;19;22;49;20;20;21;39;35
               firstWeek: 2019-06-30Z
               stars: 13
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2020-06-19T13:57:25Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/68f95794ab14e7559653aa91e8ed097a4bdaae3c
+              latest_commit_date: '2020-06-22T15:57:35Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/ac3969a4cf918b298b4d931fa37dc98b85e4b85f
               contributors_count: 18
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
             repos:
@@ -604,7 +761,44 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
+      - subcategory:
+        name: Systems Governance
+        items:
+          - item:
+            name: Utilihive
+            description: >-
+              Utilihive delivers configurable integration applications for smart metering, smart billing and smart grids. This is called Orchestration as a
+              Service (OaaS) since the subscription on Utilihive includes all capabilities for an integration Platform as a Service, and moreover, best practice
+              orchestrations creating agile business processes for the digital utility.
+            homepage_url: 'https://www.greenbird.com/utilihive'
+            logo: greenbird.svg
+            twitter: 'https://twitter.com/greenbirdIT'
+            crunchbase: 'https://www.crunchbase.com/organization/greenbird-integration-technology'
+            crunchbase_data:
+              name: Greenbird Integration Technology
+              description: 'Greenbird provides Utilihive, the Operating System for the DIgital Utility and Energy Cloud.'
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: 'http://www.greenbird.com'
+              city: Oslo
+              region: Oslo
+              country: Norway
+              twitter: 'http://twitter.com/greenbirdIT'
+              linkedin: 'https://www.linkedin.com/company/751723'
+              acquisitions: []
+              parents: []
+              funding: 8171139
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: utilihive.svg
+              hash: D3QvgGPa4FzC2adyh27rq+hqdvl1xzH8umw8oScVC1I=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-22T19:43:33.000Z
   - category:
     name: System Management
     subcategories:
@@ -612,11 +806,148 @@ landscape:
         name: Power System Calculation
         items:
           - item:
+            name: CIMapplication
+            description: CIM J2EE application with resource adapter access to Spark.
+            homepage_url: 'https://derrickoswald.github.io/CIMSparkPresentation/index.html'
+            repo_url: 'https://github.com/derrickoswald/CIMApplication'
+            logo: CIMapplication.svg
+            crunchbase: 'https://www.crunchbase.com/organization/9code'
+            crunchbase_data:
+              name: 9code
+              description: Using scalable open source software for electric distribution network intelligence.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://9code.ch/'
+              city: Muri Bei Bern
+              region: Bern
+              country: Switzerland
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: JavaScript
+                  value: 15175883
+                  color: '#f1e05a'
+                - name: Scala
+                  value: 1778873
+                  color: '#c22d40'
+                - name: Java
+                  value: 140001
+                  color: '#b07219'
+                - name: PLpgSQL
+                  value: 65106
+                - name: CSS
+                  value: 56098
+                  color: '#563d7c'
+                - name: HTML
+                  value: 28782
+                  color: '#e34c26'
+                - name: Dockerfile
+                  value: 25253
+                  color: '#384d54'
+                - name: Shell
+                  value: 20475
+                  color: '#89e051'
+                - name: TSQL
+                  value: 2107
+                - name: R
+                  value: 1173
+                  color: '#198CE7'
+                - name: Batchfile
+                  value: 267
+                  color: '#C1F12E'
+              contributions: 5;9;9;7;6;2;4;1;5;3;15;5;3;8;21;10;15;17;6;10;3;2;2;15;13;4;6;7;4;3;4;3;11;12;14;14;7;7;16;9;12;6;10;13;12;7;4;15;4;3;14;8
+              firstWeek: 2019-06-30Z
+              stars: 8
+              license: Other
+              description: CIM J2EE application with resource adapter access to Spark.
+              latest_commit_date: '2020-06-19T07:45:57Z'
+              latest_commit_link: /derrickoswald/CIMApplication/commit/14a1f8103a6a32257b8a30e7191b05d2d924c60f
+              release_date: '2018-11-07T08:42:26Z'
+              release_link: 'https://github.com/derrickoswald/CIMApplication/releases'
+              contributors_count: 2
+              contributors_link: 'https://github.com/derrickoswald/CIMApplication/graphs/contributors'
+            repos:
+              - url: 'https://github.com/derrickoswald/CIMApplication'
+                stars: 8
+            github_start_commit_data:
+              start_commit_link: /derrickoswald/CIMApplication/commit/244e7ac39fc74c4b90390153eb40d22ee83cda18
+              start_date: '2016-07-12T12:17:37Z'
+            image_data:
+              fileName: ci-mapplication.svg
+              hash: 0jGL0EFCQNi8pXRLo1ID+kgPC1q9TvEmH3x6rjmZgY4=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: CIMspark
+            description: J2EE access to Spark for Common Information Model (CIM) applications.
+            homepage_url: 'https://derrickoswald.github.io/CIMSparkPresentation/index.html'
+            repo_url: 'https://github.com/derrickoswald/CIMSpark'
+            logo: CIMspark.svg
+            crunchbase: 'https://www.crunchbase.com/organization/9code'
+            crunchbase_data:
+              name: 9code
+              description: Using scalable open source software for electric distribution network intelligence.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://9code.ch/'
+              city: Muri Bei Bern
+              region: Bern
+              country: Switzerland
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Scala
+                  value: 9668211
+                  color: '#c22d40'
+                - name: R
+                  value: 17941
+                  color: '#198CE7'
+                - name: Java
+                  value: 9501
+                  color: '#b07219'
+                - name: Shell
+                  value: 576
+                  color: '#89e051'
+                - name: HTML
+                  value: 242
+                  color: '#e34c26'
+              contributions: 2;0;0;4;3;0;0;6;10;0;4;4;4;2;0;7;0;1;1;2;2;0;3;0;0;0;0;2;3;0;0;2;1;1;0;0;0;1;3;2;4;3;2;0;0;0;7;1;11;3;9;7
+              firstWeek: 2019-06-30Z
+              stars: 6
+              license: Other
+              description: Spark access to Common Information Model (CIM) files
+              latest_commit_date: '2020-06-20T19:55:42Z'
+              latest_commit_link: /derrickoswald/CIMSpark/commit/143242cbaa6040c2c1bade5f211cb126632d94db
+              release_date: '2018-12-03T11:03:15Z'
+              release_link: 'https://github.com/derrickoswald/CIMSpark/releases'
+              contributors_count: 3
+              contributors_link: 'https://github.com/derrickoswald/CIMSpark/graphs/contributors'
+            repos:
+              - url: 'https://github.com/derrickoswald/CIMSpark'
+                stars: 6
+            github_start_commit_data:
+              start_commit_link: /derrickoswald/CIMSpark/commit/d66691ea3f7b8097a67c03c0cb46695ba84e5638
+              start_date: '2015-12-10T15:58:27Z'
+            image_data:
+              fileName: ci-mspark.svg
+              hash: 9ZEEa0GwClF38nJbVHhr+ZUy3mpde1aoOz9NP5wTbr8=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: CYME
             description: Power Engineering Software for either transmission/industrial or distribution power network analysis.
             homepage_url: 'http://www.cyme.com/software/'
             logo: Eaton-CYME.svg
-            twitter: 'https://twitter.com/eatoncorp'
             crunchbase: 'https://www.crunchbase.com/organization/eaton'
             crunchbase_data:
               name: Eaton Corporation
@@ -731,7 +1062,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 35735998464
+              market_cap: 34831998976
               effective_ticker: ETN
             image_data:
               fileName: cyme.svg
@@ -740,7 +1071,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T13:04:33.000Z
+              latest_tweet_date: 2020-06-22T18:02:48.000Z
           - item:
             name: PowSyBl
             description: A High-Performance Computing Framework For Grid Simulation and Planning
@@ -781,13 +1112,13 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 5;7;8;7;5;0;4;4;3;18;21;15;8;2;10;5;4;6;3;10;15;4;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;5;2;7;3;11;6
+              contributions: 8;4;8;7;3;2;2;4;5;20;19;14;7;4;8;5;4;6;4;14;10;5;7;13;18;5;1;2;8;6;11;8;4;7;5;20;7;11;8;9;11;9;16;7;2;4;4;3;6;7;9;5
               firstWeek: 2019-06-30Z
               stars: 57
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2020-06-19T12:04:16Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/cd69b068743a00939483888174dd4f35bc81c248
+              latest_commit_date: '2020-06-22T15:00:07Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/9716355afc2213d98e68209ecae98b0e8f8c8926
               release_date: '2020-06-17T08:03:45Z'
               release_link: 'https://github.com/powsybl/powsybl-core/releases'
               contributors_count: 45
@@ -805,7 +1136,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-17T17:00:48.000Z
+              latest_tweet_date: 2020-06-22T23:22:28.000Z
           - item:
             name: PSS
             description: PSS project from Siemens.
@@ -978,7 +1309,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 4983416897
+              market_cap: 5095396329
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: pss.svg
@@ -987,7 +1318,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-21T07:22:35.000Z
+              latest_tweet_date: 2020-06-22T16:51:10.000Z
           - item:
             name: PSSE
             description: >-
@@ -1162,7 +1493,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 4983416897
+              market_cap: 5095396329
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: psse.svg
@@ -1171,7 +1502,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-21T07:22:35.000Z
+              latest_tweet_date: 2020-06-22T16:51:10.000Z
       - subcategory:
         name: System Control
         items:
@@ -1180,7 +1511,6 @@ landscape:
             description: Advanced Distribution Management Solutions
             homepage_url: 'https://www.ge.com/digital/applications/advanced-distribution-management-solutions-adms'
             logo: General-Electric-ADMS.svg
-            twitter: 'https://twitter.com/generalelectric'
             crunchbase: 'https://www.crunchbase.com/organization/general-electric'
             crunchbase_data:
               name: General Electric (GE)
@@ -1270,7 +1600,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 62541692928
+              market_cap: 61579513856
               effective_ticker: GE
             image_data:
               fileName: adms.svg
@@ -1452,7 +1782,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 4983416897
+              market_cap: 5095396329
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: spectrum-power.svg
@@ -1461,7 +1791,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-21T07:22:35.000Z
+              latest_tweet_date: 2020-06-22T16:51:10.000Z
   - category:
     name: LF Energy Member
     subcategories:
@@ -1521,7 +1851,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T08:45:53.000Z
+              latest_tweet_date: 2020-06-22T16:43:24.000Z
       - subcategory:
         name: General
         items:
@@ -1565,7 +1895,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-21T13:57:02.000Z
+              latest_tweet_date: 2020-06-22T19:45:55.000Z
           - item:
             name: Elering
             homepage_url: 'https://elering.ee'
@@ -1617,7 +1947,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-22T00:40:56.000Z
+              latest_tweet_date: 2020-06-23T00:00:00.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -1648,7 +1978,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T16:00:39.000Z
+              latest_tweet_date: 2020-06-22T15:43:03.000Z
           - item:
             name: R9b
             homepage_url: 'https://www.root9b.com'
@@ -1677,7 +2007,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-18T12:03:41.000Z
+              latest_tweet_date: 2020-06-22T12:04:25.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -1778,7 +2108,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T23:40:04.000Z
+              latest_tweet_date: 2020-06-22T20:37:05.000Z
       - subcategory:
         name: Associate
         items:
@@ -1808,7 +2138,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-16T09:29:43.000Z
+              latest_tweet_date: 2020-06-22T21:18:11.000Z
           - item:
             name: Energy Foundation
             homepage_url: 'https://www.ef.org'
@@ -1835,7 +2165,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-18T19:58:52.000Z
+              latest_tweet_date: 2020-06-22T19:20:37.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -1862,7 +2192,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-20T09:30:41.000Z
+              latest_tweet_date: 2020-06-22T12:20:25.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -1889,7 +2219,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T12:00:54.000Z
+              latest_tweet_date: 2020-06-22T14:00:50.000Z
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
@@ -1916,7 +2246,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-21T15:10:07.000Z
+              latest_tweet_date: 2020-06-22T16:35:07.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -1997,7 +2327,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-20T18:09:36.000Z
+              latest_tweet_date: 2020-06-22T12:57:27.000Z
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -2053,7 +2383,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-21T10:00:40.000Z
+              latest_tweet_date: 2020-06-22T15:00:38.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -2082,7 +2412,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T22:00:09.000Z
+              latest_tweet_date: 2020-06-22T22:00:11.000Z
           - item:
             name: Pecan Street
             homepage_url: 'https://www.pecanstreet.org/'
@@ -2163,7 +2493,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T13:04:38.000Z
+              latest_tweet_date: 2020-06-22T13:54:57.000Z
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
@@ -2192,7 +2522,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-20T00:04:57.000Z
+              latest_tweet_date: 2020-06-22T22:50:05.000Z
           - item:
             name: TenneT
             homepage_url: 'https://www.tennet.eu/'
@@ -2219,7 +2549,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T18:30:00.000Z
+              latest_tweet_date: 2020-06-22T09:09:11.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: 'https://www.turing.ac.uk/'
@@ -2248,7 +2578,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T15:57:51.000Z
+              latest_tweet_date: 2020-06-22T16:28:07.000Z
           - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
@@ -2300,7 +2630,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T05:45:14.000Z
+              latest_tweet_date: 2020-06-22T06:55:07.000Z
           - item:
             name: Vanderbilt University
             homepage_url: 'https://www.vanderbilt.edu'
@@ -2358,7 +2688,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-21T15:00:00.000Z
+              latest_tweet_date: 2020-06-22T16:10:38.000Z
 twitter_options:
   count: 0
-updated_at: 2020-06-22T01:22:55.305Z
+updated_at: 2020-06-23T01:05:40.056Z

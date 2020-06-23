@@ -16,7 +16,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/schneider-electric'
           - item:
             name: OpenMUC
-            description: OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.
+            description: 'OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.'
             homepage_url: 'https://www.openmuc.org/'
             repo_url: 'https://github.com/openmuc/jrxtx'
             logo: openmuc-text.svg
@@ -26,6 +26,12 @@ landscape:
         name: Edge Node Control
         items:
           - item:
+            name: Grid Protection Alliance
+            description: GPA is a not-for-profit corporation formed to facilitate the development of comprehensive electric energy solutions.
+            homepage_url: 'https://www.gridprotectionalliance.org/'
+            logo: gridprotectionalliance.svg
+            crunchbase: 'https://www.crunchbase.com/organization/grid-protection-alliance'
+          - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: 'https://www.lfenergy.org/projects/riaps/'
@@ -33,12 +39,6 @@ landscape:
             repo_url: 'https://github.com/RIAPS/riaps-core'
             logo: riaps.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-          - item:
-            name: Grid Protection Alliance
-            description: GPA is a not-for-profit corporation formed to facilitate the development of comprehensive electric energy solutions.
-            homepage_url: 'https://www.gridprotectionalliance.org/'
-            logo: gridprotectionalliance.svg
-            crunchbase: 'https://www.crunchbase.com/organization/grid-protection-alliance'
       - subcategory:
         name: Infrastructure Management
         items:
@@ -55,11 +55,10 @@ landscape:
         items:
           - item:
             name: CoMPAS
-            description: Configuration Modules for Power industry Automation Systems, based on IEC 61850.
+            description: 'Configuration Modules for Power industry Automation Systems, based on IEC 61850.'
             homepage_url: 'https://www.lfenergy.org/projects/compas/'
             project: earlyadoption
             logo: compas-text.svg
-            twitter: 'https://twitter.com/LFE_Foundation'
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
     name: Customer and Market
@@ -111,19 +110,22 @@ landscape:
         name: Data Management
         items:
           - item:
+            name: CIMContextor and CIMSyntaxgen
+            description: >-
+              CimConteXtor is an Enterprise Architect Add-In. The main purpose of CimConteXtor is to create a UML profile in EA, profile that is a subset of an
+              existing UML model. This sub-setting can be done only according to some rules. CimConteXtor has implemented some rules based on those proposed by
+              UN/Cefact1 Core Component Technical Specification and some of those adopted by IEC2 TC 57 (like IEC62325-450) for electricity market.
+            homepage_url: 'https://www.entsoe.eu/digital/cim/#cim-tool-governance-group'
+            logo: entsoe-CIM.svg
+            twitter: 'https://twitter.com/ENTSO_E'
+            crunchbase: 'https://www.crunchbase.com/organization/entso-e'
+          - item:
             name: OEDI
             description: Improving Data Access to Enable Advanced Analytics and Research Innovation
             homepage_url: 'https://www.lfenergy.org/projects/oedi/'
             project: incubation
             logo: oedi.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
-          - item:
-            name: CIMContextor and CIMSyntaxgen
-            description: CimConteXtor is an Enterprise Architect Add-In. The main purpose of CimConteXtor is to create a UML profile in EA, profile that is a subset of an existing UML model. This sub-setting can be done only according to some rules. CimConteXtor has implemented some rules based on those proposed by UN/Cefact1 Core Component Technical Specification and some of those adopted by IEC2 TC 57 (like IEC62325-450) for electricity market.
-            homepage_url: 'https://www.entsoe.eu/digital/cim/#cim-tool-governance-group'
-            logo: entsoe-CIM.svg
-            twitter: 'https://twitter.com/ENTSO_E'
-            crunchbase: 'https://www.crunchbase.com/organization/entso-e'
       - subcategory:
         name: Unified Operator's UX Components and Framework
         items:
@@ -140,10 +142,12 @@ landscape:
         items:
           - item:
             name: Utilihive
-            description: Utilihive delivers configurable integration applications for smart metering, smart billing and smart grids. This is called Orchestration as a Service (OaaS) since the subscription on Utilihive includes all capabilities for an integration Platform as a Service, and moreover, best practice orchestrations creating agile business processes for the digital utility.
+            description: >-
+              Utilihive delivers configurable integration applications for smart metering, smart billing and smart grids. This is called Orchestration as a
+              Service (OaaS) since the subscription on Utilihive includes all capabilities for an integration Platform as a Service, and moreover, best practice
+              orchestrations creating agile business processes for the digital utility.
             homepage_url: 'https://www.greenbird.com/utilihive'
             logo: greenbird.svg
-            twitter: 'https://twitter.com/greenbirdIT'
             crunchbase: 'https://www.crunchbase.com/organization/greenbird-integration-technology'
   - category:
     name: System Management
@@ -151,6 +155,20 @@ landscape:
       - subcategory:
         name: Power System Calculation
         items:
+          - item:
+            name: CIMapplication
+            description: CIM J2EE application with resource adapter access to Spark.
+            homepage_url: 'https://derrickoswald.github.io/CIMSparkPresentation/index.html'
+            repo_url: 'https://github.com/derrickoswald/CIMApplication'
+            logo: CIMapplication.svg
+            crunchbase: 'https://www.crunchbase.com/organization/9code'
+          - item:
+            name: CIMspark
+            description: J2EE access to Spark for Common Information Model (CIM) applications.
+            homepage_url: 'https://derrickoswald.github.io/CIMSparkPresentation/index.html'
+            repo_url: 'https://github.com/derrickoswald/CIMSpark'
+            logo: CIMspark.svg
+            crunchbase: 'https://www.crunchbase.com/organization/9code'
           - item:
             name: CYME
             description: Power Engineering Software for either transmission/industrial or distribution power network analysis.
@@ -181,20 +199,6 @@ landscape:
             logo: Siemens-PSSE.svg
             twitter: 'https://twitter.com/siemens_energy'
             crunchbase: 'https://www.crunchbase.com/organization/siemens'
-          - item:
-            name: CIMspark
-            description: J2EE access to Spark for Common Information Model (CIM) applications.
-            homepage_url: 'https://derrickoswald.github.io/CIMSparkPresentation/index.html'
-            repo_url: 'https://github.com/derrickoswald/CIMSpark'
-            logo: CIMspark.svg
-            crunchbase: 'https://www.crunchbase.com/organization/9code'
-          - item:
-            name: CIMapplication
-            description: CIM J2EE application with resource adapter access to Spark.
-            homepage_url: 'https://derrickoswald.github.io/CIMSparkPresentation/index.html'
-            repo_url: 'https://github.com/derrickoswald/CIMApplication'
-            logo: CIMapplication.svg
-            crunchbase: 'https://www.crunchbase.com/organization/9code'
       - subcategory:
         name: System Control
         items:
