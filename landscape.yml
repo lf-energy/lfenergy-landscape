@@ -28,7 +28,6 @@ landscape:
             homepage_url: 'https://volttron.org/'
             repo_url: 'https://github.com/VOLTTRON/volttron'
             logo: volttron-text.svg
-            twitter: 'https://twitter.com/hashtag/volttron'
             crunchbase: 'https://www.crunchbase.com/organization/volttron'
       - subcategory:
         name: Edge Node Control
@@ -49,14 +48,19 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
           - item:
             name: SASensor
-            description: SASensor® is a digital substation automation system comprised of a high-performance central processing unit capable of providing substation protection, control, condition monitoring, intelligent communication and assets management function by collecting the data those functions require. SASensor® uses accurate, highspeed, time synchronised measurements within your medium voltage substation.
+            description: >-
+              SASensor® is a digital substation automation system comprised of a high-performance central processing unit capable of providing substation
+              protection, control, condition monitoring, intelligent communication and assets management function by collecting the data those functions
+              require. SASensor® uses accurate, highspeed, time synchronised measurements within your medium voltage substation.
             homepage_url: 'https://www.locamation.com/'
             logo: sasensor-text.svg
             twitter: 'https://twitter.com/locamation'
             crunchbase: 'https://www.crunchbase.com/organization/locamation'
           - item:
             name: Smart Cable Guard
-            description: DNV GL’s Smart Cable Guard online monitoring system considerably improves the reliability of your MV cable network resulting in better SAIDI and SAIFI figures.
+            description: >-
+              DNV GL’s Smart Cable Guard online monitoring system considerably improves the reliability of your MV cable network resulting in better SAIDI and
+              SAIFI figures.
             homepage_url: 'https://www.dnvgl.com/power-renewables/services/data-analytics/scg/introduction.html'
             logo: smart-cable-guard.svg
             twitter: 'https://twitter.com/dnvgl'
@@ -126,37 +130,39 @@ landscape:
             logo: Tesla-Autobidder.svg
             crunchbase: 'https://www.crunchbase.com/organization/tesla-motors'
           - item:
+            name: GOPACS
+            description: >-
+              GOPACS is an important step to mitigate capacity shortages in the electricity grid(congestion) and thus contribute to keeping the Dutch grid
+              reliable and affordable. GOPACS is a unique initiative in Europe and has resulted from active collaboration between the Dutch national grid
+              operator (Transmission System Operator, TSO) TenneT and the regional grid operators (Distribution System Operators, DSOs).
+            homepage_url: 'https://en.gopacs.eu/'
+            logo: logoipsum.svg
+            crunchbase: 'https://www.crunchbase.com/organization/tennet'
+          - item:
+            name: PowerMatcher
+            description: 'The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market.'
+            homepage_url: 'http://flexiblepower.github.io/technology/powermatcher/'
+            repo_url: 'https://github.com/flexiblepower/powermatcher'
+            logo: logoipsum.svg
+            crunchbase: 'https://www.crunchbase.com/organization/powermatcher'
+          - item:
             name: USEF
             description: Universal smart energy framework
             homepage_url: 'https://www.usef.energy/'
             repo_url: 'https://github.com/USEF-Foundation/ri.usef.energy'
-            logo: logoipsum.svg 
-            twitter: 'https://twitter.com/USEFsmartenergy'
+            logo: logoipsum.svg
             crunchbase: 'https://www.crunchbase.com/organization/usef-foundation'
-          - item:
-            name: PowerMatcher
-            description: The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market.
-            homepage_url: 'http://flexiblepower.github.io/technology/powermatcher/'
-            repo_url: 'https://github.com/flexiblepower/powermatcher'
-            logo: logoipsum.svg 
-            twitter: 'https://twitter.com/PowerMatcher'
-            crunchbase: 'https://www.crunchbase.com/organization/powermatcher'
-          - item:
-            name: GOPACS
-            description: GOPACS is an important step to mitigate capacity shortages in the electricity grid(congestion) and thus contribute to keeping the Dutch grid reliable and affordable. GOPACS is a unique initiative in Europe and has resulted from active collaboration between the Dutch national grid operator (Transmission System Operator, TSO) TenneT and the regional grid operators (Distribution System Operators, DSOs).
-            homepage_url: 'https://en.gopacs.eu/'
-            logo: logoipsum.svg 
-            twitter: 'https://twitter.com/tennettso'
-            crunchbase: 'https://www.crunchbase.com/organization/tennet'
       - subcategory:
         name: Customer Response
         items:
           - item:
             name: The Energy Web Chain
-            description: The Energy Web Chain is a public, enterprise-grade blockchain platform designed for the energy sector’s regulatory, operational, and market needs. Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run blockchain-based decentralized applications (dApps).
+            description: >-
+              The Energy Web Chain is a public, enterprise-grade blockchain platform designed for the energy sector’s regulatory, operational, and market needs.
+              Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run
+              blockchain-based decentralized applications (dApps).
             homepage_url: 'https://energyweb.org/technology/energy-web-chain/'
             logo: logoipsum.svg
-            twitter: 'https://twitter.com/energywebx'
             crunchbase: 'https://www.crunchbase.com/organization/energy-web-foundation'
   - category:
     name: Shared
@@ -231,6 +237,13 @@ landscape:
             logo: Eaton-CYME.svg
             crunchbase: 'https://www.crunchbase.com/organization/eaton'
           - item:
+            name: GridLAB-D
+            description: GridLAB-D is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
+            homepage_url: 'https://www.gridlabd.org/'
+            repo_url: 'https://github.com/gridlab-d/gridlab-d'
+            logo: logoipsum.svg
+            crunchbase: 'https://www.crunchbase.com/organization/us-department-of-energy'
+          - item:
             name: PowSyBl
             description: A High-Performance Computing Framework For Grid Simulation and Planning
             homepage_url: 'https://www.powsybl.org'
@@ -238,6 +251,14 @@ landscape:
             repo_url: 'https://github.com/powsybl/powsybl-core'
             logo: powsybl.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+          - item:
+            name: PSCAD/EMTDC
+            description: >-
+              As power systems evolve, the need for accurate, intuitive simulation tools becomes more and more important. With PSCAD you can build, simulate,
+              and model your systems with ease, providing limitless possibilities in power system simulation.
+            homepage_url: 'https://www.pscad.com/'
+            logo: pscad.svg
+            crunchbase: 'https://www.crunchbase.com/organization/pscad'
           - item:
             name: PSS
             description: PSS project from Siemens.
@@ -254,19 +275,6 @@ landscape:
             logo: Siemens-PSSE.svg
             twitter: 'https://twitter.com/siemens_energy'
             crunchbase: 'https://www.crunchbase.com/organization/siemens'
-          - item:
-            name: GridLAB-D
-            description: GridLAB-D is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
-            homepage_url: 'https://www.gridlabd.org/'
-            repo_url: 'https://github.com/gridlab-d/gridlab-d'
-            logo: logoipsum.svg
-            crunchbase: 'https://www.crunchbase.com/organization/us-department-of-energy'
-          - item:
-            name: PSCAD/EMTDC
-            description: As power systems evolve, the need for accurate, intuitive simulation tools becomes more and more important. With PSCAD you can build, simulate, and model your systems with ease, providing limitless possibilities in power system simulation.
-            homepage_url: 'https://www.pscad.com/'
-            logo: pscad.svg
-            crunchbase: 'https://www.crunchbase.com/organization/pscad'
       - subcategory:
         name: Market Signal
         items:
@@ -290,9 +298,19 @@ landscape:
             name: GridOS MEMS/DERMS
             description: DER Management
             homepage_url: 'https://www.opusonesolutions.com/solutions/'
-            logo: gridos-memsderms.svg 
+            logo: gridos-memsderms.svg
             twitter: 'https://twitter.com/OpusOneSolns'
             crunchbase: 'https://www.crunchbase.com/organization/opus-one-solutions'
+          - item:
+            name: OpenEMS
+            description: >-
+              A modular platform for energy management applications. It was developed around the requirements of controlling, monitoring and integrating energy
+              storage systems together with renewable energy sources and complementary devices and services.
+            homepage_url: 'https://openems.io/'
+            repo_url: 'https://github.com/OpenEMS/openems'
+            logo: logoipsum.svg
+            twitter: 'https://twitter.com/openems_en'
+            crunchbase: 'https://www.crunchbase.com/organization/fenecon'
           - item:
             name: Spectrum Power
             description: 'Spectrum Power, the open and scalable platform for High, Medium and Low Voltage grid operation.'
@@ -300,14 +318,6 @@ landscape:
             logo: Siemens-Spectrum-Power.svg
             twitter: 'https://twitter.com/siemens_energy'
             crunchbase: 'https://www.crunchbase.com/organization/siemens'
-          - item:
-            name: OpenEMS
-            description: A modular platform for energy management applications. It was developed around the requirements of controlling, monitoring and integrating energy storage systems together with renewable energy sources and complementary devices and services.
-            homepage_url: 'https://openems.io/'
-            repo_url: 'https://github.com/OpenEMS/openems'
-            logo: logoipsum.svg
-            twitter: 'https://twitter.com/openems_en'
-            crunchbase: 'https://www.crunchbase.com/organization/fenecon'
   - category:
     name: LF Energy Member
     subcategories:
