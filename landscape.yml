@@ -7,7 +7,7 @@ landscape:
         items:
           - item:
             name: Oracle Spatial and Graph
-            description: An advanced database for fast, scalable, reliable and secure spatial and massive graph applications.
+            description: 'An advanced database for fast, scalable, reliable and secure spatial and massive graph applications.'
             homepage_url: 'https://www.oracle.com/database/technologies/spatialandgraph.html'
             logo: Oracle-Spatial-and-Graph.svg
             twitter: 'https://twitter.com/SpatialHannes'
@@ -97,8 +97,8 @@ landscape:
             name: CoMPAS
             description: 'Configuration Modules for Power industry Automation Systems, based on IEC 61850.'
             homepage_url: 'https://www.lfenergy.org/projects/compas/'
-            repo_url: 'https://github.com/com-pas/.github'
             project: earlyadoption
+            repo_url: 'https://github.com/com-pas/.github'
             logo: compas-text.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
@@ -396,11 +396,6 @@ landscape:
         name: Associate
         items:
           - item:
-            name: EPRI
-            homepage_url: 'https://www.epri.com/'
-            logo: epri.svg
-            crunchbase: 'https://www.crunchbase.com/organization/epri'
-          - item:
             name: Energinet
             homepage_url: 'https://energinet.dk'
             logo: energinet.svg
@@ -420,6 +415,11 @@ landscape:
             homepage_url: 'https://www.epfl.ch/en/'
             logo: epfl.svg
             crunchbase: 'https://www.crunchbase.com/organization/epfl'
+          - item:
+            name: EPRI
+            homepage_url: 'https://www.epri.com/'
+            logo: epri.svg
+            crunchbase: 'https://www.crunchbase.com/organization/epri'
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
