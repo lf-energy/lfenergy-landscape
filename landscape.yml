@@ -222,6 +222,26 @@ landscape:
     name: System Management
     subcategories:
       - subcategory:
+        name: Data Management
+        items:
+          - item:
+            name: CIMspace
+            description: CIMSpace allows you to read, display, analyze and edit CIM files, which are a data interchange format based on IEC standards 61968 & 61970. See CIM users group for additional details on the CIM format.
+            homepage_url: 'https://github.com/derrickoswald'
+            repo_url: 'https://github.com/derrickoswald/CIMSpace'
+            logo: cimspace.svg
+            crunchbase: 'https://www.crunchbase.com/organization/9code'
+      - subcategory:
+        name: Forecasting
+        items:
+          - item:
+            name: Price Forecasting
+            description: Streamline your due diligence and generation portfolio planning with our comprehensive power forecast curve, for the valuation of both fossil fuel and renewable assets. ­ ­
+            homepage_url: 'https://www.spglobal.com/marketintelligence/en/campaigns/power-forecast'
+            logo: S&P-Global.svg 
+            twitter: 'https://twitter.com/SPGMarketIntel'
+            crunchbase: 'https://www.crunchbase.com/organization/s-p-global'
+      - subcategory:
         name: Power System Calculation
         items:
           - item:
