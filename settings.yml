@@ -116,59 +116,59 @@ big_picture:
         width: 300
         height: 400
         top: 20
-        left: 1260
-        color: 'rgb(106,44,218)'
-        fit_width: true
-      - type: HorizontalCategory
-        category: System Management
-        rows: 2
-        width: 500
-        height: 200
-        top: 20
         left: 0
         color: 'rgb(106,44,218)'
         fit_width: true
-      - type: HorizontalCategory
+      - type: VerticalCategory
+        category: System Management
+        rows: 2
+        width: 300
+        height: 400
+        top: 20
+        left: 320
+        color: 'rgb(106,44,218)'
+        fit_width: true
+      - type: VerticalCategory
         category: Customer and Market
         rows: 2
-        width: 500
-        height: 200
+        width: 300
+        height: 400
         top: 20
-        left: 520
+        left: 640
         color: 'rgb(179,60,133)'
         fit_width: true
       - type: HorizontalCategory
         category: Acquisition and Control
         rows: 2
-        width: 1020
+        width: 1260
         height: 200
-        top: 240
+        top: 440
         left: 0
         color: 'rgb(29,119,164)'
         fit_width: true
       - type: VerticalCategory
         category: Shared
         rows: 2
-        width: 200
-        height: 420
+        width: 300
+        height: 400
         top: 20
-        left: 1040
+        left: 960
         color: 'rgb(193,83,21)'
         fit_width: true
       - type: HorizontalCategory
         category: LF Energy Member
         rows: 3
-        width: 900
+        width: 960
         height: 200
-        top: 460
+        top: 660
         left: 0
         color: 'rgb(37,81,209)'
         fit_width: true
       - type: LandscapeInfo
         width: 280
         height: 200
-        top: 460
-        left: 920
+        top: 660
+        left: 980
         children:
           - type: text
             text: >-
