@@ -110,6 +110,15 @@ big_picture:
     title: LF Energy Landscape
     fullscreen_header: See the interactive landscape at l.lfenergy.org
     elements:
+      - type: VerticalCategory
+        category: Asset Management
+        rows: 2
+        width: 300
+        height: 400
+        top: 20
+        left: 1260
+        color: 'rgb(106,44,218)'
+        fit_width: true
       - type: HorizontalCategory
         category: System Management
         rows: 2
