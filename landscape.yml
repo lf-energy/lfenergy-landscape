@@ -84,8 +84,8 @@ landscape:
             name: CoMPAS
             description: 'Configuration Modules for Power industry Automation Systems, based on IEC 61850.'
             homepage_url: 'https://www.lfenergy.org/projects/compas/'
-            repo_url: 'https://github.com/com-pas/.github'
             project: earlyadoption
+            repo_url: 'https://github.com/com-pas/.github'
             logo: compas-text.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
@@ -132,6 +132,15 @@ landscape:
             logo: Tesla-Autobidder.svg
             crunchbase: 'https://www.crunchbase.com/organization/tesla-motors'
           - item:
+            name: ENTRNCE
+            description: >-
+              ENTRNCE is the first independent (B2B) electricity transaction platform that executes direct administration and financial transactions between
+              generators and users, regardless of their location. Completely transparent & fully in accordance with the rules and timing of the Dutch energy
+              market.
+            homepage_url: 'https://entrnce.com'
+            logo: entrnce.svg
+            crunchbase: 'https://www.crunchbase.com/organization/entrnce'
+          - item:
             name: GOPACS
             description: >-
               GOPACS is an important step to mitigate capacity shortages in the electricity grid(congestion) and thus contribute to keeping the Dutch grid
@@ -154,12 +163,6 @@ landscape:
             repo_url: 'https://github.com/USEF-Foundation/ri.usef.energy'
             logo: logoipsum.svg
             crunchbase: 'https://www.crunchbase.com/organization/usef-foundation'
-          - item:
-            name: ENTRNCE
-            description: ENTRNCE is the first independent (B2B) electricity transaction platform that executes direct administration and financial transactions between generators and users, regardless of their location. Completely transparent & fully in accordance with the rules and timing of the Dutch energy market.
-            homepage_url: 'https://exe.energy/en/our-products/entrnce'
-            logo: entrnce.svg
-            crunchbase: 'https://www.crunchbase.com/organization/entrnce'
       - subcategory:
         name: Customer Response
         items:
@@ -226,7 +229,9 @@ landscape:
         items:
           - item:
             name: CIMspace
-            description: CIMSpace allows you to read, display, analyze and edit CIM files, which are a data interchange format based on IEC standards 61968 & 61970. See CIM users group for additional details on the CIM format.
+            description: >-
+              CIMSpace allows you to read, display, analyze and edit CIM files, which are a data interchange format based on IEC standards 61968 & 61970. See
+              CIM users group for additional details on the CIM format.
             homepage_url: 'https://github.com/derrickoswald'
             repo_url: 'https://github.com/derrickoswald/CIMSpace'
             logo: cimspace.svg
@@ -236,9 +241,11 @@ landscape:
         items:
           - item:
             name: Price Forecasting
-            description: Streamline your due diligence and generation portfolio planning with our comprehensive power forecast curve, for the valuation of both fossil fuel and renewable assets. ­ ­
+            description: >-
+              Streamline your due diligence and generation portfolio planning with our comprehensive power forecast curve, for the valuation of both fossil fuel
+              and renewable assets. ­ ­
             homepage_url: 'https://www.spglobal.com/marketintelligence/en/campaigns/power-forecast'
-            logo: S&P-Global.svg 
+            logo: S&P-Global.svg
             twitter: 'https://twitter.com/SPGMarketIntel'
             crunchbase: 'https://www.crunchbase.com/organization/s-p-global'
       - subcategory:
@@ -311,7 +318,6 @@ landscape:
             description: ANM Strata is our highly flexible and scalable multi-use case DERMS software platform.
             homepage_url: 'https://www.smartergridsolutions.com/products/anm-strata/'
             logo: anm-strata.svg
-            twitter: 'https://twitter.com/SmrtrGridSols'
             crunchbase: 'https://www.crunchbase.com/organization/smarter-grid-solutions'
           - item:
             name: GridOS TE
@@ -322,7 +328,11 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/opus-one-solutions'
           - item:
             name: Sunverge Energy Platform
-            description: The Sunverge Energy Platform enables utilities and transmission and distribution (T&D) operators to stack services, providing multiple value streams for consumers, vertical utilities, T&D grid operators and wholesale power market participants. We provide full visibility and control, linking aggregated behind-the-meter Distributed Energy Resources to core utility enterprise systems including EMS/DMS/ADMS, SCADA and integrated resource planning.
+            description: >-
+              The Sunverge Energy Platform enables utilities and transmission and distribution (T&D) operators to stack services, providing multiple value
+              streams for consumers, vertical utilities, T&D grid operators and wholesale power market participants. We provide full visibility and control,
+              linking aggregated behind-the-meter Distributed Energy Resources to core utility enterprise systems including EMS/DMS/ADMS, SCADA and integrated
+              resource planning.
             homepage_url: 'http://www.sunverge.com/grid-services/'
             logo: sunverge.svg
             twitter: 'https://twitter.com/Sunverge'
@@ -423,11 +433,6 @@ landscape:
         name: Associate
         items:
           - item:
-            name: EPRI
-            homepage_url: 'https://www.epri.com/'
-            logo: epri.svg
-            crunchbase: 'https://www.crunchbase.com/organization/epri'
-          - item:
             name: Energinet
             homepage_url: 'https://energinet.dk'
             logo: energinet.svg
@@ -447,6 +452,11 @@ landscape:
             homepage_url: 'https://www.epfl.ch/en/'
             logo: epfl.svg
             crunchbase: 'https://www.crunchbase.com/organization/epfl'
+          - item:
+            name: EPRI
+            homepage_url: 'https://www.epri.com/'
+            logo: epri.svg
+            crunchbase: 'https://www.crunchbase.com/organization/epri'
           - item:
             name: FIWARE
             homepage_url: 'https://www.fiware.org'
