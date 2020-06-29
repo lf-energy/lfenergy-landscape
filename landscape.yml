@@ -10,7 +10,6 @@ landscape:
             description: 'Identify gaps in connectivity model, asset rating issues, and evaluate power flow convergence.'
             homepage_url: 'https://www.landisgyr.eu/product/connectivity-model-validation-module/'
             logo: landis-gyr-con-mod-val-mod.svg
-            twitter: 'https://twitter.com/landisgyr'
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
       - subcategory:
         name: Asset Investment Planning
@@ -20,7 +19,6 @@ landscape:
             description: 'Test various loading and control scenarios to address capacity bottlenecks, mitigate equipment failure, and support DER integration.'
             homepage_url: 'https://www.landisgyr.eu/product/capacity-planning-module/'
             logo: landis-gyr-cap-planning-mod.svg
-            twitter: 'https://twitter.com/landisgyr'
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
       - subcategory:
         name: Asset Repository
@@ -40,7 +38,6 @@ landscape:
             description: 'Determine tripped devices, fault location, and affected customers to support FLISR efforts in near real-time.'
             homepage_url: 'https://www.landisgyr.eu/product/grid-monitoring-module/'
             logo: landis-gyr-grid-monitoring-mod.svg
-            twitter: 'https://twitter.com/landisgyr'
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
           - item:
             name: ANM Element
@@ -59,29 +56,28 @@ landscape:
         name: Data Management
         items:
           - item:
-            name: OSIsoft PI System 
-            description: Critical Operations Data Management across Generation, T&D, AMI and DER.
+            name: OSIsoft PI System
+            description: 'Critical Operations Data Management across Generation, T&D, AMI and DER.'
             homepage_url: 'https://www.osisoft.com/solutions/industry-solutions/power-and-utilities/'
             logo: osisoft-pi-system.svg
-            twitter: 'https://twitter.com/OSIsoft'
             crunchbase: 'https://www.crunchbase.com/organization/osisoft'
       - subcategory:
         name: Field Work Management
         items:
           - item:
+            name: Field Service Lightning
+            description: Elevate every field service experience.
+            homepage_url: 'https://www.salesforce.com/products/field-service/overview/'
+            logo: salesforce-field-service-lightning.svg
+            crunchbase: 'https://www.crunchbase.com/organization/salesforce'
+          - item:
             name: GRIDSTREAM SOFTWARE-Field Operations Manager
-            description: 'Field Operations Manager is a complete solution to manage smart metering field installations. It offers tools for planning and scheduling tasks and monitoring their progress.'
+            description: >-
+              Field Operations Manager is a complete solution to manage smart metering field installations. It offers tools for planning and scheduling tasks
+              and monitoring their progress.
             homepage_url: 'https://www.landisgyr.eu/product/field-operations-manager/'
             logo: landis-gyr-field-ops-man.svg
-            twitter: 'https://twitter.com/landisgyr'
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
-          - item:
-            name: Field Service Lightning
-            description: 'Elevate every field service experience.'
-            homepage_url: 'https://www.salesforce.com/products/field-service/overview/'
-            logo: salesforce-field-service-lightning.svg 
-            twitter: 'https://twitter.com/salesforce'
-            crunchbase: 'https://www.crunchbase.com/organization/salesforce'
   - category:
     name: Acquisition and Control
     subcategories:

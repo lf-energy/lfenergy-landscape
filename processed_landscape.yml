@@ -4,6 +4,86 @@ landscape:
     name: Asset Management
     subcategories:
       - subcategory:
+        name: Analytics
+        items:
+          - item:
+            name: ADVANCED GRID ANALYTICS-Connectivity Model Validation Module
+            description: 'Identify gaps in connectivity model, asset rating issues, and evaluate power flow convergence.'
+            homepage_url: 'https://www.landisgyr.eu/product/connectivity-model-validation-module/'
+            logo: landis-gyr-con-mod-val-mod.svg
+            twitter: 'https://twitter.com/landisgyr'
+            crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+            crunchbase_data:
+              name: Landis+Gyr
+              description: Landis+Gyr is focused on metering and other technologies related to management of energy.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'https://www.landisgyr.se/'
+              city: Kista
+              region: Stockholms Lan
+              country: Sweden
+              twitter: 'https://www.twitter.com/landisgyr'
+              linkedin: 'https://www.linkedin.com/company/6291'
+              acquisitions:
+                - date: '2006-01-01'
+                  acquiree: Enermet Group Oy
+                - date: '2012-01-10'
+                  acquiree: Ecologic Analytics
+                - date: '2014-05-15'
+                  acquiree: PowerSense
+              parents: []
+              funding: 265000000
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: advanced-grid-analytics-connectivity-model-validation-module.svg
+              hash: +4+0gHdW6DIomT09Gz8ve2KWVMswCCHqAqknIO5CGBQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-26T13:45:17.000Z
+      - subcategory:
+        name: Asset Investment Planning
+        items:
+          - item:
+            name: ADVANCED GRID ANALYTICS-Capacity Planning Module
+            description: 'Test various loading and control scenarios to address capacity bottlenecks, mitigate equipment failure, and support DER integration.'
+            homepage_url: 'https://www.landisgyr.eu/product/capacity-planning-module/'
+            logo: landis-gyr-cap-planning-mod.svg
+            twitter: 'https://twitter.com/landisgyr'
+            crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+            crunchbase_data:
+              name: Landis+Gyr
+              description: Landis+Gyr is focused on metering and other technologies related to management of energy.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'https://www.landisgyr.se/'
+              city: Kista
+              region: Stockholms Lan
+              country: Sweden
+              twitter: 'https://www.twitter.com/landisgyr'
+              linkedin: 'https://www.linkedin.com/company/6291'
+              acquisitions:
+                - date: '2006-01-01'
+                  acquiree: Enermet Group Oy
+                - date: '2012-01-10'
+                  acquiree: Ecologic Analytics
+                - date: '2014-05-15'
+                  acquiree: PowerSense
+              parents: []
+              funding: 265000000
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: advanced-grid-analytics-capacity-planning-module.svg
+              hash: WEGieSsUDrLgZ1mX5LiLKLXUXdImYonE7fvvE1jjsGs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-26T13:45:17.000Z
+      - subcategory:
         name: Asset Repository
         items:
           - item:
@@ -342,7 +422,7 @@ landscape:
               stockExchange: tyo
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 15445793601
+              market_cap: 15476579448
               effective_ticker: 4716.T
             image_data:
               fileName: oracle-spatial-and-graph.svg
@@ -355,6 +435,43 @@ landscape:
       - subcategory:
         name: Asset Supervision
         items:
+          - item:
+            name: ADVANCED GRID ANALYTICS-Grid Monitoring Module
+            description: 'Determine tripped devices, fault location, and affected customers to support FLISR efforts in near real-time.'
+            homepage_url: 'https://www.landisgyr.eu/product/grid-monitoring-module/'
+            logo: landis-gyr-grid-monitoring-mod.svg
+            twitter: 'https://twitter.com/landisgyr'
+            crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+            crunchbase_data:
+              name: Landis+Gyr
+              description: Landis+Gyr is focused on metering and other technologies related to management of energy.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'https://www.landisgyr.se/'
+              city: Kista
+              region: Stockholms Lan
+              country: Sweden
+              twitter: 'https://www.twitter.com/landisgyr'
+              linkedin: 'https://www.linkedin.com/company/6291'
+              acquisitions:
+                - date: '2006-01-01'
+                  acquiree: Enermet Group Oy
+                - date: '2012-01-10'
+                  acquiree: Ecologic Analytics
+                - date: '2014-05-15'
+                  acquiree: PowerSense
+              parents: []
+              funding: 265000000
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: advanced-grid-analytics-grid-monitoring-module.svg
+              hash: yJrzrHJgyJFrlVGMyW3FnudMbnP9rXCj/aYQg9dISA8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-26T13:45:17.000Z
           - item:
             name: ANM Element
             description: ANM Element is flexible software to enable smarter monitoring and control at the grid edge.
@@ -414,6 +531,265 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-06-24T14:03:53.000Z
+      - subcategory:
+        name: Data Management
+        items:
+          - item:
+            name: OSIsoft PI System
+            description: 'Critical Operations Data Management across Generation, T&D, AMI and DER.'
+            homepage_url: 'https://www.osisoft.com/solutions/industry-solutions/power-and-utilities/'
+            logo: osisoft-pi-system.svg
+            twitter: 'https://twitter.com/OSIsoft'
+            crunchbase: 'https://www.crunchbase.com/organization/osisoft'
+            crunchbase_data:
+              name: OSIsoft
+              description: OSIsoft is a manufacturer of application software for real-time data infrastructure solutions.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: 'http://www.osisoft.com'
+              city: San Leandro
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/OSIsoft'
+              linkedin: 'https://www.linkedin.com/company/osisoft'
+              acquisitions:
+                - date: '2002-06-17'
+                  acquiree: Sequencia
+              parents: []
+              funding: 139500000
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: os-isoft-pi-system.svg
+              hash: MHXBrUDr2SaBoAt3GCpjqhByaafiMmSIKyorb9JhbCI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-26T15:33:02.000Z
+      - subcategory:
+        name: Field Work Management
+        items:
+          - item:
+            name: Field Service Lightning
+            description: Elevate every field service experience.
+            homepage_url: 'https://www.salesforce.com/products/field-service/overview/'
+            logo: salesforce-field-service-lightning.svg
+            twitter: 'https://twitter.com/salesforce'
+            crunchbase: 'https://www.crunchbase.com/organization/salesforce'
+            crunchbase_data:
+              name: Salesforce
+              description: Salesforce is a global cloud computing company that develops CRM solutions and provides business software on a subscription basis.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'https://www.salesforce.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/salesforce'
+              linkedin: 'https://www.linkedin.com/company/salesforce'
+              acquisitions:
+                - date: '2006-04-11'
+                  acquiree: Sendia
+                - date: '2006-08-22'
+                  acquiree: Kieden
+                - date: '2007-04-10'
+                  acquiree: Koral Technologies
+                - date: '2008-08-19'
+                  acquiree: InStranet
+                  price: 31500000
+                - date: '2009-12-11'
+                  acquiree: GroupSwim
+                  price: 7000000
+                - date: '2009-12-31'
+                  acquiree: Informavores
+                - date: '2010-04-21'
+                  acquiree: Jigsaw
+                - date: '2010-05-28'
+                  acquiree: Sitemasher
+                - date: '2010-09-24'
+                  acquiree: Activa Live
+                - date: '2010-12-08'
+                  acquiree: Heroku
+                - date: '2010-12-21'
+                  acquiree: Etacts
+                - date: '2011-01-06'
+                  acquiree: Dimdim
+                - date: '2011-02-01'
+                  acquiree: Manymoon
+                - date: '2011-03-30'
+                  acquiree: Radian6
+                - date: '2011-05-01'
+                  acquiree: Zorap
+                - date: '2011-08-26'
+                  acquiree: Navajo Systems
+                - date: '2011-09-21'
+                  acquiree: Desk.com
+                - date: '2011-11-14'
+                  acquiree: Model Metrics
+                - date: '2011-12-15'
+                  acquiree: Rypple
+                - date: '2012-05-01'
+                  acquiree: Stypi
+                - date: '2012-06-04'
+                  acquiree: Buddy Media
+                  price: 649000000
+                - date: '2012-06-18'
+                  acquiree: ChoicePass
+                - date: '2012-06-25'
+                  acquiree: Thinkfuse
+                - date: '2012-07-09'
+                  acquiree: GoInstant
+                - date: '2012-11-23'
+                  acquiree: Prior Knowledge
+                - date: '2013-02-06'
+                  acquiree: EntropySoft
+                - date: '2013-05-10'
+                  acquiree: Clipboard
+                  price: 20000000
+                - date: '2013-06-04'
+                  acquiree: ExactTarget
+                  price: 2500000000
+                - date: '2013-06-07'
+                  acquiree: EdgeSpring
+                - date: '2014-07-11'
+                  acquiree: RelateIQ
+                  price: 390000000
+                - date: '2015-04-01'
+                  acquiree: Toopher
+                - date: '2015-05-29'
+                  acquiree: Tempo AI
+                - date: '2015-07-31'
+                  acquiree: Kerensen Consulting
+                  price: 24200000
+                - date: '2015-09-02'
+                  acquiree: AKTA
+                - date: '2015-12-14'
+                  acquiree: MinHash
+                - date: '2015-12-23'
+                  acquiree: SteelBrick
+                  price: 360000000
+                - date: '2016-01-22'
+                  acquiree: YOUR SL
+                - date: '2016-02-19'
+                  acquiree: PredictionIO
+                - date: '2016-04-04'
+                  acquiree: MetaMind
+                  price: 32799999
+                - date: '2016-05-09'
+                  acquiree: Implisit
+                - date: '2016-06-01'
+                  acquiree: Demandware
+                  price: 2800000000
+                - date: '2016-07-21'
+                  acquiree: Coolan
+                - date: '2016-08-01'
+                  acquiree: Quip
+                  price: 750000000
+                - date: '2016-08-15'
+                  acquiree: BeyondCore
+                  price: 110000000
+                - date: '2016-09-07'
+                  acquiree: HeyWire
+                - date: '2016-09-30'
+                  acquiree: gravitytank
+                - date: '2016-10-03'
+                  acquiree: Krux
+                  price: 800000000
+                - date: '2016-12-14'
+                  acquiree: Twin Prime
+                - date: '2017-01-25'
+                  acquiree: Sequence
+                - date: '2018-01-08'
+                  acquiree: Attic Labs
+                - date: '2018-03-13'
+                  acquiree: CloudCraze
+                - date: '2018-03-20'
+                  acquiree: MuleSoft
+                  price: 6500000000
+                - date: '2018-07-17'
+                  acquiree: Datorama
+                  price: 800000000
+                - date: '2018-10-05'
+                  acquiree: Rebel
+                - date: '2019-01-28'
+                  acquiree: Griddable
+                - date: '2019-04-16'
+                  acquiree: Salesforce Foundation
+                  price: 300000000
+                - date: '2019-04-17'
+                  acquiree: MapAnything
+                  price: 213000000
+                - date: '2019-05-06'
+                  acquiree: Bonobo AI
+                - date: '2019-06-10'
+                  acquiree: Tableau
+                  price: 15700000000
+                - date: '2019-08-08'
+                  acquiree: ClickSoftware Technologies
+                  price: 1350000000
+                - date: '2020-02-03'
+                  acquiree: Evergage
+                - date: '2020-02-25'
+                  acquiree: Vlocity
+                  price: 1330000000
+                - date: '2020-03-02'
+                  acquiree: The CMO Club
+              parents: []
+              ticker: CRM
+              funding: 65375124
+              stockExchange: nyse
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 165036163072
+              effective_ticker: CRM
+            image_data:
+              fileName: field-service-lightning.svg
+              hash: pbyEllaHejYKcRgURGZH34W+Z485ZDTx+AsypgTl5XQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-28T21:00:07.000Z
+          - item:
+            name: GRIDSTREAM SOFTWARE-Field Operations Manager
+            description: >-
+              Field Operations Manager is a complete solution to manage smart metering field installations. It offers tools for planning and scheduling tasks
+              and monitoring their progress.
+            homepage_url: 'https://www.landisgyr.eu/product/field-operations-manager/'
+            logo: landis-gyr-field-ops-man.svg
+            twitter: 'https://twitter.com/landisgyr'
+            crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+            crunchbase_data:
+              name: Landis+Gyr
+              description: Landis+Gyr is focused on metering and other technologies related to management of energy.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'https://www.landisgyr.se/'
+              city: Kista
+              region: Stockholms Lan
+              country: Sweden
+              twitter: 'https://www.twitter.com/landisgyr'
+              linkedin: 'https://www.linkedin.com/company/6291'
+              acquisitions:
+                - date: '2006-01-01'
+                  acquiree: Enermet Group Oy
+                - date: '2012-01-10'
+                  acquiree: Ecologic Analytics
+                - date: '2014-05-15'
+                  acquiree: PowerSense
+              parents: []
+              funding: 265000000
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: gridstream-software-field-operations-manager.svg
+              hash: 7Mw+IXxKc19hI5sXSg0CGtZVQY2jF/Fc96ZlEs3U5AU=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-06-26T13:45:17.000Z
   - category:
     name: Acquisition and Control
     subcategories:
@@ -591,7 +967,7 @@ landscape:
                 - name: Makefile
                   value: 7921
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-07-07Z
               stars: 55
               license: GNU Lesser General Public License v2.1
@@ -773,7 +1149,7 @@ landscape:
                   color: '#E3F171'
                 - name: ShaderLab
                   value: 137
-              contributions: 3;14;3;12;18;8;12;9;8;6;7;9;11;9;0;2;16;21;0;8;27;9;20;36;5;0;2;2;2;9;11;3;2;7;14;14;11;5;7;0;10;0;13;37;26;13;20;5;10;2;4;0
+              contributions: 3;14;3;12;18;8;14;7;8;6;7;9;11;9;0;2;16;21;0;8;28;8;24;32;5;0;2;2;2;12;8;3;2;8;15;15;8;5;7;0;10;0;13;37;26;13;20;5;10;2;4;0
               firstWeek: 2019-07-07Z
               stars: 93
               license: MIT License
@@ -988,7 +1364,7 @@ landscape:
                 - name: Dockerfile
                   value: 359
                   color: '#384d54'
-              contributions: 27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;3;2;5;16;42;37;11;31;8;23;30;28;22;40;26;14;19;6;12;7;7;9;2
+              contributions: 27;5;1;18;33;11;8;16;24;17;5;15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;4;1;5;16;42;37;11;31;8;27;26;28;22;40;26;14;22;3;12;7;7;10;1
               firstWeek: 2019-07-07Z
               stars: 42
               license: Apache License 2.0
@@ -1131,7 +1507,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 0;0;8;13;0;0;12;0;3;0;0;4;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0
+              contributions: 0;0;8;13;0;0;12;0;3;0;2;2;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0
               firstWeek: 2019-07-07Z
               stars: 117
               license: Apache License 2.0
@@ -1617,7 +1993,7 @@ landscape:
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                24;55;39;25;63;24;13;10;11;10;24;20;28;41;8;16;25;0;8;12;10;35;6;18;11;20;12;23;30;34;47;28;31;13;32;28;15;17;21;34;18;19;15;14;30;39;27;23;20;31;35;22
+                24;55;39;25;63;24;13;10;11;10;24;20;28;41;8;16;25;0;8;12;10;35;6;18;15;16;12;23;30;34;47;28;31;13;32;28;15;17;21;34;18;19;15;15;29;39;27;23;20;31;36;21
               firstWeek: 2019-07-07Z
               stars: 13
               license: Mozilla Public License 2.0
@@ -1675,7 +2051,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-27T13:40:10.000Z
+              latest_tweet_date: 2020-06-28T15:45:14.000Z
   - category:
     name: System Management
     subcategories:
@@ -1719,7 +2095,7 @@ landscape:
                 - name: Java
                   value: 3389
                   color: '#b07219'
-              contributions: 0;0;0;3;0;0;2;0;0;0;4;1;0;0;3;0;5;2;0;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;3;0;0;2;0;0;0;5;0;0;0;3;5;0;2;0;0;0;0;0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-07-07Z
               stars: 7
               license: Other
@@ -1847,7 +2223,7 @@ landscape:
                 - name: Batchfile
                   value: 267
                   color: '#C1F12E'
-              contributions: 6;13;7;6;2;4;0;5;3;11;9;4;8;19;10;12;15;11;10;4;1;4;2;24;4;5;7;7;0;5;5;10;10;11;16;9;8;11;9;15;8;5;16;10;10;5;9;11;1;15;9;5
+              contributions: 6;13;7;6;2;4;0;5;4;10;9;4;8;19;11;12;16;10;9;4;1;4;2;24;4;5;7;7;1;4;5;10;10;13;17;6;8;14;10;12;7;6;17;8;11;4;9;11;1;15;9;5
               firstWeek: 2019-07-07Z
               stars: 8
               license: Other
@@ -1908,7 +2284,7 @@ landscape:
                 - name: HTML
                   value: 242
                   color: '#e34c26'
-              contributions: 2;0;3;3;1;0;4;11;1;0;7;5;0;2;7;0;0;2;2;2;0;3;0;0;0;0;0;4;1;0;2;1;1;0;0;0;1;3;2;2;5;2;0;0;0;6;2;6;8;6;10;4
+              contributions: 2;0;3;4;0;0;4;12;0;0;7;5;0;2;7;0;0;2;2;2;0;3;0;0;0;0;0;5;0;0;2;1;1;0;0;0;1;3;2;2;5;2;0;0;0;6;2;6;8;6;10;4
               firstWeek: 2019-07-07Z
               stars: 6
               license: Other
@@ -2059,7 +2435,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-26T17:30:44.000Z
+              latest_tweet_date: 2020-06-28T12:27:19.000Z
           - item:
             name: GridLAB-D
             description: GridLAB-D is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
@@ -2167,7 +2543,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-27T18:31:01.000Z
+              latest_tweet_date: 2020-06-28T16:32:14.000Z
           - item:
             name: PowSyBl
             description: A High-Performance Computing Framework For Grid Simulation and Planning
@@ -2208,7 +2584,7 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 7;8;6;6;0;4;4;3;16;23;15;8;2;10;5;4;6;3;8;17;4;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;6;2;7;2;13;6;10
+              contributions: 7;8;7;5;0;4;4;3;18;21;15;8;2;10;5;4;6;3;10;15;4;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;6;2;7;3;12;6;10
               firstWeek: 2019-07-07Z
               stars: 57
               license: Mozilla Public License 2.0
@@ -2437,7 +2813,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5261573439
+              market_cap: 5258645442
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: pss.svg
@@ -2623,7 +2999,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5261573439
+              market_cap: 5258645442
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: psse.svg
@@ -2893,7 +3269,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 8077842
+                  value: 8078414
                   color: '#b07219'
                 - name: HTML
                   value: 2959365
@@ -2916,13 +3292,13 @@ landscape:
                 - name: Dockerfile
                   value: 115
                   color: '#384d54'
-              contributions: 35;19;22;2;25;2;18;4;12;10;17;4;16;1;15;0;16;9;9;9;10;7;5;13;7;0;11;0;13;2;6;3;16;7;14;9;15;3;13;4;25;41;11;18;31;3;12;6;8;3;18;4
+              contributions: 32;19;22;2;25;2;18;4;12;10;17;4;16;1;15;0;16;10;12;5;10;7;5;13;7;0;11;0;13;2;6;3;16;7;18;5;15;3;13;4;26;40;11;18;31;3;12;6;8;3;18;5
               firstWeek: 2019-07-07Z
               stars: 111
               license: Other
               description: OpenEMS - Open Source Energy Management System
-              latest_commit_date: '2020-06-26T14:24:27Z'
-              latest_commit_link: /OpenEMS/openems/commit/db467ea7a153331126b0773efd9c8fb28a8e4cbc
+              latest_commit_date: '2020-06-28T18:04:14Z'
+              latest_commit_link: /OpenEMS/openems/commit/c143b050c903445ff3a4277dd56607345e067812
               release_date: '2020-06-18T20:30:57Z'
               release_link: 'https://github.com/OpenEMS/openems/releases'
               contributors_count: 22
@@ -2940,7 +3316,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-19T18:01:42.000Z
+              latest_tweet_date: 2020-06-28T07:00:02.000Z
           - item:
             name: Spectrum Power
             description: 'Spectrum Power, the open and scalable platform for High, Medium and Low Voltage grid operation.'
@@ -3115,7 +3491,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5261573439
+              market_cap: 5258645442
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: spectrum-power.svg
@@ -3228,7 +3604,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-27T20:21:01.000Z
+              latest_tweet_date: 2020-06-28T14:00:47.000Z
           - item:
             name: Elering
             homepage_url: 'https://elering.ee'
@@ -3604,7 +3980,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-27T14:15:09.000Z
+              latest_tweet_date: 2020-06-28T10:15:04.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -3633,7 +4009,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-27T15:10:00.000Z
+              latest_tweet_date: 2020-06-28T08:13:00.000Z
           - item:
             name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -3741,7 +4117,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-27T06:00:18.000Z
+              latest_tweet_date: 2020-06-28T10:00:36.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -3880,7 +4256,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-06-28T01:00:00.000Z
+              latest_tweet_date: 2020-06-29T01:00:04.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: 'https://www.turing.ac.uk/'
@@ -4022,4 +4398,4 @@ landscape:
               latest_tweet_date: 2020-06-27T00:06:17.000Z
 twitter_options:
   count: 0
-updated_at: 2020-06-28T01:22:37.485Z
+updated_at: 2020-06-29T01:25:03.658Z
