@@ -155,13 +155,13 @@ big_picture:
         left: 960
         color: 'rgb(193,83,21)'
         fit_width: true
-      - type: HorizontalCategory
+      - type: VerticalCategory
         category: LF Energy Member
         rows: 3
-        width: 960
-        height: 200
-        top: 660
-        left: 0
+        width: 200
+        height: 620
+        top: 20
+        left: 1280
         color: 'rgb(37,81,209)'
         fit_width: true
       - type: LandscapeInfo
