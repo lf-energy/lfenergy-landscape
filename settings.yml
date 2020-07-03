@@ -140,7 +140,7 @@ big_picture:
       - type: HorizontalCategory
         category: Acquisition and Control
         rows: 2
-        width: 960
+        width: 1260
         height: 200
         top: 440
         left: 0
@@ -158,17 +158,17 @@ big_picture:
       - type: VerticalCategory
         category: LF Energy Member
         rows: 3
-        width: 200
-        height: 620
+        width: 300
+        height: 400
         top: 20
         left: 1280
         color: 'rgb(37,81,209)'
         fit_width: true
       - type: LandscapeInfo
-        width: 280
+        width: 300
         height: 200
         top: 440
-        left: 980
+        left: 1280
         children:
           - type: text
             text: >-
