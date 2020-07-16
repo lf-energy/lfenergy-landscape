@@ -110,65 +110,65 @@ big_picture:
     title: LF Energy Landscape
     fullscreen_header: See the interactive landscape at l.lfenergy.org
     elements:
-      - type: VerticalCategory
-        category: Asset Management
+      - type: HorizontalCategory
+        category: Customer and Market
         rows: 2
-        width: 300
-        height: 400
+        width: 800
+        height: 200
         top: 20
         left: 0
         color: 'rgb(0,206,209)'
         fit_width: true
-      - type: VerticalCategory
+      - type: HorizontalCategory
         category: System Management
         rows: 2
-        width: 300
-        height: 400
-        top: 20
-        left: 320
+        width: 800
+        height: 200
+        top: 240
+        left: 0
         color: 'rgb(106,44,218)'
         fit_width: true
-      - type: VerticalCategory
-        category: Customer and Market
+      - type: HorizontalCategory
+        category: Asset Management
         rows: 2
-        width: 300
-        height: 400
-        top: 20
-        left: 640
+        width: 800
+        height: 200
+        top: 460
+        left: 0
         color: 'rgb(179,60,133)'
         fit_width: true
       - type: HorizontalCategory
-        category: Acquisition and Control
+        category: Shared
         rows: 2
-        width: 1260
+        width: 800
         height: 200
-        top: 440
+        top: 680
         left: 0
         color: 'rgb(29,119,164)'
         fit_width: true
-      - type: VerticalCategory
-        category: Shared
-        rows: 2
-        width: 300
-        height: 400
-        top: 20
-        left: 960
+      - type: HorizontalCategory
+        category: LF Energy Member
+        rows: 3
+        width: 800
+        height: 200
+        top: 900
+        left: 0
         color: 'rgb(193,83,21)'
         fit_width: true
       - type: VerticalCategory
-        category: LF Energy Member
-        rows: 3
+        category: Acquisition and Control
+        rows: 2
         width: 300
-        height: 400
+        height: 900
         top: 20
-        left: 1280
+        left: 820
         color: 'rgb(37,81,209)'
         fit_width: true
       - type: LandscapeInfo
         width: 300
         height: 200
-        top: 440
-        left: 1280
+        top: 920
+        left: 820
         children:
           - type: text
             text: >-
