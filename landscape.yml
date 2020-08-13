@@ -24,6 +24,12 @@ landscape:
             repo_url: 'https://github.com/pvlib/pvlib-python'
             logo: pvlib-text.svg
             crunchbase: 'https://www.crunchbase.com/organization/sandia-national-laboratories'
+          - item:
+            name: WindStore
+            description: 'The WindStore Model combines the storage optimization methods used in GridStore with the intermittent generation risks of renewable wind and solar assets to accurately measure the benefits of firm and reliable energy to both the energy consumer and supplier.'
+            homepage_url: 'http://www.integralanalytics.com/products-and-services/storage-and-renewable-evaluation/windstore.aspx'
+            logo: windstore-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/integral-analytics'
       - subcategory:
         name: Asset Investment Planning
         items:
@@ -305,8 +311,15 @@ landscape:
             twitter: 'https://twitter.com/ENTSO_E'
             crunchbase: 'https://www.crunchbase.com/organization/entso-e'
           - item:
+            name: Enterprise Architect
+            description: Enterprise Architect CIM UML utility, creates IEC document content, validation, Rose migration and model merge.
+            homepage_url: 'https://sparxsystems.com/'
+            logo: enterprise-architect-text.svg
+            twitter: 'https://twitter.com/sparxsystems'
+            crunchbase: 'https://www.crunchbase.com/organization/sparx-systems'
+          - item:
             name: OEDI
-            description: Improving Data Access to Enable Advanced Analytics and Research Innovation
+            description: Improving Data Access to Enable Advanced Analytics and Research Innovation.
             homepage_url: 'https://www.lfenergy.org/projects/oedi/'
             project: incubation
             repo_url: 'https://github.com/openEDI/open-data-registry'
@@ -424,6 +437,13 @@ landscape:
             logo: Siemens-PSSE.svg
             twitter: 'https://twitter.com/siemens_energy'
             crunchbase: 'https://www.crunchbase.com/organization/siemens'
+          - item:
+            name: Simscape Electrical
+            description: Model and simulate electronic, mechatronic, and electrical power systems.
+            homepage_url: 'https://www.mathworks.com/products/simscape-electrical.html'
+            logo: simscape-electrical-text.svg
+            twitter: 'https://twitter.com/MATLAB'
+            crunchbase: 'https://www.crunchbase.com/organization/mathworks'
       - subcategory:
         name: Market Signal
         items:
@@ -433,6 +453,13 @@ landscape:
             homepage_url: 'https://www.smartergridsolutions.com/products/anm-strata/'
             logo: anm-strata.svg
             crunchbase: 'https://www.crunchbase.com/organization/smarter-grid-solutions'
+          - item:
+            name: Concerto
+            description: Concerto™, provides the speed, accuracy and scalability needed to ensure that energy is moving to the right place at precisely the right time. Powered by the Enbala Engine™ at its core, Concerto delivers the VPP and DERMS solution use cases that set Enbala apart in the world of distributed energy resource management.
+            homepage_url: 'https://www.enbala.com/technology/products-solutions/'
+            logo: concerto-text.svg
+            twitter: 'https://twitter.com/Enbala'
+            crunchbase: 'https://www.crunchbase.com/organization/enbala-power-networks'
           - item:
             name: GridOS TE
             description: Transactive Energy Management
