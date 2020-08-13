@@ -11,6 +11,13 @@ landscape:
             homepage_url: 'https://www.landisgyr.eu/product/connectivity-model-validation-module/'
             logo: landis-gyr-con-mod-val-mod.svg
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+          - item:
+            name: pvlib
+            description: 'pvlib python is a community supported tool that provides a set of functions and classes for simulating the performance of photovoltaic energy systems.'
+            homepage_url: 'https://pvlib-python.readthedocs.io/en/stable/'
+            repo_url: 'https://github.com/pvlib/pvlib-python'
+            logo: pvlib-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sandia-national-laboratories'
       - subcategory:
         name: Asset Investment Planning
         items:
@@ -30,6 +37,14 @@ landscape:
             logo: oracle-spatial-and-graph.svg
             twitter: 'https://twitter.com/SpatialHannes'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
+          - item:
+            name: PostGIS
+            description: 'PostGIS provides spatial objects for the PostgreSQL database, allowing storage and query of information about location and mapping.'
+            homepage_url: 'https://postgis.net/'
+            repo_url: 'https://github.com/postgis/postgis'
+            logo: postgis-text.svg
+            twitter: 'https://twitter.com/postgis'
+            crunchbase: 'https://www.crunchbase.com/organization/the-open-source-geospatial-foundation'
       - subcategory:
         name: Asset Supervision
         items:
