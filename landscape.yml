@@ -372,6 +372,19 @@ landscape:
         name: Forecasting
         items:
           - item:
+            name: KTP
+            description: KTP is short term forcasting solution for net-load and feed-in from renewable. It combines combine historical and real-time measurements from the grid with meteorological and market-price data. This is employed to deliver forecasts up to 48 hours ahead, at a resolution of 15 minutes, which are renewed every 15 minutes.
+            homepage_url: 'www.alliander.com'
+            logo: alliander-ktp.svg
+            twitter: 'https://twitter.com/alliander'
+            crunchbase: 'https://www.crunchbase.com/organization/alliander'
+          - item:
+            name: LoadSEER
+            description: Integrated Spatial Load Forecasting for T&D Planning.
+            homepage_url: 'http://www.integralanalytics.com/products-and-services/spatial-growth-planning/loadseer.aspx'
+            logo: loadseer-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/integral-analytics'
+          - item:
             name: Price Forecasting
             description: >-
               Streamline your due diligence and generation portfolio planning with our comprehensive power forecast curve, for the valuation of both fossil fuel
@@ -476,6 +489,12 @@ landscape:
             twitter: 'https://twitter.com/OpusOneSolns'
             crunchbase: 'https://www.crunchbase.com/organization/opus-one-solutions'
           - item:
+            name: Sigma ONE
+            description: AMS SigmaONE optimizes wholesale market revenues. Conventional manual trading approaches can’t keep up with the volatility of renewable energy and the complexity of battery operation. The SigmaOne platform optimizes and automates asset operation in energy markets to increase ROI and accelerate clean energy adoption.
+            homepage_url: 'https://www.advancedmicrogridsolutions.com/platform'
+            logo: sigmaone-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/advanced-microgrid-solutions'
+          - item:
             name: Sunverge Energy Platform
             description: >-
               The Sunverge Energy Platform enables utilities and transmission and distribution (T&D) operators to stack services, providing multiple value
@@ -502,6 +521,13 @@ landscape:
             logo: gridos-memsderms.svg
             twitter: 'https://twitter.com/OpusOneSolns'
             crunchbase: 'https://www.crunchbase.com/organization/opus-one-solutions'
+          - item:
+            name: HOMER Pro
+            description: The HOMER Pro® microgrid software by HOMER Energy is the global standard for optimizing microgrid design in all sectors, from village power and island utilities to grid-connected campuses and military bases.
+            homepage_url: 'https://www.homerenergy.com/products/pro/index.html'
+            logo: homerpro-text.svg
+            twitter: 'https://twitter.com/homerenergy'
+            crunchbase: 'https://www.crunchbase.com/organization/homer-energy'
           - item:
             name: OpenEMS
             description: >-
