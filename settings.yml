@@ -10,7 +10,7 @@ global:
   self: 'https://www.crunchbase.com/organization/lf-energy'
   meta:
     title: LF Energy Landscape
-    fb_admin: jefro
+    fb_admin: lmays
     description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
     twitter: LFE_Foundation
     google_site_verification: eZAQgcvgZbehffBtw1azh327yJwPL0bCsCGbMmkfdBc
@@ -77,6 +77,11 @@ membership:
     name: LF Energy
     label: Associate
     funding: Associate
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: 'https://www.crunchbase.com/organization/linux-foundation'
   'false':
     funding: 'No'
 home:
@@ -112,63 +117,54 @@ big_picture:
     elements:
       - type: HorizontalCategory
         category: Customer and Market
-        rows: 2
-        width: 800
-        height: 200
-        top: 20
+        rows: 4
+        width: 600
+        height: 300
+        top: 0
         left: 0
         color: 'rgb(0,206,209)'
         fit_width: true
       - type: HorizontalCategory
         category: System Management
-        rows: 2
-        width: 800
-        height: 200
-        top: 240
-        left: 0
+        rows: 4
+        width: 600
+        height: 300
+        top: 0
+        left: 610
         color: 'rgb(106,44,218)'
-        fit_width: true
+        fit_width: true       
       - type: HorizontalCategory
         category: Asset Management
-        rows: 2
-        width: 800
-        height: 200
-        top: 460
-        left: 0
+        rows: 4
+        width: 600
+        height: 300
+        top: 540
+        left: 610
         color: 'rgb(179,60,133)'
         fit_width: true
       - type: HorizontalCategory
         category: Shared
-        rows: 2
-        width: 800
+        rows: 4
+        width: 890
         height: 200
-        top: 680
+        top: 315
         left: 0
         color: 'rgb(29,119,164)'
         fit_width: true
       - type: HorizontalCategory
-        category: LF Energy Member
-        rows: 3
-        width: 800
-        height: 200
-        top: 900
-        left: 0
-        color: 'rgb(193,83,21)'
-        fit_width: true
-      - type: VerticalCategory
         category: Acquisition and Control
-        rows: 2
-        width: 300
-        height: 860
-        top: 20
-        left: 820
+        rows: 4
+        width: 600
+        height: 300
+        top: 540
+        left: 0
         color: 'rgb(37,81,209)'
         fit_width: true
       - type: LandscapeInfo
         width: 300
         height: 200
-        top: 900
-        left: 820
+        top: 315
+        left: 910
         children:
           - type: text
             text: >-
@@ -202,6 +198,42 @@ big_picture:
             right: 25
             top: 15
             title: LF Energy Logo
+  third:
+    tab_index: 1
+    url: members
+    name: Members
+    title: LF Energy Members
+    fullscreen_header: Become an LF Energy at member at www.lfenergy.org/join/
+    fullscreen_hide_grey_logos: true
+    elements:
+      - type: HorizontalCategory
+        category: Premier
+        rows: 3
+        width: 1210
+        height: 200
+        top: 0
+        left: 0
+        color: '#e5e4e2'
+        fit_width: true
+      - type: HorizontalCategory
+        category: General
+        rows: 3
+        width: 1210
+        height: 400
+        top: 210 
+        left: 0
+        color: '#C0C0C0'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Associate
+        rows: 3
+        width: 1210
+        height: 200
+        top: 620
+        left: 0
+        color: 'rgb(0,0,0)'
+        fit_width: true
+    category: LF Energy Member
 test:
   header: LF Energy Interactive Landscape
   section: Early Adoption
