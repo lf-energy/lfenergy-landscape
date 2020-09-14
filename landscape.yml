@@ -43,6 +43,13 @@ landscape:
             homepage_url: 'https://www.landisgyr.eu/product/capacity-planning-module/'
             logo: landis-gyr-cap-planning-mod.svg
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+          - item:
+            name: OSeMOSYS
+            description: 'Modeling system for long-run integrated assessment and energy planning.'
+            homepage_url: 'http://www.osemosys.org/'
+            repo_url: 'https://github.com/OSeMOSYS/OSeMOSYS'
+            logo: osemosys-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/osemosys'
       - subcategory:
         name: Asset Repository
         items:
@@ -61,6 +68,12 @@ landscape:
             homepage_url: 'https://www.autodesk.com/products/autocad/overview'
             logo: autocad-text.svg
             crunchbase: 'https://www.crunchbase.com/organization/autodesk'
+          - item:
+            name: CERES
+            description: 'CERES is a central registration of installations that produce or consume electricity.'
+            homepage_url: 'https://www.edsn.nl/'
+            logo: ceres-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/edsn'
           - item:
             name: Oracle Spatial and Graph
             description: 'An advanced database for fast, scalable, reliable and secure spatial and massive graph applications.'
@@ -124,6 +137,12 @@ landscape:
             homepage_url: 'https://www.landisgyr.eu/product/field-operations-manager/'
             logo: landis-gyr-field-ops-man.svg
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+          - item:
+            name: Qterra
+            description: 'Qterra enables planners to easily request a professional soil investigation.'
+            homepage_url: 'https://qterra.nl/'
+            logo: qterra-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qterra'
   - category:
     name: Acquisition and Control
     subcategories:
@@ -307,6 +326,13 @@ landscape:
         name: Data Management
         items:
           - item:
+            name: CIMCache
+            description: 'Place for storing CIM based gridmodels (fits in the konsequenz ecosystem).'
+            homepage_url: 'https://www.openkonsequenz.de/entwickler/28-plattform-module/117-cim-cache'
+            repo_url: 'https://git.eclipse.org/r/plugins/gitiles/openk-platform/org.eclipse.openk-platform.openk-repo/+/da7814ccaed99c9c1a09e7fcacd243d625280f79/cim-cache/'
+            logo: cimcache-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/openkonsequenz'
+          - item:
             name: CIMContextor and CIMSyntaxgen
             description: >-
               CimConteXtor is an Enterprise Architect Add-In. The main purpose of CimConteXtor is to create a UML profile in EA, profile that is a subset of an
@@ -334,8 +360,16 @@ landscape:
         name: Unified Operator's UX Components and Framework
         items:
           - item:
+            name: GridAPPS-D
+            description: 'GridAPPS-D™ is an open-source platform that accelerates development and deployment of portable applications for advanced distribution management and operations'
+            homepage_url: 'https://www.gridapps-d.org/'
+            repo_url: 'https://github.com/GRIDAPPSD/gridappsd-docker'
+            logo: gridappsd-text.svg
+            twitter: 'https://twitter.com/energy'
+            crunchbase: 'https://www.crunchbase.com/organization/gridapps-d'
+          - item:
             name: OperatorFabric
-            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
+            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations.'
             homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
             project: earlyadoption
             repo_url: 'https://github.com/opfab/operatorfabric-core'
