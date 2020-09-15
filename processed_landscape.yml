@@ -101,9 +101,9 @@ landscape:
                 - name: TeX
                   value: 4341
                   color: '#3D6117'
-              contributions: 2;1;0;1;2;3;4;4;3;1;5;2;3;3;1;1;5;5;1;1;1;7;4;7;5;1;1;1;2;3;4;2;1;4;1;13;0;0;3;1;1;0;2;11;1;0;1;1;1;7;11;4
+              contributions: 1;0;0;1;3;2;4;4;3;1;6;1;4;3;0;1;7;3;1;1;2;6;6;7;3;1;1;1;2;4;3;2;1;4;1;13;0;0;3;1;1;1;1;11;1;0;1;1;1;7;11;4
               firstWeek: 2019-09-22Z
-              stars: 402
+              stars: 404
               license: BSD 3-Clause "New" or "Revised" License
               description: A set of documented functions for simulating the performance of photovoltaic energy systems.
               latest_commit_date: '2020-09-10T16:58:13Z'
@@ -114,7 +114,7 @@ landscape:
               contributors_link: 'https://github.com/pvlib/pvlib-python/graphs/contributors'
             repos:
               - url: 'https://github.com/pvlib/pvlib-python'
-                stars: 402
+                stars: 404
             github_start_commit_data:
               start_commit_link: /pvlib/pvlib-python/commit/059ec272601b40affcc3a9c689018eb423ae3380
               start_date: '2013-08-30T17:58:04Z'
@@ -125,7 +125,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T15:12:30.000Z
+              latest_tweet_date: 2020-09-14T22:47:39.000Z
           - item:
             name: WindStore
             description: >-
@@ -193,6 +193,50 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-09-12T11:16:01.000Z
+          - item:
+            name: OSeMOSYS
+            description: Modeling system for long-run integrated assessment and energy planning.
+            homepage_url: 'http://www.osemosys.org/'
+            repo_url: 'https://github.com/OSeMOSYS/OSeMOSYS'
+            logo: osemosys-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/osemosys'
+            crunchbase_data:
+              name: OSeMOSYS
+              description: Modeling system for long-run integrated assessment and energy planning.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.osemosys.org/'
+              city: Stockholm
+              region: Stockholms Lan
+              country: Sweden
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;8;12;4;0;0;1;0;0;2;0;0;0;0;0;0;5;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;2;0;0;0
+              firstWeek: 2019-09-22Z
+              stars: 75
+              license: Apache License 2.0
+              description: OSeMOSYS - the Open Source Energy Modelling System
+              latest_commit_date: '2020-08-20T17:06:00Z'
+              latest_commit_link: /OSeMOSYS/OSeMOSYS/commit/bb5dc93e378e2ef4680236e85d33acd338993e6d
+              contributors_count: 11
+              contributors_link: 'https://github.com/OSeMOSYS/OSeMOSYS/graphs/contributors'
+            repos:
+              - url: 'https://github.com/OSeMOSYS/OSeMOSYS'
+                stars: 75
+            github_start_commit_data:
+              start_commit_link: /OSeMOSYS/OSeMOSYS/commit/2aed78fda147173900bea859304472c13ee63a92
+              start_date: '2016-10-03T08:53:56Z'
+            image_data:
+              fileName: o-se-mosys.svg
+              hash: 0HuVc95aK37AxqBNfrgR3uvvLCys512+q5queZZHIEc=
+            best_practice_data:
+              badge: false
+              percentage: null
       - subcategory:
         name: Asset Repository
         items:
@@ -224,7 +268,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T16:30:06.000Z
+              latest_tweet_date: 2020-09-14T18:05:04.000Z
           - item:
             name: AutoCAD
             description: >-
@@ -402,7 +446,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 49881587712
+              market_cap: 50396893184
               effective_ticker: ADSK
             image_data:
               fileName: auto-cad.svg
@@ -411,7 +455,33 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T20:00:16.000Z
+              latest_tweet_date: 2020-09-14T16:41:02.000Z
+          - item:
+            name: CERES
+            description: CERES is a central registration of installations that produce or consume electricity.
+            homepage_url: 'https://www.edsn.nl/'
+            logo: ceres-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/edsn'
+            crunchbase_data:
+              name: EDSN
+              description: Energy
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.edsn.nl/'
+              city: Amersfoort
+              region: Utrecht
+              country: The Netherlands
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: ceres.svg
+              hash: UTVpFj0o3eIKHRM0+MDTy0Yl13xIro247cHNJgL0slQ=
+            best_practice_data:
+              badge: false
+              percentage: null
           - item:
             name: Oracle Spatial and Graph
             description: 'An advanced database for fast, scalable, reliable and secure spatial and massive graph applications.'
@@ -421,7 +491,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
               name: Oracle
-              description: Oracle is an integrated cloud applications and platform services.
+              description: Oracle is an integrated cloud application and platform services that sells a wide range of enterprise IT solutions.
               num_employees_min: 10001
               num_employees_max: 1000000
               homepage: 'https://www.oracle.com'
@@ -748,7 +818,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 174914748416
+              market_cap: 182463709184
               effective_ticker: ORCL
             image_data:
               fileName: oracle-spatial-and-graph.svg
@@ -757,7 +827,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T10:27:36.000Z
+              latest_tweet_date: 2020-09-14T17:00:50.000Z
           - item:
             name: PostGIS
             description: 'PostGIS provides spatial objects for the PostgreSQL database, allowing storage and query of information about location and mapping.'
@@ -818,9 +888,9 @@ landscape:
                   color: '#C1F12E'
                 - name: Raku
                   value: 318
-              contributions: 3;15;14;39;22;9;24;8;12;7;3;5;7;18;4;6;8;30;13;15;5;6;2;10;15;3;5;3;5;3;6;16;20;14;7;1;3;2;5;5;8;2;8;8;12;21;10;10;6;1;1;2
+              contributions: 3;18;31;20;20;11;23;11;11;6;4;3;6;18;4;6;8;33;10;20;0;6;4;13;10;3;6;2;5;3;12;18;16;13;4;1;3;3;4;7;7;3;6;8;12;29;3;9;7;0;1;2
               firstWeek: 2019-09-22Z
-              stars: 857
+              stars: 858
               license: Other
               description: 'PostGIS spatial database extension to PostgreSQL [mirror]'
               latest_commit_date: '2020-09-11T09:47:23Z'
@@ -829,7 +899,7 @@ landscape:
               contributors_link: 'https://github.com/postgis/postgis/graphs/contributors'
             repos:
               - url: 'https://github.com/postgis/postgis'
-                stars: 857
+                stars: 858
             github_start_commit_data:
               start_commit_link: /postgis/postgis/commit/31e823c22bb3458c6382e42b09839fd0b8247ccb
               start_date: '2001-06-22T17:39:29Z'
@@ -909,7 +979,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T12:01:19.000Z
+              latest_tweet_date: 2020-09-14T11:55:03.000Z
           - item:
             name: GridOS IDP
             description: Integrated Distribution Planning Solution
@@ -975,7 +1045,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T16:00:43.000Z
+              latest_tweet_date: 2020-09-14T16:42:03.000Z
       - subcategory:
         name: Field Work Management
         items:
@@ -1152,7 +1222,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 221221011456
+              market_cap: 224442400768
               effective_ticker: CRM
             image_data:
               fileName: field-service-lightning.svg
@@ -1161,7 +1231,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T22:00:11.000Z
+              latest_tweet_date: 2020-09-15T00:00:00.000Z
           - item:
             name: GRIDSTREAM SOFTWARE-Field Operations Manager
             description: >-
@@ -1200,6 +1270,32 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-09-12T11:16:01.000Z
+          - item:
+            name: Qterra
+            description: Qterra enables planners to easily request a professional soil investigation.
+            homepage_url: 'https://qterra.nl/'
+            logo: qterra-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qterra'
+            crunchbase_data:
+              name: Qterra
+              description: Qterra enables planners to easily request a professional soil investigation.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: null
+              city: Arnhem
+              region: Gelderland
+              country: The Netherlands
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: qterra.svg
+              hash: xwyw3hc+F323JaAxcdqpgtpLUMVhWuw70TUoFkn18P4=
+            best_practice_data:
+              badge: false
+              percentage: null
   - category:
     name: Acquisition and Control
     subcategories:
@@ -1339,7 +1435,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T13:00:01.000Z
+              latest_tweet_date: 2020-09-14T13:45:00.000Z
           - item:
             name: OpenMUC
             description: 'OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.'
@@ -1405,7 +1501,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T14:08:34.000Z
+              latest_tweet_date: 2020-09-14T08:46:40.000Z
           - item:
             name: Volttron
             description: 'Voltron is a flexible, scalable, economical and secure software platform to operate the Internet of Things!'
@@ -1449,9 +1545,9 @@ landscape:
                   color: '#384d54'
                 - name: TSQL
                   value: 722
-              contributions: 6;3;18;28;31;17;39;19;15;16;21;21;22;23;6;12;21;17;9;28;0;16;2;6;12;31;10;31;57;41;10;9;14;9;22;4;21;30;33;9;18;14;8;6;13;21;38;11;0;0;0;0
+              contributions: 6;4;21;27;28;22;35;27;7;15;27;20;17;23;9;13;17;17;9;28;9;7;4;5;12;30;15;51;39;37;9;8;19;3;22;4;32;21;32;14;15;12;8;7;12;28;36;5;0;0;0;0
               firstWeek: 2019-09-22Z
-              stars: 311
+              stars: 312
               license: Other
               description: VOLTTRON Distributed Control System Platform
               latest_commit_date: '2020-08-11T18:34:03Z'
@@ -1462,7 +1558,7 @@ landscape:
               contributors_link: 'https://github.com/VOLTTRON/volttron/graphs/contributors'
             repos:
               - url: 'https://github.com/VOLTTRON/volttron'
-                stars: 311
+                stars: 312
             github_start_commit_data:
               start_commit_link: /VOLTTRON/volttron/commit/5096146d68fa58c4b56b48b8586fabec6fee88c2
               start_date: '2013-11-07T02:07:46Z'
@@ -1560,7 +1656,7 @@ landscape:
                   color: '#E3F171'
                 - name: ShaderLab
                   value: 137
-              contributions: 9;11;9;0;2;16;21;0;8;28;8;24;32;5;0;2;2;2;12;8;3;2;8;15;15;8;5;7;0;10;0;13;38;26;13;20;5;10;2;5;0;0;6;2;2;0;10;31;13;4;5;18
+              contributions: 5;11;7;0;4;16;19;1;18;17;13;23;28;5;0;2;2;2;15;5;3;2;8;15;16;7;5;7;0;10;2;17;35;24;17;15;6;9;2;5;0;0;8;1;1;0;13;33;9;3;5;18
               firstWeek: 2019-09-22Z
               stars: 96
               license: MIT License
@@ -1607,10 +1703,10 @@ landscape:
             github_data:
               languages:
                 - name: C++
-                  value: 2312861
+                  value: 2195383
                   color: '#f34b7d'
                 - name: CMake
-                  value: 39675
+                  value: 40438
                 - name: Python
                   value: 24150
                   color: '#3572A5'
@@ -1621,18 +1717,18 @@ landscape:
                   value: 8082
                   color: '#555555'
                 - name: Cap'n Proto
-                  value: 7137
+                  value: 5367
                 - name: Shell
-                  value: 3320
+                  value: 4301
                   color: '#89e051'
-              contributions: 0;0;0;0;2;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0
+              contributions: 0;0;0;1;1;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1
               firstWeek: 2019-09-22Z
               stars: 17
               license: Other
               description: C++ component model and discovery service implementation
-              latest_commit_date: '2020-08-28T21:09:23Z'
-              latest_commit_link: /RIAPS/riaps-core/commit/b002fd807dd90dc32707353823c9da9cfcc28916
-              release_date: '2020-09-03T02:41:12Z'
+              latest_commit_date: '2020-09-14T14:34:04Z'
+              latest_commit_link: /RIAPS/riaps-core/commit/60b562e7370930dda038af3935f5a0889f9b6795
+              release_date: '2020-09-14T15:11:09Z'
               release_link: 'https://github.com/RIAPS/riaps-core/releases'
               contributors_count: 13
               contributors_link: 'https://github.com/RIAPS/riaps-core/graphs/contributors'
@@ -1752,7 +1848,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 11260535
+                  value: 11289640
                   color: '#b07219'
                 - name: Gherkin
                   value: 739842
@@ -1768,7 +1864,7 @@ landscape:
                 - name: Dockerfile
                   value: 359
                   color: '#384d54'
-              contributions: 15;12;15;2;3;3;7;16;18;19;3;23;11;8;0;2;4;5;4;1;5;16;42;37;11;31;8;27;26;28;22;40;26;14;22;3;14;21;40;29;10;12;19;20;48;9;6;0;5;1;1;5
+              contributions: 18;13;12;2;3;2;8;15;18;20;5;20;11;8;0;2;4;5;4;2;8;18;48;27;12;30;9;38;15;25;28;37;25;19;15;6;11;33;37;23;9;14;20;24;40;9;5;0;6;1;0;6
               firstWeek: 2019-09-22Z
               stars: 46
               license: Apache License 2.0
@@ -1776,8 +1872,8 @@ landscape:
                 This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
                 Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly
                 mode to preserve the historical information.
-              latest_commit_date: '2020-09-10T14:14:19Z'
-              latest_commit_link: /OSGP/open-smart-grid-platform/commit/2886f0e3e72b4e7ab3664821747f9980d4ba0db5
+              latest_commit_date: '2020-09-14T21:03:11Z'
+              latest_commit_link: /OSGP/open-smart-grid-platform/commit/5bd70208cc343764248fcc3d18ec0d5d79611fc0
               contributors_count: 72
               contributors_link: 'https://github.com/OSGP/open-smart-grid-platform/graphs/contributors'
             repos:
@@ -1911,7 +2007,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 2;2;6;0;14;0;3;10;0;6;1;1;4;1;0;0;6;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;2;6;0;14;0;5;8;0;6;1;1;5;0;0;1;5;2;3;0;3;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2019-09-22Z
               stars: 121
               license: Apache License 2.0
@@ -2038,7 +2134,7 @@ landscape:
               stockExchange: nasdaq
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 347303870464
+              market_cap: 391005700096
               effective_ticker: TSLA
             image_data:
               fileName: autobidder.svg
@@ -2107,7 +2203,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T18:05:35.000Z
+              latest_tweet_date: 2020-09-14T15:01:53.000Z
           - item:
             name: PowerMatcher
             description: 'The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market.'
@@ -2272,7 +2368,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T14:52:37.000Z
+              latest_tweet_date: 2020-09-14T18:03:37.000Z
   - category:
     name: Shared
     subcategories:
@@ -2310,7 +2406,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T12:26:19.000Z
+              latest_tweet_date: 2020-09-14T07:48:24.000Z
           - item:
             name: Enterprise Architect
             description: 'Enterprise Architect CIM UML utility, creates IEC document content, validation, Rose migration and model merge.'
@@ -2370,7 +2466,7 @@ landscape:
                 - name: Shell
                   value: 1330
                   color: '#89e051'
-              contributions: 12;10;18;9;10;3;5;2;4;3;0;9;8;5;0;0;2;8;31;13;16;12;6;6;1;8;12;13;23;26;24;9;17;4;3;2;19;3;21;15;6;6;15;11;18;3;4;7;2;0;0;0
+              contributions: 14;5;15;9;10;3;7;2;5;0;0;14;4;4;0;0;2;17;24;11;18;12;4;6;1;8;14;25;11;24;29;4;17;5;2;2;20;9;15;14;7;12;11;11;15;4;3;9;0;0;0;0
               firstWeek: 2019-09-22Z
               stars: 2
               license: Apache License 2.0
@@ -2397,8 +2493,65 @@ landscape:
         name: Unified Operator's UX Components and Framework
         items:
           - item:
+            name: GridAPPS-D
+            description: >-
+              GridAPPS-D™ is an open-source platform that accelerates development and deployment of portable applications for advanced distribution management
+              and operations
+            homepage_url: 'https://www.gridapps-d.org/'
+            repo_url: 'https://github.com/GRIDAPPSD/gridappsd-docker'
+            logo: gridappsd-text.svg
+            twitter: 'https://twitter.com/energy'
+            crunchbase: 'https://www.crunchbase.com/organization/gridapps-d'
+            crunchbase_data:
+              name: GridAPPS-D
+              description: Software Platform
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.gridapps-d.org/'
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: 'https://twitter.com/energy'
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            github_data:
+              languages:
+                - name: Shell
+                  value: 12381
+                  color: '#89e051'
+                - name: Python
+                  value: 4545
+                  color: '#3572A5'
+              contributions: 0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;3;0;0;1;0;0;2;0;3;0;0;0;3;1;0;0;0;4;0;0;0;3;0;0;0;0;0;3;0;0;0;0;0;0;1;2
+              firstWeek: 2019-09-22Z
+              stars: 3
+              license: Unknown License
+              description: Docker based runtime for GridAPPS-D based applications and services.
+              latest_commit_date: '2020-09-10T20:10:21Z'
+              latest_commit_link: /GRIDAPPSD/gridappsd-docker/commit/2180db061041518dc622859b15931142a430e48a
+              release_date: '2020-09-14T19:14:01Z'
+              release_link: 'https://github.com/GRIDAPPSD/gridappsd-docker/releases'
+              contributors_count: 7
+              contributors_link: 'https://github.com/GRIDAPPSD/gridappsd-docker/graphs/contributors'
+            repos:
+              - url: 'https://github.com/GRIDAPPSD/gridappsd-docker'
+                stars: 3
+            github_start_commit_data:
+              start_commit_link: /GRIDAPPSD/gridappsd-docker/commit/a34b7e22361fe9d22de25166e3e6247b32dc471b
+              start_date: '2017-11-07T23:56:08Z'
+            image_data:
+              fileName: grid-apps-d.svg
+              hash: Zj4JVGaOvzP1tmy7GLTPjGyls9Tjus9MzuWFtBftPLw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2020-09-14T19:55:24.000Z
+          - item:
             name: OperatorFabric
-            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
+            description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations.'
             homepage_url: 'https://www.lfenergy.org/projects/operatorfabric/'
             project: earlyadoption
             repo_url: 'https://github.com/opfab/operatorfabric-core'
@@ -2422,24 +2575,24 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 995946
+                  value: 997141
                   color: '#b07219'
                 - name: TypeScript
-                  value: 781785
+                  value: 774977
                   color: '#2b7489'
                 - name: Handlebars
-                  value: 430876
+                  value: 431107
                 - name: Gherkin
-                  value: 252006
+                  value: 253805
                   color: '#5B2063'
                 - name: HTML
-                  value: 230946
+                  value: 230957
                   color: '#e34c26'
                 - name: JavaScript
                   value: 60808
                   color: '#f1e05a'
                 - name: Shell
-                  value: 40700
+                  value: 40854
                   color: '#89e051'
                 - name: SCSS
                   value: 23538
@@ -2453,13 +2606,13 @@ landscape:
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                20;28;41;8;16;25;0;8;12;10;35;6;18;15;16;12;23;30;34;47;28;31;13;32;28;15;17;21;34;18;19;15;15;29;39;27;23;20;32;36;29;37;41;21;14;24;9;5;7;22;26;7
+                31;26;32;13;13;22;2;6;14;14;34;3;18;19;14;18;19;29;33;44;39;20;18;38;21;15;13;31;29;13;21;16;19;22;49;20;20;21;40;39;22;38;42;23;4;25;12;2;12;19;26;14
               firstWeek: 2019-09-22Z
               stars: 15
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2020-09-11T09:08:13Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/99172a18bf2e1c3e81f351d4ed69ffc5214da0c3
+              latest_commit_date: '2020-09-14T12:13:45Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/9a8e1e29794a825c80ef82d31a0869ec34d93dee
               contributors_count: 27
               contributors_link: 'https://github.com/opfab/operatorfabric-core/graphs/contributors'
             repos:
@@ -2511,7 +2664,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T15:55:05.000Z
+              latest_tweet_date: 2020-09-14T15:05:13.000Z
   - category:
     name: System Management
     subcategories:
@@ -2609,7 +2762,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T15:28:03.000Z
+              latest_tweet_date: 2020-09-14T08:47:12.000Z
           - item:
             name: LoadSEER
             description: Integrated Spatial Load Forecasting for T&D Planning.
@@ -2673,7 +2826,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 84058390528
+              market_cap: 85094686720
               effective_ticker: SPGI
             image_data:
               fileName: price-forecasting.svg
@@ -2682,7 +2835,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T21:10:03.000Z
+              latest_tweet_date: 2020-09-14T21:00:26.000Z
       - subcategory:
         name: Power System Calculation
         items:
@@ -2713,7 +2866,7 @@ landscape:
                   value: 15175959
                   color: '#f1e05a'
                 - name: Scala
-                  value: 1805776
+                  value: 1805766
                   color: '#c22d40'
                 - name: Java
                   value: 140028
@@ -2738,13 +2891,13 @@ landscape:
                 - name: Batchfile
                   value: 267
                   color: '#C1F12E'
-              contributions: 4;8;19;11;12;16;10;9;4;1;4;2;24;4;5;7;7;1;4;5;10;10;13;17;6;8;14;10;12;7;6;17;8;11;4;9;11;1;15;9;5;8;17;10;7;11;7;2;2;13;22;4
+              contributions: 3;8;21;10;15;17;6;10;3;2;2;15;13;4;6;7;4;3;4;3;11;12;14;14;7;7;16;9;12;6;10;13;12;7;4;15;4;3;14;8;10;8;13;9;7;12;6;3;3;15;18;5
               firstWeek: 2019-09-22Z
               stars: 9
               license: Other
               description: CIM J2EE application with resource adapter access to Spark.
-              latest_commit_date: '2020-09-08T11:03:21Z'
-              latest_commit_link: /derrickoswald/CIMApplication/commit/1ba5869adda2284771044faefb608b1043a07f77
+              latest_commit_date: '2020-09-14T09:41:50Z'
+              latest_commit_link: /derrickoswald/CIMApplication/commit/ef905e1d6714c77f37878cfe293f7b4a93ae8683
               release_date: '2018-11-07T08:42:26Z'
               release_link: 'https://github.com/derrickoswald/CIMApplication/releases'
               contributors_count: 5
@@ -2799,7 +2952,7 @@ landscape:
                 - name: HTML
                   value: 242
                   color: '#e34c26'
-              contributions: 5;0;2;7;0;0;2;2;2;0;3;0;0;0;0;0;5;0;0;2;1;1;0;0;0;1;3;2;2;5;2;0;0;0;6;2;6;8;6;10;4;2;6;0;0;0;0;1;2;1;8;2
+              contributions: 4;2;0;7;0;1;1;2;2;0;3;0;0;0;0;2;3;0;0;2;1;1;0;0;0;1;3;2;4;3;2;0;0;0;7;1;11;3;9;7;4;3;5;0;0;0;0;1;2;4;5;2
               firstWeek: 2019-09-22Z
               stars: 6
               license: Other
@@ -2941,7 +3094,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 41018249216
+              market_cap: 41282318336
               effective_ticker: ETN
             image_data:
               fileName: cyme.svg
@@ -3058,7 +3211,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T22:56:01.000Z
+              latest_tweet_date: 2020-09-14T19:55:24.000Z
           - item:
             name: PowSyBl
             description: A High-Performance Computing Framework For Grid Simulation and Planning
@@ -3099,7 +3252,7 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 8;2;10;5;4;6;3;10;15;4;4;14;17;9;1;1;7;5;13;7;6;5;5;19;9;9;8;11;6;15;12;10;2;4;6;2;7;3;12;6;10;1;10;12;12;4;1;6;1;5;5;5
+              contributions: 7;4;8;5;4;6;4;14;10;5;7;13;18;5;1;2;8;6;11;8;4;7;5;20;7;11;8;9;11;9;16;7;2;4;5;3;6;7;10;5;10;1;9;13;12;3;1;6;2;5;4;5
               firstWeek: 2019-09-22Z
               stars: 62
               license: Mozilla Public License 2.0
@@ -3330,7 +3483,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5908143111
+              market_cap: 5990209999
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: pss.svg
@@ -3339,7 +3492,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T10:00:01.000Z
+              latest_tweet_date: 2020-09-14T11:23:15.000Z
           - item:
             name: PSSE
             description: >-
@@ -3518,7 +3671,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5908143111
+              market_cap: 5990209999
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: psse.svg
@@ -3527,7 +3680,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T10:00:01.000Z
+              latest_tweet_date: 2020-09-14T11:23:15.000Z
           - item:
             name: Simscape Electrical
             description: 'Model and simulate electronic, mechatronic, and electrical power systems.'
@@ -3558,7 +3711,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T10:58:38.000Z
+              latest_tweet_date: 2020-09-14T19:36:28.000Z
       - subcategory:
         name: Market Signal
         items:
@@ -3591,7 +3744,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T12:01:19.000Z
+              latest_tweet_date: 2020-09-14T11:55:03.000Z
           - item:
             name: Concerto
             description: >-
@@ -3822,7 +3975,7 @@ landscape:
               stockExchange: nyse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 52082073600
+              market_cap: 53832736768
               effective_ticker: GE
             image_data:
               fileName: adms.svg
@@ -3831,7 +3984,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-12T22:36:21.000Z
+              latest_tweet_date: 2020-09-14T18:33:26.000Z
           - item:
             name: GridOS MEMS/DERMS
             description: DER Management
@@ -3892,7 +4045,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-12T15:00:13.000Z
+              latest_tweet_date: 2020-09-14T22:04:23.000Z
           - item:
             name: OpenEMS
             description: >-
@@ -3942,7 +4095,7 @@ landscape:
                 - name: Dockerfile
                   value: 115
                   color: '#384d54'
-              contributions: 4;16;1;15;0;16;10;12;5;10;7;5;13;7;0;11;0;13;2;6;3;16;7;18;5;15;3;13;4;26;40;11;18;31;3;12;6;8;3;18;6;10;3;8;5;15;11;11;10;13;7;11
+              contributions: 2;17;0;15;1;15;10;12;6;9;7;7;11;7;0;11;0;14;1;6;3;18;9;14;6;15;4;13;5;26;37;19;11;30;8;10;3;8;3;18;7;10;2;8;6;16;9;12;9;15;6;10
               firstWeek: 2019-09-22Z
               stars: 134
               license: Other
@@ -4143,7 +4296,7 @@ landscape:
               stockExchange: nse
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 5908143111
+              market_cap: 5990209999
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: spectrum-power.svg
@@ -4152,7 +4305,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-10T10:00:01.000Z
+              latest_tweet_date: 2020-09-14T11:23:15.000Z
   - category:
     name: LF Energy Member
     subcategories:
@@ -4185,7 +4338,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T15:28:03.000Z
+              latest_tweet_date: 2020-09-14T08:47:12.000Z
           - item:
             name: RTE
             homepage_url: 'https://www.rte-france.com'
@@ -4212,7 +4365,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T08:49:05.000Z
+              latest_tweet_date: 2020-09-14T14:30:33.000Z
       - subcategory:
         name: General
         items:
@@ -4256,7 +4409,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-14T01:03:02.000Z
+              latest_tweet_date: 2020-09-14T18:43:07.000Z
           - item:
             name: Elering
             homepage_url: 'https://elering.ee'
@@ -4308,7 +4461,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-14T00:33:55.000Z
+              latest_tweet_date: 2020-09-15T02:00:01.000Z
           - item:
             name: OSIsoft
             homepage_url: 'https://www.osisoft.com'
@@ -4339,7 +4492,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T16:00:43.000Z
+              latest_tweet_date: 2020-09-14T16:42:03.000Z
           - item:
             name: Recurve
             homepage_url: 'https://www.recurve.com'
@@ -4395,7 +4548,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T18:05:35.000Z
+              latest_tweet_date: 2020-09-14T15:01:53.000Z
           - item:
             name: Unicorn Systems
             homepage_url: 'https://unicorn.com'
@@ -4426,7 +4579,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-07-02T12:31:05.000Z
+              latest_tweet_date: 2020-09-14T10:23:35.000Z
           - item:
             name: Wind River Systems
             homepage_url: 'https://www.windriver.com'
@@ -4467,7 +4620,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T18:16:05.000Z
+              latest_tweet_date: 2020-09-14T20:30:22.000Z
       - subcategory:
         name: Associate
         items:
@@ -4524,7 +4677,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T05:11:05.000Z
+              latest_tweet_date: 2020-09-15T02:09:11.000Z
           - item:
             name: ENTSO-E
             homepage_url: 'https://www.entsoe.eu'
@@ -4551,7 +4704,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T12:26:19.000Z
+              latest_tweet_date: 2020-09-14T07:48:24.000Z
           - item:
             name: EPFL
             homepage_url: 'https://www.epfl.ch/en/'
@@ -4578,7 +4731,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-12T07:22:24.000Z
+              latest_tweet_date: 2020-09-14T15:03:25.000Z
           - item:
             name: EPRI
             homepage_url: 'https://www.epri.com/'
@@ -4632,7 +4785,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T14:15:04.000Z
+              latest_tweet_date: 2020-09-14T17:15:48.000Z
           - item:
             name: Fraunhofer
             homepage_url: 'https://www.iee.fraunhofer.de'
@@ -4661,7 +4814,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T14:59:12.000Z
+              latest_tweet_date: 2020-09-14T14:05:42.000Z
           - item:
             name: FREEDM Systems Center
             homepage_url: 'https://www.freedm.ncsu.edu'
@@ -4713,7 +4866,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T09:22:35.000Z
+              latest_tweet_date: 2020-09-14T15:24:10.000Z
           - item:
             name: Iowa State University
             homepage_url: 'https://www.iastate.edu/'
@@ -4742,7 +4895,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-12T00:57:39.000Z
+              latest_tweet_date: 2020-09-14T22:05:03.000Z
           - item:
             name: Lucerne University of Applied Sciences and Arts
             homepage_url: 'https://www.hslu.ch/en/'
@@ -4769,7 +4922,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T19:01:26.000Z
+              latest_tweet_date: 2020-09-14T16:30:24.000Z
           - item:
             name: NREL
             homepage_url: 'https://www.nrel.gov'
@@ -4798,7 +4951,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T22:00:13.000Z
+              latest_tweet_date: 2020-09-14T22:00:11.000Z
           - item:
             name: Pecan Street
             homepage_url: 'https://www.pecanstreet.org/'
@@ -4879,7 +5032,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-11T13:33:42.000Z
+              latest_tweet_date: 2020-09-14T13:11:21.000Z
           - item:
             name: Stanford University
             homepage_url: 'https://engineering.stanford.edu'
@@ -4908,7 +5061,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T17:00:10.000Z
+              latest_tweet_date: 2020-09-14T18:20:21.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: 'https://www.turing.ac.uk/'
@@ -4937,7 +5090,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-09T15:32:59.000Z
+              latest_tweet_date: 2020-09-14T14:15:51.000Z
           - item:
             name: The Energy Coalition
             homepage_url: 'https://energycoalition.org'
@@ -5018,7 +5171,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-12T14:54:07.000Z
+              latest_tweet_date: 2020-09-14T18:56:07.000Z
           - item:
             name: Washington State University
             homepage_url: 'https://school.eecs.wsu.edu'
@@ -5047,7 +5200,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2020-09-13T23:59:58.000Z
+              latest_tweet_date: 2020-09-15T00:09:03.000Z
 twitter_options:
   count: 0
-updated_at: 2020-09-14T02:21:53.504Z
+updated_at: 2020-09-15T02:23:23.620Z
