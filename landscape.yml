@@ -336,18 +336,18 @@ landscape:
             twitter: 'https://twitter.com/ENTSO_E'
             crunchbase: 'https://www.crunchbase.com/organization/entso-e'
           - item:
-            name: CIMTool
-            description: 'CIM profile and message schema creation, validation.'
-            homepage_url: 'http://www.cimtool.org/'
-            repo_url: 'https://github.com/arnolddevos/CIMTool'
-            logo: cimtool-text.svg
-            crunchbase: 'https://www.crunchbase.com/organization/langdale-consulting-and-technical-services'
-          - item:
             name: CIMSpy
             description: 'CIM/RDF/XML file browser, editor, and validator.'
             homepage_url: 'http://www.powerinfo.us/CIMSpyEE.html'
             logo: cimspy-text.svg
             crunchbase: 'https://www.crunchbase.com/organization/power-info-llc'
+          - item:
+            name: CIMTool
+            description: 'CIM profile and message schema creation, validation.'
+            homepage_url: 'https://wiki.cimtool.org'
+            repo_url: 'https://github.com/arnolddevos/CIMTool'
+            logo: cimtool-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/langdale-consulting-and-technical-services'
           - item:
             name: Enterprise Architect
             description: 'Enterprise Architect CIM UML utility, creates IEC document content, validation, Rose migration and model merge.'
@@ -461,7 +461,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/eaton'
           - item:
             name: EMTP-RV
-            description: 'EMTP is the most complete and technically advanced software for simulation and analysis of power systems.'
+            description: EMTP is the most complete and technically advanced software for simulation and analysis of power systems.
             homepage_url: 'https://www.emtp-software.com/'
             logo: emtp-rv-text.svg
             crunchbase: 'https://www.crunchbase.com/organization/emtp-alliance'
