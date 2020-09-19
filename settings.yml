@@ -113,8 +113,8 @@ big_picture:
       - type: HorizontalCategory
         category: Customer and Market
         rows: 2
-        width: 800
-        height: 200
+        width: 600
+        height: 90
         top: 20
         left: 0
         color: 'rgb(0,206,209)'
@@ -122,27 +122,27 @@ big_picture:
       - type: HorizontalCategory
         category: System Management
         rows: 2
-        width: 800
-        height: 200
-        top: 240
+        width: 600
+        height: 90
+        top: 130
         left: 0
         color: 'rgb(106,44,218)'
         fit_width: true
       - type: HorizontalCategory
         category: Asset Management
         rows: 2
-        width: 800
-        height: 200
-        top: 460
+        width: 600
+        height: 90
+        top: 350
         left: 0
         color: 'rgb(179,60,133)'
         fit_width: true
       - type: HorizontalCategory
-        category: Shared
+        category: Acquisition and Control
         rows: 2
-        width: 800
-        height: 200
-        top: 680
+        width: 600
+        height: 90
+        top: 570
         left: 0
         color: 'rgb(29,119,164)'
         fit_width: true
@@ -156,10 +156,10 @@ big_picture:
         color: 'rgb(193,83,21)'
         fit_width: true
       - type: VerticalCategory
-        category: Acquisition and Control
+        category: Shared
         rows: 2
-        width: 300
-        height: 860
+        width: 90
+        height: 420
         top: 20
         left: 820
         color: 'rgb(37,81,209)'
