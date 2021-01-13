@@ -11,6 +11,29 @@ landscape:
             homepage_url: 'https://www.landisgyr.eu/product/connectivity-model-validation-module/'
             logo: landis-gyr-con-mod-val-mod.svg
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+          - item:
+            name: GridStore
+            description: Appraisal software values grid-scale battery technologies.
+            homepage_url: 'http://www.integralanalytics.com/products-and-services/storage-and-renewable-evaluation/gridstore.aspx'
+            logo: gridstore-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/integral-analytics'
+          - item:
+            name: pvlib
+            description: >-
+              pvlib python is a community supported tool that provides a set of functions and classes for simulating the performance of photovoltaic energy
+              systems.
+            homepage_url: 'https://pvlib-python.readthedocs.io/en/stable/'
+            repo_url: 'https://github.com/pvlib/pvlib-python'
+            logo: pvlib.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sandia-national-laboratories'
+          - item:
+            name: WindStore
+            description: >-
+              The WindStore Model combines the storage optimization methods used in GridStore with the intermittent generation risks of renewable wind and solar
+              assets to accurately measure the benefits of firm and reliable energy to both the energy consumer and supplier.
+            homepage_url: 'http://www.integralanalytics.com/products-and-services/storage-and-renewable-evaluation/windstore.aspx'
+            logo: windstore-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/integral-analytics'
       - subcategory:
         name: Asset Investment Planning
         items:
@@ -20,9 +43,37 @@ landscape:
             homepage_url: 'https://www.landisgyr.eu/product/capacity-planning-module/'
             logo: landis-gyr-cap-planning-mod.svg
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+          - item:
+            name: OSeMOSYS
+            description: Modeling system for long-run integrated assessment and energy planning.
+            homepage_url: 'http://www.osemosys.org/'
+            repo_url: 'https://github.com/OSeMOSYS/OSeMOSYS'
+            logo: osemosys-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/osemosys'
       - subcategory:
         name: Asset Repository
         items:
+          - item:
+            name: ArcGIS
+            description: ArcGIS provides contextual tools for mapping and spatial reasoning so you can explore data & share location-based insights.
+            homepage_url: 'https://www.esri.com/en-us/arcgis/about-arcgis/overview'
+            logo: arcgis.svg
+            twitter: 'https://twitter.com/Esri'
+            crunchbase: 'https://www.crunchbase.com/organization/arcgis'
+          - item:
+            name: AutoCAD
+            description: >-
+              AutoCAD® is computer-aided design (CAD) software that architects, engineers, and construction professionals rely on to create precise 2D and 3D
+              drawings.
+            homepage_url: 'https://www.autodesk.com/products/autocad/overview'
+            logo: AutoCad_logo.svg
+            crunchbase: 'https://www.crunchbase.com/organization/autodesk'
+          - item:
+            name: CERES
+            description: CERES is a central registration of installations that produce or consume electricity.
+            homepage_url: 'https://www.edsn.nl/'
+            logo: ceres.svg
+            crunchbase: 'https://www.crunchbase.com/organization/edsn'
           - item:
             name: Oracle Spatial and Graph
             description: 'An advanced database for fast, scalable, reliable and secure spatial and massive graph applications.'
@@ -30,6 +81,14 @@ landscape:
             logo: oracle-spatial-and-graph.svg
             twitter: 'https://twitter.com/SpatialHannes'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
+          - item:
+            name: PostGIS
+            description: 'PostGIS provides spatial objects for the PostgreSQL database, allowing storage and query of information about location and mapping.'
+            homepage_url: 'https://postgis.net/'
+            repo_url: 'https://github.com/postgis/postgis'
+            logo: PostGIS.OSG.svg
+            twitter: 'https://twitter.com/postgis'
+            crunchbase: 'https://www.crunchbase.com/organization/the-open-source-geospatial-foundation'
       - subcategory:
         name: Asset Supervision
         items:
@@ -42,7 +101,7 @@ landscape:
           - item:
             name: ANM Element
             description: ANM Element is flexible software to enable smarter monitoring and control at the grid edge.
-            homepage_url: 'https://www.smartergridsolutions.com/products/anm-element/'
+            homepage_url: 'https://www.smartergridsolutions.com/products/element-grid'
             logo: anm-strata.svg
             crunchbase: 'https://www.crunchbase.com/organization/smarter-grid-solutions'
           - item:
@@ -58,7 +117,7 @@ landscape:
           - item:
             name: OSIsoft PI System
             description: 'Critical Operations Data Management across Generation, T&D, AMI and DER.'
-            homepage_url: 'https://www.osisoft.com/solutions/industry-solutions/power-and-utilities/'
+            homepage_url: 'https://www.osisoft.com/industries/power-generation'
             logo: osisoft-pi-system.svg
             crunchbase: 'https://www.crunchbase.com/organization/osisoft'
       - subcategory:
@@ -78,6 +137,12 @@ landscape:
             homepage_url: 'https://www.landisgyr.eu/product/field-operations-manager/'
             logo: landis-gyr-field-ops-man.svg
             crunchbase: 'https://www.crunchbase.com/organization/landis-gyr'
+          - item:
+            name: Qterra
+            description: Qterra enables planners to easily request a professional soil investigation.
+            homepage_url: 'https://qterra.nl/'
+            logo: qterra-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/qterra'
   - category:
     name: Acquisition and Control
     subcategories:
@@ -98,7 +163,7 @@ landscape:
             description: 'OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.'
             homepage_url: 'https://www.openmuc.org/'
             repo_url: 'https://github.com/openmuc/jrxtx'
-            logo: openmuc-text.svg
+            logo: Fraunhofer Ise - OpenMUC.svg
             twitter: 'https://twitter.com/FraunhoferISE'
             crunchbase: 'https://www.crunchbase.com/organization/openmuc'
           - item:
@@ -106,7 +171,7 @@ landscape:
             description: 'Voltron is a flexible, scalable, economical and secure software platform to operate the Internet of Things!'
             homepage_url: 'https://volttron.org/'
             repo_url: 'https://github.com/VOLTTRON/volttron'
-            logo: volttron-text.svg
+            logo: VolttronDoE.svg
             crunchbase: 'https://www.crunchbase.com/organization/volttron'
       - subcategory:
         name: Edge Node Control
@@ -133,7 +198,7 @@ landscape:
               protection, control, condition monitoring, intelligent communication and assets management function by collecting the data those functions
               require. SASensor® uses accurate, highspeed, time synchronised measurements within your medium voltage substation.
             homepage_url: 'https://www.locamation.com/'
-            logo: sasensor-text.svg
+            logo: sasensor.svg
             twitter: 'https://twitter.com/locamation'
             crunchbase: 'https://www.crunchbase.com/organization/locamation'
           - item:
@@ -141,8 +206,8 @@ landscape:
             description: >-
               DNV GL’s Smart Cable Guard online monitoring system considerably improves the reliability of your MV cable network resulting in better SAIDI and
               SAIFI figures.
-            homepage_url: 'https://www.dnvgl.com/power-renewables/services/data-analytics/scg/introduction.html'
-            logo: smart-cable-guard.svg
+            homepage_url: 'https://www.dnvgl.com/power-renewables/services/scg/about.html'
+            logo: Smart Cable Guard.DNV.GL.svg
             twitter: 'https://twitter.com/dnvgl'
             crunchbase: 'https://www.crunchbase.com/organization/dnv-gl'
       - subcategory:
@@ -151,7 +216,7 @@ landscape:
           - item:
             name: Grid eXchange Fabric
             description: Control and Monitor Smart Devices
-            homepage_url: 'https://opensmartgridplatform.org/'
+            homepage_url: 'https://www.lfenergy.org/projects/gxf'
             project: earlyadoption
             repo_url: 'https://github.com/OSGP/open-smart-grid-platform'
             logo: gxf.svg
@@ -165,7 +230,15 @@ landscape:
             homepage_url: 'https://www.lfenergy.org/projects/compas/'
             project: incubation
             repo_url: 'https://github.com/com-pas/.github'
-            logo: compas-text.svg
+            logo: LFE_CoMPAS.svg
+            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+          - item:
+            name: SEAPATH
+            description: 'SEAPATH, Software Enabled Automation Platform and Artifacts (THerein), aims at developing a “reference design” and “industrial grade” open source real-time platform that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially beyond). This platform is intended to host multi-provider applications.'
+            homepage_url: 'https://www.lfenergy.org/projects/seapath/'
+            project: incubation
+            repo_url: 'https://github.com/seapath/seapath-architecture'
+            logo: 'https://artwork.lfenergy.org/projects/seapath/seapath-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
   - category:
     name: Customer and Market
@@ -196,7 +269,7 @@ landscape:
             homepage_url: 'https://www.lfenergy.org/projects/em2/'
             project: earlyadoption
             repo_url: 'https://github.com/energy-market-methods/caltrack'
-            logo: em2.svg
+            logo: em2_logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
       - subcategory:
         name: Market Platform Gateway
@@ -226,21 +299,21 @@ landscape:
               reliable and affordable. GOPACS is a unique initiative in Europe and has resulted from active collaboration between the Dutch national grid
               operator (Transmission System Operator, TSO) TenneT and the regional grid operators (Distribution System Operators, DSOs).
             homepage_url: 'https://en.gopacs.eu/'
-            logo: logoipsum.svg
+            logo: Tennet GOPACS - text.svg
             crunchbase: 'https://www.crunchbase.com/organization/tennet'
           - item:
             name: PowerMatcher
             description: 'The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market.'
             homepage_url: 'http://flexiblepower.github.io/technology/powermatcher/'
             repo_url: 'https://github.com/flexiblepower/powermatcher'
-            logo: logoipsum.svg
+            logo: powermatcher-txt.svg
             crunchbase: 'https://www.crunchbase.com/organization/powermatcher'
           - item:
             name: USEF
             description: Universal smart energy framework
             homepage_url: 'https://www.usef.energy/'
             repo_url: 'https://github.com/USEF-Foundation/ri.usef.energy'
-            logo: logoipsum.svg
+            logo: usef-txt.svg
             crunchbase: 'https://www.crunchbase.com/organization/usef-foundation'
       - subcategory:
         name: Customer Response
@@ -252,7 +325,7 @@ landscape:
               Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run
               blockchain-based decentralized applications (dApps).
             homepage_url: 'https://energyweb.org/technology/energy-web-chain/'
-            logo: logoipsum.svg
+            logo: the-energy-web-chain-text.svg
             crunchbase: 'https://www.crunchbase.com/organization/energy-web-foundation'
   - category:
     name: Shared
@@ -271,15 +344,36 @@ landscape:
             twitter: 'https://twitter.com/ENTSO_E'
             crunchbase: 'https://www.crunchbase.com/organization/entso-e'
           - item:
-            name: OEDI
-            description: Improving Data Access to Enable Advanced Analytics and Research Innovation
-            homepage_url: 'https://www.lfenergy.org/projects/oedi/'
-            project: incubation
-            logo: oedi.svg
-            crunchbase: 'https://www.crunchbase.com/organization/lf-energy'
+            name: CIMSpy
+            description: 'CIM/RDF/XML file browser, editor, and validator.'
+            homepage_url: 'http://www.powerinfo.us/CIMSpyEE.html'
+            logo: cimspy-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/power-info-llc'
+          - item:
+            name: CIMTool
+            description: 'CIM profile and message schema creation, validation.'
+            homepage_url: 'https://wiki.cimtool.org'
+            repo_url: 'https://github.com/arnolddevos/CIMTool'
+            logo: cimtool-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/langdale-consulting-and-technical-services'
+          - item:
+            name: Enterprise Architect
+            description: 'Enterprise Architect CIM UML utility, creates IEC document content, validation, Rose migration and model merge.'
+            homepage_url: 'https://sparxsystems.com/'
+            logo: Spark Systems - Enterprise Architect - text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sparx-systems'
       - subcategory:
         name: Unified Operator's UX Components and Framework
         items:
+          - item:
+            name: GridAPPS-D
+            description: >-
+              GridAPPS-D™ is an open-source platform that accelerates development and deployment of portable applications for advanced distribution management
+              and operations
+            homepage_url: 'https://www.gridapps-d.org/'
+            repo_url: 'https://github.com/GRIDAPPSD/gridappsd-docker'
+            logo: gridappsd-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/gridapps-d'
           - item:
             name: OperatorFabric
             description: 'A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations'
@@ -319,6 +413,21 @@ landscape:
         name: Forecasting
         items:
           - item:
+            name: KTP
+            description: >-
+              KTP is short term forcasting solution for net-load and feed-in from renewable. It combines combine historical and real-time measurements from the
+              grid with meteorological and market-price data. This is employed to deliver forecasts up to 48 hours ahead, at a resolution of 15 minutes, which
+              are renewed every 15 minutes.
+            homepage_url: 'https://www.alliander.com/nl/oude-browser'
+            logo: alliander-ktp.svg
+            crunchbase: 'https://www.crunchbase.com/organization/alliander'
+          - item:
+            name: LoadSEER
+            description: Integrated Spatial Load Forecasting for T&D Planning.
+            homepage_url: 'http://www.integralanalytics.com/products-and-services/spatial-growth-planning/loadseer.aspx'
+            logo: loadseer-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/integral-analytics'
+          - item:
             name: Price Forecasting
             description: >-
               Streamline your due diligence and generation portfolio planning with our comprehensive power forecast curve, for the valuation of both fossil fuel
@@ -351,11 +460,17 @@ landscape:
             logo: Eaton-CYME.svg
             crunchbase: 'https://www.crunchbase.com/organization/eaton'
           - item:
+            name: EMTP-RV
+            description: EMTP is the most complete and technically advanced software for simulation and analysis of power systems.
+            homepage_url: 'https://www.emtp.com'
+            logo: emtp-rv-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/emtp-alliance'
+          - item:
             name: GridLAB-D
             description: GridLAB-D is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
             homepage_url: 'https://www.gridlabd.org/'
             repo_url: 'https://github.com/gridlab-d/gridlab-d'
-            logo: logoipsum.svg
+            logo: Gridlab-d.svg
             crunchbase: 'https://www.crunchbase.com/organization/us-department-of-energy'
           - item:
             name: PowSyBl
@@ -376,7 +491,7 @@ landscape:
           - item:
             name: PSS
             description: PSS project from Siemens.
-            homepage_url: 'https://new.siemens.com/global/en/products/energy/services/transmission-distribution-smart-grid/consulting-and-planning/pss-software.html'
+            homepage_url: 'https://new.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/pss-software.html'
             logo: Siemens-PSS.svg
             twitter: 'https://twitter.com/siemens_energy'
             crunchbase: 'https://www.crunchbase.com/organization/siemens'
@@ -385,19 +500,36 @@ landscape:
             description: >-
               PSSE allows you to perform a wide variety of analysis functions, including power flow, dynamics, short circuit, contingency analysis, optimal
               power flow, voltage stability, transient stability simulation, and much more.
-            homepage_url: 'https://new.siemens.com/global/en/products/energy/services/transmission-distribution-smart-grid/consulting-and-planning/pss-software/pss-e.html'
+            homepage_url: 'https://new.siemens.com/global/en/products/energy/energy-automation-and-smart-grid/pss-software/pss-e.html'
             logo: Siemens-PSSE.svg
             twitter: 'https://twitter.com/siemens_energy'
             crunchbase: 'https://www.crunchbase.com/organization/siemens'
+          - item:
+            name: Simscape Electrical
+            description: 'Model and simulate electronic, mechatronic, and electrical power systems.'
+            homepage_url: 'https://www.mathworks.com/products/simscape-electrical.html'
+            logo: Simscape Electrical.svg
+            twitter: 'https://twitter.com/MATLAB'
+            crunchbase: 'https://www.crunchbase.com/organization/mathworks'
       - subcategory:
         name: Market Signal
         items:
           - item:
             name: ANM Strata
             description: ANM Strata is our highly flexible and scalable multi-use case DERMS software platform.
-            homepage_url: 'https://www.smartergridsolutions.com/products/anm-strata/'
+            homepage_url: 'https://www.smartergridsolutions.com/products/strata-grid'
             logo: anm-strata.svg
             crunchbase: 'https://www.crunchbase.com/organization/smarter-grid-solutions'
+          - item:
+            name: Concerto
+            description: >-
+              Concerto™, provides the speed, accuracy and scalability needed to ensure that energy is moving to the right place at precisely the right time.
+              Powered by the Enbala Engine™ at its core, Concerto delivers the VPP and DERMS solution use cases that set Enbala apart in the world of
+              distributed energy resource management.
+            homepage_url: 'https://www.enbala.com/technology/products-solutions/'
+            logo: concerto-text.svg
+            twitter: 'https://twitter.com/Enbala'
+            crunchbase: 'https://www.crunchbase.com/organization/enbala-power-networks'
           - item:
             name: GridOS TE
             description: Transactive Energy Management
@@ -405,6 +537,25 @@ landscape:
             logo: gridos-te.svg
             twitter: 'https://twitter.com/OpusOneSolns'
             crunchbase: 'https://www.crunchbase.com/organization/opus-one-solutions'
+          - item:
+            name: OSCD
+            description: >-
+              Orchestrating Smart Charging in mass Deployment (OSCD) to enable mass EV deployment in the most economical way by sustaining grid services and
+              utilizing renewable energy by orchestrating smart charging leading to grid stability and reduced CO2 emissions. On the basis of the OSCD project,
+              DSO’s will have access to tools and grid-services enabling new and disruptive business models for e-mobility parties through which they can
+              improve and influence the charging process to reduce grid expansion costs – creating benefits for the economy and society.
+            homepage_url: 'https://www.oscd.eu/about-us/'
+            logo: oscd-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/oscd'
+          - item:
+            name: SigmaONE
+            description: >-
+              AMS SigmaONE optimizes wholesale market revenues. Conventional manual trading approaches can’t keep up with the volatility of renewable energy and
+              the complexity of battery operation. The SigmaOne platform optimizes and automates asset operation in energy markets to increase ROI and
+              accelerate clean energy adoption.
+            homepage_url: 'https://www.advancedmicrogridsolutions.com/platform'
+            logo: sigmaone-text2.svg
+            crunchbase: 'https://www.crunchbase.com/organization/advanced-microgrid-solutions'
           - item:
             name: Sunverge Energy Platform
             description: >-
@@ -433,13 +584,21 @@ landscape:
             twitter: 'https://twitter.com/OpusOneSolns'
             crunchbase: 'https://www.crunchbase.com/organization/opus-one-solutions'
           - item:
+            name: HOMER Pro
+            description: >-
+              The HOMER Pro® microgrid software by HOMER Energy is the global standard for optimizing microgrid design in all sectors, from village power and
+              island utilities to grid-connected campuses and military bases.
+            homepage_url: 'https://www.homerenergy.com/products/pro/index.html'
+            logo: homerpro-text.svg
+            crunchbase: 'https://www.crunchbase.com/organization/homer-energy'
+          - item:
             name: OpenEMS
             description: >-
               A modular platform for energy management applications. It was developed around the requirements of controlling, monitoring and integrating energy
               storage systems together with renewable energy sources and complementary devices and services.
             homepage_url: 'https://openems.io/'
             repo_url: 'https://github.com/OpenEMS/openems'
-            logo: logoipsum.svg
+            logo: OpenEMS.svg
             twitter: 'https://twitter.com/openems_en'
             crunchbase: 'https://www.crunchbase.com/organization/fenecon'
           - item:
@@ -453,11 +612,11 @@ landscape:
     name: LF Energy Member
     subcategories:
       - subcategory:
-        name: Premier
+        name: Strategic
         items:
           - item:
             name: Alliander
-            homepage_url: 'https://www.alliander.com/en'
+            homepage_url: 'https://www.alliander.com/en/old-browser'
             logo: alliander.svg
             crunchbase: 'https://www.crunchbase.com/organization/alliander'
           - item:
@@ -505,7 +664,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/unicorn-systems'
           - item:
             name: Wind River Systems
-            homepage_url: 'https://www.windriver.com'
+            homepage_url: 'https://resources.windriver.com'
             logo: wind-river.svg
             crunchbase: 'https://www.crunchbase.com/organization/wind-river'
       - subcategory:
@@ -603,7 +762,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/the-energy-coalition'
           - item:
             name: University of Kassel
-            homepage_url: 'https://www.uni-kassel.de/uni/en/'
+            homepage_url: 'https://www.uni-kassel.de/uni'
             logo: university-of-kassel.svg
             crunchbase: 'https://www.crunchbase.com/organization/university-of-kassel'
           - item:
