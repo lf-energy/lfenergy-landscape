@@ -2,16 +2,16 @@ global:
   name: LF Energy Interactive Landscape
   short_name: LFEnergy
   repo: lf-energy/lfenergy-landscape
-  website: 'https://landscape.lfenergy.org'
+  website: https://landscape.lfenergy.org
   short_domain: l.lfenergy.org
-  company_url: 'https://lfenergy.org'
+  company_url: https://lfenergy.org
   membership: LF Energy Member
   email: info@lfenergy.org
-  self: 'https://www.crunchbase.com/organization/lf-energy'
+  self: https://www.crunchbase.com/organization/lf-energy
   meta:
     title: LF Energy Landscape
     fb_admin: lmays
-    description: 'Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets'
+    description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
     twitter: LFE_Foundation
     google_site_verification: eZAQgcvgZbehffBtw1azh327yJwPL0bCsCGbMmkfdBc
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
@@ -19,7 +19,7 @@ global:
     companies: LF Energy Member
 twitter:
   search: landscape.lfenergy.org
-  url: 'https://landscape.lfenergy.org'
+  url: https://landscape.lfenergy.org
   text: LF Energy Landscape from @LFE_Foundation
 relation:
   label: LF Energy Relation
@@ -35,7 +35,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: LF Energy Incubation
-          big_picture_color: 'rgb(24,54,114)'
+          big_picture_color: rgb(24,54,114)
         - id: earlyadoption
           label: Early Adoption
           prefix: LF Energy
@@ -43,7 +43,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: LF Energy Early Adoption
-          big_picture_color: 'rgb(24,54,114)'
+          big_picture_color: rgb(24,54,114)
         - id: graduated
           label: Graduated
           prefix: LF Energy
@@ -51,7 +51,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: LF Energy Graduated
-          big_picture_color: 'rgb(24,54,114)'
+          big_picture_color: rgb(24,54,114)
           additional_relation: member
     - id: company
       label: LF Energy Members
@@ -81,7 +81,7 @@ membership:
     name: LF
     label: Project
     funding: Linux Foundation
-    crunchbase_and_children: 'https://www.crunchbase.com/organization/linux-foundation'
+    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
   'false':
     funding: 'No'
 home:
@@ -91,7 +91,7 @@ home:
     based on the same open source code.
   footer: null
 ads:
-  - url: 'https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/?utm_source=lfenergy_landscape&utm_medium=web&utm_campaign=kccncna19'
+  - url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/?utm_source=lfenergy_landscape&utm_medium=web&utm_campaign=kccncna19
     image: /images/info1.jpg
     title: Kubecon + CloudNativeCon Europe 2020
 presets:
@@ -122,7 +122,7 @@ big_picture:
         height: 300
         top: 0
         left: 0
-        color: 'rgb(0,206,209)'
+        color: rgb(0,206,209)
         fit_width: true
       - type: HorizontalCategory
         category: System Management
@@ -131,7 +131,7 @@ big_picture:
         height: 300
         top: 0
         left: 610
-        color: 'rgb(106,44,218)'
+        color: rgb(106,44,218)
         fit_width: true
       - type: HorizontalCategory
         category: Asset Management
@@ -140,7 +140,7 @@ big_picture:
         height: 300
         top: 540
         left: 610
-        color: 'rgb(179,60,133)'
+        color: rgb(179,60,133)
         fit_width: true
       - type: HorizontalCategory
         category: Shared
@@ -149,7 +149,7 @@ big_picture:
         height: 200
         top: 315
         left: 0
-        color: 'rgb(29,119,164)'
+        color: rgb(29,119,164)
         fit_width: true
       - type: HorizontalCategory
         category: Acquisition and Control
@@ -158,7 +158,7 @@ big_picture:
         height: 300
         top: 540
         left: 0
-        color: 'rgb(37,81,209)'
+        color: rgb(37,81,209)
         fit_width: true
       - type: LandscapeInfo
         width: 300
@@ -231,7 +231,7 @@ big_picture:
         height: 200
         top: 620
         left: 0
-        color: 'rgb(0,0,0)'
+        color: rgb(0,0,0)
         fit_width: true
     category: LF Energy Member
 test:
