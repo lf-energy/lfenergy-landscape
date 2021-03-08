@@ -32,7 +32,7 @@ jobs:
           SF_PASSWORD: ${{ secrets.SF_PASSWORD }}
           SF_TOKEN: ${{ secrets.SF_TOKEN }}
         run: |
-          ../landscape-tools/landscapemembers.py
+          python ../landscape-tools/landscapemembers.py
       - name: Save missing.csv file
         uses: actions/upload-artifact@v2
         with:
