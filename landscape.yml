@@ -627,163 +627,225 @@ landscape:
         name: Strategic
         items:
           - item:
-            name: Alliander
-            homepage_url: https://www.alliander.com/en/old-browser
-            logo: alliander.svg
-            crunchbase: https://www.crunchbase.com/organization/alliander
-          - item:
-            name: RTE
-            homepage_url: https://www.rte-france.com
-            logo: rte.svg
             crunchbase: https://www.crunchbase.com/organization/rte-france
+            homepage_url: https://rte-france.com/
+            logo: rte_reseau_de_transport_delectricite.svg
+            name: RTE (Reseau de Transport dElectricite)
+            twitter: https://twitter.com/rte_france
       - subcategory:
         name: General
         items:
           - item:
-            name: CloudBees
-            homepage_url: https://www.cloudbees.com/
-            logo: cloudbees.svg
             crunchbase: https://www.crunchbase.com/organization/cloudbees
+            homepage_url: https://cloudbees.com/
+            logo: cloudbees_inc.svg
+            name: CloudBees, Inc.
+            twitter: https://twitter.com/CloudBees
           - item:
-            name: Elering
-            homepage_url: https://elering.ee
-            logo: elering.svg
-            crunchbase: https://www.crunchbase.com/organization/elering
+            crunchbase: https://www.crunchbase.com/organization/energinet-dk
+            homepage_url: https://energinet.dk/
+            logo: energinet.svg
+            name: Energinet
+            twitter: https://twitter.com/EnerginetDK
           - item:
-            name: Monash University
-            homepage_url: https://www.monash.edu
-            logo: monash-university.svg
+            crunchbase: https://www.crunchbase.com/organization/ge-global-research
+            homepage_url: https://ge.com/
+            logo: ge.svg
+            name: GE
+            stock_ticker: GE
+            twitter: https://twitter.com/generalelectric
+          - item:
             crunchbase: https://www.crunchbase.com/organization/monash-university
+            homepage_url: https://monash.edu/
+            logo: monash_university.svg
+            name: Monash University
+            twitter: https://twitter.com/MonashUni
           - item:
-            name: OSIsoft
-            homepage_url: https://www.osisoft.com
-            logo: osisoft.svg
             crunchbase: https://www.crunchbase.com/organization/osisoft
+            homepage_url: https://osisoft.com/
+            logo: osisoft.svg
+            name: OSIsoft
+            twitter: https://twitter.com/OSIsoft
           - item:
-            name: Recurve
-            homepage_url: https://www.recurve.com
-            logo: recurve.svg
             crunchbase: https://www.crunchbase.com/organization/recurve
+            homepage_url: https://recurve.com/
+            logo: recurve.svg
+            name: Recurve
+            twitter: https://twitter.com/RecurveUS
           - item:
-            name: TenneT
-            homepage_url: https://www.tennet.eu/
-            logo: tennet.svg
+            crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
+            homepage_url: https://savoirfairelinux.com/
+            logo: savoir-faire_linux.svg
+            name: Savoir-faire Linux
+            twitter: https://twitter.com/SFLinux
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/sony
+            homepage_url: https://sony.net/
+            logo: sony_corporation.svg
+            name: Sony Corporation
+            twitter: https://twitter.com/Sony
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/statnett-sf
+            homepage_url: https://statnett.no/
+            logo: statnett.svg
+            name: Statnett
+            twitter: https://twitter.com/Statnett
+          - item:
             crunchbase: https://www.crunchbase.com/organization/tennet
+            homepage_url: https://tennet.eu/
+            logo: tennet.svg
+            name: TenneT
+            twitter: https://twitter.com/TenneTTSO
           - item:
-            name: Unicorn Systems
-            homepage_url: https://unicorn.com
-            logo: unicorn-systems.svg
             crunchbase: https://www.crunchbase.com/organization/unicorn-systems
+            homepage_url: https://unicorn.com/
+            logo: unicorn_systems_as.svg
+            name: Unicorn systems a.s.
           - item:
-            name: Wind River Systems
-            homepage_url: https://resources.windriver.com
-            logo: wind-river.svg
             crunchbase: https://www.crunchbase.com/organization/wind-river
+            homepage_url: https://windriver.com/
+            logo: wind_river_systems_inc.svg
+            name: Wind River Systems, Inc.
+            twitter: https://twitter.com/WindRiver
       - subcategory:
         name: Associate
         items:
           - item:
-            name: Energinet
-            homepage_url: https://energinet.dk
-            logo: energinet.svg
-            crunchbase: https://www.crunchbase.com/organization/energinet-dk
+            crunchbase: https://www.crunchbase.com/organization/elaadnl
+            homepage_url: https://elaad.nl/
+            logo: elaad.svg
+            name: ELAAD
+            twitter: https://twitter.com/elaadNL
           - item:
-            name: Energy Foundation
-            homepage_url: https://www.ef.org
-            logo: ef.svg
-            crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
-          - item:
-            name: ENTSO-E
-            homepage_url: https://www.entsoe.eu
-            logo: entso-e.svg
-            crunchbase: https://www.crunchbase.com/organization/entso-e
-          - item:
-            name: EPFL
-            homepage_url: https://www.epfl.ch/en/
-            logo: epfl.svg
-            crunchbase: https://www.crunchbase.com/organization/epfl
-          - item:
-            name: EPRI
-            homepage_url: https://www.epri.com/
-            logo: epri.svg
             crunchbase: https://www.crunchbase.com/organization/epri
+            homepage_url: https://epri.com/
+            logo: electric_power_research_institute_epri.svg
+            name: Electric Power Research Institute (EPRI)
+            twitter: https://twitter.com/EPRINews
           - item:
-            name: FIWARE
-            homepage_url: https://www.fiware.org
-            logo: fiware.svg
+            crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
+            homepage_url: https://ef.org/
+            logo: energy_foundation.svg
+            name: Energy Foundation
+            twitter: https://twitter.com/EnergyFdn
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/entso-e
+            homepage_url: https://entsoe.eu/
+            logo: entso-e_european_network_of_transmission_system_operators.svg
+            name: ENTSO-E (European Network of Transmission System Operators)
+            twitter: https://twitter.com/ENTSO_E
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/epfl
+            homepage_url: https://epfl.ch/
+            logo: epfl.svg
+            name: EPFL
+            twitter: https://twitter.com/EPFL
+          - item:
             crunchbase: https://www.crunchbase.com/organization/fi-ware
+            homepage_url: https://fiware.org/
+            logo: fiware_foundation_e_v.svg
+            name: FIWARE Foundation e. V.
+            twitter: https://twitter.com/FIWARE
           - item:
-            name: Fraunhofer
-            homepage_url: https://www.iee.fraunhofer.de
-            logo: fraunhofer.svg
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
+            homepage_url: https://fraunhofer.de/
+            logo: fraunhofer-gesellschaft_zur_forderung_der_angewandten_forschung_ev.svg
+            name: Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.
+            twitter: https://twitter.com/Fraunhofer
           - item:
-            name: FREEDM Systems Center
-            homepage_url: https://www.freedm.ncsu.edu
-            logo: freedm.svg
             crunchbase: https://www.crunchbase.com/organization/freedm-systems-center
+            homepage_url: https://ncsu.edu/
+            logo: freedm_systems_center_-_ncsu.svg
+            name: FREEDM Systems Center - NCSU
+            twitter: https://twitter.com/NCState
           - item:
-            name: Friedrich-Alexander Universität Erlangen-Nürnberg
-            homepage_url: https://www.fau.eu/
-            logo: friedrich-alexander.svg
             crunchbase: https://www.crunchbase.com/organization/friedrich-alexander-university
+            homepage_url: https://fau.eu/
+            logo: friedrich-alexander-university_fau.svg
+            name: Friedrich-Alexander-University (FAU)
+            twitter: https://twitter.com/UniFAU
           - item:
-            name: Iowa State University
-            homepage_url: https://www.iastate.edu/
-            logo: iowa-state-university.svg
             crunchbase: https://www.crunchbase.com/organization/iowa-state-university
+            homepage_url: https://iastate.edu/
+            logo: iowa_state_university_of_science__and_technology.svg
+            name: Iowa State University of Science  and Technology
+            twitter: https://twitter.com/IowaStateU
           - item:
-            name: Lucerne University of Applied Sciences and Arts
-            homepage_url: https://www.hslu.ch/en/
-            logo: hochschule-luzern.svg
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
+            homepage_url: https://hslu.ch/
+            logo: lucerne_university_of_applied_sciences.svg
+            name: Lucerne University of Applied Sciences
+            twitter: https://twitter.com/hslu
           - item:
-            name: NREL
-            homepage_url: https://www.nrel.gov
-            logo: nrel.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            homepage_url: https://nrel.gov/
+            logo: national_renewable_energy_laboratory_nrel.svg
+            name: National Renewable Energy Laboratory (NREL)
+            twitter: https://twitter.com/NREL
           - item:
-            name: Pecan Street
-            homepage_url: https://www.pecanstreet.org/
-            logo: pecan-street.svg
+            crunchbase: https://www.crunchbase.com/organization/openadr-alliance
+            homepage_url: https://openadr.org/
+            logo: openadr_alliance.svg
+            name: OpenADR Alliance
+            twitter: https://twitter.com/OpenADRAlliance
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/openuk
+            description: Where the UK’s Open communities meet and collaborate
+            homepage_url: https://openuk.uk/
+            logo: openuk.svg
+            name: OpenUK
+            twitter: https://twitter.com/openuk_uk
+          - item:
             crunchbase: https://www.crunchbase.com/organization/pecan-street
+            homepage_url: https://pecanstreet.org/
+            logo: pecan_street_inc.svg
+            name: Pecan Street Inc.
+            twitter: https://twitter.com/pecanstreetinc
           - item:
-            name: Project Haystack
-            homepage_url: https://project-haystack.org
-            logo: project-haystack.svg
             crunchbase: https://www.crunchbase.com/organization/project-haystack
+            homepage_url: https://project-haystack.org/
+            logo: project_haystack.svg
+            name: Project Haystack
+            twitter: https://twitter.com/haystackTagging
           - item:
-            name: RWTH Aachen University
-            homepage_url: https://www.rwth-aachen.de/go/id/a/?lidx=1
-            logo: rwth-aachen.svg
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
+            homepage_url: https://rwth-aachen.de/
+            logo: rwth_aachen_university.svg
+            name: RWTH Aachen University
+            twitter: https://twitter.com/IGaD_RWTH
           - item:
-            name: Stanford University
-            homepage_url: https://engineering.stanford.edu
-            logo: stanford-university.svg
             crunchbase: https://www.crunchbase.com/organization/stanford-university
+            homepage_url: https://stanford.edu/
+            logo: stanford_university.svg
+            name: Stanford University
+            twitter: https://twitter.com/Stanford
           - item:
-            name: The Alan Turing Institute
-            homepage_url: https://www.turing.ac.uk/
-            logo: turing.svg
             crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
+            homepage_url: https://turing.ac.uk/
+            logo: the_alan_turing_institute.svg
+            name: The Alan Turing Institute
+            twitter: https://twitter.com/turinginst
           - item:
-            name: The Energy Coalition
-            homepage_url: https://energycoalition.org
-            logo: the-energy-coalition.svg
             crunchbase: https://www.crunchbase.com/organization/the-energy-coalition
+            homepage_url: https://energycoalition.org/
+            logo: the_energy_coalition.svg
+            name: The Energy Coalition
+            twitter: https://twitter.com/_TECTweets
           - item:
-            name: University of Kassel
-            homepage_url: https://www.uni-kassel.de/uni
-            logo: university-of-kassel.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
+            homepage_url: https://uni-kassel.de/
+            logo: university_of_kassel.svg
+            name: University of Kassel
+            twitter: https://twitter.com/presseunikassel
           - item:
-            name: Vanderbilt University
-            homepage_url: https://www.vanderbilt.edu
-            logo: vanderbilt-university.svg
             crunchbase: https://www.crunchbase.com/organization/vanderbilt-university
+            homepage_url: https://vanderbilt.edu/
+            logo: vanderbilt_university.svg
+            name: Vanderbilt University
+            twitter: https://twitter.com/VanderbiltU
           - item:
-            name: Washington State University
-            homepage_url: https://school.eecs.wsu.edu
-            logo: washington-state-university.svg
             crunchbase: https://www.crunchbase.com/organization/washington-state-university
+            homepage_url: https://wsu.edu/
+            logo: washington_state_university.svg
+            name: Washington State University
+            twitter: https://twitter.com/WSUPullman

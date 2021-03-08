@@ -4557,37 +4557,11 @@ landscape:
         name: Strategic
         items:
           - item:
-            name: Alliander
-            homepage_url: https://www.alliander.com/en/old-browser
-            logo: alliander.svg
-            crunchbase: https://www.crunchbase.com/organization/alliander
-            crunchbase_data:
-              name: Alliander
-              description: Alliander is an energy network company.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: http://www.alliander.com
-              city: Arnhem
-              region: Gelderland
-              country: The Netherlands
-              twitter: https://twitter.com/alliander
-              linkedin: https://www.linkedin.com/company/alliander
-              acquisitions: []
-              parents: []
-              stockExchange: null
-            image_data:
-              fileName: alliander.svg
-              hash: QkFxCpJc2QsVU6vycwM8Hd4rmgDjftio85aKUV47iwY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2021-03-04T12:40:51.000Z
-          - item:
-            name: RTE
-            homepage_url: https://www.rte-france.com
-            logo: rte.svg
             crunchbase: https://www.crunchbase.com/organization/rte-france
+            homepage_url: https://rte-france.com/
+            logo: rte_reseau_de_transport_delectricite.svg
+            name: RTE (Reseau de Transport dElectricite)
+            twitter: https://twitter.com/rte_france
             crunchbase_data:
               name: RTE France
               description: Leading European electricity transport company
@@ -4603,8 +4577,8 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: rte.svg
-              hash: Yn0D1hszmlUIjWgtHsSL+S5XFTApkjM1Lebho1H4a8E=
+              fileName: rte-reseau-de-transport-d-electricite.svg
+              hash: 9iGbEPED+VKESSLV54AomFACfoZTdEmki5jEJ4RIPlI=
             best_practice_data:
               badge: false
               percentage: null
@@ -4614,10 +4588,11 @@ landscape:
         name: General
         items:
           - item:
-            name: CloudBees
-            homepage_url: https://www.cloudbees.com/
-            logo: cloudbees.svg
             crunchbase: https://www.crunchbase.com/organization/cloudbees
+            homepage_url: https://cloudbees.com/
+            logo: cloudbees_inc.svg
+            name: CloudBees, Inc.
+            twitter: https://twitter.com/CloudBees
             crunchbase_data:
               name: CloudBees
               description: CloudBees develops an end-to-end automated software delivery system that allows companies to balance governance and developer freedom.
@@ -4647,43 +4622,81 @@ landscape:
               stockExchange: null
               kind: funding
             image_data:
-              fileName: cloud-bees.svg
-              hash: c3QWpOIwOPVhXPQ2e7Lqj6mYJPZNVlCNYEApU1X32yA=
+              fileName: cloud-bees-inc.svg
+              hash: ltD4sr+95MRDfD3wxLjjdpLOOtI/hIV/oPOocirUvGA=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-07T00:59:03.000Z
           - item:
-            name: Elering
-            homepage_url: https://elering.ee
-            logo: elering.svg
-            crunchbase: https://www.crunchbase.com/organization/elering
+            crunchbase: https://www.crunchbase.com/organization/energinet-dk
+            homepage_url: https://energinet.dk/
+            logo: energinet.svg
+            name: Energinet
+            twitter: https://twitter.com/EnerginetDK
             crunchbase_data:
-              name: Elering
-              description: Elering is an independent and independent electricity and gas system operator.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: http://vana.elering.ee/
-              city: Tallinn
-              region: Harjumaa
-              country: Estonia
-              twitter: null
+              name: Energinet
+              description: Energinet.dk is the Danish national transmission system operator for electricity and natural gas.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.energinet.dk
+              city: Fredericia
+              region: Syddanmark
+              country: Denmark
+              twitter: https://www.twitter.com/energinetdk
               linkedin: null
               acquisitions: []
               parents: []
               stockExchange: null
             image_data:
-              fileName: elering.svg
-              hash: EaSjSvTCKFartRPDglQmURrf5of1nylPZSnzxxnOdt0=
+              fileName: energinet.svg
+              hash: Cbu5/Qg8HyCj1+0FrJTNXQWYVTjOm6IMP5DUP8JMvb0=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-02T08:07:20.000Z
           - item:
-            name: Monash University
-            homepage_url: https://www.monash.edu
-            logo: monash-university.svg
+            crunchbase: https://www.crunchbase.com/organization/ge-global-research
+            homepage_url: https://ge.com/
+            logo: ge.svg
+            name: GE
+            stock_ticker: GE
+            twitter: https://twitter.com/generalelectric
+            crunchbase_data:
+              name: GE Global Research
+              description: GE Global Research owns and operates a network of innovation centers that make advancements in science and technology.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://ge.geglobalresearch.com
+              city: Schenectady
+              region: New York
+              country: United States
+              twitter: http://twitter.com/geresearch
+              linkedin: https://www.linkedin.com/company/geglobalresearch
+              acquisitions: []
+              parents: []
+              funding: 4000000
+              stockExchange: null
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 123934826496
+              effective_ticker: GE
+            image_data:
+              fileName: ge.svg
+              hash: YtT7MEFPqczpT1NzY7NpsJria5rXwOlXFDPtdCASGwI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-05T17:38:32.000Z
+          - item:
             crunchbase: https://www.crunchbase.com/organization/monash-university
+            homepage_url: https://monash.edu/
+            logo: monash_university.svg
+            name: Monash University
+            twitter: https://twitter.com/MonashUni
             crunchbase_data:
               name: Monash University
               description: Monash University offers undergraduate, graduate, and research courses in the fields of business, social sciences, science, and law.
@@ -4700,17 +4713,18 @@ landscape:
               stockExchange: null
             image_data:
               fileName: monash-university.svg
-              hash: QholJ/+8gclUwoXz1XcMDbV3r0AbD0EVV6Wg1rHYKLE=
+              hash: OWgR9stbId9VwpQs6Iz9SlELexBgaK6GfrGI26zKSzQ=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-05T11:00:08.000Z
           - item:
-            name: OSIsoft
-            homepage_url: https://www.osisoft.com
-            logo: osisoft.svg
             crunchbase: https://www.crunchbase.com/organization/osisoft
+            homepage_url: https://osisoft.com/
+            logo: osisoft.svg
+            name: OSIsoft
+            twitter: https://twitter.com/OSIsoft
             crunchbase_data:
               name: OSIsoft
               description: OSIsoft is a manufacturer of application software for real-time data infrastructure solutions.
@@ -4731,17 +4745,18 @@ landscape:
               kind: funding
             image_data:
               fileName: os-isoft.svg
-              hash: Tedaq6AgW2L0R143SVIINzQqwjOcgTs3cgUzjcYjmg4=
+              hash: 7xwxbmqwS1vxLLKW5wzGn/Ys1YFWIAKJC4aGpQVX+a4=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-05T17:19:02.000Z
           - item:
-            name: Recurve
-            homepage_url: https://www.recurve.com
-            logo: recurve.svg
             crunchbase: https://www.crunchbase.com/organization/recurve
+            homepage_url: https://recurve.com/
+            logo: recurve.svg
+            name: Recurve
+            twitter: https://twitter.com/RecurveUS
             crunchbase_data:
               name: Recurve
               description: Recurve develops software for contractors who audit homes to increase energy efficiency and perform construction services.
@@ -4767,10 +4782,161 @@ landscape:
             twitter_data:
               latest_tweet_date: 2011-11-03T17:40:30.000Z
           - item:
-            name: TenneT
-            homepage_url: https://www.tennet.eu/
-            logo: tennet.svg
+            crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
+            homepage_url: https://savoirfairelinux.com/
+            logo: savoir-faire_linux.svg
+            name: Savoir-faire Linux
+            twitter: https://twitter.com/SFLinux
+            crunchbase_data:
+              name: Savoir-faire Linux
+              description: Savoir-faire Linux* is an outstanding team of 100 Free Software consultants based in Montreal.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: http://savoirfairelinux.com
+              city: Quebec
+              region: Quebec
+              country: Canada
+              twitter: https://twitter.com/SFLinux
+              linkedin: https://www.linkedin.com/company/savoir-faire-linux
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: savoir-faire-linux.svg
+              hash: X0IzH0jPGRHy/7HMN5yv7Ww9DyOVPr5i9sPBcv4gaR8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-01-28T16:05:51.000Z
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/sony
+            homepage_url: https://sony.net/
+            logo: sony_corporation.svg
+            name: Sony Corporation
+            twitter: https://twitter.com/Sony
+            crunchbase_data:
+              name: Sony
+              description: Sony develops and manufactures audio, video, communications, and information technology products for the consumer and professional markets.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.sony.net/
+              city: Tokyo
+              region: Tokyo
+              country: Japan
+              twitter: https://twitter.com/Sony
+              linkedin: https://www.linkedin.com/company/sony
+              acquisitions:
+                - date: '1982-02-04'
+                  acquiree: Music Center Inc
+                - date: '1989-09-29'
+                  acquiree: Guber-Peters Entertainment
+                - date: '1991-10-04'
+                  acquiree: Columbia Pictures Entertainment
+                - date: '2002-12-01'
+                  acquiree: Aiwa
+                - date: '2004-09-14'
+                  acquiree: MGM Studios
+                - date: '2005-07-21'
+                  acquiree: SN Systems
+                - date: '2007-05-16'
+                  acquiree: Sigil Games Online
+                - date: '2008-04-22'
+                  acquiree: Gracenote
+                  price: 260000000
+                - date: '2010-01-28'
+                  acquiree: Convergent Media Systems
+                - date: '2010-02-10'
+                  acquiree: iCyt Mission Technology
+                - date: '2010-03-02'
+                  acquiree: LittleBigPlanet
+                - date: '2011-09-28'
+                  acquiree: Micronics
+                - date: '2012-02-16'
+                  acquiree: Sony Mobile Communications
+                - date: '2012-07-02'
+                  acquiree: Gaikai
+                  price: 380000000
+                - date: '2012-09-12'
+                  acquiree: Pixim
+                - date: '2015-03-18'
+                  acquiree: The Orchard
+                  price: 200000000
+                - date: '2015-04-04'
+                  acquiree: OnLive
+                - date: '2015-05-27'
+                  acquiree: Optical Archive
+                - date: '2015-10-08'
+                  acquiree: Softkinetic
+                - date: '2015-12-04'
+                  acquiree: Toshiba - Image Sensor Business
+                  price: 155000000
+                - date: '2016-01-01'
+                  acquiree: Altair Semiconductor
+                  price: 212000000
+                - date: '2016-01-22'
+                  acquiree: Altair Semiconductor
+                  price: 212000000
+                - date: '2019-01-01'
+                  acquiree: Cogitai
+                - date: '2019-06-07'
+                  acquiree: Midokura
+                - date: '2019-11-12'
+                  acquiree: Insightness
+                - date: '2020-07-15'
+                  acquiree: Sony Financial Holdings
+                  price: 3730000000
+                - date: '2020-09-30'
+                  acquiree: nevion
+              parents: []
+              ticker: SNEJF
+              stockExchange: otcpink
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 126300569600
+              effective_ticker: SNEJF
+            image_data:
+              fileName: sony-corporation.svg
+              hash: LgTBieN4eTDYfj0TGmcvRVxN9Fq0hC5HnmMpt79QaLg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-08T19:01:21.000Z
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/statnett-sf
+            homepage_url: https://statnett.no/
+            logo: statnett.svg
+            name: Statnett
+            twitter: https://twitter.com/Statnett
+            crunchbase_data:
+              name: Statnett
+              description: Statnett owns and operates the majority of the central grid, which can be described as the national roads in the Norwegian power supply.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.statnett.no/
+              city: Oslo
+              region: Oslo
+              country: Norway
+              twitter: https://twitter.com/statnett
+              linkedin: https://www.linkedin.com/company/statnett-sf/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: statnett.svg
+              hash: a2W0uEJe06Co62UhXJxrzPZfSIUo3HYxFhYVL7BREGg=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-08T08:53:39.000Z
+          - item:
             crunchbase: https://www.crunchbase.com/organization/tennet
+            homepage_url: https://tennet.eu/
+            logo: tennet.svg
+            name: TenneT
+            twitter: https://twitter.com/TenneTTSO
             crunchbase_data:
               name: Tennet
               description: TenneT is a leading European electricity transmission system operator (TSO), with activities in the Netherlands and in Germany.
@@ -4787,17 +4953,17 @@ landscape:
               stockExchange: null
             image_data:
               fileName: tenne-t.svg
-              hash: ztBroV0JpKqwVBKwdFuByRQCepvkdLtXSy66CKYivJ4=
+              hash: Jlu1uu0xuFia+cz+IrMOzorH+IRD5Q0Y5T7EAzxDrTE=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-06T20:43:58.000Z
+              latest_tweet_date: 2021-03-08T15:03:07.000Z
           - item:
-            name: Unicorn Systems
-            homepage_url: https://unicorn.com
-            logo: unicorn-systems.svg
             crunchbase: https://www.crunchbase.com/organization/unicorn-systems
+            homepage_url: https://unicorn.com/
+            logo: unicorn_systems_as.svg
+            name: Unicorn systems a.s.
             crunchbase_data:
               name: Unicorn Systems
               description: Unicorn Systems is a renowned European company providing the largest information systems.
@@ -4817,18 +4983,19 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: unicorn-systems.svg
-              hash: eECMNnM15ratzc/7ocIElLON6DqCNvX3qPmOEcw6s1E=
+              fileName: unicorn-systems-a-s.svg
+              hash: AkB65cPlpJxjaU7yMYjeXCfV/p736IYybaNKgk3dyLc=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2020-10-22T07:04:36.000Z
           - item:
-            name: Wind River Systems
-            homepage_url: https://resources.windriver.com
-            logo: wind-river.svg
             crunchbase: https://www.crunchbase.com/organization/wind-river
+            homepage_url: https://windriver.com/
+            logo: wind_river_systems_inc.svg
+            name: Wind River Systems, Inc.
+            twitter: https://twitter.com/WindRiver
             crunchbase_data:
               name: Wind River
               description: Wind River enables companies to develop, run and manage device software faster and more reliably at a lower cost.
@@ -4858,8 +5025,8 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: wind-river-systems.svg
-              hash: 94dI1N50N8Hq/ViMhcstBc7ZA5CW1uc7s+xmqatDM1E=
+              fileName: wind-river-systems-inc.svg
+              hash: T2a6/3cjncll+Vjjrd9H3bTULlBUVnCOxDwk9xxRRE0=
             best_practice_data:
               badge: false
               percentage: null
@@ -4869,37 +5036,69 @@ landscape:
         name: Associate
         items:
           - item:
-            name: Energinet
-            homepage_url: https://energinet.dk
-            logo: energinet.svg
-            crunchbase: https://www.crunchbase.com/organization/energinet-dk
+            crunchbase: https://www.crunchbase.com/organization/elaadnl
+            homepage_url: https://elaad.nl/
+            logo: elaad.svg
+            name: ELAAD
+            twitter: https://twitter.com/elaadNL
             crunchbase_data:
-              name: Energinet
-              description: Energinet.dk is the Danish national transmission system operator for electricity and natural gas.
-              num_employees_min: 501
-              num_employees_max: 1000
-              homepage: http://www.energinet.dk
-              city: Fredericia
-              region: Syddanmark
-              country: Denmark
-              twitter: https://www.twitter.com/energinetdk
-              linkedin: null
+              name: ElaadNL
+              description: ElaadNL is the center for knowledge and innovation for charging infrastructure in the Netherlands.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.elaad.nl/
+              city: Arnhem
+              region: Gelderland
+              country: The Netherlands
+              twitter: https://www.twitter.com/elaadnl
+              linkedin: https://www.linkedin.com/company/579664/
               acquisitions: []
               parents: []
               stockExchange: null
             image_data:
-              fileName: energinet.svg
-              hash: 5S0U93ZztekPKbuX54gkZow0KCychn2XT/DCCI/FurQ=
+              fileName: elaad.svg
+              hash: ohBaVcL6btWCk3mxD9Kk4262akCCuhmQ3MGUnqR4Di8=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-02T08:07:20.000Z
+              latest_tweet_date: 2021-03-08T13:47:19.000Z
           - item:
-            name: Energy Foundation
-            homepage_url: https://www.ef.org
-            logo: ef.svg
+            crunchbase: https://www.crunchbase.com/organization/epri
+            homepage_url: https://epri.com/
+            logo: electric_power_research_institute_epri.svg
+            name: Electric Power Research Institute (EPRI)
+            twitter: https://twitter.com/EPRINews
+            crunchbase_data:
+              name: EPRI
+              description: Electric Power Research Institute, or EPRI, conducts research on issues related to the electric power industry.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.epri.com
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/epri/
+              acquisitions: []
+              parents: []
+              funding: 6000000
+              stockExchange: null
+              kind: funding
+            image_data:
+              fileName: electric-power-research-institute-epri.svg
+              hash: tg6mQ3oyk4DoUB8hLNb+P1utZ1+dQysbXr023uwMZT0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-08T19:18:19.000Z
+          - item:
             crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
+            homepage_url: https://ef.org/
+            logo: energy_foundation.svg
+            name: Energy Foundation
+            twitter: https://twitter.com/EnergyFdn
             crunchbase_data:
               name: The Energy Foundation
               description: The Energy Foundation is a company that promotes clean technology.
@@ -4923,10 +5122,11 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-03-06T06:30:11.000Z
           - item:
-            name: ENTSO-E
-            homepage_url: https://www.entsoe.eu
-            logo: entso-e.svg
             crunchbase: https://www.crunchbase.com/organization/entso-e
+            homepage_url: https://entsoe.eu/
+            logo: entso-e_european_network_of_transmission_system_operators.svg
+            name: ENTSO-E (European Network of Transmission System Operators)
+            twitter: https://twitter.com/ENTSO_E
             crunchbase_data:
               name: ENTSO-E
               description: ENTSO-E publishes its initial proposals on the Energy Union.
@@ -4942,18 +5142,19 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: entso-e.svg
-              hash: 3vhYnHwdmOjOilyfZlFRrNQCXYLSkVqDz3qyv0D7C2c=
+              fileName: entso-e-european-network-of-transmission-system-operators.svg
+              hash: bbrrxOqK3P1NRke27HGO7VO1f1m0k9K4c4mUwgbiUtc=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-05T15:02:44.000Z
           - item:
-            name: EPFL
-            homepage_url: https://www.epfl.ch/en/
-            logo: epfl.svg
             crunchbase: https://www.crunchbase.com/organization/epfl
+            homepage_url: https://epfl.ch/
+            logo: epfl.svg
+            name: EPFL
+            twitter: https://twitter.com/EPFL
             crunchbase_data:
               name: École Polytechnique Fédérale de Lausanne
               description: EPFL is a cosmopolitan technical university in Europe with students, professors, and staff from over 120 nations.
@@ -4970,44 +5171,18 @@ landscape:
               stockExchange: null
             image_data:
               fileName: epfl.svg
-              hash: 3UQ9iCUSjnCTILIqqEod6bUH7WlTDNAt/VrLyyzJbJs=
+              hash: b9x3HADbb9iwmwnwOQABmxwKJ5VpcpfbTgibothERoQ=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-05T10:55:04.000Z
+              latest_tweet_date: 2021-03-08T12:58:10.000Z
           - item:
-            name: EPRI
-            homepage_url: https://www.epri.com/
-            logo: epri.svg
-            crunchbase: https://www.crunchbase.com/organization/epri
-            crunchbase_data:
-              name: EPRI
-              description: Electric Power Research Institute, or EPRI, conducts research on issues related to the electric power industry.
-              num_employees_min: 501
-              num_employees_max: 1000
-              homepage: http://www.epri.com
-              city: Palo Alto
-              region: California
-              country: United States
-              twitter: null
-              linkedin: https://www.linkedin.com/company/epri/
-              acquisitions: []
-              parents: []
-              funding: 6000000
-              stockExchange: null
-              kind: funding
-            image_data:
-              fileName: epri.svg
-              hash: 83K6fXtWdN+VxTTIoQhZmwCD73k3lf+PYnVMv7PuKxc=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: FIWARE
-            homepage_url: https://www.fiware.org
-            logo: fiware.svg
             crunchbase: https://www.crunchbase.com/organization/fi-ware
+            homepage_url: https://fiware.org/
+            logo: fiware_foundation_e_v.svg
+            name: FIWARE Foundation e. V.
+            twitter: https://twitter.com/FIWARE
             crunchbase_data:
               name: FIWARE
               description: FIWARE seeks to provide a truly open, public and royalty-free architecture and a set of open specifications .
@@ -5023,18 +5198,19 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: fiware.svg
-              hash: 82vb29KXduaWIsG7zoS4K1V1P/WHrCOJ1AUWIOqllZk=
+              fileName: fiware-foundation-e-v.svg
+              hash: 5p910zLUDvtq89oYB8s6AfzzFCguHmfjwAx0IzTGG1U=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-06T17:32:21.000Z
+              latest_tweet_date: 2021-03-08T19:33:22.000Z
           - item:
-            name: Fraunhofer
-            homepage_url: https://www.iee.fraunhofer.de
-            logo: fraunhofer.svg
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
+            homepage_url: https://fraunhofer.de/
+            logo: fraunhofer-gesellschaft_zur_forderung_der_angewandten_forschung_ev.svg
+            name: Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.
+            twitter: https://twitter.com/Fraunhofer
             crunchbase_data:
               name: Fraunhofer-Gesellschaft
               description: Fraunhofer-Gesellschaft is a research company that focuses on health, security, communications, and the environment.
@@ -5052,7 +5228,7 @@ landscape:
               stockExchange: null
               kind: funding
             image_data:
-              fileName: fraunhofer.svg
+              fileName: fraunhofer-gesellschaft-zur-f-rderung-der-angewandten-forschung-e-v.svg
               hash: wKAxmqhx0DaCaBAQY/ghO+XvddMVIIRTYSg+S2cgkoQ=
             best_practice_data:
               badge: false
@@ -5060,10 +5236,11 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-03-06T09:09:52.000Z
           - item:
-            name: FREEDM Systems Center
-            homepage_url: https://www.freedm.ncsu.edu
-            logo: freedm.svg
             crunchbase: https://www.crunchbase.com/organization/freedm-systems-center
+            homepage_url: https://ncsu.edu/
+            logo: freedm_systems_center_-_ncsu.svg
+            name: FREEDM Systems Center - NCSU
+            twitter: https://twitter.com/NCState
             crunchbase_data:
               name: Freedm Systems Center
               description: Freedm distributes energy resources that intelligently manages power using secure communications and advanced power electronics
@@ -5079,16 +5256,19 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: freedm-systems-center.svg
+              fileName: freedm-systems-center-ncsu.svg
               hash: 0tYRfm5NJv3qxXaM/pAzxUNdK2SNGm8UkHohHsdJrgI=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-08T17:32:21.000Z
           - item:
-            name: Friedrich-Alexander Universität Erlangen-Nürnberg
-            homepage_url: https://www.fau.eu/
-            logo: friedrich-alexander.svg
             crunchbase: https://www.crunchbase.com/organization/friedrich-alexander-university
+            homepage_url: https://fau.eu/
+            logo: friedrich-alexander-university_fau.svg
+            name: Friedrich-Alexander-University (FAU)
+            twitter: https://twitter.com/UniFAU
             crunchbase_data:
               name: Friedrich Alexander Universität Erlangen Nürnberg
               description: Friedrich-Alexander-Universität Erlangen-Nürnberg
@@ -5104,18 +5284,19 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: friedrich-alexander-universit-t-erlangen-n-rnberg.svg
-              hash: oAJbIRV3TTO9UHY2RU1XStDbeom37YG2caS1hGktCwY=
+              fileName: friedrich-alexander-university-fau.svg
+              hash: zIBbTbteY/3cR9CuRD+zA+Z1qEXzVQo1l1SstSsdHsI=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-05T12:31:38.000Z
           - item:
-            name: Iowa State University
-            homepage_url: https://www.iastate.edu/
-            logo: iowa-state-university.svg
             crunchbase: https://www.crunchbase.com/organization/iowa-state-university
+            homepage_url: https://iastate.edu/
+            logo: iowa_state_university_of_science__and_technology.svg
+            name: Iowa State University of Science  and Technology
+            twitter: https://twitter.com/IowaStateU
             crunchbase_data:
               name: Iowa State University
               description: Iowa State University is a public flagship land-grant and space-grant research university located in Ames, Iowa.
@@ -5133,18 +5314,19 @@ landscape:
               stockExchange: null
               kind: funding
             image_data:
-              fileName: iowa-state-university.svg
+              fileName: iowa-state-university-of-science-and-technology.svg
               hash: subuh7K9jcgUboYwQA1hhMGF2DolN4aU3nqOBLZamOg=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-05T14:13:35.000Z
+              latest_tweet_date: 2021-03-08T19:46:11.000Z
           - item:
-            name: Lucerne University of Applied Sciences and Arts
-            homepage_url: https://www.hslu.ch/en/
-            logo: hochschule-luzern.svg
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
+            homepage_url: https://hslu.ch/
+            logo: lucerne_university_of_applied_sciences.svg
+            name: Lucerne University of Applied Sciences
+            twitter: https://twitter.com/hslu
             crunchbase_data:
               name: Lucerne University of Applied Sciences and Arts
               description: Lucerne University of Applied Sciences and Arts is a university of applied sciences.
@@ -5160,18 +5342,19 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: lucerne-university-of-applied-sciences-and-arts.svg
-              hash: PeTqNEIuir+pGinX4pil0CkhiRr8k8cZnz0sep9Oc0Q=
+              fileName: lucerne-university-of-applied-sciences.svg
+              hash: Z0Nd9bhXEByN8jr/QvAQNglwi0vyC/nRW0oTcSMyWeo=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-06T13:30:53.000Z
           - item:
-            name: NREL
-            homepage_url: https://www.nrel.gov
-            logo: nrel.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            homepage_url: https://nrel.gov/
+            logo: national_renewable_energy_laboratory_nrel.svg
+            name: National Renewable Energy Laboratory (NREL)
+            twitter: https://twitter.com/NREL
             crunchbase_data:
               name: National Renewable Energy Laboratory
               description: NREL develops renewable energy and energy efficiency technologies and practices.
@@ -5189,18 +5372,76 @@ landscape:
               stockExchange: null
               kind: funding
             image_data:
-              fileName: nrel.svg
-              hash: bgBb27Ya2WnvyaCz1gvZ+Lr80+58pP5dYhqoD8Bze4s=
+              fileName: national-renewable-energy-laboratory-nrel.svg
+              hash: 2RzKhbXoIY1DNkYuCqToIV3teprQP9hAYUC7e3FEIa8=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-05T23:00:17.000Z
+              latest_tweet_date: 2021-03-08T20:00:16.000Z
           - item:
-            name: Pecan Street
-            homepage_url: https://www.pecanstreet.org/
-            logo: pecan-street.svg
+            crunchbase: https://www.crunchbase.com/organization/openadr-alliance
+            homepage_url: https://openadr.org/
+            logo: openadr_alliance.svg
+            name: OpenADR Alliance
+            twitter: https://twitter.com/OpenADRAlliance
+            crunchbase_data:
+              name: OpenADR Alliance
+              description: OpenADR Alliance is provider of OpenADR standard services through collaboration, education, training, testing, and certification.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.openadr.org
+              city: San Ramon
+              region: California
+              country: United States
+              twitter: https://www.twitter.com/openadralliance
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: open-adr-alliance.svg
+              hash: HwzHlz/Q4E37MEPtsHxSlxQLrOv34fD6BNxS+zwpvLs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-08T14:49:45.000Z
+          - item:
+            crunchbase: https://www.crunchbase.com/organization/openuk
+            description: Where the UK’s Open communities meet and collaborate
+            homepage_url: https://openuk.uk/
+            logo: openuk.svg
+            name: OpenUK
+            twitter: https://twitter.com/openuk_uk
+            crunchbase_data:
+              name: OpenUK
+              description: We are the UK not for profit organisation committed to develop and sustain UK leadership in Open Technology
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://openuk.uk/
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: https://twitter.com/openuk_uk
+              linkedin: https://www.linkedin.com/company/openukopentechnology/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+            image_data:
+              fileName: open-uk.svg
+              hash: Fdh5wpzw4qmOWKvGWPuy78ZtQFcv12LT+Oep8+MQAyA=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-03-08T13:03:23.000Z
+          - item:
             crunchbase: https://www.crunchbase.com/organization/pecan-street
+            homepage_url: https://pecanstreet.org/
+            logo: pecan_street_inc.svg
+            name: Pecan Street Inc.
+            twitter: https://twitter.com/pecanstreetinc
             crunchbase_data:
               name: Pecan Street
               description: Pecan Street research and develop clean energy and smart grid technologies, systems and business models.
@@ -5216,18 +5457,19 @@ landscape:
               parents: []
               stockExchange: null
             image_data:
-              fileName: pecan-street.svg
-              hash: tGYhVbJMuhhDqtYTWYWobDAGY4Du1oXKBIV3dfzbQPM=
+              fileName: pecan-street-inc.svg
+              hash: Uookf0LA9HGy8HjOJ97HvDmfPbRCKbAWA5nfGdt/xYQ=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-05T20:00:25.000Z
           - item:
-            name: Project Haystack
-            homepage_url: https://project-haystack.org
-            logo: project-haystack.svg
             crunchbase: https://www.crunchbase.com/organization/project-haystack
+            homepage_url: https://project-haystack.org/
+            logo: project_haystack.svg
+            name: Project Haystack
+            twitter: https://twitter.com/haystackTagging
             crunchbase_data:
               name: Project Haystack
               description: Project Haystack is an open source initiative to streamline working with data from the Internet of Things.
@@ -5244,17 +5486,18 @@ landscape:
               stockExchange: null
             image_data:
               fileName: project-haystack.svg
-              hash: cAKPkA/DYnEJ5BfYVBCoNkrqFtCdeSKfTzQfPSd9OmU=
+              hash: /NJenOYTYbcH6MqKPQGnAPrBNUO+Hal32hr3XqPxmzI=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-05T23:58:09.000Z
           - item:
-            name: RWTH Aachen University
-            homepage_url: https://www.rwth-aachen.de/go/id/a/?lidx=1
-            logo: rwth-aachen.svg
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
+            homepage_url: https://rwth-aachen.de/
+            logo: rwth_aachen_university.svg
+            name: RWTH Aachen University
+            twitter: https://twitter.com/IGaD_RWTH
             crunchbase_data:
               name: RWTH Aachen University
               description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
@@ -5271,17 +5514,18 @@ landscape:
               stockExchange: null
             image_data:
               fileName: rwth-aachen-university.svg
-              hash: N8HfkQkpKwL6C9lBMrWKhnREvEK4NtaMW2JjmoTXGkU=
+              hash: 6Cui8jK5vMN1Ec4sn/IqXDZDQl+c1nr8ZpMYJ6NMZ18=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-05T16:10:05.000Z
+              latest_tweet_date: 2021-03-08T16:02:54.000Z
           - item:
-            name: Stanford University
-            homepage_url: https://engineering.stanford.edu
-            logo: stanford-university.svg
             crunchbase: https://www.crunchbase.com/organization/stanford-university
+            homepage_url: https://stanford.edu/
+            logo: stanford_university.svg
+            name: Stanford University
+            twitter: https://twitter.com/Stanford
             crunchbase_data:
               name: Stanford University
               description: Stanford University is one of the world's leading teaching and research universities.
@@ -5307,10 +5551,11 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-03-06T00:06:01.000Z
           - item:
-            name: The Alan Turing Institute
-            homepage_url: https://www.turing.ac.uk/
-            logo: turing.svg
             crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
+            homepage_url: https://turing.ac.uk/
+            logo: the_alan_turing_institute.svg
+            name: The Alan Turing Institute
+            twitter: https://twitter.com/turinginst
             crunchbase_data:
               name: Alan Turing Institute
               description: |+
@@ -5336,10 +5581,11 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-03-05T13:25:54.000Z
           - item:
-            name: The Energy Coalition
-            homepage_url: https://energycoalition.org
-            logo: the-energy-coalition.svg
             crunchbase: https://www.crunchbase.com/organization/the-energy-coalition
+            homepage_url: https://energycoalition.org/
+            logo: the_energy_coalition.svg
+            name: The Energy Coalition
+            twitter: https://twitter.com/_TECTweets
             crunchbase_data:
               name: The Energy Coalition
               description: TEC helps create an abundant and healthy world by inspiring others to become energy architects of our sustainable future.
@@ -5360,11 +5606,14 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-02-16T23:30:06.000Z
           - item:
-            name: University of Kassel
-            homepage_url: https://www.uni-kassel.de/uni
-            logo: university-of-kassel.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
+            homepage_url: https://uni-kassel.de/
+            logo: university_of_kassel.svg
+            name: University of Kassel
+            twitter: https://twitter.com/presseunikassel
             crunchbase_data:
               name: University of Kassel
               description: University of Kassel is a school in Kassel.
@@ -5381,17 +5630,18 @@ landscape:
               stockExchange: null
             image_data:
               fileName: university-of-kassel.svg
-              hash: HZKA/atTxJbn1Y2wVmqc6cYcuGpKaNVQhHTEwIQo7m0=
+              hash: wUINVVwUKOmetXZJD+1RX82Au98De8TCOBU87yiEFjY=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
               latest_tweet_date: 2021-03-05T08:56:42.000Z
           - item:
-            name: Vanderbilt University
-            homepage_url: https://www.vanderbilt.edu
-            logo: vanderbilt-university.svg
             crunchbase: https://www.crunchbase.com/organization/vanderbilt-university
+            homepage_url: https://vanderbilt.edu/
+            logo: vanderbilt_university.svg
+            name: Vanderbilt University
+            twitter: https://twitter.com/VanderbiltU
             crunchbase_data:
               name: Vanderbilt University
               description: Vanderbilt University is a Nashville-based private research university offering various learning programs.
@@ -5415,12 +5665,13 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-03-06T15:16:47.000Z
+              latest_tweet_date: 2021-03-08T19:06:21.000Z
           - item:
-            name: Washington State University
-            homepage_url: https://school.eecs.wsu.edu
-            logo: washington-state-university.svg
             crunchbase: https://www.crunchbase.com/organization/washington-state-university
+            homepage_url: https://wsu.edu/
+            logo: washington_state_university.svg
+            name: Washington State University
+            twitter: https://twitter.com/WSUPullman
             crunchbase_data:
               name: Washington State University
               description: Washington State University is a school in Pullman, Washington.
@@ -5439,7 +5690,7 @@ landscape:
               kind: funding
             image_data:
               fileName: washington-state-university.svg
-              hash: YBnLO+oY6UBN6t1VRBNccVo4HLKUflQqOX88ABpNefk=
+              hash: NvoVJ1sxZeDW+SHuKmt4/FFMKyW3bj6HVmdnfqyUNe8=
             best_practice_data:
               badge: false
               percentage: null
