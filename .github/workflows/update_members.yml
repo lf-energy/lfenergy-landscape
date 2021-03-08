@@ -37,13 +37,13 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: missing-members 
-          path: ./main/missing.csv
+          path: ./master/missing.csv
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.PAT }}
           branch-suffix: timestamp
-          path: ./main
+          path: ./master
           title: Update members
           labels: automated-build
           commit-message: Update members
