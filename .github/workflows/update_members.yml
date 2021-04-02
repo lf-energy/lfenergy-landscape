@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout landscape
+      - name: Checkout Landscape
         uses: actions/checkout@v2
         with:
           path: main
@@ -29,10 +29,6 @@ jobs:
           pip install -r landscape-tools/requirements.txt
       - name: Run build
         working-directory: ./main
-        env:
-          SF_USERNAME: ${{ secrets.SF_USERNAME }}
-          SF_PASSWORD: ${{ secrets.SF_PASSWORD }}
-          SF_TOKEN: ${{ secrets.SF_TOKEN }}
         run: |
           ../landscape-tools/landscapemembers.py
       - name: Save missing.csv file
