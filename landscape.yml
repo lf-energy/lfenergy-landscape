@@ -184,6 +184,14 @@ landscape:
             logo: gridprotectionalliance.svg
             crunchbase: https://www.crunchbase.com/organization/grid-protection-alliance
           - item:
+            name: Hyphae
+            homepage_url: https://www.lfenergy.org/projects/hyphae/
+            project: incubation
+            repo_url: https://github.com/hyphae/apis-common
+            project_org: https://github.com/hyphae
+            logo: https://artwork.lfenergy.org/projects/hyphae/horizontal/color/hyphae-horizontal-color.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+          - item:
             name: openLEADR
             description: A friendly and compliant OpenADR implementation for Python 3
             homepage_url: https://www.lfenergy.org/projects/openleadr/
@@ -219,6 +227,17 @@ landscape:
             logo: Smart Cable Guard.DNV.GL.svg
             twitter: https://twitter.com/dnvgl
             crunchbase: https://www.crunchbase.com/organization/dnv-gl
+      - subcategory:
+        name: Communication Infrastructure
+        items:
+          - item:
+            name: FledgePOWER
+            homepage_url: https://www.lfenergy.org/projects/fledgepower/
+            project: incubation
+            repo_url: https://github.com/fledge-power/contributing
+            project_org: https://github.com/fledge-power
+            logo: https://artwork.lfenergy.org/projects/fledgepower/horizontal/color/fledgepower-horizontal-color.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
       - subcategory:
         name: Infrastructure Management
         items:
@@ -620,6 +639,14 @@ landscape:
             logo: Siemens-Spectrum-Power.svg
             twitter: https://twitter.com/siemens_energy
             crunchbase: https://www.crunchbase.com/organization/siemens
+          - item:
+            name: SOGNO
+            homepage_url: https://www.lfenergy.org/projects/sogno/
+            project: earlyadoption
+            repo_url: https://github.com/sogno-platform/dpsim
+            project_org: https://github.com/sogno-platform
+            logo: https://artwork.lfenergy.org/projects/sogno/horizontal/color/sogno-horizontal-color.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
   - category:
     name: LF Energy Member
     subcategories:
