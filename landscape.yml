@@ -654,6 +654,11 @@ landscape:
         name: Strategic
         items:
           - item:
+            name: Alliander
+            homepage_url: https://alliander.com/
+            logo: alliander.svg
+            crunchbase: https://www.crunchbase.com/organization/alliander
+          - item:
             name: RTE (Reseau de Transport dElectricite)
             homepage_url: https://rte-france.com/
             logo: rte_reseau_de_transport_delectricite.svg
@@ -675,10 +680,10 @@ landscape:
           - item:
             name: GE
             homepage_url: https://ge.com/
-            stock_ticker: GE
             logo: ge.svg
             twitter: https://twitter.com/generalelectric
-            crunchbase: https://www.crunchbase.com/organization/ge-global-research
+            crunchbase: https://www.crunchbase.com/organization/general-electric
+            stock_ticker: GE
           - item:
             name: OSIsoft
             homepage_url: https://osisoft.com/
@@ -692,12 +697,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/recurve
           - item:
             name: Savoir-faire Linux
-            homepage_url: https://savoirfairelinux.com/fr
+            homepage_url: https://savoirfairelinux.com/
             logo: savoir-faire_linux.svg
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
           - item:
             name: Sony Group Corporation
-            homepage_url: https://www.sony.com/en
+            homepage_url: https://sony.com/
             logo: sony_group_corporation.svg
             crunchbase: https://www.crunchbase.com/organization/sony
           - item:
@@ -716,7 +721,13 @@ landscape:
             name: Unicorn systems a.s.
             homepage_url: https://unicorn.com/
             logo: unicorn_systems_as.svg
-            crunchbase: https://www.crunchbase.com/organization/unicorn-systems
+            crunchbase: https://www.crunchbase.com/organization/unicorn-solutions
+          - item:
+            name: ZEDEDA, Inc.
+            homepage_url: https://zededa.com/
+            logo: zededa_inc.svg
+            twitter: https://twitter.com/ZededaEdge
+            crunchbase: https://www.crunchbase.com/organization/zededa
       - subcategory:
         name: Associate
         items:
@@ -746,7 +757,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/entso-e
           - item:
             name: EPFL
-            homepage_url: https://www.epfl.ch/fr
+            homepage_url: https://epfl.ch/
             logo: epfl.svg
             twitter: https://twitter.com/EPFL
             crunchbase: https://www.crunchbase.com/organization/epfl
@@ -766,12 +777,12 @@ landscape:
             homepage_url: https://ncsu.edu/
             logo: freedm_systems_center_-_ncsu.svg
             twitter: https://twitter.com/NCState
-            crunchbase: https://www.crunchbase.com/organization/freedm-systems-center
+            crunchbase: https://www.crunchbase.com/organization/north-carolina-state-university
           - item:
             name: Friedrich-Alexander-University (FAU)
             homepage_url: https://fau.eu/
             logo: friedrich-alexander-university_fau.svg
-            crunchbase: https://www.crunchbase.com/organization/friedrich-alexander-university
+            crunchbase: https://www.crunchbase.com/organization/university-of-erlangen-nuremberg
           - item:
             name: Iowa State University of Science  and Technology
             homepage_url: https://iastate.edu/
@@ -780,7 +791,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/iowa-state-university
           - item:
             name: Lucerne University of Applied Sciences
-            homepage_url: https://www.hslu.ch/de-ch
+            homepage_url: https://hslu.ch/
             logo: lucerne_university_of_applied_sciences.svg
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
           - item:
@@ -797,10 +808,10 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/openadr-alliance
           - item:
             name: OpenUK
-            description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
             crunchbase: https://www.crunchbase.com/organization/openuk
+            description: Where the UK’s Open communities meet and collaborate
           - item:
             name: Pecan Street Inc.
             homepage_url: https://pecanstreet.org/
@@ -813,7 +824,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/project-haystack
           - item:
             name: RWTH Aachen University
-            homepage_url: https://www.rwth-aachen.de/cms/~a/root
+            homepage_url: https://rwth-aachen.de/
             logo: rwth_aachen_university.svg
             twitter: https://twitter.com/IGaD_RWTH
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
@@ -832,10 +843,10 @@ landscape:
             homepage_url: https://energycoalition.org/
             logo: the_energy_coalition.svg
             twitter: https://twitter.com/_TECTweets
-            crunchbase: https://www.crunchbase.com/organization/the-energy-coalition
+            crunchbase: https://www.crunchbase.com/organization/nw-energy-coalition
           - item:
             name: University of Kassel
-            homepage_url: https://www.uni-kassel.de/uni
+            homepage_url: https://uni-kassel.de/
             logo: university_of_kassel.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
           - item:
@@ -848,4 +859,4 @@ landscape:
             name: Washington State University
             homepage_url: https://wsu.edu/
             logo: washington_state_university.svg
-            crunchbase: https://www.crunchbase.com/organization/washington-state-university
+            crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
