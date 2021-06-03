@@ -117,9 +117,9 @@ landscape:
                 - name: TeX
                   value: 4341
                   color: '#3D6117'
-              contributions: 0;3;1;1;0;2;11;1;0;1;1;1;7;11;4;1;0;0;4;1;0;0;0;1;0;2;2;4;3;1;0;6;1;6;3;5;2;2;0;2;2;5;0;2;0;0;1;0;3;7;3;2
+              contributions: 2;1;1;1;2;1;11;0;0;1;1;4;9;9;2;0;0;0;4;1;0;0;1;0;2;2;1;5;2;0;5;1;4;5;2;5;3;0;1;2;4;2;2;0;0;1;0;0;4;8;2;1
               firstWeek: 2020-06-07Z
-              stars: 525
+              stars: 527
               license: BSD 3-Clause "New" or "Revised" License
               description: A set of documented functions for simulating the performance of photovoltaic energy systems.
               latest_commit_date: '2021-05-27T18:04:18Z'
@@ -130,7 +130,7 @@ landscape:
               contributors_link: https://github.com/pvlib/pvlib-python/graphs/contributors
             repos:
               - url: https://github.com/pvlib/pvlib-python
-                stars: 525
+                stars: 527
             github_start_commit_data:
               start_commit_link: /pvlib/pvlib-python/commit/059ec272601b40affcc3a9c689018eb423ae3380
               start_date: '2013-08-30T17:58:04Z'
@@ -141,7 +141,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T20:53:41.000Z
+              latest_tweet_date: 2021-06-02T23:36:26.000Z
           - item:
             name: WindStore
             description: >-
@@ -246,7 +246,7 @@ landscape:
                 - Energy Efficiency
             github_data:
               languages: []
-              contributions: 0;2;0;0;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0
+              contributions: 2;0;0;0;0;0;0;0;1;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0
               firstWeek: 2020-06-07Z
               stars: 86
               license: Apache License 2.0
@@ -302,7 +302,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T17:15:09.000Z
+              latest_tweet_date: 2021-06-03T00:05:02.000Z
           - item:
             name: AutoCAD
             description: >-
@@ -494,7 +494,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 62907207680
+              market_cap: 61545025536
               effective_ticker: ADSK
             image_data:
               fileName: auto-cad.svg
@@ -503,7 +503,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T19:15:20.000Z
+              latest_tweet_date: 2021-06-02T16:47:06.000Z
           - item:
             name: CERES
             description: CERES is a central registration of installations that produce or consume electricity.
@@ -877,7 +877,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 227049930752
+              market_cap: 231461748736
               effective_ticker: ORCL
             image_data:
               fileName: oracle-spatial-and-graph.svg
@@ -886,7 +886,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T18:50:42.000Z
+              latest_tweet_date: 2021-06-01T15:38:54.000Z
           - item:
             name: PostGIS
             description: PostGIS provides spatial objects for the PostgreSQL database, allowing storage and query of information about location and mapping.
@@ -921,9 +921,9 @@ landscape:
             github_data:
               languages:
                 - name: PLpgSQL
-                  value: 10214781
+                  value: 10214773
                 - name: C
-                  value: 6881660
+                  value: 6893034
                   color: '#555555'
                 - name: Perl
                   value: 281321
@@ -939,15 +939,15 @@ landscape:
                 - name: Python
                   value: 72525
                   color: '#3572A5'
-                - name: C++
-                  value: 20845
-                  color: '#f34b7d'
                 - name: Yacc
                   value: 20546
                   color: '#4B6C4B'
                 - name: Roff
                   value: 10821
                   color: '#ecdebe'
+                - name: C++
+                  value: 9516
+                  color: '#f34b7d'
                 - name: Lex
                   value: 3428
                   color: '#DBCA00'
@@ -956,18 +956,18 @@ landscape:
                 - name: Batchfile
                   value: 1565
                   color: '#C1F12E'
-              contributions: 2;5;5;8;2;8;8;12;21;10;10;6;1;1;2;1;5;4;12;5;3;29;29;2;11;13;11;38;17;8;4;9;10;0;7;8;17;24;3;9;6;0;2;5;10;8;9;21;10;1;6;1
+              contributions: 6;3;5;7;6;5;15;12;21;4;10;4;1;1;2;2;4;14;2;5;15;35;10;9;4;16;30;24;16;1;9;13;1;3;6;17;9;23;6;5;5;0;2;7;9;14;13;16;4;4;3;4
               firstWeek: 2020-06-07Z
-              stars: 958
+              stars: 963
               license: Other
               description: PostGIS spatial database extension to PostgreSQL [mirror]
-              latest_commit_date: '2021-05-27T17:08:30Z'
-              latest_commit_link: /postgis/postgis/commit/0e5d871404e2cb076ab987a58c246ca6f784ebf2
-              contributors_count: 49
+              latest_commit_date: '2021-06-02T21:59:42Z'
+              latest_commit_link: /postgis/postgis/commit/3efe42ec18bf1f2a9e3645049b8caf3828ef4f33
+              contributors_count: 50
               contributors_link: https://github.com/postgis/postgis/graphs/contributors
             repos:
               - url: https://github.com/postgis/postgis
-                stars: 958
+                stars: 963
             github_start_commit_data:
               start_commit_link: /postgis/postgis/commit/31e823c22bb3458c6382e42b09839fd0b8247ccb
               start_date: '2001-06-22T17:39:29Z'
@@ -978,7 +978,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-27T23:21:32.000Z
+              latest_tweet_date: 2021-05-31T16:52:02.000Z
       - subcategory:
         name: Asset Supervision
         items:
@@ -1059,7 +1059,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T10:05:04.000Z
+              latest_tweet_date: 2021-06-02T12:24:14.000Z
           - item:
             name: GridOS IDP
             description: Integrated Distribution Planning Solution
@@ -1142,7 +1142,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T16:00:41.000Z
+              latest_tweet_date: 2021-06-02T16:48:06.000Z
       - subcategory:
         name: Field Work Management
         items:
@@ -1331,7 +1331,7 @@ landscape:
                 - SaaS
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 219583692800
+              market_cap: 217258115072
               effective_ticker: CRM
             image_data:
               fileName: field-service-lightning.svg
@@ -1340,7 +1340,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T23:00:02.000Z
+              latest_tweet_date: 2021-06-03T01:30:21.000Z
           - item:
             name: GRIDSTREAM SOFTWARE-Field Operations Manager
             description: >-
@@ -1550,10 +1550,8 @@ landscape:
                 - Electronics
                 - Energy
                 - Energy Management
-                - Enterprise Software
                 - Information Technology
                 - Renewable Energy
-                - Software
               kind: funding
             image_data:
               fileName: eco-struxure.svg
@@ -1562,7 +1560,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-24T19:20:46.000Z
+              latest_tweet_date: 2021-06-02T16:00:03.000Z
           - item:
             name: OpenMUC
             description: OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.
@@ -1631,7 +1629,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T12:00:17.000Z
+              latest_tweet_date: 2021-06-02T12:06:50.000Z
           - item:
             name: Volttron
             description: Voltron is a flexible, scalable, economical and secure software platform to operate the Internet of Things!
@@ -1676,7 +1674,7 @@ landscape:
                 - name: Dockerfile
                   value: 2056
                   color: '#384d54'
-              contributions: 33;36;11;20;14;8;7;15;24;58;23;13;9;23;2;10;43;10;22;8;15;66;104;6;33;7;28;21;24;4;33;34;30;30;92;16;23;27;24;19;3;3;0;0;0;2;0;0;0;0;0;0
+              contributions: 21;30;21;12;8;13;14;9;42;53;12;11;18;8;10;11;40;20;9;7;39;124;22;6;33;19;26;22;13;32;27;29;33;61;44;14;30;28;18;13;4;1;0;0;2;0;0;0;0;0;0;0
               firstWeek: 2020-06-07Z
               stars: 344
               license: Other
@@ -1790,7 +1788,7 @@ landscape:
                   color: '#E3F171'
                 - name: ShaderLab
                   value: 137
-              contributions: 10;2;5;0;0;6;2;2;0;10;31;13;4;5;18;16;8;11;4;5;2;2;10;20;24;6;7;5;21;0;2;6;22;11;33;6;6;34;25;12;40;14;58;6;2;7;22;29;41;10;12;6
+              contributions: 5;6;1;0;5;3;2;0;6;23;25;4;0;6;19;14;18;1;6;3;3;6;10;29;15;1;8;23;2;0;2;24;8;29;14;5;14;43;11;14;44;27;40;0;7;13;27;40;18;15;9;0
               firstWeek: 2020-06-07Z
               stars: 111
               license: MIT License
@@ -1845,7 +1843,7 @@ landscape:
                 By providing an Autonomous Power Interchange System (APIS), Hyphae automatically and efficiently distributes locally-produced renewable energy
                 over a DC grid
               contributors_count: 2
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;77;247;216;135;99;12;52;58;70;3;0;40;32;0;3;1;27;14;5;2;22;12;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;31;197;211;180;138;29;32;69;64;18;0;17;47;8;0;4;14;27;5;2;9;14;11;0;0;0;0;0;0;0;0;0;0;0;0;0
               stars: 1
               languages:
                 - name: Java
@@ -1924,7 +1922,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
           - item:
             name: openLEADR
             description: A friendly and compliant OpenADR implementation for Python 3
@@ -1958,7 +1956,7 @@ landscape:
             github_data:
               description: A friendly and compliant OpenADR implementation for Python.
               contributors_count: 5
-              contributions: 0;0;0;0;0;11;14;0;1;0;0;0;0;0;7;0;51;1;2;0;16;8;0;21;31;17;17;35;23;4;0;7;0;9;8;3;14;2;5;0;0;0;2;0;0;0;1;0;0;0;0;0
+              contributions: 0;0;0;0;0;25;0;1;0;0;0;0;0;6;1;38;13;3;0;8;16;0;21;13;32;14;26;38;3;1;7;0;9;0;10;14;3;3;2;0;0;2;0;0;0;0;1;0;0;0;0;0
               stars: 45
               languages:
                 - name: Python
@@ -1992,7 +1990,7 @@ landscape:
               badge: 4317
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
@@ -2043,7 +2041,7 @@ landscape:
                 - name: Shell
                   value: 4301
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2020-06-07Z
               stars: 20
               license: Other
@@ -2067,7 +2065,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
           - item:
             name: SASensor
             description: >-
@@ -2186,7 +2184,7 @@ landscape:
             github_data:
               description: FledgePower - Power systems protocols translation gateway based on Fledge
               contributors_count: 2
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;3;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;1;0;0;0;2;1;0;0;0;0;0;0
               stars: 0
               languages: []
               latest_commit_link: /fledge-power/contributing/commit/161644a11d31b13ddeb54f329d55798df8d690ea
@@ -2209,7 +2207,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
       - subcategory:
         name: Infrastructure Management
         items:
@@ -2245,10 +2243,10 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 11668962
+                  value: 11676202
                   color: '#b07219'
                 - name: Gherkin
-                  value: 804512
+                  value: 806220
                   color: '#5B2063'
                 - name: Groovy
                   value: 23693
@@ -2261,7 +2259,7 @@ landscape:
                 - name: Dockerfile
                   value: 359
                   color: '#384d54'
-              contributions: 21;40;29;10;12;20;20;48;9;6;2;6;6;4;10;14;61;23;31;57;43;32;42;59;55;23;36;38;57;0;0;17;11;26;39;28;28;15;38;30;22;25;20;27;10;27;29;25;6;5;9;7
+              contributions: 41;30;19;8;18;18;51;14;4;4;6;3;7;6;15;33;44;25;46;56;32;40;52;66;24;42;24;53;23;0;7;13;24;30;38;28;19;23;41;21;19;27;25;14;26;20;30;14;9;7;7;7
               firstWeek: 2020-06-07Z
               stars: 57
               license: Apache License 2.0
@@ -2269,8 +2267,8 @@ landscape:
                 This repository combines the code from and supersedes the prior existing Shared, Platform, Protocol-Adapter-OSLP, Protocol-Adapter-IEC61850,
                 Protocol-Adapter-DLMS, PublicLightingDemoApp and Integration-Tests repositories. The old repositories have been kept online for now in readonly
                 mode to preserve the historical information.
-              latest_commit_date: '2021-05-27T12:54:59Z'
-              latest_commit_link: /OSGP/open-smart-grid-platform/commit/4076ba2930897722bd6a902a84ab4956ae76f5b2
+              latest_commit_date: '2021-06-02T13:30:02Z'
+              latest_commit_link: /OSGP/open-smart-grid-platform/commit/9051f1fdba4efb02cada0ce6d7d5eba18063b0d0
               release_date: '2021-03-18T10:36:11Z'
               release_link: https://github.com/OSGP/open-smart-grid-platform/releases
               contributors_count: 83
@@ -2288,7 +2286,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
       - subcategory:
         name: Substation Node
         items:
@@ -2345,7 +2343,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
           - item:
             name: SEAPATH
             description: >-
@@ -2380,7 +2378,7 @@ landscape:
                 - Software
             github_data:
               languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2020-06-07Z
               stars: 1
               license: Creative Commons Attribution 4.0 International
@@ -2402,7 +2400,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
   - category:
     name: Customer and Market
     subcategories:
@@ -2478,7 +2476,7 @@ landscape:
                 - name: Dockerfile
                   value: 483
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;3;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8;0;0;0;0;0;0;1;1;9;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;8;0;0;0;0;0;1;1;7;2;0;0;0;0;0;0;0;0;0
               firstWeek: 2020-06-07Z
               stars: 137
               license: Apache License 2.0
@@ -2504,7 +2502,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
       - subcategory:
         name: Metering and Compensation
         items:
@@ -2566,7 +2564,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
       - subcategory:
         name: Market Platform Gateway
         items:
@@ -2623,7 +2621,7 @@ landscape:
                 - Electronics
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 602293141504
+              market_cap: 582930202624
               effective_ticker: TSLA
             image_data:
               fileName: autobidder.svg
@@ -2697,7 +2695,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-29T06:20:03.000Z
+              latest_tweet_date: 2021-06-02T10:30:10.000Z
           - item:
             name: PowerMatcher
             description: The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market.
@@ -2871,7 +2869,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T14:58:20.000Z
+              latest_tweet_date: 2021-06-02T20:15:21.000Z
   - category:
     name: Shared
     subcategories:
@@ -2914,7 +2912,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T15:20:08.000Z
+              latest_tweet_date: 2021-06-02T17:19:42.000Z
           - item:
             name: CIMSpy
             description: CIM/RDF/XML file browser, editor, and validator.
@@ -3037,7 +3035,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-27T13:55:03.000Z
+              latest_tweet_date: 2021-06-01T13:45:05.000Z
       - subcategory:
         name: Unified Operator's UX Components and Framework
         items:
@@ -3075,7 +3073,7 @@ landscape:
                 - name: Python
                   value: 4545
                   color: '#3572A5'
-              contributions: 0;3;0;0;0;0;3;0;0;0;0;0;0;1;2;0;0;0;0;1;0;0;3;0;0;0;3;2;0;0;0;0;1;0;0;0;0;0;2;0;3;0;0;1;0;0;4;0;0;0;5;0
+              contributions: 3;0;0;0;0;3;0;0;0;0;0;0;1;0;2;0;0;0;1;0;0;0;3;0;0;1;2;2;0;0;0;1;0;0;0;0;0;2;0;0;3;0;0;1;0;3;1;0;0;5;0;0
               firstWeek: 2020-06-07Z
               stars: 6
               license: Unknown License
@@ -3099,7 +3097,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T18:07:01.000Z
+              latest_tweet_date: 2021-06-02T23:40:04.000Z
           - item:
             name: OperatorFabric
             description: A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations
@@ -3132,28 +3130,28 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 1182668
+                  value: 1182718
                   color: '#b07219'
                 - name: TypeScript
-                  value: 925428
+                  value: 919621
                   color: '#2b7489'
                 - name: Handlebars
-                  value: 496895
+                  value: 497520
                 - name: Gherkin
                   value: 259889
                   color: '#5B2063'
                 - name: Mustache
                   value: 146471
                 - name: HTML
-                  value: 130260
+                  value: 132422
                   color: '#e34c26'
                 - name: SCSS
-                  value: 65871
+                  value: 66691
                 - name: Shell
-                  value: 57569
+                  value: 60376
                   color: '#89e051'
                 - name: JavaScript
-                  value: 21115
+                  value: 26298
                   color: '#f1e05a'
                 - name: CSS
                   value: 18424
@@ -3165,13 +3163,13 @@ landscape:
                   value: 1042
                   color: '#c22d40'
               contributions: >-
-                20;32;36;29;37;41;21;14;24;9;5;7;25;26;13;45;49;39;51;59;37;20;36;12;43;37;26;16;28;23;8;56;54;67;77;48;38;25;15;29;37;51;53;37;31;46;18;46;24;20;30;10
+                24;39;41;30;32;32;22;20;9;10;3;22;23;18;28;50;33;64;48;47;29;27;20;40;31;29;27;17;36;1;44;58;55;70;67;43;27;14;22;35;51;54;42;26;54;20;40;25;28;23;18;18
               firstWeek: 2020-06-07Z
               stars: 20
               license: Mozilla Public License 2.0
               description: Main operatorfabric program
-              latest_commit_date: '2021-05-28T09:06:31Z'
-              latest_commit_link: /opfab/operatorfabric-core/commit/e97131e080f06a2d5641b67bbee19ecd4e2914e3
+              latest_commit_date: '2021-06-02T15:13:15Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/410dbfb84b140eae853dbb22a98978406c92588c
               contributors_count: 39
               contributors_link: https://github.com/opfab/operatorfabric-core/graphs/contributors
             repos:
@@ -3187,7 +3185,7 @@ landscape:
               badge: 4806
               percentage: 96
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
       - subcategory:
         name: Systems Governance
         items:
@@ -3234,7 +3232,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-31T06:10:02.000Z
+              latest_tweet_date: 2021-06-03T06:10:02.000Z
   - category:
     name: System Management
     subcategories:
@@ -3281,7 +3279,7 @@ landscape:
                 - name: Java
                   value: 3389
                   color: '#b07219'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;1;5;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;1;5;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2020-06-07Z
               stars: 12
               license: Other
@@ -3418,7 +3416,7 @@ landscape:
                 - Market Research
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 91414323200
+              market_cap: 91501043712
               effective_ticker: SPGI
             image_data:
               fileName: price-forecasting.svg
@@ -3427,7 +3425,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-31T01:00:17.000Z
+              latest_tweet_date: 2021-06-02T15:30:27.000Z
       - subcategory:
         name: Power System Calculation
         items:
@@ -3461,7 +3459,7 @@ landscape:
                   value: 14814871
                   color: '#f1e05a'
                 - name: Scala
-                  value: 1887879
+                  value: 1889828
                   color: '#c22d40'
                 - name: Java
                   value: 141361
@@ -3486,13 +3484,13 @@ landscape:
                 - name: Batchfile
                   value: 267
                   color: '#C1F12E'
-              contributions: 1;15;9;5;8;17;10;7;11;7;2;2;14;22;10;8;9;6;3;11;6;10;0;9;7;6;12;7;1;3;0;1;20;1;0;0;27;9;15;10;9;0;0;0;2;5;3;0;0;2;4;0
+              contributions: 12;11;3;10;10;15;6;10;12;2;3;6;25;14;6;6;11;2;8;9;10;2;7;8;4;15;6;1;4;0;0;21;1;0;0;21;10;17;12;10;0;0;0;1;4;5;0;0;2;9;11;12
               firstWeek: 2020-06-07Z
               stars: 12
               license: Other
               description: CIM J2EE application with resource adapter access to Spark.
-              latest_commit_date: '2021-05-18T12:31:17Z'
-              latest_commit_link: /derrickoswald/CIMApplication/commit/6eb5b2e3755cffda811ab7b107c1b6634972e226
+              latest_commit_date: '2021-06-01T12:53:34Z'
+              latest_commit_link: /derrickoswald/CIMApplication/commit/c8077d3abed75200e05e807980fb9123753773b6
               release_date: '2018-11-07T08:42:26Z'
               release_link: https://github.com/derrickoswald/CIMApplication/releases
               contributors_count: 6
@@ -3550,7 +3548,7 @@ landscape:
                 - name: HTML
                   value: 242
                   color: '#e34c26'
-              contributions: 8;6;10;4;2;6;0;0;0;0;1;2;2;8;5;3;7;2;3;0;0;5;1;0;0;0;0;0;0;0;1;0;0;0;0;0;3;1;0;3;2;0;1;0;0;0;0;0;1;1;0;0
+              contributions: 5;10;5;4;4;2;0;0;0;1;0;2;9;5;2;6;3;4;1;0;2;4;0;0;0;0;0;0;0;0;1;0;0;0;0;3;1;0;3;2;0;1;0;0;0;0;0;0;2;0;0;0
               firstWeek: 2020-06-07Z
               stars: 11
               license: Other
@@ -3706,7 +3704,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 57882124288
+              market_cap: 58169044992
               effective_ticker: ETN
             image_data:
               fileName: cyme.svg
@@ -3715,7 +3713,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-26T17:01:51.000Z
+              latest_tweet_date: 2021-06-01T18:00:41.000Z
           - item:
             name: EMTP-RV
             description: EMTP is the most complete and technically advanced software for simulation and analysis of power systems.
@@ -3858,7 +3856,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T18:07:01.000Z
+              latest_tweet_date: 2021-06-02T23:40:04.000Z
           - item:
             name: PowSyBl
             description: A High-Performance Computing Framework For Grid Simulation and Planning
@@ -3891,7 +3889,7 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 8881413
+                  value: 8887351
                   color: '#b07219'
                 - name: Groovy
                   value: 100061
@@ -3905,13 +3903,13 @@ landscape:
                 - name: JavaScript
                   value: 324
                   color: '#f1e05a'
-              contributions: 3;12;6;10;1;10;12;12;4;1;6;1;5;5;5;2;12;9;13;8;0;2;5;2;5;2;8;3;13;4;0;1;3;12;3;3;3;5;4;5;2;5;7;8;3;3;9;5;14;13;6;2
+              contributions: 11;8;8;5;7;7;18;6;1;3;4;2;7;4;3;8;12;8;8;7;2;1;5;6;1;4;5;13;7;0;0;2;13;4;2;2;4;5;6;1;3;11;4;4;5;7;8;12;15;4;3;5
               firstWeek: 2020-06-07Z
               stars: 71
               license: Mozilla Public License 2.0
               description: A framework to build power system oriented software
-              latest_commit_date: '2021-05-28T12:05:12Z'
-              latest_commit_link: /powsybl/powsybl-core/commit/a98d4e08f5bd843b7a4ce9de2c050a5186a2164b
+              latest_commit_date: '2021-06-02T12:21:53Z'
+              latest_commit_link: /powsybl/powsybl-core/commit/332d5ee38dfdc3559d1a46486b30e0a20f850b42
               release_date: '2021-05-17T09:41:01Z'
               release_link: https://github.com/powsybl/powsybl-core/releases
               contributors_count: 66
@@ -3929,7 +3927,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
           - item:
             name: PSCAD/EMTDC
             description: >-
@@ -4156,7 +4154,7 @@ landscape:
                 - Medical
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 10227796302
+              market_cap: 10278551379
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: pss.svg
@@ -4359,7 +4357,7 @@ landscape:
                 - Medical
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 10227796302
+              market_cap: 10278551379
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: psse.svg
@@ -4410,7 +4408,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T14:38:38.000Z
+              latest_tweet_date: 2021-06-02T13:34:08.000Z
       - subcategory:
         name: Market Signal
         items:
@@ -4448,7 +4446,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T10:05:04.000Z
+              latest_tweet_date: 2021-06-02T12:24:14.000Z
           - item:
             name: Concerto
             description: >-
@@ -4489,7 +4487,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T20:54:41.000Z
+              latest_tweet_date: 2021-06-02T21:10:32.000Z
           - item:
             name: GridOS TE
             description: Transactive Energy Management
@@ -4750,7 +4748,7 @@ landscape:
                 - Manufacturing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123427684352
+              market_cap: 123691040768
               effective_ticker: GE
             image_data:
               fileName: adms.svg
@@ -4866,13 +4864,13 @@ landscape:
             github_data:
               languages:
                 - name: Java
-                  value: 9463187
+                  value: 9462943
                   color: '#b07219'
                 - name: HTML
-                  value: 3426855
+                  value: 3424703
                   color: '#e34c26'
                 - name: TypeScript
-                  value: 872130
+                  value: 871521
                   color: '#2b7489'
                 - name: Shell
                   value: 11605
@@ -4888,20 +4886,20 @@ landscape:
                 - name: Dockerfile
                   value: 468
                   color: '#384d54'
-              contributions: 8;3;18;6;10;3;8;5;15;11;11;10;13;7;11;8;6;21;7;2;17;7;22;6;19;6;8;5;14;1;0;3;15;4;15;6;6;1;17;2;14;0;11;1;14;11;12;12;17;3;10;0
+              contributions: 7;8;16;5;10;1;8;14;10;8;16;4;17;5;15;2;17;11;7;9;10;16;16;6;18;4;7;12;8;0;2;2;17;4;18;1;5;9;9;9;7;6;6;8;12;10;11;13;15;1;9;5
               firstWeek: 2020-06-07Z
-              stars: 187
+              stars: 189
               license: Other
               description: OpenEMS - Open Source Energy Management System
-              latest_commit_date: '2021-05-20T14:31:46Z'
-              latest_commit_link: /OpenEMS/openems/commit/988688a534770bd06e1fd3faaacadc0e27e4e2a8
+              latest_commit_date: '2021-06-02T16:09:27Z'
+              latest_commit_link: /OpenEMS/openems/commit/39e76a1fe35557606fa2c1c60d102abc818e38ae
               release_date: '2021-05-20T12:21:45Z'
               release_link: https://github.com/OpenEMS/openems/releases
               contributors_count: 39
               contributors_link: https://github.com/OpenEMS/openems/graphs/contributors
             repos:
               - url: https://github.com/OpenEMS/openems
-                stars: 187
+                stars: 189
             github_start_commit_data:
               start_commit_link: /OpenEMS/openems/commit/3633e134561d1ace02e92fb0011b9b069b754508
               start_date: '2016-09-22T10:14:34Z'
@@ -4945,7 +4943,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 22
-              contributions: 1;0;3;6;22;19;17;7;41;9;14;1;8;9;33;26;27;20;32;52;19;36;25;21;35;38;20;11;8;2;6;15;16;10;26;21;19;14;17;32;31;21;30;6;15;22;19;17;6;6;7;13
+              contributions: 1;2;4;11;23;26;8;38;12;14;1;8;7;26;20;32;29;16;57;23;20;39;13;38;29;39;12;11;3;6;7;15;15;24;15;25;15;17;21;29;25;18;32;1;31;18;21;2;12;3;14;3
               stars: 30
               languages:
                 - name: JavaScript
@@ -5042,7 +5040,7 @@ landscape:
               badge: 4887
               percentage: 25
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:33:20.000Z
+              latest_tweet_date: 2021-06-01T14:08:08.000Z
           - item:
             name: Spectrum Power
             description: Spectrum Power, the open and scalable platform for High, Medium and Low Voltage grid operation.
@@ -5234,7 +5232,7 @@ landscape:
                 - Medical
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 10227796302
+              market_cap: 10278551379
               effective_ticker: SIEMENS.NS
             image_data:
               fileName: spectrum-power.svg
@@ -5287,6 +5285,7 @@ landscape:
             name: RTE (Reseau de Transport dElectricite)
             homepage_url: https://rte-france.com/
             logo: rte_reseau_de_transport_delectricite.svg
+            twitter: https://twitter.com/rte_france
             crunchbase: https://www.crunchbase.com/organization/rte-france
             crunchbase_data:
               name: RTE France
@@ -5313,7 +5312,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T09:41:53.000Z
+              latest_tweet_date: 2021-06-02T14:49:11.000Z
       - subcategory:
         name: General
         items:
@@ -5321,6 +5320,7 @@ landscape:
             name: CloudBees, Inc.
             homepage_url: https://cloudbees.com/
             logo: cloudbees_inc.svg
+            twitter: https://twitter.com/CloudBees
             crunchbase: https://www.crunchbase.com/organization/cloudbees
             crunchbase_data:
               name: CloudBees
@@ -5366,7 +5366,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T22:10:02.000Z
+              latest_tweet_date: 2021-06-02T23:43:02.000Z
           - item:
             name: Energinet
             homepage_url: https://energinet.dk/
@@ -5398,11 +5398,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T06:13:29.000Z
+              latest_tweet_date: 2021-06-01T13:28:52.000Z
           - item:
             name: GE
             homepage_url: https://ge.com/
             logo: ge.svg
+            twitter: https://twitter.com/generalelectric
             crunchbase: https://www.crunchbase.com/organization/general-electric
             crunchbase_data:
               name: General Electric (GE)
@@ -5499,7 +5500,7 @@ landscape:
                 - Manufacturing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 123427684352
+              market_cap: 123691040768
               effective_ticker: GE
             image_data:
               fileName: ge.svg
@@ -5569,7 +5570,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 50596758316
+              market_cap: 52300377897
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-systems-ltd.svg
@@ -5578,11 +5579,568 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-31T04:17:58.000Z
+              latest_tweet_date: 2021-06-02T15:58:38.000Z
+          - item:
+            name: Microsoft Corporation
+            homepage_url: https://www.microsoft.com/en-us
+            logo: microsoft_corporation.svg
+            twitter: https://twitter.com/Microsoft
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+            crunchbase_data:
+              name: Microsoft
+              description: Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.microsoft.com
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: http://twitter.com/Microsoft
+              linkedin: https://www.linkedin.com/company/microsoft
+              acquisitions:
+                - date: '1987-07-30'
+                  acquiree: Forethought
+                  price: 14000000
+                - date: '1991-03-08'
+                  acquiree: Consumers Software
+                - date: '1992-03-25'
+                  acquiree: Fox Software
+                - date: '1994-02-15'
+                  acquiree: SoftImage
+                - date: '1994-09-27'
+                  acquiree: Altamira Software
+                - date: '1994-11-01'
+                  acquiree: NextBase
+                - date: '1994-11-16'
+                  acquiree: One Tree Software Ltd
+                - date: '1995-02-23'
+                  acquiree: RenderMorphics
+                - date: '1995-07-10'
+                  acquiree: Network Managers
+                - date: '1995-10-16'
+                  acquiree: Blue Ribbon SoundWorks
+                - date: '1995-11-06'
+                  acquiree: Netwise
+                - date: '1995-12-12'
+                  acquiree: Bruce Artwick Organization
+                - date: '1996-01-16'
+                  acquiree: Vermeer Technologies
+                - date: '1996-03-12'
+                  acquiree: Colusa Software
+                - date: '1996-04-15'
+                  acquiree: EXOS
+                - date: '1996-04-23'
+                  acquiree: Aspect Software Inc
+                - date: '1996-06-11'
+                  acquiree: eShop
+                - date: '1996-06-17'
+                  acquiree: Electric Gravity
+                - date: '1996-12-10'
+                  acquiree: NetCarta
+                - date: '1997-03-03'
+                  acquiree: Interse
+                - date: '1997-04-06'
+                  acquiree: WebTV Networks
+                - date: '1997-05-07'
+                  acquiree: Dimension X
+                - date: '1997-06-13'
+                  acquiree: Cooper & Peters
+                - date: '1997-06-30'
+                  acquiree: LinkAge Software
+                - date: '1997-08-05'
+                  acquiree: VXtreme
+                - date: '1997-12-31'
+                  acquiree: Hotmail
+                - date: '1997-12-31'
+                  acquiree: Windows Live Hotmail
+                - date: '1998-04-09'
+                  acquiree: Firefly Network
+                - date: '1998-04-28'
+                  acquiree: MESA Group
+                - date: '1998-06-23'
+                  acquiree: Merchant Planet
+                - date: '1998-08-25'
+                  acquiree: Valence Research
+                - date: '1998-08-25'
+                  acquiree: Valence Technology
+                - date: '1998-11-05'
+                  acquiree: linkexchange
+                - date: '1999-01-08'
+                  acquiree: FASA Interactive
+                - date: '1999-03-04'
+                  acquiree: CompareNet
+                - date: '1999-03-28'
+                  acquiree: Numinous Technologies
+                - date: '1999-04-26'
+                  acquiree: Jump Networks
+                - date: '1999-06-07'
+                  acquiree: ShadowFactor Software
+                - date: '1999-06-14'
+                  acquiree: OmniBrowse
+                - date: '1999-07-01'
+                  acquiree: Sendit
+                - date: '1999-07-07'
+                  acquiree: Zoomit
+                - date: '1999-07-21'
+                  acquiree: STNC
+                - date: '1999-07-28'
+                  acquiree: Intrinsa
+                  price: 58900000
+                - date: '1999-09-15'
+                  acquiree: Visio Corporation
+                - date: '1999-09-17'
+                  acquiree: Softway Systems
+                - date: '1999-10-29'
+                  acquiree: Entropic
+                - date: '1999-11-01'
+                  acquiree: Entropic Research Laboratories
+                - date: '2000-02-29'
+                  acquiree: Peach Networks
+                - date: '2000-06-19'
+                  acquiree: Bungie
+                - date: '2000-07-12'
+                  acquiree: NetGames
+                - date: '2000-09-13'
+                  acquiree: MongoMusic
+                  price: 65000000
+                - date: '2000-09-18'
+                  acquiree: Pacific Microsonics
+                - date: '2000-12-05'
+                  acquiree: Digital Anvil
+                - date: '2000-12-21'
+                  acquiree: Great Plains Software
+                - date: '2001-04-30'
+                  acquiree: NCompass Labs
+                - date: '2001-09-13'
+                  acquiree: XDegrees
+                - date: '2002-05-07'
+                  acquiree: Navision
+                  price: 1450000000
+                - date: '2002-09-24'
+                  acquiree: Rare, Inc.
+                  price: 337000000
+                - date: '2002-10-22'
+                  acquiree: Vicinity Corporation
+                  price: 96000000
+                - date: '2003-02-19'
+                  acquiree: Connectix
+                - date: '2003-03-04'
+                  acquiree: Pelican Security
+                  price: 1000000
+                - date: '2003-04-30'
+                  acquiree: PlaceWare
+                - date: '2003-06-10'
+                  acquiree: RAV Antivirus
+                - date: '2004-04-26'
+                  acquiree: ActiveViews
+                - date: '2004-07-17'
+                  acquiree: Lookout Software
+                - date: '2004-12-16'
+                  acquiree: GIANT Company Software
+                - date: '2005-02-08'
+                  acquiree: Sybari
+                - date: '2005-03-10'
+                  acquiree: Groove Networks
+                - date: '2005-05-11'
+                  acquiree: MessageCast
+                - date: '2005-07-20'
+                  acquiree: Frontbridge Technologies
+                - date: '2005-08-30'
+                  acquiree: Teleo
+                - date: '2005-09-19'
+                  acquiree: Alacris
+                - date: '2005-10-06'
+                  acquiree: Unveil Technologies
+                - date: '2005-11-02'
+                  acquiree: Media-Streams.com
+                - date: '2005-11-03'
+                  acquiree: FolderShare
+                - date: '2005-11-17'
+                  acquiree: 5th Finger
+                - date: '2006-01-28'
+                  acquiree: SeaDragon Software
+                - date: '2006-02-13'
+                  acquiree: Motion Bridge
+                - date: '2006-03-07'
+                  acquiree: Apptimum
+                - date: '2006-03-07'
+                  acquiree: Onfolio
+                - date: '2006-04-03'
+                  acquiree: ProClarity
+                - date: '2006-04-06'
+                  acquiree: Lionhead Studios
+                - date: '2006-04-26'
+                  acquiree: AssetMetrix Corporation
+                - date: '2006-05-01'
+                  acquiree: Massive
+                  price: 200000000
+                - date: '2006-05-04'
+                  acquiree: DeepMetrix
+                - date: '2006-05-04'
+                  acquiree: Vexcel
+                - date: '2006-05-18'
+                  acquiree: Whale Communications
+                  price: 75000000
+                - date: '2006-06-27'
+                  acquiree: iView Multimedia
+                - date: '2006-07-17'
+                  acquiree: Softricity
+                - date: '2006-07-18'
+                  acquiree: Winternals
+                - date: '2006-07-26'
+                  acquiree: Azyxxi
+                - date: '2006-09-26'
+                  acquiree: Gteko
+                - date: '2006-10-02'
+                  acquiree: DesktopStandard
+                - date: '2006-10-12'
+                  acquiree: Colloquis
+                - date: '2007-02-26'
+                  acquiree: Medstory
+                - date: '2007-03-14'
+                  acquiree: Tellme
+                  price: 800000000
+                - date: '2007-03-14'
+                  acquiree: Tellme
+                  price: 800000000
+                - date: '2007-03-28'
+                  acquiree: devBiz Business Solutions
+                - date: '2007-05-03'
+                  acquiree: Screen Tonic
+                - date: '2007-05-18'
+                  acquiree: aQuantive
+                  price: 6400000000
+                - date: '2007-06-05'
+                  acquiree: Engyro
+                - date: '2007-06-07'
+                  acquiree: Stratature
+                - date: '2007-07-26'
+                  acquiree: AdECN
+                - date: '2007-08-29'
+                  acquiree: Parlano
+                - date: '2007-10-29'
+                  acquiree: Global Care Solutions
+                - date: '2007-11-15'
+                  acquiree: Musiwave
+                  price: 46000000
+                - date: '2007-11-30'
+                  acquiree: WebFives
+                - date: '2007-12-12'
+                  acquiree: MultiMap
+                - date: '2008-01-08'
+                  acquiree: Fast Search & Transfer
+                - date: '2008-01-21'
+                  acquiree: Calista Technologies
+                - date: '2008-02-07'
+                  acquiree: Caligari Corporation
+                - date: '2008-02-11'
+                  acquiree: Danger
+                  price: 500000000
+                - date: '2008-02-27'
+                  acquiree: YaData
+                - date: '2008-03-08'
+                  acquiree: Credentica
+                - date: '2008-03-12'
+                  acquiree: Kidaro
+                  price: 90000000
+                - date: '2008-03-14'
+                  acquiree: 90 Degree Software
+                - date: '2008-03-14'
+                  acquiree: Rapt
+                - date: '2008-03-20'
+                  acquiree: Komoku
+                - date: '2008-04-09'
+                  acquiree: Farecast
+                  price: 115000000
+                - date: '2008-06-18'
+                  acquiree: Navic Networks
+                - date: '2008-06-18'
+                  acquiree: Navic Systems
+                - date: '2008-06-26'
+                  acquiree: MobiComp
+                - date: '2008-07-01'
+                  acquiree: Powerset
+                  price: 100000000
+                - date: '2008-07-14'
+                  acquiree: Zoomix
+                - date: '2008-07-25'
+                  acquiree: DATAllegro
+                - date: '2008-08-29'
+                  acquiree: Greenfield Online
+                  price: 486000000
+                - date: '2008-08-31'
+                  acquiree: Ciao AG
+                - date: '2009-05-07'
+                  acquiree: BigPark
+                - date: '2009-06-01'
+                  acquiree: Rosetta Biosoftware
+                - date: '2009-06-28'
+                  acquiree: ClickStream Technologies
+                - date: '2009-09-22'
+                  acquiree: Interactive Supercomputing
+                - date: '2009-12-10'
+                  acquiree: Sentillion
+                - date: '2009-12-11'
+                  acquiree: Opalis Software
+                - date: '2010-10-06'
+                  acquiree: AVIcode
+                - date: '2010-10-29'
+                  acquiree: Canesta
+                - date: '2011-05-10'
+                  acquiree: Skype
+                - date: '2011-06-08'
+                  acquiree: Prodiance Corporation
+                - date: '2011-10-12'
+                  acquiree: Twisted Pixel Games
+                - date: '2011-11-23'
+                  acquiree: VideoSurf
+                  price: 100000000
+                - date: '2012-06-25'
+                  acquiree: Yammer
+                  price: 1200000000
+                - date: '2012-07-09'
+                  acquiree: Perceptive Pixel
+                - date: '2012-10-04'
+                  acquiree: PhoneFactor
+                - date: '2012-10-16'
+                  acquiree: StorSimple
+                - date: '2012-10-17'
+                  acquiree: MarketingPilot
+                - date: '2012-12-28'
+                  acquiree: R2 Studios
+                - date: '2013-01-02'
+                  acquiree: id8 Group R2 Studios
+                - date: '2013-02-04'
+                  acquiree: Pando Networks
+                - date: '2013-03-04'
+                  acquiree: MetricsHub
+                - date: '2013-03-19'
+                  acquiree: Netbreeze
+                - date: '2013-06-03'
+                  acquiree: InRelease
+                - date: '2013-09-03'
+                  acquiree: Nokia - Devices & Services Business
+                  price: 7166381241
+                - date: '2013-10-04'
+                  acquiree: Apiphany
+                - date: '2014-01-06'
+                  acquiree: Parature
+                  price: 100000000
+                - date: '2014-04-30'
+                  acquiree: GreenButton
+                - date: '2014-05-28'
+                  acquiree: Capptain
+                - date: '2014-07-03'
+                  acquiree: SyntaxTree
+                - date: '2014-07-11'
+                  acquiree: InMage Systems
+                - date: '2014-09-15'
+                  acquiree: Mojang Studios
+                  price: 2500000000
+                - date: '2014-10-08'
+                  acquiree: Equivio
+                  price: 200000000
+                - date: '2014-11-13'
+                  acquiree: Aorato
+                  price: 200000000
+                - date: '2014-12-01'
+                  acquiree: Acompli
+                  price: 200000000
+                - date: '2014-12-11'
+                  acquiree: Bit Stadium GmbH
+                - date: '2014-12-11'
+                  acquiree: HockeyApp
+                - date: '2015-01-23'
+                  acquiree: Revolution Analytics
+                - date: '2015-02-04'
+                  acquiree: Sunrise
+                  price: 100000000
+                - date: '2015-02-12'
+                  acquiree: N-Trig
+                - date: '2015-03-26'
+                  acquiree: LiveLoop
+                - date: '2015-04-14'
+                  acquiree: Datazen Software
+                - date: '2015-06-02'
+                  acquiree: Wunderlist
+                  price: 150000000
+                - date: '2015-06-10'
+                  acquiree: BlueStripe
+                - date: '2015-07-16'
+                  acquiree: FieldOne Systems
+                - date: '2015-07-19'
+                  acquiree: Adallom
+                  price: 320000000
+                - date: '2015-08-03'
+                  acquiree: FantasySalesTeam
+                - date: '2015-09-10'
+                  acquiree: Double Labs
+                - date: '2015-09-11'
+                  acquiree: VoloMetrix
+                  price: 250000000
+                - date: '2015-09-14'
+                  acquiree: Echo Locker
+                - date: '2015-09-30'
+                  acquiree: Adxstudio
+                - date: '2015-10-02'
+                  acquiree: Havok
+                - date: '2015-11-05'
+                  acquiree: Mobile Data Labs
+                - date: '2015-11-09'
+                  acquiree: Secure Islands Technologies
+                  price: 77500000
+                - date: '2015-12-18'
+                  acquiree: Metanautix
+                - date: '2015-12-21'
+                  acquiree: Talko
+                - date: '2016-01-13'
+                  acquiree: Event Zero
+                - date: '2016-01-19'
+                  acquiree: MinecraftEdu
+                - date: '2016-02-02'
+                  acquiree: SwiftKey
+                  price: 250000000
+                - date: '2016-02-09'
+                  acquiree: Groove (dba Zikera)
+                - date: '2016-02-24'
+                  acquiree: Xamarin
+                - date: '2016-05-03'
+                  acquiree: Solair
+                - date: '2016-06-13'
+                  acquiree: LinkedIn
+                  price: 26200000000
+                - date: '2016-06-16'
+                  acquiree: Wand Labs
+                - date: '2016-06-28'
+                  acquiree: Code Connect
+                - date: '2016-08-11'
+                  acquiree: Mixer
+                - date: '2016-08-22'
+                  acquiree: Genee
+                - date: '2017-01-13'
+                  acquiree: Maluuba
+                - date: '2017-01-17'
+                  acquiree: Donya Labs
+                - date: '2017-04-01'
+                  acquiree: Open Build Service
+                - date: '2017-04-10'
+                  acquiree: Deis.com
+                - date: '2017-04-18'
+                  acquiree: Intentional Software
+                - date: '2017-05-24'
+                  acquiree: Hexadite
+                  price: 100000000
+                - date: '2017-06-28'
+                  acquiree: Cloudyn
+                  price: 60000000
+                - date: '2017-08-15'
+                  acquiree: Cycle Computing
+                - date: '2017-10-04'
+                  acquiree: AltspaceVR
+                - date: '2017-11-07'
+                  acquiree: Swing Technologies
+                - date: '2018-01-03'
+                  acquiree: Avere Systems
+                - date: '2018-01-29'
+                  acquiree: PlayFab
+                - date: '2018-02-13'
+                  acquiree: Chalkup
+                - date: '2018-05-20'
+                  acquiree: Semantic Machines
+                - date: '2018-06-03'
+                  acquiree: GitHub
+                  price: 7500000000
+                - date: '2018-06-10'
+                  acquiree: Compulsion Games
+                - date: '2018-06-10'
+                  acquiree: Ninja Theory
+                - date: '2018-06-10'
+                  acquiree: Playground Games
+                - date: '2018-06-10'
+                  acquiree: Undead Labs
+                - date: '2018-06-18'
+                  acquiree: FlipGrid
+                - date: '2018-06-20'
+                  acquiree: Bonsai
+                - date: '2018-09-13'
+                  acquiree: Lobe
+                - date: '2018-11-10'
+                  acquiree: Obsidian Entertainment
+                - date: '2018-11-10'
+                  acquiree: inXile Entertainment
+                - date: '2018-11-14'
+                  acquiree: XOXCO
+                - date: '2018-11-19'
+                  acquiree: FSLogix
+                - date: '2019-01-24'
+                  acquiree: Citus Data
+                - date: '2019-02-04'
+                  acquiree: DataSense
+                - date: '2019-04-18'
+                  acquiree: Express Logic
+                - date: '2019-07-29'
+                  acquiree: BlueTalon
+                - date: '2019-08-05'
+                  acquiree: PromoteIQ
+                - date: '2019-08-19'
+                  acquiree: jClarity
+                - date: '2019-09-04'
+                  acquiree: Movere
+                - date: '2019-10-21'
+                  acquiree: Mover
+                - date: '2020-03-26'
+                  acquiree: Affirmed Networks
+                  price: 1350000000
+                - date: '2020-05-05'
+                  acquiree: CyberX
+                  price: 165000000
+                - date: '2020-05-14'
+                  acquiree: Metaswitch Networks
+                - date: '2020-05-19'
+                  acquiree: Softomotive
+                - date: '2020-06-18'
+                  acquiree: ADRM Software
+                - date: '2020-07-08'
+                  acquiree: Orions Systems
+                - date: '2020-09-21'
+                  acquiree: ZeniMax
+                  price: 7500000000
+                - date: '2020-12-02'
+                  acquiree: Smash.gg
+                - date: '2021-03-16'
+                  acquiree: The Marsden Group
+                - date: '2021-04-12'
+                  acquiree: Nuance Communications
+                  price: 19700000000
+                - date: '2021-04-29'
+                  acquiree: Kinvolk
+              parents: []
+              ticker: MSFT
+              funding: 1000000
+              stockExchange: nasdaq
+              company_type: For Profit
+              industries:
+                - Developer Tools
+                - Enterprise Software
+                - Operating Systems
+                - Software
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 1862557368320
+              effective_ticker: MSFT
+            image_data:
+              fileName: microsoft-corporation.svg
+              hash: 8fFf3tCTHX+5TsBQWT3+hZi81xYUBqdd3pZCFAf3LtQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-06-02T22:12:57.000Z
           - item:
             name: OSIsoft
             homepage_url: https://osisoft.com/
             logo: osisoft.svg
+            twitter: https://twitter.com/OSIsoft
             crunchbase: https://www.crunchbase.com/organization/osisoft
             crunchbase_data:
               name: OSIsoft
@@ -5615,7 +6173,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T16:00:41.000Z
+              latest_tweet_date: 2021-06-02T16:48:06.000Z
           - item:
             name: Recurve
             homepage_url: https://recurve.com/
@@ -5655,6 +6213,7 @@ landscape:
             name: Savoir-faire Linux
             homepage_url: https://savoirfairelinux.com/fr
             logo: savoir-faire_linux.svg
+            twitter: https://twitter.com/SFLinux
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
             crunchbase_data:
               name: Savoir-faire Linux
@@ -5681,7 +6240,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-29T23:44:42.000Z
+              latest_tweet_date: 2021-06-01T22:04:33.000Z
           - item:
             name: Sony Computer Science Laboratories, Inc.
             homepage_url: https://www2.sonycsl.co.jp
@@ -5714,7 +6273,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T07:10:34.000Z
+              latest_tweet_date: 2021-06-01T04:51:21.000Z
           - item:
             name: Statnett
             homepage_url: https://statnett.no/
@@ -5747,7 +6306,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T16:45:36.000Z
+              latest_tweet_date: 2021-05-31T12:44:46.000Z
           - item:
             name: TenneT
             homepage_url: https://tennet.eu/nl
@@ -5777,7 +6336,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-29T06:20:03.000Z
+              latest_tweet_date: 2021-06-02T10:30:10.000Z
           - item:
             name: Unicorn systems a.s.
             homepage_url: https://unicorn.com/
@@ -5842,7 +6401,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T18:55:05.000Z
+              latest_tweet_date: 2021-06-01T21:14:54.000Z
       - subcategory:
         name: Associate
         items:
@@ -5850,6 +6409,7 @@ landscape:
             name: Delft University of Technology
             homepage_url: https://tudelft.nl/
             logo: delft_university_of_technology.svg
+            twitter: https://twitter.com/tudelft
             crunchbase: https://www.crunchbase.com/organization/delft-university-of-technology
             crunchbase_data:
               name: Delft University of Technology
@@ -5876,7 +6436,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-29T22:59:42.000Z
+              latest_tweet_date: 2021-06-02T07:48:09.000Z
           - item:
             name: ELAAD
             homepage_url: https://elaad.nl/
@@ -5906,7 +6466,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T14:49:59.000Z
+              latest_tweet_date: 2021-06-02T11:28:45.000Z
           - item:
             name: Electric Power Research Institute (EPRI)
             homepage_url: https://epri.com/
@@ -5940,7 +6500,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T17:50:21.000Z
+              latest_tweet_date: 2021-06-02T20:49:30.000Z
           - item:
             name: EnAccess Foundation
             homepage_url: https://enaccess.org/
@@ -5970,7 +6530,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-27T18:27:30.000Z
+              latest_tweet_date: 2021-06-02T09:46:42.000Z
           - item:
             name: Energy Foundation
             homepage_url: https://ef.org/
@@ -6004,7 +6564,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-29T13:34:18.000Z
+              latest_tweet_date: 2021-06-03T03:41:13.000Z
           - item:
             name: ENTSO-E (European Network of Transmission System Operators)
             homepage_url: https://entsoe.eu/
@@ -6037,7 +6597,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T15:20:08.000Z
+              latest_tweet_date: 2021-06-02T17:19:42.000Z
           - item:
             name: EPFL
             homepage_url: https://www.epfl.ch/fr
@@ -6073,7 +6633,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T11:02:47.000Z
+              latest_tweet_date: 2021-06-02T16:46:09.000Z
           - item:
             name: FIWARE Foundation e. V.
             homepage_url: https://fiware.org/
@@ -6107,11 +6667,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T15:15:07.000Z
+              latest_tweet_date: 2021-06-02T18:42:10.000Z
           - item:
             name: Fraunhofer Gesellschaft IIS
             homepage_url: https://fraunhofer.de/
             logo: fraunhofer_gesellschaft_iis.svg
+            twitter: https://twitter.com/Fraunhofer
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
             crunchbase_data:
               name: Fraunhofer-Gesellschaft
@@ -6141,7 +6702,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T11:02:04.000Z
+              latest_tweet_date: 2021-06-02T12:46:15.000Z
           - item:
             name: FREEDM Systems Center - NCSU
             homepage_url: https://ncsu.edu/
@@ -6176,11 +6737,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-31T00:35:02.000Z
+              latest_tweet_date: 2021-06-03T00:45:02.000Z
           - item:
             name: Friedrich-Alexander-University (FAU)
             homepage_url: https://fau.eu/
             logo: friedrich-alexander-university_fau.svg
+            twitter: https://twitter.com/UniFAU
             crunchbase: https://www.crunchbase.com/organization/university-of-erlangen-nuremberg
             crunchbase_data:
               name: Friedrich Alexander Universität Erlangen Nürnberg
@@ -6206,7 +6768,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-31T05:25:15.000Z
+              latest_tweet_date: 2021-06-02T16:00:37.000Z
           - item:
             name: Iowa State University of Science  and Technology
             homepage_url: https://iastate.edu/
@@ -6242,7 +6804,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T19:58:31.000Z
+              latest_tweet_date: 2021-06-01T20:45:43.000Z
           - item:
             name: KTH Royal Institute of Technology
             homepage_url: https://kth.se/
@@ -6276,11 +6838,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-27T08:03:03.000Z
+              latest_tweet_date: 2021-06-02T15:18:44.000Z
           - item:
             name: Lucerne University of Applied Sciences
             homepage_url: https://www.hslu.ch/de-ch
             logo: lucerne_university_of_applied_sciences.svg
+            twitter: https://twitter.com/hslu
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
             crunchbase_data:
               name: Lucerne University of Applied Sciences and Arts
@@ -6306,11 +6869,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T09:30:51.000Z
+              latest_tweet_date: 2021-06-02T15:13:13.000Z
           - item:
             name: Monash University
             homepage_url: https://monash.edu/
             logo: monash_university.svg
+            twitter: https://twitter.com/MonashUni
             crunchbase: https://www.crunchbase.com/organization/monash-university
             crunchbase_data:
               name: Monash University
@@ -6336,7 +6900,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-31T04:26:06.000Z
+              latest_tweet_date: 2021-06-03T02:48:54.000Z
           - item:
             name: National Renewable Energy Laboratory (NREL)
             homepage_url: https://nrel.gov/
@@ -6372,11 +6936,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T21:00:11.000Z
+              latest_tweet_date: 2021-06-02T21:00:11.000Z
           - item:
             name: Open Earth Foundation
             homepage_url: https://openfoundation.earth/
             logo: open_earth_foundation.svg
+            twitter: https://twitter.com/Open__Earth
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
             crunchbase_data:
               name: Open Earth Foundation
@@ -6404,7 +6969,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T19:13:08.000Z
+              latest_tweet_date: 2021-06-02T09:44:59.000Z
           - item:
             name: OpenADR Alliance
             homepage_url: https://openadr.org/
@@ -6441,6 +7006,7 @@ landscape:
             description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
+            twitter: https://twitter.com/openuk_uk
             crunchbase: https://www.crunchbase.com/organization/openuk
             crunchbase_data:
               name: OpenUK
@@ -6465,11 +7031,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T19:31:41.000Z
+              latest_tweet_date: 2021-06-02T14:02:09.000Z
           - item:
             name: Pecan Street Inc.
             homepage_url: https://pecanstreet.org/
             logo: pecan_street_inc.svg
+            twitter: https://twitter.com/pecanstreetinc
             crunchbase: https://www.crunchbase.com/organization/pecan-street
             crunchbase_data:
               name: Pecan Street
@@ -6502,6 +7069,7 @@ landscape:
             name: Project Haystack
             homepage_url: https://project-haystack.org/
             logo: project_haystack.svg
+            twitter: https://twitter.com/haystackTagging
             crunchbase: https://www.crunchbase.com/organization/project-haystack
             crunchbase_data:
               name: Project Haystack
@@ -6533,7 +7101,7 @@ landscape:
               latest_tweet_date: 2021-05-28T15:41:48.000Z
           - item:
             name: RWTH Aachen University
-            homepage_url: https://www.rwth-aachen.de/cms/~a/root
+            homepage_url: https://rwth-aachen.de/
             logo: rwth_aachen_university.svg
             twitter: https://twitter.com/IGaD_RWTH
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
@@ -6563,11 +7131,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T07:46:36.000Z
+              latest_tweet_date: 2021-06-02T11:24:27.000Z
           - item:
             name: Stanford University
             homepage_url: https://stanford.edu/
             logo: stanford_university.svg
+            twitter: https://twitter.com/Stanford
             crunchbase: https://www.crunchbase.com/organization/stanford-university
             crunchbase_data:
               name: Stanford University
@@ -6597,11 +7166,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T04:53:00.000Z
+              latest_tweet_date: 2021-06-03T00:01:31.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: https://turing.ac.uk/
             logo: the_alan_turing_institute.svg
+            twitter: https://twitter.com/turinginst
             crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
             crunchbase_data:
               name: Alan Turing Institute
@@ -6629,7 +7199,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T12:09:40.000Z
+              latest_tweet_date: 2021-06-02T14:18:56.000Z
           - item:
             name: The Energy Coalition
             homepage_url: https://energycoalition.org/
@@ -6662,11 +7232,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-20T20:00:50.000Z
+              latest_tweet_date: 2021-06-02T18:00:53.000Z
           - item:
             name: University of Kassel
             homepage_url: https://www.uni-kassel.de/uni
             logo: university_of_kassel.svg
+            twitter: https://twitter.com/presseunikassel
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
             crunchbase_data:
               name: University of Kassel
@@ -6691,7 +7262,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-28T05:28:17.000Z
+              latest_tweet_date: 2021-06-02T08:40:48.000Z
           - item:
             name: Vanderbilt University
             homepage_url: https://vanderbilt.edu/
@@ -6728,11 +7299,12 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-27T21:00:00.000Z
+              latest_tweet_date: 2021-06-02T20:17:50.000Z
           - item:
             name: Washington State University
             homepage_url: https://wsu.edu/
             logo: washington_state_university.svg
+            twitter: https://twitter.com/WSUPullman
             crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
             crunchbase_data:
               name: Washington State University
@@ -6761,8 +7333,8 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2021-05-30T21:37:44.000Z
+              latest_tweet_date: 2021-06-02T15:19:10.000Z
 twitter_options:
   count: 1
   since_id: '1357254526579974147'
-updated_at: 2021-05-31T06:24:13.291Z
+updated_at: 2021-06-03T06:37:35.558Z
