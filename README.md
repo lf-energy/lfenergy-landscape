@@ -2,7 +2,7 @@
 
 # Linux Foundation Energy Landscape
 
-![LFEnergy Landscape Logo](https://github.com/lf-energy/lfenergy-landscape/blob/master/images/left-logo.svg)
+![LFEnergy Landscape Logo](https://github.com/lf-energy/lfenergy-landscape/blob/main/images/left-logo.svg)
 
 - [LF Energy Landscape](#cloud-native-landscape)
   * [Current Version](#current-version)
