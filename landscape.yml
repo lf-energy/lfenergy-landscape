@@ -191,6 +191,12 @@ landscape:
             project_org: https://github.com/hyphae
             logo: hyphae.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
+              slack_channel: '#hyphae'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fhyphae
+              wiki_page: https://wiki.lfenergy.org/display/HOME/Hyphae
+              sbom: none
           - item:
             name: openLEADR
             description: A friendly and compliant OpenADR implementation for Python 3
@@ -200,14 +206,27 @@ landscape:
             project_org: https://github.com/OpenLEADR
             logo: open-leadr.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/openleadr
+              slack_channel: '#openleadr'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
+              wiki_page: https://wiki.lfenergy.org/display/HOME/openLEADR
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/openleadr
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: https://www.lfenergy.org/projects/riaps/
             project: incubation
             repo_url: https://github.com/RIAPS/riaps-core
+            project_org: https://github.com/RIAPS/
             logo: riaps.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/riaps
+              slack_channel: '#riaps'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Friaps
+              wiki_page: https://wiki.lfenergy.org/display/HOME/RIAPS
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/riaps
           - item:
             name: SASensor
             description: >-
@@ -238,6 +257,12 @@ landscape:
             project_org: https://github.com/fledge-power
             logo: fledge-power.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
+              slack_channel: '#fledgepower'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
+              wiki_page: https://wiki.lfenergy.org/display/HOME/FledgePower
+              sbom: none
       - subcategory:
         name: Infrastructure Management
         items:
@@ -247,8 +272,15 @@ landscape:
             homepage_url: https://www.lfenergy.org/projects/gxf
             project: earlyadoption
             repo_url: https://github.com/OSGP/open-smart-grid-platform
+            project_org: https://github.com/OSGP
             logo: gxf.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/gxf
+              slack_channel: '#gxf'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fgrid-exchange-fabric
+              wiki_page: https://wiki.lfenergy.org/display/HOME/Grid+eXchange+Fabric+-+GXF
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/gxf
       - subcategory:
         name: Substation Node
         items:
@@ -258,8 +290,15 @@ landscape:
             homepage_url: https://www.lfenergy.org/projects/compas/
             project: incubation
             repo_url: https://github.com/com-pas/.github
+            project_org: https://github.com/com-pas/
             logo: LFE_CoMPAS.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/gxf
+              slack_channel: '#compas'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fcompas
+              wiki_page: https://wiki.lfenergy.org/display/HOME/CoMPAS
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/compas
           - item:
             name: SEAPATH
             description: >-
@@ -269,8 +308,15 @@ landscape:
             homepage_url: https://www.lfenergy.org/projects/seapath/
             project: incubation
             repo_url: https://github.com/seapath/seapath-architecture
+            project_org: https://github.com/seapath/
             logo: seapath.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/SEAPATH
+              slack_channel: '#seapath'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fseapath
+              wiki_page: https://wiki.lfenergy.org/display/HOME/SEAPATH
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/seapath
   - category:
     name: Customer and Market
     subcategories:
@@ -289,8 +335,15 @@ landscape:
             homepage_url: http://eemeter.openee.io/
             project: earlyadoption
             repo_url: https://github.com/openeemeter/eemeter
+            project_org: https://github.com/openeemeter
             logo: openeemeter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/openeemeter
+              slack_channel: '#openeemeter'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
+              wiki_page: https://wiki.lfenergy.org/display/HOME/OpenEEmeter
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/openeemeter
       - subcategory:
         name: Metering and Compensation
         items:
@@ -300,8 +353,15 @@ landscape:
             homepage_url: https://www.lfenergy.org/projects/em2/
             project: earlyadoption
             repo_url: https://github.com/energy-market-methods/caltrack
+            project_org: https://github.com/energy-market-methods
             logo: em2_logo.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/em2
+              slack_channel: none
+              lfx_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/HOME/EM2
+              sbom: none
       - subcategory:
         name: Market Platform Gateway
         items:
@@ -411,8 +471,15 @@ landscape:
             homepage_url: https://opfab.github.io/
             project: earlyadoption
             repo_url: https://github.com/opfab/operatorfabric-core
+            project_org: https://github.com/opfab
             logo: operatorfabric.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/opfab
+              slack_channel: '#operator-fabric'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Foperator-fabric
+              wiki_page: https://wiki.lfenergy.org/display/HOME/OperatorFabric
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/operatorfabric
       - subcategory:
         name: Systems Governance
         items:
@@ -509,8 +576,15 @@ landscape:
             homepage_url: https://www.powsybl.org
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
+            project_org: https://github.com/powsybl
             logo: powsybl.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/powsybl
+              slack_channel: none
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fpowsybl
+              wiki_page: https://wiki.lfenergy.org/display/HOME/PowSyBl
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/powsybl
           - item:
             name: PSCAD/EMTDC
             description: >-
@@ -640,6 +714,12 @@ landscape:
             project_org: https://github.com/sogno-platform
             logo: sogno.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/sogno-discussion
+              slack_channel: '#sogno'
+              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fsogno
+              wiki_page: https://wiki.lfenergy.org/display/HOME/SOGNO
+              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/sogno
           - item:
             name: Spectrum Power
             description: Spectrum Power, the open and scalable platform for High, Medium and Low Voltage grid operation.
