@@ -36,7 +36,7 @@ Please see [landscape.lfenergy.org].
 -   Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
 -   The logo must adhere to the [landscape logo guidelines]
 
-If you think your project should be included, please open a pull request to add it to [landscape.yml]. For the logo, you can either upload an SVG to the `hosted_logos` directory or put a URL as the value, and it will be fetched.
+If you think your project should be included, please open a pull request to add it to [landscape.yml]. For the logo, please upload an SVG to the `hosted_logos` directory.
 
 Netlify will generate a staging server for you to preview your updates. Please check that the logo and information appear correctly and then add `LGTM` to the pull request confirming your review and requesting a merge.
 
