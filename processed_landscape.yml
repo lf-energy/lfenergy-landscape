@@ -3155,6 +3155,66 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-24T13:58:34.000Z
           - item:
+            name: CIMDraw
+            description: CIMDraw is a WebApp to view IEC CIM (CGMES) files
+            homepage_url: https://danielepala.github.io/CIMDraw
+            logo: cimdraw-text.svg
+            repo_url: https://github.com/danielePala/CIMDraw
+            crunchbase: https://www.crunchbase.com/organization/ricerca-sul-sistema-energetico-rse-s-p-a
+            crunchbase_data:
+              name: Ricerca sul Sistema Energetico, RSE S.p.A.
+              description: Energy
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.rse-web.it/
+              city: Milano
+              region: Lombardia
+              country: Italy
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Energy
+            github_data:
+              languages:
+                - name: Riot
+                  value: 303357
+                - name: JavaScript
+                  value: 196683
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 1798
+                  color: '#563d7c'
+                - name: HTML
+                  value: 866
+                  color: '#e34c26'
+              contributions: 6;10;5;1;1;2;1;0;0;6;1;0;3;3;3;0;2;0;2;2;0;0;0;0;1;0;0;1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;2;0;0
+              firstWeek: 2020-10-04Z
+              stars: 7
+              license: GNU General Public License v3.0
+              description: CIMDraw is a WebApp to view IEC CIM (CGMES) files
+              latest_commit_date: '2021-09-15T20:43:22Z'
+              latest_commit_link: /danielePala/CIMDraw/commit/8356bcd9c65b6adfd1bf248b93e19b73aa6af2f4
+              release_date: '2021-05-14T09:58:28Z'
+              release_link: https://github.com/danielePala/CIMDraw/releases
+              contributors_count: 3
+              contributors_link: https://github.com/danielePala/CIMDraw/graphs/contributors
+            repos:
+              - url: https://github.com/danielePala/CIMDraw
+                stars: 7
+            github_start_commit_data:
+              start_commit_link: /danielePala/CIMDraw/commit/68ee417eb0098fbd491983d40b5a51522cd7c4a1
+              start_date: '2015-11-19T14:46:15Z'
+            image_data:
+              fileName: cim-draw.svg
+              hash: Bm0X4jFFK2x/0p8aH8eEmaSURI9+yNetr7xyuUJl1Zs=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: CIMSpy
             description: CIM/RDF/XML file browser, editor, and validator.
             homepage_url: http://www.powerinfo.us/CIMSpyEE.html
@@ -4006,6 +4066,73 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+          - item:
+            name: Grid Capacity Map
+            description: >-
+              A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
+              to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
+              connections are realistic to give a better connection experience with fewer surprises for both grid owner (DSO/TSO), grid customers and other
+              stakeholders.
+            homepage_url: https://github.com/gridcapacitymap
+            project: incubation
+            repo_url: https://github.com/gridcapacitymap/tsc
+            project_org: https://github.com/gridcapacitymap
+            logo: grid-capacity-map.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
+              slack_channel: none
+              lfx_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/HOME/Grid+Capacity+Map
+              sbom: none
+              tsc_meeting_notes: https://github.com/gridcapacitymap/tsc/tree/main/tsc/meetings
+              calendar: https://lists.lfenergy.org/g/gridcapacitymap-tsc/calendar
+            crunchbase_data:
+              name: LF Energy
+              description: Open Source will speed technological innovation and enable the energy transition, globally.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.lfenergy.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/LFE_Foundation
+              linkedin: https://www.linkedin.com/company/lf-energy
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Energy
+                - Open Source
+                - Power Grid
+                - Software
+            github_data:
+              description: ''
+              contributors_count: 1
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 0
+              languages: []
+              latest_commit_link: /gridcapacitymap/tsc/commit/16c38d9c3999216531da8b628b832f4fe1a13c62
+              latest_commit_date: '2021-04-21T19:32:05Z'
+              firstWeek: 2020-10-04Z
+              license: Apache License 2.0
+              contributors_link: https://github.com/gridcapacitymap/tsc/graphs/contributors
+            repos:
+              - url: https://github.com/gridcapacitymap/tsc
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /gridcapacitymap/tsc/commit/b053e963b97180c7456b2f185b7ec9676f382b54
+              start_date: '2021-04-21T19:28:12Z'
+            image_data:
+              fileName: grid-capacity-map.svg
+              hash: 9bEgX7MYLVGbQDEpUZB52Ir62kht6i6lpyi33rAqxrs=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-09-30T00:52:27.000Z
           - item:
             name: GridLAB-D
             description: GridLAB-D is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
@@ -5689,6 +5816,39 @@ landscape:
         name: Strategic
         items:
           - item:
+            name: Alliander
+            homepage_url: https://alliander.com/
+            logo: alliander.svg
+            twitter: https://twitter.com/Alliander
+            crunchbase: https://www.crunchbase.com/organization/alliander
+            crunchbase_data:
+              name: Alliander
+              description: Alliander is an energy network company.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.alliander.com
+              city: Arnhem
+              region: Gelderland
+              country: The Netherlands
+              twitter: https://twitter.com/alliander
+              linkedin: https://www.linkedin.com/company/alliander
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Electrical Distribution
+                - Energy
+                - Infrastructure
+            image_data:
+              fileName: alliander.svg
+              hash: QkFxCpJc2QsVU6vycwM8Hd4rmgDjftio85aKUV47iwY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-09-27T15:16:07.000Z
+          - item:
             name: RTE (Reseau de Transport dElectricite)
             homepage_url: https://rte-france.com/
             logo: rte_reseau_de_transport_delectricite.svg
@@ -6028,7 +6188,7 @@ landscape:
               latest_tweet_date: 2021-09-30T23:00:00.000Z
           - item:
             name: Microsoft Corporation
-            homepage_url: https://www.microsoft.com/en-us
+            homepage_url: https://microsoft.com/
             logo: microsoft_corporation.svg
             twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
@@ -6672,7 +6832,7 @@ landscape:
               latest_tweet_date: 2011-11-03T17:40:30.000Z
           - item:
             name: Savoir-faire Linux
-            homepage_url: https://savoirfairelinux.com/fr
+            homepage_url: https://savoirfairelinux.com/
             logo: savoir-faire_linux.svg
             twitter: https://twitter.com/SFLinux
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
@@ -6704,7 +6864,7 @@ landscape:
               latest_tweet_date: 2021-09-24T22:59:35.000Z
           - item:
             name: Sony Computer Science Laboratories, Inc.
-            homepage_url: https://www2.sonycsl.co.jp
+            homepage_url: https://sonycsl.co.jp/
             logo: sony_computer_science_laboratories_inc.svg
             twitter: https://twitter.com/SonyCSL
             crunchbase: https://www.crunchbase.com/organization/sony-computer-science-labs
@@ -6770,7 +6930,7 @@ landscape:
               latest_tweet_date: 2021-09-30T10:17:33.000Z
           - item:
             name: TenneT
-            homepage_url: https://tennet.eu/nl
+            homepage_url: https://tennet.eu/
             logo: tennet.svg
             twitter: https://twitter.com/TenneTTSO
             crunchbase: https://www.crunchbase.com/organization/tennet
@@ -7061,7 +7221,7 @@ landscape:
               latest_tweet_date: 2021-09-24T13:58:34.000Z
           - item:
             name: EPFL
-            homepage_url: https://www.epfl.ch/fr
+            homepage_url: https://epfl.ch/
             logo: epfl.svg
             twitter: https://twitter.com/EPFL_en
             crunchbase: https://www.crunchbase.com/organization/epfl
@@ -7302,7 +7462,7 @@ landscape:
               latest_tweet_date: 2021-09-30T13:44:23.000Z
           - item:
             name: Lucerne University of Applied Sciences
-            homepage_url: https://www.hslu.ch/de-ch
+            homepage_url: https://hslu.ch/
             logo: lucerne_university_of_applied_sciences.svg
             twitter: https://twitter.com/hslu
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
@@ -7399,39 +7559,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-30T22:00:06.000Z
           - item:
-            name: Open Earth Foundation
-            homepage_url: https://openearth.org
-            logo: open_earth_foundation.svg
-            twitter: https://twitter.com/Open__Earth
-            crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
-            crunchbase_data:
-              name: Open Earth Foundation
-              description: Open Earth Foundation is a non-profit organization that develops transformative open-source business platforms.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: https://www.openfoundation.earth/
-              city: Marina Del Rey
-              region: California
-              country: United States
-              twitter: https://twitter.com/Open__Earth
-              linkedin: https://www.linkedin.com/company/open-earth-foundation/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Business Development
-                - Digital Marketing
-                - Information Technology
-            image_data:
-              fileName: open-earth-foundation.svg
-              hash: e+hxHtoCU0ZaTYDMq8/Sx02VRt/3EVIRVW0QJxCLVuI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2021-09-29T13:46:07.000Z
-          - item:
             name: OpenADR Alliance
             homepage_url: https://openadr.org/
             logo: openadr_alliance.svg
@@ -7463,12 +7590,45 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-09-24T15:22:41.000Z
           - item:
+            name: Open Earth Foundation
+            homepage_url: https://openfoundation.earth/
+            logo: open_earth_foundation.svg
+            twitter: https://twitter.com/Open__Earth
+            crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
+            crunchbase_data:
+              name: Open Earth Foundation
+              description: Open Earth Foundation is a non-profit organization that develops transformative open-source business platforms.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.openfoundation.earth/
+              city: Marina Del Rey
+              region: California
+              country: United States
+              twitter: https://twitter.com/Open__Earth
+              linkedin: https://www.linkedin.com/company/open-earth-foundation/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Business Development
+                - Digital Marketing
+                - Information Technology
+            image_data:
+              fileName: open-earth-foundation.svg
+              hash: e+hxHtoCU0ZaTYDMq8/Sx02VRt/3EVIRVW0QJxCLVuI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-09-29T13:46:07.000Z
+          - item:
             name: OpenUK
-            description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
             twitter: https://twitter.com/openuk_uk
             crunchbase: https://www.crunchbase.com/organization/openuk
+            description: Where the UK’s Open communities meet and collaborate
             crunchbase_data:
               name: OpenUK
               description: We are the UK not for profit organisation committed to develop and sustain UK leadership in Open Technology
@@ -7562,7 +7722,7 @@ landscape:
               latest_tweet_date: 2021-07-10T18:48:28.000Z
           - item:
             name: RWTH Aachen University
-            homepage_url: https://www.rwth-aachen.de/cms/~a/root
+            homepage_url: https://rwth-aachen.de/
             logo: rwth_aachen_university.svg
             twitter: https://twitter.com/IGaD_RWTH
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
@@ -7696,7 +7856,7 @@ landscape:
               latest_tweet_date: 2021-09-30T17:01:37.000Z
           - item:
             name: University of Kassel
-            homepage_url: https://www.uni-kassel.de/uni
+            homepage_url: https://uni-kassel.de/
             logo: university_of_kassel.svg
             twitter: https://twitter.com/presseunikassel
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
