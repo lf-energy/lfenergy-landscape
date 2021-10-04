@@ -197,6 +197,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fhyphae
               wiki_page: https://wiki.lfenergy.org/display/HOME/Hyphae
               sbom: none
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/hyphae-tsc/calendar
+              contribution_guidelines: none
           - item:
             name: openLEADR
             description: A friendly and compliant OpenADR implementation for Python 3
@@ -212,11 +215,14 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
               wiki_page: https://wiki.lfenergy.org/display/HOME/openLEADR
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/openleadr
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/openLEADR-TSC/calendar
+              contribution_guidelines: https://github.com/OpenLEADR/openleadr-tsc/blob/master/CONTRIBUTING.md
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
             homepage_url: https://www.lfenergy.org/projects/riaps/
-            project: incubation
+            project: emeritus
             repo_url: https://github.com/RIAPS/riaps-core
             project_org: https://github.com/RIAPS
             logo: riaps.svg
@@ -227,6 +233,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Friaps
               wiki_page: https://wiki.lfenergy.org/display/HOME/RIAPS
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/riaps
+              tsc_meeting_notes: none
+              calendar: none
+              contribution_guidelines: none
           - item:
             name: SASensor
             description: >-
@@ -263,12 +272,15 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
               wiki_page: https://wiki.lfenergy.org/display/HOME/FledgePower
               sbom: none
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/fledgepower-tsc/calendar
+              contribution_guidelines: https://github.com/fledge-power/contributing/blob/main/CONTRIBUTING.md
       - subcategory:
         name: Infrastructure Management
         items:
           - item:
             name: Grid eXchange Fabric
-            description: Control and Monitor Smart Devices
+            description: Control and Monitor Smart Devices. Grid eXchange Fabric (GXF) allows you to monitor and control hardware in the public space. With several (generic) functions ready to use, the main benefits of GXF are: scalability & high availability, high security, its generic design, and no vendor lock-in.
             homepage_url: https://www.lfenergy.org/projects/gxf
             project: earlyadoption
             repo_url: https://github.com/OSGP/open-smart-grid-platform
@@ -282,12 +294,15 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fgrid-exchange-fabric
               wiki_page: https://wiki.lfenergy.org/display/HOME/Grid+eXchange+Fabric+-+GXF
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/gxf
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/gxf/calendar
+              contribution_guidelines: https://documentation.gxf.lfenergy.org/opensourcecommunity/governance.html
       - subcategory:
         name: Substation Node
         items:
           - item:
             name: CoMPAS
-            description: Configuration Modules for Power industry Automation Systems, based on IEC 61850.
+            description: Configuration Modules for Power industry Automation Systems. The CoMPAS project was formed to develop open source software components related to IEC 61850 model implementation (profile management) and configuration of a power industry Protection Automation and Control System (PACS). CoMPAS is part of the Digital Substation (DSAS) Initiative.
             homepage_url: https://www.lfenergy.org/projects/compas/
             project: incubation
             repo_url: https://github.com/com-pas/.github
@@ -300,6 +315,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fcompas
               wiki_page: https://wiki.lfenergy.org/display/HOME/CoMPAS
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/compas
+              tsc_meeting_notes: https://lists.lfenergy.org/g/CoMPAS-tsc/files/Monthly%20Compas%20TSC%20Meeting
+              calendar: https://lists.lfenergy.org/g/compas/calendar
+              contribution_guidelines: https://com-pas.github.io/contributing/
           - item:
             name: SEAPATH
             description: >-
@@ -318,6 +336,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fseapath
               wiki_page: https://wiki.lfenergy.org/display/HOME/SEAPATH
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/seapath
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/seapath-TSC/calendar
+              contribution_guidelines: https://github.com/seapath/contributing/blob/master/CONTRIBUTING.md
   - category:
     name: Customer and Market
     subcategories:
@@ -332,9 +353,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/estfeed
           - item:
             name: OpenEEmeter
-            description: Consistent treatment of energy meter data for demand flexibility
+            description: Consistent treatment of energy meter data for demand flexibility. Generates consistent and replicable results by always using the same methods to determine changes in energy consumption-there are no discretionary independent variables that change from calculation to calculation. 
             homepage_url: http://eemeter.openee.io/
-            project: earlyadoption
+            project: incubation
             repo_url: https://github.com/openeemeter/eemeter
             project_org: https://github.com/openeemeter
             logo: openeemeter.svg
@@ -345,12 +366,15 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
               wiki_page: https://wiki.lfenergy.org/display/HOME/OpenEEmeter
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/openeemeter
+              tsc_meeting_notes: https://lists.lfenergy.org/g/openeemeter/wiki/12439
+              calendar: https://lists.lfenergy.org/g/openeemeter/calendar
+              contribution_guidelines: https://github.com/openeemeter/eemeter/blob/master/CONTRIBUTING.md
       - subcategory:
         name: Metering and Compensation
         items:
           - item:
             name: Energy Market Methods Consortium (EM2)
-            description: Reducing the costs of scaling demand-side energy through collaboration
+            description: Reducing the costs of scaling demand-side energy through collaboration. Energy Market Methods Consortium (EM2) is developing standardized methods, linked to open source code, to enable demand flexibility as a resource, supporting energy programs and distributed energy resource (DER) ​markets.
             homepage_url: https://www.lfenergy.org/projects/em2/
             project: earlyadoption
             repo_url: https://github.com/energy-market-methods/caltrack
@@ -363,6 +387,9 @@ landscape:
               lfx_insights_url: none
               wiki_page: https://wiki.lfenergy.org/display/HOME/EM2
               sbom: none
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/em2/calendar
+              contribution_guidelines: none
       - subcategory:
         name: Market Platform Gateway
         items:
@@ -414,6 +441,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
               wiki_page: https://wiki.lfenergy.org/display/SHAP
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/shapeshifter
+              tsc_meeting_notes: https://github.com/shapeshifter/tsc/tree/main/tsc/meetings
+              calendar: https://lists.lfenergy.org/g/shapeshifter-discussion/calendar
+              contribution_guidelines: https://github.com/shapeshifter/tsc/blob/main/CONTRIBUTING.md
       - subcategory:
         name: Customer Response
         items:
@@ -482,7 +512,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/gridapps-d
           - item:
             name: OperatorFabric
-            description: A modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations
+            description: A Smart Assistant For System Operators. OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for use in electricity, water, and other utility operations.
             homepage_url: https://opfab.github.io/
             project: earlyadoption
             repo_url: https://github.com/opfab/operatorfabric-core
@@ -495,6 +525,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Foperator-fabric
               wiki_page: https://wiki.lfenergy.org/display/HOME/OperatorFabric
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/operatorfabric
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/opfab-tsc/calendar
+              contribution_guidelines: https://opfab.github.io/documentation/current/community/
       - subcategory:
         name: Systems Governance
         items:
@@ -595,7 +628,7 @@ landscape:
               name: University of Kassel and Fraunhofer Institute for for Energy Economics and Energy System Technology (IEE) Kassel
           - item:
             name: PowSyBl
-            description: A High-Performance Computing Framework For Grid Simulation and Planning
+            description: A High-Performance Computing Framework For Grid Simulation and Planning. PowSyBl provides the code building blocks for the simulations and analyses of power systems, for horizons from real-time operation to investment planning.
             homepage_url: https://www.powsybl.org
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
@@ -609,6 +642,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fpowsybl
               wiki_page: https://wiki.lfenergy.org/display/HOME/PowSyBl
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/powsybl
+              tsc_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/powsybl-tsc/calendar
+              contribution_guidelines: https://www.powsybl.org/pages/contributing/
           - item:
             name: PSCAD/EMTDC
             description: >-
@@ -744,6 +780,9 @@ landscape:
               lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fsogno
               wiki_page: https://wiki.lfenergy.org/display/HOME/SOGNO
               sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/sogno
+              tsc_meeting_notes: https://github.com/sogno-platform/tsc/tree/master/tsc/meetings
+              calendar: https://lists.lfenergy.org/g/sogno-tsc/calendar
+              contribution_guidelines: https://github.com/sogno-platform/tsc/blob/master/CONTRIBUTING.md
           - item:
             name: Spectrum Power
             description: Spectrum Power, the open and scalable platform for High, Medium and Low Voltage grid operation.
