@@ -212,10 +212,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
               slack_channel: '#openleadr'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
               wiki_page: https://wiki.lfenergy.org/display/HOME/openLEADR
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/openleadr
-              tsc_meeting_notes: none
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/openleadr
+              TSC_meeting_notes: none
               calendar: https://lists.lfenergy.org/g/openLEADR-TSC/calendar
               contribution_guidelines: https://github.com/OpenLEADR/openleadr-tsc/blob/master/CONTRIBUTING.md
           - item:
@@ -230,10 +230,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/riaps
               slack_channel: '#riaps'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Friaps
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Friaps
               wiki_page: https://wiki.lfenergy.org/display/HOME/RIAPS
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/riaps
-              tsc_meeting_notes: none
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/riaps
+              TSC_meeting_notes: none
               calendar: none
               contribution_guidelines: none
           - item:
@@ -269,10 +269,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
               slack_channel: '#fledgepower'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
               wiki_page: https://wiki.lfenergy.org/display/HOME/FledgePower
-              sbom: none
-              tsc_meeting_notes: none
+              SBOM: none
+              TSC_meeting_notes: none
               calendar: https://lists.lfenergy.org/g/fledgepower-tsc/calendar
               contribution_guidelines: https://github.com/fledge-power/contributing/blob/main/CONTRIBUTING.md
       - subcategory:
@@ -291,10 +291,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/gxf
               slack_channel: '#gxf'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fgrid-exchange-fabric
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fgrid-exchange-fabric
               wiki_page: https://wiki.lfenergy.org/display/HOME/Grid+eXchange+Fabric+-+GXF
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/gxf
-              tsc_meeting_notes: none
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/gxf
+              TSC_meeting_notes: none
               calendar: https://lists.lfenergy.org/g/gxf/calendar
               contribution_guidelines: https://documentation.gxf.lfenergy.org/opensourcecommunity/governance.html
       - subcategory:
@@ -312,10 +312,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/gxf
               slack_channel: '#compas'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fcompas
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fcompas
               wiki_page: https://wiki.lfenergy.org/display/HOME/CoMPAS
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/compas
-              tsc_meeting_notes: https://lists.lfenergy.org/g/CoMPAS-tsc/files/Monthly%20Compas%20TSC%20Meeting
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/compas
+              TSC_meeting_notes: https://lists.lfenergy.org/g/CoMPAS-tsc/files/Monthly%20Compas%20TSC%20Meeting
               calendar: https://lists.lfenergy.org/g/compas/calendar
               contribution_guidelines: https://com-pas.github.io/contributing/
           - item:
@@ -333,10 +333,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/SEAPATH
               slack_channel: '#seapath'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fseapath
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fseapath
               wiki_page: https://wiki.lfenergy.org/display/HOME/SEAPATH
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/seapath
-              tsc_meeting_notes: none
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/seapath
+              TSC_meeting_notes: none
               calendar: https://lists.lfenergy.org/g/seapath-TSC/calendar
               contribution_guidelines: https://github.com/seapath/contributing/blob/master/CONTRIBUTING.md
   - category:
@@ -363,10 +363,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/openeemeter
               slack_channel: '#openeemeter'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
               wiki_page: https://wiki.lfenergy.org/display/HOME/OpenEEmeter
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/openeemeter
-              tsc_meeting_notes: https://lists.lfenergy.org/g/openeemeter/wiki/Technical-Steering-Committee-%28TSC%29-Meetings
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/openeemeter
+              TSC_meeting_notes: https://lists.lfenergy.org/g/openeemeter/wiki/Technical-Steering-Committee-%28TSC%29-Meetings
               calendar: https://lists.lfenergy.org/g/openeemeter/calendar
               contribution_guidelines: https://github.com/openeemeter/eemeter/blob/master/CONTRIBUTING.md
       - subcategory:
@@ -384,10 +384,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/em2
               slack_channel: none
-              lfx_insights_url: none
+              LFX_insights_url: none
               wiki_page: https://wiki.lfenergy.org/display/HOME/EM2
-              sbom: none
-              tsc_meeting_notes: none
+              SBOM: none
+              TSC_meeting_notes: none
               calendar: https://lists.lfenergy.org/g/em2/calendar
               contribution_guidelines: none
       - subcategory:
@@ -438,10 +438,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
               slack_channel: '#shapeshifter'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
               wiki_page: https://wiki.lfenergy.org/display/SHAP
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/shapeshifter
-              tsc_meeting_notes: https://github.com/shapeshifter/tsc/tree/main/tsc/meetings
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/shapeshifter
+              TSC_meeting_notes: https://github.com/shapeshifter/tsc/tree/main/tsc/meetings
               calendar: https://lists.lfenergy.org/g/shapeshifter-discussion/calendar
               contribution_guidelines: https://github.com/shapeshifter/tsc/blob/main/CONTRIBUTING.md
       - subcategory:
@@ -522,10 +522,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_channel: '#operator-fabric'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Foperator-fabric
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Foperator-fabric
               wiki_page: https://wiki.lfenergy.org/display/HOME/OperatorFabric
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/operatorfabric
-              tsc_meeting_notes: none
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/operatorfabric
+              TSC_meeting_notes: none
               calendar: https://lists.lfenergy.org/g/opfab-tsc/calendar
               contribution_guidelines: https://opfab.github.io/documentation/current/community/
       - subcategory:
@@ -639,10 +639,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
               slack_channel: none
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fpowsybl
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fpowsybl
               wiki_page: https://wiki.lfenergy.org/display/HOME/PowSyBl
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/powsybl
-              tsc_meeting_notes: none
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/powsybl
+              TSC_meeting_notes: none
               calendar: https://lists.lfenergy.org/g/powsybl-tsc/calendar
               contribution_guidelines: https://www.powsybl.org/pages/contributing/
           - item:
@@ -777,10 +777,10 @@ landscape:
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/sogno-discussion
               slack_channel: '#sogno'
-              lfx_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fsogno
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fsogno
               wiki_page: https://wiki.lfenergy.org/display/HOME/SOGNO
-              sbom: https://github.com/lfscanning/spdx-lfenergy/tree/main/sogno
-              tsc_meeting_notes: https://github.com/sogno-platform/tsc/tree/master/tsc/meetings
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/sogno
+              TSC_meeting_notes: https://github.com/sogno-platform/tsc/tree/master/tsc/meetings
               calendar: https://lists.lfenergy.org/g/sogno-tsc/calendar
               contribution_guidelines: https://github.com/sogno-platform/tsc/blob/master/CONTRIBUTING.md
           - item:
