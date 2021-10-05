@@ -624,6 +624,28 @@ landscape:
             logo: emtp-rv-text.svg
             crunchbase: https://www.crunchbase.com/organization/emtp-alliance
           - item:
+            name: Grid Capacity Map
+            description: >-
+              A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
+              to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
+              connections are realistic to give a better connection experience with fewer surprises for both grid owner (DSO/TSO), grid customers and other
+              stakeholders.
+            homepage_url: https://github.com/gridcapacitymap
+            project: incubation
+            repo_url: https://github.com/gridcapacitymap/tsc
+            project_org: https://github.com/gridcapacitymap
+            logo: grid-capacity-map.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
+              slack_channel: none
+              lfx_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/HOME/Grid+Capacity+Map
+              sbom: none
+              tsc_meeting_notes: https://github.com/gridcapacitymap/tsc/tree/main/tsc/meetings
+              calendar: https://lists.lfenergy.org/g/gridcapacitymap-tsc/calendar
+              contribution_guidelines: none
+          - item:
             name: GridLAB-D
             description: GridLAB-D is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
             homepage_url: https://www.gridlabd.org/
