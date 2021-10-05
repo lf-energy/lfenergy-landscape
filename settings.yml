@@ -28,14 +28,15 @@ relation:
     - id: hosted
       label: LF Energy Projects
       children:
-        - id: incubation
-          label: Incubation
+        - id: graduated
+          label: Graduated
           prefix: LF Energy
-          tag: Incubation
+          tag: Graduated
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Energy Incubation
+          big_picture_label: LF Energy Graduated
           big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: earlyadoption
           label: Early Adoption
           prefix: LF Energy
@@ -44,13 +45,21 @@ relation:
           big_picture_order: 1
           big_picture_label: LF Energy Early Adoption
           big_picture_color: rgb(24,54,114)
-        - id: graduated
-          label: Graduated
+        - id: incubation
+          label: Incubation
           prefix: LF Energy
-          tag: Graduated
+          tag: Incubation
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Energy Graduated
+          big_picture_label: LF Energy Incubation
+          big_picture_color: rgb(24,54,114)
+        - id: emeritus
+          label: Emeritus
+          prefix: LF Energy
+          tag: Emeritus
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: LF Energy Emeritus
           big_picture_color: rgb(24,54,114)
           additional_relation: member
     - id: company
