@@ -30,32 +30,34 @@ relation:
       children:
         - id: graduated
           label: Graduated
-          prefix: LF Energy
+          prefix: LFE
           tag: Graduated
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Energy Graduated
+          big_picture_label: Graduated
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: earlyadoption
           label: Early Adoption
-          prefix: LF Energy
+          prefix: LFE
           tag: Early Adoption
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: LF Energy Early Adoption
           big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: incubation
           label: Incubation
-          prefix: LF Energy
+          prefix: LFE
           tag: Incubation
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: LF Energy Incubation
           big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: emeritus
           label: Emeritus
-          prefix: LF Energy
+          prefix: LFE
           tag: Emeritus
           color: '#3570af'
           big_picture_order: 1
