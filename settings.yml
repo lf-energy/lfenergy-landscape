@@ -55,6 +55,15 @@ relation:
           big_picture_label: LF Energy Incubation
           big_picture_color: rgb(24,54,114)
           additional_relation: member
+        - id: sandbox
+          label: LF Energy Sandbox Projects
+          prefix: LFE
+          tag: Incubation
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: LF Energy Sandbox
+          big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: emeritus
           label: LF Energy Emeritus Projects
           prefix: LFE
@@ -247,7 +256,7 @@ big_picture:
     category: LF Energy Member
 test:
   header: LF Energy Interactive Landscape
-  section: LF Energy Early Adoption Projects
+  section: LF Energy Early Adoption
   logo: operator-fabric.svg
 prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless
