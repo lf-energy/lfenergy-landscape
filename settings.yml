@@ -29,8 +29,8 @@ relation:
       label: LF Energy Projects
       children:
         - id: graduated
-          label: LF Energy Graduated Projects
-          prefix: LFE
+          label: Graduated
+          prefix: LF Energy
           tag: Graduated
           color: '#3570af'
           big_picture_order: 1
@@ -38,8 +38,8 @@ relation:
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: earlyadoption
-          label: LF Energy Early Adoption Projects
-          prefix: LFE
+          label: Early Adoption
+          prefix: LF Energy
           tag: Early Adoption
           color: '#3570af'
           big_picture_order: 1
@@ -47,8 +47,8 @@ relation:
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: incubation
-          label: LF Energy Incubation Projects
-          prefix: LFE
+          label: Incubation
+          prefix: LF Energy
           tag: Incubation
           color: '#3570af'
           big_picture_order: 1
@@ -56,8 +56,8 @@ relation:
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: sandbox
-          label: LF Energy Sandbox Projects
-          prefix: LFE
+          label: Sandbox
+          prefix: LF Energy
           tag: Incubation
           color: '#3570af'
           big_picture_order: 1
@@ -65,8 +65,8 @@ relation:
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: emeritus
-          label: LF Energy Emeritus Projects
-          prefix: LFE
+          label: Emeritus
+          prefix: LF Energy
           tag: Emeritus
           color: '#3570af'
           big_picture_order: 4
@@ -256,7 +256,7 @@ big_picture:
     category: LF Energy Member
 test:
   header: LF Energy Interactive Landscape
-  section: LF Energy Early Adoption
+  section: Early Adoption
   logo: operator-fabric.svg
 prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless
