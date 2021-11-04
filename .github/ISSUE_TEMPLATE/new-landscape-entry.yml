@@ -1,0 +1,80 @@
+name: New Landscape Entry
+description: New entry for the Landscape
+title: New Landscape Entry - [PROJECT]
+labels: ['new entry']
+assignees: 
+  - jmertic
+  - Yarille
+body:
+  - type: markdown
+    value: "Thank you for your interest in adding your project to the LF Energy Landscape. Please complete the form below to add your project to the LF Energy Landscape."
+  - type: input
+    id: name
+    attributes:
+      label: Project Name
+      description: Also update `[PROJECT]` in the title above
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: input
+    id: webpage
+    attributes:
+      label: Homepage URL
+    validations:
+      required: true
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repo URL
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization hosting or owning the project
+    validations:
+      required: true
+  - type: textarea
+    id: logo
+    attributes:
+      label: Logo
+      description: Logo preferably should be in SVG, EPS, or AI format
+      placeholder: Drag and drop logo here or provide link to the logo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Pick the best category for your project
+      options:
+        - Asset Management - Analytics
+        - Asset Management - Asset Investment Planning
+        - Asset Management - Asset Repository
+        - Asset Management - Asset Supervision
+        - Asset Management - Data Management
+        - Asset Management - Field Work Management
+        - Acquisition and Control - Central Hub
+        - Acquisition and Control - Edge Node Control
+        - Acquisition and Control - Communication Infrastructure
+        - Acquisition and Control - Infrastructure Management
+        - Acquisition and Control - Substation Node
+        - Customer and Market - Customer Relationship and Communication
+        - Customer and Market - Metering and Compensation
+        - Customer and Market - Market Platform Gateway
+        - Customer and Market - Customer Response
+        - Shared - Data Management
+        - Shared - Unified Operator's UX Components and Framework
+        - Shared - Systems Governance
+        - System Management - Data Management
+        - System Management - Forecasting
+        - System Management - Power System Calculation
+        - System Management - Market Signal
+        - System Management - System Control
+    validations:
+      required: true
