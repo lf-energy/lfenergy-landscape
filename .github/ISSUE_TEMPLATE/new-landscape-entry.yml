@@ -7,7 +7,8 @@ assignees:
   - Yarille
 body:
   - type: markdown
-    value: "Thank you for your interest in adding your project to the LF Energy Landscape. Please complete the form below to add your project to the LF Energy Landscape."
+    attributes:
+      value: "Thank you for your interest in adding your project to the LF Energy Landscape. Please complete the form below to add your project to the LF Energy Landscape."
   - type: input
     id: name
     attributes:
