@@ -817,6 +817,1041 @@ landscape:
             twitter: https://twitter.com/siemens_energy
             crunchbase: https://www.crunchbase.com/organization/siemens
   - category:
+    name: G-PST
+    subcategories:
+      - subcategory:
+        name: All
+        items:
+          - item:
+            name: Breakthrough Energy Model
+            description: >-
+              Multi-scenario, nodal production cost simulation package, with data management in written in Python and engine in Julia. Hourly 8,760 horizon
+              simulation on US or interconnection wide level. Synthetic nodal grid data available based on TAMU synthetic network which contains ~80k busses.
+            homepage_url: https://breakthrough-energy.github.io/docs/
+            logo: breakthroughenergy.svg
+            repo_url: https://github.com/Breakthrough-Energy/PowerSimData
+            project_org: https://github.com/Breakthrough-Energy
+            crunchbase: https://www.crunchbase.com/organization/breakthrough-energy-ventures
+            extra:
+              documentation: https://breakthrough-energy.github.io/docs/
+              maintenance_status: false
+              number_of_publications: 1
+              publication_list:
+                - U.S. Test System with High Spatial and Temporal Resolution for Renewable Integration Studies
+              use_cases:
+                - Synthetic representation of U.S. electric systems.
+              input_data_formats:
+                - CSV
+                - netCDF
+                - HDF5
+                - JSON
+                - GeoJSON
+                - ''
+                - ''
+              output_data_formats:
+                - No response
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: null
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Optimization
+                - ''
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Production cost simulation;
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: hours
+              typical_spatial_resolution: facility
+              highest_spatial_resolution: facility
+              typical_temporal_scope: hours
+              largest_temporal_scope: years
+              typical_spatial_scope: region
+              largest_spatial_scope: country
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - ''
+                - ''
+                - ''
+                - ''
+          - item:
+            name: ExaGO
+            description: >-
+              ExaGO is a library for solving large-scale alternating current optimal power flow (ACOPF) problems including stochastic effects, security
+              constraints and multi-period constraints. 
+            homepage_url: https://gitlab.pnnl.gov/exasgd/frameworks/exago
+            logo: exago.svg
+            crunchbase: https://www.crunchbase.com/organization/battelle-memorial-institute
+            extra:
+              documentation: https://gitlab.pnnl.gov/exasgd/frameworks/exago/-/blob/master/docs/manual/manual.pdf
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - No response
+              use_cases:
+                - No response
+              input_data_formats:
+                - MATPOWER
+                - CSV
+                - PTI
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - MATPOWER
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Mac OSX
+                - Linux
+                - ''
+              github_stars: null
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Optimization
+                - ''
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - ExaGO provides applications to solve stochastic, security-constrained, and multiperiod ACOPF problems on high-performance with CPUs and GPUs.
+              user_interface: '['
+              required_dependencies: PETSc, IPOPT
+              point_of_contact: ''
+              typical_temporal_resolution: minutes
+              highest_temporal_resolution: hours
+              typical_spatial_resolution: region
+              highest_spatial_resolution: region
+              typical_temporal_scope: hours
+              largest_temporal_scope: hours
+              typical_spatial_scope: region
+              largest_spatial_scope: country
+              language:
+                - null
+                - null
+                - Python
+              parallel_computing_paradigm:
+                - Multi-core computing
+                - Distributed computing
+                - General-purpose computing on graphics processing units
+                - ''
+            repo_url: https://gitlab.pnnl.gov/exasgd/frameworks/exago
+          - item:
+            name: National Electricity Market Optimiser (NEMO)
+            homepage_url: https://nemo.ozlabs.org
+            logo: nemo.svg
+            repo_url: https://github.com/bje-/NEMO
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
+            extra:
+              documentation: ''
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - No response
+              use_cases:
+                - No response
+              input_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - plain text
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: null
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - ''
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Optimization
+                - ''
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - No response
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: ''
+              highest_temporal_resolution: hours
+              typical_spatial_resolution: ''
+              highest_spatial_resolution: region
+              typical_temporal_scope: ''
+              largest_temporal_scope: years
+              typical_spatial_scope: country
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-core computing
+                - Distributed computing
+                - ''
+                - ''
+          - item:
+            name: PowerSystems.jl
+            description: >-
+              PowerSystems.jl is a package to organize and manipulate data for the study of energy systems with diverse modeling requirements. This software
+              serves two main purposes: to reduce the burden of large power system data set development, and to promote reproducible research and simulation.
+              PowerSystems.jl implements an abstract hierarchy to represent and customize power systems data and includes data containers for quasi-static and
+              dynamic simulation applications.
+            homepage_url: https://www.nrel.gov/analysis/siip.html
+            logo: powersystemsjl.svg
+            repo_url: https://github.com/NREL-SIIP/PowerSystems.jl
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            extra:
+              documentation: https://nrel-siip.github.io/PowerSystems.jl/stable/
+              maintenance_status: false
+              number_of_publications: 8
+              publication_list:
+                - >-
+                  J. D. Lara, C. Barrows, D. Thom, D. Krishnamurthy, and D. Callaway, “PowerSystems.jl — A power system data management package for large scale
+                  modeling,” SoftwareX, vol. 15, p. 100747, Jul. 2021, doi: 10.1016/j.softx.2021.100747.
+              use_cases:
+                - >-
+                  PowerSystems.jl enables a range of modeling activities by providing rigorous data structure, parsing capabilities, and basic power system data
+                  transformations (e.g. Ybus calculation)
+              input_data_formats:
+                - JSON
+                - CSV
+                - MATPOWER
+                - PSSE .raw .dyr
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - JSON
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 182
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - 'Supported data formats: MATPOWER, PSSE v33 .raw and .dyr, tabular/csv data'
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: instant
+              typical_spatial_resolution: device
+              highest_spatial_resolution: component
+              typical_temporal_scope: years
+              largest_temporal_scope: years
+              typical_spatial_scope: region
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Distributed computing
+                - Cluster computing
+          - item:
+            name: PowerSimulations.jl
+            description: 'PowerSimulations.jl is a Julia package for power system modeling and simulation of Power Systems operations. The objectives of the package are:'
+            homepage_url: https://www.nrel.gov/analysis/siip.html
+            logo: powersimulationsjl.svg
+            repo_url: https://github.com/NREL-SIIP/PowerSimulations.jl
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            extra:
+              documentation: https://nrel-siip.github.io/PowerSimulations.jl/latest/
+              maintenance_status: false
+              number_of_publications: 4
+              publication_list:
+                - >-
+                  B. Bush, Y. Chen, O.-B. D., Y. Gei, Topological machine learning methods for power system responses to contingencies, The Thirty-Third Annual
+                  Conference on Innovative Applications of Artificial Intelligence, As- sociation for the Advancement of Artificial Intelligence (2020). 
+              use_cases:
+                - Evaluation of system scheduling under various input scenarios representing different demand, renewable energy, cost, and outage conditions.
+              input_data_formats:
+                - PowerSystems.jl
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - HDF5
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 150
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - ''
+                - ''
+              modeling_paradigm:
+                - Discrete Simulation
+                - Optimization
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Unit Commitment
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: instant
+              typical_spatial_resolution: device
+              highest_spatial_resolution: component
+              typical_temporal_scope: months
+              largest_temporal_scope: years
+              typical_spatial_scope: region
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Cluster computing
+                - ''
+          - item:
+            name: PyPSA
+            description: 'Under the PyPSA toolbox one can find multiple tools with different goals:'
+            homepage_url: https://pypsa.org/
+            logo: pypsa.svg
+            repo_url: https://github.com/PyPSA/PyPSA
+            project_org: https://github.com/PyPSA
+            crunchbase: https://www.crunchbase.com/organization/karlsruhe-institute-of-technology
+            extra:
+              documentation: https://pypsa.org/
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'A list of publication is given here: https://pypsa.readthedocs.io/en/latest/users.html#universities-and-research-institutes'
+              use_cases:
+                - >-
+                  Multi-sector energy system planning tool. Based on least-cost investment and dispatch pathway optimisation in (optional) high temporal and
+                  spatial resolution. From mini-grid to large multi-continental scales - the user can decide what to investigate.
+              input_data_formats:
+                - CSV
+                - netCDF
+                - HDF5
+                - JSON
+                - GeoJSON
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - XML
+                - GeoJSON
+                - ...
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 580
+              infrastructure_sector:
+                - Agriculture
+                - Biomass
+                - Cooling
+                - Electric
+                - District heating
+                - Hydrogen
+                - Individual heating
+                - Transportation
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Policy
+                - ''
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - Discrete Simulation
+                - Optimization
+                - Visualization
+              capabilities:
+                - 'PyPSA can calculate:'
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: instant
+              typical_spatial_resolution: county
+              highest_spatial_resolution: municipality
+              typical_temporal_scope: decades
+              largest_temporal_scope: decades
+              typical_spatial_scope: continent
+              largest_spatial_scope: global
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Cluster computing
+                - ''
+          - item:
+            name: MATPOWER
+            description: MATPOWER
+            homepage_url: https://matpower.org/
+            logo: matpower.svg
+            repo_url: https://github.com/MATPOWER/matpower
+            project_org: https://github.com/MATPOWER
+            crunchbase: https://www.crunchbase.com/organization/power-systems-engineering-research-center
+            extra:
+              documentation: https://matpower.org/doc/
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'Most of the publications listed on the '
+              use_cases:
+                - >-
+                  MATPOWER is a collection of general purpose tools for solving many types of steady-steady power system analysis and optimization problems,
+                  from simple power flow studies to multi-interval, stochastic, mixed-integer energy scheduling and pricing problems.
+              input_data_formats:
+                - MATPOWER
+                - PSS/E RAW
+                - IEEE CDF
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - MATPOWER
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 234
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - Policy
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - Discrete Simulation
+                - Optimization
+                - Visualization
+              capabilities:
+                - 'Steady-state power system simulation and optimization problems, such as:'
+              user_interface: '['
+              required_dependencies: none required, but can utilize IPOPT, Knitro, CPLEX, Gurobi, MOSEK, GLPK, and more
+              point_of_contact: ''
+              typical_temporal_resolution: ''
+              highest_temporal_resolution: seconds
+              typical_spatial_resolution: ''
+              highest_spatial_resolution: facility
+              typical_temporal_scope: ''
+              largest_temporal_scope: decades
+              typical_spatial_scope: ''
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Distributed computing
+                - ''
+          - item:
+            name: System Advisor Model (SAM)
+            description: >-
+              SAM’s performance models are for photovoltaic systems with optional battery storage, concentrating solar power, industrial process heat, solar
+              water heating, wind, marine energy, geothermal, biomass, and conventional power systems that either deliver electricity directly to the power
+              grid, or interact with the electric load of a grid-connected building or facility.
+            homepage_url: https://sam.nrel.gov
+            logo: sam.svg
+            repo_url: https://github.com/nrel/sam
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            extra:
+              documentation: https://sam.nrel.gov
+              maintenance_status: false
+              number_of_publications: 100
+              publication_list:
+                - 'Publications describing SAM''s models are available on the SAM website:'
+              use_cases:
+                - >-
+                  SAM can model different types of renewable energy systems and financial structures for projects around the world. It is used by project
+                  developers in the pre-feasibility and planning stages, by program managers to evaluate proposals, by engineers to evaluate system designs, by
+                  policy designers for incentive and rate design, by researchers and academics, and others in the field of renewable energy.
+              input_data_formats:
+                - JSON
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 190
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - Micro-economy
+                - Policy
+              modeling_paradigm:
+                - Data
+                - Discrete Simulation
+                - Optimization
+                - Visualization
+                - ''
+              capabilities:
+                - 'Model the following types of renewable energy systems:'
+              user_interface: '['
+              required_dependencies: NLopt
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: minutes
+              typical_spatial_resolution: facility
+              highest_spatial_resolution: facility
+              typical_temporal_scope: years
+              largest_temporal_scope: years
+              typical_spatial_scope: facility
+              largest_spatial_scope: facility
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - ''
+                - ''
+                - ''
+          - item:
+            name: Backbone
+            description: >-
+              Backbone represents a highly adaptable energy systems modelling framework, which can be utilized to create models for studying the design and
+              operation of energy systems. The model can be solved as an investment model (single or multi-period, myopic, or full foresight) or as a rolling
+              production cost / unit commitment model to simulate operations. It includes a wide range of features and constraints, such as stochastic
+              parameters, multiple reserve products, unit start-ups (also with trajectories), energy storage units, controlled and uncontrolled energy
+              transfers, DC power flow and can be used to represent any energy sector at a discretionary level of detail. It allows the modeler to change the
+              temporal resolution of the model between time steps. — and this enables, for example, to use a coarser time resolution further ahead in the time
+              horizon of the model. 
+            homepage_url: https://gitlab.vtt.fi/backbone/backbone
+            logo: backbone.svg
+            crunchbase: https://www.crunchbase.com/organization/vtt
+            extra:
+              documentation: https://gitlab.vtt.fi/backbone/backbone/-/wikis/home
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'More up-to-date list at https://gitlab.vtt.fi/backbone/backbone/-/wikis/More-information/List-of-publications '
+              use_cases:
+                - The modelling framework is very generic and allows many kinds of use cases like
+              input_data_formats:
+                - GDX (can be converted from e.g. Excel or Spine database)
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - GDX
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: null
+              infrastructure_sector:
+                - Biomass
+                - Buildings
+                - Cooling
+                - Electric
+                - District heating
+                - Hydrogen
+                - Individual heating
+                - Liquid fuels
+                - Natural Gas
+                - Transportation
+                - Water
+              represented_behavior:
+                - Micro-economy
+                - Policy
+                - ''
+                - ''
+              modeling_paradigm:
+                - Discrete Simulation
+                - Optimization
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Investment and operation for generation, conversion, storage, transfer connections, and consumption
+              user_interface: '['
+              required_dependencies: GAMS license
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: seconds
+              typical_spatial_resolution: region
+              highest_spatial_resolution: global
+              typical_temporal_scope: years
+              largest_temporal_scope: decades
+              typical_spatial_scope: country
+              largest_spatial_scope: global
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - ''
+                - ''
+                - ''
+            repo_url: https://gitlab.vtt.fi/backbone/backbone
+          - item:
+            name: SpineOpt.jl
+            description: >-
+              SpineOpt is a flexible, open-source, energy systems modelling framework for performing operational and planning studies, consisting of a wide
+              spectrum of novel tools and functionalities. The most salient features of SpineOpt include a generic data structure, flexible temporal and spatial
+              structures, a comprehensive representation of uncertainties, and model decomposition capabilities to reduce the computational complexity.
+            homepage_url: http://www.spine-model.org/index.htm
+            logo: spineoptjl.svg
+            repo_url: https://github.com/Spine-project/SpineOpt.jl
+            crunchbase: https://www.crunchbase.com/organization/spine-project
+            extra:
+              documentation: https://spine-project.github.io/SpineOpt.jl/latest/index.html
+              maintenance_status: false
+              number_of_publications: 6
+              publication_list:
+                - >-
+                  Kiviluoma, J. Pallonetto, F., Marin, M., Savolainen, P., Soininen, A., Vennström, P., Rinne, E., Huang J., Kouveliotis-Lysikatos, I.,
+                  Ihlemann, M., Delarue, E., O’Dwyer, C., O’Donnel, T., Amelin, M., Söder, L., Dillon, J. Spine Toolbox: A flexible open-source workflow
+                  management system with scenario and data management. Under review. 
+              use_cases:
+                - The modelling framework is very generic and allows many kinds of use cases like
+              input_data_formats:
+                - Spine database through SpineInterface.jl or manual setup in Julia
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - Spine database or manual setup in Julia
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 12
+              infrastructure_sector:
+                - Biomass
+                - Buildings
+                - Cooling
+                - Electric
+                - District heating
+                - Hydrogen
+                - Individual heating
+                - Liquid fuels
+                - Natural Gas
+                - Transportation
+                - Water
+              represented_behavior:
+                - Micro-economy
+                - Policy
+                - ''
+                - ''
+              modeling_paradigm:
+                - Discrete Simulation
+                - Optimization
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Investment and operation for generation, conversion, storage, transfer connections, and consumption
+              user_interface: '['
+              required_dependencies: Julia/JuMP and Spine Toolbox (open source) to manage data and scenarios
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: seconds
+              typical_spatial_resolution: region
+              highest_spatial_resolution: global
+              typical_temporal_scope: years
+              largest_temporal_scope: decades
+              typical_spatial_scope: country
+              largest_spatial_scope: global
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Cluster computing
+                - ''
+                - ''
+          - item:
+            name: Spine Toolbox
+            description: >-
+              Spine Toolbox is an integrated platform for data acquisition and data processing with advanced functionalities for enabling the chaining of tools
+              and models into complex shareable workflows. The software helps users to import and manage data, define models and scenarios and orchestrate
+              projects. It facilitates the linking of models with different scopes, or spatio-temporal resolutions, through the user interface. 
+            homepage_url: http://www.spine-model.org/
+            logo: spine-toolbox.svg
+            repo_url: https://github.com/Spine-project/Spine-Toolbox
+            crunchbase: https://www.crunchbase.com/organization/spine-project
+            extra:
+              documentation: https://spine-toolbox.readthedocs.io/en/latest/?badge=latest
+              maintenance_status: false
+              number_of_publications: 1
+              publication_list:
+                - >-
+                  Kiviluoma, J. Pallonetto, F., Marin, M., Savolainen, P., Soininen, A., Vennström, P., Rinne, E., Huang J., Kouveliotis-Lysikatos, I.,
+                  Ihlemann, M., Delarue, E., O’Dwyer, C., O’Donnel, T., Amelin, M., Söder, L., Dillon, J. Spine Toolbox: A flexible open-source workflow
+                  management system with scenario and data management. Under review.
+              use_cases:
+                - A wide variety of modelling tasks. The tool is agnostic towards the data it manages, so it can also be used beyond energy systems.
+              input_data_formats:
+                - Python API
+                - Julia API
+                - CSV
+                - Excel
+                - GDX
+                - SQL
+                - JSON (or anything through scripting)
+              output_data_formats:
+                - Python API
+                - Julia API
+                - CSV
+                - Excel
+                - GDX
+                - SQL
+                - JSON (or anything through scripting)
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 37
+              infrastructure_sector:
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - ''
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - Visualization
+                - ''
+                - ''
+              capabilities:
+                - Data viewing and editing (list view, tabular view, graph view)
+              user_interface: '['
+              required_dependencies: Python, Spine_DB_API, Spine Items, Spine Engine
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: decades
+              typical_spatial_resolution: ''
+              highest_spatial_resolution: ''
+              typical_temporal_scope: hours
+              largest_temporal_scope: decades
+              typical_spatial_scope: ''
+              largest_spatial_scope: ''
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Distributed computing
+                - ''
+          - item:
+            name: Switch
+            description: >-
+              Switch is a capacity-planning model for power systems with large shares of renewable energy, storage and/or demand response. It optimizes
+              investment decisions for renewable and conventional generation, battery or hydrogen storage, hydro and other assets, based on how they would be
+              used during a collection of sample days in many future years. The use of multiple investment periods and chronologically sequenced hours enables
+              optimization and assessment of a long-term renewable transition based on a direct consideration of how these resources would be used hour-by-hour.
+              The Switch platform is highly modular, allowing easy selection between prewritten components or addition of custom components as first-class
+              elements in the model.
+            homepage_url: https://switch-model.org
+            logo: switch.svg
+            repo_url: https://github.com/switch-model/switch
+            project_org: https://github.com/switch-model
+            crunchbase: https://www.crunchbase.com/organization/university-of-hawaii
+            extra:
+              documentation: https://switch-model.org/
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'Partial list:'
+              use_cases:
+                - >-
+                  Find least-cost transition plan for a power system to comply with renewable energy or decarbonization policies, possibly reaching 100%
+                  renewable power
+              input_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 90
+              infrastructure_sector:
+                - Electric
+                - Natural Gas
+                - Transportation
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - Micro-economy
+                - Policy
+              modeling_paradigm:
+                - Equilibrium
+                - Engineering/Design
+                - Optimization
+                - ''
+                - ''
+              capabilities:
+                - Represent power systems in varying degrees of detail, from microgrids to continental grids
+              user_interface: '['
+              required_dependencies: >-
+                Switch requires Python, Pyomo (both open-source) and an external solver. Open-source solvers (GLPK or COIN OR) work well for small models, but
+                large models may require proprietary solvers (e.g., CPLEX or Gurobi). All dependencies are installed automatically when using the Anaconda
+                distribution (
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: minutes
+              typical_spatial_resolution: state
+              highest_spatial_resolution: facility
+              typical_temporal_scope: decades
+              largest_temporal_scope: decades
+              typical_spatial_scope: region
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-core computing
+                - Cluster computing
+                - ''
+                - ''
+  - category:
     name: LF Energy Member
     subcategories:
       - subcategory:

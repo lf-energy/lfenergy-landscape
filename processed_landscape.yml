@@ -5830,6 +5830,1814 @@ landscape:
             twitter_data:
               latest_tweet_date: 2021-12-03T14:30:27.000Z
   - category:
+    name: G-PST
+    subcategories:
+      - subcategory:
+        name: All
+        items:
+          - item:
+            name: Breakthrough Energy Model
+            description: >-
+              Multi-scenario, nodal production cost simulation package, with data management in written in Python and engine in Julia. Hourly 8,760 horizon
+              simulation on US or interconnection wide level. Synthetic nodal grid data available based on TAMU synthetic network which contains ~80k busses.
+            homepage_url: https://breakthrough-energy.github.io/docs/
+            logo: breakthroughenergy.svg
+            repo_url: https://github.com/Breakthrough-Energy/PowerSimData
+            project_org: https://github.com/Breakthrough-Energy
+            crunchbase: https://www.crunchbase.com/organization/breakthrough-energy-ventures
+            extra:
+              documentation: https://breakthrough-energy.github.io/docs/
+              maintenance_status: false
+              number_of_publications: 1
+              publication_list:
+                - U.S. Test System with High Spatial and Temporal Resolution for Renewable Integration Studies
+              use_cases:
+                - Synthetic representation of U.S. electric systems.
+              input_data_formats:
+                - CSV
+                - netCDF
+                - HDF5
+                - JSON
+                - GeoJSON
+                - ''
+                - ''
+              output_data_formats:
+                - No response
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: null
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Optimization
+                - ''
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Production cost simulation;
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: hours
+              typical_spatial_resolution: facility
+              highest_spatial_resolution: facility
+              typical_temporal_scope: hours
+              largest_temporal_scope: years
+              typical_spatial_scope: region
+              largest_spatial_scope: country
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - ''
+                - ''
+                - ''
+                - ''
+            crunchbase_data:
+              name: Breakthrough Energy Ventures
+              description: Breakthrough Energy provides reliable and affordable power without contributing to climate change.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.breakthroughenergy.org
+              city: Paris
+              region: Ile-de-France
+              country: France
+              twitter: https://twitter.com/btenergy
+              linkedin: https://www.linkedin.com/company/breakthrough-energy-ventures/
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/breakthrough-energy-pty-ltd
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Energy
+                - Impact Investing
+                - Venture Capital
+            github_data:
+              description: Open source software for a clean energy future
+              contributors_count: 29
+              contributions: 20;13;1;15;40;29;21;55;43;49;40;29;22;35;32;52;31;32;12;38;57;86;28;39;31;52;54;34;38;32;31;12;18;11;8;9;8;11;11;15;13;9;10;11;3;2;4;1;0;5;2;5
+              stars: 61
+              languages:
+                - name: Jupyter Notebook
+                  value: 75618689
+                  color: '#DA5B0B'
+                - name: Python
+                  value: 2262119
+                  color: '#3572A5'
+                - name: Julia
+                  value: 75189
+                  color: '#a270ba'
+                - name: Dockerfile
+                  value: 2560
+                  color: '#384d54'
+                - name: HTML
+                  value: 1021
+                  color: '#e34c26'
+                - name: Shell
+                  value: 975
+                  color: '#89e051'
+                - name: Makefile
+                  value: 607
+                  color: '#427819'
+              latest_commit_link: /Breakthrough-Energy/PowerSimData/commit/f9ef4113b94bb57a8e8f27f635f0cda70944bc13
+              latest_commit_date: '2021-10-29T22:03:59Z'
+              firstWeek: 2020-12-13Z
+              license: MIT License
+              contributors_link: https://github.com/Breakthrough-Energy/PowerSimData/graphs/contributors
+            repos:
+              - url: https://github.com/Breakthrough-Energy/PowerSimData
+                stars: 22
+              - url: https://github.com/Breakthrough-Energy/PreREISE
+                stars: 14
+              - url: https://github.com/Breakthrough-Energy/REISE.jl
+                stars: 13
+              - url: https://github.com/Breakthrough-Energy/docs
+                stars: 7
+              - url: https://github.com/Breakthrough-Energy/plug
+                stars: 4
+              - url: https://github.com/Breakthrough-Energy/PostREISE
+                stars: 1
+              - url: https://github.com/Breakthrough-Energy/actions
+                stars: 0
+              - url: https://github.com/Breakthrough-Energy/switch
+                stars: 0
+              - url: https://github.com/Breakthrough-Energy/SwitchWrapper
+                stars: 0
+              - url: https://github.com/Breakthrough-Energy/fs-azureblob
+                stars: 0
+              - url: https://github.com/Breakthrough-Energy/camd-eia-crosswalk
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /Breakthrough-Energy/switch/commit/8b46c0e59424a94acc0bd28390c04746010165d6
+              start_date: '2015-04-08T00:59:34Z'
+            image_data:
+              fileName: breakthrough-energy-model.svg
+              hash: 2iTV1AmDcE2PwaNd1U4r8oL+EZwI7uk7gQ7UfW72JaU=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: ExaGO
+            description: >-
+              ExaGO is a library for solving large-scale alternating current optimal power flow (ACOPF) problems including stochastic effects, security
+              constraints and multi-period constraints. 
+            homepage_url: https://gitlab.pnnl.gov/exasgd/frameworks/exago
+            logo: exago.svg
+            crunchbase: https://www.crunchbase.com/organization/battelle-memorial-institute
+            extra:
+              documentation: https://gitlab.pnnl.gov/exasgd/frameworks/exago/-/blob/master/docs/manual/manual.pdf
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - No response
+              use_cases:
+                - No response
+              input_data_formats:
+                - MATPOWER
+                - CSV
+                - PTI
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - MATPOWER
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Mac OSX
+                - Linux
+                - ''
+              github_stars: null
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Optimization
+                - ''
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - ExaGO provides applications to solve stochastic, security-constrained, and multiperiod ACOPF problems on high-performance with CPUs and GPUs.
+              user_interface: '['
+              required_dependencies: PETSc, IPOPT
+              point_of_contact: ''
+              typical_temporal_resolution: minutes
+              highest_temporal_resolution: hours
+              typical_spatial_resolution: region
+              highest_spatial_resolution: region
+              typical_temporal_scope: hours
+              largest_temporal_scope: hours
+              typical_spatial_scope: region
+              largest_spatial_scope: country
+              language:
+                - null
+                - null
+                - Python
+              parallel_computing_paradigm:
+                - Multi-core computing
+                - Distributed computing
+                - General-purpose computing on graphics processing units
+                - ''
+            repo_url: https://gitlab.pnnl.gov/exasgd/frameworks/exago
+            crunchbase_data:
+              name: Battelle
+              description: Battelle Memorial Institute is a nonprofit research and development organization.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.battelle.org
+              city: Columbus
+              region: Ohio
+              country: United States
+              twitter: https://twitter.com/Battelle
+              linkedin: https://www.linkedin.com/company/battelle
+              acquisitions:
+                - date: '2007-10-01'
+                  acquiree: Ventaira Pharmaceuticals
+              parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Biotechnology
+            repos:
+              - url: https://gitlab.pnnl.gov/exasgd/frameworks/exago
+            image_data:
+              fileName: exa-go.svg
+              hash: A7+wXM6iyARQxAST52+awv4cu9QgQrzi5ZCw6+BaNWQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T14:22:01.000Z
+          - item:
+            name: National Electricity Market Optimiser (NEMO)
+            homepage_url: https://nemo.ozlabs.org
+            logo: nemo.svg
+            repo_url: https://github.com/bje-/NEMO
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
+            extra:
+              documentation: ''
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - No response
+              use_cases:
+                - No response
+              input_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - plain text
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: null
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - ''
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Optimization
+                - ''
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - No response
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: ''
+              highest_temporal_resolution: hours
+              typical_spatial_resolution: ''
+              highest_spatial_resolution: region
+              typical_temporal_scope: ''
+              largest_temporal_scope: years
+              typical_spatial_scope: country
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-core computing
+                - Distributed computing
+                - ''
+                - ''
+            crunchbase_data:
+              name: University of New South Wales
+              description: UNSW Australia (The University of New South Wales)one of Australia's leading research and teaching universities.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.unsw.edu.au
+              city: Sydney
+              region: New South Wales
+              country: Australia
+              twitter: http://twitter.com/unsw
+              linkedin: https://www.linkedin.com/company/university-of-new-south-wales
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Higher Education
+                - Medical
+                - Universities
+            github_data:
+              languages:
+                - name: Python
+                  value: 145563
+                  color: '#3572A5'
+                - name: Awk
+                  value: 4092
+                - name: Makefile
+                  value: 2651
+                  color: '#427819'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;8;27;0;1;9;11;22;2;1;1;1;12;0;4;1;4;4;0;0;0;1;2;4;14;0;1;4;0;1;0;0;0;0;0;0;1;0
+              firstWeek: 2020-12-13Z
+              stars: 23
+              license: GNU General Public License v3.0
+              description: National Electricity Market Optimiser
+              latest_commit_date: '2021-11-26T05:23:42Z'
+              latest_commit_link: /bje-/NEMO/commit/491d5c7027f94bdc2f0c848eb55643d6afca1efd
+              contributors_count: 3
+              contributors_link: https://github.com/bje-/NEMO/graphs/contributors
+            repos:
+              - url: https://github.com/bje-/NEMO
+                stars: 23
+            github_start_commit_data:
+              start_commit_link: /bje-/NEMO/commit/23ec319579a24c76087ddc5eb5753883dc8404de
+              start_date: '2013-05-06T03:17:33Z'
+            image_data:
+              fileName: national-electricity-market-optimiser-nemo.svg
+              hash: exnRwrPHkqDDRXzQKrQWBgq6i3uHaQksaoOMG88/X4o=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T03:00:02.000Z
+          - item:
+            name: PowerSystems.jl
+            description: >-
+              PowerSystems.jl is a package to organize and manipulate data for the study of energy systems with diverse modeling requirements. This software
+              serves two main purposes: to reduce the burden of large power system data set development, and to promote reproducible research and simulation.
+              PowerSystems.jl implements an abstract hierarchy to represent and customize power systems data and includes data containers for quasi-static and
+              dynamic simulation applications.
+            homepage_url: https://www.nrel.gov/analysis/siip.html
+            logo: powersystemsjl.svg
+            repo_url: https://github.com/NREL-SIIP/PowerSystems.jl
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            extra:
+              documentation: https://nrel-siip.github.io/PowerSystems.jl/stable/
+              maintenance_status: false
+              number_of_publications: 8
+              publication_list:
+                - >-
+                  J. D. Lara, C. Barrows, D. Thom, D. Krishnamurthy, and D. Callaway, “PowerSystems.jl — A power system data management package for large scale
+                  modeling,” SoftwareX, vol. 15, p. 100747, Jul. 2021, doi: 10.1016/j.softx.2021.100747.
+              use_cases:
+                - >-
+                  PowerSystems.jl enables a range of modeling activities by providing rigorous data structure, parsing capabilities, and basic power system data
+                  transformations (e.g. Ybus calculation)
+              input_data_formats:
+                - JSON
+                - CSV
+                - MATPOWER
+                - PSSE .raw .dyr
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - JSON
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 182
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - 'Supported data formats: MATPOWER, PSSE v33 .raw and .dyr, tabular/csv data'
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: instant
+              typical_spatial_resolution: device
+              highest_spatial_resolution: component
+              typical_temporal_scope: years
+              largest_temporal_scope: years
+              typical_spatial_scope: region
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Distributed computing
+                - Cluster computing
+            crunchbase_data:
+              name: National Renewable Energy Laboratory
+              description: NREL develops renewable energy and energy efficiency technologies and practices.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.nrel.gov
+              city: Golden
+              region: Colorado
+              country: United States
+              twitter: http://twitter.com/nrel
+              linkedin: https://www.linkedin.com/company/national-renewable-energy-laboratory
+              acquisitions: []
+              parents: []
+              funding: 3800000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Clean Energy
+                - CleanTech
+                - Energy
+                - Renewable Energy
+              kind: funding
+            github_data:
+              languages:
+                - name: Julia
+                  value: 1552401
+                  color: '#a270ba'
+                - name: Python
+                  value: 3822
+                  color: '#3572A5'
+              contributions: 11;13;11;14;15;12;26;3;12;2;13;6;14;5;2;0;5;0;2;8;26;46;7;14;5;7;24;16;13;16;10;39;1;0;0;0;6;17;27;14;12;0;13;22;8;6;11;1;14;12;2;3
+              firstWeek: 2020-12-13Z
+              stars: 182
+              license: BSD 3-Clause "New" or "Revised" License
+              description: >-
+                Data structures in Julia to enable power systems analysis. Part of the Scalable Integrated Infrastructure Planning Initiative at the National
+                Renewable Energy Lab.
+              latest_commit_date: '2021-12-07T19:31:43Z'
+              latest_commit_link: /NREL-SIIP/PowerSystems.jl/commit/083516e948a68c588bb34eea9fa790252b8c4195
+              release_date: '2021-12-07T22:59:22Z'
+              release_link: https://github.com/NREL-SIIP/PowerSystems.jl/releases
+              contributors_count: 25
+              contributors_link: https://github.com/NREL-SIIP/PowerSystems.jl/graphs/contributors
+            repos:
+              - url: https://github.com/NREL-SIIP/PowerSystems.jl
+                stars: 182
+            github_start_commit_data:
+              start_commit_link: /NREL-SIIP/PowerSystems.jl/commit/a72d485018cd0e34f32f1e53fcc1d25ae1960a93
+              start_date: '2018-01-16T18:55:57Z'
+            image_data:
+              fileName: power-systems-jl.svg
+              hash: FJgPTIlzFKgHADQ7rB4xqzt4PCWUiDBwPjiQ3nNEE8M=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T16:00:19.000Z
+          - item:
+            name: PowerSimulations.jl
+            description: 'PowerSimulations.jl is a Julia package for power system modeling and simulation of Power Systems operations. The objectives of the package are:'
+            homepage_url: https://www.nrel.gov/analysis/siip.html
+            logo: powersimulationsjl.svg
+            repo_url: https://github.com/NREL-SIIP/PowerSimulations.jl
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            extra:
+              documentation: https://nrel-siip.github.io/PowerSimulations.jl/latest/
+              maintenance_status: false
+              number_of_publications: 4
+              publication_list:
+                - >-
+                  B. Bush, Y. Chen, O.-B. D., Y. Gei, Topological machine learning methods for power system responses to contingencies, The Thirty-Third Annual
+                  Conference on Innovative Applications of Artificial Intelligence, As- sociation for the Advancement of Artificial Intelligence (2020). 
+              use_cases:
+                - Evaluation of system scheduling under various input scenarios representing different demand, renewable energy, cost, and outage conditions.
+              input_data_formats:
+                - PowerSystems.jl
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - HDF5
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 150
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - ''
+                - ''
+              modeling_paradigm:
+                - Discrete Simulation
+                - Optimization
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Unit Commitment
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: instant
+              typical_spatial_resolution: device
+              highest_spatial_resolution: component
+              typical_temporal_scope: months
+              largest_temporal_scope: years
+              typical_spatial_scope: region
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Cluster computing
+                - ''
+            crunchbase_data:
+              name: National Renewable Energy Laboratory
+              description: NREL develops renewable energy and energy efficiency technologies and practices.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.nrel.gov
+              city: Golden
+              region: Colorado
+              country: United States
+              twitter: http://twitter.com/nrel
+              linkedin: https://www.linkedin.com/company/national-renewable-energy-laboratory
+              acquisitions: []
+              parents: []
+              funding: 3800000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Clean Energy
+                - CleanTech
+                - Energy
+                - Renewable Energy
+              kind: funding
+            github_data:
+              languages:
+                - name: Julia
+                  value: 1090844
+                  color: '#a270ba'
+              contributions: 43;72;7;14;2;25;51;70;46;66;21;26;93;73;36;15;14;13;15;15;8;31;6;21;2;6;3;3;21;0;0;0;5;3;0;0;6;0;0;0;5;0;0;0;0;0;0;0;5;0;0;0
+              firstWeek: 2020-12-13Z
+              stars: 150
+              license: BSD 3-Clause "New" or "Revised" License
+              description: >-
+                Julia for optimization simulation and modeling of PowerSystems. Part of the Scalable Integrated Infrastructure Planning Initiative at the
+                National Renewable Energy Lab.
+              latest_commit_date: '2021-11-17T14:36:47Z'
+              latest_commit_link: /NREL-SIIP/PowerSimulations.jl/commit/597cbb5f0846e5a87256189fc05105585a188e27
+              release_date: '2021-11-17T14:53:37Z'
+              release_link: https://github.com/NREL-SIIP/PowerSimulations.jl/releases
+              contributors_count: 26
+              contributors_link: https://github.com/NREL-SIIP/PowerSimulations.jl/graphs/contributors
+            repos:
+              - url: https://github.com/NREL-SIIP/PowerSimulations.jl
+                stars: 150
+            github_start_commit_data:
+              start_commit_link: /NREL-SIIP/PowerSimulations.jl/commit/4160bd351ff37f4a3bcfc59da0344730f24e99c2
+              start_date: '2018-03-27T17:34:29Z'
+            image_data:
+              fileName: power-simulations-jl.svg
+              hash: k1Y9kGqQ0P8z5hjUdiUW9Jxmgxbr/yS6DuElOEEGw84=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T16:00:19.000Z
+          - item:
+            name: PyPSA
+            description: 'Under the PyPSA toolbox one can find multiple tools with different goals:'
+            homepage_url: https://pypsa.org/
+            logo: pypsa.svg
+            repo_url: https://github.com/PyPSA/PyPSA
+            project_org: https://github.com/PyPSA
+            crunchbase: https://www.crunchbase.com/organization/karlsruhe-institute-of-technology
+            extra:
+              documentation: https://pypsa.org/
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'A list of publication is given here: https://pypsa.readthedocs.io/en/latest/users.html#universities-and-research-institutes'
+              use_cases:
+                - >-
+                  Multi-sector energy system planning tool. Based on least-cost investment and dispatch pathway optimisation in (optional) high temporal and
+                  spatial resolution. From mini-grid to large multi-continental scales - the user can decide what to investigate.
+              input_data_formats:
+                - CSV
+                - netCDF
+                - HDF5
+                - JSON
+                - GeoJSON
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - XML
+                - GeoJSON
+                - ...
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 580
+              infrastructure_sector:
+                - Agriculture
+                - Biomass
+                - Cooling
+                - Electric
+                - District heating
+                - Hydrogen
+                - Individual heating
+                - Transportation
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Policy
+                - ''
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - Discrete Simulation
+                - Optimization
+                - Visualization
+              capabilities:
+                - 'PyPSA can calculate:'
+              user_interface: '['
+              required_dependencies: No response
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: instant
+              typical_spatial_resolution: county
+              highest_spatial_resolution: municipality
+              typical_temporal_scope: decades
+              largest_temporal_scope: decades
+              typical_spatial_scope: continent
+              largest_spatial_scope: global
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Cluster computing
+                - ''
+            crunchbase_data:
+              name: Karlsruhe Institute of Technology
+              description: The Karlsruhe Institute of Technology is a German educational institution focused on research, teaching, and innovation.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.kit.edu/english/
+              city: Karlsruhe
+              region: Baden-Wurttemberg
+              country: Germany
+              twitter: https://twitter.com/KITKarlsruhe
+              linkedin: https://www.linkedin.com/school/kit/about/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+            github_data:
+              description: null
+              contributors_count: 44
+              contributions: 14;2;13;6;10;19;20;6;11;5;9;12;8;10;35;23;5;4;10;34;18;17;6;18;9;4;29;42;27;48;27;9;15;27;33;22;10;9;11;21;9;34;62;9;36;19;26;36;30;56;25;10
+              stars: 939
+              languages:
+                - name: Python
+                  value: 2635440
+                  color: '#3572A5'
+                - name: Jupyter Notebook
+                  value: 473802
+                  color: '#DA5B0B'
+                - name: TeX
+                  value: 183422
+                  color: '#3D6117'
+                - name: Julia
+                  value: 136200
+                  color: '#a270ba'
+                - name: PLpgSQL
+                  value: 101128
+                - name: HTML
+                  value: 92724
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 78698
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 10481
+                  color: '#563d7c'
+                - name: TSQL
+                  value: 9418
+                - name: Shell
+                  value: 6338
+                  color: '#89e051'
+                - name: R
+                  value: 790
+                  color: '#198CE7'
+                - name: Makefile
+                  value: 202
+                  color: '#427819'
+              latest_commit_link: /PyPSA/PyPSA/commit/41c5666a132c4e637fc07e6872f3947acfa2166d
+              latest_commit_date: '2021-11-29T13:55:41Z'
+              firstWeek: 2020-12-13Z
+              license: MIT License
+              contributors_link: https://github.com/PyPSA/PyPSA/graphs/contributors
+            repos:
+              - url: https://github.com/PyPSA/PyPSA
+                stars: 582
+              - url: https://github.com/PyPSA/pypsa-eur
+                stars: 106
+              - url: https://github.com/PyPSA/atlite
+                stars: 94
+              - url: https://github.com/PyPSA/pypsa-eur-sec
+                stars: 36
+              - url: https://github.com/PyPSA/WHOBS
+                stars: 28
+              - url: https://github.com/PyPSA/whobs-server
+                stars: 23
+              - url: https://github.com/PyPSA/EnergyModels.jl
+                stars: 14
+              - url: https://github.com/PyPSA/PyPSA-animation
+                stars: 11
+              - url: https://github.com/PyPSA/technology-data
+                stars: 8
+              - url: https://github.com/PyPSA/linopy
+                stars: 8
+              - url: https://github.com/PyPSA/PSA.jl
+                stars: 6
+              - url: https://github.com/PyPSA/pypsa-za
+                stars: 5
+              - url: https://github.com/PyPSA/nomopyomo
+                stars: 5
+              - url: https://github.com/PyPSA/pypsa-eur-mga
+                stars: 4
+              - url: https://github.com/PyPSA/GridKit
+                stars: 2
+              - url: https://github.com/PyPSA/glaes
+                stars: 2
+              - url: https://github.com/PyPSA/condynet-2-wp-1
+                stars: 2
+              - url: https://github.com/PyPSA/pypsa-server
+                stars: 2
+              - url: https://github.com/PyPSA/geokit
+                stars: 1
+              - url: https://github.com/PyPSA/project-website
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /PyPSA/PyPSA/commit/2fbc2befaf95c322e935fca99b88acc507f1eb7a
+              start_date: '2015-10-12T15:06:19Z'
+            image_data:
+              fileName: py-psa.svg
+              hash: 4v4jyOoidtrth0cY6p9VnbpFYjA1KIJOi6S0CI2dQQ8=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T14:41:07.000Z
+          - item:
+            name: MATPOWER
+            description: MATPOWER
+            homepage_url: https://matpower.org/
+            logo: matpower.svg
+            repo_url: https://github.com/MATPOWER/matpower
+            project_org: https://github.com/MATPOWER
+            crunchbase: https://www.crunchbase.com/organization/power-systems-engineering-research-center
+            extra:
+              documentation: https://matpower.org/doc/
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'Most of the publications listed on the '
+              use_cases:
+                - >-
+                  MATPOWER is a collection of general purpose tools for solving many types of steady-steady power system analysis and optimization problems,
+                  from simple power flow studies to multi-interval, stochastic, mixed-integer energy scheduling and pricing problems.
+              input_data_formats:
+                - MATPOWER
+                - PSS/E RAW
+                - IEEE CDF
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - MATPOWER
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 234
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - Policy
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - Discrete Simulation
+                - Optimization
+                - Visualization
+              capabilities:
+                - 'Steady-state power system simulation and optimization problems, such as:'
+              user_interface: '['
+              required_dependencies: none required, but can utilize IPOPT, Knitro, CPLEX, Gurobi, MOSEK, GLPK, and more
+              point_of_contact: ''
+              typical_temporal_resolution: ''
+              highest_temporal_resolution: seconds
+              typical_spatial_resolution: ''
+              highest_spatial_resolution: facility
+              typical_temporal_scope: ''
+              largest_temporal_scope: decades
+              typical_spatial_scope: ''
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Distributed computing
+                - ''
+            crunchbase_data:
+              name: Power Systems Engineering Research Center
+              description: Power Systems Engineering Research Center (PSERC) addresses key challenges in creating a modern electric energy infrastructure.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://pserc.wisc.edu/
+              city: Madison
+              region: Wisconsin
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            github_data:
+              description: ''
+              contributors_count: 13
+              contributions: 51;14;0;3;19;11;16;3;2;1;0;0;0;0;3;11;11;16;16;16;17;15;15;4;5;4;5;7;1;3;4;3;8;0;18;27;28;27;3;13;13;7;0;6;6;2;0;0;0;0;5;0
+              stars: 299
+              languages:
+                - name: MATLAB
+                  value: 87467325
+                  color: '#e16737'
+                - name: TeX
+                  value: 839379
+                  color: '#3D6117'
+                - name: Python
+                  value: 16318
+                  color: '#3572A5'
+                - name: Dockerfile
+                  value: 3910
+                  color: '#384d54'
+                - name: M
+                  value: 1985
+                - name: Makefile
+                  value: 1530
+                  color: '#427819'
+                - name: Shell
+                  value: 118
+                  color: '#89e051'
+              latest_commit_link: /MATPOWER/matpower/commit/99d5280e2144a1ad39ca2b70c31aaa233f7073cd
+              latest_commit_date: '2021-12-01T17:50:28Z'
+              firstWeek: 2020-12-13Z
+              license: Other
+              contributors_link: https://github.com/MATPOWER/matpower/graphs/contributors
+            repos:
+              - url: https://github.com/MATPOWER/matpower
+                stars: 234
+              - url: https://github.com/MATPOWER/most
+                stars: 16
+              - url: https://github.com/MATPOWER/mips
+                stars: 10
+              - url: https://github.com/MATPOWER/mp-opt-model
+                stars: 8
+              - url: https://github.com/MATPOWER/mx-syngrid
+                stars: 6
+              - url: https://github.com/MATPOWER/mx-se
+                stars: 5
+              - url: https://github.com/MATPOWER/matpower-extras
+                stars: 4
+              - url: https://github.com/MATPOWER/mpsim
+                stars: 4
+              - url: https://github.com/MATPOWER/mpng
+                stars: 4
+              - url: https://github.com/MATPOWER/mx-sdp_pf
+                stars: 3
+              - url: https://github.com/MATPOWER/most-paper-sim
+                stars: 2
+              - url: https://github.com/MATPOWER/mptest
+                stars: 1
+              - url: https://github.com/MATPOWER/mx-maxloadlim
+                stars: 1
+              - url: https://github.com/MATPOWER/mp-element
+                stars: 1
+              - url: https://github.com/MATPOWER/mx-reduction
+                stars: 0
+              - url: https://github.com/MATPOWER/migte
+                stars: 0
+              - url: https://github.com/MATPOWER/action-install-octave-linux
+                stars: 0
+              - url: https://github.com/MATPOWER/action-install-octave-macos
+                stars: 0
+              - url: https://github.com/MATPOWER/action-build-ipopt-macos
+                stars: 0
+              - url: https://github.com/MATPOWER/action-install-ipopt-octave
+                stars: 0
+              - url: https://github.com/MATPOWER/action-install-osqp-octave
+                stars: 0
+              - url: https://github.com/MATPOWER/action-configure-matlab
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /MATPOWER/matpower/commit/197d16676bdc4aa7040a650df3aba95932fc85db
+              start_date: '2003-04-14T14:51:46Z'
+            image_data:
+              fileName: matpower.svg
+              hash: 8E+NohVcWWuGyQiLPUcbxh1+jfG4vQAlgoocs5niBqg=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: System Advisor Model (SAM)
+            description: >-
+              SAM’s performance models are for photovoltaic systems with optional battery storage, concentrating solar power, industrial process heat, solar
+              water heating, wind, marine energy, geothermal, biomass, and conventional power systems that either deliver electricity directly to the power
+              grid, or interact with the electric load of a grid-connected building or facility.
+            homepage_url: https://sam.nrel.gov
+            logo: sam.svg
+            repo_url: https://github.com/nrel/sam
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            extra:
+              documentation: https://sam.nrel.gov
+              maintenance_status: false
+              number_of_publications: 100
+              publication_list:
+                - 'Publications describing SAM''s models are available on the SAM website:'
+              use_cases:
+                - >-
+                  SAM can model different types of renewable energy systems and financial structures for projects around the world. It is used by project
+                  developers in the pre-feasibility and planning stages, by program managers to evaluate proposals, by engineers to evaluate system designs, by
+                  policy designers for incentive and rate design, by researchers and academics, and others in the field of renewable energy.
+              input_data_formats:
+                - JSON
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 190
+              infrastructure_sector:
+                - Electric
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - Micro-economy
+                - Policy
+              modeling_paradigm:
+                - Data
+                - Discrete Simulation
+                - Optimization
+                - Visualization
+                - ''
+              capabilities:
+                - 'Model the following types of renewable energy systems:'
+              user_interface: '['
+              required_dependencies: NLopt
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: minutes
+              typical_spatial_resolution: facility
+              highest_spatial_resolution: facility
+              typical_temporal_scope: years
+              largest_temporal_scope: years
+              typical_spatial_scope: facility
+              largest_spatial_scope: facility
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - ''
+                - ''
+                - ''
+            crunchbase_data:
+              name: National Renewable Energy Laboratory
+              description: NREL develops renewable energy and energy efficiency technologies and practices.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.nrel.gov
+              city: Golden
+              region: Colorado
+              country: United States
+              twitter: http://twitter.com/nrel
+              linkedin: https://www.linkedin.com/company/national-renewable-energy-laboratory
+              acquisitions: []
+              parents: []
+              funding: 3800000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Clean Energy
+                - CleanTech
+                - Energy
+                - Renewable Energy
+              kind: funding
+            github_data:
+              languages:
+                - name: PowerBuilder
+                  value: 36872545
+                  color: '#8f0f8d'
+                - name: C++
+                  value: 9794581
+                  color: '#f34b7d'
+                - name: HTML
+                  value: 6300327
+                  color: '#e34c26'
+                - name: C
+                  value: 3906677
+                  color: '#555555'
+                - name: Python
+                  value: 193941
+                  color: '#3572A5'
+                - name: JavaScript
+                  value: 164639
+                  color: '#f1e05a'
+                - name: CMake
+                  value: 34057
+                - name: CSS
+                  value: 15490
+                  color: '#563d7c'
+                - name: PowerShell
+                  value: 4814
+                  color: '#012456'
+                - name: Shell
+                  value: 3279
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 1580
+                  color: '#384d54'
+              contributions: >-
+                7;9;14;17;21;21;30;21;30;20;22;17;15;12;25;5;25;3;11;17;26;31;22;24;28;6;17;18;16;16;10;18;27;10;25;15;19;12;8;7;11;15;11;8;17;13;38;90;145;116;126;9
+              firstWeek: 2020-12-13Z
+              stars: 192
+              license: BSD 3-Clause "New" or "Revised" License
+              description: System Advisor Model (SAM)
+              latest_commit_date: '2021-12-06T20:31:48Z'
+              latest_commit_link: /NREL/SAM/commit/bcc74e48259093d05ced5e29099819d17790ea87
+              release_date: '2021-12-03T13:28:51Z'
+              release_link: https://github.com/nrel/sam/releases
+              contributors_count: 38
+              contributors_link: https://github.com/nrel/sam/graphs/contributors
+            repos:
+              - url: https://github.com/nrel/sam
+                stars: 192
+            github_start_commit_data:
+              start_commit_link: /NREL/SAM/commit/81946c83b7fa339e7a456ce71b359fe7635ef6af
+              start_date: '2013-07-08T18:07:29Z'
+            image_data:
+              fileName: system-advisor-model-sam.svg
+              hash: gOkZ3qdVI8Vm1dhWbkqXNigogEvYVQO8lBLEgj4p4cI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T16:00:19.000Z
+          - item:
+            name: Backbone
+            description: >-
+              Backbone represents a highly adaptable energy systems modelling framework, which can be utilized to create models for studying the design and
+              operation of energy systems. The model can be solved as an investment model (single or multi-period, myopic, or full foresight) or as a rolling
+              production cost / unit commitment model to simulate operations. It includes a wide range of features and constraints, such as stochastic
+              parameters, multiple reserve products, unit start-ups (also with trajectories), energy storage units, controlled and uncontrolled energy
+              transfers, DC power flow and can be used to represent any energy sector at a discretionary level of detail. It allows the modeler to change the
+              temporal resolution of the model between time steps. — and this enables, for example, to use a coarser time resolution further ahead in the time
+              horizon of the model. 
+            homepage_url: https://gitlab.vtt.fi/backbone/backbone
+            logo: backbone.svg
+            crunchbase: https://www.crunchbase.com/organization/vtt
+            extra:
+              documentation: https://gitlab.vtt.fi/backbone/backbone/-/wikis/home
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'More up-to-date list at https://gitlab.vtt.fi/backbone/backbone/-/wikis/More-information/List-of-publications '
+              use_cases:
+                - The modelling framework is very generic and allows many kinds of use cases like
+              input_data_formats:
+                - GDX (can be converted from e.g. Excel or Spine database)
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - GDX
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: null
+              infrastructure_sector:
+                - Biomass
+                - Buildings
+                - Cooling
+                - Electric
+                - District heating
+                - Hydrogen
+                - Individual heating
+                - Liquid fuels
+                - Natural Gas
+                - Transportation
+                - Water
+              represented_behavior:
+                - Micro-economy
+                - Policy
+                - ''
+                - ''
+              modeling_paradigm:
+                - Discrete Simulation
+                - Optimization
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Investment and operation for generation, conversion, storage, transfer connections, and consumption
+              user_interface: '['
+              required_dependencies: GAMS license
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: seconds
+              typical_spatial_resolution: region
+              highest_spatial_resolution: global
+              typical_temporal_scope: years
+              largest_temporal_scope: decades
+              typical_spatial_scope: country
+              largest_spatial_scope: global
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - ''
+                - ''
+                - ''
+            repo_url: https://gitlab.vtt.fi/backbone/backbone
+            crunchbase_data:
+              name: VTT Technical Research Centre of Finland
+              description: Research and technology organisation (RTO)
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.vttresearch.com/en
+              city: Espoo
+              region: Southern Finland
+              country: Finland
+              twitter: http://twitter.com/VTTFinland
+              linkedin: https://www.linkedin.com/company/vtt
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Clean Energy
+                - Information Technology
+                - Internet
+                - Telecommunications
+            repos:
+              - url: https://gitlab.vtt.fi/backbone/backbone
+            image_data:
+              fileName: backbone.svg
+              hash: GiSivtuLOLZqMpV2R41XDhsuXH8Tiv4Sv24ducjLjzM=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T11:16:51.000Z
+          - item:
+            name: SpineOpt.jl
+            description: >-
+              SpineOpt is a flexible, open-source, energy systems modelling framework for performing operational and planning studies, consisting of a wide
+              spectrum of novel tools and functionalities. The most salient features of SpineOpt include a generic data structure, flexible temporal and spatial
+              structures, a comprehensive representation of uncertainties, and model decomposition capabilities to reduce the computational complexity.
+            homepage_url: http://www.spine-model.org/index.htm
+            logo: spineoptjl.svg
+            repo_url: https://github.com/Spine-project/SpineOpt.jl
+            crunchbase: https://www.crunchbase.com/organization/spine-project
+            extra:
+              documentation: https://spine-project.github.io/SpineOpt.jl/latest/index.html
+              maintenance_status: false
+              number_of_publications: 6
+              publication_list:
+                - >-
+                  Kiviluoma, J. Pallonetto, F., Marin, M., Savolainen, P., Soininen, A., Vennström, P., Rinne, E., Huang J., Kouveliotis-Lysikatos, I.,
+                  Ihlemann, M., Delarue, E., O’Dwyer, C., O’Donnel, T., Amelin, M., Söder, L., Dillon, J. Spine Toolbox: A flexible open-source workflow
+                  management system with scenario and data management. Under review. 
+              use_cases:
+                - The modelling framework is very generic and allows many kinds of use cases like
+              input_data_formats:
+                - Spine database through SpineInterface.jl or manual setup in Julia
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - Spine database or manual setup in Julia
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 12
+              infrastructure_sector:
+                - Biomass
+                - Buildings
+                - Cooling
+                - Electric
+                - District heating
+                - Hydrogen
+                - Individual heating
+                - Liquid fuels
+                - Natural Gas
+                - Transportation
+                - Water
+              represented_behavior:
+                - Micro-economy
+                - Policy
+                - ''
+                - ''
+              modeling_paradigm:
+                - Discrete Simulation
+                - Optimization
+                - ''
+                - ''
+                - ''
+              capabilities:
+                - Investment and operation for generation, conversion, storage, transfer connections, and consumption
+              user_interface: '['
+              required_dependencies: Julia/JuMP and Spine Toolbox (open source) to manage data and scenarios
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: seconds
+              typical_spatial_resolution: region
+              highest_spatial_resolution: global
+              typical_temporal_scope: years
+              largest_temporal_scope: decades
+              typical_spatial_scope: country
+              largest_spatial_scope: global
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Cluster computing
+                - ''
+                - ''
+            crunchbase_data:
+              name: Spine Project
+              description: End-to-end energy modeling toolbox that will enable open, practical, flexible and realistic planning of future European energy grids.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.spine-model.org/
+              city: Espoo
+              region: Southern Finland
+              country: Finland
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            github_data:
+              languages:
+                - name: Julia
+                  value: 897076
+                  color: '#a270ba'
+              contributions: 11;3;0;2;19;9;3;3;0;4;34;45;7;17;28;8;15;73;96;8;64;9;1;3;7;13;6;3;7;1;1;5;1;0;1;7;2;2;3;2;17;2;9;0;14;9;7;13;0;8;3;0
+              firstWeek: 2020-12-13Z
+              stars: 12
+              license: GNU Lesser General Public License v3.0
+              description: A highly adaptable modelling framework for multi-energy systems
+              latest_commit_date: '2021-12-01T08:57:26Z'
+              latest_commit_link: /Spine-project/SpineOpt.jl/commit/e547925c518988dcd82efb4f3ea26513b2c5b47e
+              release_date: '2021-09-23T06:40:12Z'
+              release_link: https://github.com/Spine-project/SpineOpt.jl/releases
+              contributors_count: 17
+              contributors_link: https://github.com/Spine-project/SpineOpt.jl/graphs/contributors
+            repos:
+              - url: https://github.com/Spine-project/SpineOpt.jl
+                stars: 12
+            github_start_commit_data:
+              start_commit_link: /Spine-project/SpineOpt.jl/commit/0a93d94e0315f1f5c3ce5592ea5852037abf44ab
+              start_date: '2018-04-04T09:47:23Z'
+            image_data:
+              fileName: spine-opt-jl.svg
+              hash: Xw8K9fWkmITDEFUZ9pU03j3xid+PEAUx38vvk78Tl4k=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Spine Toolbox
+            description: >-
+              Spine Toolbox is an integrated platform for data acquisition and data processing with advanced functionalities for enabling the chaining of tools
+              and models into complex shareable workflows. The software helps users to import and manage data, define models and scenarios and orchestrate
+              projects. It facilitates the linking of models with different scopes, or spatio-temporal resolutions, through the user interface. 
+            homepage_url: http://www.spine-model.org/
+            logo: spine-toolbox.svg
+            repo_url: https://github.com/Spine-project/Spine-Toolbox
+            crunchbase: https://www.crunchbase.com/organization/spine-project
+            extra:
+              documentation: https://spine-toolbox.readthedocs.io/en/latest/?badge=latest
+              maintenance_status: false
+              number_of_publications: 1
+              publication_list:
+                - >-
+                  Kiviluoma, J. Pallonetto, F., Marin, M., Savolainen, P., Soininen, A., Vennström, P., Rinne, E., Huang J., Kouveliotis-Lysikatos, I.,
+                  Ihlemann, M., Delarue, E., O’Dwyer, C., O’Donnel, T., Amelin, M., Söder, L., Dillon, J. Spine Toolbox: A flexible open-source workflow
+                  management system with scenario and data management. Under review.
+              use_cases:
+                - A wide variety of modelling tasks. The tool is agnostic towards the data it manages, so it can also be used beyond energy systems.
+              input_data_formats:
+                - Python API
+                - Julia API
+                - CSV
+                - Excel
+                - GDX
+                - SQL
+                - JSON (or anything through scripting)
+              output_data_formats:
+                - Python API
+                - Julia API
+                - CSV
+                - Excel
+                - GDX
+                - SQL
+                - JSON (or anything through scripting)
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 37
+              infrastructure_sector:
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - ''
+                - ''
+                - ''
+                - ''
+              modeling_paradigm:
+                - Analytics
+                - Data
+                - Visualization
+                - ''
+                - ''
+              capabilities:
+                - Data viewing and editing (list view, tabular view, graph view)
+              user_interface: '['
+              required_dependencies: Python, Spine_DB_API, Spine Items, Spine Engine
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: decades
+              typical_spatial_resolution: ''
+              highest_spatial_resolution: ''
+              typical_temporal_scope: hours
+              largest_temporal_scope: decades
+              typical_spatial_scope: ''
+              largest_spatial_scope: ''
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-threaded computing
+                - Multi-core computing
+                - Distributed computing
+                - ''
+            crunchbase_data:
+              name: Spine Project
+              description: End-to-end energy modeling toolbox that will enable open, practical, flexible and realistic planning of future European energy grids.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.spine-model.org/
+              city: Espoo
+              region: Southern Finland
+              country: Finland
+              twitter: null
+              linkedin: null
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            github_data:
+              languages:
+                - name: Python
+                  value: 4408587
+                  color: '#3572A5'
+                - name: Inno Setup
+                  value: 5860
+                - name: GAMS
+                  value: 4860
+                - name: Batchfile
+                  value: 235
+                  color: '#C1F12E'
+                - name: Julia
+                  value: 127
+                  color: '#a270ba'
+              contributions: 33;22;3;5;27;4;19;21;28;31;53;48;55;30;23;29;22;27;56;43;42;21;8;5;18;19;25;20;17;17;21;7;1;0;13;17;20;7;40;29;34;36;36;10;20;6;21;17;7;2;25;16
+              firstWeek: 2020-12-13Z
+              stars: 37
+              license: GNU Lesser General Public License v3.0
+              description: >-
+                Spine Toolbox is an open source Python package to manage data, scenarios and workflows for modelling and simulation. You can have your local
+                workflow, but work as a team through version control and SQL databases.
+              latest_commit_date: '2021-12-09T12:57:26Z'
+              latest_commit_link: /Spine-project/Spine-Toolbox/commit/c1516902709473ecc02e3ccd807f64805d076441
+              release_date: '2021-09-17T13:22:38Z'
+              release_link: https://github.com/Spine-project/Spine-Toolbox/releases
+              contributors_count: 14
+              contributors_link: https://github.com/Spine-project/Spine-Toolbox/graphs/contributors
+            repos:
+              - url: https://github.com/Spine-project/Spine-Toolbox
+                stars: 37
+            github_start_commit_data:
+              start_commit_link: /Spine-project/Spine-Toolbox/commit/7de4a905d77b35bd4b0173646809d657f88161cf
+              start_date: '2017-12-14T08:30:16Z'
+            image_data:
+              fileName: spine-toolbox.svg
+              hash: eM1wyBS4noeLmQjqRy9CxcP8t5e5ZV3plr6LwX0jfog=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
+            name: Switch
+            description: >-
+              Switch is a capacity-planning model for power systems with large shares of renewable energy, storage and/or demand response. It optimizes
+              investment decisions for renewable and conventional generation, battery or hydrogen storage, hydro and other assets, based on how they would be
+              used during a collection of sample days in many future years. The use of multiple investment periods and chronologically sequenced hours enables
+              optimization and assessment of a long-term renewable transition based on a direct consideration of how these resources would be used hour-by-hour.
+              The Switch platform is highly modular, allowing easy selection between prewritten components or addition of custom components as first-class
+              elements in the model.
+            homepage_url: https://switch-model.org
+            logo: switch.svg
+            repo_url: https://github.com/switch-model/switch
+            project_org: https://github.com/switch-model
+            crunchbase: https://www.crunchbase.com/organization/university-of-hawaii
+            extra:
+              documentation: https://switch-model.org/
+              maintenance_status: false
+              number_of_publications: null
+              publication_list:
+                - 'Partial list:'
+              use_cases:
+                - >-
+                  Find least-cost transition plan for a power system to comply with renewable energy or decarbonization policies, possibly reaching 100%
+                  renewable power
+              input_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              output_data_formats:
+                - CSV
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              operating_systems:
+                - Windows
+                - Mac OSX
+                - Linux
+              github_stars: 90
+              infrastructure_sector:
+                - Electric
+                - Natural Gas
+                - Transportation
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+                - ''
+              represented_behavior:
+                - Built Infrastructure
+                - Financial
+                - Micro-economy
+                - Policy
+              modeling_paradigm:
+                - Equilibrium
+                - Engineering/Design
+                - Optimization
+                - ''
+                - ''
+              capabilities:
+                - Represent power systems in varying degrees of detail, from microgrids to continental grids
+              user_interface: '['
+              required_dependencies: >-
+                Switch requires Python, Pyomo (both open-source) and an external solver. Open-source solvers (GLPK or COIN OR) work well for small models, but
+                large models may require proprietary solvers (e.g., CPLEX or Gurobi). All dependencies are installed automatically when using the Anaconda
+                distribution (
+              point_of_contact: ''
+              typical_temporal_resolution: hours
+              highest_temporal_resolution: minutes
+              typical_spatial_resolution: state
+              highest_spatial_resolution: facility
+              typical_temporal_scope: decades
+              largest_temporal_scope: decades
+              typical_spatial_scope: region
+              largest_spatial_scope: continent
+              language:
+                - null
+                - null
+                - ''
+              parallel_computing_paradigm:
+                - Multi-core computing
+                - Cluster computing
+                - ''
+                - ''
+            crunchbase_data:
+              name: University of Hawaii
+              description: The University of Hawaiʻi Foundation was established in 1955 to encourage private support for the University of Hawaiʻi.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.hawaii.edu/
+              city: Honolulu
+              region: Hawaii
+              country: United States
+              twitter: https://twitter.com/uhawaiinews
+              linkedin: https://www.linkedin.com/company/1781130
+              acquisitions: []
+              parents: []
+              funding: 13060000
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Training
+                - Universities
+              kind: funding
+            github_data:
+              description: Optimal planning model for power systems with large shares of renewable energy
+              contributors_count: 396
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 97
+              languages:
+                - name: Python
+                  value: 1581628
+                  color: '#3572A5'
+                - name: C
+                  value: 12581
+                  color: '#555555'
+                - name: Shell
+                  value: 11446
+                  color: '#89e051'
+                - name: R
+                  value: 7406
+                  color: '#198CE7'
+              latest_commit_link: /switch-model/switch/commit/60a59533a62fe7b50c931519765d3c2a998aedc5
+              latest_commit_date: '2021-03-09T21:38:25Z'
+              firstWeek: 2020-12-13Z
+              license: Other
+              contributors_link: https://github.com/switch-model/switch/graphs/contributors
+            repos:
+              - url: https://github.com/switch-model/switch
+                stars: 90
+              - url: https://github.com/switch-model/DEPRECATED-switch-hawaii-studies
+                stars: 2
+              - url: https://github.com/switch-model/DEPRECATED-switch-hawaii-core
+                stars: 2
+              - url: https://github.com/switch-model/switch_tutorial
+                stars: 2
+              - url: https://github.com/switch-model/staged-recipes
+                stars: 1
+              - url: https://github.com/switch-model/switch_model-feedstock
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /switch-model/switch/commit/8b46c0e59424a94acc0bd28390c04746010165d6
+              start_date: '2015-04-08T00:59:34Z'
+            image_data:
+              fileName: switch.svg
+              hash: uUNvfmFMRljtlfeMngojwiuPZjOf8QtBXrE6whWtbCQ=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2021-12-09T15:54:02.000Z
+  - category:
     name: LF Energy Member
     subcategories:
       - subcategory:
@@ -5872,7 +7680,6 @@ landscape:
             name: RTE (Reseau de Transport dElectricite)
             homepage_url: https://rte-france.com/
             logo: rte_reseau_de_transport_delectricite.svg
-            twitter: https://twitter.com/rte_france
             crunchbase: https://www.crunchbase.com/organization/rte-france
             crunchbase_data:
               name: RTE France
@@ -5907,7 +7714,6 @@ landscape:
             name: AVEVA Group
             homepage_url: https://aveva.com/
             logo: aveva_group.svg
-            twitter: https://twitter.com/AVEVAGroup
             crunchbase: https://www.crunchbase.com/organization/aveva
             crunchbase_data:
               name: AVEVA
@@ -5974,7 +7780,6 @@ landscape:
             name: Blockchain Technology Partners
             homepage_url: https://blockchaintp.com/
             logo: blockchain_technology_partners.svg
-            twitter: https://twitter.com/blockchaintp
             crunchbase: https://www.crunchbase.com/organization/blockchain-technology-partners
             crunchbase_data:
               name: BTP
@@ -6009,7 +7814,6 @@ landscape:
             name: CloudBees, Inc.
             homepage_url: https://cloudbees.com/
             logo: cloudbees_inc.svg
-            twitter: https://twitter.com/CloudBees
             crunchbase: https://www.crunchbase.com/organization/cloudbees
             crunchbase_data:
               name: CloudBees
@@ -6092,7 +7896,6 @@ landscape:
             name: General Electric Company
             homepage_url: https://ge.com/
             logo: general_electric_company.svg
-            twitter: https://twitter.com/generalelectric
             crunchbase: https://www.crunchbase.com/organization/general-electric
             crunchbase_data:
               name: General Electric
@@ -6206,7 +8009,6 @@ landscape:
             name: Hitachi, Ltd.
             homepage_url: https://hitachi.com/
             logo: hitachi_ltd.svg
-            twitter: https://twitter.com/HitachiGlobal
             crunchbase: https://www.crunchbase.com/organization/hitachi
             crunchbase_data:
               name: Hitachi
@@ -6311,7 +8113,6 @@ landscape:
             name: Microsoft Corporation
             homepage_url: https://www.microsoft.com/en-us
             logo: microsoft_corporation.svg
-            twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
             crunchbase_data:
               name: Microsoft
@@ -6943,7 +8744,6 @@ landscape:
             name: Savoir-faire Linux
             homepage_url: https://savoirfairelinux.com/fr
             logo: savoir-faire_linux.svg
-            twitter: https://twitter.com/SFLinux
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
             crunchbase_data:
               name: Savoir-faire Linux
@@ -7181,7 +8981,6 @@ landscape:
             name: Delft University of Technology
             homepage_url: https://tudelft.nl/
             logo: delft_university_of_technology.svg
-            twitter: https://twitter.com/tudelft
             crunchbase: https://www.crunchbase.com/organization/delft-university-of-technology
             crunchbase_data:
               name: Delft University of Technology
@@ -7444,7 +9243,6 @@ landscape:
             name: Fraunhofer Gesellschaft IIS
             homepage_url: https://iis.fraunhofer.de/
             logo: fraunhofer_gesellschaft_iis.svg
-            twitter: https://twitter.com/Fraunhofer
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
             crunchbase_data:
               name: Fraunhofer-Gesellschaft
@@ -7514,7 +9312,6 @@ landscape:
             name: Friedrich-Alexander-University (FAU)
             homepage_url: https://fau.eu/
             logo: friedrich-alexander-university_fau.svg
-            twitter: https://twitter.com/UniFAU
             crunchbase: https://www.crunchbase.com/organization/university-of-erlangen-nuremberg
             crunchbase_data:
               name: Friedrich Alexander Universität Erlangen Nürnberg
@@ -7615,7 +9412,6 @@ landscape:
             name: Lucerne University of Applied Sciences
             homepage_url: https://www.hslu.ch/de-ch
             logo: lucerne_university_of_applied_sciences.svg
-            twitter: https://twitter.com/hslu
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
             crunchbase_data:
               name: Lucerne University of Applied Sciences and Arts
@@ -7646,7 +9442,6 @@ landscape:
             name: Monash University
             homepage_url: https://monash.edu/
             logo: monash_university.svg
-            twitter: https://twitter.com/MonashUni
             crunchbase: https://www.crunchbase.com/organization/monash-university
             crunchbase_data:
               name: Monash University
@@ -7713,7 +9508,6 @@ landscape:
             name: Open Earth Foundation
             homepage_url: https://openearth.org
             logo: open_earth_foundation.svg
-            twitter: https://twitter.com/Open__Earth
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
             crunchbase_data:
               name: Open Earth Foundation
@@ -7778,7 +9572,6 @@ landscape:
             description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
-            twitter: https://twitter.com/openuk_uk
             crunchbase: https://www.crunchbase.com/organization/openuk
             crunchbase_data:
               name: OpenUK
@@ -7808,7 +9601,6 @@ landscape:
             name: Pecan Street Inc.
             homepage_url: https://pecanstreet.org/
             logo: pecan_street_inc.svg
-            twitter: https://twitter.com/pecanstreetinc
             crunchbase: https://www.crunchbase.com/organization/pecan-street
             crunchbase_data:
               name: Pecan Street
@@ -7841,7 +9633,6 @@ landscape:
             name: Project Haystack
             homepage_url: https://project-haystack.org/
             logo: project_haystack.svg
-            twitter: https://twitter.com/haystackTagging
             crunchbase: https://www.crunchbase.com/organization/project-haystack
             crunchbase_data:
               name: Project Haystack
@@ -7908,7 +9699,6 @@ landscape:
             name: Stanford University
             homepage_url: https://stanford.edu/
             logo: stanford_university.svg
-            twitter: https://twitter.com/Stanford
             crunchbase: https://www.crunchbase.com/organization/stanford-university
             crunchbase_data:
               name: Stanford University
@@ -7943,7 +9733,6 @@ landscape:
             name: The Alan Turing Institute
             homepage_url: https://turing.ac.uk/
             logo: the_alan_turing_institute.svg
-            twitter: https://twitter.com/turinginst
             crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
             crunchbase_data:
               name: Alan Turing Institute
@@ -8009,7 +9798,6 @@ landscape:
             name: University of Kassel
             homepage_url: https://www.uni-kassel.de/uni
             logo: university_of_kassel.svg
-            twitter: https://twitter.com/presseunikassel
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
             crunchbase_data:
               name: University of Kassel
@@ -8076,7 +9864,6 @@ landscape:
             name: Washington State University
             homepage_url: https://wsu.edu/
             logo: washington_state_university.svg
-            twitter: https://twitter.com/WSUPullman
             crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
             crunchbase_data:
               name: Washington State University
