@@ -1,0 +1,566 @@
+name: Tool Form
+description: Submit a tool
+labels: []
+assignees:
+  - kdheepak
+body:
+  - type: markdown
+    attributes:
+      value: "## Welcome!"
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit your tool for consideration!
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: What is the software tool called?
+      placeholder: XYZ
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add screenshots of your tool 
+      placeholder: Drag images that you want to upload into this text area.
+  - type: input
+    id: focus_topic
+    attributes:
+      label: Focus Topic
+      description: Provide a few words to describe your model
+      placeholder: e.g. Our tool uses ABC modeling approaches and allows for planning support
+    validations:
+      required: true
+  - type: input
+    id: primary_purpose
+    attributes:
+      label: Primary Purpose
+      description: Give a short description of the tool
+      placeholder: e.g. Our tool uses ABC modeling approach developed by John Doe et al and supports ...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give a long description of the tool
+      placeholder: ...
+  - type: textarea
+    id: mathematical-description
+    attributes:
+      label: Mathematical Description
+      description: Describe the mathematic problem represented by the tool
+      placeholder: e.g. cost minimizing linear program with economic objective
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: Landing page for your software tool
+      placeholder: https://xyz.com/
+    validations:
+      required: true
+  - type: input
+    id: documentation
+    attributes:
+      label: Documentation
+      description: Documentation for your software tool
+      placeholder: https://docs.xyz.com/
+    validations:
+      required: false
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Source code for your software tool
+      placeholder: https://github.com/XYZ/xyz
+    validations:
+      required: false
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      description: Year the tool was originally created or released
+      placeholder: "2000"
+    validations:
+      required: true
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      description: Institution affiliation
+      placeholder: ABC
+    validations:
+      required: false
+  - type: input
+    id: funding
+    attributes:
+      label: Funding Source
+      description: Primary Funding Source
+      placeholder: e.g. DOE
+    validations:
+      required: false
+  - type: input
+    id: publications
+    attributes:
+      label: Publications
+      description: How many works have been published as a direct result of the tool?
+      placeholder: "Enter integer number of publications here (e.g. 10)"
+      value: "0"
+    validations:
+      required: false
+  - type: textarea
+    id: publications-list
+    attributes:
+      label: Publication List
+      description: List of publications
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use Cases
+      description: Describe the use cases for the tool, include descriptions of region, study question, and other details.
+      placeholder: e.g. 1 - The model evaluates a range of scenarios of renewable integrations to Los Angeles Department of Water and Power (LADWP). 2 - The model has been indirectly referred in a relevant official document.
+  - type: checkboxes
+    id: infrastructure-sector
+    attributes:
+      label: Infrastructure Sector
+      description: What Infrastructure Sector does this software tool model?
+      options:
+        - label: Atmospheric dispersion
+        - label: Agriculture
+        - label: Biomass
+        - label: Buildings
+        - label: Communications
+        - label: Cooling
+        - label: Ecosystems
+        - label: Electric
+        - label: District heating
+        - label: Forestry
+        - label: Health
+        - label: Hydrogen
+        - label: Individual heating
+        - label: Land use
+        - label: Liquid fuels
+        - label: Natural Gas
+        - label: Transportation
+        - label: Water
+  - type: checkboxes
+    id: represented-behavior
+    attributes:
+      label: Represented Behavior
+      description: What is the represented behavior that the tool is modeling?
+      options:
+        - label: Earth Systems
+        - label: Employment
+        - label: Built Infrastructure
+        - label: Financial
+        - label: Macro-economy
+        - label: Micro-economy
+        - label: Policy
+        - label: Social
+  - type: checkboxes
+    id: modeling-paradigm
+    attributes:
+      label: Modeling Paradigm
+      description: What modeling Paradigm does this software tool follow?
+      options:
+        - label: Analytics
+        - label: Data
+        - label: Discrete Simulation
+        - label: Dynamic Simulation
+        - label: Equilibrium
+        - label: Engineering/Design
+        - label: Optimization
+        - label: Visualization
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: Capabilities
+      description: "Describe the software tool capabilities."
+      placeholder: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: false
+  - type: checkboxes
+    id: programming-language
+    attributes:
+      label: Programming Language
+      description: What is the software tool written in and what programming languages does it support?
+      options:
+        - label: C – ISO/IEC 9899
+        - label: C++ (C plus plus) – ISO/IEC 14882
+        - label: C# (C sharp) – ISO/IEC 23270
+        - label: Delphi
+        - label: GAMS (General Algebraic Modeling System)
+        - label: Go
+        - label: Haskell
+        - label: Java
+        - label: JavaScript(Scripting language)
+        - label: Julia
+        - label: Kotlin
+        - label: LabVIEW
+        - label: Lua
+        - label: MATLAB
+        - label: Modelica
+        - label: Nim
+        - label: Object Pascal
+        - label: Octave
+        - label: Pascal Script
+        - label: Python
+        - label: R
+        - label: Rust
+        - label: Simulink
+        - label: Swift (Apple programming language)
+        - label: WebAssembly
+        - label: Zig
+  - type: input
+    id: required_dependencies
+    attributes:
+      label: Required Dependencies
+      description: List required dependencies
+      placeholder: e.g. Our model will need a GAMS license and the CPLEX solver
+    validations:
+      required: false
+  - type: dropdown
+    id: license
+    attributes:
+      label: What is the software tool's license?
+      multiple: false
+      options:
+        - Commerical
+        - 0-clause BSD License (0BSD)
+        - 1-clause BSD License (BSD-1-Clause)
+        - 2-clause BSD License (BSD-2-Clause)
+        - 3-clause BSD License (BSD-3-Clause)
+        - Academic Free License 3.0 (AFL-3.0)
+        - Adaptive Public License (APL-1.0)
+        - Apache License 2.0 (Apache-2.0)
+        - Apple Public Source License (APSL-2.0)
+        - Artistic License 2.0 (Artistic-2.0)
+        - Attribution Assurance License (AAL)
+        - Boost Software License (BSL-1.0)
+        - BSD+Patent (BSD-2-Clause-Patent)
+        - CERN Open Hardware Licence Version 2 - Permissive
+        - CERN Open Hardware Licence Version 2 - Weakly Reciprocal
+        - CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+        - CeCILL License 2.1 (CECILL-2.1)
+        - Common Development and Distribution License 1.0 (CDDL-1.0)
+        - Common Public Attribution License 1.0 (CPAL-1.0)
+        - Computer Associates Trusted Open Source License 1.1 (CATOSL-1.1)
+        - Cryptographic Autonomy License v.1.0 (CAL-1.0)
+        - CUA Office Public License Version 1.0 (CUA-OPL-1.0) (retired)
+        - Eclipse Public License 2.0 (EPL-2.0)
+        - eCos License version 2.0 (eCos-2.0)
+        - Educational Community License, Version 2.0 (ECL-2.0)
+        - Eiffel Forum License V2.0 (EFL-2.0)
+        - Entessa Public License (Entessa)
+        - EU DataGrid Software License (EUDatagrid)
+        - European Union Public License 1.2 (EUPL-1.2) (links to every language's version on their site)
+        - Fair License (Fair)
+        - Frameworx License (Frameworx-1.0)
+        - Free Public License 1.0.0 (0BSD)
+        - GNU Affero General Public License version 3 (AGPL-3.0)
+        - GNU General Public License version 2 (GPL-2.0)
+        - GNU General Public License version 3 (GPL-3.0)
+        - GNU Lesser General Public License version 2.1 (LGPL-2.1)
+        - GNU Lesser General Public License version 3 (LGPL-3.0)
+        - Historical Permission Notice and Disclaimer (HPND)
+        - IBM Public License 1.0 (IPL-1.0)
+        - Intel Open Source License (Intel) (retired)
+        - IPA Font License (IPA)
+        - ISC License (ISC)
+        - Jabber Open Source License (retired)
+        - LaTeX Project Public License 1.3c (LPPL-1.3c)
+        - Lawrence Berkeley National Labs BSD Variant License (BSD-3-Clause-LBNL)
+        - Licence Libre du Québec – Permissive (LiLiQ-P) version 1.1 (LiliQ-P)
+        - Licence Libre du Québec – Réciprocité (LiLiQ-R) version 1.1 (LiliQ-R)
+        - Licence Libre du Québec – Réciprocité forte (LiLiQ-R+) version 1.1 (LiliQ-R+)
+        - Lucent Public License Version 1.02 (LPL-1.02)
+        - Microsoft Public License (MS-PL)
+        - Microsoft Reciprocal License (MS-RL)
+        - MirOS Licence (MirOS)
+        - MIT License (MIT)
+        - MIT No Attribution License (MIT-0)
+        - MITRE Collaborative Virtual Workspace License (CVW) (retired)
+        - Motosoto License (Motosoto)
+        - Mozilla Public License 2.0 (MPL-2.0)
+        - Mulan Permissive Software License v2 (MulanPSL - 2.0)
+        - Multics License (Multics)
+        - NASA Open Source Agreement 1.3 (NASA-1.3)
+        - Naumen Public License (Naumen)
+        - Nethack General Public License (NGPL)
+        - Nokia Open Source License (Nokia)
+        - Non-Profit Open Software License 3.0 (NPOSL-3.0)
+        - NTP License (NTP)
+        - OCLC Research Public License 2.0 (OCLC-2.0)
+        - Open Group Test Suite License (OGTSL)
+        - Open Software License 3.0 (OSL-3.0)
+        - OpenLDAP Public License Version 2.8 (OLDAP-2.8)
+        - OSET Public License version 2.1
+        - PHP License 3.01 (PHP-3.01)
+        - The PostgreSQL License (PostgreSQL)
+        - Python License (Python-2.0) (overall Python license)
+        - CNRI Python license (CNRI-Python) (CNRI portion of Python License)
+        - Q Public License (QPL-1.0)
+        - RealNetworks Public Source License V1.0 (RPSL-1.0)
+        - Reciprocal Public License 1.5 (RPL-1.5)
+        - Ricoh Source Code Public License (RSCPL)
+        - SIL Open Font License 1.1 (OFL-1.1)
+        - Simple Public License 2.0 (SimPL-2.0)
+        - Sleepycat License (Sleepycat)
+        - Sun Industry Standards Source License (SISSL) (retired)
+        - Sun Public License 1.0 (SPL-1.0)
+        - Sybase Open Watcom Public License 1.0 (Watcom-1.0)
+        - Universal Permissive License (UPL)
+        - University of Illinois/NCSA Open Source License (NCSA)
+        - Upstream Compatibility License v1.0
+        - Unicode Data Files and Software License
+        - The Unlicense
+        - Vovida Software License v. 1.0 (VSL-1.0)
+        - W3C License (W3C)
+        - wxWindows Library License (WXwindows)
+        - X.Net License (Xnet)
+        - Zero-Clause BSD (0BSD)
+        - Zope Public License 2.0 (ZPL-2.0)
+        - zlib/libpng license (Zlib)
+  - type: checkboxes
+    id: operating-system-support
+    attributes:
+      label: Operating System Support
+      description: What languages are directly supported by the software tool?
+      options:
+        - label: Windows
+        - label: Mac OSX
+        - label: Linux
+        - label: iOS
+        - label: Android
+  - type: checkboxes
+    id: user_interface
+    attributes:
+      label: User Interface
+      description: What user interfaces are supported by the software tool?
+      options:
+        - label: Programmatic
+        - label: Command line
+        - label: Web based
+        - label: Graphical user
+        - label: Menu driven
+        - label: Form based
+        - label: Natural language
+  - type: checkboxes
+    id: parallel-computing
+    attributes:
+      label: Parallel Computing Paradigm
+      description: Classification of parallel computing paradigm used in tool (https://en.wikipedia.org/wiki/Parallel_computing#Classes_of_parallel_computers)
+      options:
+        - label: Multi-threaded computing
+        - label: Multi-core computing
+        - label: Distributed computing
+        - label: Cluster computing
+        - label: Massively parallel computing
+        - label: Grid computing
+        - label: Reconfigurable computing with field-programmable gate arrays (FPGA)
+        - label: General-purpose computing on graphics processing units
+        - label: Application-specific integrated circuits
+        - label: Vector processors
+  - type: dropdown
+    id: highest-temporal-resolution
+    attributes:
+      label: What is the highest temporal resolution supported by the tool?
+      multiple: false
+      options:
+        - Instant
+        - Milliseconds
+        - Seconds
+        - Minutes
+        - Hours
+        - Days
+        - Months
+        - Years
+        - Decades
+        - Not Applicable
+    validations:
+      required: true
+  - type: dropdown
+    id: typical-temporal-resolution
+    attributes:
+      label: What is the typical temporal resolution supported by the tool?
+      multiple: false
+      options:
+        - Instant
+        - Milliseconds
+        - Seconds
+        - Minutes
+        - Hours
+        - Days
+        - Months
+        - Years
+        - Decades
+    validations:
+      required: false
+  - type: dropdown
+    id: largest-temporal-scope
+    attributes:
+      label: What is the largest temporal scope supported by the tool?
+      multiple: false
+      options:
+        - Instant
+        - Milliseconds
+        - Seconds
+        - Minutes
+        - Hours
+        - Days
+        - Months
+        - Years
+        - Decades
+        - Not Applicable
+    validations:
+      required: true
+  - type: dropdown
+    id: typical-temporal-scope
+    attributes:
+      label: What is the typical temporal scope supported by the tool?
+      multiple: false
+      options:
+        - Instant
+        - Milliseconds
+        - Seconds
+        - Minutes
+        - Hours
+        - Days
+        - Months
+        - Years
+        - Decades
+    validations:
+      required: false
+  - type: dropdown
+    id: highest-spatial-resolution
+    attributes:
+      label: What is the highest spatial resolution supported by the tool?
+      multiple: false
+      options:
+        - Component
+        - Device
+        - Facility
+        - Municipality
+        - County
+        - State
+        - Region
+        - Country
+        - Continent
+        - Global
+        - Not Applicable
+    validations:
+      required: true
+  - type: dropdown
+    id: typical-spatial-resolution
+    attributes:
+      label: What is the typical spatial resolution supported by the tool?
+      multiple: false
+      options:
+        - Component
+        - Device
+        - Facility
+        - Municipality
+        - County
+        - State
+        - Region
+        - Country
+        - Continent
+        - Global
+    validations:
+      required: false
+  - type: dropdown
+    id: largest-spatial-scope
+    attributes:
+      label: What is the largest spatial scope supported by the tool?
+      multiple: false
+      options:
+        - Component
+        - Device
+        - Facility
+        - Municipality
+        - County
+        - State
+        - Region
+        - Country
+        - Continent
+        - Global
+        - Not Applicable
+    validations:
+      required: true
+  - type: dropdown
+    id: typical-spatial-scope
+    attributes:
+      label: What is the typical spatial scope supported by the tool?
+      multiple: false
+      options:
+        - Component
+        - Device
+        - Facility
+        - Municipality
+        - County
+        - State
+        - Region
+        - Country
+        - Continent
+        - Global
+    validations:
+      required: false
+  - type: input
+    id: input-data
+    attributes:
+      label: Input Data Format
+      description: What is the input data formats supported by your tool?
+      placeholder: e.g. JSON, CSV
+    validations:
+      required: true
+  - type: input
+    id: input-data-description
+    attributes:
+      label: Input Data Description
+      description: What is the input data description of your tool?
+      placeholder: e.g. O&M costs, energy availability
+    validations:
+      required: false
+  - type: input
+    id: output-data
+    attributes:
+      label: Output Data Format
+      description: What is the output data formats supported by your tool?
+      placeholder: e.g. CSV, XML
+    validations:
+      required: true
+  - type: input
+    id: output-data-description
+    attributes:
+      label: Output Data Description
+      description: What is the output data description of your tool?
+      placeholder: e.g. detailed report about selected energy scenario, pollutants emissions, financial indicators
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: interface_integration_linkage
+    attributes:
+      label: Interface, Integration, and Linkage
+      description: References to the GitHub issue of interfaced/integrated/linked tool(s)
+      placeholder: e.g.#24,#6
