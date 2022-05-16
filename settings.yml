@@ -29,7 +29,7 @@ relation:
       label: LF Energy Projects
       children:
         - id: graduated
-          label: Graduated
+          label: Technical Project - Graduated
           prefix: LF Energy
           tag: Graduated
           color: '#3570af'
@@ -38,9 +38,33 @@ relation:
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: earlyadoption
-          label: Early Adoption
+          label: Technical Project - Early Adoption
           prefix: LF Energy
           tag: Early Adoption
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Early Adoption
+          big_picture_color: rgb(24,54,114)
+        - id: development
+          label: Development
+          prefix: LF Energy
+          tag: Standards Project - Development
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Incubation
+          big_picture_color: rgb(24,54,114)
+        - id: stable
+          label: Standards Project - Stable
+          prefix: LF Energy
+          tag: Stable
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Early Adoption
+          big_picture_color: rgb(24,54,114)
+        - id: workinggroup
+          label: Working Group
+          prefix: LF Energy
+          tag: Stable
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Early Adoption
@@ -48,7 +72,7 @@ relation:
         - id: incubation
           label: Incubation
           prefix: LF Energy
-          tag: Incubation
+          tag: Technical Project - Incubation
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Incubation
