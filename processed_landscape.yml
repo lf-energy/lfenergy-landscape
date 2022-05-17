@@ -1120,6 +1120,79 @@ landscape:
         name: Data Management
         items:
           - item:
+            name: Carbon Data Specification Consortium (CDSC)
+            homepage_url: https://carbondataspec.org/
+            project: sandbox
+            repo_url: https://github.com/carbon-data-specification/Steering_Committee
+            project_org: https://github.com/carbon-data-specification
+            logo: carbon-data-specification.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/cdsc-tsc
+              slack_channel: '#cdsc'
+              LFX_insights_url: none
+              wiki_page: none
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: >-
+                https://open-web-calendar.herokuapp.com/calendar.html?specification_url=https://raw.githubusercontent.com/carbon-data-specification/.github/main/CDSC-Community-Calendar.json
+              contribution_guidelines: none
+              project_lead: none
+            crunchbase_data:
+              name: LF Energy
+              description: Open Source will speed technological innovation and enable the energy transition, globally.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.lfenergy.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/LFE_Foundation
+              linkedin: https://www.linkedin.com/company/lf-energy
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Energy
+                - Open Source
+                - Power Grid
+                - Software
+            github_data:
+              description: ''
+              contributors_count: 5
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;17;0;8;8;4;4;14;16;0;3;16;0;0;0;0;0;0;0
+              stars: 11
+              languages: []
+              latest_commit_link: /carbon-data-specification/Steering_Committee/commit/3c32aaf4c65330939c2938a14df3798c707a84e4
+              latest_commit_date: '2022-03-02T15:34:55Z'
+              firstWeek: 2021-05-23Z
+              license: Other
+              contributors_link: https://github.com/carbon-data-specification/Steering_Committee/graphs/contributors
+            repos:
+              - url: https://github.com/carbon-data-specification/Steering_Committee
+                stars: 1
+              - url: https://github.com/carbon-data-specification/Customer-Data
+                stars: 5
+              - url: https://github.com/carbon-data-specification/Power-Systems-Data
+                stars: 3
+              - url: https://github.com/carbon-data-specification/.github
+                stars: 1
+              - url: https://github.com/carbon-data-specification/Strategy_Committee
+                stars: 1
+            github_start_commit_data:
+              start_commit_link: /carbon-data-specification/Steering_Committee/commit/4efb73f0fd7662b33afcec435a01b8df40d88fd9
+              start_date: '2022-01-10T00:50:26Z'
+            image_data:
+              fileName: carbon-data-specification-consortium-cdsc.svg
+              hash: zGdptieLllIbYZnmJL0EbE16R9fGjKQtWaGC3lYFAVw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-05-13T17:40:24.000Z
+          - item:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io
             project: incubation
@@ -6299,7 +6372,7 @@ landscape:
         items:
           - item:
             name: Alliander
-            homepage_url: https://www.alliander.com/nl/oude-browser
+            homepage_url: https://alliander.com/
             logo: alliander.svg
             twitter: https://twitter.com/Alliander
             crunchbase: https://www.crunchbase.com/organization/alliander
@@ -7411,10 +7484,10 @@ landscape:
           - item:
             name: Indra
             homepage_url: https://indracompany.com/
-            stock_ticker: null
             logo: indra.svg
             twitter: https://twitter.com/IndraCompany
             crunchbase: https://www.crunchbase.com/organization/indra
+            stock_ticker: null
             crunchbase_data:
               name: Indra
               description: Indra provides information technology offerings for finance, insurance, public administration, airports, defense, healthcare, and media.
@@ -7461,42 +7534,8 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-05-13T14:07:25.000Z
           - item:
-            name: M-RETS, Inc.
-            homepage_url: https://mrets.org/
-            logo: m-rets_inc.svg
-            twitter: https://twitter.com/TrackEnergy
-            crunchbase: https://www.crunchbase.com/organization/m-rets
-            crunchbase_data:
-              name: M-RETS
-              description: M-RETS validates the environmental attributes of energy to serve as a trusted centralized gateway to environmental markets.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: https://mrets.org
-              city: Minneapolis
-              region: Minnesota
-              country: United States
-              twitter: null
-              linkedin: https://www.linkedin.com/company/midwest-renewable-energy-tracking-system-m-rets-/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Email
-                - Energy
-                - Environmental Engineering
-                - Renewable Energy
-            image_data:
-              fileName: m-rets-inc.svg
-              hash: /caEeCX4XJ0I/+JCCyPcRZO/KJGPGchwuroAcpLJdVY=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-04-27T14:39:41.000Z
-          - item:
             name: Microsoft Corporation
-            homepage_url: https://www.microsoft.com/en-us
+            homepage_url: https://microsoft.com/
             logo: microsoft_corporation.svg
             twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
@@ -8098,8 +8137,42 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-05-13T17:35:02.000Z
           - item:
+            name: M-RETS, Inc.
+            homepage_url: https://mrets.org/
+            logo: m-rets_inc.svg
+            twitter: https://twitter.com/TrackEnergy
+            crunchbase: https://www.crunchbase.com/organization/m-rets
+            crunchbase_data:
+              name: M-RETS
+              description: M-RETS validates the environmental attributes of energy to serve as a trusted centralized gateway to environmental markets.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://mrets.org
+              city: Minneapolis
+              region: Minnesota
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/midwest-renewable-energy-tracking-system-m-rets-/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Email
+                - Energy
+                - Environmental Engineering
+                - Renewable Energy
+            image_data:
+              fileName: m-rets-inc.svg
+              hash: /caEeCX4XJ0I/+JCCyPcRZO/KJGPGchwuroAcpLJdVY=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-04-27T14:39:41.000Z
+          - item:
             name: Pionix GmbH
-            homepage_url: https://pionix.com
+            homepage_url: https://pionix.de/
             logo: pionix_gmbh.svg
             twitter: https://twitter.com/PionixDe
             organization:
@@ -8153,7 +8226,7 @@ landscape:
               latest_tweet_date: 2022-05-11T18:42:37.000Z
           - item:
             name: Savoir-faire Linux
-            homepage_url: https://savoirfairelinux.com/fr
+            homepage_url: https://savoirfairelinux.com/
             logo: savoir-faire_linux.svg
             twitter: https://twitter.com/SFLinux
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
@@ -8185,7 +8258,7 @@ landscape:
               latest_tweet_date: 2022-05-10T12:18:50.000Z
           - item:
             name: Sense Reply
-            homepage_url: https://www.reply.com/en
+            homepage_url: https://sensereply.com/
             logo: sense_reply.svg
             twitter: https://twitter.com/Reply_UK
             crunchbase: https://www.crunchbase.com/organization/reply-com
@@ -8271,7 +8344,7 @@ landscape:
               latest_tweet_date: 2022-05-09T07:52:59.000Z
           - item:
             name: TenneT
-            homepage_url: https://tennet.eu/nl
+            homepage_url: https://tennet.eu/
             logo: tennet.svg
             twitter: https://twitter.com/TenneTTSO
             crunchbase: https://www.crunchbase.com/organization/tennet
@@ -8561,6 +8634,21 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-05-12T14:47:46.000Z
           - item:
+            name: EnergyAi
+            homepage_url: https://energyai.berlin/
+            logo: energyai.svg
+            organization:
+              name: EnergyAi
+            crunchbase_data:
+              name: EnergyAi
+              parents: []
+            image_data:
+              fileName: energy-ai.svg
+              hash: daNATQ8le2AMB7MdXAnUJobOEtwNCE05MM/jyr2/0kA=
+            best_practice_data:
+              badge: false
+              percentage: null
+          - item:
             name: Energy Foundation
             homepage_url: https://ef.org/
             logo: energy_foundation.svg
@@ -8594,21 +8682,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-05-13T14:42:00.000Z
-          - item:
-            name: EnergyAi
-            homepage_url: https://energyai.berlin/
-            logo: energyai.svg
-            organization:
-              name: EnergyAi
-            crunchbase_data:
-              name: EnergyAi
-              parents: []
-            image_data:
-              fileName: energy-ai.svg
-              hash: daNATQ8le2AMB7MdXAnUJobOEtwNCE05MM/jyr2/0kA=
-            best_practice_data:
-              badge: false
-              percentage: null
           - item:
             name: ENTSO-E (European Network of Transmission System Operators)
             homepage_url: https://entsoe.eu/
@@ -8644,7 +8717,7 @@ landscape:
               latest_tweet_date: 2022-05-13T14:12:12.000Z
           - item:
             name: EPFL
-            homepage_url: https://www.epfl.ch/fr
+            homepage_url: https://epfl.ch/
             logo: epfl.svg
             twitter: https://twitter.com/EPFL_en
             crunchbase: https://www.crunchbase.com/organization/epfl
@@ -8890,7 +8963,7 @@ landscape:
               latest_tweet_date: 2022-05-12T12:04:07.000Z
           - item:
             name: Lucerne University of Applied Sciences
-            homepage_url: https://www.hslu.ch/de-ch
+            homepage_url: https://hslu.ch/
             logo: lucerne_university_of_applied_sciences.svg
             twitter: https://twitter.com/hslu
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
@@ -8987,39 +9060,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-05-13T22:00:03.000Z
           - item:
-            name: Open Earth Foundation
-            homepage_url: https://www.openearth.org
-            logo: open_earth_foundation.svg
-            twitter: https://twitter.com/Open__Earth
-            crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
-            crunchbase_data:
-              name: Open Earth Foundation
-              description: Open Earth Foundation is a non-profit organization that develops transformative open-source business platforms.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: https://www.openfoundation.earth/
-              city: Marina Del Rey
-              region: California
-              country: United States
-              twitter: https://twitter.com/Open__Earth
-              linkedin: https://www.linkedin.com/company/open-earth-foundation/
-              acquisitions: []
-              parents: []
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Business Development
-                - Digital Marketing
-                - Information Technology
-            image_data:
-              fileName: open-earth-foundation.svg
-              hash: e+hxHtoCU0ZaTYDMq8/Sx02VRt/3EVIRVW0QJxCLVuI=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2022-05-02T20:01:23.000Z
-          - item:
             name: OpenADR Alliance
             homepage_url: https://openadr.org/
             logo: openadr_alliance.svg
@@ -9051,12 +9091,45 @@ landscape:
             twitter_data:
               latest_tweet_date: 2022-05-12T14:44:46.000Z
           - item:
+            name: Open Earth Foundation
+            homepage_url: https://openfoundation.earth/
+            logo: open_earth_foundation.svg
+            twitter: https://twitter.com/Open__Earth
+            crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
+            crunchbase_data:
+              name: Open Earth Foundation
+              description: Open Earth Foundation is a non-profit organization that develops transformative open-source business platforms.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.openfoundation.earth/
+              city: Marina Del Rey
+              region: California
+              country: United States
+              twitter: https://twitter.com/Open__Earth
+              linkedin: https://www.linkedin.com/company/open-earth-foundation/
+              acquisitions: []
+              parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Business Development
+                - Digital Marketing
+                - Information Technology
+            image_data:
+              fileName: open-earth-foundation.svg
+              hash: e+hxHtoCU0ZaTYDMq8/Sx02VRt/3EVIRVW0QJxCLVuI=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-05-02T20:01:23.000Z
+          - item:
             name: OpenUK
-            description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
             twitter: https://twitter.com/openuk_uk
             crunchbase: https://www.crunchbase.com/organization/openuk
+            description: Where the UK’s Open communities meet and collaborate
             crunchbase_data:
               name: OpenUK
               description: We are the UK not for profit organisation committed to develop and sustain UK leadership in Open Technology
@@ -9150,7 +9223,7 @@ landscape:
               latest_tweet_date: 2022-05-12T18:39:48.000Z
           - item:
             name: RWTH Aachen University
-            homepage_url: https://www.rwth-aachen.de/cms/~a/root
+            homepage_url: https://rwth-aachen.de/
             logo: rwth_aachen_university.svg
             twitter: https://twitter.com/IGaD_RWTH
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
@@ -9284,7 +9357,7 @@ landscape:
               latest_tweet_date: 2022-05-13T21:00:28.000Z
           - item:
             name: University of Kassel
-            homepage_url: https://www.uni-kassel.de/uni
+            homepage_url: https://uni-kassel.de/
             logo: university_of_kassel.svg
             twitter: https://twitter.com/presseunikassel
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
