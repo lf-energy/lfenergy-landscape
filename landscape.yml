@@ -918,10 +918,14 @@ landscape:
             twitter: https://twitter.com/Google
             crunchbase: https://www.crunchbase.com/organization/google
           - item:
+            name: Microsoft Corporation
+            homepage_url: https://microsoft.com/
+            logo: microsoft_corporation.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
             name: RTE (Reseau de Transport dElectricite)
             homepage_url: https://rte-france.com/
             logo: rte_reseau_de_transport_delectricite.svg
-            twitter: https://twitter.com/rte_france
             crunchbase: https://www.crunchbase.com/organization/rte-france
       - subcategory:
         name: General
@@ -930,25 +934,21 @@ landscape:
             name: AVEVA Group
             homepage_url: https://aveva.com/
             logo: aveva_group.svg
-            twitter: https://twitter.com/AVEVAGroup
             crunchbase: https://www.crunchbase.com/organization/aveva
           - item:
             name: Blockchain Technology Partners
             homepage_url: https://blockchaintp.com/
             logo: blockchain_technology_partners.svg
-            twitter: https://twitter.com/blockchaintp
             crunchbase: https://www.crunchbase.com/organization/blockchain-technology-partners
           - item:
             name: Cleartrace
             homepage_url: https://cleartrace.io/
             logo: cleartrace.svg
-            twitter: https://twitter.com/cleartrace_io
             crunchbase: https://www.crunchbase.com/organization/cleartrace
           - item:
             name: CloudBees, Inc.
             homepage_url: https://cloudbees.com/
             logo: cloudbees_inc.svg
-            twitter: https://twitter.com/CloudBees
             crunchbase: https://www.crunchbase.com/organization/cloudbees
           - item:
             name: electricityMap
@@ -967,20 +967,21 @@ landscape:
             name: FlexiDAO
             homepage_url: https://flexidao.com/
             logo: flexidao.svg
-            twitter: https://twitter.com/flexidao
-            organization:
-              name: FlexiDAO
+            crunchbase: https://www.crunchbase.com/organization/flexidao
+          - item:
+            name: Futurewei Technologies, Inc.
+            homepage_url: https://futurewei.com/
+            logo: futurewei_technologies_inc.svg
+            crunchbase: https://www.crunchbase.com/organization/futurewei-technologies
           - item:
             name: General Electric Company
             homepage_url: https://ge.com/
             logo: general_electric_company.svg
-            twitter: https://twitter.com/generalelectric
             crunchbase: https://www.crunchbase.com/organization/general-electric
           - item:
             name: Hitachi, Ltd.
             homepage_url: https://hitachi.com/
             logo: hitachi_ltd.svg
-            twitter: https://twitter.com/HitachiGlobal
             crunchbase: https://www.crunchbase.com/organization/hitachi
           - item:
             name: Indra
@@ -990,11 +991,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/indra
             stock_ticker: null
           - item:
-            name: Microsoft Corporation
-            homepage_url: https://microsoft.com/
-            logo: microsoft_corporation.svg
-            twitter: https://twitter.com/Microsoft
-            crunchbase: https://www.crunchbase.com/organization/microsoft
+            name: M-RETS, Inc.
+            homepage_url: https://mrets.org/
+            logo: m-rets_inc.svg
+            twitter: https://twitter.com/TrackEnergy
+            crunchbase: https://www.crunchbase.com/organization/m-rets
           - item:
             name: Mission:data Coalition
             homepage_url: https://missiondata.io/
@@ -1002,12 +1003,6 @@ landscape:
             twitter: https://twitter.com/mission_data
             organization:
               name: Mission:data Coalition
-          - item:
-            name: M-RETS, Inc.
-            homepage_url: https://mrets.org/
-            logo: m-rets_inc.svg
-            twitter: https://twitter.com/TrackEnergy
-            crunchbase: https://www.crunchbase.com/organization/m-rets
           - item:
             name: Pionix GmbH
             homepage_url: https://pionix.de/
@@ -1025,7 +1020,6 @@ landscape:
             name: Savoir-faire Linux
             homepage_url: https://savoirfairelinux.com/
             logo: savoir-faire_linux.svg
-            twitter: https://twitter.com/SFLinux
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
           - item:
             name: Sense Reply
@@ -1085,7 +1079,6 @@ landscape:
             name: Delft University of Technology
             homepage_url: https://tudelft.nl/
             logo: delft_university_of_technology.svg
-            twitter: https://twitter.com/tudelft
             crunchbase: https://www.crunchbase.com/organization/delft-university-of-technology
           - item:
             name: ELAAD
@@ -1106,17 +1099,17 @@ landscape:
             twitter: https://twitter.com/EnAccessFdn
             crunchbase: https://www.crunchbase.com/organization/enaccess-foundation
           - item:
-            name: EnergyAi
-            homepage_url: https://energyai.berlin/
-            logo: energyai.svg
-            organization:
-              name: EnergyAi
-          - item:
             name: Energy Foundation
             homepage_url: https://ef.org/
             logo: energy_foundation.svg
             twitter: https://twitter.com/EnergyFdn
             crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
+          - item:
+            name: EnergyAi
+            homepage_url: https://energyai.berlin/
+            logo: energyai.svg
+            organization:
+              name: EnergyAi
           - item:
             name: ENTSO-E (European Network of Transmission System Operators)
             homepage_url: https://entsoe.eu/
@@ -1139,7 +1132,6 @@ landscape:
             name: Fraunhofer Gesellschaft IIS
             homepage_url: https://iis.fraunhofer.de/
             logo: fraunhofer_gesellschaft_iis.svg
-            twitter: https://twitter.com/Fraunhofer
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
           - item:
             name: FREEDM Systems Center - NCSU
@@ -1151,7 +1143,6 @@ landscape:
             name: Friedrich-Alexander-University (FAU)
             homepage_url: https://fau.eu/
             logo: friedrich-alexander-university_fau.svg
-            twitter: https://twitter.com/UniFAU
             crunchbase: https://www.crunchbase.com/organization/university-of-erlangen-nuremberg
           - item:
             name: Iowa State University of Science  and Technology
@@ -1169,13 +1160,11 @@ landscape:
             name: Lucerne University of Applied Sciences
             homepage_url: https://hslu.ch/
             logo: lucerne_university_of_applied_sciences.svg
-            twitter: https://twitter.com/hslu
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
           - item:
             name: Monash University
             homepage_url: https://monash.edu/
             logo: monash_university.svg
-            twitter: https://twitter.com/MonashUni
             crunchbase: https://www.crunchbase.com/organization/monash-university
           - item:
             name: National Renewable Energy Laboratory (NREL)
@@ -1184,35 +1173,31 @@ landscape:
             twitter: https://twitter.com/NREL
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
+            name: Open Earth Foundation
+            homepage_url: https://openfoundation.earth/
+            logo: open_earth_foundation.svg
+            crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
+          - item:
             name: OpenADR Alliance
             homepage_url: https://openadr.org/
             logo: openadr_alliance.svg
             twitter: https://twitter.com/OpenADRAlliance
             crunchbase: https://www.crunchbase.com/organization/openadr-alliance
           - item:
-            name: Open Earth Foundation
-            homepage_url: https://openfoundation.earth/
-            logo: open_earth_foundation.svg
-            twitter: https://twitter.com/Open__Earth
-            crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
-          - item:
             name: OpenUK
+            description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
-            twitter: https://twitter.com/openuk_uk
             crunchbase: https://www.crunchbase.com/organization/openuk
-            description: Where the UK’s Open communities meet and collaborate
           - item:
             name: Pecan Street Inc.
             homepage_url: https://pecanstreet.org/
             logo: pecan_street_inc.svg
-            twitter: https://twitter.com/pecanstreetinc
             crunchbase: https://www.crunchbase.com/organization/pecan-street
           - item:
             name: Project Haystack
             homepage_url: https://project-haystack.org/
             logo: project_haystack.svg
-            twitter: https://twitter.com/haystackTagging
             crunchbase: https://www.crunchbase.com/organization/project-haystack
           - item:
             name: RWTH Aachen University
@@ -1224,13 +1209,11 @@ landscape:
             name: Stanford University
             homepage_url: https://stanford.edu/
             logo: stanford_university.svg
-            twitter: https://twitter.com/Stanford
             crunchbase: https://www.crunchbase.com/organization/stanford-university
           - item:
             name: The Alan Turing Institute
             homepage_url: https://turing.ac.uk/
             logo: the_alan_turing_institute.svg
-            twitter: https://twitter.com/turinginst
             crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
           - item:
             name: The Energy Coalition
@@ -1242,7 +1225,6 @@ landscape:
             name: University of Kassel
             homepage_url: https://uni-kassel.de/
             logo: university_of_kassel.svg
-            twitter: https://twitter.com/presseunikassel
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
           - item:
             name: Vanderbilt University
@@ -1251,8 +1233,13 @@ landscape:
             twitter: https://twitter.com/VanderbiltU
             crunchbase: https://www.crunchbase.com/organization/vanderbilt-university
           - item:
+            name: Volta Foundation
+            homepage_url: https://volta.foundation/
+            logo: volta_foundation.svg
+            organization:
+              name: Volta Foundation
+          - item:
             name: Washington State University
             homepage_url: https://wsu.edu/
             logo: washington_state_university.svg
-            twitter: https://twitter.com/WSUPullman
             crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
