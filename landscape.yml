@@ -112,6 +112,25 @@ landscape:
         name: Data Management
         items:
           - item:
+            name: Carbon Data Specification Consortium (CDSC)
+            homepage_url: https://carbondataspec.org/
+            project: sandboxs
+            repo_url: https://github.com/carbon-data-specification/Steering_Committee
+            project_org: https://github.com/carbon-data-specification
+            logo: carbon-data-specification.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/cdsc-tsc
+              slack_channel: '#cdsc'
+              LFX_insights_url: none
+              wiki_page: none
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: >-
+                https://open-web-calendar.herokuapp.com/calendar.html?specification_url=https://raw.githubusercontent.com/carbon-data-specification/.github/main/CDSC-Community-Calendar.json
+              contribution_guidelines: none
+              project_lead: none
+          - item:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io
             project: incubation
@@ -386,11 +405,40 @@ landscape:
         name: Customer Relationship and Communication
         items:
           - item:
+            name: Super Advanced Meter (SAM)
+            description: LF Energy project focused on enabling advanced smart meter solutions.
+            homepage_url: https://superadvancedmeter.energy
+            project_org: https://github.com/super-advanced-meter
+            repo_url: https://github.com/super-advanced-meter/SAMeter
+            project: sandboxs
+            logo: sam.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/sam-steering-committee
+              slack_channel: '#sam-general'
+              LFX_insights_url: none
+              wiki_page: none
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: none
+              project_lead: none
+          - item:
             name: Estfeed
             description: Estfeed is a fully distributed consent management and consent-based data sharing platform.
             homepage_url: https://www.estfeed.eu/en/home
             logo: estfeed.svg
             crunchbase: https://www.crunchbase.com/organization/estfeed
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/openeemeter
+              slack_channel: '#openeemeter'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
+              wiki_page: https://wiki.lfenergy.org/display/OP
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/openeemeter
+              TSC_meeting_notes: https://lists.lfenergy.org/g/openeemeter/wiki/Technical-Steering-Committee-%28TSC%29-Meetings
+              calendar: https://lists.lfenergy.org/g/openeemeter/calendar
+              contribution_guidelines: https://github.com/openeemeter/eemeter/blob/master/CONTRIBUTING.md
+              project_lead: Phil Ngo, Recurve
           - item:
             name: OpenEEmeter
             description: Consistent treatment of energy meter data for demand flexibility. Generates consistent and replicable results by always using the same methods
@@ -943,6 +991,7 @@ landscape:
             logo: indra.svg
             twitter: https://twitter.com/IndraCompany
             crunchbase: https://www.crunchbase.com/organization/indra
+            stock_ticker: null
           - item:
             name: Mission:data Coalition
             homepage_url: https://missiondata.io/

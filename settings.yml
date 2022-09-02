@@ -30,74 +30,115 @@ relation:
       children:
         - id: graduated
           label: Technical Project - Graduated
-          prefix: LF Energy
+          prefix: LF Energy Technical Project
           tag: Graduated
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Graduated
+          big_picture_label: Technical Project - Graduated
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: earlyadoption
           label: Technical Project - Early Adoption
-          prefix: LF Energy
+          prefix: LF Energy Technical Project
           tag: Early Adoption
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Early Adoption
+          big_picture_label: Technical Project - Early Adoption
           big_picture_color: rgb(24,54,114)
-        - id: development
-          label: Development
-          prefix: LF Energy
-          tag: Standards Project - Development
-          color: '#3570af'
-          big_picture_order: 1
-          big_picture_label: Incubation
-          big_picture_color: rgb(24,54,114)
-        - id: stable
-          label: Standards Project - Stable
-          prefix: LF Energy
-          tag: Stable
-          color: '#3570af'
-          big_picture_order: 1
-          big_picture_label: Early Adoption
-          big_picture_color: rgb(24,54,114)
-        - id: workinggroup
-          label: Working Group
-          prefix: LF Energy
-          tag: Stable
-          color: '#3570af'
-          big_picture_order: 1
-          big_picture_label: Early Adoption
-          big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: incubation
-          label: Incubation
-          prefix: LF Energy
-          tag: Technical Project - Incubation
+          label: Technical Project - Incubation
+          prefix: LF Energy Technical Project
+          tag: Incubation
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Incubation
+          big_picture_label: Technical Project - Incubation
           big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: sandbox
-          label: Sandbox
-          prefix: LF Energy
+          label: Technical Project - Sandbox
+          prefix: LF Energy Technical Project
           tag: Sandbox
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Sandbox
+          big_picture_label: Technical Project - Sandbox
           big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: emeritus
-          label: Emeritus
-          prefix: LF Energy
+          label: Technical Project - Emeritus
+          prefix: LF Energy Technical Project
           tag: Emeritus
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Emeritus
+          big_picture_label: Technical Project - Emeritus
           big_picture_color: rgb(24,54,114)
+          additional_relation: member
+        - id: stable
+          label: Standards Project - Stable
+          prefix: LF Energy Standards Project
+          tag: Stable
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Standards Project - Stable
+          big_picture_color: rgb(83,113,189)
+          additional_relation: member
+        - id: development
+          label: Standards Project - Development
+          prefix: LF Energy Standards Project
+          tag: Development
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Standards Project - Development
+          big_picture_color: rgb(83,113,189)
+          additional_relation: member
+        - id: sandboxs
+          label: Standards Project - Sandbox
+          prefix: LF Energy Standards Project
+          tag: Sandbox
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Standards Project - Sandbox
+          big_picture_color: rgb(83,113,189)
+          additional_relation: member
+        - id: emerituss
+          label: Standards Project - Emeritus
+          prefix: LF Energy Standards Project
+          tag: Emeritus
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Standards Project - Emeritus
+          big_picture_color: rgb(83,113,189)
+          additional_relation: member
+        - id: active
+          label: Working Group - Active
+          prefix: LF Energy Working Group
+          tag: Active
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Working Group - Active
+          big_picture_color: rgb(108,165,209)
+          additional_relation: member
+        - id: sandboxw
+          label: Working Group - Sandbox
+          prefix: LF Energy Working Group
+          tag: Sandbox
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Working Group - Sandbox
+          big_picture_color: rgb(108,165,209)
+          additional_relation: member
+        - id: emeritusw
+          label: Working Group - Emeritus
+          prefix: LF Energy Working Group
+          tag: Emeritus
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: Working Group - Emeritus
+          big_picture_color: rgb(108,165,209)
           additional_relation: member
     - id: company
       label: LF Energy Members
       tag: Company
-      big_picture_order: 3
     - id: member
       label: LF Energy Member Products/Projects
       tag: LF Energy Member
@@ -279,7 +320,7 @@ big_picture:
     category: LF Energy Member
 test:
   header: LF Energy Interactive Landscape
-  section: Early Adoption
+  section: LF Energy Members
   logo: operator-fabric.svg
 prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless

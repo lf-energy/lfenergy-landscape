@@ -1122,6 +1122,85 @@ landscape:
         name: Data Management
         items:
           - item:
+            name: Carbon Data Specification Consortium (CDSC)
+            homepage_url: https://carbondataspec.org/
+            project: sandboxs
+            repo_url: https://github.com/carbon-data-specification/Steering_Committee
+            project_org: https://github.com/carbon-data-specification
+            logo: carbon-data-specification.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/cdsc-tsc
+              slack_channel: '#cdsc'
+              LFX_insights_url: none
+              wiki_page: none
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: >-
+                https://open-web-calendar.herokuapp.com/calendar.html?specification_url=https://raw.githubusercontent.com/carbon-data-specification/.github/main/CDSC-Community-Calendar.json
+              contribution_guidelines: none
+              project_lead: none
+            crunchbase_data:
+              name: LF Energy
+              description: Open Source will speed technological innovation and enable the energy transition, globally.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.lfenergy.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/LFE_Foundation
+              linkedin: https://www.linkedin.com/company/lf-energy
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Energy
+                - Open Source
+                - Power Grid
+                - Software
+            github_data:
+              description: ''
+              contributors_count: 5
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;17;0;8;8;4;4;14;16;0;3;16;0;0;0;0;0;0;0;0;1;13;0;0;3;0;3
+              stars: 12
+              languages:
+                - name: HTML
+                  value: 11480
+                  color: '#e34c26'
+                - name: Ruby
+                  value: 44
+                  color: '#701516'
+              latest_commit_link: /carbon-data-specification/Steering_Committee/commit/dc6450eac9288c50c8be7189b12a1727ea2a2c3f
+              latest_commit_date: '2022-07-08T18:10:02Z'
+              firstWeek: 2021-07-18Z
+              license: Other
+              contributors_link: https://github.com/carbon-data-specification/Steering_Committee/graphs/contributors
+            repos:
+              - url: https://github.com/carbon-data-specification/Steering_Committee
+                stars: 1
+              - url: https://github.com/carbon-data-specification/Customer-Data
+                stars: 6
+              - url: https://github.com/carbon-data-specification/Power-Systems-Data
+                stars: 3
+              - url: https://github.com/carbon-data-specification/.github
+                stars: 1
+              - url: https://github.com/carbon-data-specification/Strategy_Committee
+                stars: 1
+            github_start_commit_data:
+              start_commit_link: /carbon-data-specification/Steering_Committee/commit/4efb73f0fd7662b33afcec435a01b8df40d88fd9
+              start_date: '2022-01-10T00:50:26Z'
+            image_data:
+              fileName: carbon-data-specification-consortium-cdsc.svg
+              hash: zGdptieLllIbYZnmJL0EbE16R9fGjKQtWaGC3lYFAVw=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-07-08T10:51:38.000Z
+          - item:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io
             project: incubation
@@ -6991,7 +7070,6 @@ landscape:
             name: Microsoft Corporation
             homepage_url: https://microsoft.com/
             logo: microsoft_corporation.svg
-            twitter: https://twitter.com/Microsoft
             crunchbase: https://www.crunchbase.com/organization/microsoft
             crunchbase_data:
               name: Microsoft
@@ -7578,7 +7656,6 @@ landscape:
             name: RTE (Reseau de Transport dElectricite)
             homepage_url: https://rte-france.com/
             logo: rte_reseau_de_transport_delectricite.svg
-            twitter: https://twitter.com/rte_france
             crunchbase: https://www.crunchbase.com/organization/rte-france
             crunchbase_data:
               name: RTE France
@@ -7613,7 +7690,6 @@ landscape:
             name: AVEVA Group
             homepage_url: https://aveva.com/
             logo: aveva_group.svg
-            twitter: https://twitter.com/AVEVAGroup
             crunchbase: https://www.crunchbase.com/organization/aveva
             crunchbase_data:
               name: AVEVA
@@ -7718,7 +7794,6 @@ landscape:
             name: Cleartrace
             homepage_url: https://cleartrace.io/
             logo: cleartrace.svg
-            twitter: https://twitter.com/cleartrace_io
             crunchbase: https://www.crunchbase.com/organization/cleartrace
             crunchbase_data:
               name: ClearTrace
@@ -7756,7 +7831,6 @@ landscape:
             name: CloudBees, Inc.
             homepage_url: https://cloudbees.com/
             logo: cloudbees_inc.svg
-            twitter: https://twitter.com/CloudBees
             crunchbase: https://www.crunchbase.com/organization/cloudbees
             crunchbase_data:
               name: CloudBees
@@ -7856,7 +7930,6 @@ landscape:
             name: FlexiDAO
             homepage_url: https://flexidao.com/
             logo: flexidao.svg
-            twitter: https://twitter.com/flexidao
             crunchbase: https://www.crunchbase.com/organization/flexidao
             crunchbase_data:
               name: FlexiDAO
@@ -7922,7 +7995,6 @@ landscape:
             name: General Electric Company
             homepage_url: https://ge.com/
             logo: general_electric_company.svg
-            twitter: https://twitter.com/generalelectric
             crunchbase: https://www.crunchbase.com/organization/general-electric
             crunchbase_data:
               name: General Electric
@@ -8041,7 +8113,6 @@ landscape:
             name: Hitachi, Ltd.
             homepage_url: https://hitachi.com/
             logo: hitachi_ltd.svg
-            twitter: https://twitter.com/HitachiGlobal
             crunchbase: https://www.crunchbase.com/organization/hitachi
             crunchbase_data:
               name: Hitachi
@@ -8114,6 +8185,7 @@ landscape:
             logo: indra.svg
             twitter: https://twitter.com/IndraCompany
             crunchbase: https://www.crunchbase.com/organization/indra
+            stock_ticker: null
             crunchbase_data:
               name: Indra
               description: Indra provides information technology offerings for finance, insurance, public administration, airports, defense, healthcare, and media.
@@ -8273,7 +8345,6 @@ landscape:
             name: Savoir-faire Linux
             homepage_url: https://savoirfairelinux.com/
             logo: savoir-faire_linux.svg
-            twitter: https://twitter.com/SFLinux
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
             crunchbase_data:
               name: Savoir-faire Linux
@@ -8556,7 +8627,6 @@ landscape:
             name: Delft University of Technology
             homepage_url: https://tudelft.nl/
             logo: delft_university_of_technology.svg
-            twitter: https://twitter.com/tudelft
             crunchbase: https://www.crunchbase.com/organization/delft-university-of-technology
             crunchbase_data:
               name: Delft University of Technology
@@ -8839,7 +8909,6 @@ landscape:
             name: Fraunhofer Gesellschaft IIS
             homepage_url: https://iis.fraunhofer.de/
             logo: fraunhofer_gesellschaft_iis.svg
-            twitter: https://twitter.com/Fraunhofer
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
             crunchbase_data:
               name: Fraunhofer-Gesellschaft
@@ -8909,7 +8978,6 @@ landscape:
             name: Friedrich-Alexander-University (FAU)
             homepage_url: https://fau.eu/
             logo: friedrich-alexander-university_fau.svg
-            twitter: https://twitter.com/UniFAU
             crunchbase: https://www.crunchbase.com/organization/university-of-erlangen-nuremberg
             crunchbase_data:
               name: Friedrich Alexander Universität Erlangen Nürnberg
@@ -9010,7 +9078,6 @@ landscape:
             name: Lucerne University of Applied Sciences
             homepage_url: https://hslu.ch/
             logo: lucerne_university_of_applied_sciences.svg
-            twitter: https://twitter.com/hslu
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
             crunchbase_data:
               name: Lucerne University of Applied Sciences and Arts
@@ -9041,7 +9108,6 @@ landscape:
             name: Monash University
             homepage_url: https://monash.edu/
             logo: monash_university.svg
-            twitter: https://twitter.com/MonashUni
             crunchbase: https://www.crunchbase.com/organization/monash-university
             crunchbase_data:
               name: Monash University
@@ -9108,7 +9174,6 @@ landscape:
             name: Open Earth Foundation
             homepage_url: https://openfoundation.earth/
             logo: open_earth_foundation.svg
-            twitter: https://twitter.com/Open__Earth
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
             crunchbase_data:
               name: Open Earth Foundation
@@ -9173,7 +9238,6 @@ landscape:
             description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
-            twitter: https://twitter.com/openuk_uk
             crunchbase: https://www.crunchbase.com/organization/openuk
             crunchbase_data:
               name: OpenUK
@@ -9203,7 +9267,6 @@ landscape:
             name: Pecan Street Inc.
             homepage_url: https://pecanstreet.org/
             logo: pecan_street_inc.svg
-            twitter: https://twitter.com/pecanstreetinc
             crunchbase: https://www.crunchbase.com/organization/pecan-street
             crunchbase_data:
               name: Pecan Street
@@ -9236,7 +9299,6 @@ landscape:
             name: Project Haystack
             homepage_url: https://project-haystack.org/
             logo: project_haystack.svg
-            twitter: https://twitter.com/haystackTagging
             crunchbase: https://www.crunchbase.com/organization/project-haystack
             crunchbase_data:
               name: Project Haystack
@@ -9303,7 +9365,6 @@ landscape:
             name: Stanford University
             homepage_url: https://stanford.edu/
             logo: stanford_university.svg
-            twitter: https://twitter.com/Stanford
             crunchbase: https://www.crunchbase.com/organization/stanford-university
             crunchbase_data:
               name: Stanford University
@@ -9338,7 +9399,6 @@ landscape:
             name: The Alan Turing Institute
             homepage_url: https://turing.ac.uk/
             logo: the_alan_turing_institute.svg
-            twitter: https://twitter.com/turinginst
             crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
             crunchbase_data:
               name: Alan Turing Institute
@@ -9404,7 +9464,6 @@ landscape:
             name: University of Kassel
             homepage_url: https://uni-kassel.de/
             logo: university_of_kassel.svg
-            twitter: https://twitter.com/presseunikassel
             crunchbase: https://www.crunchbase.com/organization/university-of-kassel
             crunchbase_data:
               name: University of Kassel
@@ -9486,7 +9545,6 @@ landscape:
             name: Washington State University
             homepage_url: https://wsu.edu/
             logo: washington_state_university.svg
-            twitter: https://twitter.com/WSUPullman
             crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
             crunchbase_data:
               name: Washington State University
