@@ -126,8 +126,7 @@ landscape:
               wiki_page: none
               SBOM: none
               TSC_meeting_notes: none
-              calendar: >-
-                https://open-web-calendar.herokuapp.com/calendar.html?specification_url=https://raw.githubusercontent.com/carbon-data-specification/.github/main/CDSC-Community-Calendar.json
+              calendar: https://open-web-calendar.herokuapp.com/calendar.html?specification_url=https://raw.githubusercontent.com/carbon-data-specification/.github/main/CDSC-Community-Calendar.json
               contribution_guidelines: none
               project_lead: none
           - item:
@@ -991,7 +990,7 @@ landscape:
             logo: indra.svg
             twitter: https://twitter.com/IndraCompany
             crunchbase: https://www.crunchbase.com/organization/indra
-            stock_ticker: null
+            stock_ticker:
           - item:
             name: Mission:data Coalition
             homepage_url: https://missiondata.io/
