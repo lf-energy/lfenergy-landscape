@@ -709,12 +709,24 @@ landscape:
               contribution_guidelines: none
               project_lead: none
           - item:
-            name: GridLAB-D
-            description: GridLAB-D is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
-            homepage_url: https://www.gridlabd.org/
-            repo_url: https://github.com/gridlab-d/gridlab-d
-            logo: Gridlab-d.svg
-            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
+            name: Arras
+            description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
+            homepage_url: https://arras.energy/
+            repo_url: https://github.com/arras-energy/tsc
+            project_org: https://github.com/arras-energy
+            project: sandbox
+            logo: arras.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
+              slack_channel: #arras
+              LFX_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/FLEX
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/arras-discussion/calendar
+              contribution_guidelines: https://github.com/arras-energy/tsc/blob/main/CONTRIBUTING.md
+              project_lead: David Chassin
           - item:
             name: OpenSTEF
             homepage_url: https://openstef.energy
