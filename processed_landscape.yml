@@ -119,8 +119,8 @@ landscape:
                   color: '#3D6117'
                 - name: Cython
                   value: 1591
-              contributions: 2;2;1;0;1;2;5;1;4;0;4;1;3;1;1;0;1;1;0;1;0;0;0;4;3;0;3;0;3;0;1;1;10;0;2;0;5;0;1;0;0;1;0;2;3;0;0;4;2;4;7;1
-              firstWeek: 2022-01-02Z
+              contributions: 2;3;0;0;1;2;5;1;4;0;4;1;3;1;1;0;1;1;0;1;0;0;0;4;3;0;3;0;3;0;1;1;10;0;2;0;5;0;1;0;0;1;0;2;3;0;0;4;2;4;7;1
+              firstWeek: 2022-01-09Z
               stars: 780
               license: BSD 3-Clause "New" or "Revised" License
               description: A set of documented functions for simulating the performance of photovoltaic energy systems.
@@ -249,7 +249,7 @@ landscape:
             github_data:
               languages: []
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 114
               license: Apache License 2.0
               description: OSeMOSYS - the Open Source Energy Modelling System
@@ -941,7 +941,7 @@ landscape:
                 - name: PLpgSQL
                   value: 9619992
                 - name: C
-                  value: 7027689
+                  value: 7028083
                   color: '#555555'
                 - name: Perl
                   value: 300740
@@ -973,13 +973,13 @@ landscape:
                   value: 1565
                   color: '#C1F12E'
               contributions: >-
-                22;106;113;54;92;20;72;33;14;20;5;2;37;14;23;47;6;12;43;23;13;8;6;68;9;12;20;22;5;23;10;15;27;5;30;44;35;16;25;18;55;12;51;24;15;5;4;20;24;13;17;2
-              firstWeek: 2022-01-02Z
+                23;127;94;54;91;19;75;29;14;21;4;2;37;16;57;11;6;27;30;24;10;9;11;62;9;16;18;20;7;23;12;26;12;6;36;38;41;9;28;15;55;12;56;20;14;6;3;22;22;13;17;4
+              firstWeek: 2022-01-09Z
               stars: 1287
               license: GNU General Public License v2.0
               description: PostGIS spatial database extension to PostgreSQL [mirror]
-              latest_commit_date: '2022-12-31T03:26:57Z'
-              latest_commit_link: /postgis/postgis/commit/36a749a5446827350af5e7151f0b860c6e4de0a3
+              latest_commit_date: '2023-01-01T01:35:04Z'
+              latest_commit_link: /postgis/postgis/commit/e5947ca1623392882c0dcf3acfcac77d4202726d
               contributors_count: 82
               contributors_link: https://github.com/postgis/postgis/graphs/contributors
             repos:
@@ -1182,7 +1182,7 @@ landscape:
                   color: '#701516'
               latest_commit_link: /carbon-data-specification/Steering_Committee/commit/dc6450eac9288c50c8be7189b12a1727ea2a2c3f
               latest_commit_date: '2022-07-08T18:10:02Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Other
               contributors_link: https://github.com/carbon-data-specification/Steering_Committee/graphs/contributors
             repos:
@@ -1251,11 +1251,11 @@ landscape:
             github_data:
               description: FlexMeasures is the smart EMS for energy flexibility applications. An incubation project at the Linux Energy Foundation.
               contributors_count: 9
-              contributions: 18;6;13;10;14;4;5;7;8;4;0;16;21;5;12;4;5;0;11;0;0;4;2;9;0;1;4;4;4;4;0;2;1;5;7;7;2;0;1;4;4;1;1;7;6;4;7;4;5;6;4;6
+              contributions: 18;6;13;12;12;6;5;5;8;4;1;20;17;6;10;4;5;3;8;0;0;4;2;9;1;0;4;4;5;3;0;3;0;6;7;7;1;0;1;4;4;1;2;6;7;3;7;4;7;4;4;6
               stars: 86
               languages:
                 - name: Python
-                  value: 1464936
+                  value: 1465197
                   color: '#3572A5'
                 - name: HTML
                   value: 571672
@@ -1282,9 +1282,9 @@ landscape:
                   color: '#384d54'
                 - name: Mako
                   value: 494
-              latest_commit_link: /FlexMeasures/flexmeasures/commit/da007ed29c3f8646e5a0fa3be4b826bd63e7a441
-              latest_commit_date: '2022-12-30T13:12:47Z'
-              firstWeek: 2022-01-02Z
+              latest_commit_link: /FlexMeasures/flexmeasures/commit/1fd7cc08b9358461dc6a1b747fc2c9cf7e286cb2
+              latest_commit_date: '2023-01-01T16:18:08Z'
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/FlexMeasures/flexmeasures/graphs/contributors
             repos:
@@ -1556,7 +1556,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T18:00:25.000Z
+              latest_tweet_date: 2023-01-01T15:30:05.000Z
           - item:
             name: GRIDSTREAM SOFTWARE-Field Operations Manager
             description: >-
@@ -1834,7 +1834,7 @@ landscape:
                   value: 7921
                   color: '#427819'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 72
               license: GNU Lesser General Public License v2.1
               description: 'The Java serial communication library. '
@@ -1903,7 +1903,7 @@ landscape:
                   value: 2056
                   color: '#384d54'
               contributions: 1;7;0;0;0;0;0;3;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 402
               license: Other
               description: VOLTTRON Distributed Control System Platform
@@ -2016,8 +2016,8 @@ landscape:
                   color: '#E3F171'
                 - name: ShaderLab
                   value: 137
-              contributions: 2;0;2;0;0;0;0;6;1;2;0;4;21;2;4;1;1;0;4;3;0;3;1;1;0;8;4;11;9;4;11;9;0;0;3;2;0;9;4;3;2;13;21;5;12;5;0;4;2;3;3;0
-              firstWeek: 2022-01-02Z
+              contributions: 2;0;2;0;0;0;0;7;0;2;0;5;20;2;4;2;0;0;4;3;0;4;0;1;0;8;4;12;8;4;12;8;0;0;3;2;0;10;3;3;2;16;19;5;12;4;1;3;3;2;3;0
+              firstWeek: 2022-01-09Z
               stars: 144
               license: MIT License
               description: Grid Solutions Framework
@@ -2118,7 +2118,7 @@ landscape:
                   color: '#701516'
               latest_commit_link: /hyphae/apis-common/commit/f8d6dc29ab1f4201205733ca039d06f9dbad1177
               latest_commit_date: '2021-02-19T07:07:41Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/hyphae/apis-common/graphs/contributors
             repos:
@@ -2204,7 +2204,7 @@ landscape:
             github_data:
               description: A friendly and compliant OpenADR implementation for Python.
               contributors_count: 8
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;1;0;0;21;0;0;4;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;2;0;0;0;0;8;1;0;3;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;1;0;21;0;0;0;4;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;2;0;0;0;0;8;1;0;3;0;0
               stars: 88
               languages:
                 - name: Python
@@ -2218,7 +2218,7 @@ landscape:
                   color: '#89e051'
               latest_commit_link: /OpenLEADR/openleadr-python/commit/c166de9b8e11bf25dfbf83af6654675231019e8c
               latest_commit_date: '2022-12-12T17:33:42Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/OpenLEADR/openleadr-python/graphs/contributors
             repos:
@@ -2282,7 +2282,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 353
-              contributions: 5;4;7;2;1;19;17;6;1;4;0;2;4;3;7;13;9;5;16;10;5;3;2;1;6;10;1;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 5;7;4;2;6;19;13;5;1;4;0;2;5;2;7;15;7;11;10;10;5;3;2;4;4;9;1;0;0;0;0;0;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               stars: 37
               languages:
                 - name: C++
@@ -2316,7 +2316,7 @@ landscape:
                   color: '#384d54'
               latest_commit_link: /RIAPS/riaps-core/commit/60b562e7370930dda038af3935f5a0889f9b6795
               latest_commit_date: '2020-09-14T14:34:04Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/RIAPS/riaps-core/graphs/contributors
             repos:
@@ -2504,7 +2504,7 @@ landscape:
             github_data:
               description: FledgePower - Power systems protocols translation gateway based on Fledge
               contributors_count: 21
-              contributions: 0;0;0;3;18;40;3;0;6;13;11;5;1;11;1;5;0;7;1;0;0;6;2;4;0;0;6;2;4;5;21;66;14;11;15;34;25;21;46;41;26;16;3;13;34;26;13;17;25;29;0;0
+              contributions: 0;0;0;3;18;40;3;0;6;13;11;5;1;11;1;5;0;7;1;0;0;6;2;4;0;1;5;2;4;5;29;58;17;10;13;34;25;24;44;40;26;16;3;13;34;26;13;17;25;29;0;0
               stars: 2
               languages:
                 - name: C++
@@ -2529,7 +2529,7 @@ landscape:
                   color: '#427819'
               latest_commit_link: /fledge-power/contributing/commit/eabef0bd33f98a93cf528406223b5d6fe6c3a20a
               latest_commit_date: '2022-10-06T07:03:38Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/fledge-power/contributing/graphs/contributors
             repos:
@@ -2626,7 +2626,7 @@ landscape:
             github_data:
               description: e-mobility powered by open source with EVerest, the charge point operating system
               contributors_count: 50
-              contributions: 6;53;22;27;24;13;10;12;8;19;7;6;4;2;11;8;28;7;8;18;9;12;4;21;27;11;25;20;13;14;10;13;6;11;13;17;12;21;36;12;19;17;9;8;13;26;20;28;16;13;10;0
+              contributions: 6;53;22;27;25;12;10;12;8;19;7;6;4;2;11;8;29;6;8;18;9;12;4;22;28;9;25;20;17;10;10;13;6;11;13;18;11;26;32;11;19;17;10;7;14;25;21;27;16;13;10;0
               stars: 156
               languages:
                 - name: C++
@@ -2674,7 +2674,7 @@ landscape:
                   color: '#e34c26'
               latest_commit_link: /EVerest/everest-core/commit/72181505d6bf140837fd3e87dbf6e0e86a8ed7f0
               latest_commit_date: '2022-12-22T12:22:12Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/EVerest/everest-core/graphs/contributors
             repos:
@@ -2782,7 +2782,7 @@ landscape:
                 Grid eXchange Fabric (GXF) allows to monitor and control hardware in the public space. It's an open, generic, scalable and independent IoT
                 platform!
               contributors_count: 72
-              contributions: 48;49;36;22;23;23;15;4;37;18;27;18;9;21;17;24;3;13;17;3;7;9;3;6;3;3;6;15;9;4;5;21;3;4;10;14;52;36;10;27;46;40;16;23;25;32;28;17;24;24;7;0
+              contributions: 49;50;34;22;23;23;15;4;37;18;27;18;9;21;17;24;3;13;17;3;7;9;3;6;3;3;6;15;9;4;5;21;3;4;10;14;52;36;10;27;46;40;16;23;25;32;28;17;24;24;7;0
               stars: 113
               languages:
                 - name: Java
@@ -2812,7 +2812,7 @@ landscape:
                   color: '#384d54'
               latest_commit_link: /OSGP/open-smart-grid-platform/commit/cf97a4b6202958bb80939976fd34902aeecc0e87
               latest_commit_date: '2022-12-20T15:18:37Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/OSGP/open-smart-grid-platform/graphs/contributors
             repos:
@@ -2887,7 +2887,7 @@ landscape:
               description: 61850 SCL management and configuration tool
               contributors_count: 27
               contributions: >-
-                5;95;45;36;42;69;33;48;63;22;42;104;86;53;47;64;53;77;79;65;17;39;40;45;69;64;14;58;55;4;47;23;26;83;9;43;61;84;58;41;26;82;7;14;80;44;113;31;27;3;10;4
+                5;100;40;45;33;70;32;48;63;22;42;105;85;53;47;64;53;96;68;57;17;39;40;45;69;64;14;58;56;3;47;23;27;82;9;43;61;85;57;41;28;80;7;14;80;44;113;31;27;3;10;4
               stars: 50
               languages:
                 - name: TypeScript
@@ -2918,7 +2918,7 @@ landscape:
                   color: '#89e051'
               latest_commit_link: /com-pas/.github/commit/d51b2869609ce9a1e3514292a278769e413ddc4c
               latest_commit_date: '2022-06-22T12:36:40Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/com-pas/.github/graphs/contributors
             repos:
@@ -3004,7 +3004,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 22
-              contributions: 23;5;19;16;13;5;2;10;7;0;3;20;9;0;0;0;0;0;13;4;9;3;10;9;2;0;3;0;0;2;16;0;0;16;6;0;1;0;0;6;5;5;8;6;10;16;9;8;1;6;0;0
+              contributions: 23;5;21;16;12;4;2;10;7;0;3;20;9;0;0;0;0;0;13;5;8;3;10;9;2;0;3;0;0;2;16;0;0;16;6;0;1;0;0;6;5;5;8;6;10;16;9;8;1;6;0;0
               stars: 18
               languages:
                 - name: Python
@@ -3043,7 +3043,7 @@ landscape:
                   value: 41
               latest_commit_link: /seapath/seapath-architecture/commit/f94d1a38677b99ac768cd42d381bebe71cbb5aa4
               latest_commit_date: '2022-06-11T09:00:07Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Creative Commons Attribution 4.0 International
               contributors_link: https://github.com/seapath/seapath-architecture/graphs/contributors
             repos:
@@ -3200,7 +3200,7 @@ landscape:
                   color: '#89e051'
               latest_commit_link: /openeemeter/eemeter/commit/be460bfa743beb1d95dbbbdd3bae930d84ccc4c5
               latest_commit_date: '2022-11-17T19:48:40Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/openeemeter/eemeter/graphs/contributors
             repos:
@@ -3269,7 +3269,7 @@ landscape:
               languages: []
               latest_commit_link: /super-advanced-meter/SAMeter/commit/b699b35c34a1c6a2fd8b9bacfb0a4182aae806db
               latest_commit_date: '2022-05-06T15:36:39Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Unknown License
               contributors_link: https://github.com/super-advanced-meter/SAMeter/graphs/contributors
             repos:
@@ -3356,7 +3356,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-29T19:56:29.000Z
+              latest_tweet_date: 2023-01-01T15:31:41.000Z
           - item:
             name: ENTRNCE
             description: >-
@@ -3460,7 +3460,7 @@ landscape:
                   value: 1464
                   color: '#e34c26'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 36
               license: Apache License 2.0
               description: >-
@@ -3528,7 +3528,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 12
-              contributions: 1;1;2;8;0;0;6;2;1;11;7;22;6;3;0;0;7;1;0;0;15;3;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;2;0;0;0;1;0;0;2;0;2;0;3;0;0
+              contributions: 0;1;8;2;0;0;7;1;1;11;7;22;6;3;0;0;7;1;0;0;15;3;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;2;0;0;0;1;0;0;2;0;2;0;3;0;0
               stars: 9
               languages:
                 - name: Java
@@ -3539,7 +3539,7 @@ landscape:
                   color: '#384d54'
               latest_commit_link: /shapeshifter/shapeshifter-specification/commit/7068732d31d059e13e8dafd1cc5d5e89866d9e8b
               latest_commit_date: '2022-12-15T13:35:19Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/shapeshifter/shapeshifter-specification/graphs/contributors
             repos:
@@ -3603,7 +3603,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T02:49:55.000Z
+              latest_tweet_date: 2022-12-31T21:05:37.000Z
   - category:
     name: Shared
     subcategories:
@@ -3685,7 +3685,7 @@ landscape:
                   value: 866
                   color: '#e34c26'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 9
               license: GNU General Public License v3.0
               description: CIMDraw is a WebApp to view IEC CIM (CGMES) files
@@ -3779,8 +3779,8 @@ landscape:
                 - name: CSS
                   value: 1298
                   color: '#563d7c'
-              contributions: 0;0;1;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;2;0;0;2;12;6;6;0;0;13;0;0;0;0;0;19;0;1;2;0;0;0;0
-              firstWeek: 2022-01-02Z
+              contributions: 0;0;3;4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;2;0;0;2;12;12;0;0;0;13;0;0;0;0;0;19;0;1;2;0;0;0;0
+              firstWeek: 2022-01-09Z
               stars: 19
               license: GNU Lesser General Public License v2.1
               description: CIMug fork of Arnold de Vos's CIMTool for the Common Information Model (CIM).
@@ -3870,7 +3870,7 @@ landscape:
               languages: []
               latest_commit_link: /opengeh/.github/commit/a796c89dd920d19475ea1b59e5782c2dabba7868
               latest_commit_date: '2022-02-28T16:36:37Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Apache License 2.0
               contributors_link: https://github.com/opengeh/.github/graphs/contributors
             repos:
@@ -3924,8 +3924,8 @@ landscape:
                 - name: Python
                   value: 4545
                   color: '#3572A5'
-              contributions: 0;4;0;0;3;3;0;0;0;0;0;3;0;0;0;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              contributions: 0;4;0;2;4;0;0;0;0;0;3;0;0;0;0;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0
+              firstWeek: 2022-01-09Z
               stars: 9
               license: Unknown License
               description: Docker based runtime for GridAPPS-D based applications and services.
@@ -3948,7 +3948,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T16:13:01.000Z
+              latest_tweet_date: 2023-01-01T16:25:46.000Z
           - item:
             name: OperatorFabric
             description: >-
@@ -3997,7 +3997,7 @@ landscape:
                 operations.
               contributors_count: 35
               contributions: >-
-                39;48;39;40;41;54;69;52;29;44;44;42;57;52;44;42;11;20;34;53;31;48;26;41;45;28;55;45;59;40;20;11;23;34;35;35;32;44;43;45;38;53;29;14;34;50;30;40;13;23;32;7
+                37;51;38;39;42;61;61;52;29;45;43;42;57;52;45;42;10;20;33;54;31;48;27;40;45;28;56;44;59;42;18;11;23;34;35;34;33;45;46;42;38;53;28;16;32;52;27;41;12;24;32;7
               stars: 38
               languages:
                 - name: Java
@@ -4038,7 +4038,7 @@ landscape:
                   color: '#701516'
               latest_commit_link: /opfab/operatorfabric-core/commit/e4bdce53d6a4f8e690abf8501a0ec37294b1a4dd
               latest_commit_date: '2022-12-30T15:48:14Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Mozilla Public License 2.0
               contributors_link: https://github.com/opfab/operatorfabric-core/graphs/contributors
             repos:
@@ -4163,7 +4163,7 @@ landscape:
                   value: 3389
                   color: '#b07219'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 15
               license: MIT License
               description: Common Information Model visualizer
@@ -4213,18 +4213,18 @@ landscape:
                 - Renewable Energy
             github_data:
               description: null
-              contributors_count: 112
-              contributions: 1;8;0;2;0;1;0;21;13;0;4;4;7;3;0;0;5;27;0;1;0;2;0;0;0;0;0;0;0;0;4;16;24;7;6;0;0;0;1;4;13;3;10;3;13;9;0;0;1;0;0;0
-              stars: 263
+              contributors_count: 175
+              contributions: 7;13;10;1;1;1;0;26;6;0;4;4;8;2;0;1;4;36;1;1;1;2;0;0;0;0;0;2;0;1;3;41;12;6;18;0;2;0;3;5;13;3;9;17;13;10;1;4;0;3;3;1
+              stars: 1356
               languages:
                 - name: PHP
-                  value: 4506398
+                  value: 5583207
                   color: '#4F5D95'
                 - name: JavaScript
-                  value: 3118697
+                  value: 3912362
                   color: '#f1e05a'
                 - name: HTML
-                  value: 659024
+                  value: 674989
                   color: '#e34c26'
                 - name: Swift
                   value: 539934
@@ -4233,19 +4233,19 @@ landscape:
                   value: 285141
                   color: '#b07219'
                 - name: CSS
-                  value: 157287
+                  value: 185757
                   color: '#563d7c'
                 - name: Python
-                  value: 101521
+                  value: 107385
                   color: '#3572A5'
                 - name: Shell
-                  value: 73486
+                  value: 86509
                   color: '#89e051'
                 - name: C++
                   value: 48971
                   color: '#f34b7d'
                 - name: Makefile
-                  value: 42215
+                  value: 42500
                   color: '#427819'
                 - name: Arduino
                   value: 35446
@@ -4270,12 +4270,14 @@ landscape:
                 - name: Hack
                   value: 1131
                   color: '#878787'
-              latest_commit_link: /emoncms/development/commit/d9be580dddc010a4b491effc78c2b72c4d36d995
-              latest_commit_date: '2017-08-14T23:45:53Z'
-              firstWeek: 2022-01-02Z
-              license: Unknown License
-              contributors_link: https://github.com/emoncms/development/graphs/contributors
+              latest_commit_link: /emoncms/emoncms/commit/82cf7d725896893aa6817e511a06686909651999
+              latest_commit_date: '2022-12-28T11:44:01Z'
+              firstWeek: 2022-01-09Z
+              license: GNU Affero General Public License v3.0
+              contributors_link: https://github.com/emoncms/emoncms/graphs/contributors
             repos:
+              - url: https://github.com/emoncms/emoncms
+                stars: 1095
               - url: https://github.com/emoncms/development
                 stars: 40
               - url: https://github.com/emoncms/AndroidApp
@@ -4316,8 +4318,6 @@ landscape:
                 stars: 2
               - url: https://github.com/emoncms/sync
                 stars: 2
-              - url: https://github.com/emoncms/dynamic
-                stars: 1
               - url: https://github.com/emoncms/emailreport
                 stars: 1
               - url: https://github.com/emoncms/example-module
@@ -4325,8 +4325,6 @@ landscape:
               - url: https://github.com/emoncms/find
                 stars: 1
               - url: https://github.com/emoncms/remoteaccess-client
-                stars: 1
-              - url: https://github.com/emoncms/processext
                 stars: 1
               - url: https://github.com/emoncms/archive
                 stars: 0
@@ -4341,8 +4339,6 @@ landscape:
               - url: https://github.com/emoncms/remoteaccess-server
                 stars: 0
               - url: https://github.com/emoncms/stm32config
-                stars: 0
-              - url: https://github.com/emoncms/setup
                 stars: 0
             github_start_commit_data:
               start_commit_link: /emoncms/emoncms/commit/a754567872bdf5a39a9a91312a8a6ea4de135b24
@@ -4528,18 +4524,7 @@ landscape:
                 - Software
             github_data:
               description: null
-              contributors_count: 1
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0;0;0;0;0
-              stars: 1
-              languages: []
-              latest_commit_link: /arras-energy/tsc/commit/e6a3aaf25cefe800445e8f2e254feba842fa6959
-              latest_commit_date: '2022-11-17T21:04:39Z'
-              firstWeek: 2022-01-02Z
-              license: Creative Commons Attribution 4.0 International
-              contributors_link: https://github.com/arras-energy/tsc/graphs/contributors
-            repos:
-              - url: https://github.com/arras-energy/tsc
-                stars: 1
+            repos: []
             github_start_commit_data:
               start_commit_link: /arras-energy/tsc/commit/20d15f12c2c248214755e224e522a46c4d43e9cf
               start_date: '2022-11-17T20:59:03Z'
@@ -4608,7 +4593,7 @@ landscape:
                   value: 267
                   color: '#C1F12E'
               contributions: 0;0;0;0;0;0;0;1;2;3;2;0;1;0;0;0;0;0;0;0;0;2;1;1;2;6;4;4;2;0;0;0;0;0;0;1;4;0;0;0;0;0;0;0;1;1;0;0;0;1;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 14
               license: MIT License
               description: CIM J2EE application with resource adapter access to Spark.
@@ -4673,7 +4658,7 @@ landscape:
                   value: 242
                   color: '#e34c26'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               stars: 12
               license: MIT License
               description: Spark access to Common Information Model (CIM) files
@@ -4920,26 +4905,7 @@ landscape:
                 - Software
             github_data:
               description: ''
-              contributors_count: 2
-              contributions: 0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0
-              stars: 1
-              languages:
-                - name: Jupyter Notebook
-                  value: 9218944
-                  color: '#DA5B0B'
-                - name: Python
-                  value: 124198
-                  color: '#3572A5'
-              latest_commit_link: /gridcapacitymap/tsc/commit/16c38d9c3999216531da8b628b832f4fe1a13c62
-              latest_commit_date: '2021-04-21T19:32:05Z'
-              firstWeek: 2022-01-02Z
-              license: Apache License 2.0
-              contributors_link: https://github.com/gridcapacitymap/tsc/graphs/contributors
-            repos:
-              - url: https://github.com/gridcapacitymap/tsc
-                stars: 0
-              - url: https://github.com/gridcapacitymap/gridcapacitymap
-                stars: 1
+            repos: []
             github_start_commit_data:
               start_commit_link: /gridcapacitymap/tsc/commit/b053e963b97180c7456b2f185b7ec9676f382b54
               start_date: '2021-04-21T19:28:12Z'
@@ -4992,34 +4958,22 @@ landscape:
                 - Software
             github_data:
               description: Open Short Term Energy Forecaster project
-              contributors_count: 23
-              contributions: 11;7;15;40;2;40;30;11;7;5;25;9;45;18;52;32;43;25;57;4;0;37;0;0;0;1;17;23;32;14;28;19;18;0;1;16;24;9;0;0;0;0;49;24;8;12;24;34;3;2;0;11
-              stars: 42
+              contributors_count: 11
+              contributions: 0;0;8;6;0;4;3;4;0;0;3;0;2;0;2;6;19;3;2;0;0;0;0;0;0;0;11;12;0;0;0;5;0;0;0;0;2;9;0;0;0;0;3;0;0;2;4;6;0;0;0;4
+              stars: 0
               languages:
-                - name: HTML
-                  value: 112055523
-                  color: '#e34c26'
-                - name: Roff
-                  value: 7098652
-                  color: '#ecdebe'
                 - name: Python
-                  value: 838325
+                  value: 187865
                   color: '#3572A5'
-                - name: Shell
-                  value: 11438
-                  color: '#89e051'
-              latest_commit_link: /OpenSTEF/openstef/commit/1ae2527ee5a128173e3d99340e102d09b7592ac1
-              latest_commit_date: '2022-12-29T15:53:43Z'
-              firstWeek: 2022-01-02Z
+                - name: HTML
+                  value: 8543
+                  color: '#e34c26'
+              latest_commit_link: /OpenSTEF/openstef-dbc/commit/cf7aeda411c3dc6c4abe88750464248fd39e4080
+              latest_commit_date: '2022-12-28T10:23:07Z'
+              firstWeek: 2022-01-09Z
               license: Mozilla Public License 2.0
-              contributors_link: https://github.com/OpenSTEF/openstef/graphs/contributors
+              contributors_link: https://github.com/OpenSTEF/openstef-dbc/graphs/contributors
             repos:
-              - url: https://github.com/OpenSTEF/openstef
-                stars: 31
-              - url: https://github.com/OpenSTEF/openstef-reference
-                stars: 9
-              - url: https://github.com/OpenSTEF/openstef-offline-example
-                stars: 2
               - url: https://github.com/OpenSTEF/openstef-dbc
                 stars: 0
               - url: https://github.com/OpenSTEF/.github
@@ -5063,8 +5017,8 @@ landscape:
                 - name: Julia
                   value: 431
                   color: '#a270ba'
-              contributions: 7;41;12;6;81;37;31;38;12;0;19;25;17;14;19;5;17;14;22;18;7;17;30;23;22;12;8;5;56;30;39;47;7;17;15;20;53;6;42;20;10;20;19;7;0;15;14;42;33;16;23;0
-              firstWeek: 2022-01-02Z
+              contributions: 7;41;12;6;81;37;31;38;12;0;19;25;17;14;19;5;17;14;22;18;7;17;30;23;22;12;8;5;56;30;44;42;7;17;15;20;53;6;42;20;12;18;19;7;0;15;14;45;30;16;23;0
+              firstWeek: 2022-01-09Z
               stars: 577
               license: Other
               description: Convenient Power System Modelling and Analysis based on PYPOWER and pandas
@@ -5131,13 +5085,13 @@ landscape:
                 - Software
             github_data:
               description: Power System Blocks
-              contributors_count: 104
+              contributors_count: 83
               contributions: >-
-                41;14;45;36;24;28;38;17;43;46;22;36;28;32;51;62;15;28;23;30;8;48;31;68;19;35;21;12;33;44;13;23;5;13;24;49;51;50;49;32;30;24;21;21;31;48;35;10;26;34;25;3
-              stars: 222
+                36;11;41;31;21;19;28;14;35;38;15;21;19;23;38;60;9;24;16;19;4;22;25;63;16;28;14;7;29;44;12;22;3;9;12;27;39;46;41;23;25;17;11;12;27;40;30;9;19;25;17;3
+              stars: 130
               languages:
                 - name: Java
-                  value: 27607534
+                  value: 15959601
                   color: '#b07219'
                 - name: C++
                   value: 3617968
@@ -5149,7 +5103,7 @@ landscape:
                   value: 300762
                   color: '#DA5B0B'
                 - name: Groovy
-                  value: 272312
+                  value: 146727
                   color: '#e69f56'
                 - name: MATLAB
                   value: 128210
@@ -5159,24 +5113,21 @@ landscape:
                 - name: CSS
                   value: 70653
                   color: '#563d7c'
-                - name: JavaScript
-                  value: 39220
-                  color: '#f1e05a'
                 - name: TypeScript
                   value: 38945
                   color: '#2b7489'
+                - name: JavaScript
+                  value: 38896
+                  color: '#f1e05a'
                 - name: HTML
                   value: 34073
                   color: '#e34c26'
                 - name: Shell
-                  value: 27064
+                  value: 14587
                   color: '#89e051'
                 - name: C
                   value: 7606
                   color: '#555555'
-                - name: Batchfile
-                  value: 1699
-                  color: '#C1F12E'
                 - name: FreeMarker
                   value: 1419
                   color: '#0050b2'
@@ -5188,14 +5139,12 @@ landscape:
                   color: '#701516'
                 - name: Fluent
                   value: 59
-              latest_commit_link: /powsybl/powsybl-core/commit/aff2ed1b95db6c0d006e3d7dc8a4ed19de67c7d1
-              latest_commit_date: '2022-12-19T16:02:35Z'
-              firstWeek: 2022-01-02Z
+              latest_commit_link: /powsybl/powsybl-diagram/commit/bf51785c36d8be7a8cced2a0c0489f14cf532c6e
+              latest_commit_date: '2022-12-20T15:58:58Z'
+              firstWeek: 2022-01-09Z
               license: Mozilla Public License 2.0
-              contributors_link: https://github.com/powsybl/powsybl-core/graphs/contributors
+              contributors_link: https://github.com/powsybl/powsybl-diagram/graphs/contributors
             repos:
-              - url: https://github.com/powsybl/powsybl-core
-                stars: 92
               - url: https://github.com/powsybl/powsybl-diagram
                 stars: 30
               - url: https://github.com/powsybl/pypowsybl
@@ -6275,8 +6224,8 @@ landscape:
                 - name: Dockerfile
                   value: 798
                   color: '#384d54'
-              contributions: 10;6;0;4;13;1;5;2;11;3;2;3;15;4;2;0;11;4;1;7;1;5;2;0;2;3;17;3;2;0;12;0;0;0;8;10;0;0;0;5;1;2;2;8;14;5;2;0;0;8;4;8
-              firstWeek: 2022-01-02Z
+              contributions: 2;6;0;4;13;1;5;2;12;2;2;5;13;4;2;0;11;4;1;7;1;5;2;0;2;3;18;2;2;0;12;0;0;0;8;10;0;0;0;5;1;2;2;9;13;5;2;0;0;8;4;8
+              firstWeek: 2022-01-09Z
               stars: 358
               license: GNU Affero General Public License v3.0
               description: OpenEMS - Open Source Energy Management System
@@ -6342,7 +6291,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 44
-              contributions: 22;17;50;24;46;50;53;35;40;37;64;60;31;13;10;11;19;7;19;16;14;8;0;8;18;16;3;14;17;8;4;14;2;4;18;10;5;8;7;12;10;10;11;4;0;15;1;11;2;13;5;0
+              contributions: 26;13;54;20;48;52;49;35;40;39;62;60;35;9;11;10;19;7;19;16;14;8;1;7;18;16;3;14;17;8;4;14;2;7;15;10;5;8;7;12;10;10;11;4;2;13;1;11;4;13;3;0
               stars: 113
               languages:
                 - name: C++
@@ -6398,7 +6347,7 @@ landscape:
                   value: 126
               latest_commit_link: /sogno-platform/dpsim/commit/9bf700a53ec2c33fce45578e4d02b3253904ca22
               latest_commit_date: '2022-12-22T09:41:52Z'
-              firstWeek: 2022-01-02Z
+              firstWeek: 2022-01-09Z
               license: Mozilla Public License 2.0
               contributors_link: https://github.com/sogno-platform/dpsim/graphs/contributors
             repos:
@@ -7329,7 +7278,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T16:44:24.000Z
+              latest_tweet_date: 2023-01-01T15:19:41.000Z
           - item:
             name: Microsoft Corporation
             homepage_url: https://microsoft.com/
@@ -8647,7 +8596,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T16:00:10.000Z
+              latest_tweet_date: 2023-01-01T07:00:07.000Z
           - item:
             name: Indra
             homepage_url: https://indracompany.com/
@@ -8875,7 +8824,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T12:30:03.000Z
+              latest_tweet_date: 2023-01-01T16:00:13.000Z
           - item:
             name: Statnett
             homepage_url: https://statnett.no/
@@ -9105,7 +9054,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T08:30:30.000Z
+              latest_tweet_date: 2023-01-01T15:00:31.000Z
           - item:
             name: ELAAD
             homepage_url: https://elaad.nl/
@@ -9135,7 +9084,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T08:15:11.000Z
+              latest_tweet_date: 2023-01-01T08:59:01.000Z
           - item:
             name: Electric Power Research Institute (EPRI)
             homepage_url: https://epri.com/
@@ -9169,7 +9118,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T14:03:56.000Z
+              latest_tweet_date: 2023-01-01T14:03:53.000Z
           - item:
             name: EnAccess Foundation
             homepage_url: https://enaccess.org/
@@ -9578,7 +9527,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T13:48:58.000Z
+              latest_tweet_date: 2023-01-01T00:16:03.000Z
           - item:
             name: Monash University
             homepage_url: https://monash.edu/
@@ -9740,7 +9689,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T16:12:18.000Z
+              latest_tweet_date: 2023-01-01T16:42:31.000Z
           - item:
             name: Pecan Street Inc.
             homepage_url: https://pecanstreet.org/
@@ -9875,7 +9824,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-31T03:04:01.000Z
+              latest_tweet_date: 2022-12-31T18:09:57.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: https://turing.ac.uk/
@@ -9971,7 +9920,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-22T11:26:36.000Z
+              latest_tweet_date: 2022-12-31T23:06:08.000Z
           - item:
             name: Vanderbilt University
             homepage_url: https://vanderbilt.edu/
@@ -10008,7 +9957,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T15:12:00.000Z
+              latest_tweet_date: 2023-01-01T15:10:30.000Z
           - item:
             name: Volta Foundation
             homepage_url: https://volta.foundation/
@@ -10057,8 +10006,8 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2022-12-30T22:24:14.000Z
+              latest_tweet_date: 2023-01-01T08:01:00.000Z
 twitter_options:
   count: 3
   since_id: '1503998726712475652'
-updated_at: 2022-12-31T17:05:02.804Z
+updated_at: 2023-01-01T16:56:34.105Z
