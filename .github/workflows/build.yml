@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r landscape-tools/requirements.txt
       - name: Run build
-        working-directory: ./main
+        working-directory: ./landscape
         run: |
           ../landscape-tools/landscapemembers.py
       - name: Save missing.csv file
@@ -40,14 +40,14 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: cncf/landscapeapp
-          path: landscapeapp2
+          path: landscapeapp
       - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: '18'
       - name: Cleanup YAML files
+        working-directory: ./landscapeapp
         run: |
-          cd landscapeapp2
           node tools/removePuppeteer
           npm install
           PROJECT_PATH=../landscape node tools/removeQuotes
@@ -57,7 +57,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           branch-suffix: timestamp
-          path: ./main
+          path: ./landscape
           title: Update members
           labels: automated-build
           commit-message: Update members
