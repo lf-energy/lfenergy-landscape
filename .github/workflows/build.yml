@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: missing-members 
-          path: ./main/missing.csv
+          path: ./landscape/missing.csv
       - name: Checkout landscapeapp
         uses: actions/checkout@v3
         with:
