@@ -656,6 +656,24 @@ landscape:
             project_org: https://github.com/emoncms
             logo: emoncms.svg
             crunchbase: https://www.crunchbase.com/organization/openenergymonitor
+          - item:
+            name: Real Time Data Ingestion Platform (RTDIP)
+            homepage_url: https://rtdip.io
+            project: sandbox
+            repo_url: https://github.com/rtdip/core
+            project_org: https://github.com/rtdip
+            logo: rtdip.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
+              slack_channel: '#rtdip'
+              LFX_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/RTDIP/Real+Time+Data+Ingestion+Platform+Home
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: none
+              project_lead: none
       - subcategory:
         name: Forecasting
         items:
