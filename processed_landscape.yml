@@ -71238,7 +71238,7 @@ landscape:
               TSC_meeting_notes: none
               calendar: none
               contribution_guidelines: none
-              project_lead: none
+              project_lead: Mark Nigge-Uricher, Alliander
             crunchbase_data:
               name: Non-Public Unnamed Organization
               homepage: https://www.cncf.io
@@ -71489,7 +71489,7 @@ landscape:
               TSC_meeting_notes: https://github.com/shapeshifter/tsc/tree/main/tsc/meetings
               calendar: https://lists.lfenergy.org/g/shapeshifter-discussion/calendar
               contribution_guidelines: https://github.com/shapeshifter/tsc/blob/main/CONTRIBUTING.md
-              project_lead: Jelle Wijnja, Alliander
+              project_lead: Robben Riksen, Alliander
             crunchbase_data:
               name: Non-Public Unnamed Organization
               homepage: https://www.cncf.io
@@ -71809,7 +71809,7 @@ landscape:
           - item:
             name: OpenGEH
             homepage_url: https://opengeh.energy
-            project: incubation
+            project: sandbox
             repo_url: https://github.com/opengeh/.github
             project_org: https://github.com/opengeh
             logo: opengeh.svg
@@ -75372,28 +75372,29 @@ landscape:
             homepage_url: https://d-fine.com/
             logo: d-fine_gmbh.svg
             twitter: https://twitter.com/dfineblockchain
-            crunchbase: https://www.crunchbase.com/organization/dfine-inc
+            crunchbase: https://www.crunchbase.com/organization/d-fine
             crunchbase_data:
-              name: DFine
-              description: DFine is a medical device company that develops therapeutic devices to manage compression fractures of the spine.
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: http://www.dfineinc.com
-              city: San Jose
-              region: California
-              country: United States
-              twitter: http://twitter.com/dfineinc
-              linkedin: https://www.linkedin.com/company/dfine-inc-/
+              name: d-fine
+              description: d-fine is a consulting firm that offers consulting services that focus on financial risk management, system integration, and more.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.d-fine.com/
+              city: Frankfurt
+              region: Hessen
+              country: Germany
+              twitter: null
+              linkedin: https://www.linkedin.com/company/d-fine/
               acquisitions: []
               parents: []
-              funding: 129842000
               stockExchange: null
               company_type: For Profit
               industries:
-                - Health Care
-                - Medical Device
-                - Therapeutics
-              kind: funding
+                - CRM
+                - Consulting
+                - Financial Services
+                - Information Technology
+                - Legal
+                - Management Consulting
             image_data:
               fileName: d-fine-gmb-h.svg
               hash: GAnfiilKB9DzpfAaYIhXYg96Jof0X0FH9ThJyvHM1Z8=
