@@ -329,7 +329,7 @@ big_picture:
         - type: HorizontalCategory
           category: Renewable Energy
           rows: 4
-          width: 600
+          width: 1200
           height: 300
           top: 0
           left: 0
@@ -338,10 +338,82 @@ big_picture:
         - type: HorizontalCategory
           category: Energy Storage
           rows: 4
-          width: 600
+          width: 1200
           height: 300
-          top: 0
-          left: 610
+          top: 310
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Energy Systems
+          rows: 4
+          width: 1200
+          height: 300
+          top: 620
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Consumption of Energy and Resources
+          rows: 4
+          width: 1200
+          height: 300
+          top: 930
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Emissions
+          rows: 4
+          width: 1200
+          height: 300
+          top: 1240
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Industrial Ecology
+          rows: 4
+          width: 1200
+          height: 300
+          top: 1550
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Earth Systems
+          rows: 4
+          width: 1200
+          height: 300
+          top: 1860
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Climate and Earth Science 
+          rows: 4
+          width: 1200
+          height: 300
+          top: 2170
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Natural Resources
+          rows: 4
+          width: 1200
+          height: 300
+          top: 2480
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Sustainable Development
+          rows: 4
+          width: 1200
+          height: 300
+          top: 2790
+          left: 0
           color: rgb(106,44,218)
           fit_width: true
 test:
