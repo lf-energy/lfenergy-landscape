@@ -5278,7 +5278,7 @@ landscape:
               start_date: '2012-06-08T21:21:26Z'
             image_data:
               fileName: bem-rosetta.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: FT2tl9WUDGlkfA9aikRdOk6LQk/wjORjiFdZ/kWcP0o=
             best_practice_data:
               badge: false
               percentage: null
@@ -5596,12 +5596,26 @@ landscape:
             extra:
               topics: >-
                 porous-flow,simulation-modeling,reactive-chemistry,coupled-heat-mass,multiphase-transport,groundwater-modelling,carbon-storage,soil-vapor,earth-science,carbon-sequestration,subsurface-remediation,nuclear-waste-repositories,subsurface-hydrology,geothermal-energy
-            organization:
-              name: Los Alamos National Laboratory
+            crunchbase: https://www.crunchbase.com/organization/los-alamos-national-laboratory
             homepage_url: https://fehm.lanl.gov
             crunchbase_data:
               name: Los Alamos National Laboratory
+              description: Los Alamos National Laboratory, a multidisciplinary research institution engaged in strategic science on behalf of national security, is
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.lanl.gov
+              city: Los Alamos
+              region: New Mexico
+              country: United States
+              twitter: http://twitter.com/LosAlamosNatLab
+              linkedin: https://www.linkedin.com/company/5327
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Security
             github_data:
               languages:
                 - name: Fortran
@@ -5651,10 +5665,12 @@ landscape:
               start_date: '2008-01-29T16:33:06Z'
             image_data:
               fileName: fehm.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: E6aItVtYDQRXy+eVmFSKOZ6Ajj+OONTV5q4smS9X/pg=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-29T20:13:06.000Z
           - item:
             name: thermo
             logo: thermo.svg
@@ -5988,14 +6004,31 @@ landscape:
             logo: Multiscale_Ulva.svg
             description: A multi-reactor, algae farm, simulation base function that will be solved in time.
             repo_url: https://github.com/alexliberzonlab/Multiscale_Ulva
-            organization:
-              name: Alex Liberzon Lab
+            crunchbase: https://www.crunchbase.com/organization/tel-aviv-university
             homepage_url: https://github.com/alexliberzonlab/Multiscale_Ulva
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5017069,http://doi.org/10.1038/s42003-021-02371-z\n,http://doi.org/10.5281/zenodo.5017069\n\n'
             crunchbase_data:
-              name: Alex Liberzon Lab
+              name: Tel Aviv University
+              description: Tel Aviv University offers higher education courses and research facilities in the fields of sciences, humanities, and the arts.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://english.tau.ac.il/
+              city: Tel Aviv
+              region: Tel Aviv
+              country: Israel
+              twitter: http://twitter.com/telavivuni1
+              linkedin: https://www.linkedin.com/edu/tel-aviv-university-13403
+              acquisitions: []
               parents: []
+              funding: 16000000
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -6023,10 +6056,12 @@ landscape:
               start_date: '2020-09-30T13:23:25Z'
             image_data:
               fileName: multiscale-ulva.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: o3NLJyydjG21Zrp++CIik2exdXtt/lR+FO5oQyYs0P4=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: null
           - item:
             name: BETYdb
             logo: BETYdb.svg
@@ -12063,14 +12098,30 @@ landscape:
             logo: REISE.jl.svg
             description: Renewable Energy Integration Simulation Engine.
             repo_url: https://github.com/Breakthrough-Energy/REISE.jl
-            organization:
-              name: Breakthrough Energy
+            crunchbase: https://www.crunchbase.com/organization/breakthrough-energy-ventures
             homepage_url: https://breakthrough-energy.github.io/docs/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4538590,https://doi.org/10.5281/zenodo.4538590\n'
             crunchbase_data:
-              name: Breakthrough Energy
-              parents: []
+              name: Breakthrough Energy Ventures
+              description: Breakthrough Energy provides reliable and affordable power without contributing to climate change.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.breakthroughenergy.org
+              city: Paris
+              region: Ile-de-France
+              country: France
+              twitter: https://twitter.com/btenergy
+              linkedin: https://www.linkedin.com/company/breakthrough-energy-ventures/
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/breakthrough-energy-pty-ltd
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Energy
+                - Impact Investing
+                - Venture Capital
             github_data:
               languages:
                 - name: Julia
@@ -12101,7 +12152,7 @@ landscape:
               start_date: '2020-01-07T01:48:09Z'
             image_data:
               fileName: reise-jl.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: RHbOcU9EkHcWioC2XeU5YNuBDire7izGRByl3RZ/Pak=
             best_practice_data:
               badge: false
               percentage: null
@@ -14064,7 +14115,7 @@ landscape:
               start_date: '2017-07-27T17:16:19Z'
             image_data:
               fileName: power-models-annex-jl.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: svgFBoACSIHl1SNbCmSEVWbVYakpJPHrFJb2USbTtRE=
             best_practice_data:
               badge: false
               percentage: null
@@ -15350,14 +15401,30 @@ landscape:
             logo: PowerSimData.svg
             description: Is part of a Python software ecosystem developed by Breakthrough Energy Sciences to carry out power flow study in the U.S. electrical grid.
             repo_url: https://github.com/Breakthrough-Energy/PowerSimData
-            organization:
-              name: Breakthrough Energy
+            crunchbase: https://www.crunchbase.com/organization/breakthrough-energy-ventures
             homepage_url: https://breakthrough-energy.github.io/docs/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4538590'
             crunchbase_data:
-              name: Breakthrough Energy
-              parents: []
+              name: Breakthrough Energy Ventures
+              description: Breakthrough Energy provides reliable and affordable power without contributing to climate change.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.breakthroughenergy.org
+              city: Paris
+              region: Ile-de-France
+              country: France
+              twitter: https://twitter.com/btenergy
+              linkedin: https://www.linkedin.com/company/breakthrough-energy-ventures/
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/breakthrough-energy-pty-ltd
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Energy
+                - Impact Investing
+                - Venture Capital
             github_data:
               languages:
                 - name: Python
@@ -15388,7 +15455,7 @@ landscape:
               start_date: '2018-11-12T19:50:08Z'
             image_data:
               fileName: power-sim-data.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: +/kIjcWIWwpcCokJG3ZLE/Ynfyj/Qiy9UPdwdut31v4=
             best_practice_data:
               badge: false
               percentage: null
@@ -17614,15 +17681,31 @@ landscape:
               The Building Optimization Testing (BOPTEST) Framework enables the assessment and benchmarking of control algorithms for building energy
               management.
             repo_url: https://github.com/ibpsa/project1-boptest
-            organization:
-              name: IBPSA
+            crunchbase: https://www.crunchbase.com/organization/international-building-performance-simulation-association
             homepage_url: https://github.com/ibpsa/project1-boptest
             extra:
               refs: >-
                 ,https://doi.org/10.1080/19401493.2021.1986574,https://doi.org/10.3389/fbuil.2022.849754,https://doi.org/10.1080/19401493.2022.2058091,https://doi.org/10.1016/j.apenergy.2021.118346,https://doi.org/10.1080/19401493.2020.1770861
             crunchbase_data:
-              name: IBPSA
+              name: International Building Performance Simulation Association
+              description: International Building Performance Simulation Association is a non-profit organization of researchers, developers, and practitioners.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.ibpsa.org/
+              city: Atlanta
+              region: Georgia
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Architecture
+                - Building Material
+                - Construction
+                - Non Profit
             github_data:
               languages:
                 - name: Modelica
@@ -17660,7 +17743,7 @@ landscape:
               start_date: '2018-05-11T18:18:08Z'
             image_data:
               fileName: boptest.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: +9qNybnRz4DUnKdO8VjpzsYvvhWGAodg45vAb2Vvvdk=
             best_practice_data:
               badge: false
               percentage: null
@@ -17669,12 +17752,28 @@ landscape:
             logo: BOPTEST-Gym.svg
             description: The OpenAI-Gym interface of the BOPTEST framework facilitates the assessment and benchmarking of RL algorithms for building energy management.
             repo_url: https://github.com/ibpsa/project1-boptest-gym
-            organization:
-              name: IBPSA
+            crunchbase: https://www.crunchbase.com/organization/international-building-performance-simulation-association
             homepage_url: https://github.com/ibpsa/project1-boptest-gym
             crunchbase_data:
-              name: IBPSA
+              name: International Building Performance Simulation Association
+              description: International Building Performance Simulation Association is a non-profit organization of researchers, developers, and practitioners.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.ibpsa.org/
+              city: Atlanta
+              region: Georgia
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Architecture
+                - Building Material
+                - Construction
+                - Non Profit
             github_data:
               languages:
                 - name: Python
@@ -17697,7 +17796,7 @@ landscape:
               start_date: '2020-11-05T16:17:49Z'
             image_data:
               fileName: boptest-gym.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: grW8HASRC6c4rBdTMUYk4OxPGUPdFkEJpf5bPsu5ccc=
             best_practice_data:
               badge: false
               percentage: null
@@ -18839,15 +18938,27 @@ landscape:
             logo: Modelica Buildings library.svg
             description: A free and open source library with dynamic simulation models for building energy and control systems.
             repo_url: https://github.com/lbl-srg/modelica-buildings
-            organization:
-              name: Berkeley Lab - Modeling & Simulation
+            crunchbase: https://www.crunchbase.com/organization/berkeley-lab
             homepage_url: https://github.com/lbl-srg/modelica-buildings
             extra:
               refs: ',https://doi.org/10.1080/19401493.2013.765506"\n'
               topics: modelica,buildings,control,energy-efficiency
             crunchbase_data:
-              name: Berkeley Lab - Modeling & Simulation
+              name: Berkeley Lab
+              description: Berkeley Lab is a national laboratory that creates advanced new tools for scientific discovery.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://linktr.ee/BerkeleyLab
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: https://twitter.com/BerkeleyLab
+              linkedin: https://www.linkedin.com/company/lawrence-berkeley-national-laboratory/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries: []
             github_data:
               languages:
                 - name: Modelica
@@ -18908,10 +19019,12 @@ landscape:
               start_date: '2008-04-28T19:07:35Z'
             image_data:
               fileName: modelica-buildings-library.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Sh66brYHx3ipfcwFFdbYBbIJqYJw9TG8gBL4iiWrx8o=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-30T23:31:16.000Z
           - item:
             name: StROBe
             logo: StROBe.svg
@@ -19195,12 +19308,24 @@ landscape:
             logo: MPCPy.svg
             description: The Python-based open source platform for model predictive control in buildings.
             repo_url: https://github.com/lbl-srg/MPCPy
-            organization:
-              name: Berkeley Lab - Modeling & Simulation
+            crunchbase: https://www.crunchbase.com/organization/berkeley-lab
             homepage_url: https://github.com/lbl-srg/MPCPy
             crunchbase_data:
-              name: Berkeley Lab - Modeling & Simulation
+              name: Berkeley Lab
+              description: Berkeley Lab is a national laboratory that creates advanced new tools for scientific discovery.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://linktr.ee/BerkeleyLab
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: https://twitter.com/BerkeleyLab
+              linkedin: https://www.linkedin.com/company/lawrence-berkeley-national-laboratory/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -19227,21 +19352,35 @@ landscape:
               start_date: '2017-02-22T15:26:54Z'
             image_data:
               fileName: mpc-py.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 5bkvVXh9cXIjRvzcex9DgiV+iPf0IrREbvqIkgrjZt4=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-30T23:31:16.000Z
           - item:
             name: obc
             logo: obc.svg
             description: Performance Evaluation, Specification, Deployment and Verification of Building Control Sequences.
             repo_url: https://github.com/lbl-srg/obc
-            organization:
-              name: Berkeley Lab - Modeling & Simulation
+            crunchbase: https://www.crunchbase.com/organization/berkeley-lab
             homepage_url: http://obc.lbl.gov
             crunchbase_data:
-              name: Berkeley Lab - Modeling & Simulation
+              name: Berkeley Lab
+              description: Berkeley Lab is a national laboratory that creates advanced new tools for scientific discovery.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://linktr.ee/BerkeleyLab
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: https://twitter.com/BerkeleyLab
+              linkedin: https://www.linkedin.com/company/lawrence-berkeley-national-laboratory/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries: []
             github_data:
               languages:
                 - name: HTML
@@ -19281,10 +19420,12 @@ landscape:
               start_date: '2016-12-15T16:22:04Z'
             image_data:
               fileName: obc.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: D1fwDZsVmg+tvFqKP87qGSC3g6Br7ag3zLMAvs+jAgE=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-30T23:31:16.000Z
           - item:
             name: The Application Domain Extension
             logo: The Application Domain Extension.svg
@@ -19498,12 +19639,28 @@ landscape:
             logo: modelica-ibpsa.svg
             description: A Modelica library for building and district energy systems developed within IBPSA Project 1.
             repo_url: https://github.com/ibpsa/modelica-ibpsa
-            organization:
-              name: IBPSA
+            crunchbase: https://www.crunchbase.com/organization/international-building-performance-simulation-association
             homepage_url: https://ibpsa.github.io/project1
             crunchbase_data:
-              name: IBPSA
+              name: International Building Performance Simulation Association
+              description: International Building Performance Simulation Association is a non-profit organization of researchers, developers, and practitioners.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.ibpsa.org/
+              city: Atlanta
+              region: Georgia
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Architecture
+                - Building Material
+                - Construction
+                - Non Profit
             github_data:
               languages:
                 - name: Modelica
@@ -19559,7 +19716,7 @@ landscape:
               start_date: '2013-09-21T05:49:34Z'
             image_data:
               fileName: modelica-ibpsa.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: tDHAwtQA+wvIpLkmBElgPOGWiEV6nn3VlV/ow3rF9+w=
             best_practice_data:
               badge: false
               percentage: null
@@ -19572,12 +19729,28 @@ landscape:
             repo_url: https://github.com/ibpsa/project1
             extra:
               topics: ibpsa,modelica,bim,simulation,optimization,mpc
-            organization:
-              name: IBPSA
+            crunchbase: https://www.crunchbase.com/organization/international-building-performance-simulation-association
             homepage_url: https://github.com/ibpsa/project1
             crunchbase_data:
-              name: IBPSA
+              name: International Building Performance Simulation Association
+              description: International Building Performance Simulation Association is a non-profit organization of researchers, developers, and practitioners.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.ibpsa.org/
+              city: Atlanta
+              region: Georgia
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Architecture
+                - Building Material
+                - Construction
+                - Non Profit
             github_data:
               languages:
                 - name: Modelica
@@ -19628,7 +19801,7 @@ landscape:
               start_date: '2016-07-29T06:09:13Z'
             image_data:
               fileName: project1.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: YMBUBlKvm04XkWxD6n8h7ubNfT/UuaMD6iLVvfysMMk=
             best_practice_data:
               badge: false
               percentage: null
@@ -23638,12 +23811,25 @@ landscape:
             logo: Bike Index.svg
             description: 'Bike registration that works: online, powerful, free.'
             repo_url: https://github.com/bikeindex/bike_index
-            organization:
-              name: Bike Index
+            crunchbase: https://www.crunchbase.com/organization/bike-index
             homepage_url: https://bikeindex.org
             crunchbase_data:
               name: Bike Index
+              description: Bike Index is an online platform that works with bikers and bike shops to make sure stolen bikes are easily recovered and not sold.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://bikeindex.org
+              city: Chicago
+              region: Illinois
+              country: United States
+              twitter: http://twitter.com/BikeIndex
+              linkedin: https://www.linkedin.com/company/bike-index
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Social Media
             github_data:
               languages:
                 - name: Ruby
@@ -23687,10 +23873,12 @@ landscape:
               start_date: '2013-07-25T22:15:33Z'
             image_data:
               fileName: bike-index.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 8ugAnGbvYuqgu6BwPRZDZq858AaNzBo4nJCZJ9+6y0s=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-30T13:48:17.000Z
           - item:
             name: go-ocpp
             logo: go-ocpp.svg
@@ -34184,7 +34372,7 @@ landscape:
               start_date: '2019-07-18T09:23:23Z'
             image_data:
               fileName: monitoring-ecosystem-resilience.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: AY8dIWqkTAVuzSu+M74ggqrXRGSDtsa9RVd+nw4uSyg=
             best_practice_data:
               badge: false
               percentage: null
@@ -36941,15 +37129,31 @@ landscape:
             logo: Darwin Core.svg
             description: Standard for sharing of information about biological diversity.
             repo_url: https://github.com/tdwg/dwc
-            organization:
-              name: Biodiversity Information Standards (TDWG)
+            crunchbase: https://www.crunchbase.com/organization/tdwg
             homepage_url: https://dwc.tdwg.org
             extra:
               refs: ',https://doi.org/10.1371/journal.pone.0029715\n\nFor,https://doi.org/10.5281/zenodo.592792\n\nThe'
               topics: tdwg,standard,biodiversity-standards,darwin-core,biodiversity-informatics
             crunchbase_data:
-              name: Biodiversity Information Standards (TDWG)
+              name: TDWG
+              description: TDWG is a non-profit scientific and educational association that focuses on developing biodiversity information standards.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.tdwg.org
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/tdwg
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Consulting
+                - Non Profit
+                - Professional Services
             github_data:
               languages:
                 - name: Python
@@ -36977,10 +37181,12 @@ landscape:
               start_date: '2014-10-27T16:49:02Z'
             image_data:
               fileName: darwin-core.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /ZyHUwVKWXIhg+KZVyk/f0vpGGQ62b7tjPxnNVuHM4U=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-27T07:28:04.000Z
           - item:
             name: iNaturalist
             logo: iNaturalist.svg
