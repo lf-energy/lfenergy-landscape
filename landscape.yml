@@ -861,16 +861,14 @@ landscape:
             repo_url: https://github.com/SNL-WaterPower/WecOptTool
             extra:
               topics: snl-applications
-            organization:
-              name: Sandia National Laboratories Water Power Technologies
+            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
             homepage_url: https://snl-waterpower.github.io/WecOptTool/
           - item:
             name: CACTUS
             logo: CACTUS.svg
             description: A turbine performance simulation code, based on a free wake vortex method, to study wind turbines and marine hydrokinetic devices.
             repo_url: https://github.com/SNL-WaterPower/CACTUS
-            organization:
-              name: Sandia National Laboratories Water Power Technologies
+            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
             homepage_url: https://github.com/SNL-WaterPower/CACTUS
           - item:
             name: hydro-power-database
@@ -1204,8 +1202,7 @@ landscape:
             repo_url: https://github.com/snl-quest/snl-quest
             extra:
               topics: energy-storage,pyomo,kivy,sandia-national-laboratories,optimization,python
-            organization:
-              name: QuESt
+            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
             homepage_url: https://github.com/snl-quest/snl-quest
           - item:
             name: simses
@@ -1337,8 +1334,8 @@ landscape:
             name: Battery Archive
             logo: Battery Archive.svg
             description: Easy visualization, analysis, and comparison of battery data across institutions.
-            repo_url: https://github.com/battery-lcf/batteryarchive
-            unnamed_organization: true
+            repo_url: https://github.com/battery-lcf/battery-archive-sandbox
+            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
             homepage_url: https://www.batteryarchive.org
       - subcategory:
         name: Hydrogen
@@ -1403,8 +1400,7 @@ landscape:
             repo_url: https://github.com/sandialabs/hyram
             extra:
               topics: snl-applications
-            organization:
-              name: Sandia National Laboratories
+            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
             homepage_url: https://github.com/sandialabs/hyram
           - item:
             name: GasModels.jl
@@ -2544,32 +2540,24 @@ landscape:
               project_lead: Boris Dolley, RTE
               topics: energy,platform,collaboration,linux-foundation,hypervision,alerting
           - item:
-            name: energy-sparks
+            name: Energy Sparks
             logo: energy-sparks.svg
             description: An open source application that is designed to help schools improve their energy efficiency.
             repo_url: https://github.com/Energy-Sparks/energy-sparks
+            project_org: https://github.com/Energy-Sparks
             extra:
               topics: energy,bath,school,rails,ruby,ruby-on-rails,data
-            organization:
-              name: Energy Sparks
+            crunchbase: https://www.crunchbase.com/organization/energy-sparks
             homepage_url: http://www.energysparks.uk
           - item:
-            name: emonpi
-            logo: emonpi.svg
+            name: OpenEnergyMonitor
+            logo: OpenEnergyMonitor.svg
             description: The OpenEnergyMonitor system has the capability to monitor electrical energy use / generation, temperature and humidity.
             repo_url: https://github.com/openenergymonitor/emonpi
+            project_org: https://github.com/openenergymonitor
             extra:
               topics: emonpi,hardware-designs,raspberry-pi,energy-monitor,arduino,emoncms
-            organization:
-              name: OpenEnergyMonitor
-            homepage_url: https://guide.openenergymonitor.org/setup
-          - item:
-            name: EmonLib
-            logo: EmonLib.svg
-            description: Arduino Energy Monitoring Library.
-            repo_url: https://github.com/openenergymonitor/EmonLib
-            organization:
-              name: OpenEnergyMonitor
+            crunchbase: https://www.crunchbase.com/organization/openenergymonitor
             homepage_url: https://openenergymonitor.org
           - item:
             second_path:
@@ -2606,16 +2594,6 @@ landscape:
               contribution_guidelines: https://github.com/FlexMeasures/tsc/blob/main/CONTRIBUTING.md
               project_lead: Nicolas Höning, Seita Energy Flexibility B.V.
               topics: energy,energy-data,energy-flexibility,backend,machine-learning
-          - item:
-            name: STM32 Energy Monitoring
-            logo: STM32 Energy Monitoring.svg
-            description: >-
-              The following resources are a work in progress guide to using the STM32 platform for energy monitoring, being written as part of development work
-              into the next generation of OpenEnergyMonitor hardware.
-            repo_url: https://github.com/openenergymonitor/STM32
-            organization:
-              name: OpenEnergyMonitor
-            homepage_url: https://github.com/openenergymonitor/STM32
       - subcategory:
         name: Distribution and Grids
         items:
@@ -2890,14 +2868,26 @@ landscape:
               name: Energy and Power Group
             homepage_url: https://github.com/EPGOxford/OPEN
           - item:
-            name: GridLAB-D
-            logo: GridLAB-D.svg
-            description: A distribution level power system simulator designed to allow users to create and analyze smart grid technologies.
-            repo_url: https://github.com/slacgismo/gridlabd
+            name: Arras
+            second_path:
+              - System Management / Power System Calculation
+            description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
+            homepage_url: https://arras.energy/
+            project: sandbox
+            repo_url: https://github.com/arras-energy/tsc
+            project_org: https://github.com/arras-energy
+            logo: arras.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              topics: power-systems-analysis,power-systems,smartgrid,power-simulator,grid-simulation,transactive-energy
-            crunchbase: https://www.crunchbase.com/organization/slac-national-accelerator-laboratory
-            homepage_url: https://docs.gridlabd.us
+              mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
+              slack_channel: null
+              LFX_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/FLEX
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/arras-discussion/calendar
+              contribution_guidelines: https://github.com/arras-energy/tsc/blob/main/CONTRIBUTING.md
+              project_lead: David Chassin
           - item:
             name: Gym-ANM
             logo: Gym-ANM.svg
@@ -3432,8 +3422,7 @@ landscape:
             repo_url: https://github.com/RWTH-EBC/AixLib
             extra:
               topics: hacktoberfest
-            organization:
-              name: RWTH Aachen University - E.ON Energy Research Center - Institute for Energy Efficient Buildings and Indoor Climate
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
             homepage_url: https://ebc-tools.eonerc.rwth-aachen.de/aixlib
           - item:
             name: TEASER
@@ -3442,16 +3431,14 @@ landscape:
             repo_url: https://github.com/RWTH-EBC/TEASER
             extra:
               topics: python,simulation,buildings,urban-energy-modeling,hacktoberfest
-            organization:
-              name: RWTH Aachen University - E.ON Energy Research Center - Institute for Energy Efficient Buildings and Indoor Climate
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
             homepage_url: https://github.com/RWTH-EBC/TEASER
           - item:
             name: pyCity
             logo: pyCity.svg
             description: A Python package for data handling and scenario generation of city districts and urban energy systems.
             repo_url: https://github.com/RWTH-EBC/pyCity
-            organization:
-              name: RWTH Aachen University - E.ON Energy Research Center - Institute for Energy Efficient Buildings and Indoor Climate
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
             homepage_url: https://github.com/RWTH-EBC/pyCity
             extra:
               refs: ',https://doi.org/10.1016/j.buildenv.2018.12.025,https://doi.org/10.1002/bapi.201710001'
@@ -3501,7 +3488,7 @@ landscape:
             logo: Modelica Buildings library.svg
             description: A free and open source library with dynamic simulation models for building energy and control systems.
             repo_url: https://github.com/lbl-srg/modelica-buildings
-            crunchbase: https://www.crunchbase.com/organization/berkeley-lab
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://github.com/lbl-srg/modelica-buildings
             extra:
               refs: ',https://doi.org/10.1080/19401493.2013.765506"\n'
@@ -3561,14 +3548,14 @@ landscape:
             logo: MPCPy.svg
             description: The Python-based open source platform for model predictive control in buildings.
             repo_url: https://github.com/lbl-srg/MPCPy
-            crunchbase: https://www.crunchbase.com/organization/berkeley-lab
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://github.com/lbl-srg/MPCPy
           - item:
             name: obc
             logo: obc.svg
             description: Performance Evaluation, Specification, Deployment and Verification of Building Control Sequences.
             repo_url: https://github.com/lbl-srg/obc
-            crunchbase: https://www.crunchbase.com/organization/berkeley-lab
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: http://obc.lbl.gov
           - item:
             name: The Application Domain Extension
@@ -3717,8 +3704,7 @@ landscape:
             logo: Multiscale Solar Water Heating.svg
             description: Solar water heating system modeling and simulation for individual and community scale projects.
             repo_url: https://github.com/LBNL-ETA/MSWH
-            organization:
-              name: LBNL Energy Technologies Area
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://github.com/LBNL-ETA/MSWH
             extra:
               refs: ',https://doi.org/10.21105/joss.02695'
@@ -3749,7 +3735,7 @@ landscape:
             logo: BETTER.svg
             description: Building Efficiency Targeting Tool for Energy Retrofits.
             repo_url: https://github.com/LBNL-JCI-ICF/better
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://github.com/LBNL-JCI-ICF/better
           - item:
             name: NILM
@@ -3975,21 +3961,12 @@ landscape:
           - item:
             name: OpenEVSE
             logo: OpenEVSE.svg
-            description: 'Firmware for OpenEVSE: Open Source Hardware J1772 Electric Vehicle Supply Equipment.'
             repo_url: https://github.com/OpenEVSE/open_evse
-            organization:
-              name: OpenEVSE
-            homepage_url: https://github.com/OpenEVSE/open_evse
-          - item:
-            name: OpenEVSE WiFi gateway
-            logo: OpenEVSE WiFi gateway.svg
-            description: Uses an ESP8266 (ESP-12) which communicates with the OpenEVSE controller via serial utilizing the existing RAPI API serial interface.
-            repo_url: https://github.com/OpenEVSE/ESP8266_WiFi_v2.x
+            project_org: https://github.com/OpenEVSE
             extra:
               topics: esp8266,openevse,openenergymonitor,evse,wifi,emoncms,mqtt-client
-            organization:
-              name: OpenEVSE
-            homepage_url: https://openevse.openenergymonitor.org
+            crunchbase: https://www.crunchbase.com/organization/openevse
+            homepage_url: https://www.openevse.com
           - item:
             name: navitia
             logo: navitia.svg
@@ -4227,8 +4204,7 @@ landscape:
             logo: BEAM.svg
             description: The Framework for Modeling Behavior, Energy, Autonomy, and Mobility in Transportation Systems.
             repo_url: https://github.com/LBNL-UCB-STI/beam
-            organization:
-              name: LBNL/UCB - Sustainable Transportation Initiative
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://github.com/LBNL-UCB-STI/beam
           - item:
             name: WoBike
@@ -4576,7 +4552,7 @@ landscape:
             description: An open source Modelica-based modeling and simulation environment intended for industrial and academic usage.
             repo_url: https://github.com/OpenModelica/OpenModelica
             organization:
-              name: OpenModelica
+              name: Open Source Modelica Consortium
             homepage_url: https://openmodelica.org
       - subcategory:
         name: Computation and Communication
@@ -6331,8 +6307,7 @@ landscape:
             repo_url: https://github.com/NOAA-EDAB/ecodata
             extra:
               topics: soe,data-package
-            organization:
-              name: Ecosystem Dynamics and Assessment Branch
+            crunchbase: https://www.crunchbase.com/organization/noaa-marine-fisheries
             homepage_url: https://noaa-edab.github.io/ecodata/landing_page
           - item:
             name: CODED
@@ -7119,8 +7094,7 @@ landscape:
               Calculates the concentration, thickness, temperature, brine content and snow cover of an arbitrary number of ice thickness categories (including
               open water) as well as the motion of the complete pack.
             repo_url: https://github.com/NOAA-GFDL/SIS2
-            organization:
-              name: NOAA - Geophysical Fluid Dynamics Laboratory
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-GFDL/SIS2
           - item:
             name: FSM2
@@ -7312,11 +7286,11 @@ landscape:
           - item:
             name: GOLD
             logo: GOLD.svg
+            repo_url: https://github.com/coecms/gold
             description: >-
               Stands for Generalized Ocean Layer Dynamics and is a hybrid coordinate finite volume ocean model code funded by NOAA and developed by the ocean
               group at NOAA-GFDL and Princeton University.
-            repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://code.google.com/archive/p/gold-omod/
           - item:
             name: rrricanes
@@ -7445,8 +7419,7 @@ landscape:
             logo: VAPOR.svg
             description: The Visualization and Analysis Platform for Ocean, Atmosphere and Solar Researchers.
             repo_url: https://github.com/NCAR/VAPOR
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://www.vapor.ucar.edu/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.7139693'
@@ -7465,8 +7438,7 @@ landscape:
               An interactive computer visualization and analysis environment designed to meet the needs of oceanographers and meteorologists analyzing large and
               complex gridded datasets.
             repo_url: https://github.com/NOAA-PMEL/Ferret
-            organization:
-              name: Pacific Marine Environmental Laboratory
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://ferret.pmel.noaa.gov/Ferret/
           - item:
             name: ccpp-physics
@@ -7475,8 +7447,7 @@ landscape:
               The Common Community Physics Package is designed to facilitate the implementation of physics innovations in state-of-the-art atmospheric models,
               the use of various models to develop physics, and the acceleration of transition of physics innovations to operational NOAA models.
             repo_url: https://github.com/NCAR/ccpp-physics
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://github.com/NCAR/ccpp-physics
           - item:
             name: rnoaa
@@ -7572,8 +7543,7 @@ landscape:
             logo: WRF-Hydro.svg
             description: A community modeling system and framework for hydrologic modeling and model coupling.
             repo_url: https://github.com/NCAR/wrf_hydro_nwm_public
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://ral.ucar.edu/projects/wrf_hydro
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3625237'
@@ -7583,8 +7553,7 @@ landscape:
             logo: rwrfhydro.svg
             description: A community-contributed tool box for managing, analyzing, and visualizing WRF Hydro (and HydroDART) input and output files in R.
             repo_url: https://github.com/NCAR/rwrfhydro
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://github.com/NCAR/rwrfhydro
           - item:
             name: PCR-GLOBWB_model
@@ -7918,8 +7887,7 @@ landscape:
             logo: wrfhydropy.svg
             description: Provides an end-to-end python interface to support reproducible research and construction of workflows involving the WRF-Hydro model.
             repo_url: https://github.com/NCAR/wrf_hydro_py
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://github.com/NCAR/wrf_hydro_py
           - item:
             name: LAGOSNE
@@ -7984,8 +7952,7 @@ landscape:
             repo_url: https://github.com/NCAR/icar
             extra:
               topics: icar,netcdf,climate,downscaling,regional-climate-model,precipitation
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://github.com/NCAR/icar
           - item:
             name: splitr
@@ -8203,16 +8170,14 @@ landscape:
             repo_url: https://github.com/NOAA-GFDL/FMS
             extra:
               topics: gfdl,climate-model,fms,climate,infrastructure,netcdf,fortran
-            organization:
-              name: NOAA - Geophysical Fluid Dynamics Laboratory
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-GFDL/FMS
           - item:
             name: global-workflow
             logo: global-workflow.svg
             description: Global Superstructure/Workflow currently supporting the Finite-Volume on a Cubed-Sphere Global Forecast System.
             repo_url: https://github.com/NOAA-EMC/global-workflow
-            organization:
-              name: NOAA Environmental Modeling Center (EMC)
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-EMC/global-workflow
           - item:
             name: sedproxy
@@ -8269,8 +8234,7 @@ landscape:
             logo: MDTF-diagnostics.svg
             description: Analysis framework and collection of process-oriented diagnostics for weather and climate simulations.
             repo_url: https://github.com/NOAA-GFDL/MDTF-diagnostics
-            organization:
-              name: NOAA - Geophysical Fluid Dynamics Laboratory
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-GFDL/MDTF-diagnostics
             extra:
               refs: ',https://doi.org/10.22033/ESGF/CMIP6.8594\n\nKrasting,https://doi.org/10.22033/ESGF/CMIP6.8597\n\nE,https://doi.org/10.1175/BAMS-D-18-0042.1'
@@ -8363,8 +8327,7 @@ landscape:
             logo: MOM6.svg
             description: A numerical representation of the ocean fluid with applications from the process scale to the planetary circulation scale.
             repo_url: https://github.com/NOAA-GFDL/MOM6
-            organization:
-              name: NOAA - Geophysical Fluid Dynamics Laboratory
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-GFDL/MOM6
           - item:
             name: MOM5
@@ -8708,8 +8671,7 @@ landscape:
             logo: wrf-python.svg
             description: A collection of diagnostic and interpolation routines for use with output from the Weather Research and Forecasting Model.
             repo_url: https://github.com/NCAR/wrf-python
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://github.com/NCAR/wrf-python
           - item:
             name: ClimateSatellite.jl
@@ -8813,7 +8775,7 @@ landscape:
             logo: NOAA PSL Reanalyses.svg
             description: A public reanalysis collection of the NOAA Physical Sciences Laboratory (NCEP, NARR, 20th Century Reanalysis).
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://psl.noaa.gov/data/gridded/reanalysis/index.html
           - item:
             name: MERRA- 2 Reanalysis
@@ -9525,8 +9487,7 @@ landscape:
             logo: NCL.svg
             description: The NCAR Command Language is a scripting language for the analysis and visualization of climate and weather data.
             repo_url: https://github.com/NCAR/ncl
-            organization:
-              name: National Center for Atmospheric Research
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: http://www.ncl.ucar.edu
           - item:
             name: xskillscore
@@ -10149,7 +10110,7 @@ landscape:
               The program under development here seeks to effectively manage the traversal of a network of streams with defined hydraulic properties
               specifically for the purpose of hydraulic routing in an operational flood and water resources forecasting system.
             repo_url: https://github.com/NOAA-OWP/t-route
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-OWP/t-route
           - item:
             name: Next Gen Water Modeling Framework
@@ -10158,7 +10119,7 @@ landscape:
               This framework includes an encapsulation strategy which focuses on the hydrologic data first, and then builds a functional abstraction of
               hydrologic behavior.
             repo_url: https://github.com/NOAA-OWP/ngen
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-OWP/ngen
           - item:
             name: nhdplusTools
@@ -10416,8 +10377,7 @@ landscape:
             logo: PyGnome.svg
             description: It is designed to support oil and other hazardous material spills in the coastal environment.
             repo_url: https://github.com/NOAA-ORR-ERD/PyGnome
-            organization:
-              name: NOAA-ORR-ERD
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://gnome.orr.noaa.gov/doc/pygnome/index.html
           - item:
             name: VICRes
@@ -11777,7 +11737,7 @@ landscape:
             logo: Cahaba.svg
             description: Flood inundation mapping and evaluation software configured to work with U.S. National Water Model.
             repo_url: https://github.com/NOAA-OWP/inundation-mapping
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAA-OWP/inundation-mapping
             extra:
               refs: ',https://doi.org/10.1111/1752-1688.12661,https://doi.org/10.1111/1752-1688.12660'
@@ -12121,8 +12081,7 @@ landscape:
               A list of GitHub accounts and repositories that are contributed to by National Oceanic and Atmospheric Administration staff from line offices
               and/or staff office throughout the organization.
             repo_url: https://github.com/NOAAGov/NOAA-Affiliated-Projects
-            organization:
-              name: National Oceanic and Atmospheric Administration
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://github.com/NOAAGov/NOAA-Affiliated-Projects
           - item:
             name: Climatescape
@@ -13500,25 +13459,6 @@ landscape:
       - subcategory:
         name: Power System Calculation
         items:
-          - item:
-            name: Arras
-            description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
-            homepage_url: https://arras.energy/
-            project: sandbox
-            repo_url: https://github.com/arras-energy/tsc
-            project_org: https://github.com/arras-energy
-            logo: arras.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
-              slack_channel: null
-              LFX_insights_url: none
-              wiki_page: https://wiki.lfenergy.org/display/FLEX
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/arras-discussion/calendar
-              contribution_guidelines: https://github.com/arras-energy/tsc/blob/main/CONTRIBUTING.md
-              project_lead: David Chassin
           - item:
             name: CIMapplication
             description: CIM J2EE application with resource adapter access to Spark.
