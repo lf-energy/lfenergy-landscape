@@ -318,6 +318,32 @@ big_picture:
         color: rgb(0,0,0)
         fit_width: true
     category: LF Energy Member
+  fourth:
+      tab_index: 5
+      url: categories
+      name: CategoriesHere
+      title: Categories here
+      fullscreen_header: test
+      fullscreen_hide_grey_logos: true
+      elements:
+        - type: HorizontalCategory
+          category: Renewable Energy
+          rows: 4
+          width: 600
+          height: 300
+          top: 0
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Energy Storage
+          rows: 4
+          width: 600
+          height: 300
+          top: 0
+          left: 610
+          color: rgb(106,44,218)
+          fit_width: true
 test:
   header: LF Energy Interactive Landscape
   section: LF Energy Members
