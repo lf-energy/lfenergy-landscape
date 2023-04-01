@@ -551,7 +551,7 @@ landscape:
               start_date: '2017-08-29T23:42:00Z'
             image_data:
               fileName: photovoltaic.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: KOOKzSvE7NVh/9+GboU7D/9uxP/3mlthqyvPkT2Ckec=
             best_practice_data:
               badge: false
               percentage: null
@@ -9201,6 +9201,7 @@ landscape:
               An Open Source power system simulator to quantify the adequacy or the economic performance of interconnected energy systems, at short or remote
               time horizons.
             repo_url: https://github.com/AntaresSimulatorTeam/Antares_Simulator
+            project_org: https://github.com/AntaresSimulatorTeam
             extra:
               topics: adequacy,simulation,power-systems
             organization:
@@ -9210,48 +9211,122 @@ landscape:
               name: AntaresSimulatorTeam
               parents: []
             github_data:
+              description: ''
+              contributors_count: 109
+              contributions: >-
+                26;16;16;26;25;35;32;8;22;30;43;19;23;33;10;13;41;62;73;3;83;57;29;37;54;70;49;40;39;34;29;38;13;25;33;26;16;11;1;35;34;27;27;25;18;32;52;60;50;9;14;3
+              stars: 57
               languages:
                 - name: C
-                  value: 20722060
+                  value: 24345559
                   color: '#555555'
                 - name: C++
-                  value: 11687215
+                  value: 22365866
                   color: '#f34b7d'
-                - name: CMake
-                  value: 334127
                 - name: Python
-                  value: 56607
+                  value: 3360499
                   color: '#3572A5'
+                - name: TypeScript
+                  value: 1193495
+                  color: '#2b7489'
+                - name: CMake
+                  value: 506372
+                - name: Makefile
+                  value: 466736
+                  color: '#427819'
+                - name: C#
+                  value: 290100
+                  color: '#178600'
+                - name: JavaScript
+                  value: 277558
+                  color: '#f1e05a'
+                - name: Java
+                  value: 240306
+                  color: '#b07219'
+                - name: Rich Text Format
+                  value: 119498
+                - name: Shell
+                  value: 78085
+                  color: '#89e051'
+                - name: CSS
+                  value: 74726
+                  color: '#563d7c'
+                - name: Yacc
+                  value: 25415
+                  color: '#4B6C4B'
                 - name: Ruby
                   value: 23678
                   color: '#701516'
-                - name: Shell
-                  value: 21136
-                  color: '#89e051'
                 - name: NSIS
-                  value: 7774
+                  value: 23341
+                - name: AMPL
+                  value: 22225
+                  color: '#E6EFBB'
+                - name: Dockerfile
+                  value: 20907
+                  color: '#384d54'
+                - name: Batchfile
+                  value: 15105
+                  color: '#C1F12E'
+                - name: F#
+                  value: 15029
+                  color: '#b845fc'
                 - name: HTML
-                  value: 5881
+                  value: 9137
                   color: '#e34c26'
-              contributions: 3;2;4;4;7;2;1;3;3;9;8;8;1;9;18;5;4;1;0;0;3;9;4;3;6;5;59;2;2;1;1;2;12;10;14;4;7;12;10;1;17;3;2;4;6;6;8;4;4;4;0;6
+                - name: R
+                  value: 7089
+                  color: '#198CE7'
+                - name: Roff
+                  value: 3430
+                  color: '#ecdebe'
+                - name: Objective-C
+                  value: 2676
+                  color: '#438eff'
+                - name: Lex
+                  value: 2276
+                  color: '#DBCA00'
+                - name: Mako
+                  value: 494
+              latest_commit_link: /AntaresSimulatorTeam/Antares_Simulator/commit/a13c44370e672c7c200d10a96d16f2d5c05ec4d9
+              latest_commit_date: '2023-03-30T08:40:28Z'
               firstWeek: 2022-04-03Z
-              stars: 41
               license: Other
-              description: >-
-                Antares-Simulator is an Open Source power system simulator to quantify the adequacy or the economic performance of interconnected energy
-                systems, at short or remote time horizons.
-              latest_commit_date: '2023-03-21T16:12:26Z'
-              latest_commit_link: /AntaresSimulatorTeam/Antares_Simulator/commit/8f9958c4fdebcce68da6257a24b1b2933bb76eb8
-              release_date: '2023-03-21T17:02:24Z'
-              release_link: https://github.com/AntaresSimulatorTeam/Antares_Simulator/releases
-              contributors_count: 22
               contributors_link: https://github.com/AntaresSimulatorTeam/Antares_Simulator/graphs/contributors
             repos:
               - url: https://github.com/AntaresSimulatorTeam/Antares_Simulator
-                stars: 41
+                stars: 40
+              - url: https://github.com/AntaresSimulatorTeam/AntaREST
+                stars: 9
+              - url: https://github.com/AntaresSimulatorTeam/antares-xpansion
+                stars: 4
+              - url: https://github.com/AntaresSimulatorTeam/Antares_Simulator_Tests_NR
+                stars: 2
+              - url: https://github.com/AntaresSimulatorTeam/Antares_Simulator_Tests
+                stars: 1
+              - url: https://github.com/AntaresSimulatorTeam/antares-launcher
+                stars: 1
+              - url: https://github.com/AntaresSimulatorTeam/Antares_Data_Organizer
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/sirius-solver
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/or-tools
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/Antares_Simulator_Examples
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/antares-doc
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/antares-deps
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/NonRegTests
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/SimTest
+                stars: 0
+              - url: https://github.com/AntaresSimulatorTeam/antarest-python-client
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /AntaresSimulatorTeam/Antares_Simulator/commit/753ef4999c6cef770bac9e265f6000049bb88411
-              start_date: '2018-07-11T12:34:33Z'
+              start_commit_link: /AntaresSimulatorTeam/or-tools/commit/a0ad319fbcdef4a70a9a679bd613c8be610a6e3f
+              start_date: '2010-09-15T12:23:20Z'
             image_data:
               fileName: antares-simulator.svg
               hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
@@ -41941,7 +42016,7 @@ landscape:
               start_date: '2017-08-22T02:04:24Z'
             image_data:
               fileName: blueant.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 8Cu9e3mJYGMW4p7GXKg6c44PdhOsOB5vlAI+CYSEPGc=
             best_practice_data:
               badge: false
               percentage: null
@@ -48947,22 +49022,36 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-03-27T13:51:06.000Z
           - item:
-            name: LBLRTM
+            name: Line-By-Line Radiative Transfer Model (LBLRTM)
             logo: LBLRTM.svg
             description: >-
               Line-By-Line Radiative Transfer Model is an accurate and efficient line-by-line radiative transfer model derived from the Fast Atmospheric
               Signature Code.
             repo_url: https://github.com/AER-RC/LBLRTM
-            organization:
-              name: Atmospheric and Environmental Research R&C
+            crunchbase: https://www.crunchbase.com/organization/atmospheric-and-environmental-research--inc-
             homepage_url: https://github.com/AER-RC/LBLRTM
             extra:
               refs: >-
                 ,https://zenodo.org/record/4019178,https://zenodo.org/record/4019178/files/aer_v_3.8.1.tar.gz?download=1,https://zenodo.org/record/4019178,https://zenodo.org/record/4019178,https://zenodo.org/record/4019178,https://zenodo.org/record/4019178
               topics: radiative-transfer,radiative-transfer-models,atmospheric-modelling
             crunchbase_data:
-              name: Atmospheric and Environmental Research R&C
+              name: AER
+              description: Government contract company who researches scientific environmental data.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: http://www.aer.com
+              city: Lexington
+              region: Massachusetts
+              country: United States
+              twitter: http://twitter.com/AER_inc
+              linkedin: https://www.linkedin.com/company/atmospheric-and-environmental-research
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Government
+                - Information Technology
             github_data:
               languages:
                 - name: Fortran
@@ -48997,11 +49086,13 @@ landscape:
               start_commit_link: /AER-RC/LBLRTM/commit/b816d099d4966d08df3d00e45246577ac47b95c2
               start_date: '1992-09-01T09:17:17Z'
             image_data:
-              fileName: lblrtm.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: line-by-line-radiative-transfer-model-lblrtm.svg
+              hash: /DC/g36rZOTmBcT+MZcFgDbyHT5PiuTawIGMi6piWfI=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2015-09-22T20:13:47.000Z
           - item:
             name: Eradiate
             logo: Eradiate.svg
@@ -70197,12 +70288,24 @@ landscape:
             extra:
               topics: >-
                 urban-planning,planners,technology,data,resources,awesome,awesome-list,regional-planning,communities,built-environment,sustainability,planning,hacktoberfest
-            organization:
-              name: APA Technology Division
+            crunchbase: https://www.crunchbase.com/organization/american-planning-association
             homepage_url: https://github.com/APA-Technology-Division/urban-and-regional-planning-resources
             crunchbase_data:
-              name: APA Technology Division
+              name: American Planning Association
+              description: Independent, not-for-profit educational organization that provides leadership in the development of living communities.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.planning.org
+              city: Chicago
+              region: Illinois
+              country: United States
+              twitter: https://www.twitter.com/apa_planning
+              linkedin: https://www.linkedin.com/company/24456
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages: []
               contributions: 0;0;1;1;0;1;2;0;0;1;0;0;1;4;2;0;0;4;0;1;0;0;0;2;2;0;0;0;2;3;0;3;8;7;9;9;1;0;0;0;0;0;0;1;1;1;0;0;1;0;2;0
@@ -70222,10 +70325,12 @@ landscape:
               start_date: '2020-08-26T01:12:18Z'
             image_data:
               fileName: urban-regional-planning-resources.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Wqev7ytgSzOIqWdZXaYZFXwQI0QJBG3dFbMeIUqOGe4=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-01T13:46:05.000Z
           - item:
             name: Open Source Python Packages in Hydrology
             logo: Open Source Python Packages in Hydrology.svg
