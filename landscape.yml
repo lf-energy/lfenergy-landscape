@@ -522,8 +522,7 @@ landscape:
             logo: makani.svg
             description: A project to develop a commercial-scale airborne wind turbine, culminating in a flight test of the Makani M600 off the coast of Norway.
             repo_url: https://github.com/google/makani
-            organization:
-              name: Google
+            crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://github.com/google/makani
             extra:
               topics: makani,wind,renewable-energy,energy-kites,wind-power
@@ -816,9 +815,9 @@ landscape:
             logo: brightwind.svg
             description: A Python library aims to empower wind resource analysts and establish a common industry standard toolset.
             repo_url: https://github.com/brightwind-dev/brightwind
-            organization:
-              name: brightwind
-            homepage_url: https://github.com/brightwind-dev/brightwind
+            project_org: https://github.com/brightwind-dev
+            crunchbase: https://www.crunchbase.com/organization/brightwind
+            homepage_url: https://brightwind-dev.github.io/brightwind-docs/
           - item:
             name: NRWAL
             logo: NRWAL.svg
@@ -4091,8 +4090,7 @@ landscape:
             logo: transitfeed.svg
             description: A Python library for reading, validating and writing transit schedule information in the GTFS format.
             repo_url: https://github.com/google/transitfeed
-            organization:
-              name: Google
+            crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://github.com/google/transitfeed/wiki
           - item:
             name: node-gtfs
@@ -4722,8 +4720,7 @@ landscape:
             repo_url: https://github.com/GoogleCloudPlatform/region-carbon-info
             extra:
               topics: google-cloud,carbon-emissions,carbon-free
-            organization:
-              name: Google Cloud Platform
+            crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://github.com/GoogleCloudPlatform/region-carbon-info
           - item:
             name: Carbon-API-2.0
@@ -4783,8 +4780,7 @@ landscape:
             logo: Software Carbon Intensity Specification.svg
             description: A specification that describes how to calculate a carbon intensity for software applications.
             repo_url: https://github.com/Green-Software-Foundation/software_carbon_intensity
-            organization:
-              name: Green Software Foundation
+            crunchbase: https://www.crunchbase.com/organization/green-software-foundation
             homepage_url: https://github.com/Green-Software-Foundation/software_carbon_intensity
           - item:
             name: Principles of Green Software Engineering
@@ -4889,13 +4885,13 @@ landscape:
         items:
           - item:
             name: Electricity Maps
-            logo: Electricity Maps.svg
+            logo: electricity_maps.svg
             description: A real-time visualization of the CO2 emissions from electricity consumption.
+            project_org: https://github.com/electricitymaps
             repo_url: https://github.com/electricitymaps/electricitymaps-contrib
             extra:
               topics: sustainability,d3,data-visualization,climate-change,hacktoberfest
-            organization:
-              name: Electricity Maps
+            crunchbase: https://www.crunchbase.com/organization/electricitymap
             homepage_url: https://app.electricitymaps.com
           - item:
             name: Open Grid Emissions Initiative
@@ -4932,18 +4928,6 @@ landscape:
             extra:
               refs: >-
                 ,https://zenodo.org/badge/latestdoi/218331367,https://doi.org/10.1007/s11367-018-1556-3,https://doi.org/10.1007/s11367-018-1556-3,https://doi.org/10.1007/s11367-018-1556-3
-          - item:
-            name: Bloom
-            logo: Bloom.svg
-            description: >-
-              A SaaS that allow companies to become climate leaders, from calculating their climate impact to communicating about their climate efforts. It
-              connects to as many data sources as possible to assess your carbon footprint and find mitigation opportunities.
-            repo_url: https://github.com/electricitymaps/bloom-contrib
-            extra:
-              topics: climate-change,carbon-footprint,carbon-model,life-cycle-assessment,climate-impact
-            organization:
-              name: Electricity Maps
-            homepage_url: https://www.bloomclimate.com
           - item:
             name: NMF.earth app
             logo: NMF.earth app.svg
@@ -5500,7 +5484,7 @@ landscape:
             unnamed_organization: true
             homepage_url: https://www.exiobase.eu/
           - item:
-            name: bonsai
+            name: BONSAI
             logo: bonsai.svg
             description: >-
               The aim of BONSAI is to make reliable, unbiased sustainability information on products (product footprints) readily and freely available whenever
@@ -8261,7 +8245,7 @@ landscape:
             unnamed_organization: true
             homepage_url: https://juliaclimate.github.io/ClimateBase.jl/dev/
           - item:
-            name: CLIMA-Land
+            name: CLIMA Land
             logo: CLIMA-Land.svg
             description: Everything within the Land model (Soil Plant Atmosphere Module, Land Hydrology, etc).
             repo_url: https://github.com/CliMA/Land
@@ -8846,8 +8830,7 @@ landscape:
             logo: Analysis-Ready, Cloud Optimized ERA5.svg
             description: A global history of the climate highly accessible in the cloud.
             repo_url: https://github.com/google-research/ARCO-ERA5
-            organization:
-              name: Google Research
+            crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://cloud.google.com/storage/docs/public-datasets/era5
             extra:
               refs: ',https://doi.org/10.1017/CBO9780511734458,https://doi.org/10.1017/CBO9780511802270,https://doi.org/10.1175/JHM-D-21-0195.1'
@@ -8856,19 +8839,18 @@ landscape:
         name: Radiative Transfer
         items:
           - item:
-            name: RadiativeTransfer.jl
+            name: vSmartMOM.jl
             logo: RadiativeTransfer.jl.svg
             description: A full end-to-end modular software suite for radiative transfer and related atmospheric analysis.
             repo_url: https://github.com/RemoteSensingTools/vSmartMOM.jl
-            organization:
-              name: RemoteSensingTools
-            homepage_url: https://github.com/RemoteSensingTools/vSmartMOM.jl
+            crunchbase: https://www.crunchbase.com/organization/caltech
+            homepage_url: https://remotesensingtools.github.io/vSmartMOM.jl/
           - item:
             name: libRadtran
             logo: libRadtran.svg
             description: A collection of C and Fortran functions and programs for calculation of solar and thermal radiation in the Earth's atmosphere.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/ns-bak/libradtran
+            crunchbase: https://www.crunchbase.com/organization/ludwig-maximilians-universit%C3%A4t-m%C3%BCnchen
             homepage_url: http://www.libradtran.org/
           - item:
             name: ARTS
@@ -8877,7 +8859,8 @@ landscape:
             repo_url: https://github.com/atmtools/arts
             extra:
               topics: radiative-transfer,atmospheric-science,cpp
-            unnamed_organization: true
+            organization:
+              name: ARTS
             homepage_url: https://www.radiativetransfer.org/
           - item:
             name: Py6S
@@ -8893,8 +8876,9 @@ landscape:
             logo: RTE+RRTMGP.svg
             description: A set of codes for computing radiative fluxes in planetary atmospheres.
             repo_url: https://github.com/earth-system-radiation/rte-rrtmgp
-            unnamed_organization: true
-            homepage_url: https://github.com/earth-system-radiation/rte-rrtmgp
+            crunchbase: https://www.crunchbase.com/organization/university-of-colorado
+            project_org: https://github.com/earth-system-radiation
+            homepage_url: https://earth-system-radiation.github.io/rte-rrtmgp/
             extra:
               refs: ',https://doi.org/10.1029/2019MS001621'
               topics: radiative-transfer,climate-model
@@ -8915,6 +8899,7 @@ landscape:
             name: Eradiate
             logo: Eradiate.svg
             description: A next-generation radiative transfer model for Earth observation applications.
+            project_org: https://github.com/eradiate
             repo_url: https://github.com/eradiate/eradiate
             extra:
               topics: radiative-transfer,earth-observation
@@ -8928,8 +8913,7 @@ landscape:
               The Juelich Rapid Spectral Simulation Code (JURASSIC) is a fast infrared radiative transfer model for the analysis of atmospheric remote sensing
               measurements.
             repo_url: https://github.com/slcs-jsc/jurassic
-            organization:
-              name: Simulation and Data Laboratory Climate Science
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://github.com/slcs-jsc/jurassic
             extra:
               refs: >-
@@ -8939,13 +8923,14 @@ landscape:
             name: Tenstream
             logo: Tenstream.svg
             description: A 3D radiative transfer solver for earth system models.
+            project_org: https://github.com/tenstream
             repo_url: https://github.com/tenstream/tenstream
             extra:
               topics: >-
                 radiative-transfer,atmospheric-science,atmospheric-modelling,large-eddy-simulation,numerical-weather-prediction,simulation,atmosphere,atmosphere-model,radiation,radiative-transfer-models
             organization:
               name: Tenstream Radiative Transfer Model
-            homepage_url: https://gitlab.com/jakubfabian/tenstream/
+            homepage_url: https://github.com/tenstream/tenstream/wiki
       - subcategory:
         name: Meteorological Observation and Forecast
         items:
@@ -9047,10 +9032,11 @@ landscape:
         name: Climate Data Processing and Access
         items:
           - item:
-            name: cf-conventions
+            name: CF Conventions
             logo: cf-conventions.svg
             description: The conventions for CF (Climate and Forecast) metadata are designed to promote the processing and sharing of files created with the NetCDF API.
             repo_url: https://github.com/cf-convention/cf-conventions
+            project_org: https://github.com/cf-convention
             organization:
               name: CF Conventions
             homepage_url: http://cfconventions.org/cf-conventions/cf-conventions
@@ -9122,8 +9108,7 @@ landscape:
             repo_url: https://github.com/google/weather-tools
             extra:
               topics: python,apache-beam,weather
-            organization:
-              name: Google
+            crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://weather-tools.readthedocs.io/
           - item:
             name: Senses Toolkit
@@ -11829,6 +11814,7 @@ landscape:
             name: open-sdg
             logo: open-sdg.svg
             description: A platform for collecting and disseminating data for the Sustainable Development Goal global indicators.
+            project_org: https://github.com/open-sdg
             repo_url: https://github.com/open-sdg/open-sdg
             organization:
               name: Open SDG
@@ -11888,11 +11874,11 @@ landscape:
             unnamed_organization: true
             homepage_url: https://github.com/CMUSustainability/SDGmapR
           - item:
-            name: Europe Sustainable Development ReportS
+            name: Europe Sustainable Development Reports
             logo: Europe Sustainable Development ReportS.svg
             description: Track the progress of the European Union and European Countries towards the Sustainable Development Goals.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/sdsna/SDR2020
+            crunchbase: https://www.crunchbase.com/organization/sustainable-development-solutions-network
             homepage_url: https://eu-dashboards.sdgindex.org/
           - item:
             name: text2sdg
@@ -12718,8 +12704,7 @@ landscape:
             repo_url: https://github.com/Green-Software-Foundation/awesome-green-software
             extra:
               topics: green-software,sustainable-software,sustainability,awesome-list,green-ai,sustainable-ai,climate,green-computing,hacktoberfest
-            organization:
-              name: Green Software Foundation
+            crunchbase: https://www.crunchbase.com/organization/green-software-foundation
             homepage_url: https://github.com/Green-Software-Foundation/awesome-green-software
           - item:
             name: Awesome Sustainability Jobs
