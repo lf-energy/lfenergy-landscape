@@ -32,7 +32,7 @@ relation:
           label: Technical Project - Graduated
           prefix: LF Energy Technical Project
           tag: Graduated
-          color: '#3570af'
+          color: '#008F65'
           big_picture_order: 1
           big_picture_label: Technical Project - Graduated
           big_picture_color: rgb(24,54,114)
@@ -44,7 +44,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Technical Project - Early Adoption
-          big_picture_color: rgb(24,54,114)
+          big_picture_color: rgb(58,86,233)
           additional_relation: member
         - id: incubation
           label: Technical Project - Incubation
@@ -59,7 +59,7 @@ relation:
           label: Technical Project - Sandbox
           prefix: LF Energy Technical Project
           tag: Sandbox
-          color: '#3570af'
+          color: '#ff5d47'
           big_picture_order: 1
           big_picture_label: Technical Project - Sandbox
           big_picture_color: rgb(24,54,114)
@@ -77,7 +77,7 @@ relation:
           label: Standards Project - Stable
           prefix: LF Energy Standards Project
           tag: Stable
-          color: '#3570af'
+          color: '#008F65'
           big_picture_order: 1
           big_picture_label: Standards Project - Stable
           big_picture_color: rgb(83,113,189)
@@ -95,7 +95,7 @@ relation:
           label: Standards Project - Sandbox
           prefix: LF Energy Standards Project
           tag: Sandbox
-          color: '#3570af'
+          color: '#ff5d47'
           big_picture_order: 1
           big_picture_label: Standards Project - Sandbox
           big_picture_color: rgb(83,113,189)
@@ -113,7 +113,7 @@ relation:
           label: Working Group - Active
           prefix: LF Energy Working Group
           tag: Active
-          color: '#3570af'
+          color: '#008F65'
           big_picture_order: 1
           big_picture_label: Working Group - Active
           big_picture_color: rgb(108,165,209)
@@ -122,7 +122,7 @@ relation:
           label: Working Group - Sandbox
           prefix: LF Energy Working Group
           tag: Sandbox
-          color: '#3570af'
+          color: '#ff5d47'
           big_picture_order: 1
           big_picture_label: Working Group - Sandbox
           big_picture_color: rgb(108,165,209)
@@ -208,6 +208,7 @@ big_picture:
         left: 0
         color: rgb(0,206,209)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: System Management
         rows: 4
@@ -217,6 +218,7 @@ big_picture:
         left: 610
         color: rgb(106,44,218)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Asset Management
         rows: 4
@@ -226,6 +228,7 @@ big_picture:
         left: 610
         color: rgb(179,60,133)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Shared
         rows: 4
@@ -235,6 +238,7 @@ big_picture:
         left: 0
         color: rgb(29,119,164)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Acquisition and Control
         rows: 4
@@ -244,6 +248,7 @@ big_picture:
         left: 0
         color: rgb(37,81,209)
         fit_width: true
+        is_large: false
       - type: LandscapeInfo
         width: 300
         height: 200
