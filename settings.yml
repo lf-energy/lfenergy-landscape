@@ -35,7 +35,7 @@ relation:
           color: '#008F65'
           big_picture_order: 1
           big_picture_label: Technical Project - Graduated
-          big_picture_color: rgb(24,54,114)
+          big_picture_color: '#008F65'
           additional_relation: member
         - id: earlyadoption
           label: Technical Project - Early Adoption
@@ -44,7 +44,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Technical Project - Early Adoption
-          big_picture_color: rgb(58,86,233)
+          big_picture_color: '#3570af'
           additional_relation: member
         - id: incubation
           label: Technical Project - Incubation
@@ -53,7 +53,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Technical Project - Incubation
-          big_picture_color: rgb(24,54,114)
+          big_picture_color: '#3570af'
           additional_relation: member
         - id: sandbox
           label: Technical Project - Sandbox
@@ -62,7 +62,7 @@ relation:
           color: '#ff5d47'
           big_picture_order: 1
           big_picture_label: Technical Project - Sandbox
-          big_picture_color: rgb(24,54,114)
+          big_picture_color: '#ff5d47'
           additional_relation: member
         - id: emeritus
           label: Technical Project - Emeritus
@@ -71,7 +71,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Technical Project - Emeritus
-          big_picture_color: rgb(24,54,114)
+          big_picture_color: '#3570af'
           additional_relation: member
         - id: stable
           label: Standards Project - Stable
@@ -80,7 +80,7 @@ relation:
           color: '#008F65'
           big_picture_order: 1
           big_picture_label: Standards Project - Stable
-          big_picture_color: rgb(83,113,189)
+          big_picture_color: '#008F65'
           additional_relation: member
         - id: development
           label: Standards Project - Development
@@ -89,7 +89,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Standards Project - Development
-          big_picture_color: rgb(83,113,189)
+          big_picture_color: '#3570af'
           additional_relation: member
         - id: sandboxs
           label: Standards Project - Sandbox
@@ -98,7 +98,7 @@ relation:
           color: '#ff5d47'
           big_picture_order: 1
           big_picture_label: Standards Project - Sandbox
-          big_picture_color: rgb(83,113,189)
+          big_picture_color: '#ff5d47'
           additional_relation: member
         - id: emerituss
           label: Standards Project - Emeritus
@@ -107,7 +107,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Standards Project - Emeritus
-          big_picture_color: rgb(83,113,189)
+          big_picture_color: '#3570af'
           additional_relation: member
         - id: active
           label: Working Group - Active
@@ -116,7 +116,7 @@ relation:
           color: '#008F65'
           big_picture_order: 1
           big_picture_label: Working Group - Active
-          big_picture_color: rgb(108,165,209)
+          big_picture_color: '#008F65'
           additional_relation: member
         - id: sandboxw
           label: Working Group - Sandbox
@@ -125,7 +125,7 @@ relation:
           color: '#ff5d47'
           big_picture_order: 1
           big_picture_label: Working Group - Sandbox
-          big_picture_color: rgb(108,165,209)
+          big_picture_color: '#ff5d47'
           additional_relation: member
         - id: emeritusw
           label: Working Group - Emeritus
@@ -134,7 +134,7 @@ relation:
           color: '#3570af'
           big_picture_order: 1
           big_picture_label: Working Group - Emeritus
-          big_picture_color: rgb(108,165,209)
+          big_picture_color: '#3570af'
           additional_relation: member
     - id: company
       label: LF Energy Members
