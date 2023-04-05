@@ -41,10 +41,10 @@ relation:
           label: Technical Project - Early Adoption
           prefix: LF Energy Technical Project
           tag: Early Adoption
-          color: '#3570af'
+          color: rgb(24,54,114)
           big_picture_order: 1
           big_picture_label: Technical Project - Early Adoption
-          big_picture_color: '#3570af'
+          big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: incubation
           label: Technical Project - Incubation
@@ -68,10 +68,10 @@ relation:
           label: Technical Project - Emeritus
           prefix: LF Energy Technical Project
           tag: Emeritus
-          color: '#3570af'
+          color: rgba(191, 191, 191, 0.3)
           big_picture_order: 1
           big_picture_label: Technical Project - Emeritus
-          big_picture_color: '#3570af'
+          big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
         - id: stable
           label: Standards Project - Stable
@@ -104,10 +104,10 @@ relation:
           label: Standards Project - Emeritus
           prefix: LF Energy Standards Project
           tag: Emeritus
-          color: '#3570af'
+          color: rgba(191, 191, 191, 0.3)
           big_picture_order: 1
           big_picture_label: Standards Project - Emeritus
-          big_picture_color: '#3570af'
+          big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
         - id: active
           label: Working Group - Active
@@ -131,10 +131,10 @@ relation:
           label: Working Group - Emeritus
           prefix: LF Energy Working Group
           tag: Emeritus
-          color: '#3570af'
+          color: rgba(191, 191, 191, 0.3)
           big_picture_order: 1
           big_picture_label: Working Group - Emeritus
-          big_picture_color: '#3570af'
+          big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
     - id: company
       label: LF Energy Members
