@@ -119,7 +119,7 @@ landscape:
                   color: '#3D6117'
                 - name: Cython
                   value: 1591
-              contributions: 2;0;0;1;1;1;0;0;0;3;3;1;3;0;3;0;0;1;5;6;1;1;3;2;1;0;0;0;1;2;0;3;0;2;2;3;8;2;1;0;0;3;0;8;0;1;2;0;2;6;0;0
+              contributions: 1;0;0;2;0;1;0;0;0;4;3;0;3;0;3;0;1;0;8;3;2;0;4;1;1;0;0;0;1;2;0;3;0;2;2;5;7;1;1;0;0;3;4;4;0;1;2;0;4;4;0;0
               firstWeek: 2022-04-10Z
               stars: 831
               license: BSD 3-Clause "New" or "Revised" License
@@ -143,7 +143,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T23:21:08.000Z
+              latest_tweet_date: 2023-04-05T21:59:32.000Z
           - item:
             name: WindStore
             description: >-
@@ -506,7 +506,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 42433605632
+              market_cap: 42494820352
               effective_ticker: ADSK
             image_data:
               fileName: auto-cad.svg
@@ -515,7 +515,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T16:03:22.000Z
+              latest_tweet_date: 2023-04-06T00:42:55.000Z
           - item:
             name: CERES
             description: CERES is a central registration of installations that produce or consume electricity.
@@ -897,7 +897,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 254672142336
+              market_cap: 256103038976
               effective_ticker: ORCL
             image_data:
               fileName: oracle-spatial-and-graph.svg
@@ -974,9 +974,9 @@ landscape:
                 - name: Batchfile
                   value: 1565
                   color: '#C1F12E'
-              contributions: 23;47;11;9;25;48;11;10;2;30;49;10;23;15;12;16;16;11;27;12;10;29;52;31;22;23;56;1;54;21;22;8;6;7;33;8;24;7;3;120;5;13;16;7;25;45;15;8;3;1;7;4
+              contributions: 20;50;5;15;44;23;12;9;2;46;34;9;24;22;4;17;15;11;32;7;18;21;56;30;21;22;55;4;51;28;19;6;5;7;34;14;20;3;36;88;5;13;15;12;27;42;17;3;2;1;8;3
               firstWeek: 2022-04-10Z
-              stars: 1349
+              stars: 1351
               license: GNU General Public License v2.0
               description: PostGIS spatial database extension to PostgreSQL [mirror]
               latest_commit_date: '2023-04-03T15:37:20Z'
@@ -985,7 +985,7 @@ landscape:
               contributors_link: https://github.com/postgis/postgis/graphs/contributors
             repos:
               - url: https://github.com/postgis/postgis
-                stars: 1349
+                stars: 1351
             github_start_commit_data:
               start_commit_link: /postgis/postgis/commit/31e823c22bb3458c6382e42b09839fd0b8247ccb
               start_date: '2001-06-22T17:39:29Z'
@@ -1077,7 +1077,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T13:00:24.000Z
+              latest_tweet_date: 2023-04-06T13:00:02.000Z
           - item:
             name: GridOS IDP
             description: Integrated Distribution Planning Solution
@@ -1166,7 +1166,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 15
-              contributions: 0;3;1;1;0;2;0;15;8;1;0;3;0;3;0;3;0;1;0;2;5;4;0;0;5;1;2;13;7;11;0;0;4;3;4;14;2;0;0;10;0;2;0;6;9;2;4;19;3;12;10;4
+              contributions: 0;3;1;1;0;2;0;18;5;1;0;3;0;3;1;2;0;1;0;3;6;2;0;0;5;3;0;13;7;11;0;2;2;4;3;14;2;0;0;10;0;2;0;7;8;3;3;22;0;13;11;3
               stars: 22
               languages:
                 - name: Jupyter Notebook
@@ -1212,7 +1212,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io
@@ -1255,7 +1255,7 @@ landscape:
             github_data:
               description: FlexMeasures is the smart EMS for energy flexibility applications. An incubation project at the Linux Energy Foundation.
               contributors_count: 12
-              contributions: 4;8;5;4;8;3;0;2;3;7;3;1;1;5;2;6;2;1;2;1;10;7;3;0;0;1;6;3;1;3;4;8;3;6;5;8;6;0;10;5;5;0;1;6;0;2;3;2;1;1;2;3
+              contributions: 5;7;5;4;8;3;0;3;2;7;3;1;1;5;2;6;2;1;2;3;9;6;3;0;0;5;2;3;1;6;1;8;3;6;5;9;5;0;14;1;5;0;1;6;0;2;3;2;1;2;2;3
               stars: 98
               languages:
                 - name: Python
@@ -1286,8 +1286,8 @@ landscape:
                   color: '#384d54'
                 - name: Mako
                   value: 494
-              latest_commit_link: /FlexMeasures/flexmeasures/commit/5c1b79b7fdfcf546b660b2c97ab6ce3b97be6fe0
-              latest_commit_date: '2023-03-31T09:38:08Z'
+              latest_commit_link: /FlexMeasures/flexmeasures/commit/25bd0a23906524cfae0a0f37d9fc697a29b221b4
+              latest_commit_date: '2023-04-05T17:10:27Z'
               firstWeek: 2022-04-10Z
               license: Apache License 2.0
               contributors_link: https://github.com/FlexMeasures/flexmeasures/graphs/contributors
@@ -1314,7 +1314,7 @@ landscape:
               badge: 6095
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: OSIsoft PI System
             description: Critical Operations Data Management across Generation, T&D, AMI and DER.
@@ -1553,7 +1553,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 195417915392
+              market_cap: 194156412928
               effective_ticker: CRM
             image_data:
               fileName: field-service-lightning.svg
@@ -1562,7 +1562,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T15:35:14.000Z
+              latest_tweet_date: 2023-04-06T16:20:12.000Z
           - item:
             name: GRIDSTREAM SOFTWARE-Field Operations Manager
             description: >-
@@ -1863,7 +1863,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T09:25:01.000Z
+              latest_tweet_date: 2023-04-06T09:43:30.000Z
           - item:
             name: Volttron
             description: Voltron is a flexible, scalable, economical and secure software platform to operate the Internet of Things!
@@ -2022,7 +2022,7 @@ landscape:
                   color: '#E3F171'
                 - name: ShaderLab
                   value: 137
-              contributions: 0;4;2;0;1;3;3;0;4;1;0;0;8;13;7;4;5;15;4;0;0;3;2;8;5;0;3;8;17;14;8;11;0;2;2;5;2;1;0;3;23;22;28;14;21;18;44;25;21;7;15;4
+              contributions: 3;1;2;0;3;3;1;1;3;1;0;6;2;14;9;3;6;15;1;0;3;2;0;9;4;0;3;9;22;8;9;10;0;3;1;5;3;0;3;7;21;25;23;15;17;18;53;20;19;12;10;2
               firstWeek: 2022-04-10Z
               stars: 148
               license: MIT License
@@ -2166,7 +2166,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: openLEADR
             description: A friendly and compliant OpenADR implementation for Python 3
@@ -2210,7 +2210,7 @@ landscape:
             github_data:
               description: A friendly and compliant OpenADR implementation for Python.
               contributors_count: 8
-              contributions: 21;0;0;4;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;2;0;0;0;0;10;0;3;0;0;0;0;0;5;1;3;3;0;0;0;0;0;2;0
+              contributions: 21;0;0;4;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;2;0;0;0;8;2;0;3;0;0;0;0;5;0;4;0;3;0;0;0;0;0;2;0
               stars: 95
               languages:
                 - name: Python
@@ -2244,7 +2244,7 @@ landscape:
               badge: 4317
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
@@ -2288,7 +2288,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 363
-              contributions: 5;12;14;8;18;13;13;5;8;3;4;8;8;5;2;4;0;0;0;5;9;0;5;2;9;1;17;23;31;4;7;13;12;8;18;11;31;0;1;20;35;15;6;30;52;7;23;1;2;0;0;0
+              contributions: 5;12;18;6;20;10;14;8;3;3;6;14;1;4;4;2;0;0;1;6;7;2;3;4;7;2;16;31;27;3;5;15;9;9;22;12;25;0;1;29;40;2;13;23;51;19;12;0;2;0;0;0
               stars: 38
               languages:
                 - name: C++
@@ -2382,7 +2382,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: SASensor
             description: >-
@@ -2516,7 +2516,7 @@ landscape:
             github_data:
               description: FledgePower - Power systems protocols translation gateway based on Fledge
               contributors_count: 22
-              contributions: 9;4;2;4;4;0;0;5;1;4;2;0;1;6;1;7;11;39;41;17;16;32;16;29;26;47;39;18;7;4;36;19;17;20;24;42;26;2;2;10;8;17;13;5;10;10;3;8;6;23;0;0
+              contributions: 1;4;2;4;4;0;0;5;3;2;2;0;5;2;1;8;14;50;34;9;17;35;21;23;38;36;38;18;7;3;38;21;22;15;23;43;22;0;4;12;8;18;8;7;9;11;1;8;10;19;0;0
               stars: 7
               languages:
                 - name: C++
@@ -2593,7 +2593,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
       - subcategory:
         name: Infrastructure Management
         items:
@@ -2640,17 +2640,17 @@ landscape:
             github_data:
               description: e-mobility powered by open source with EVerest, the charge point operating system
               contributors_count: 269
-              contributions: 8;9;17;20;7;19;10;8;9;8;29;24;19;19;13;16;7;11;11;6;12;19;12;17;37;18;16;22;9;10;6;20;25;27;23;18;8;10;1;9;10;14;16;5;11;16;18;12;11;6;29;13
+              contributions: 12;5;19;15;7;20;11;9;6;17;28;16;21;20;13;14;9;9;13;7;10;19;13;16;39;17;18;23;4;11;9;19;27;28;17;20;7;8;3;9;10;16;13;6;10;19;17;12;9;15;21;13
               stars: 187
               languages:
                 - name: C
                   value: 16964240
                   color: '#555555'
                 - name: C++
-                  value: 3670179
+                  value: 3673320
                   color: '#f34b7d'
                 - name: Python
-                  value: 2143656
+                  value: 2143346
                   color: '#3572A5'
                 - name: Java
                   value: 1881992
@@ -2662,7 +2662,7 @@ landscape:
                   value: 194537
                   color: '#2b7489'
                 - name: CMake
-                  value: 161697
+                  value: 161725
                 - name: Jinja
                   value: 141801
                 - name: Makefile
@@ -2696,18 +2696,18 @@ landscape:
                 - name: Tcl
                   value: 110
                   color: '#e4cc98'
-              latest_commit_link: /EVerest/everest-core/commit/2a279b7ca3c622fa311c6727703dc540c45947dd
-              latest_commit_date: '2023-04-05T15:35:28Z'
+              latest_commit_link: /EVerest/everest-core/commit/212e2afa7ca3ccbb609dc7dd625879284721dfe8
+              latest_commit_date: '2023-04-06T06:48:35Z'
               firstWeek: 2022-04-10Z
               license: Apache License 2.0
               contributors_link: https://github.com/EVerest/everest-core/graphs/contributors
             repos:
               - url: https://github.com/EVerest/everest-core
-                stars: 33
+                stars: 32
               - url: https://github.com/EVerest/EVerest
-                stars: 70
+                stars: 69
               - url: https://github.com/EVerest/libocpp
-                stars: 18
+                stars: 20
               - url: https://github.com/EVerest/everest-framework
                 stars: 11
               - url: https://github.com/EVerest/libmodbus
@@ -2762,7 +2762,7 @@ landscape:
               badge: 6739
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: Grid eXchange Fabric
             description: >-
@@ -2812,11 +2812,11 @@ landscape:
                 Grid eXchange Fabric (GXF) allows to monitor and control hardware in the public space. It's an open, generic, scalable and independent IoT
                 platform!
               contributors_count: 72
-              contributions: 29;18;14;6;14;14;3;12;4;2;7;3;3;8;17;3;5;9;15;4;4;12;39;43;23;24;39;33;39;7;25;36;32;36;11;33;14;2;18;6;9;16;19;59;23;6;8;25;34;16;2;26
+              contributions: 23;21;6;11;13;10;7;9;3;2;7;3;3;8;18;4;3;15;9;7;4;9;42;42;24;25;38;38;34;9;25;34;29;37;15;29;13;5;17;5;8;20;45;42;10;7;7;26;34;15;7;22
               stars: 113
               languages:
                 - name: Java
-                  value: 15740057
+                  value: 15742979
                   color: '#b07219'
                 - name: Gherkin
                   value: 914175
@@ -2880,7 +2880,7 @@ landscape:
               badge: 4104
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
       - subcategory:
         name: Substation Node
         items:
@@ -2931,7 +2931,7 @@ landscape:
               description: 61850 SCL management and configuration tool
               contributors_count: 28
               contributions: >-
-                33;40;75;57;105;62;29;33;33;56;36;72;46;48;55;21;33;30;25;54;42;19;47;87;54;70;26;46;59;11;43;62;100;65;13;25;9;14;7;34;11;10;43;47;49;72;32;18;26;35;50;17
+                46;44;62;84;87;60;17;31;47;45;62;56;34;56;57;9;35;31;25;79;14;25;57;84;70;42;29;62;40;13;59;53;110;46;19;20;6;14;9;39;5;18;35;52;78;45;25;20;25;37;46;21
               stars: 54
               languages:
                 - name: TypeScript
@@ -3010,7 +3010,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: SEAPATH
             description: >-
@@ -3059,8 +3059,8 @@ landscape:
             github_data:
               description: ''
               contributors_count: 27
-              contributions: 0;0;0;0;0;16;6;4;6;12;5;1;1;2;0;0;14;4;0;0;18;4;1;0;0;5;6;6;3;7;13;9;13;19;3;4;6;0;0;0;13;9;26;25;15;43;16;2;2;2;9;2
-              stars: 23
+              contributions: 0;0;0;0;4;12;10;0;6;12;6;0;3;0;0;0;17;1;0;0;18;4;1;0;0;5;6;7;7;3;15;8;16;14;3;9;1;0;0;3;10;15;25;25;19;38;12;2;2;7;4;2
+              stars: 24
               languages:
                 - name: Python
                   value: 261797
@@ -3104,11 +3104,11 @@ landscape:
             repos:
               - url: https://github.com/seapath/meta-seapath
                 stars: 4
+              - url: https://github.com/seapath/seapath-architecture
+                stars: 4
               - url: https://github.com/seapath/ansible
                 stars: 4
               - url: https://github.com/seapath/yocto-bsp
-                stars: 3
-              - url: https://github.com/seapath/seapath-architecture
                 stars: 3
               - url: https://github.com/seapath/.github
                 stars: 2
@@ -3152,7 +3152,7 @@ landscape:
               badge: 5398
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
   - category:
     name: Customer and Market
     subcategories:
@@ -3243,7 +3243,7 @@ landscape:
             github_data:
               description: Collaboratively building the future of energy efficiency
               contributors_count: 37
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;0;0;2;1;2;0;1;0;0;0;0;0;0;0;0;6;0;0;0;1;1;4;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;0;0;3;0;2;0;1;0;0;0;0;0;0;0;0;6;0;0;0;1;1;4;0;0
               stars: 270
               languages:
                 - name: Python
@@ -3277,7 +3277,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: Super Advanced Meter (SAM)
             description: LF Energy project focused on enabling advanced smart meter solutions.
@@ -3346,7 +3346,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
       - subcategory:
         name: Market Platform Gateway
         items:
@@ -3404,7 +3404,7 @@ landscape:
                 - Transportation
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 585754017792
+              market_cap: 607371591680
               effective_ticker: TSLA
             image_data:
               fileName: autobidder.svg
@@ -3413,7 +3413,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T00:38:48.000Z
+              latest_tweet_date: 2023-04-06T06:25:45.000Z
           - item:
             name: ENTRNCE
             description: >-
@@ -3584,12 +3584,12 @@ landscape:
                 - Software
             github_data:
               description: ''
-              contributors_count: 16
-              contributions: 1;0;7;1;0;0;6;12;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;2;0;0;0;0;1;0;0;2;0;2;0;5;1;3;0;1;3;4;0;21;39;2;0;1;0;11;5
+              contributors_count: 17
+              contributions: 0;0;7;1;0;0;6;12;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;0;2;0;0;0;0;1;0;1;1;2;0;0;6;0;3;0;1;3;4;0;35;25;2;0;1;0;11;5
               stars: 11
               languages:
                 - name: Java
-                  value: 259069
+                  value: 666105
                   color: '#b07219'
                 - name: Python
                   value: 2330
@@ -3597,6 +3597,9 @@ landscape:
                 - name: HTML
                   value: 300
                   color: '#e34c26'
+                - name: Shell
+                  value: 207
+                  color: '#89e051'
                 - name: Dockerfile
                   value: 171
                   color: '#384d54'
@@ -3626,7 +3629,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
       - subcategory:
         name: Customer Response
         items:
@@ -3666,7 +3669,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T14:02:19.000Z
+              latest_tweet_date: 2023-04-05T18:08:06.000Z
   - category:
     name: Shared
     subcategories:
@@ -3709,7 +3712,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T09:27:48.000Z
+              latest_tweet_date: 2023-04-06T14:51:18.000Z
           - item:
             name: CIMDraw
             description: CIMDraw is a WebApp to view IEC CIM (CGMES) files
@@ -3842,7 +3845,7 @@ landscape:
                 - name: CSS
                   value: 1298
                   color: '#563d7c'
-              contributions: 0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;0;2;0;0;4;10;12;0;0;4;9;0;0;0;0;19;0;1;0;2;0;0;0;5;0;0;0;0;0;0;1;0;1;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;0;0;0;5;0;0;0;0;0;2;0;0;4;10;12;0;0;8;5;0;0;0;0;19;0;1;0;2;0;0;0;5;0;0;0;0;0;0;1;0;1;0;0;0;0
               firstWeek: 2022-04-10Z
               stars: 21
               license: GNU Lesser General Public License v2.1
@@ -3895,7 +3898,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T05:04:52.000Z
+              latest_tweet_date: 2023-04-06T03:05:12.000Z
           - item:
             name: OpenGEH
             homepage_url: https://opengeh.energy
@@ -3949,7 +3952,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
       - subcategory:
         name: Unified Operator's UX Components and Framework
         items:
@@ -3987,7 +3990,7 @@ landscape:
                 - name: Python
                   value: 4545
                   color: '#3572A5'
-              contributions: 0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2022-04-10Z
               stars: 9
               license: Unknown License
@@ -4011,7 +4014,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T15:08:04.000Z
+              latest_tweet_date: 2023-04-06T13:04:05.000Z
           - item:
             name: OperatorFabric
             description: >-
@@ -4060,11 +4063,11 @@ landscape:
                 operations.
               contributors_count: 36
               contributions: >-
-                47;35;36;10;27;39;53;44;27;29;56;27;37;62;30;66;33;14;9;32;33;35;30;47;36;47;46;38;51;20;23;40;44;32;33;19;19;33;14;38;33;40;43;60;38;26;25;22;41;33;28;18
+                44;35;29;16;29;43;46;42;30;26;57;29;38;61;27;69;28;13;16;38;26;34;29;50;39;40;47;45;46;16;28;38;47;33;23;20;28;25;16;41;33;35;53;60;30;26;22;26;38;37;23;24
               stars: 39
               languages:
                 - name: Java
-                  value: 2374264
+                  value: 2337329
                   color: '#b07219'
                 - name: TypeScript
                   value: 1501219
@@ -4073,7 +4076,7 @@ landscape:
                   value: 553169
                   color: '#f1e05a'
                 - name: Gherkin
-                  value: 455741
+                  value: 456087
                   color: '#5B2063'
                 - name: Handlebars
                   value: 433780
@@ -4099,8 +4102,8 @@ landscape:
                 - name: Ruby
                   value: 1023
                   color: '#701516'
-              latest_commit_link: /opfab/operatorfabric-core/commit/521c27ac8e88025f4d72642f6eff635ae321fd37
-              latest_commit_date: '2023-04-05T15:51:49Z'
+              latest_commit_link: /opfab/operatorfabric-core/commit/5fc40211770601afa534c5d8057c8da688f17d00
+              latest_commit_date: '2023-04-06T14:31:12Z'
               firstWeek: 2022-04-10Z
               license: Mozilla Public License 2.0
               contributors_link: https://github.com/opfab/operatorfabric-core/graphs/contributors
@@ -4129,7 +4132,7 @@ landscape:
               badge: 4806
               percentage: 96
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
       - subcategory:
         name: Systems Governance
         items:
@@ -4277,11 +4280,11 @@ landscape:
             github_data:
               description: null
               contributors_count: 182
-              contributions: 0;0;1;25;15;2;0;1;2;0;0;0;0;0;2;0;4;0;52;5;11;10;1;1;0;4;10;11;11;12;16;6;10;2;3;3;2;3;1;3;3;5;9;6;6;1;1;8;7;7;0;13
+              contributions: 0;0;1;30;10;2;0;1;2;0;0;0;0;0;2;0;4;0;52;8;13;5;1;1;0;5;19;1;12;14;14;5;10;2;3;3;2;4;0;3;5;9;3;9;3;1;1;10;12;0;1;39
               stars: 1390
               languages:
                 - name: PHP
-                  value: 5649949
+                  value: 5650247
                   color: '#4F5D95'
                 - name: JavaScript
                   value: 3940293
@@ -4302,7 +4305,7 @@ landscape:
                   value: 109254
                   color: '#3572A5'
                 - name: Shell
-                  value: 86509
+                  value: 87567
                   color: '#89e051'
                 - name: C++
                   value: 48971
@@ -4321,20 +4324,20 @@ landscape:
                   color: '#555555'
                 - name: ApacheConf
                   value: 8525
+                - name: Dockerfile
+                  value: 2400
+                  color: '#384d54'
                 - name: Processing
                   value: 2252
                   color: '#0096D8'
-                - name: Dockerfile
-                  value: 2123
-                  color: '#384d54'
                 - name: Perl
                   value: 1453
                   color: '#0298c3'
                 - name: Hack
                   value: 1131
                   color: '#878787'
-              latest_commit_link: /emoncms/emoncms/commit/f0a26bc8412179e65b45f95c8d79a9ec2db67384
-              latest_commit_date: '2023-04-05T14:07:43Z'
+              latest_commit_link: /emoncms/emoncms/commit/a31bf8931550fa0f4078b064d4773e01325fe0b8
+              latest_commit_date: '2023-04-06T15:33:50Z'
               firstWeek: 2022-04-10Z
               license: GNU Affero General Public License v3.0
               contributors_link: https://github.com/emoncms/emoncms/graphs/contributors
@@ -4462,8 +4465,8 @@ landscape:
             github_data:
               description: ''
               contributors_count: 6
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;6;1;0;0;1;3;2;0;0;0;0;1;2;0;2;0;4;4;4;10;7;6
-              stars: 12
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;11;0;1;0;1;0;5;0;0;0;0;0;1;2;2;0;1;3;5;4;10;8;5
+              stars: 13
               languages:
                 - name: Python
                   value: 326105
@@ -4480,7 +4483,7 @@ landscape:
               contributors_link: https://github.com/rtdip/core/graphs/contributors
             repos:
               - url: https://github.com/rtdip/core
-                stars: 12
+                stars: 13
             github_start_commit_data:
               start_commit_link: /rtdip/core/commit/62de19b31258f77e494fd40d939e235a7427d1e7
               start_date: '2022-11-01T10:51:42Z'
@@ -4491,7 +4494,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
       - subcategory:
         name: Forecasting
         items:
@@ -4610,7 +4613,7 @@ landscape:
                 - Market Research
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 113095802880
+              market_cap: 111823372288
               effective_ticker: SPGI
             image_data:
               fileName: price-forecasting.svg
@@ -4619,7 +4622,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:02:25.000Z
+              latest_tweet_date: 2023-04-06T15:02:29.000Z
       - subcategory:
         name: Power System Calculation
         items:
@@ -4687,7 +4690,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: CIMapplication
             description: CIM J2EE application with resource adapter access to Spark.
@@ -4744,7 +4747,7 @@ landscape:
                 - name: Batchfile
                   value: 267
                   color: '#C1F12E'
-              contributions: 0;0;0;0;0;0;0;1;1;2;2;3;6;2;5;0;0;0;0;0;0;0;4;1;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              contributions: 0;0;0;0;0;0;0;1;1;2;2;4;6;1;5;0;0;0;0;0;0;0;4;1;0;0;0;0;0;0;0;1;1;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
               firstWeek: 2022-04-10Z
               stars: 15
               license: MIT License
@@ -4972,7 +4975,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 63228325888
+              market_cap: 62462926848
               effective_ticker: ETN
             image_data:
               fileName: cyme.svg
@@ -4981,7 +4984,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T13:02:58.000Z
+              latest_tweet_date: 2023-04-06T13:03:27.000Z
           - item:
             name: Dynaωo
             homepage_url: https://dynawo.energy
@@ -5024,22 +5027,22 @@ landscape:
             github_data:
               description: ''
               contributors_count: 27
-              contributions: 15;4;27;7;16;23;13;5;12;8;17;11;13;8;4;9;3;0;0;3;9;9;11;8;11;17;9;9;8;3;8;16;28;39;35;24;20;1;0;22;16;17;12;19;9;13;6;2;8;7;8;13
+              contributions: 12;5;25;7;18;25;11;5;9;9;21;16;4;8;4;9;2;0;0;4;8;9;12;9;11;17;7;10;8;2;15;11;48;21;40;23;13;0;7;18;22;9;19;17;8;11;5;3;12;3;11;11
               stars: 67
               languages:
                 - name: C++
-                  value: 6065202
+                  value: 6068207
                   color: '#f34b7d'
                 - name: Modelica
                   value: 2447438
                 - name: Python
-                  value: 1606063
+                  value: 1606144
                   color: '#3572A5'
                 - name: C
                   value: 1384339
                   color: '#555555'
                 - name: CMake
-                  value: 434642
+                  value: 437659
                 - name: Jupyter Notebook
                   value: 429046
                   color: '#DA5B0B'
@@ -5055,6 +5058,9 @@ landscape:
                 - name: CSS
                   value: 65306
                   color: '#563d7c'
+                - name: Batchfile
+                  value: 31359
+                  color: '#C1F12E'
                 - name: Motoko
                   value: 31009
                 - name: Dockerfile
@@ -5063,9 +5069,6 @@ landscape:
                 - name: HTML
                   value: 16488
                   color: '#e34c26'
-                - name: Batchfile
-                  value: 10294
-                  color: '#C1F12E'
                 - name: Roff
                   value: 3821
                   color: '#ecdebe'
@@ -5112,7 +5115,7 @@ landscape:
               badge: 6730
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: EMTP-RV
             description: EMTP is the most complete and technically advanced software for simulation and analysis of power systems.
@@ -5220,7 +5223,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: OpenSTEF
             homepage_url: https://openstef.energy
@@ -5263,7 +5266,7 @@ landscape:
             github_data:
               description: Open Short Term Energy Forecaster project
               contributors_count: 23
-              contributions: 39;30;46;38;38;35;0;37;0;0;0;0;4;25;30;23;21;26;15;8;0;12;7;23;8;0;0;0;2;60;16;15;1;53;4;3;2;4;41;4;0;3;27;0;1;0;0;13;33;32;10;5
+              contributions: 51;25;40;41;33;35;0;37;0;0;0;0;7;26;31;23;20;22;17;6;0;17;16;10;7;0;0;0;11;53;14;15;3;51;4;5;0;7;38;4;0;10;20;0;1;0;10;5;35;28;11;4
               stars: 57
               languages:
                 - name: HTML
@@ -5307,7 +5310,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: pandapower
             description: An easy to use open source tool for power system modeling, analysis and optimization with a high degree of automation.
@@ -5322,7 +5325,7 @@ landscape:
             github_data:
               languages:
                 - name: Python
-                  value: 3834350
+                  value: 3910954
                   color: '#3572A5'
                 - name: Jupyter Notebook
                   value: 79579
@@ -5339,16 +5342,16 @@ landscape:
                 - name: Julia
                   value: 431
                   color: '#a270ba'
-              contributions: 21;5;12;15;25;11;16;8;14;43;11;31;1;10;49;12;52;50;12;18;6;31;24;36;27;24;23;16;15;16;9;9;9;39;29;34;19;20;5;50;37;3;52;26;17;11;30;22;13;2;1;9
+              contributions: 20;5;20;9;25;14;13;9;21;33;11;30;1;10;52;17;52;45;9;23;7;27;36;24;37;23;13;15;19;17;4;12;20;38;42;29;26;5;6;65;35;6;51;33;17;7;38;23;19;11;6;10
               firstWeek: 2022-04-10Z
               stars: 603
               license: Other
               description: Convenient Power System Modelling and Analysis based on PYPOWER and pandas
-              latest_commit_date: '2023-03-31T12:11:59Z'
-              latest_commit_link: /e2nIEE/pandapower/commit/21f88798c7b9d7231019ae8e701e38f432250eaf
+              latest_commit_date: '2023-04-06T14:24:33Z'
+              latest_commit_link: /e2nIEE/pandapower/commit/1bd5f0ded79f19ced852dde0fed4e597981426b1
               release_date: '2023-01-02T15:34:50Z'
               release_link: https://github.com/e2nIEE/pandapower/releases
-              contributors_count: 106
+              contributors_count: 107
               contributors_link: https://github.com/e2nIEE/pandapower/graphs/contributors
             repos:
               - url: https://github.com/e2nIEE/pandapower
@@ -5407,13 +5410,13 @@ landscape:
                 - Software
             github_data:
               description: Power System Blocks
-              contributors_count: 113
+              contributors_count: 115
               contributions: >-
-                34;43;60;15;26;37;21;21;39;45;59;21;35;11;19;39;32;21;9;16;10;45;42;60;47;47;32;29;23;13;40;31;47;27;24;21;46;8;10;36;28;35;43;40;25;51;18;20;34;27;19;38
+                34;63;37;22;25;32;17;36;31;66;34;21;36;13;14;39;32;20;12;14;11;47;47;61;41;49;28;30;26;15;44;22;49;26;20;33;35;7;13;40;28;34;48;29;44;42;8;28;33;21;22;37
               stars: 284
               languages:
                 - name: Java
-                  value: 26650638
+                  value: 26688564
                   color: '#b07219'
                 - name: C++
                   value: 3634674
@@ -5433,7 +5436,7 @@ landscape:
                 - name: CMake
                   value: 93926
                 - name: CSS
-                  value: 69725
+                  value: 69840
                   color: '#563d7c'
                 - name: JavaScript
                   value: 44269
@@ -5568,7 +5571,7 @@ landscape:
               badge: 4795
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: PSCAD/EMTDC
             description: >-
@@ -5800,7 +5803,7 @@ landscape:
                 - Real Estate
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 117323141715
+              market_cap: 118800623137
               effective_ticker: SIE.DE
             image_data:
               fileName: pss.svg
@@ -6010,7 +6013,7 @@ landscape:
                 - Real Estate
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 117323141715
+              market_cap: 118800623137
               effective_ticker: SIE.DE
             image_data:
               fileName: psse.svg
@@ -6061,7 +6064,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T10:00:01.000Z
+              latest_tweet_date: 2023-04-06T10:02:13.000Z
       - subcategory:
         name: Market Signal
         items:
@@ -6099,7 +6102,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T13:00:24.000Z
+              latest_tweet_date: 2023-04-06T13:00:02.000Z
           - item:
             name: Concerto
             description: >-
@@ -6408,7 +6411,7 @@ landscape:
                 - Manufacturing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 102426345472
+              market_cap: 102213746688
               effective_ticker: GE
             image_data:
               fileName: adms.svg
@@ -6417,7 +6420,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:07:13.000Z
+              latest_tweet_date: 2023-04-06T15:36:01.000Z
           - item:
             name: GridOS MEMS/DERMS
             description: DER Management
@@ -6545,7 +6548,7 @@ landscape:
                 - name: Dockerfile
                   value: 798
                   color: '#384d54'
-              contributions: 3;0;10;5;0;4;5;0;7;0;2;1;18;3;1;2;1;11;0;0;0;16;2;0;0;5;0;3;0;2;17;5;6;1;0;0;11;1;8;7;9;0;1;12;9;4;8;9;3;8;5;7
+              contributions: 3;0;10;5;1;6;2;5;2;0;2;2;17;3;1;2;12;0;0;0;2;16;0;0;0;5;0;3;2;2;20;4;2;1;0;8;4;0;8;13;3;0;13;2;7;9;3;9;3;8;5;7
               firstWeek: 2022-04-10Z
               stars: 415
               license: GNU Affero General Public License v3.0
@@ -6612,7 +6615,7 @@ landscape:
             github_data:
               description: ''
               contributors_count: 44
-              contributions: 6;9;14;19;2;25;14;15;4;2;13;21;8;9;17;12;3;11;8;0;10;13;16;2;8;7;15;11;5;11;4;9;13;28;25;27;16;3;0;16;31;19;13;17;9;3;10;6;7;16;7;0
+              contributions: 7;12;10;20;4;29;7;17;2;8;15;17;4;10;22;7;2;17;2;0;11;20;8;3;12;3;19;8;6;12;0;14;18;22;28;26;10;3;0;20;33;18;15;14;5;4;9;11;2;19;4;0
               stars: 134
               languages:
                 - name: C++
@@ -6740,7 +6743,7 @@ landscape:
               badge: 4887
               percentage: 73
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:12:04.000Z
+              latest_tweet_date: 2023-04-06T10:01:01.000Z
           - item:
             name: Spectrum Power
             description: Spectrum Power, the open and scalable platform for High, Medium and Low Voltage grid operation.
@@ -6939,7 +6942,7 @@ landscape:
                 - Real Estate
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 117323141715
+              market_cap: 118800623137
               effective_ticker: SIE.DE
             image_data:
               fileName: spectrum-power.svg
@@ -7003,7 +7006,7 @@ landscape:
               city: Mountain View
               region: California
               country: United States
-              twitter: https://twitter.com/google
+              twitter: https://www.twitter.com/google
               linkedin: https://www.linkedin.com/company/google
               acquisitions:
                 - date: '2001-02-12'
@@ -7586,7 +7589,7 @@ landscape:
                 - Search Engine
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 1337073074176
+              market_cap: 1378745712640
               effective_ticker: GOOG
             image_data:
               fileName: google-llc.svg
@@ -7595,7 +7598,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T15:54:37.000Z
+              latest_tweet_date: 2023-04-06T16:25:37.000Z
           - item:
             name: Microsoft Corporation
             homepage_url: https://microsoft.com/
@@ -7665,7 +7668,7 @@ landscape:
                 - date: '1997-08-05'
                   acquiree: VXtreme
                 - date: '1997-12-31'
-                  acquiree: Reset Design
+                  acquiree: Hotmail
                 - date: '1997-12-31'
                   acquiree: Windows Live Hotmail
                 - date: '1998-04-09'
@@ -8177,7 +8180,7 @@ landscape:
                 - Software
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 2111508316160
+              market_cap: 2164776108032
               effective_ticker: MSFT
             image_data:
               fileName: microsoft-corporation.svg
@@ -8186,7 +8189,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:21:54.000Z
+              latest_tweet_date: 2023-04-05T23:33:57.000Z
           - item:
             name: RTE (Reseau de Transport dElectricite)
             homepage_url: https://rte-france.com/
@@ -8217,7 +8220,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T15:41:40.000Z
+              latest_tweet_date: 2023-04-06T14:58:24.000Z
           - item:
             name: Shell International Exploration & Production, Inc.
             homepage_url: https://shell.com/
@@ -8374,7 +8377,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T15:18:51.000Z
+              latest_tweet_date: 2023-04-06T08:11:18.000Z
           - item:
             name: AVEVA Group
             homepage_url: https://aveva.com/
@@ -8516,7 +8519,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-03T13:40:51.000Z
+              latest_tweet_date: 2023-04-05T19:33:53.000Z
           - item:
             name: d-Fine GmbH
             homepage_url: https://d-fine.com/
@@ -8648,7 +8651,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-03T09:06:59.000Z
+              latest_tweet_date: 2023-04-06T08:00:00.000Z
           - item:
             name: Futurewei Technologies, Inc.
             homepage_url: https://futurewei.com/
@@ -8788,7 +8791,7 @@ landscape:
                 - Manufacturing
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 102426345472
+              market_cap: 102213746688
               effective_ticker: GE
             image_data:
               fileName: general-electric-company.svg
@@ -8797,7 +8800,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:07:13.000Z
+              latest_tweet_date: 2023-04-06T15:36:01.000Z
           - item:
             name: Hitachi, Ltd.
             homepage_url: https://hitachi.com/
@@ -8860,7 +8863,7 @@ landscape:
                 - Public Relations
               kind: market_cap
             yahoo_finance_data:
-              market_cap: 49647884819
+              market_cap: 49429549621
               effective_ticker: 6501.T
             image_data:
               fileName: hitachi-ltd.svg
@@ -8869,7 +8872,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T10:00:27.000Z
+              latest_tweet_date: 2023-04-06T09:55:32.000Z
           - item:
             name: M-RETS, Inc.
             homepage_url: https://mrets.org/
@@ -8957,7 +8960,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:25:25.000Z
+              latest_tweet_date: 2023-04-06T16:02:39.000Z
           - item:
             name: Savoir-faire Linux
             homepage_url: https://savoirfairelinux.com/
@@ -9041,7 +9044,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:30:32.000Z
+              latest_tweet_date: 2023-04-06T11:30:22.000Z
           - item:
             name: Statnett
             homepage_url: https://statnett.no/
@@ -9142,7 +9145,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-23T16:28:14.000Z
+              latest_tweet_date: 2023-04-05T20:40:34.000Z
           - item:
             name: UtilityAPI
             homepage_url: https://utilityapi.com/
@@ -9184,7 +9187,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-29T22:34:13.000Z
+              latest_tweet_date: 2023-04-06T15:14:25.000Z
           - item:
             name: Vattenfall Eldistribution AB
             homepage_url: https://vattenfalleldistribution.se/
@@ -9277,7 +9280,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-31T17:48:47.000Z
+              latest_tweet_date: 2023-04-05T19:30:04.000Z
           - item:
             name: Delft University of Technology
             homepage_url: https://tudelft.nl/
@@ -9308,7 +9311,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T14:06:53.000Z
+              latest_tweet_date: 2023-04-06T07:31:54.000Z
           - item:
             name: ELAAD
             homepage_url: https://elaad.nl/
@@ -9338,7 +9341,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-03T19:43:45.000Z
+              latest_tweet_date: 2023-04-06T07:14:09.000Z
           - item:
             name: Electric Power Research Institute (EPRI)
             homepage_url: https://epri.com/
@@ -9373,7 +9376,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T13:11:28.000Z
+              latest_tweet_date: 2023-04-06T13:24:16.000Z
           - item:
             name: EnAccess Foundation
             homepage_url: https://enaccess.org/
@@ -9437,7 +9440,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T00:16:00.000Z
+              latest_tweet_date: 2023-04-06T11:30:06.000Z
           - item:
             name: EnergyAi
             homepage_url: https://energyai.berlin/
@@ -9503,7 +9506,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T09:27:48.000Z
+              latest_tweet_date: 2023-04-06T14:51:18.000Z
           - item:
             name: EPFL
             homepage_url: https://epfl.ch/
@@ -9541,7 +9544,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-03T14:09:02.000Z
+              latest_tweet_date: 2023-04-06T09:29:49.000Z
           - item:
             name: FIWARE Foundation e. V.
             homepage_url: https://fiware.org/
@@ -9580,7 +9583,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T12:48:05.000Z
+              latest_tweet_date: 2023-04-06T15:26:16.000Z
           - item:
             name: Fraunhofer Gesellschaft IIS
             homepage_url: https://iis.fraunhofer.de/
@@ -9614,7 +9617,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T15:58:36.000Z
+              latest_tweet_date: 2023-04-06T15:11:07.000Z
           - item:
             name: FREEDM Systems Center - NCSU
             homepage_url: https://freedm.ncsu.edu/
@@ -9649,7 +9652,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T15:45:00.000Z
+              latest_tweet_date: 2023-04-06T14:35:18.000Z
           - item:
             name: Friedrich-Alexander-University (FAU)
             homepage_url: https://fau.eu/
@@ -9679,7 +9682,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T10:16:22.000Z
+              latest_tweet_date: 2023-04-06T09:24:23.000Z
           - item:
             name: Iowa State University of Science  and Technology
             homepage_url: https://iastate.edu/
@@ -9715,7 +9718,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T14:53:24.000Z
+              latest_tweet_date: 2023-04-06T16:22:53.000Z
           - item:
             name: KTH Royal Institute of Technology
             homepage_url: https://kth.se/
@@ -9779,7 +9782,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T07:14:37.000Z
+              latest_tweet_date: 2023-04-06T07:01:19.000Z
           - item:
             name: National Renewable Energy Laboratory (NREL)
             homepage_url: https://nrel.gov/
@@ -9815,7 +9818,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:14:17.000Z
+              latest_tweet_date: 2023-04-06T16:00:16.000Z
           - item:
             name: Open Earth Foundation
             homepage_url: https://openfoundation.earth/
@@ -9847,7 +9850,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-29T16:39:18.000Z
+              latest_tweet_date: 2023-04-05T17:16:49.000Z
           - item:
             name: OpenADR Alliance
             homepage_url: https://openadr.org/
@@ -9908,7 +9911,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:15:12.000Z
+              latest_tweet_date: 2023-04-06T16:15:14.000Z
           - item:
             name: Pecan Street Inc.
             homepage_url: https://pecanstreet.org/
@@ -9940,7 +9943,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-03-29T14:13:47.000Z
+              latest_tweet_date: 2023-04-06T15:41:05.000Z
           - item:
             name: Project Haystack
             homepage_url: https://project-haystack.org/
@@ -10040,7 +10043,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:31:47.000Z
+              latest_tweet_date: 2023-04-05T23:09:10.000Z
           - item:
             name: The Alan Turing Institute
             homepage_url: https://turing.ac.uk/
@@ -10072,7 +10075,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T06:05:10.000Z
+              latest_tweet_date: 2023-04-06T15:27:45.000Z
           - item:
             name: The Energy Coalition
             homepage_url: https://energycoalition.org/
@@ -10105,7 +10108,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-03T20:00:56.000Z
+              latest_tweet_date: 2023-04-05T20:01:00.000Z
           - item:
             name: University of Kassel
             homepage_url: https://uni-kassel.de/
@@ -10135,7 +10138,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T10:03:31.000Z
+              latest_tweet_date: 2023-04-06T12:15:41.000Z
           - item:
             name: Vanderbilt University
             homepage_url: https://vanderbilt.edu/
@@ -10172,7 +10175,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-05T16:41:01.000Z
+              latest_tweet_date: 2023-04-06T16:03:10.000Z
           - item:
             name: Volta Foundation
             homepage_url: https://volta.foundation/
@@ -10225,4 +10228,4 @@ landscape:
 twitter_options:
   count: 3
   since_id: '1503998726712475652'
-updated_at: 2023-04-05T16:55:35.541Z
+updated_at: 2023-04-06T16:38:56.790Z
