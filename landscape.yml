@@ -818,6 +818,24 @@ landscape:
             organization:
               name: University of Kassel and Fraunhofer Institute for for Energy Economics and Energy System Technology (IEE) Kassel
           - item:
+            name: Power Grid Model
+            homepage_url: https://powergridmodel.energy
+            project: sandbox
+            repo_url: https://github.com/PowerGridModel/power-grid-model
+            project_org: https://github.com/PowerGridModel
+            logo: powergridmodel.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: none
+              slack_channel: '#powergridmodel'
+              LFX_insights_url: none
+              wiki_page: none
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md
+              project_lead: Tony Xiang
+          - item:
             name: PowSyBl
             description: >-
               A High-Performance Computing Framework For Grid Simulation and Planning. PowSyBl provides the code building blocks for the simulations and
@@ -870,24 +888,6 @@ landscape:
             logo: Simscape Electrical.svg
             twitter: https://twitter.com/MATLAB
             crunchbase: https://www.crunchbase.com/organization/mathworks
-          - item:
-            name: Power Grid Model
-            homepage_url: https://powergridmodel.energy
-            project: sandbox
-            repo_url: https://github.com/PowerGridModel/power-grid-model
-            project_org: https://github.com/PowerGridModel
-            logo: powergridmodel.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: none
-              slack_channel: '#powergridmodel'
-              LFX_insights_url: none
-              wiki_page: none
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md
-              project_lead: Tony Xiang
       - subcategory:
         name: Market Signal
         items:
