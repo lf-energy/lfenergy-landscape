@@ -303,7 +303,7 @@ landscape:
             logo: IonMonger.svg
             description: A free and fast perovskite solar cell simulator with coupled ion vacancy and charge carrier dynamics in one dimension.
             repo_url: https://github.com/PerovskiteSCModelling/IonMonger
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-southampton
             homepage_url: https://sites.google.com/view/ionmonger/home
             extra:
               topics: perovskite-solar-cells,halide-ion-migration
@@ -325,7 +325,8 @@ landscape:
             logo: pv-terms.svg
             description: Contains nomenclature for PV-relevant terms that are used in modeling and data analysis for PV systems.
             repo_url: https://github.com/DuraMAT/pv-terms
-            unnamed_organization: true
+            organization:
+              name: Hacking Materials Research Group
             homepage_url: https://github.com/DuraMAT/pv-terms
           - item:
             name: StatisticalClearSky
@@ -407,7 +408,8 @@ landscape:
             logo: MPPT-Solar-Charger.svg
             description: Supporting documentation and software for the MPPT Solar Charger.
             repo_url: https://github.com/danjulio/MPPT-Solar-Charger
-            unnamed_organization: true
+            organization:
+              name: danjuliodesigns, LLC
             homepage_url: https://github.com/danjulio/MPPT-Solar-Charger
           - item:
             name: Tonatiuh
@@ -424,7 +426,7 @@ landscape:
             logo: PV4GER.svg
             description: Aims at democratizing and accelerating the access to photovoltaic systems data in Germany and beyond.
             repo_url: https://github.com/kdmayer/3D-PV-Locator
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://github.com/kdmayer/3D-PV-Locator
             extra:
               topics: >-
@@ -3519,7 +3521,8 @@ landscape:
             extra:
               topics: >-
                 energy-efficiency,exploratory-data-analysis,regression-models,regression,bokeh,data-science,outlier-detection,outlier-removal,missing-values,missing-data,scikit-learn,google-app-engine,xgboost
-            unnamed_organization: true
+            organization:
+              name: Michael Harmon
             homepage_url: http://michael-harmon.com/blog/GreenBuildings1.html
           - item:
             name: Smart-Energy-Monitor
@@ -3531,7 +3534,8 @@ landscape:
             extra:
               topics: >-
                 arduino,raspberry-pi,energy-monitor,energy-consumption,energy-disaggregation,smarthome,electronics,machine-learning,naive-bayes-classifier,appliance-level-consumption,hardware
-            unnamed_organization: true
+            organization:
+              name: Jonathan Pereira
             homepage_url: https://photos.app.goo.gl/EcPnu42qcf3pCxSX9
           - item:
             name: Hotmaps
@@ -7751,8 +7755,9 @@ landscape:
             name: visGWDB
             logo: visGWDB.svg
             description: A framework for groundwater-level informatics.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://code.usgs.gov/map/gw/visGWDBmrva
+            crunchbase: https://www.crunchbase.com/organization/usgs
+            license: Creative Commons Zero v1.0 Universal
             homepage_url: https://code.usgs.gov/map/gw/visGWDBmrva
           - item:
             name: LakePy
@@ -7844,8 +7849,7 @@ landscape:
             logo: river-dl.svg
             description: Deep learning model for predicting environmental variables on river systems.
             repo_url: https://github.com/USGS-R/river-dl
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://github.com/USGS-R/river-dl
           - item:
             name: VIC
@@ -10080,8 +10084,7 @@ landscape:
             repo_url: https://github.com/USGS-R/dataRetrieval
             extra:
               topics: r,usgs,rstats,r-package
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://rconnect.usgs.gov/dataRetrieval/
           - item:
             name: dataretrieval
@@ -10090,7 +10093,7 @@ landscape:
               A Python alternative to USGS-R's dataRetrieval package for obtaining USGS or EPA water quality data, streamflow data, and metadata directly from
               web services.
             repo_url: https://github.com/USGS-python/dataretrieval
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://github.com/USGS-python/dataretrieval
           - item:
             name: EGRET
@@ -10099,8 +10102,7 @@ landscape:
               An R package for the analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on
               Time, Discharge, and Season.
             repo_url: https://github.com/USGS-R/EGRET
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: http://pubs.usgs.gov/tm/04/a10/
             extra:
               refs: ',https://doi.org/10.3133/tm4A10'
@@ -10137,8 +10139,7 @@ landscape:
             logo: nhdplusTools.svg
             description: This package is a growing set of tools for manipulation of hydrographic data using the NHDPlus data model.
             repo_url: https://github.com/USGS-R/nhdplusTools
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://usgs-r.github.io/nhdplusTools/
             extra:
               refs: ',https://doi.org/10.5066/P97AS8JD\n```\n\n###'
@@ -10204,8 +10205,7 @@ landscape:
               Has been widely used by academics, private consultants, and government scientists to accurately, reliably, and efficiently simulate groundwater
               flow.
             repo_url: https://github.com/MODFLOW-USGS/modflow6
-            organization:
-              name: MODFLOW and Related Programs
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://modflow6.readthedocs.io/
             extra:
               refs: >-
@@ -10471,9 +10471,8 @@ landscape:
             logo: pyGSFLOW.svg
             description: A set of Python modules to run the GSFLOW integrated hydrologic model program.
             repo_url: https://github.com/pygsflow/pygsflow
-            organization:
-              name: pyGSFLOW
             homepage_url: https://pygsflow.github.io/pygsflowdocs/
+            crunchbase: https://www.crunchbase.com/organization/usgs
             extra:
               refs: >-
                 ,https://doi.org/10.21105/joss.03852,https://doi.org/10.3389/feart.2022.907533,https://doi.org/10.3389/feart.2022.907533,https://doi.org/10.21105/joss.03852,https://doi.org/10.5066/P9NPZ5AD,https://doi.org/10.5066/P9NPZ5AD
@@ -10513,7 +10512,7 @@ landscape:
             repo_url: https://github.com/smwesten-usgs/swb
             extra:
               topics: soil-water-balance,usgs,fortran,deep-percolation,groundwater-recharge
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://github.com/smwesten-usgs/swb
           - item:
             name: Long-term Trends in Groundwater Levels in B.C.
@@ -10531,8 +10530,8 @@ landscape:
             description: >-
               A coupled Groundwater and Surface-water FLOW model based on the integration of the USGS Precipitation-Runoff Modeling System and the USGS Modular
               Groundwater Flow Model.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/PublicDomainRelease/GSFLOW
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://www.usgs.gov/software/coupled-ground-water-and-surface-water-flow-model-gsflow
           - item:
             name: canwqdata
@@ -10551,8 +10550,7 @@ landscape:
             repo_url: https://github.com/USGS-R/HASP
             extra:
               topics: rstats,r,r-package,groundwater-level,groundwater
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://usgs-r.github.io/HASP
           - item:
             name: CSHShydRology
@@ -12655,11 +12653,12 @@ landscape:
             unnamed_organization: true
             homepage_url: https://climate.esa.int/en/odp/#/dashboard
           - item:
-            name: USGS
+            name: USGS API Python Module
             logo: USGS.svg
             description: A python module for interfacing with the US Geological Survey's API.
             repo_url: https://github.com/kapadia/usgs
-            unnamed_organization: true
+            organization:
+              name: Amit Kapadia
             homepage_url: http://kapadia.github.io/usgs/
           - item:
             name: getSpatialData

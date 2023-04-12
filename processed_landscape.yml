@@ -1601,20 +1601,30 @@ landscape:
             logo: IonMonger.svg
             description: A free and fast perovskite solar cell simulator with coupled ion vacancy and charge carrier dynamics in one dimension.
             repo_url: https://github.com/PerovskiteSCModelling/IonMonger
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-southampton
             homepage_url: https://sites.google.com/view/ionmonger/home
             extra:
               topics: perovskite-solar-cells,halide-ion-migration
               refs: ',https://doi.org/10.1039/C8EE01576G,https://doi.org/10.1016/j.apm.2018.06.051'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Southampton
+              description: The University of Southampton is a public research university located in Southampton, England.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.southampton.ac.uk/
+              city: Southampton
+              region: Southampton
+              country: United Kingdom
+              twitter: https://twitter.com/unisouthampton
+              linkedin: https://www.linkedin.com/company/university-of-southampton
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - E-Learning
+                - Education
+                - Higher Education
             github_data:
               languages:
                 - name: MATLAB
@@ -1652,7 +1662,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T12:03:59.000Z
           - item:
             name: rayflare
             logo: rayflare.svg
@@ -1705,16 +1715,11 @@ landscape:
             logo: pv-terms.svg
             description: Contains nomenclature for PV-relevant terms that are used in modeling and data analysis for PV systems.
             repo_url: https://github.com/DuraMAT/pv-terms
-            unnamed_organization: true
+            organization:
+              name: Hacking Materials Research Group
             homepage_url: https://github.com/DuraMAT/pv-terms
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Hacking Materials Research Group
               parents: []
             github_data:
               languages:
@@ -1751,8 +1756,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: StatisticalClearSky
             logo: StatisticalClearSky.svg
@@ -2203,16 +2206,11 @@ landscape:
             logo: MPPT-Solar-Charger.svg
             description: Supporting documentation and software for the MPPT Solar Charger.
             repo_url: https://github.com/danjulio/MPPT-Solar-Charger
-            unnamed_organization: true
+            organization:
+              name: danjuliodesigns, LLC
             homepage_url: https://github.com/danjulio/MPPT-Solar-Charger
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: danjuliodesigns, LLC
               parents: []
             github_data:
               languages:
@@ -2242,12 +2240,10 @@ landscape:
               start_date: '2018-04-30T04:46:10Z'
             image_data:
               fileName: mppt-solar-charger.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: jBC8DSz109vQsOJXH4Dc1InngtexIf59Lmj3iG8M1n0=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Tonatiuh
             logo: Tonatiuh.svg
@@ -2302,21 +2298,33 @@ landscape:
             logo: PV4GER.svg
             description: Aims at democratizing and accelerating the access to photovoltaic systems data in Germany and beyond.
             repo_url: https://github.com/kdmayer/3D-PV-Locator
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://github.com/kdmayer/3D-PV-Locator
             extra:
               topics: >-
                 neurips-2020,solar,renewable-energy,pv-systems,deepsolar,computer-vision,inception-v3,deeplabv3,network-planning,solar-panels,climate-change,ai,deep-learning,remote-sensing,satellite-imagery
               refs: ',https://doi.org/10.1016/j.apenergy.2021.118469'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Stanford University
+              description: Stanford University is a teaching and research university that focuses on graduate programs in law, medicine, education, and business.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.stanford.edu
+              city: Stanford
+              region: California
+              country: United States
+              twitter: http://twitter.com/Stanford
+              linkedin: https://www.linkedin.com/company/stanford-university
+              acquisitions: []
               parents: []
+              funding: 5009066
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -2339,12 +2347,12 @@ landscape:
               start_date: '2021-01-20T13:29:26Z'
             image_data:
               fileName: pv4-ger.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: +92QQjogTuyhMgsWxW6eIt8Nq0SwJ5w2NWl07dHN6jQ=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-02T23:58:43.000Z
           - item:
             name: PV Free
             logo: PV Free.svg
@@ -20448,16 +20456,11 @@ landscape:
             extra:
               topics: >-
                 energy-efficiency,exploratory-data-analysis,regression-models,regression,bokeh,data-science,outlier-detection,outlier-removal,missing-values,missing-data,scikit-learn,google-app-engine,xgboost
-            unnamed_organization: true
+            organization:
+              name: Michael Harmon
             homepage_url: http://michael-harmon.com/blog/GreenBuildings1.html
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Michael Harmon
               parents: []
             github_data:
               languages:
@@ -20487,12 +20490,10 @@ landscape:
               start_date: '2017-03-23T19:17:36Z'
             image_data:
               fileName: nyc-building-energy-use.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 3kx0EKEEyfGbVH/Oo7jKtIh0MaRl5kaNajwUwUyeVQg=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Smart-Energy-Monitor
             logo: Smart-Energy-Monitor.svg
@@ -20503,16 +20504,11 @@ landscape:
             extra:
               topics: >-
                 arduino,raspberry-pi,energy-monitor,energy-consumption,energy-disaggregation,smarthome,electronics,machine-learning,naive-bayes-classifier,appliance-level-consumption,hardware
-            unnamed_organization: true
+            organization:
+              name: Jonathan Pereira
             homepage_url: https://photos.app.goo.gl/EcPnu42qcf3pCxSX9
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Jonathan Pereira
               parents: []
             github_data:
               languages:
@@ -20542,12 +20538,10 @@ landscape:
               start_date: '2017-09-25T09:52:31Z'
             image_data:
               fileName: smart-energy-monitor.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 2UZRWxeOYl6rNt6g1uhFS7wUi3lk87LALWy5A+pulF0=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Hotmaps
             logo: Hotmaps.svg
@@ -44999,17 +44993,33 @@ landscape:
             logo: visGWDB.svg
             description: A framework for groundwater-level informatics.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://code.usgs.gov/map/gw/visGWDBmrva
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             image_data:
               fileName: vis-gwdb.svg
               hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
@@ -45017,7 +45027,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: LakePy
             logo: LakePy.svg
@@ -45511,12 +45521,33 @@ landscape:
             logo: river-dl.svg
             description: Deep learning model for predicting environmental variables on river systems.
             repo_url: https://github.com/USGS-R/river-dl
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://github.com/USGS-R/river-dl
             crunchbase_data:
-              name: USGS-R
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: Python
@@ -45548,6 +45579,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: VIC
             logo: VIC.svg
@@ -58737,12 +58770,33 @@ landscape:
             repo_url: https://github.com/USGS-R/dataRetrieval
             extra:
               topics: r,usgs,rstats,r-package
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://rconnect.usgs.gov/dataRetrieval/
             crunchbase_data:
-              name: USGS-R
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: R
@@ -58779,6 +58833,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: dataretrieval
             logo: dataretrieval2.svg
@@ -58786,17 +58842,33 @@ landscape:
               A Python alternative to USGS-R's dataRetrieval package for obtaining USGS or EPA water quality data, streamflow data, and metadata directly from
               web services.
             repo_url: https://github.com/USGS-python/dataretrieval
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://github.com/USGS-python/dataretrieval
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: Python
@@ -58826,7 +58898,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: EGRET
             logo: EGRET2.svg
@@ -58834,15 +58906,36 @@ landscape:
               An R package for the analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on
               Time, Discharge, and Season.
             repo_url: https://github.com/USGS-R/EGRET
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: http://pubs.usgs.gov/tm/04/a10/
             extra:
               refs: ',https://doi.org/10.3133/tm4A10'
               topics: r,usgs,water-quality-data,water-quality,rstats,r-package
             crunchbase_data:
-              name: USGS-R
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: R
@@ -58882,6 +58975,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: WaterModels.jl
             logo: WaterModels.jl.svg
@@ -59093,14 +59188,35 @@ landscape:
             logo: nhdplusTools.svg
             description: This package is a growing set of tools for manipulation of hydrographic data using the NHDPlus data model.
             repo_url: https://github.com/USGS-R/nhdplusTools
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://usgs-r.github.io/nhdplusTools/
             extra:
               refs: ',https://doi.org/10.5066/P97AS8JD\n```\n\n###'
             crunchbase_data:
-              name: USGS-R
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: R
@@ -59132,6 +59248,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: The Safe Water Project
             logo: The Safe Water Project.svg
@@ -59413,16 +59531,37 @@ landscape:
               Has been widely used by academics, private consultants, and government scientists to accurately, reliably, and efficiently simulate groundwater
               flow.
             repo_url: https://github.com/MODFLOW-USGS/modflow6
-            organization:
-              name: MODFLOW and Related Programs
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://modflow6.readthedocs.io/
             extra:
               refs: >-
                 ,https://doi.org/10.3133/tm6A57,https://doi.org/10.3133/tm6A57,https://doi.org/10.3133/tm6A55,https://doi.org/10.3133/tm6A55,https://doi.org/10.3133/tm6A56,https://doi.org/10.3133/tm6A56,https://doi.org/10.1111/gwat.12967,https://doi.org/10.1111/gwat.13117,https://doi.org/10.1016/j.envsoft.2021.105257,https://doi.org/10.1016/j.envsoft.2021.105257,https://doi.org/10.3133/tm6A61,https://doi.org/10.3133/tm6A61,https://doi.org/10.3133/tm6A62,https://doi.org/10.3133/tm6A62,https://doi.org/10.5066/F76Q1VQV,https://doi.org/10.5066/F76Q1VQV
               topics: groundwater,earth-science,modflow
             crunchbase_data:
-              name: MODFLOW and Related Programs
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: Fortran
@@ -59466,6 +59605,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: iMOD
             logo: iMOD.svg
@@ -60813,16 +60954,37 @@ landscape:
             logo: pyGSFLOW.svg
             description: A set of Python modules to run the GSFLOW integrated hydrologic model program.
             repo_url: https://github.com/pygsflow/pygsflow
-            organization:
-              name: pyGSFLOW
             homepage_url: https://pygsflow.github.io/pygsflowdocs/
+            crunchbase: https://www.crunchbase.com/organization/usgs
             extra:
               refs: >-
                 ,https://doi.org/10.21105/joss.03852,https://doi.org/10.3389/feart.2022.907533,https://doi.org/10.3389/feart.2022.907533,https://doi.org/10.21105/joss.03852,https://doi.org/10.5066/P9NPZ5AD,https://doi.org/10.5066/P9NPZ5AD
               topics: gsflow,modflow,pygsflow,prms,groundwater,surface-water,usgs,python,groundwater-modelling,integrated-modelling
             crunchbase_data:
-              name: pyGSFLOW
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: Python
@@ -60854,6 +61016,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: bcgroundwater
             logo: bcgroundwater.svg
@@ -61021,17 +61185,33 @@ landscape:
             repo_url: https://github.com/smwesten-usgs/swb
             extra:
               topics: soil-water-balance,usgs,fortran,deep-percolation,groundwater-recharge
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://github.com/smwesten-usgs/swb
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: Fortran
@@ -61086,7 +61266,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: Long-term Trends in Groundwater Levels in B.C.
             logo: Long-term Trends in Groundwater Levels in B.C..svg
@@ -61139,17 +61319,33 @@ landscape:
               A coupled Groundwater and Surface-water FLOW model based on the integration of the USGS Precipitation-Runoff Modeling System and the USGS Modular
               Groundwater Flow Model.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://www.usgs.gov/software/coupled-ground-water-and-surface-water-flow-model-gsflow
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             image_data:
               fileName: gsflow.svg
               hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
@@ -61157,7 +61353,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: canwqdata
             logo: canwqdata.svg
@@ -61204,12 +61400,33 @@ landscape:
             repo_url: https://github.com/USGS-R/HASP
             extra:
               topics: rstats,r,r-package,groundwater-level,groundwater
-            organization:
-              name: USGS-R
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://usgs-r.github.io/HASP
             crunchbase_data:
-              name: USGS-R
+              name: USGS
+              description: USGS is a science organization which provides impartial information on the health.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.usgs.gov
+              city: Reston
+              region: Virginia
+              country: United States
+              twitter: https://www.twitter.com/usgs
+              linkedin: https://www.linkedin.com/company/usgs-geological-survey-usgs/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Energy
+                - Environmental Consulting
+                - Government
+                - Health Care
+                - Medical
+                - Natural Resources
+                - Product Research
+                - Water
             github_data:
               languages:
                 - name: R
@@ -61242,6 +61459,8 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:30:23.000Z
           - item:
             name: CSHShydRology
             logo: CSHShydRology.svg
@@ -72937,20 +73156,15 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
-            name: USGS
+            name: USGS API Python Module
             logo: USGS.svg
             description: A python module for interfacing with the US Geological Survey's API.
             repo_url: https://github.com/kapadia/usgs
-            unnamed_organization: true
+            organization:
+              name: Amit Kapadia
             homepage_url: http://kapadia.github.io/usgs/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Amit Kapadia
               parents: []
             github_data:
               languages:
@@ -72973,13 +73187,11 @@ landscape:
               start_commit_link: /kapadia/usgs/commit/4b9abd3760bbe49ee5cfcfb5970f4891589fef74
               start_date: '2014-12-19T17:28:19Z'
             image_data:
-              fileName: usgs.svg
+              fileName: usgs-api-python-module.svg
               hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: getSpatialData
             logo: getSpatialData.svg
