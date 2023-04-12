@@ -7621,16 +7621,11 @@ landscape:
             repo_url: https://github.com/batterysim/equiv-circ-model
             extra:
               topics: battery,electric-vehicles,equivalent-circuit-model,battery-cell
-            unnamed_organization: true
+            organization:
+              name: batterysim
             homepage_url: https://github.com/batterysim/equiv-circ-model
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: batterysim
               parents: []
             github_data:
               languages:
@@ -7654,12 +7649,10 @@ landscape:
               start_date: '2019-05-04T19:05:34Z'
             image_data:
               fileName: equiv-circ-model.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1DHybpjXpbQid/i4lyBvVaLqBgFMLnBIXZ5g0e3hEIg=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: long-live-the-battery
             logo: long-live-the-battery.svg
@@ -7722,26 +7715,39 @@ landscape:
             description: >-
               Allows coupled electrical-thermal simulations of single storage systems (e.g. lithium ion batteries or double layer capacitors) or complete
               storage system packs.
-            repo_url: null
-            unnamed_organization: true
+            license: BSD 3-Clause "New" or "Revised" License
+            repo_url: https://git.rwth-aachen.de/isea/framework
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
             homepage_url: https://git.rwth-aachen.de/isea/framework
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: RWTH Aachen University
+              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.rwth-aachen.de/lang/en
+              city: Aachen
+              region: Nordrhein-Westfalen
+              country: Germany
+              twitter: https://www.twitter.com/rwth
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Higher Education
+            repos:
+              - url: https://git.rwth-aachen.de/isea/framework
             image_data:
               fileName: isea-framework.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 4FuvsJ/NQR2oS+IHPXNCeZY63iBpGqn6ogGAGE+cseA=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-31T08:45:00.000Z
           - item:
             name: Ampere
             logo: Ampere.svg
@@ -9711,26 +9717,39 @@ landscape:
             name: DistAIX
             logo: DistAIX.svg
             description: A simulator for cyber-physical power systems that makes use of high performance computing techniques to scale up the simulation.
-            repo_url: null
-            unnamed_organization: true
+            license: GNU General Public License v3.0
+            repo_url: https://git.rwth-aachen.de/acs/public/simulation/DistAIXFramework/distaix
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
             homepage_url: https://git.rwth-aachen.de/acs/public/simulation/DistAIXFramework/distaix
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: RWTH Aachen University
+              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.rwth-aachen.de/lang/en
+              city: Aachen
+              region: Nordrhein-Westfalen
+              country: Germany
+              twitter: https://www.twitter.com/rwth
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Higher Education
+            repos:
+              - url: https://git.rwth-aachen.de/acs/public/simulation/DistAIXFramework/distaix
             image_data:
               fileName: dist-aix.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: arO6MzHi8pbp48QJ6j5WM8fPtkxNPd1cnwdswzX0Vkg=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-31T08:45:00.000Z
           - item:
             name: The Open Energy Ontology
             logo: The Open Energy Ontology.svg
@@ -9782,16 +9801,32 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: nempy
+            name: Nempy
             logo: nempy.svg
             description: Aims to enhance the Australian electricity industries modeling and analytical capabilities.
             repo_url: https://github.com/UNSW-CEEM/nempy
-            organization:
-              name: Collaboration on Energy and Environmental Markets (CEEM)
-            homepage_url: https://github.com/UNSW-CEEM/nempy
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
+            homepage_url: https://nempy.readthedocs.io/en/latest/
             crunchbase_data:
-              name: Collaboration on Energy and Environmental Markets (CEEM)
+              name: University of New South Wales
+              description: UNSW Australia (The University of New South Wales)one of Australia's leading research and teaching universities.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.unsw.edu.au
+              city: Sydney
+              region: New South Wales
+              country: Australia
+              twitter: http://twitter.com/unsw
+              linkedin: https://www.linkedin.com/company/university-of-new-south-wales
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Medical
+                - Universities
             github_data:
               languages:
                 - name: Python
@@ -9816,10 +9851,12 @@ landscape:
               start_date: '2020-04-14T06:54:49Z'
             image_data:
               fileName: nempy.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: x5MhdxPA36Qti/S618SYwENc4VK8ESVv3z0HDyrbd7A=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-27T07:18:00.000Z
           - item:
             second_path:
               - Earth Systems / Hydrosphere
@@ -10384,29 +10421,148 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
-            name: VILLASnode
+            name: VILLASframework
             logo: VILLASnode.svg
-            description: Connecting real-time power grid simulation equipment.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://git.rwth-aachen.de/acs/public/villas/node
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            repo_url: https://github.com/VILLASframework/node
+            project_org: https://github.com/VILLASframework
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
+            homepage_url: https://fein-aachen.org/projects/villas-framework/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: RWTH Aachen University
+              description: RWTH Aachen is the leading German University in third party funding and has a strong technology transfer track record.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.rwth-aachen.de/lang/en
+              city: Aachen
+              region: Nordrhein-Westfalen
+              country: Germany
+              twitter: https://www.twitter.com/rwth
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Higher Education
+            github_data:
+              description: VILLASframework is a toolset for local and geographically distributed real-time co-simulation.
+              contributors_count: 28
+              contributions: 10;7;5;3;8;16;1;1;1;0;1;6;3;8;0;13;0;2;0;17;0;6;4;5;4;0;1;5;21;16;22;7;6;52;40;49;4;0;51;20;9;15;0;5;0;2;2;0;13;0;5;3
+              stars: 22
+              languages:
+                - name: VHDL
+                  value: 263889654
+                  color: '#adb2cb'
+                - name: Verilog
+                  value: 48840907
+                  color: '#b2b7f8'
+                - name: V
+                  value: 5955230
+                - name: HTML
+                  value: 1840328
+                  color: '#e34c26'
+                - name: C
+                  value: 1659515
+                  color: '#555555'
+                - name: C++
+                  value: 1610299
+                  color: '#f34b7d'
+                - name: JavaScript
+                  value: 848723
+                  color: '#f1e05a'
+                - name: Go
+                  value: 601312
+                  color: '#00ADD8'
+                - name: Tcl
+                  value: 385917
+                  color: '#e4cc98'
+                - name: CSS
+                  value: 213952
+                  color: '#563d7c'
+                - name: Python
+                  value: 158087
+                  color: '#3572A5'
+                - name: Shell
+                  value: 124084
+                  color: '#89e051'
+                - name: CMake
+                  value: 75732
+                - name: SystemVerilog
+                  value: 66227
+                  color: '#DAE1C2'
+                - name: Jupyter Notebook
+                  value: 36832
+                  color: '#DA5B0B'
+                - name: MATLAB
+                  value: 30080
+                  color: '#e16737'
+                - name: Roff
+                  value: 26104
+                  color: '#ecdebe'
+                - name: Makefile
+                  value: 14825
+                  color: '#427819'
+                - name: Dockerfile
+                  value: 9947
+                  color: '#384d54'
+                - name: Lua
+                  value: 3109
+                  color: '#000080'
+                - name: Cuda
+                  value: 3102
+                  color: '#3A4E3A'
+                - name: TypeScript
+                  value: 1092
+                  color: '#2b7489'
+                - name: Batchfile
+                  value: 831
+                  color: '#C1F12E'
+                - name: Opal
+                  value: 387
+                  color: '#f7ede0'
+              latest_commit_link: /VILLASframework/node/commit/37c9efad92de55f62bd74af97eb755e9b350390e
+              latest_commit_date: '2023-01-17T12:45:40Z'
+              firstWeek: 2022-04-18Z
+              license: Other
+              contributors_link: https://github.com/VILLASframework/node/graphs/contributors
+            repos:
+              - url: https://github.com/VILLASframework/node
+                stars: 3
+              - url: https://github.com/VILLASframework/common
+                stars: 4
+              - url: https://github.com/VILLASframework/fpga
+                stars: 4
+              - url: https://github.com/VILLASframework/documentation
+                stars: 2
+              - url: https://github.com/VILLASframework/dataprocessing
+                stars: 2
+              - url: https://github.com/VILLASframework/fpga-hardware
+                stars: 2
+              - url: https://github.com/VILLASframework/web
+                stars: 1
+              - url: https://github.com/VILLASframework/web-backend
+                stars: 1
+              - url: https://github.com/VILLASframework/libxil
+                stars: 1
+              - url: https://github.com/VILLASframework/controller
+                stars: 1
+              - url: https://github.com/VILLASframework/signaling
+                stars: 1
+              - url: https://github.com/VILLASframework/.github
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /VILLASframework/node/commit/df063554e06ca5faf3c0783d5f8c111f7694886d
+              start_date: '2014-06-05T09:16:00Z'
             image_data:
-              fileName: villa-snode.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: villa-sframework.svg
+              hash: fB6TRl9ZstYJhuswhlKFa6U9SMUmJcYXUdbcgU8OSjI=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-31T08:45:00.000Z
           - item:
             name: openENTRANCE
             logo: openENTRANCE.svg

@@ -1256,7 +1256,8 @@ landscape:
             repo_url: https://github.com/batterysim/equiv-circ-model
             extra:
               topics: battery,electric-vehicles,equivalent-circuit-model,battery-cell
-            unnamed_organization: true
+            organization:
+              name: batterysim
             homepage_url: https://github.com/batterysim/equiv-circ-model
           - item:
             name: long-live-the-battery
@@ -1271,8 +1272,9 @@ landscape:
             description: >-
               Allows coupled electrical-thermal simulations of single storage systems (e.g. lithium ion batteries or double layer capacitors) or complete
               storage system packs.
-            repo_url: null
-            unnamed_organization: true
+            license: BSD 3-Clause "New" or "Revised" License
+            repo_url: https://git.rwth-aachen.de/isea/framework
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
             homepage_url: https://git.rwth-aachen.de/isea/framework
           - item:
             name: Ampere
@@ -1661,8 +1663,9 @@ landscape:
             name: DistAIX
             logo: DistAIX.svg
             description: A simulator for cyber-physical power systems that makes use of high performance computing techniques to scale up the simulation.
-            repo_url: null
-            unnamed_organization: true
+            license: GNU General Public License v3.0
+            repo_url: https://git.rwth-aachen.de/acs/public/simulation/DistAIXFramework/distaix
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
             homepage_url: https://git.rwth-aachen.de/acs/public/simulation/DistAIXFramework/distaix
           - item:
             name: The Open Energy Ontology
@@ -1675,13 +1678,12 @@ landscape:
               name: Open Energy Family
             homepage_url: https://github.com/OpenEnergyPlatform/ontology
           - item:
-            name: nempy
+            name: Nempy
             logo: nempy.svg
             description: Aims to enhance the Australian electricity industries modeling and analytical capabilities.
             repo_url: https://github.com/UNSW-CEEM/nempy
-            organization:
-              name: Collaboration on Energy and Environmental Markets (CEEM)
-            homepage_url: https://github.com/UNSW-CEEM/nempy
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
+            homepage_url: https://nempy.readthedocs.io/en/latest/
           - item:
             second_path:
               - Earth Systems / Hydrosphere
@@ -1770,12 +1772,12 @@ landscape:
               project_lead: Antonello Monti, RWTH Aachen University
               topics: simulation,real-time,dynamic-phasors,powerflow,electromagnetic-transient,power-systems,emt,quasi-stationary
           - item:
-            name: VILLASnode
+            name: VILLASframework
             logo: VILLASnode.svg
-            description: Connecting real-time power grid simulation equipment.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://git.rwth-aachen.de/acs/public/villas/node
+            repo_url: https://github.com/VILLASframework/node
+            project_org: https://github.com/VILLASframework
+            crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
+            homepage_url: https://fein-aachen.org/projects/villas-framework/
           - item:
             name: openENTRANCE
             logo: openENTRANCE.svg
