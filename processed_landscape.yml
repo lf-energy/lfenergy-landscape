@@ -7980,28 +7980,37 @@ landscape:
             name: emobpy
             logo: emobpy.svg
             description: An open tool for creating battery-electric vehicle time series from empirical data.
+            license: MIT License
             repo_url: https://gitlab.com/diw-evu/emobpy/emobpy
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/diw-berlin
             homepage_url: https://gitlab.com/diw-evu/emobpy/emobpy
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: DIW Berlin
+              description: DIW Berlin - German Institute for Economic Research is one of the largest economic research institutes in Germany.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://diw.de/deutsch
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/DIW_Berlin
+              linkedin: https://www.linkedin.com/company/38638
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Market Research
             repos:
               - url: https://gitlab.com/diw-evu/emobpy/emobpy
             image_data:
               fileName: emobpy.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: pTHvaMYJN1SUDSf6Vg+T8SBdJg2BGQeShqNchc62we0=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T08:19:05.000Z
           - item:
             name: BattMo
             logo: BattMo.svg
@@ -9166,6 +9175,7 @@ landscape:
             description: >-
               A framework to develop energy system models, with a focus on flexibility, high spatial and temporal resolution, the ability to execute many runs
               based on the same base model, and a clear separation of framework and model.
+            project_org: https://github.com/calliope-project
             repo_url: https://github.com/calliope-project/calliope
             organization:
               name: Calliope
@@ -9177,79 +9187,73 @@ landscape:
               name: Calliope
               parents: []
             github_data:
+              description: A multi-scale energy systems modelling framework
+              contributors_count: 17
+              contributions: 1;8;2;12;20;4;18;7;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;4;0;5;0;2;5;2;1;0;0;0;2;2;5;2;2;0;0;0
+              stars: 287
               languages:
+                - name: Jupyter Notebook
+                  value: 10324772
+                  color: '#DA5B0B'
                 - name: Python
-                  value: 942476
+                  value: 1831127
                   color: '#3572A5'
+                - name: Julia
+                  value: 78613
+                  color: '#a270ba'
+                - name: HTML
+                  value: 54151
+                  color: '#e34c26'
+                - name: Shell
+                  value: 27655
+                  color: '#89e051'
+                - name: CSS
+                  value: 25808
+                  color: '#563d7c'
                 - name: TeX
                   value: 2666
                   color: '#3D6117'
                 - name: Makefile
-                  value: 291
+                  value: 2040
                   color: '#427819'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0;1;0;0;1;3;3;3;3;0
-              firstWeek: 2022-04-03Z
-              stars: 210
+              latest_commit_link: /calliope-project/calliope/commit/dde0a1f83671253f0f565081d650041d0114cd23
+              latest_commit_date: '2023-04-12T09:17:50Z'
+              firstWeek: 2022-04-17Z
               license: Apache License 2.0
-              description: A multi-scale energy systems modelling framework
-              latest_commit_date: '2023-03-18T17:35:13Z'
-              latest_commit_link: /calliope-project/calliope/commit/675e620a5ce4f0f99a3490a1fa7290c937838e03
-              release_date: '2023-01-18T14:11:52Z'
-              release_link: https://github.com/calliope-project/calliope/releases
-              contributors_count: 18
               contributors_link: https://github.com/calliope-project/calliope/graphs/contributors
             repos:
               - url: https://github.com/calliope-project/calliope
-                stars: 210
+                stars: 211
+              - url: https://github.com/calliope-project/euro-calliope
+                stars: 26
+              - url: https://github.com/calliope-project/uk-calliope
+                stars: 18
+              - url: https://github.com/calliope-project/sector-coupled-euro-calliope
+                stars: 13
+              - url: https://github.com/calliope-project/solar-and-wind-potentials
+                stars: 10
+              - url: https://github.com/calliope-project/calliope-explore
+                stars: 5
+              - url: https://github.com/calliope-project/CalliopeJuMP.jl
+                stars: 2
+              - url: https://github.com/calliope-project/typedconfig
+                stars: 1
+              - url: https://github.com/calliope-project/calliope_plot
+                stars: 1
+              - url: https://github.com/calliope-project/calliope-addon-n-minus-one
+                stars: 0
+              - url: https://github.com/calliope-project/calliope-tutorials
+                stars: 0
+              - url: https://github.com/calliope-project/callio.pe
+                stars: 0
+              - url: https://github.com/calliope-project/euro-calliope-datasets
+                stars: 0
             github_start_commit_data:
               start_commit_link: /calliope-project/calliope/commit/f0dff09e1c5ff57ae153ac0a779af98d2c6166dc
               start_date: '2013-11-12T16:51:02Z'
             image_data:
               fileName: calliope.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
-            best_practice_data:
-              badge: false
-              percentage: null
-          - item:
-            name: Euro-Calliope
-            logo: Euro-Calliope.svg
-            description: A model of the European electricity system built using Calliope.
-            repo_url: https://github.com/calliope-project/euro-calliope
-            organization:
-              name: Calliope
-            homepage_url: https://github.com/calliope-project/euro-calliope
-            extra:
-              refs: >-
-                ,https://doi.org/10.5281/zenodo.3949552,https://doi.org/10.1016/j.joule.2020.07.018,https://doi.org/10.1016/j.joule.2020.07.018,https://doi.org/10.5281/zenodo.3949552
-              topics: calliope-models,conda,europe,research,energy,renewable-energy
-            crunchbase_data:
-              name: Calliope
-              parents: []
-            github_data:
-              languages:
-                - name: Python
-                  value: 171335
-                  color: '#3572A5'
-              contributions: 2;0;0;5;6;0;17;4;5;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;4;1;0;5;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 27
-              license: MIT License
-              description: A workflow to build models of the European electricity system for Calliope.
-              latest_commit_date: '2023-01-05T14:31:35Z'
-              latest_commit_link: /calliope-project/euro-calliope/commit/3c522f1677f9402bbe0204d4e6d7da43cd8148f1
-              release_date: '2021-12-23T16:41:14Z'
-              release_link: https://github.com/calliope-project/euro-calliope/releases
-              contributors_count: 9
-              contributors_link: https://github.com/calliope-project/euro-calliope/graphs/contributors
-            repos:
-              - url: https://github.com/calliope-project/euro-calliope
-                stars: 27
-            github_start_commit_data:
-              start_commit_link: /calliope-project/euro-calliope/commit/0be5ad1b47b35415fd78125cdd239002ccd64170
-              start_date: '2018-10-15T14:02:21Z'
-            image_data:
-              fileName: euro-calliope.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: MImfzZhdHBQH21CovS7GgONqReaxTGKpPW1FrwQT2uM=
             best_practice_data:
               badge: false
               percentage: null
@@ -9924,16 +9928,11 @@ landscape:
             logo: GlobalEnergyGIS.svg
             description: Generates input data for energy models on renewable energy in arbitrary world regions using public datasets.
             repo_url: https://github.com/niclasmattsson/GlobalEnergyGIS
-            unnamed_organization: true
+            organization:
+              name: Niclas Mattsson
             homepage_url: https://github.com/niclasmattsson/GlobalEnergyGIS
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Niclas Mattsson
               parents: []
             github_data:
               languages:
@@ -9957,12 +9956,10 @@ landscape:
               start_date: '2019-02-18T14:18:45Z'
             image_data:
               fileName: global-energy-gis.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Uk2K/n4K355thTi+znGWx9sZZLKHDebLAY3KjA7ewjs=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Antares Simulator
             logo: Antares Simulator.svg
@@ -10717,53 +10714,91 @@ landscape:
             logo: Temoa.svg
             description: Tools for Energy Model Optimization and Analysis (Temoa) is an open source modeling framework for conducting energy system analysis.
             repo_url: https://github.com/TemoaProject/temoa
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-science-foundation
             homepage_url: http://temoacloud.com
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: National Science Foundation
+              description: America’s Seed Fund at the National Science Foundation awards nearly $200 million annually to startups and small businesses.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.nsf.gov/
+              city: Alexandria
+              region: Virginia
+              country: United States
+              twitter: http://twitter.com/NSFSBIR
+              linkedin: https://www.linkedin.com/company/national-science-foundation
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Advanced Materials
+                - Biotechnology
+                - Chemical Engineering
+                - EdTech
+                - Environmental Engineering
+                - Government
+                - Information Technology
+                - Internet of Things
+                - Manufacturing
+                - Medical Device
+                - Nanotechnology
+                - Robotics
+                - Semiconductor
+                - Wireless
             github_data:
               languages:
-                - name: Python
-                  value: 503143
-                  color: '#3572A5'
                 - name: Jupyter Notebook
-                  value: 95131
+                  value: 1797092
                   color: '#DA5B0B'
+                - name: Python
+                  value: 1158663
+                  color: '#3572A5'
+                - name: HTML
+                  value: 250186
+                  color: '#e34c26'
+                - name: JavaScript
+                  value: 188849
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 94746
+                  color: '#563d7c'
                 - name: Shell
-                  value: 2558
+                  value: 6015
                   color: '#89e051'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 71
+              contributions: 2;1;4;3;1;0;5;8;3;0;4;7;1;0;0;5;2;6;2;1;1;0;0;0;0;1;0;0;0;1;0;0;1;0;1;2;1;1;0;0;0;1;0;0;0;0;0;0;0;3;0;0
+              firstWeek: 2022-04-17Z
+              stars: 121
               license: GNU General Public License v2.0
               description: Tools for Energy Model Optimization and Analysis
               latest_commit_date: '2022-11-06T14:18:05Z'
               latest_commit_link: /TemoaProject/temoa/commit/d500c1fc2890edb0f8433b173c22bcc10394fd5c
               release_date: '2023-03-08T18:13:15Z'
               release_link: https://github.com/TemoaProject/temoa/releases
-              contributors_count: 25
+              contributors_count: 24
               contributors_link: https://github.com/TemoaProject/temoa/graphs/contributors
             repos:
               - url: https://github.com/TemoaProject/temoa
-                stars: 71
+                stars: 72
+              - url: https://github.com/TemoaProject/oeo
+                stars: 34
+              - url: https://github.com/TemoaProject/data
+                stars: 8
+              - url: https://github.com/TemoaProject/temoacloud
+                stars: 4
+              - url: https://github.com/TemoaProject/PowerGenome
+                stars: 3
             github_start_commit_data:
               start_commit_link: /TemoaProject/temoa/commit/bafaec676ee2574ba9b394e83c3f5a1e5e001d61
               start_date: '2010-09-30T19:39:59Z'
             image_data:
               fileName: temoa.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: tdIJ8wa+LmbiQhpt0ao/o9tJV+/h5QGBQ2M3exkV4Vg=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-07T16:25:00.000Z
           - item:
             name: PowerSystemDataModel
             logo: PowerSystemDataModel.svg
@@ -11046,27 +11081,39 @@ landscape:
               An open source power sector optimization model that has been developed to investigate the role of electricity storage and sector coupling options
               in future scenarios with high shares of renewable energy sources.
             repo_url: https://gitlab.com/diw-evu/dieter_public/dieterpy
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/diw-evu/dieter_public/dieterpy
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            license: MIT License
+            crunchbase: https://www.crunchbase.com/organization/diw-berlin
+            homepage_url: https://diw-evu.gitlab.io/dieter_public/dieterpy/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: DIW Berlin
+              description: DIW Berlin - German Institute for Economic Research is one of the largest economic research institutes in Germany.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://diw.de/deutsch
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/DIW_Berlin
+              linkedin: https://www.linkedin.com/company/38638
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Market Research
             repos:
               - url: https://gitlab.com/diw-evu/dieter_public/dieterpy
+              - url: https://gitlab.com/diw-evu/dieter_public/dietergms
+              - url: https://gitlab.com/diw-evu/dieter_public/DIETERjl
+              - url: https://gitlab.com/diw-evu/dieter_public/dieterpy_reduced
             image_data:
               fileName: dieter-py.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: GF2AurRLrd1W03kAaQKa+Pp3rTxdwTWsaMtU53vDGSs=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T08:19:05.000Z
           - item:
             name: OMEGAlpes
             logo: OMEGAlpes.svg
@@ -12326,7 +12373,7 @@ landscape:
               start_date: '2015-11-04T11:40:07Z'
             image_data:
               fileName: open-ipsl.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: QfbBslvWgua2LxUgETmKFxs8Rs/ybesVDKl0YpW7mJs=
             best_practice_data:
               badge: false
               percentage: null
@@ -13663,7 +13710,7 @@ landscape:
               start_date: '2016-07-27T18:51:54Z'
             image_data:
               fileName: psp-ufu.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: O2eQirKEJjuOsE7XQVvwJIvuqIk173iCuJT4ZbxsK/k=
             best_practice_data:
               badge: 3287
               percentage: 100
@@ -13708,53 +13755,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-          - item:
-            name: Open Energy Outlook
-            logo: Open Energy Outlook.svg
-            description: Examining U.S. energy futures to inform future energy and climate policy efforts.
-            repo_url: https://github.com/TemoaProject/oeo
-            unnamed_organization: true
-            homepage_url: https://github.com/TemoaProject/oeo
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
-              parents: []
-            github_data:
-              languages:
-                - name: Jupyter Notebook
-                  value: 1315538
-                  color: '#DA5B0B'
-                - name: Python
-                  value: 11319
-                  color: '#3572A5'
-              contributions: 2;1;4;3;1;0;5;8;3;0;3;6;1;0;0;5;2;6;2;1;1;0;0;0;0;1;0;0;0;0;0;0;1;0;1;2;1;1;0;0;0;1;0;0;0;0;0;0;0;3;0;0
-              firstWeek: 2022-04-03Z
-              stars: 34
-              license: Unknown License
-              description: Open Energy Outlook for the United States
-              latest_commit_date: '2023-03-10T20:10:23Z'
-              latest_commit_link: /TemoaProject/oeo/commit/6a0239f4ad87004ed505cae15b258509fb9382df
-              contributors_count: 6
-              contributors_link: https://github.com/TemoaProject/oeo/graphs/contributors
-            repos:
-              - url: https://github.com/TemoaProject/oeo
-                stars: 34
-            github_start_commit_data:
-              start_commit_link: /TemoaProject/oeo/commit/dff95376382e5e1a7fbf6afdf86d855244bcb89e
-              start_date: '2020-03-21T16:08:10Z'
-            image_data:
-              fileName: open-energy-outlook.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             second_path:
               - System Management / Power System Calculation
@@ -18752,28 +18752,37 @@ landscape:
             name: KoaVTracker
             logo: KoaVTracker.svg
             description: Energy targets in the coalition agreement of the German government vs. where we stand today.
+            license: Creative Commons Attribution 4.0 International
             repo_url: https://gitlab.com/diw-evu/koavtracker
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/diw-berlin
             homepage_url: https://gitlab.com/diw-evu/koavtracker
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: DIW Berlin
+              description: DIW Berlin - German Institute for Economic Research is one of the largest economic research institutes in Germany.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://diw.de/deutsch
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/DIW_Berlin
+              linkedin: https://www.linkedin.com/company/38638
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Market Research
             repos:
               - url: https://gitlab.com/diw-evu/koavtracker
             image_data:
               fileName: koa-v-tracker.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: BVUlM5WDTxBuSpdJn6KMQKz6n4FI3IkLW/D85e1ObAE=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T08:19:05.000Z
           - item:
             name: isodata
             logo: isodata.svg

@@ -1318,8 +1318,9 @@ landscape:
             name: emobpy
             logo: emobpy.svg
             description: An open tool for creating battery-electric vehicle time series from empirical data.
+            license: MIT License
             repo_url: https://gitlab.com/diw-evu/emobpy/emobpy
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/diw-berlin
             homepage_url: https://gitlab.com/diw-evu/emobpy/emobpy
           - item:
             name: BattMo
@@ -1551,6 +1552,7 @@ landscape:
             description: >-
               A framework to develop energy system models, with a focus on flexibility, high spatial and temporal resolution, the ability to execute many runs
               based on the same base model, and a clear separation of framework and model.
+            project_org: https://github.com/calliope-project
             repo_url: https://github.com/calliope-project/calliope
             organization:
               name: Calliope
@@ -1558,18 +1560,6 @@ landscape:
             extra:
               refs: ',https://doi.org/10.21105/joss.00825,https://doi.org/10.21105/joss.00825'
               topics: python,pyomo,energy,optimisation,energy-system
-          - item:
-            name: Euro-Calliope
-            logo: Euro-Calliope.svg
-            description: A model of the European electricity system built using Calliope.
-            repo_url: https://github.com/calliope-project/euro-calliope
-            organization:
-              name: Calliope
-            homepage_url: https://github.com/calliope-project/euro-calliope
-            extra:
-              refs: >-
-                ,https://doi.org/10.5281/zenodo.3949552,https://doi.org/10.1016/j.joule.2020.07.018,https://doi.org/10.1016/j.joule.2020.07.018,https://doi.org/10.5281/zenodo.3949552
-              topics: calliope-models,conda,europe,research,energy,renewable-energy
           - item:
             name: OSeMOSYS
             second_path: Asset Management / Asset Investment Planning
@@ -1700,7 +1690,8 @@ landscape:
             logo: GlobalEnergyGIS.svg
             description: Generates input data for energy models on renewable energy in arbitrary world regions using public datasets.
             repo_url: https://github.com/niclasmattsson/GlobalEnergyGIS
-            unnamed_organization: true
+            organization:
+              name: Niclas Mattsson
             homepage_url: https://github.com/niclasmattsson/GlobalEnergyGIS
           - item:
             name: Antares Simulator
@@ -1815,7 +1806,12 @@ landscape:
             logo: Temoa.svg
             description: Tools for Energy Model Optimization and Analysis (Temoa) is an open source modeling framework for conducting energy system analysis.
             repo_url: https://github.com/TemoaProject/temoa
-            unnamed_organization: true
+            additional_repos:
+              - repo_url: https://github.com/TemoaProject/oeo
+              - repo_url: https://github.com/TemoaProject/temoacloud
+              - repo_url: https://github.com/TemoaProject/data
+              - repo_url: https://github.com/TemoaProject/PowerGenome
+            crunchbase: https://www.crunchbase.com/organization/national-science-foundation
             homepage_url: http://temoacloud.com
           - item:
             name: PowerSystemDataModel
@@ -1887,8 +1883,13 @@ landscape:
               An open source power sector optimization model that has been developed to investigate the role of electricity storage and sector coupling options
               in future scenarios with high shares of renewable energy sources.
             repo_url: https://gitlab.com/diw-evu/dieter_public/dieterpy
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/diw-evu/dieter_public/dieterpy
+            additional_repos:
+              - repo_url: https://gitlab.com/diw-evu/dieter_public/dietergms
+              - repo_url: https://gitlab.com/diw-evu/dieter_public/DIETERjl
+              - repo_url: https://gitlab.com/diw-evu/dieter_public/dieterpy_reduced
+            license: MIT License
+            crunchbase: https://www.crunchbase.com/organization/diw-berlin
+            homepage_url: https://diw-evu.gitlab.io/dieter_public/dieterpy/
           - item:
             name: OMEGAlpes
             logo: OMEGAlpes.svg
@@ -2400,13 +2401,6 @@ landscape:
             organization:
               name: Energy Innovation
             homepage_url: https://github.com/EnergyInnovation/eps-us
-          - item:
-            name: Open Energy Outlook
-            logo: Open Energy Outlook.svg
-            description: Examining U.S. energy futures to inform future energy and climate policy efforts.
-            repo_url: https://github.com/TemoaProject/oeo
-            unnamed_organization: true
-            homepage_url: https://github.com/TemoaProject/oeo
           - item:
             second_path:
               - System Management / Power System Calculation
@@ -3248,8 +3242,9 @@ landscape:
             name: KoaVTracker
             logo: KoaVTracker.svg
             description: Energy targets in the coalition agreement of the German government vs. where we stand today.
+            license: Creative Commons Attribution 4.0 International
             repo_url: https://gitlab.com/diw-evu/koavtracker
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/diw-berlin
             homepage_url: https://gitlab.com/diw-evu/koavtracker
           - item:
             name: isodata
