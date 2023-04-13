@@ -69451,76 +69451,96 @@ landscape:
             description: >-
               Offers open data, visualizations and analysis to help policymakers, researchers and other stakeholders gather insights on countries' climate
               progress.
+            project_org: https://github.com/ClimateWatch-Vizzuality
             repo_url: https://github.com/ClimateWatch-Vizzuality/climate-watch
             extra:
               topics: climate,data,react,rails,postgresql
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://www.climatewatchdata.org
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: World Resources Institute - WRI
+              description: World Research Institute is a global research organization that is focused on sustaining a healthy environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.wri.org/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/worldresources
+              linkedin: https://www.linkedin.com/company/18878
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
             github_data:
+              description: null
+              contributors_count: 26
+              contributions: 7;1;4;6;16;34;22;3;4;5;20;24;2;28;18;39;13;7;0;4;0;8;5;0;0;4;6;1;2;1;25;13;21;15;12;15;0;5;3;0;2;0;0;0;0;0;0;0;0;0;0;0
+              stars: 28
               languages:
                 - name: JavaScript
-                  value: 2850057
+                  value: 4094432
                   color: '#f1e05a'
                 - name: Ruby
-                  value: 632212
+                  value: 1542368
                   color: '#701516'
                 - name: SCSS
-                  value: 277060
+                  value: 328256
+                - name: HTML
+                  value: 159948
+                  color: '#e34c26'
+                - name: CSS
+                  value: 153723
+                  color: '#563d7c'
                 - name: PLpgSQL
                   value: 128429
-                - name: HTML
-                  value: 100305
-                  color: '#e34c26'
                 - name: HCL
                   value: 34506
-                - name: Shell
-                  value: 2519
-                  color: '#89e051'
                 - name: Dockerfile
-                  value: 2342
+                  value: 6745
                   color: '#384d54'
-                - name: CSS
-                  value: 707
-                  color: '#563d7c'
+                - name: Shell
+                  value: 4477
+                  color: '#89e051'
                 - name: Smarty
                   value: 339
                 - name: CoffeeScript
-                  value: 84
+                  value: 317
                   color: '#244776'
-              contributions: 6;0;7;7;2;5;3;40;20;14;4;1;14;33;2;2;39;15;36;10;2;3;1;0;8;5;0;0;7;4;2;0;5;21;24;17;15;7;13;0;5;3;2;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 26
-              license: MIT License
-              description: 'Climate Watch: Data for Climate Action'
-              latest_commit_date: '2023-01-19T07:56:23Z'
               latest_commit_link: /ClimateWatch-Vizzuality/climate-watch/commit/0698c74d4e24747865e7c31d7958e6282d3e44b8
-              release_date: '2023-01-04T11:36:54Z'
-              release_link: https://github.com/ClimateWatch-Vizzuality/climate-watch/releases
-              contributors_count: 32
+              latest_commit_date: '2023-01-19T07:56:23Z'
+              firstWeek: 2022-04-17Z
+              license: MIT License
               contributors_link: https://github.com/ClimateWatch-Vizzuality/climate-watch/graphs/contributors
             repos:
               - url: https://github.com/ClimateWatch-Vizzuality/climate-watch
                 stars: 26
+              - url: https://github.com/ClimateWatch-Vizzuality/climate-watch-components
+                stars: 1
+              - url: https://github.com/ClimateWatch-Vizzuality/indonesia-platform
+                stars: 1
+              - url: https://github.com/ClimateWatch-Vizzuality/project-starter-kit
+                stars: 0
+              - url: https://github.com/ClimateWatch-Vizzuality/south-africa-platform
+                stars: 0
+              - url: https://github.com/ClimateWatch-Vizzuality/climate-watch-gems
+                stars: 0
+              - url: https://github.com/ClimateWatch-Vizzuality/india-platform
+                stars: 0
             github_start_commit_data:
               start_commit_link: /ClimateWatch-Vizzuality/climate-watch/commit/4438d32de8615ddb7303881a1354de8c02f86408
               start_date: '2017-07-25T07:51:14Z'
             image_data:
               fileName: climate-watch.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: x2hqLC6H5pPwIq+KsMY018ICF3opWV6vAZhkXJpmaMk=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-12T19:52:04.000Z
           - item:
             name: Appropedia
             logo: Appropedia.svg
@@ -70468,7 +70488,7 @@ landscape:
               parents: []
             image_data:
               fileName: u-s-climate-resilience-toolkit.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: nJgaBT2imxMP5ZYWYpSgCFddKsKo/LtO7yamaRklaAw=
             best_practice_data:
               badge: false
               percentage: null
