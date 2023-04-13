@@ -2610,8 +2610,8 @@ landscape:
             unnamed_organization: true
             homepage_url: https://simbench.de/en/
           - item:
-            name: Egret
-            logo: Egret.svg
+            name: EGRET Python
+            logo: EGRET Python.svg
             description: A Python-based package for electrical grid optimization based on the Pyomo optimization modeling language.
             repo_url: https://github.com/grid-parity-exchange/Egret
             extra:
@@ -5088,7 +5088,12 @@ landscape:
             logo: SimCCS.svg
             description: A software platform for carbon capture and storage infrastructure design.
             repo_url: https://github.com/simccs/SimCCS
-            unnamed_organization: true
+            additional_repos:
+              - repo_url: https://github.com/simccs/simccs.github.io
+              - repo_url: https://github.com/simccs/SCO2T
+              - repo_url: https://github.com/simccs/costmap
+              - repo_url: https://github.com/simccs/costmap_preprocess
+            crunchbase: https://www.crunchbase.com/organization/los-alamos-national-laboratory
             homepage_url: https://github.com/simccs/SimCCS
           - item:
             name: FOQUS
@@ -5109,16 +5114,16 @@ landscape:
             repo_url: https://github.com/yohanesnuwara/carbon-capture-and-storage
             extra:
               topics: ccs,rock-physics,geomechanics,seismic,simulation
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/bandung-institute-of-technology-0675
             homepage_url: https://github.com/yohanesnuwara/carbon-capture-and-storage
           - item:
             name: GEOSX
             logo: GEOSX.svg
             description: A simulation framework for modeling coupled flow, transport, and geomechanics in the subsurface.
+            project_org: https://github.com/GEOSX
             repo_url: https://github.com/GEOSX/GEOSX
-            organization:
-              name: GEOSX
-            homepage_url: https://github.com/GEOSX/GEOSX
+            crunchbase: https://www.crunchbase.com/organization/lawrence-livermore-national-laboratory
+            homepage_url: https://geosx-geosx.readthedocs-hosted.com/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/131810578'
               topics: hpc,reservoir-simulation,geomechanics,gpu,carbon-storage,llnl
@@ -5128,8 +5133,9 @@ landscape:
             description: >-
               An open source integrated assessment model developed by National Risk Assessment Partnership Phase II to facilitate risk assessment, management
               and containment assurance for geologic carbon sequestration projects.
+            license: Lawrence Berkeley National Labs BSD variant license
             repo_url: https://gitlab.com/NRAP/OpenIAM
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
             homepage_url: https://gitlab.com/NRAP/OpenIAM
           - item:
             name: CDRMEx
@@ -8290,8 +8296,7 @@ landscape:
             logo: TECA.svg
             description: The Toolkit for Extreme Climate Analysis, contains a collection of climate anlysis algorithms targetted at extreme event detection and analysis.
             repo_url: https://github.com/LBL-EESA/TECA
-            organization:
-              name: LBL-EESA
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://github.com/LBL-EESA/TECA
             extra:
               refs: ',https://doi.org/10.5281/zenodo.6640287'
@@ -10078,8 +10083,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/u-s-environmental-protection-agency
             homepage_url: https://github.com/USEPA/Stormwater-Management-Model
           - item:
-            name: dataRetrieval
-            logo: dataRetrieval.svg
+            name: dataRetrieval R
+            logo: dataRetrieval R.svg
             description: This R package is designed to obtain USGS or EPA water quality sample data, streamflow data and metadata directly from web services.
             repo_url: https://github.com/USGS-R/dataRetrieval
             extra:
@@ -10087,8 +10092,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://rconnect.usgs.gov/dataRetrieval/
           - item:
-            name: dataretrieval
-            logo: dataretrieval2.svg
+            name: dataretrieval python
+            logo: dataretrieval python.svg
             description: >-
               A Python alternative to USGS-R's dataRetrieval package for obtaining USGS or EPA water quality data, streamflow data, and metadata directly from
               web services.
@@ -10096,8 +10101,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://github.com/USGS-python/dataretrieval
           - item:
-            name: EGRET
-            logo: EGRET2.svg
+            name: EGRET R
+            logo: EGRET R.svg
             description: >-
               An R package for the analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on
               Time, Discharge, and Season.
@@ -12665,17 +12670,19 @@ landscape:
             logo: getSpatialData.svg
             description: Making it easy to query, preview, download and preprocess multiple kinds of satellite datasets via R.
             repo_url: https://github.com/16EAGLE/getSpatialData
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-w-rzburg
             homepage_url: https://jakob.schwalb-willmann.de/getSpatialData
             extra:
               topics: spatial-data,remote-sensing,sentinel,landsat,modis,r,api-client,getspatialdata,copernicus,usgs-earth-explorer,esa,nasa
               refs: ',https://doi.org/10.1038/d41586-018-03924-9\n\n\n\n'
           - item:
-            name: sentinelsat
+            name: Sentinelsat
             logo: sentinelsat.svg
             description: Makes searching, downloading and retrieving the metadata of Sentinel satellite images from the Copernicus Open Access Hub easy.
+            project_org: https://github.com/sentinelsat
             repo_url: https://github.com/sentinelsat/sentinelsat
-            unnamed_organization: true
+            organization:
+              name: Sentinelsat
             homepage_url: https://sentinelsat.readthedocs.io
             extra:
               topics: sentinel,copernicus,esa,remote-sensing,satellite-imagery,geographic-data,open-data,hacktoberfest
