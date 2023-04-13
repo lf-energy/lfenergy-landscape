@@ -11840,7 +11840,7 @@ landscape:
         name: Sustainable Development Goals
         items:
           - item:
-            name: open-sdg
+            name: Open SDG
             logo: open-sdg.svg
             description: A platform for collecting and disseminating data for the Sustainable Development Goal global indicators.
             project_org: https://github.com/open-sdg
@@ -11855,12 +11855,13 @@ landscape:
             repo_url: https://github.com/sustainlab-group/sustainbench
             extra:
               topics: machine-learning,deep-learning,sustainability,sdgs
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://sustainlab-group.github.io/sustainbench
           - item:
             name: OSDG
             logo: OSDG.svg
             description: Tool that assigns Sustainable Development Goals labels to your input.
+            project_org: https://github.com/osdg-ai
             repo_url: https://github.com/osdg-ai/osdg-tool
             organization:
               name: OSDG
@@ -11877,23 +11878,24 @@ landscape:
             name: SDGIO
             logo: SDGIO.svg
             description: The repository for the Sustainable Development Goals Interface Ontology.
+            project_org: https://github.com/SDG-InterfaceOntology
             repo_url: https://github.com/SDG-InterfaceOntology/sdgio
-            unnamed_organization: true
-            homepage_url: https://github.com/SDG-InterfaceOntology/sdgio
+            crunchbase: https://www.crunchbase.com/organization/un-environment-programme
+            homepage_url: https://www.unep.org/explore-topics/sustainable-development-goals/what-we-do/monitoring-progress/sdg-interface-ontology
           - item:
-            name: sdgindex
+            name: Sustainable Development Report
             logo: sdgindex.svg
             description: International Sustainable Development Reports.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/sdsna/SDR2020
+            crunchbase: https://www.crunchbase.com/organization/sustainable-development-solutions-network
             homepage_url: https://www.sdgindex.org/
           - item:
-            name: sdg-tracker.org
+            name: SDG Tracker
             logo: sdg-tracker.org.svg
             description: Sustainable Development Goals tracker website.
             repo_url: https://github.com/owid/sdg-tracker.org
             organization:
-              name: Our World in Data
+              name: Global Change Data Lab
             homepage_url: https://sdg-tracker.org/
           - item:
             name: SDGmapR
@@ -11906,7 +11908,7 @@ landscape:
             name: Europe Sustainable Development Reports
             logo: Europe Sustainable Development ReportS.svg
             description: Track the progress of the European Union and European Countries towards the Sustainable Development Goals.
-            repo_url: https://github.com/sdsna/SDR2020
+            repo_url: https://github.com/sdsna/2019EUIndex
             crunchbase: https://www.crunchbase.com/organization/sustainable-development-solutions-network
             homepage_url: https://eu-dashboards.sdgindex.org/
           - item:
@@ -12286,7 +12288,7 @@ landscape:
             logo: U.S. Climate Resilience Toolkit.svg
             description: A website designed to help people find and use tools, information, and subject matter expertise to build climate resilience.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/noaa-climate
             homepage_url: https://toolkit.climate.gov/
           - item:
             name: Climatemind

@@ -68172,7 +68172,7 @@ landscape:
         name: Sustainable Development Goals
         items:
           - item:
-            name: open-sdg
+            name: Open SDG
             logo: open-sdg.svg
             description: A platform for collecting and disseminating data for the Sustainable Development Goal global indicators.
             project_org: https://github.com/open-sdg
@@ -68257,7 +68257,7 @@ landscape:
               start_date: '2017-02-13T16:29:09Z'
             image_data:
               fileName: open-sdg.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ovQByZKENUA9RiyQnWVgWy/CfHFUPKYHuzzdqxnlmYQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -68268,17 +68268,29 @@ landscape:
             repo_url: https://github.com/sustainlab-group/sustainbench
             extra:
               topics: machine-learning,deep-learning,sustainability,sdgs
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://sustainlab-group.github.io/sustainbench
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Stanford University
+              description: Stanford University is a teaching and research university that focuses on graduate programs in law, medicine, education, and business.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.stanford.edu
+              city: Stanford
+              region: California
+              country: United States
+              twitter: http://twitter.com/Stanford
+              linkedin: https://www.linkedin.com/company/stanford-university
+              acquisitions: []
               parents: []
+              funding: 5009066
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -68307,16 +68319,17 @@ landscape:
               start_date: '2021-08-28T10:11:51Z'
             image_data:
               fileName: sustain-bench.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: MlIAlYWob3pMFd7qanb1n7xWadMnhFG2ok19HFTRxN0=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-02T23:58:43.000Z
           - item:
             name: OSDG
             logo: OSDG.svg
             description: Tool that assigns Sustainable Development Goals labels to your input.
+            project_org: https://github.com/osdg-ai
             repo_url: https://github.com/osdg-ai/osdg-tool
             organization:
               name: OSDG
@@ -68325,9 +68338,13 @@ landscape:
               name: OSDG
               parents: []
             github_data:
+              description: Open Source SDG Classification Tool
+              contributors_count: 5
+              contributions: 0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;2;0;0;0;0;0;0;0;0;0
+              stars: 49
               languages:
                 - name: Python
-                  value: 14268
+                  value: 93925
                   color: '#3572A5'
                 - name: Shell
                   value: 678
@@ -68335,26 +68352,24 @@ landscape:
                 - name: Dockerfile
                   value: 563
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 22
-              license: GNU Lesser General Public License v3.0
-              description: >-
-                OSDG is an open-source tool that maps and connects activities to the UN Sustainable Development Goals (SDGs) by identifying SDG-relevant content
-                in any text. The tool is available online at www.osdg.ai. API access available for research purposes. 
-              latest_commit_date: '2023-02-02T09:38:01Z'
               latest_commit_link: /osdg-ai/osdg-tool/commit/0b830a211d39c4b4fd374ac16e2bf1b4d20cbfa2
-              contributors_count: 3
+              latest_commit_date: '2023-02-02T09:38:01Z'
+              firstWeek: 2022-04-17Z
+              license: GNU Lesser General Public License v3.0
               contributors_link: https://github.com/osdg-ai/osdg-tool/graphs/contributors
             repos:
               - url: https://github.com/osdg-ai/osdg-tool
                 stars: 22
+              - url: https://github.com/osdg-ai/osdg-data
+                stars: 16
+              - url: https://github.com/osdg-ai/osdg-mapping
+                stars: 11
             github_start_commit_data:
               start_commit_link: /osdg-ai/osdg-tool/commit/ad690a234d76a7e9e3c27ad1344fa06487afa324
               start_date: '2020-12-07T12:52:17Z'
             image_data:
               fileName: osdg.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 6DyVR75FYqZN1I9JOLcf8wBLTAJl5He68JWk+pSI3XI=
             best_practice_data:
               badge: false
               percentage: null
@@ -68416,19 +68431,31 @@ landscape:
             name: SDGIO
             logo: SDGIO.svg
             description: The repository for the Sustainable Development Goals Interface Ontology.
+            project_org: https://github.com/SDG-InterfaceOntology
             repo_url: https://github.com/SDG-InterfaceOntology/sdgio
-            unnamed_organization: true
-            homepage_url: https://github.com/SDG-InterfaceOntology/sdgio
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            crunchbase: https://www.crunchbase.com/organization/un-environment-programme
+            homepage_url: https://www.unep.org/explore-topics/sustainable-development-goals/what-we-do/monitoring-progress/sdg-interface-ontology
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: UN Environment Programme
+              description: UN Environment Programme provides leadership and encourages collaboration in environmental stewardship.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.unep.org/
+              city: Nairobi
+              region: Nairobi Area
+              country: Kenya
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
+              description: null
+              contributors_count: 7
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 55
               languages:
                 - name: Makefile
                   value: 12290
@@ -68442,16 +68469,10 @@ landscape:
                 - name: Perl
                   value: 75
                   color: '#0298c3'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 55
-              license: Unknown License
-              description: The repository for the Sustainable Development Goals Interface Ontology
-              latest_commit_date: '2020-06-03T11:55:22Z'
               latest_commit_link: /SDG-InterfaceOntology/sdgio/commit/d6f94a02435d103c6fe6fce057fbbe43d33f94aa
-              release_date: '2018-08-10T19:58:37Z'
-              release_link: https://github.com/SDG-InterfaceOntology/sdgio/releases
-              contributors_count: 11
+              latest_commit_date: '2020-06-03T11:55:22Z'
+              firstWeek: 2022-04-17Z
+              license: Unknown License
               contributors_link: https://github.com/SDG-InterfaceOntology/sdgio/graphs/contributors
             repos:
               - url: https://github.com/SDG-InterfaceOntology/sdgio
@@ -68461,46 +68482,69 @@ landscape:
               start_date: '2015-08-05T15:16:18Z'
             image_data:
               fileName: sdgio.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: JOegk2+3Pl07ird6ij5Qdaboia1n5g+rpJEZywEmz+Y=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
-            name: sdgindex
+            name: Sustainable Development Report
             logo: sdgindex.svg
             description: International Sustainable Development Reports.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/sdsna/SDR2020
+            crunchbase: https://www.crunchbase.com/organization/sustainable-development-solutions-network
             homepage_url: https://www.sdgindex.org/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Sustainable Development Solutions Network
+              description: Sustainable Development Solutions Network is a collaborative network of academic and research institutions.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://www.sdsnedu.org
+              city: New York
+              region: New York
+              country: United States
+              twitter: http://twitter.com/unsdsn
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2022-04-10Z
+              stars: 5
+              license: Unknown License
+              description: Data files and supplementary materials for the Sustainable Development Report 2020
+              latest_commit_date: '2021-01-14T16:50:01Z'
+              latest_commit_link: /sdsna/SDR2020/commit/dae69ac43e3aede01c2ba035828f49c53fee976a
+              contributors_count: 1
+              contributors_link: https://github.com/sdsna/SDR2020/graphs/contributors
+            repos:
+              - url: https://github.com/sdsna/SDR2020
+                stars: 5
+            github_start_commit_data:
+              start_commit_link: /sdsna/SDR2020/commit/cf7083eec164a470918249864a8b3dff72e9ab9e
+              start_date: '2020-06-24T14:44:51Z'
             image_data:
-              fileName: sdgindex.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: sustainable-development-report.svg
+              hash: f9DO0HcoBCaQ8X8gieB9qoX9zW4RsN7wkJHm91QGeJs=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-03T19:00:24.000Z
           - item:
-            name: sdg-tracker.org
+            name: SDG Tracker
             logo: sdg-tracker.org.svg
             description: Sustainable Development Goals tracker website.
             repo_url: https://github.com/owid/sdg-tracker.org
             organization:
-              name: Our World in Data
+              name: Global Change Data Lab
             homepage_url: https://sdg-tracker.org/
             crunchbase_data:
-              name: Our World in Data
+              name: Global Change Data Lab
               parents: []
             github_data:
               languages:
@@ -68531,8 +68575,8 @@ landscape:
               start_commit_link: /owid/sdg-tracker.org/commit/86c26a4d8c4d68a54d065763db4544c95cfc36d7
               start_date: '2017-02-25T10:06:39Z'
             image_data:
-              fileName: sdg-tracker-org.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: sdg-tracker.svg
+              hash: 5iTe+5r0t5PDxy1FhzoxXe8puglkQTDiBsED2SnLFks=
             best_practice_data:
               badge: false
               percentage: null
@@ -68584,7 +68628,7 @@ landscape:
             name: Europe Sustainable Development Reports
             logo: Europe Sustainable Development ReportS.svg
             description: Track the progress of the European Union and European Countries towards the Sustainable Development Goals.
-            repo_url: https://github.com/sdsna/SDR2020
+            repo_url: https://github.com/sdsna/2019EUIndex
             crunchbase: https://www.crunchbase.com/organization/sustainable-development-solutions-network
             homepage_url: https://eu-dashboards.sdgindex.org/
             crunchbase_data:
@@ -68607,23 +68651,23 @@ landscape:
             github_data:
               languages: []
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-10Z
-              stars: 5
-              license: Unknown License
-              description: Data files and supplementary materials for the Sustainable Development Report 2020
-              latest_commit_date: '2021-01-14T16:50:01Z'
-              latest_commit_link: /sdsna/SDR2020/commit/dae69ac43e3aede01c2ba035828f49c53fee976a
-              contributors_count: 1
-              contributors_link: https://github.com/sdsna/SDR2020/graphs/contributors
+              firstWeek: 2022-04-17Z
+              stars: 0
+              license: Creative Commons Attribution 4.0 International
+              description: 2019 Europe Sustainable Development Report
+              latest_commit_date: '2019-11-27T17:03:34Z'
+              latest_commit_link: /sdsna/2019EUIndex/commit/b4718a43e45a13ca0d216768a3a7aa6d2f89aa5e
+              contributors_count: 2
+              contributors_link: https://github.com/sdsna/2019EUIndex/graphs/contributors
             repos:
-              - url: https://github.com/sdsna/SDR2020
-                stars: 5
+              - url: https://github.com/sdsna/2019EUIndex
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /sdsna/SDR2020/commit/cf7083eec164a470918249864a8b3dff72e9ab9e
-              start_date: '2020-06-24T14:44:51Z'
+              start_commit_link: /sdsna/2019EUIndex/commit/359b4ccc46f8c6949531c8c354aecfa91ce26475
+              start_date: '2019-11-18T20:12:18Z'
             image_data:
               fileName: europe-sustainable-development-reports.svg
-              hash: oXmPLV38YNWBfzxR0APyRd0/yXi2PMmVCYOJ4yhlXyk=
+              hash: 60yw1G9jYG0CPE9UwD6sKOs6IoKAoB6ZYrvjOELUyjw=
             best_practice_data:
               badge: false
               percentage: null
@@ -70475,17 +70519,25 @@ landscape:
             logo: U.S. Climate Resilience Toolkit.svg
             description: A website designed to help people find and use tools, information, and subject matter expertise to build climate resilience.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/noaa-climate
             homepage_url: https://toolkit.climate.gov/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: NOAA Climate
+              description: NOAA Climate.gov provides science and information for a climate-smart nation.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://climate.gov/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: https://twitter.com/NOAAClimate
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
             image_data:
               fileName: u-s-climate-resilience-toolkit.svg
               hash: nJgaBT2imxMP5ZYWYpSgCFddKsKo/LtO7yamaRklaAw=
@@ -70493,7 +70545,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-13T14:00:02.000Z
           - item:
             name: Climatemind
             logo: Climatemind.svg
