@@ -32596,7 +32596,7 @@ landscape:
               start_date: '2017-12-21T17:15:23Z'
             image_data:
               fileName: uslci-content.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Iae6LbF+hFWTrnc5hcm/k2q4c0AboBAC6kuy4JoLWu4=
             best_practice_data:
               badge: false
               percentage: null
@@ -68589,7 +68589,7 @@ landscape:
               start_date: '2016-07-08T21:20:01Z'
             image_data:
               fileName: us-sustainable-development-goal-indicators.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: M8fzmPLf35rEMmWaDFuvO9EbeMVIi6/wkp71k8Nel1U=
             best_practice_data:
               badge: false
               percentage: null
@@ -68751,17 +68751,29 @@ landscape:
             logo: SDGmapR.svg
             description: R functions and datasets related to the mapping of text to the United Nations 17 Sustainable Development Goals.
             repo_url: https://github.com/CMUSustainability/SDGmapR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/carnegie-mellon-university
             homepage_url: https://github.com/CMUSustainability/SDGmapR
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Carnegie Mellon University
+              description: Carnegie Mellon University is a global research university bringing ideas to market and creating successful startup businesses.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.cmu.edu
+              city: Pittsburgh
+              region: Pennsylvania
+              country: United States
+              twitter: https://twitter.com/CarnegieMellon
+              linkedin: https://www.linkedin.com/school/carnegie-mellon-university
+              acquisitions: []
               parents: []
+              funding: 446499844
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: R
@@ -68784,12 +68796,12 @@ landscape:
               start_date: '2021-07-12T03:49:39Z'
             image_data:
               fileName: sd-gmap-r.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /6kSQdQ+lrA2dcctv2ZFXXFbW6i+FO0Ml3f2UTJRSPo=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-15T15:30:08.000Z
           - item:
             name: Europe Sustainable Development Reports
             logo: Europe Sustainable Development ReportS.svg
@@ -68844,19 +68856,26 @@ landscape:
             logo: text2sdg.svg
             description: Multi-system analysis package that identifies SDGs in text, opening up the opportunity to monitor any type of text-based data.
             repo_url: https://github.com/dwulff/text2sdg
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-basel
             homepage_url: https://github.com/dwulff/text2sdg
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5553980,https://doi.org/10.5281/zenodo.5553980\n'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Basel
+              description: The University of Basel is located in Basel, Switzerland, and is considered to be one of the leading universities in the country.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.unibas.ch
+              city: Basel
+              region: Basel-Stadt
+              country: Switzerland
+              twitter: http://twitter.com/unibasel
+              linkedin: https://www.linkedin.com/edu/universit%C3%A4t-basel-10925
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: R
@@ -68879,12 +68898,12 @@ landscape:
               start_date: '2021-04-28T23:26:36Z'
             image_data:
               fileName: text2sdg.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 400rMY2AcWC2+HbJkMLKGGXBWxr99UJ9w9f0a7XuVI8=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-13T10:08:35.000Z
       - subcategory:
         name: Sustainable Investment
         items:
