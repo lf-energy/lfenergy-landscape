@@ -1786,6 +1786,8 @@ landscape:
             logo: Joulia.jl.svg
             description: A Large-Scale Spatial Power System Model for Julia.
             repo_url: https://github.com/JuliaEnergy/Joulia.jl
+            additional_repos:
+              - repo_url: https://github.com/JuliaEnergy/JouliaExamples
             organization:
               name: JuliaEnergy
             homepage_url: https://github.com/JuliaEnergy/Joulia.jl
@@ -2760,6 +2762,15 @@ landscape:
             logo: PowerDynamics.jl.svg
             description: Provides all the tools you need to create a dynamic power grid model and analyze it.
             repo_url: https://github.com/JuliaEnergy/PowerDynamics.jl
+            additional_repos:
+              - repo_url: https://github.com/JuliaEnergy/PowerDynamicsExamples
+              - repo_url: https://github.com/JuliaEnergy/MTK_PowerDynamics
+              - repo_url: https://github.com/JuliaEnergy/PowerDynSolve.jl
+              - repo_url: https://github.com/JuliaEnergy/PowerDynOperationPoint.jl
+              - repo_url: https://github.com/JuliaEnergy/PowerDynBase.jl
+              - repo_url: https://github.com/JuliaEnergy/PowerDynModia.jl
+              - repo_url: https://github.com/JuliaEnergy/PowerDynDelays.jl
+              - repo_url: https://github.com/JuliaEnergy/PowerDynGrid.jl
             organization:
               name: JuliaEnergy
             homepage_url: https://juliaenergy.github.io/PowerDynamics.jl/latest/
@@ -2775,12 +2786,26 @@ landscape:
               refs: ',https://zenodo.org/badge/latestdoi/202787784'
               topics: julia,nrel,siip
           - item:
-            name: openleadr
-            logo: openleadr.svg
-            description: Open Automated Demand Response (OpenADR) is an open and interoperable information exchange model and emerging smart grid standard.
-            repo_url: null
-            unnamed_organization: true
+            name: openLEADR
+            description: A friendly and compliant OpenADR implementation for Python 3
+            second_path:
+              - Acquisition and Control / Edge Node Control
             homepage_url: https://www.lfenergy.org/projects/openleadr/
+            project: incubation
+            repo_url: https://github.com/OpenLEADR/openleadr-python
+            project_org: https://github.com/OpenLEADR
+            logo: open-leadr.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/openleadr
+              slack_channel: '#openleadr'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
+              wiki_page: https://wiki.lfenergy.org/display/OL
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/openleadr
+              TSC_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/openLEADR-TSC/calendar
+              contribution_guidelines: https://github.com/OpenLEADR/openleadr-tsc/blob/master/CONTRIBUTING.md
+              project_lead: Lonneke Driessen & Stan Janssen, OpenADR
           - item:
             name: GridCal
             logo: GridCal.svg
@@ -8113,11 +8138,11 @@ landscape:
             name: SCREAM
             logo: SCREAM.svg
             description: A global atmosphere model targeted towards 3 km ("cloud resolving") resolution.
+            project_org: https://github.com/E3SM-Project
             repo_url: https://github.com/E3SM-Project/scream
             extra:
               topics: climate,atmosphere-model,kokkos,gcm,hpc,cxx,e3sm
-            organization:
-              name: Energy Exascale Earth System Model Project
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
             homepage_url: https://github.com/E3SM-Project/scream
           - item:
             name: RRTMGP.jl
@@ -8233,19 +8258,8 @@ landscape:
             repo_url: https://github.com/E3SM-Project/E3SM
             extra:
               topics: climate-model,climate-science,climate,fortran,e3sm,snl-applications
-            organization:
-              name: Energy Exascale Earth System Model Project
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
             homepage_url: https://e3sm.org
-          - item:
-            name: E3SM Diagnostics Package
-            logo: E3SM Diagnostics Package.svg
-            description: Diagnostics package constructed for supporting the diagnostics task of DOE's Energy Exascale Earth System Model (E3SM) project.
-            repo_url: https://github.com/E3SM-Project/e3sm_diags
-            organization:
-              name: Energy Exascale Earth System Model Project
-            homepage_url: https://e3sm-project.github.io/e3sm_diags
-            extra:
-              refs: ',https://doi.org/10.5281/zenodo.1036779'
           - item:
             name: MDTF-diagnostics
             logo: MDTF-diagnostics.svg
@@ -8264,9 +8278,50 @@ landscape:
             repo_url: https://github.com/ESCOMP/CESM
             extra:
               topics: climate,climate-model,ncar
-            organization:
-              name: Earth System Community Modeling Portal
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: http://www.cesm.ucar.edu/
+          - item:
+            name: MeshArrays.jl
+            logo: MeshArrays.jl.svg
+            repo_url: https://github.com/JuliaClimate/MeshArrays.jl
+            organization:
+              name: JuliaClimate
+            homepage_url: https://juliaclimate.github.io/MeshArrays.jl
+          - item:
+            name: IndividualDisplacements.jl
+            logo: IndividualDisplacements.jl.svg
+            repo_url: https://github.com/JuliaClimate/IndividualDisplacements.jl
+            organization:
+              name: JuliaClimate
+            homepage_url: https://juliaclimate.github.io/IndividualDisplacements.jl
+          - item:
+            name: INMET.jl
+            logo: INMET.jl.svg
+            repo_url: https://github.com/JuliaClimate/INMET.jl
+            organization:
+              name: JuliaClimate
+            homepage_url: https://juliaclimate.github.io/INMET.jl
+          - item:
+            name: STAC.jl
+            logo: STAC.jl.svg
+            repo_url: https://github.com/JuliaClimate/STAC.jl
+            organization:
+              name: JuliaClimate
+            homepage_url: https://juliaclimate.github.io/STAC.jl
+          - item:
+            name: GeoRegions.jl
+            logo: GeoRegions.jl.svg
+            repo_url: https://github.com/JuliaClimate/GeoRegions.jl
+            organization:
+              name: JuliaClimate
+            homepage_url: https://juliaclimate.github.io/GeoRegions.jl
+          - item:
+            name: CDSAPI.jl
+            logo: CDSAPI.jl.svg
+            repo_url: https://github.com/JuliaClimate/CDSAPI.jl
+            organization:
+              name: JuliaClimate
+            homepage_url: https://juliaclimate.github.io/CDSAPI.jl
           - item:
             name: ClimateBase.jl
             logo: ClimateBase.jl.svg
@@ -8274,7 +8329,8 @@ landscape:
             repo_url: https://github.com/JuliaClimate/ClimateBase.jl
             extra:
               topics: climate,data,analysis,spatiotemporal,julia,hacktoberfest
-            unnamed_organization: true
+            organization:
+              name: JuliaClimate
             homepage_url: https://juliaclimate.github.io/ClimateBase.jl/dev/
           - item:
             name: CLIMA Land
@@ -8452,7 +8508,8 @@ landscape:
               A collection of commonly-used tools in climate science. Basics of climate field analysis are covered, with some forays into exploratory techniques
               associated with climate scenarios design.
             repo_url: https://github.com/JuliaClimate/ClimateTools.jl
-            unnamed_organization: true
+            organization:
+              name: JuliaClimate
             homepage_url: https://juliaclimate.github.io/ClimateTools.jl/stable/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/76293821'
@@ -8694,14 +8751,15 @@ landscape:
             repo_url: https://github.com/JuliaClimate/ClimateSatellite.jl
             extra:
               topics: climate,climate-analysis,climate-science,gpm-imerg
-            unnamed_organization: true
+            organization:
+              name: JuliaClimate
             homepage_url: https://github.com/JuliaClimate/ClimateSatellite.jl
           - item:
             name: canadaHCD
             logo: canadaHCD.svg
             description: Access Canadian Historical Climate Data from R.
             repo_url: https://github.com/gavinsimpson/canadaHCD
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/government-of-canada
             homepage_url: https://github.com/gavinsimpson/canadaHCD
           - item:
             name: climatedataguide
@@ -8710,7 +8768,7 @@ landscape:
               Search and access 212 datasets covering the Atmosphere, Ocean, Land and more. Explore climate indices, reanalyses and satellite data and
               understand their application to climate model metrics.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://climatedataguide.ucar.edu/
           - item:
             name: ClimateSERV
@@ -8842,18 +8900,6 @@ landscape:
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/156325084,http://doi.org/10.5281/zenodo.2647531.\n\n##,http://doi.org/10.5281/zenodo.2647531.\n\n##'
               topics: copernicus,cds,ecmwf-api,ecmwf-services,climate-data
-          - item:
-            name: GDESS
-            logo: GDESS.svg
-            description: Tool for evaluating atmospheric carbon dioxide concentrations as simulated by Earth system models.
-            repo_url: https://github.com/E3SM-Project/gdess
-            organization:
-              name: Energy Exascale Earth System Model Project
-            homepage_url: https://doi.org/10.21105/joss.04326
-            extra:
-              refs: >-
-                ,https://doi.org/10.21105/joss.04326,https://doi.org/10.5281/zenodo.6981643,https://doi.org/10.1029/JD094iD06p08549\n,https://doi.org/10.1002/2014JD022591\n\n-
-              topics: earth-system-model,model-diagnostics,earth-observation,python,data-visualization
           - item:
             name: Analysis-Ready, Cloud Optimized ERA5
             logo: Analysis-Ready, Cloud Optimized ERA5.svg
@@ -9281,9 +9327,10 @@ landscape:
             name: JuliaClimate Notebooks
             logo: JuliaClimate Notebooks.svg
             description: Notebooks that show Julia packages related to climate working in concert.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://juliaclimate.github.io/GlobalOceanNotebooks/
+            repo_url: https://github.com/JuliaClimate/Notebooks
+            organization:
+              name: JuliaClimate
+            homepage_url: https://juliaclimate.github.io/Notebooks/
           - item:
             name: clisops
             logo: clisops.svg
@@ -9303,7 +9350,7 @@ landscape:
             homepage_url: https://cds.climate.copernicus.eu/toolbox/doc/index.html
           - item:
             name: ATLAS
-            logo: atlas.svg
+            logo: atlas2.svg
             description: Datasets, code and virtual workspace for the Climate Change ATLAS.
             repo_url: https://github.com/SantanderMetGroup/ATLAS
             organization:
@@ -13128,25 +13175,6 @@ landscape:
               calendar: https://lists.lfenergy.org/g/hyphae-tsc/calendar
               contribution_guidelines: none
               project_lead: Kotaro Jinushi, Sony ESL
-          - item:
-            name: openLEADR
-            description: A friendly and compliant OpenADR implementation for Python 3
-            homepage_url: https://www.lfenergy.org/projects/openleadr/
-            project: incubation
-            repo_url: https://github.com/OpenLEADR/openleadr-python
-            project_org: https://github.com/OpenLEADR
-            logo: open-leadr.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/openleadr
-              slack_channel: '#openleadr'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
-              wiki_page: https://wiki.lfenergy.org/display/OL
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/openleadr
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/openLEADR-TSC/calendar
-              contribution_guidelines: https://github.com/OpenLEADR/openleadr-tsc/blob/master/CONTRIBUTING.md
-              project_lead: Lonneke Driessen & Stan Janssen, OpenADR
           - item:
             name: RIAPS
             description: An Effective Distributed Software Platform for Smart Grid Apps
