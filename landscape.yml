@@ -75,7 +75,6 @@ landscape:
             organization:
               name: ZAE Bayern
               homepage: https://www.zae-bayern.de/
-              twitter: https://twitter.com/ZAEBayern
               linkedin: https://www.linkedin.com/company/zae-bayern
             homepage_url: https://github.com/zae-bayern/elpv-dataset
             extra:
@@ -1089,6 +1088,7 @@ landscape:
             description: A multi-reactor, algae farm, simulation base function that will be solved in time.
             repo_url: https://github.com/alexliberzonlab/Multiscale_Ulva
             crunchbase: https://www.crunchbase.com/organization/tel-aviv-university
+            twitter: null
             homepage_url: https://github.com/alexliberzonlab/Multiscale_Ulva
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5017069,http://doi.org/10.1038/s42003-021-02371-z\n,http://doi.org/10.5281/zenodo.5017069\n\n'
@@ -2330,6 +2330,7 @@ landscape:
             description: Renewable Energy Integration Simulation Engine.
             repo_url: https://github.com/Breakthrough-Energy/REISE.jl
             crunchbase: https://www.crunchbase.com/organization/breakthrough-energy-ventures
+            twitter: null
             homepage_url: https://breakthrough-energy.github.io/docs/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4538590,https://doi.org/10.5281/zenodo.4538590\n'
@@ -2970,6 +2971,7 @@ landscape:
             description: Is part of a Python software ecosystem developed by Breakthrough Energy Sciences to carry out power flow study in the U.S. electrical grid.
             repo_url: https://github.com/Breakthrough-Energy/PowerSimData
             crunchbase: https://www.crunchbase.com/organization/breakthrough-energy-ventures
+            twitter: null
             homepage_url: https://breakthrough-energy.github.io/docs/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4538590'
@@ -8873,8 +8875,7 @@ landscape:
               The role of the Climate from Space application is to increase the visibility of the Climate Change Initiative programme and the role of ESA
               satellite data in climate science.
             repo_url: https://github.com/ubilabs/esa-climate-from-space
-            organization:
-              name: Ubilabs
+            crunchbase: https://www.crunchbase.com/organization/european-space-agency-f580
             homepage_url: https://cfs.climate.esa.int
           - item:
             name: pygac
@@ -11083,7 +11084,7 @@ landscape:
               ESA is developing free open source toolboxes for the scientific exploitation of Earth Observation missions under the Scientific Exploitation of
               Operational Missions programme element.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-space-agency-f580
             homepage_url: http://step.esa.int/main/
           - item:
             name: globsim
@@ -12017,11 +12018,12 @@ landscape:
               name: Science Based Targets initiative
             homepage_url: https://sciencebasedtargets.org/
           - item:
-            name: Real-Impact-Tracker-Methodology
+            name: Real Impact Tracker Methodology
             logo: Real-Impact-Tracker-Methodology.svg
             description: A methodology to assess the Real Impact of funds on social and environmental issues.
             repo_url: https://github.com/realimpat/Real-Impact-Tracker-Methodology
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/real-impact-tracker
+            twitter: https://twitter.com/realimpacttrack
             homepage_url: https://github.com/realimpat/Real-Impact-Tracker-Methodology
           - item:
             name: MimiFUND.jl
@@ -12113,8 +12115,9 @@ landscape:
             name: Open Source Ecology
             logo: Open Source Ecology.svg
             description: Developing open source industrial machines that can be made for a fraction of commercial costs, and sharing the designs for free.
-            repo_url: null
-            unnamed_organization: true
+            project_org: https://github.com/OpenSourceEcology
+            repo_url: https://github.com/OpenSourceEcology/circular_knitic
+            crunchbase: https://www.crunchbase.com/organization/open-source-ecology
             homepage_url: https://www.opensourceecology.org/
           - item:
             name: ProjectDrawdown
@@ -12141,8 +12144,9 @@ landscape:
             name: Climatescape
             logo: Climatescape.svg
             description: Discover the organizations solving climate change.
-            repo_url: null
-            unnamed_organization: true
+            project_org: https://github.com/climatescape
+            repo_url: https://github.com/climatescape/climatescape.org
+            crunchbase: https://www.crunchbase.com/organization/climatescape
             homepage_url: https://climatescape.org/
           - item:
             name: Airminers
@@ -12151,12 +12155,13 @@ landscape:
               The index of companies and projects mining carbon from the air for entrepreneurs, researchers, and funders to explore opportunities in carbon
               dioxide.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/airminers
             homepage_url: http://www.airminers.org/
           - item:
             name: ENVO
             logo: ENVO.svg
             description: A community-driven ontology for the representation of environments.
+            project_org: https://github.com/EnvironmentOntology
             repo_url: https://github.com/EnvironmentOntology/envo
             organization:
               name: The Environment Ontology
@@ -12184,8 +12189,7 @@ landscape:
             repo_url: https://github.com/YaleOpenLab/openclimate-demo
             extra:
               topics: climate,climate-change,climate-change-mitigation,backend,go,golang,python3
-            organization:
-              name: Yale OpenLab
+            crunchbase: https://www.crunchbase.com/organization/yale-university
             homepage_url: https://github.com/YaleOpenLab/openclimate-demo
           - item:
             name: ModularSensors
@@ -12202,31 +12206,23 @@ landscape:
             logo: OpenSourceSeeds.svg
             description: Committed to re-establishing seed as a common good for all.
             repo_url: null
-            unnamed_organization: true
-            homepage_url: https://www.opensourceseeds.org/en
+            organization:
+              name: OpenSourceSeeds
+            homepage_url: https://www.opensourceseeds.org
           - item:
             name: Transition Project
             logo: Transition Project.svg
             description: An Open Data Initiative designed to help enable rapid carbon abatement for cities worldwide.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/climateview
             homepage_url: https://www.transitionproject.org/
-          - item:
-            name: Climate Strike Software
-            logo: Climate Strike Software.svg
-            description: Prevent oil and gas companies from co-opting your work and extracting more fossil fuels with this software license.
-            repo_url: https://github.com/climate-strike/license
-            extra:
-              topics: climate-change,climatechange,licenses,climate-crisis,climatestrike
-            organization:
-              name: Climate Strike License
-            homepage_url: https://climatestrike.software
           - item:
             name: Ireland Energy Wiki by the National Retrofitting Modelling Group
             logo: Ireland Energy Wiki by the National Retrofitting Modelling Group.svg
             description: Contains actively maintained listings of Irish energy-related resources.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/energy-modelling-ireland/wiki
+            organization:
+              name: Energy Modeling Ireland
             homepage_url: https://energy-modelling-ireland.github.io/ireland-energy-wiki/
           - item:
             name: Climate Impact Lab
@@ -12235,15 +12231,16 @@ landscape:
               A team of economists, climate scientists, data engineers, and risk analysts are building the world's most comprehensive body of research
               quantifying the impacts of climate change, sector-by-sector and community-by-community around the world.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: Climate Impact Lab
+              twitter: https://twitter.com/impact_lab
             homepage_url: http://www.impactlab.org/
           - item:
             name: Climate change in the contiguous United States
             logo: Climate change in the contiguous United States.svg
             description: The Washington Post's analysis of NOAA climate change data for the contiguous United States.
             repo_url: https://github.com/washingtonpost/data-2C-beyond-the-limit-usa
-            organization:
-              name: The Washington Post
+            crunchbase: https://www.crunchbase.com/organization/washington-post
             homepage_url: https://github.com/washingtonpost/data-2C-beyond-the-limit-usa
           - item:
             name: Regen Ledger
@@ -12680,21 +12677,21 @@ landscape:
             logo: EarthDataLab.jl.svg
             description: Julia interface for Reading from the Earth System Datacube.
             repo_url: https://github.com/JuliaDataCubes/EarthDataLab.jl
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-space-agency-f580
             homepage_url: http://earthsystemdatacube.net
           - item:
             name: The CEDA Archive
             logo: The CEDA Archive.svg
             description: We host over 18 Petabytes of data from climate models, satellites, aircraft, met observations, and other sources.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/cedadev/archive-site
+            crunchbase: https://www.crunchbase.com/organization/centre-for-environmental-data-analysis
             homepage_url: https://archive.ceda.ac.uk/
           - item:
             name: Climate Data Dashboard of the ESA Climate Change Initiative
             logo: Climate Data Dashboard of the ESA Climate Change Initiative.svg
             description: Access global climate data produced through the ESA's Climate Change Initiative.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-space-agency-f580
             homepage_url: https://climate.esa.int/en/odp/#/dashboard
           - item:
             name: USGS API Python Module
@@ -12886,10 +12883,11 @@ landscape:
             logo: Awesome Earth.svg
             description: '"What can I do about the climate crisis?" Here are 326 things you can do.'
             repo_url: https://github.com/philsturgeon/awesome-earth
+            twitter: null
             extra:
               topics: >-
                 carbon-footprint,carbon-emissions,climate-change,climate-crisis,climate-action,awesome,awesome-list,renewable-energy,carbon-reduction,food-waste,footprint-calculators
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/protect-earth
             homepage_url: https://protect.earth
           - item:
             name: Awesome Open Geoscience
@@ -12917,7 +12915,7 @@ landscape:
             extra:
               topics: awesome,awesome-list,arctic-data,arctic,arctic-sea-ice,climate-change
             organization:
-              name: Arctic Basecamp's Arctic Risk
+              name: Arctic Risk Platform
             homepage_url: https://github.com/arctic-risk/awesome-arctic-data
           - item:
             name: Awesome Remote Sensing Change Detection
@@ -12954,7 +12952,8 @@ landscape:
             logo: awesome-gee-community-datasets.svg
             description: Community Datasets & Data Commons in Google Earth Engine.
             repo_url: https://github.com/samapriya/awesome-gee-community-datasets
-            unnamed_organization: true
+            organization:
+              name: Samapriya Roy
             homepage_url: https://gee-community-catalog.org/
             extra:
               topics: >-
@@ -12975,7 +12974,8 @@ landscape:
             logo: Open Source Python Packages in Hydrology.svg
             description: Holds a list of open source Python packages interesting to Hydrologists.
             repo_url: https://github.com/raoulcollenteur/Python-Hydrology-Tools
-            unnamed_organization: true
+            organization:
+              name: Raoul Collenteur
             homepage_url: https://github.com/raoulcollenteur/Python-Hydrology-Tools
             extra:
               topics: hydrology,open-source,python,hydrologists
@@ -12985,7 +12985,7 @@ landscape:
             logo: PO.DAAC.svg
             description: NASA Earth Observing System Data and Information System data center managed by the Earth Science Data and Information System Project.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa
             homepage_url: https://podaac.jpl.nasa.gov/datasetlist
           - item:
             name: Awesome Sentinel
@@ -12994,7 +12994,8 @@ landscape:
             repo_url: https://github.com/kr-stn/awesome-sentinel
             extra:
               topics: science,research,open-data,satellite-imagery,space,awesome-list,hacktoberfest
-            unnamed_organization: true
+            organization:
+              name: Kersten Clauss
             homepage_url: https://github.com/kr-stn/awesome-sentinel
   - category:
     name: Asset Management
@@ -13571,6 +13572,7 @@ landscape:
               Powered by the Enbala Engine™ at its core, Concerto delivers the VPP and DERMS solution use cases that set Enbala apart in the world of
               distributed energy resource management.
             homepage_url: https://www.enbala.com/technology/products-solutions/
+            twitter: null
             logo: concerto-text.svg
             crunchbase: https://www.crunchbase.com/organization/enbala-power-networks
           - item:
