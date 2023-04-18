@@ -12079,8 +12079,9 @@ landscape:
             name: WikiRate
             logo: WikiRate.svg
             description: Facilitates research and analysis on complex topics in collaboration with partners, to make ESG data open, comparable and useful for all.
+            project_org: https://github.com/wikirate
             repo_url: https://github.com/wikirate/wikirate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/wikirate
             homepage_url: https://github.com/wikirate/wikirate
       - subcategory:
         name: Knowledge Platforms
@@ -12101,15 +12102,17 @@ landscape:
             name: Appropedia
             logo: Appropedia.svg
             description: Shares knowledge to build rich, sustainable lives.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://www.appropedia.org/Welcome_to_Appropedia
+            project_org: https://github.com/Appropedia
+            repo_url: https://github.com/Appropedia/extension
+            crunchbase: https://www.crunchbase.com/organization/appropedia
+            homepage_url: https://www.appropedia.org
           - item:
             name: Open Hardware Observatory
             logo: Open Hardware Observatory.svg
             description: Search engine and assessment platform for sustainable open hardware.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: Open Hardware Observatory
             homepage_url: https://en.oho.wiki/wiki/Home
           - item:
             name: Open Source Ecology
@@ -12293,7 +12296,8 @@ landscape:
             logo: Credible Goals Database.svg
             description: A public goals database containing leading sustainability goals and commitments set by large companies globally.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/embedding-project
+            twitter: https://twitter.com/embedproject
             homepage_url: https://www.embeddingproject.org/goals-database
           - item:
             name: Digital Public Goods
@@ -12301,6 +12305,7 @@ landscape:
             description: >-
               Accelerate the attainment of the sustainable development goals in low- and middle-income countries by facilitating the discovery, development, use
               of, and investment in digital public goods.
+            project_org: https://github.com/DPGAlliance
             repo_url: https://github.com/DPGAlliance/publicgoods-candidates
             extra:
               topics: public-good,public-goods,sdgs,sustainable-development-goals
@@ -12330,12 +12335,15 @@ landscape:
             description: >-
               Explore how your values and personal interests are being affected by climate change and shows you attractive solutions exist that you may not be
               aware of.
+            project_org: https://github.com/ClimateMind
             repo_url: https://github.com/ClimateMind/climatemind-backend
             extra:
               topics: flask,owl-ontology,climate,climate-change,climate-action,global-warming,python,climate-science,climatechange
             organization:
               name: Climate Mind
-            homepage_url: https://contribute.climatemind.org/v/rest-api/
+              twitter: https://twitter.com/Climate_Mind
+              linkedin: https://www.linkedin.com/company/climate-mind
+            homepage_url: https://climatemind.org/
       - subcategory:
         name: Data Catalogs and Interfaces
         items:

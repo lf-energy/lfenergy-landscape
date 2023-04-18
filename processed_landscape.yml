@@ -70161,67 +70161,138 @@ landscape:
             name: WikiRate
             logo: WikiRate.svg
             description: Facilitates research and analysis on complex topics in collaboration with partners, to make ESG data open, comparable and useful for all.
+            project_org: https://github.com/wikirate
             repo_url: https://github.com/wikirate/wikirate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/wikirate
             homepage_url: https://github.com/wikirate/wikirate
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: WikiRate
+              description: WikiRate is a nonprofit organization that helps community individuals and institutions for development with corporate data.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://wikirate.org
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/wikirate
+              linkedin: https://www.linkedin.com/company/wikirate/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Charity
+                - Information Services
+                - Non Profit
             github_data:
+              description: ''
+              contributors_count: 18
+              contributions: >-
+                15;60;63;33;40;53;75;41;11;28;45;39;20;34;32;16;6;5;10;7;17;44;30;21;22;36;42;38;19;24;18;6;10;12;15;0;0;25;18;50;35;43;14;21;32;44;122;162;38;46;31;4
+              stars: 17
               languages:
                 - name: Ruby
-                  value: 1035940
+                  value: 1151512
                   color: '#701516'
-                - name: Haml
-                  value: 67306
-                - name: CoffeeScript
-                  value: 61060
-                  color: '#244776'
+                - name: Java
+                  value: 457084
+                  color: '#b07219'
                 - name: SCSS
-                  value: 58192
+                  value: 375618
+                - name: TypeScript
+                  value: 328033
+                  color: '#2b7489'
+                - name: Haml
+                  value: 299021
                 - name: JavaScript
-                  value: 30086
+                  value: 272316
                   color: '#f1e05a'
-                - name: Gherkin
-                  value: 7283
-                  color: '#5B2063'
                 - name: CSS
-                  value: 1456
+                  value: 238315
                   color: '#563d7c'
                 - name: HTML
-                  value: 642
+                  value: 208319
                   color: '#e34c26'
-              contributions: 28;29;11;18;16;37;8;18;42;45;17;15;24;50;20;20;33;27;0;0;0;4;6;10;22;37;14;17;34;45;25;30;20;14;0;14;4;23;0;0;22;19;15;8;9;12;18;21;30;47;46;17
-              firstWeek: 2022-04-03Z
-              stars: 11
+                - name: Python
+                  value: 101345
+                  color: '#3572A5'
+                - name: CoffeeScript
+                  value: 92182
+                  color: '#244776'
+                - name: Gherkin
+                  value: 9571
+                  color: '#5B2063'
+                - name: Vue
+                  value: 6117
+                  color: '#2c3e50'
+                - name: Less
+                  value: 592
+                - name: Shell
+                  value: 249
+                  color: '#89e051'
+              latest_commit_link: /wikirate/wikirate/commit/a9f037c3ce8f5f82aea34773dc2fd7996d415095
+              latest_commit_date: '2023-04-11T22:58:33Z'
+              firstWeek: 2022-04-24Z
               license: Other
-              description: null
-              latest_commit_date: '2023-03-24T18:59:41Z'
-              latest_commit_link: /wikirate/wikirate/commit/b34e6636eb30b477735262b5ca57467fcdddd639
-              release_date: '2021-01-08T20:54:55Z'
-              release_link: https://github.com/wikirate/wikirate/releases
-              contributors_count: 22
               contributors_link: https://github.com/wikirate/wikirate/graphs/contributors
             repos:
               - url: https://github.com/wikirate/wikirate
                 stars: 11
+              - url: https://github.com/wikirate/wikirate4py
+                stars: 3
+              - url: https://github.com/wikirate/data-structure
+                stars: 1
+              - url: https://github.com/wikirate/supply-chain-map
+                stars: 1
+              - url: https://github.com/wikirate/fashionchecker
+                stars: 1
+              - url: https://github.com/wikirate/socialmedia-abstractions
+                stars: 0
+              - url: https://github.com/wikirate/wikirate-ccc
+                stars: 0
+              - url: https://github.com/wikirate/chainreact_docs
+                stars: 0
+              - url: https://github.com/wikirate/chainreact
+                stars: 0
+              - url: https://github.com/wikirate/wikirate_docs
+                stars: 0
+              - url: https://github.com/wikirate/wikirate-labs
+                stars: 0
+              - url: https://github.com/wikirate/wikirateproject
+                stars: 0
+              - url: https://github.com/wikirate/wikirate-widget
+                stars: 0
+              - url: https://github.com/wikirate/widgets
+                stars: 0
+              - url: https://github.com/wikirate/topic-graph
+                stars: 0
+              - url: https://github.com/wikirate/msa
+                stars: 0
+              - url: https://github.com/wikirate/showcase
+                stars: 0
+              - url: https://github.com/wikirate/tea-suppliers-map
+                stars: 0
+              - url: https://github.com/wikirate/facilitychecker
+                stars: 0
+              - url: https://github.com/wikirate/msa-beyond-compliance
+                stars: 0
+              - url: https://github.com/wikirate/CompaniesDeduplication
+                stars: 0
+              - url: https://github.com/wikirate/Wikirate4J
+                stars: 0
+              - url: https://github.com/wikirate/wikirate4ruby
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /wikirate/wikirate/commit/59c2b500f4cb776da15e92e1bcb1474d2e1c77a4
-              start_date: '2014-01-13T22:33:17Z'
+              start_commit_link: /wikirate/socialmedia-abstractions/commit/c4c1e84c5c7a6c42a5481e15948524907bc48021
+              start_date: '2013-09-26T11:49:40Z'
             image_data:
               fileName: wiki-rate.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: K23HJOHYfhbgtkNyNjI8zJLWgr3Ft/YEyUhGPesuSaE=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-13T17:17:35.000Z
       - subcategory:
         name: Knowledge Platforms
         items:
@@ -70325,50 +70396,88 @@ landscape:
             name: Appropedia
             logo: Appropedia.svg
             description: Shares knowledge to build rich, sustainable lives.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://www.appropedia.org/Welcome_to_Appropedia
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            project_org: https://github.com/Appropedia
+            repo_url: https://github.com/Appropedia/extension
+            crunchbase: https://www.crunchbase.com/organization/appropedia
+            homepage_url: https://www.appropedia.org
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Appropedia
+              description: Appropedia is the site for collaborative solutions that allows anyone to add, remove, or edit content.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.appropedia.org/Welcome_to_Appropedia
+              city: Mckinleyville
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/appropedia/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            github_data:
+              description: The sustainability wiki
+              contributors_count: 6
+              contributions: 0;2;4;0;1;0;1;0;0;0;1;0;6;1;1;0;0;0;5;4;0;0;1;0;0;0;2;0;0;0;0;0;2;0;0;0;0;0;2;0;2;0;0;0;0;0;0;1;7;10;0;6
+              stars: 0
+              languages:
+                - name: PHP
+                  value: 100554
+                  color: '#4F5D95'
+                - name: JavaScript
+                  value: 47046
+                  color: '#f1e05a'
+                - name: Less
+                  value: 7799
+                - name: HTML
+                  value: 1848
+                  color: '#e34c26'
+                - name: CSS
+                  value: 53
+                  color: '#563d7c'
+              latest_commit_link: /Appropedia/extension/commit/c9321475f8ef28c1d4b77fc5635ae5515753a3b3
+              latest_commit_date: '2023-04-18T11:26:21Z'
+              firstWeek: 2022-04-24Z
+              license: Unknown License
+              contributors_link: https://github.com/Appropedia/extension/graphs/contributors
+            repos:
+              - url: https://github.com/Appropedia/extension
+                stars: 0
+              - url: https://github.com/Appropedia/techdocs
+                stars: 0
+              - url: https://github.com/Appropedia/oshwa-appro
+                stars: 0
+              - url: https://github.com/Appropedia/scripts
+                stars: 0
+              - url: https://github.com/Appropedia/appropedia-chrome-extension
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /Appropedia/techdocs/commit/0c9ee18e26f9830b85541c8760b1641d23599da5
+              start_date: '2013-11-12T11:46:32Z'
             image_data:
               fileName: appropedia.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: OfnwTvb0bqEr9BoLpdYDycolZMuSNjoKod7qA5e3A6E=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Open Hardware Observatory
             logo: Open Hardware Observatory.svg
             description: Search engine and assessment platform for sustainable open hardware.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: Open Hardware Observatory
             homepage_url: https://en.oho.wiki/wiki/Home
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Open Hardware Observatory
               parents: []
             image_data:
               fileName: open-hardware-observatory.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: FJ84mqUbGYvBki9joh9eMFVM7h4eaKhzOLL/ZZs/eKM=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Open Source Ecology
             logo: Open Source Ecology.svg
@@ -70717,7 +70826,7 @@ landscape:
                 - Social Entrepreneurship
             image_data:
               fileName: airminers.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: cxrXbfN4XYQKoWC50kUbMVrgHcXUyPn/XRRzqCK0Unw=
             best_practice_data:
               badge: false
               percentage: null
@@ -71373,31 +71482,44 @@ landscape:
             logo: Credible Goals Database.svg
             description: A public goals database containing leading sustainability goals and commitments set by large companies globally.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/embedding-project
+            twitter: https://twitter.com/embedproject
             homepage_url: https://www.embeddingproject.org/goals-database
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Embedding Project
+              description: The Embedding Project provides research helps social and environmental factors.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://embeddingproject.org
+              city: Vancouver
+              region: British Columbia
+              country: Canada
+              twitter: https://mobile.twitter.com/embedproject
+              linkedin: https://www.linkedin.com/company/embedding-project
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Advice
+                - Consulting
+                - Non Profit
+                - Sustainability
             image_data:
               fileName: credible-goals-database.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: WBO0039KMf7NofvdIxuVDa6H3qlpPaZWX4b1aA1VqC0=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2022-11-10T21:09:08.000Z
           - item:
             name: Digital Public Goods
             logo: Digital Public Goods.svg
             description: >-
               Accelerate the attainment of the sustainable development goals in low- and middle-income countries by facilitating the discovery, development, use
               of, and investment in digital public goods.
+            project_org: https://github.com/DPGAlliance
             repo_url: https://github.com/DPGAlliance/publicgoods-candidates
             extra:
               topics: public-good,public-goods,sdgs,sustainable-development-goals
@@ -71408,33 +71530,68 @@ landscape:
               name: Digital Public Goods Alliance
               parents: []
             github_data:
+              description: >-
+                The Digital Public Goods Alliance is an initiative endorsed by the UN Secretary-General that facilitates the discovery and deployment of digital
+                public goods.
+              contributors_count: 140
+              contributions: >-
+                94;98;106;124;139;88;32;53;145;133;136;85;93;65;110;125;102;55;53;34;81;61;98;163;45;35;45;85;97;107;154;103;56;54;62;57;2;8;31;11;16;13;8;16;11;12;12;31;15;35;12;11
+              stars: 178
               languages:
+                - name: HTML
+                  value: 24363703
+                  color: '#e34c26'
+                - name: PHP
+                  value: 2435452
+                  color: '#4F5D95'
+                - name: CSS
+                  value: 672518
+                  color: '#563d7c'
                 - name: JavaScript
-                  value: 48442
+                  value: 408740
                   color: '#f1e05a'
+                - name: Hack
+                  value: 18064
+                  color: '#878787'
                 - name: Shell
-                  value: 3944
+                  value: 7293
                   color: '#89e051'
-              contributions: 103;31;34;43;40;87;63;65;65;7;24;70;88;98;35;57;13;60;78;73;29;29;9;34;28;61;74;31;27;11;43;81;44;108;56;38;32;20;40;2;0;11;0;0;0;0;0;2;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 76
+              latest_commit_link: /DPGAlliance/publicgoods-candidates/commit/669941b9193cede5dd7ef764a8390bf2920c999f
+              latest_commit_date: '2023-03-29T06:46:03Z'
+              firstWeek: 2022-04-24Z
               license: The Unlicense
-              description: Registry for Digital Public Goods
-              latest_commit_date: '2023-02-22T06:34:12Z'
-              latest_commit_link: /DPGAlliance/publicgoods-candidates/commit/109df3c6152763867b91056c746be2621f0f33fb
-              release_date: '2020-10-08T18:43:05Z'
-              release_link: https://github.com/DPGAlliance/publicgoods-candidates/releases
-              contributors_count: 135
               contributors_link: https://github.com/DPGAlliance/publicgoods-candidates/graphs/contributors
             repos:
               - url: https://github.com/DPGAlliance/publicgoods-candidates
-                stars: 76
+                stars: 77
+              - url: https://github.com/DPGAlliance/DPG-Standard
+                stars: 68
+              - url: https://github.com/DPGAlliance/publicgoods-api
+                stars: 11
+              - url: https://github.com/DPGAlliance/DPG-Resources
+                stars: 7
+              - url: https://github.com/DPGAlliance/publicgoods-website
+                stars: 6
+              - url: https://github.com/DPGAlliance/publicgoods-scripts
+                stars: 4
+              - url: https://github.com/DPGAlliance/publicgoods-submission
+                stars: 2
+              - url: https://github.com/DPGAlliance/publicgoods-form-opens-pr
+                stars: 1
+              - url: https://github.com/DPGAlliance/publicgoods-validate
+                stars: 1
+              - url: https://github.com/DPGAlliance/.github
+                stars: 1
+              - url: https://github.com/DPGAlliance/publicgoods-website-staging
+                stars: 0
+              - url: https://github.com/DPGAlliance/publicgoods-review-webapp
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /DPGAlliance/publicgoods-candidates/commit/f4e77b6f5f1eb5303126eced29597828623deacf
-              start_date: '2019-02-07T07:39:22Z'
+              start_commit_link: /DPGAlliance/publicgoods-website/commit/f25edee84e9d78808d6beb38331f2775f2282807
+              start_date: '2019-02-07T06:56:13Z'
             image_data:
               fileName: digital-public-goods.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 72DCtE+4uDLdv3yhWML5WtXNDhtRWpodF35EMKWiCho=
             best_practice_data:
               badge: false
               percentage: null
@@ -71521,54 +71678,97 @@ landscape:
             description: >-
               Explore how your values and personal interests are being affected by climate change and shows you attractive solutions exist that you may not be
               aware of.
+            project_org: https://github.com/ClimateMind
             repo_url: https://github.com/ClimateMind/climatemind-backend
             extra:
               topics: flask,owl-ontology,climate,climate-change,climate-action,global-warming,python,climate-science,climatechange
             organization:
               name: Climate Mind
-            homepage_url: https://contribute.climatemind.org/v/rest-api/
+              twitter: https://twitter.com/Climate_Mind
+              linkedin: https://www.linkedin.com/company/climate-mind
+            homepage_url: https://climatemind.org/
             crunchbase_data:
               name: Climate Mind
+              twitter: https://twitter.com/Climate_Mind
+              linkedin: https://www.linkedin.com/company/climate-mind
               parents: []
             github_data:
+              description: Powering climate conversations
+              contributors_count: 46
+              contributions: 36;40;21;24;10;12;33;27;3;27;21;22;8;7;17;43;32;62;16;11;12;37;9;28;3;65;65;30;24;57;17;18;26;15;9;3;1;2;1;9;25;24;1;0;19;10;0;3;0;0;0;0
+              stars: 29
               languages:
                 - name: Python
-                  value: 529549
+                  value: 775135
                   color: '#3572A5'
+                - name: TypeScript
+                  value: 739185
+                  color: '#2b7489'
+                - name: Jupyter Notebook
+                  value: 611928
+                  color: '#DA5B0B'
                 - name: JavaScript
-                  value: 129712
+                  value: 215596
                   color: '#f1e05a'
-                - name: Shell
-                  value: 5975
-                  color: '#89e051'
+                - name: Pug
+                  value: 23289
+                - name: Stylus
+                  value: 16766
                 - name: Dockerfile
-                  value: 2481
+                  value: 9323
                   color: '#384d54'
+                - name: Shell
+                  value: 7349
+                  color: '#89e051'
+                - name: Swift
+                  value: 3031
+                  color: '#ffac45'
+                - name: CSS
+                  value: 2655
+                  color: '#563d7c'
+                - name: HTML
+                  value: 1552
+                  color: '#e34c26'
+                - name: Java
+                  value: 1299
+                  color: '#b07219'
+                - name: Ruby
+                  value: 709
+                  color: '#701516'
                 - name: Mako
                   value: 494
-              contributions: 13;4;4;12;39;10;14;5;15;31;1;2;10;10;3;3;1;0;6;2;7;2;3;4;3;0;2;1;22;18;13;14;12;4;3;7;10;5;3;0;0;2;0;0;0;2;1;0;0;3;0;0
-              firstWeek: 2022-04-03Z
-              stars: 8
+                - name: SCSS
+                  value: 270
+              latest_commit_link: /ClimateMind/climatemind-backend/commit/36b8aeff27f6bcb978cf9f8fc6c56396243048d6
+              latest_commit_date: '2023-03-29T10:20:43Z'
+              firstWeek: 2022-04-24Z
               license: MIT License
-              description: >-
-                Your climate action is here 🌎 Our API is a source for learning how climate change personally affects you and the things you care about most.
-                Additionally, it will teach a scientifically proven method for communicating to others that climate change is a personally relevant issue to
-                inspire action.
-              latest_commit_date: '2023-03-06T23:35:42Z'
-              latest_commit_link: /ClimateMind/climatemind-backend/commit/d3586449f1c885aa42008a616baef78285918f66
-              release_date: '2023-03-06T23:41:38Z'
-              release_link: https://github.com/ClimateMind/climatemind-backend/releases
-              contributors_count: 31
               contributors_link: https://github.com/ClimateMind/climatemind-backend/graphs/contributors
             repos:
               - url: https://github.com/ClimateMind/climatemind-backend
                 stars: 8
+              - url: https://github.com/ClimateMind/climatemind-frontend
+                stars: 14
+              - url: https://github.com/ClimateMind/climatemind.org
+                stars: 3
+              - url: https://github.com/ClimateMind/climatemind-nlp
+                stars: 3
+              - url: https://github.com/ClimateMind/climatemind-ontology-processing
+                stars: 1
+              - url: https://github.com/ClimateMind/climatemind-analytics
+                stars: 0
+              - url: https://github.com/ClimateMind/climatemind-ontology-visualization
+                stars: 0
+              - url: https://github.com/ClimateMind/e2e-tests
+                stars: 0
+              - url: https://github.com/ClimateMind/climatemind-docs
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /ClimateMind/climatemind-backend/commit/81356f42d77406bad1e4a2f11c1b5fb606e207cf
-              start_date: '2020-07-08T18:11:24Z'
+              start_commit_link: /ClimateMind/climatemind.org/commit/61cc2ea9672b9776e832faa349ea8b5aa8eff4d8
+              start_date: '2020-04-20T19:21:33Z'
             image_data:
               fileName: climatemind.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: KFqV90zZ0dcMBd6MYPMKuG/nZ3I8F/2naNP8skl3/R4=
             best_practice_data:
               badge: false
               percentage: null
