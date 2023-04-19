@@ -493,7 +493,8 @@ landscape:
             logo: A Global Inventory of Commerical-, Industrial-, and Utility-Scale Photovoltaic Solar Generating Units.svg
             description: Used to produce a global inventory of utility-scale solar photvoltaic generating station.
             repo_url: https://github.com/Lkruitwagen/solar-pv-global-inventory
-            unnamed_organization: true
+            organization:
+              name: Lucas Kruitwagen
             homepage_url: https://github.com/Lkruitwagen/solar-pv-global-inventory
             extra:
               refs: ',https://zenodo.org/record/5005868,https://zenodo.org/record/5005868'
@@ -762,7 +763,8 @@ landscape:
             extra:
               topics: >-
                 dnvgl-os-c101,design-of-offshore-steel-structures,buckling,fatigue-analysis,analysis-framework,plate-thickness,beam-section,gui-based,dnvgl-rp-c201,optimization-tools,structural-engineering,naval-architecture,dnvgl-rp-c203,cylinders,plates,girder,dnv-os-c101
-            unnamed_organization: true
+            organization:
+              name: Audun Arnesen Nyhus
             homepage_url: https://github.com/audunarn/ANYstructure
           - item:
             name: windrose
@@ -1283,7 +1285,8 @@ landscape:
             logo: Ampere.svg
             description: Advanced Model Package for ElectRochemical Experiments.
             repo_url: https://github.com/nealde/Ampere
-            unnamed_organization: true
+            organization:
+              name: nealde
             homepage_url: https://github.com/nealde/Ampere
           - item:
             name: StorageVET
@@ -1307,7 +1310,7 @@ landscape:
             logo: 3d_milp.svg
             description: Energy Arbitrage Optimization With Battery Storage.
             repo_url: https://github.com/ElektrikAkar/3d_milp
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nanyang-technological-university
             homepage_url: https://github.com/ElektrikAkar/3d_milp
           - item:
             name: LIONSIMBA
@@ -1936,7 +1939,7 @@ landscape:
             repo_url: https://github.com/leonardgoeke/AnyMOD.jl
             extra:
               topics: capacity-expansion-planning,energy,julia,linear-programming,optimization
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             homepage_url: https://github.com/leonardgoeke/AnyMOD.jl
           - item:
             name: FlexiGIS
@@ -2318,12 +2321,12 @@ landscape:
             name: ANDES
             logo: ANDES.svg
             description: Power system transient dynamics simulation with symbolic modeling and numerical analysis.
-            repo_url: https://github.com/cuihantao/andes
+            repo_url: https://github.com/CURENT/andes
             extra:
               topics: >-
                 simulation,analysis,package,powerflow,timedomain,small-signal,toolbox,tool,library,modeling-dae,eigenvalue-analysis,andes,power-system,power-system-simulation,power-system-analysis,power-system-dynamics
-            unnamed_organization: true
-            homepage_url: https://github.com/cuihantao/andes
+            crunchbase: https://www.crunchbase.com/organization/curent
+            homepage_url: https://ltb.curent.org/andes/
           - item:
             name: REISE.jl
             logo: REISE.jl.svg
@@ -6425,7 +6428,8 @@ landscape:
             logo: PlanktonIndividuals.jl.svg
             description: This package simulates the behaviors of an ensemble of phytoplankton individuals.
             repo_url: https://github.com/JuliaOcean/PlanktonIndividuals.jl
-            unnamed_organization: true
+            organization:
+              name: JuliaOcean
             homepage_url: https://github.com/JuliaOcean/PlanktonIndividuals.jl
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/178023615,https://doi.org/10.21105/joss.04207'
@@ -7226,7 +7230,7 @@ landscape:
             logo: ALPGM.svg
             description: Regional glacier evolution model based on deep learning and parametrizations.
             repo_url: https://github.com/JordiBolibar/ALPGM
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/delft-university-of-technology
             homepage_url: https://github.com/JordiBolibar/ALPGM
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/195388796'
@@ -7540,7 +7544,8 @@ landscape:
             logo: AIBECS.jl.svg
             description: A Julia package that provides ocean biogeochemistry modelers with an easy-to-use interface for creating and running models of the ocean system.
             repo_url: https://github.com/JuliaOcean/AIBECS.jl
-            unnamed_organization: true
+            organization:
+              name: JuliaOcean
             homepage_url: https://github.com/JuliaOcean/AIBECS.jl
             extra:
               refs: ',https://doi.org/10.21105/joss.03814,https://doi.org/10.5281/zenodo.2864051'
@@ -8852,11 +8857,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://psl.noaa.gov/data/gridded/reanalysis/index.html
           - item:
-            name: MERRA- 2 Reanalysis
+            name: MERRA-2 Reanalysis
             logo: MERRA- 2 Reanalysis.svg
             description: Produced by NASA Global Modeling and Assimilation Office (GMAO). Apart of the surface observations assimilates space-based ones as well.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa
             homepage_url: https://disc.sci.gsfc.nasa.gov/datasets?keywords=%22MERRA-2%22
           - item:
             name: ForestGEO
@@ -9858,13 +9863,14 @@ landscape:
               name: Sh**t! I Smoke
             homepage_url: https://shootismoke.app
           - item:
-            name: airqmon
+            name: Airqmon
             logo: airqmon.svg
             description: A macOS menu bar application that displays live air quality data from the nearest sensor station.
             repo_url: https://github.com/jsynowiec/airqmon
             extra:
               topics: electron,react,typescript,air-quality,airly,macos-menubar,air-quality-monitor,poland,macos,smog,air-pollution,sensor-station,graphql
-            unnamed_organization: true
+            organization:
+              name: Jakub Synowiec
             homepage_url: https://airqmon.app
           - item:
             name: opendata-stuttgart
@@ -9911,7 +9917,8 @@ landscape:
             repo_url: https://github.com/rpanfili/airQualityMeter
             extra:
               topics: arduino,air,airquality,esp8266,esp32,nodemcu,iot,particles,pms5003,pms5003st,pm10,plantower
-            unnamed_organization: true
+            organization:
+              name: Rubens Panfili
             homepage_url: https://github.com/rpanfili/airQualityMeter
           - item:
             name: Air-Trends-Report
@@ -10881,7 +10888,7 @@ landscape:
             logo: DRIP-SLIP.svg
             description: Detecting Realtime Increased Precipitation / Sudden Landslide Identification Product.
             repo_url: https://github.com/NASA-DEVELOP/DRIP-SLIP
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa
             homepage_url: https://github.com/NASA-DEVELOP/DRIP-SLIP
           - item:
             name: esa_cci_sm
@@ -11418,7 +11425,7 @@ landscape:
             repo_url: https://github.com/kwstat/agridat
             extra:
               topics: rstats,data
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/corteva-agriscience
             homepage_url: https://github.com/kwstat/agridat
           - item:
             name: ss3sim
@@ -11674,7 +11681,8 @@ landscape:
             repo_url: https://github.com/hollorol/AgroMo
             extra:
               topics: crop-modeling,climate-change,decision-support,big-data,biogeochemical-model,gridded-data,grid-simulation,agriculture,crop-model
-            unnamed_organization: true
+            organization:
+              name: Centre for Agricultural Research (ATK)
             homepage_url: http://agromo.atk.hu/EN/index.html
           - item:
             name: CropHarvest
@@ -12432,7 +12440,7 @@ landscape:
               Our vision is to make NASA's free and open Earth science data interactive, interoperable, and accessible for research and societal benefit both
               today and tomorrow.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa
             homepage_url: https://earthdata.nasa.gov/
           - item:
             name: owidR
@@ -12530,14 +12538,13 @@ landscape:
               name: mySociety
             homepage_url: https://data.climateemergency.uk
           - item:
-            name: earthdata
+            name: earthaccess
             logo: earthdata2.svg
             description: A Python library to search and access NASA datasets.
-            repo_url: https://github.com/nsidc/earthdata
+            repo_url: https://github.com/nsidc/earthaccess
             extra:
               topics: nasa,nasa-api,openscience,data,access,cmr
-            organization:
-              name: National Snow and Ice Data Center
+            crunchbase: https://www.crunchbase.com/organization/national-snow-and-ice-data-center
             homepage_url: https://earthdata.readthedocs.io/en/latest/
           - item:
             name: AI for Earth Data Sets
