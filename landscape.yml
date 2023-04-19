@@ -2827,7 +2827,7 @@ landscape:
               A Python-based, modular and nestable implementation of the Energy Hub model (balancing demand and supply, system capacity sizing and network flows
               using Mixed-Integer Linear Programming).
             repo_url: https://gitlab.com/energyincities/python-ehub
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-victoria-2
             homepage_url: https://gitlab.com/energyincities/python-ehub
           - item:
             name: origin
@@ -2874,22 +2874,28 @@ landscape:
             name: SciGRID
             logo: SciGRID.svg
             description: The focus will be on the European transmission grids, but the methods will be applicable more generally.
+            license: Open Data Commons Open Database License v1.0
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/german-federal-ministry-of-education-and-research-bmbf
             homepage_url: https://power.scigrid.de/
           - item:
             name: mosaik
             logo: mosaik.svg
             description: A flexible Smart Grid co-simulation framework.
             repo_url: https://gitlab.com/mosaik/mosaik
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/mosaik/mosaik
+            crunchbase: https://www.crunchbase.com/organization/offis
+            homepage_url: https://mosaik.readthedocs.io/
           - item:
             name: SmartGridToolbox
             logo: SmartGridToolbox.svg
             description: Designed to provide an extensible and flexible starting point for developing a wide variety of smart grid simulations and other applications.
             repo_url: https://gitlab.com/SmartGridToolbox/SmartGridToolbox
-            unnamed_organization: true
+            additional_repos:
+              - repo_url: https://gitlab.com/SmartGridToolbox/dexter-heatmap
+              - repo_url: https://gitlab.com/SmartGridToolbox/e-network-viewer
+              - repo_url: https://gitlab.com/SmartGridToolbox/ejson-viewer
+              - repo_url: https://gitlab.com/SmartGridToolbox/sgt-viewer
+            crunchbase: https://www.crunchbase.com/organization/australian-national-university
             homepage_url: https://gitlab.com/SmartGridToolbox/SmartGridToolbox
           - item:
             name: OPEN
@@ -3616,8 +3622,8 @@ landscape:
             name: Energy Signature Analyser
             logo: Energy Signature Analyser.svg
             description: A toolbox to analyze energy signatures of buildings and compare the signatures of all buildings within an entire building stock.
+            crunchbase: https://www.crunchbase.com/organization/university-of-victoria-2
             repo_url: https://gitlab.com/energyincities/energy-signature-analyser
-            unnamed_organization: true
             homepage_url: https://gitlab.com/energyincities/energy-signature-analyser
           - item:
             name: BuildingSystems
@@ -3699,8 +3705,8 @@ landscape:
             name: BESOS
             logo: BESOS.svg
             description: A collection of modules for the simulation and optimization of buildings and urban energy systems.
+            crunchbase: https://www.crunchbase.com/organization/university-of-victoria-2
             repo_url: https://gitlab.com/energyincities/besos
-            unnamed_organization: true
             homepage_url: https://gitlab.com/energyincities/besos
           - item:
             name: pythermalcomfort
@@ -6781,13 +6787,6 @@ landscape:
             homepage_url: https://vezy.github.io/DynACof/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.1256816,https://doi.org/10.1016/j.envsoft.2019.104609'
-          - item:
-            name: EU forest tree point data
-            logo: EU forest tree point data.svg
-            description: A compilation of analysis-ready point data for the purpose of vegetation and Potential Natural Vegetation mapping for the EU.
-            repo_url: https://gitlab.com/openlandmap/eu-forest-tree-point-data
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/openlandmap/eu-forest-tree-point-data
           - item:
             name: Wildbook
             logo: Wildbook.svg
@@ -11146,8 +11145,9 @@ landscape:
               Data, services and web-apps providing access and interactive visualizations of the TB of high resolution data produced by the OpenGeoHub
               Foundation and contributing organizations.
             repo_url: https://gitlab.com/openlandmap
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/openlandmap
+            organization:
+              name: OpenLandMap
+            homepage_url: https://openlandmap.org
           - item:
             name: PyLandStats
             logo: PyLandStats.svg
