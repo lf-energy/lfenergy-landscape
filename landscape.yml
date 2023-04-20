@@ -2395,7 +2395,7 @@ landscape:
             logo: PSP-UFU.svg
             description: Open-Source Software with advanced GUI features and CAD tools for electrical power system studies.
             repo_url: https://github.com/Thales1330/PSP
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/federal-university-of-uberlandia
             homepage_url: https://thales1330.github.io/PSP/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/64333860,https://doi.org/10.1002/2050-7038.12185,https://doi.org/10.1177/0020720919879058'
@@ -3868,8 +3868,10 @@ landscape:
               A whole house energy assessment tool, which models a building to produce a report to help householders under how their home performs now in terms
               of energy use and how it might be improved.
             repo_url: https://gitlab.com/retrofitcoop/macquette
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/retrofitcoop/macquette
+            license: GNU Affero General Public License v3.0
+            organization:
+              name: People Powered Retrofit
+            homepage_url: https://retrofitcoop.gitlab.io/macquette/index.html
           - item:
             name: Urban Multi-scale Environmental Predictor
             logo: Urban Multi-scale Environmental Predictor.svg
@@ -4624,8 +4626,9 @@ landscape:
             name: H2020 CATALYST
             logo: H2020 CATALYST.svg
             description: Converting data centres in energy flexibility ecosystems.
+            license: GNU Lesser General Public License v3.0
             repo_url: https://gitlab.com/project-catalyst
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://gitlab.com/project-catalyst
           - item:
             name: Energy-Languages
@@ -4766,13 +4769,6 @@ landscape:
               topics: google-cloud,carbon-emissions,carbon-free
             crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://github.com/GoogleCloudPlatform/region-carbon-info
-          - item:
-            name: Carbon-API-2.0
-            logo: Carbon-API-2.0.svg
-            description: Estimating the carbon emissions per page on thousands of sites by looking at the amount of data that they transfer on load.
-            repo_url: https://gitlab.com/wholegrain/carbon-api-2-0
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/wholegrain/carbon-api-2-0
           - item:
             name: FEEP
             logo: FEEP.svg
@@ -5026,9 +5022,9 @@ landscape:
             name: blockchain-carbon-accounting
             logo: blockchain-carbon-accounting.svg
             description: Code of the Carbon Accounting and Certification Working Group.
-            repo_url: https://github.com/opentaps/blockchain-carbon-accounting
-            unnamed_organization: true
-            homepage_url: https://github.com/opentaps/blockchain-carbon-accounting
+            repo_url: https://github.com/hyperledger-labs/blockchain-carbon-accounting
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            homepage_url: https://wiki.hyperledger.org/display/CASIG/Carbon+Accounting+and+Certification+WG
           - item:
             name: footprint
             logo: footprint.svg
@@ -6205,8 +6201,9 @@ landscape:
             logo: OpenSimRoot.svg
             description: Source code for simulating root architecture, nutrient and water uptake and more.
             repo_url: https://gitlab.com/rootmodels/OpenSimRoot
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/rootmodels/OpenSimRoot
+            license: GNU General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
+            homepage_url: https://rootmodels.gitlab.io/OpenSimRoot/
           - item:
             name: PyETo
             logo: PyETo.svg
@@ -7215,8 +7212,10 @@ landscape:
             logo: GlaThiDa.svg
             description: Glacier Thickness Database.
             repo_url: https://gitlab.com/wgms/glathida
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/wgms/glathida
+            license: Creative Commons Attribution 4.0 International
+            organization:
+              name: World Glacier Monitoring Service
+            homepage_url: https://www.gtn-g.ch/data_catalogue_glathida/
           - item:
             name: SICOPOLIS
             logo: SICOPOLIS.svg
@@ -7276,8 +7275,9 @@ landscape:
             logo: Teaspoon.svg
             description: A python library designed to make working with permafrost ground temperature time series data more straightforward, efficient, and reproduceable.
             repo_url: https://gitlab.com/permafrostnet/teaspoon
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/permafrostnet/teaspoon
+            license: GNU General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/nserc-natural-sciences-and-engineering-research-council-of-canada
+            homepage_url: https://permafrostnet.gitlab.io/teaspoon
           - item:
             name: BioSNICAR
             logo: BioSNICAR.svg
@@ -8163,7 +8163,7 @@ landscape:
             logo: met.3D.svg
             description: Interactive three-dimensional visualization of numerical ensemble weather predictions and similar numerical atmospheric model datasets.
             repo_url: https://gitlab.com/wxmetvis/met.3d
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-hamburg
             homepage_url: https://gitlab.com/wxmetvis/met.3d
           - item:
             name: pyvortex
@@ -12070,7 +12070,8 @@ landscape:
             logo: XDC Model.svg
             description: Enable users, or any intereted subject, to understand and familiarize with the basic concepts of the X-Degree Compatibility methodology.
             repo_url: https://gitlab.com/xdc-model/xdc
-            unnamed_organization: true
+            license: GNU Affero General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/right-based-on-science
             homepage_url: https://gitlab.com/xdc-model/xdc
           - item:
             name: gfer
