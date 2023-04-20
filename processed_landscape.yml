@@ -1655,7 +1655,7 @@ landscape:
               start_date: '2019-08-22T10:21:57Z'
             image_data:
               fileName: ion-monger.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 4FTPvhr2/Sp5xTsxNQJTq++iHwFIS/XFkHSqtHKUMZ0=
             best_practice_data:
               badge: false
               percentage: null
@@ -13664,21 +13664,29 @@ landscape:
             logo: PSP-UFU.svg
             description: Open-Source Software with advanced GUI features and CAD tools for electrical power system studies.
             repo_url: https://github.com/Thales1330/PSP
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/federal-university-of-uberlandia
             homepage_url: https://thales1330.github.io/PSP/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/64333860,https://doi.org/10.1002/2050-7038.12185,https://doi.org/10.1177/0020720919879058'
               topics: >-
                 psp-ufu,power-system-simulation,power-flow,short-circuit,stability,harmonics,educational-software,research,industry-aplication,graphical-user-interface,computer-aided-design,synchronous-machine,user-defined-control,induction-motors,free-and-open-source-software,open-source-project,free-libre-open-source-software
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Federal University of Uberlândia
+              description: Federal University of Uberlândia is a university.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.ufu.br
+              city: Uberlândia
+              region: Minas Gerais
+              country: Brazil
+              twitter: https://www.twitter.com/ufu_oficial
+              linkedin: https://www.linkedin.com/school/ufuoficial/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
             github_data:
               languages:
                 - name: C++
@@ -13732,7 +13740,7 @@ landscape:
               badge: 3287
               percentage: 100
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T15:07:28.000Z
           - item:
             name: Energy Policy Simulator
             logo: Energy Policy Simulator.svg
@@ -20328,12 +20336,28 @@ landscape:
             logo: RC_BuildingSimulator.svg
             description: A Resistance Capacitance Model for an Energetic Simulation of a Building.
             repo_url: https://github.com/architecture-building-systems/RC_BuildingSimulator
-            organization:
-              name: Architecture and Building Systems
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             homepage_url: https://github.com/architecture-building-systems/RC_BuildingSimulator
             crunchbase_data:
-              name: Architecture and Building Systems
+              name: ETH Zurich
+              description: ETH Zurich is a Switzerland-based engineering, science, technology, mathematics, and management university.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.ethz.ch
+              city: Zürich
+              region: Zurich
+              country: Switzerland
+              twitter: https://twitter.com/eth
+              linkedin: https://www.linkedin.com/school/4923
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - 3D Technology
+                - Education
+                - Higher Education
+                - Universities
             github_data:
               languages:
                 - name: Python
@@ -20361,10 +20385,12 @@ landscape:
               start_date: '2016-02-29T13:35:47Z'
             image_data:
               fileName: rc-building-simulator.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: IHOGj1ajUxNmOTIqofIJmPHGdTT/PEF3D7xtu+VDvUo=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-19T10:06:30.000Z
           - item:
             name: City Energy Analyst
             logo: City Energy Analyst.svg
@@ -20372,14 +20398,30 @@ landscape:
               Helps you to analyze the effects of building retrofits, land-use planning, district heating and cooling and renewable energy on the future costs,
               emissions and energy consumption of neighborhoods and districts.
             repo_url: https://github.com/architecture-building-systems/CityEnergyAnalyst
-            organization:
-              name: Architecture and Building Systems
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             homepage_url: https://github.com/architecture-building-systems/CityEnergyAnalyst
             extra:
               refs: ',https://doi.org/10.5281/zenodo.6494266\n'
             crunchbase_data:
-              name: Architecture and Building Systems
+              name: ETH Zurich
+              description: ETH Zurich is a Switzerland-based engineering, science, technology, mathematics, and management university.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.ethz.ch
+              city: Zürich
+              region: Zurich
+              country: Switzerland
+              twitter: https://twitter.com/eth
+              linkedin: https://www.linkedin.com/school/4923
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - 3D Technology
+                - Education
+                - Higher Education
+                - Universities
             github_data:
               languages:
                 - name: Python
@@ -20421,10 +20463,12 @@ landscape:
               start_date: '2016-01-12T10:02:17Z'
             image_data:
               fileName: city-energy-analyst.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: MpO7dfqz5H6wz2fxAHuPcbSyXGWdw8v55RqbX2DvXZE=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-19T10:06:30.000Z
           - item:
             name: Modelica Buildings library
             logo: Modelica Buildings library.svg
@@ -22499,27 +22543,21 @@ landscape:
               A whole house energy assessment tool, which models a building to produce a report to help householders under how their home performs now in terms
               of energy use and how it might be improved.
             repo_url: https://gitlab.com/retrofitcoop/macquette
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/retrofitcoop/macquette
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            license: GNU Affero General Public License v3.0
+            organization:
+              name: People Powered Retrofit
+            homepage_url: https://retrofitcoop.gitlab.io/macquette/index.html
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: People Powered Retrofit
               parents: []
             repos:
               - url: https://gitlab.com/retrofitcoop/macquette
             image_data:
               fileName: macquette.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: h73h5g4Q8u4OOIvcczb9uvg4qJlJX55o6MvxboNFw3o=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Urban Multi-scale Environmental Predictor
             logo: Urban Multi-scale Environmental Predictor.svg
@@ -27337,28 +27375,37 @@ landscape:
             name: H2020 CATALYST
             logo: H2020 CATALYST.svg
             description: Converting data centres in energy flexibility ecosystems.
+            license: GNU Lesser General Public License v3.0
             repo_url: https://gitlab.com/project-catalyst
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://gitlab.com/project-catalyst
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: European Commission
+              description: The European Commission is an institution of the European Union, responsible for proposing legislation and implementing decisions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://ec.europa.eu/commission/index_en
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              twitter: https://twitter.com/EU_commission
+              linkedin: https://www.linkedin.com/company/european-commission/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Government
             repos:
               - url: https://gitlab.com/project-catalyst
             image_data:
               fileName: h2020-catalyst.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: joCaxheeAQhD1wt6DYqCxyn8APA9DccI+FCRF/mi0WM=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T14:05:12.000Z
           - item:
             name: Energy-Languages
             logo: Energy-Languages.svg
@@ -28689,32 +28736,6 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-04-03T19:05:35.000Z
           - item:
-            name: Carbon-API-2.0
-            logo: Carbon-API-2.0.svg
-            description: Estimating the carbon emissions per page on thousands of sites by looking at the amount of data that they transfer on load.
-            repo_url: https://gitlab.com/wholegrain/carbon-api-2-0
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/wholegrain/carbon-api-2-0
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
-              parents: []
-            repos:
-              - url: https://gitlab.com/wholegrain/carbon-api-2-0
-            image_data:
-              fileName: carbon-api-2-0.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
-          - item:
             name: FEEP
             logo: FEEP.svg
             description: Improve the energy efficiency of free and open source software.
@@ -30017,28 +30038,39 @@ landscape:
             name: blockchain-carbon-accounting
             logo: blockchain-carbon-accounting.svg
             description: Code of the Carbon Accounting and Certification Working Group.
-            repo_url: https://github.com/opentaps/blockchain-carbon-accounting
-            unnamed_organization: true
-            homepage_url: https://github.com/opentaps/blockchain-carbon-accounting
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            repo_url: https://github.com/hyperledger-labs/blockchain-carbon-accounting
+            crunchbase: https://www.crunchbase.com/organization/hyperledger-2
+            homepage_url: https://wiki.hyperledger.org/display/CASIG/Carbon+Accounting+and+Certification+WG
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
-              parents: []
+              name: Hyperledger
+              description: Hyperledger is an open source collaborative effort created to advance cross-industry blockchain technologies.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://www.hyperledger.org/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/Hyperledger
+              linkedin: https://www.linkedin.com/company/hyperledger-project/
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/linux-foundation
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Blockchain
+                - Linux
+                - Open Source
             github_data:
               languages:
                 - name: TypeScript
-                  value: 1299317
+                  value: 1313034
                   color: '#2b7489'
                 - name: JavaScript
-                  value: 284269
+                  value: 285945
                   color: '#f1e05a'
                 - name: Shell
-                  value: 160816
+                  value: 159280
                   color: '#89e051'
                 - name: Solidity
                   value: 134981
@@ -30058,25 +30090,31 @@ landscape:
                 - name: CSS
                   value: 5518
                   color: '#563d7c'
+                - name: Just
+                  value: 3027
                 - name: HCL
                   value: 1653
                 - name: Makefile
                   value: 446
                   color: '#427819'
-              contributions: 73;37;48;112;85;108;71;90;83;40;58;14;27;13;3;20;10;8;13;18;11;20;23;0;17;6;4;6;17;11;15;11;1;5;5;9;13;0;0;1;1;0;2;0;1;2;1;15;0;3;8;0
-              firstWeek: 2022-04-03Z
-              stars: 21
+              contributions: 87;105;82;81;71;81;47;22;30;13;7;17;6;12;8;24;12;14;28;3;17;1;7;7;7;20;12;13;3;3;7;6;15;2;0;1;0;1;2;1;0;1;2;2;16;3;1;8;2;0;0;0
+              firstWeek: 2022-04-24Z
+              stars: 149
               license: Apache License 2.0
-              description: null
-              latest_commit_date: '2023-03-16T20:35:11Z'
-              latest_commit_link: /opentaps/blockchain-carbon-accounting/commit/70819972bc19fb49bffdabf9e3555ec49686817a
+              description: >-
+                This project implements blockchain applications for climate action and accounting, including emissions calculations, carbon trading, and
+                validation of climate claims.  It is part of the Linux Foundation's Hyperledger Climate Action and Accounting SIG.
+              latest_commit_date: '2023-03-28T16:08:25Z'
+              latest_commit_link: /hyperledger-labs/blockchain-carbon-accounting/commit/5d78c30425e85f13b6818473f965104af9f72d5a
+              release_date: '2021-12-20T17:16:48Z'
+              release_link: https://github.com/hyperledger-labs/blockchain-carbon-accounting/releases
               contributors_count: 35
-              contributors_link: https://github.com/opentaps/blockchain-carbon-accounting/graphs/contributors
+              contributors_link: https://github.com/hyperledger-labs/blockchain-carbon-accounting/graphs/contributors
             repos:
-              - url: https://github.com/opentaps/blockchain-carbon-accounting
-                stars: 21
+              - url: https://github.com/hyperledger-labs/blockchain-carbon-accounting
+                stars: 149
             github_start_commit_data:
-              start_commit_link: /opentaps/blockchain-carbon-accounting/commit/e87cbf13216978c75094ea85f64861df3bbccf32
+              start_commit_link: /hyperledger-labs/blockchain-carbon-accounting/commit/e87cbf13216978c75094ea85f64861df3bbccf32
               start_date: '2020-08-13T22:34:16Z'
             image_data:
               fileName: blockchain-carbon-accounting.svg
@@ -30085,7 +30123,7 @@ landscape:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T13:50:26.000Z
           - item:
             name: footprint
             logo: footprint.svg
@@ -35816,27 +35854,39 @@ landscape:
             logo: OpenSimRoot.svg
             description: Source code for simulating root architecture, nutrient and water uptake and more.
             repo_url: https://gitlab.com/rootmodels/OpenSimRoot
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/rootmodels/OpenSimRoot
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            license: GNU General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
+            homepage_url: https://rootmodels.gitlab.io/OpenSimRoot/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Forschungszentrum Julich
+              description: Forschungszentrum Jülich provides research services in Germany and internationally.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.fz-juelich.de/portal/DE/Home/home_node.html
+              city: Germany
+              region: Georgia
+              country: United States
+              twitter: https://twitter.com/fz_juelich
+              linkedin: https://www.linkedin.com/company/49116?trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1425916028042%2Ctas%3AForschungszentrum+J%C3%BClich+
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Energy
+                - Energy Management
+                - Information Services
+                - Information Technology
             repos:
               - url: https://gitlab.com/rootmodels/OpenSimRoot
             image_data:
               fileName: open-sim-root.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: iB68kPj+I/Z0UczW6oxfUD7XlcxIixNvKx4JL9ZoVcE=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-31T08:40:41.000Z
           - item:
             name: PyETo
             logo: PyETo.svg
@@ -41767,27 +41817,21 @@ landscape:
             logo: GlaThiDa.svg
             description: Glacier Thickness Database.
             repo_url: https://gitlab.com/wgms/glathida
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/wgms/glathida
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            license: Creative Commons Attribution 4.0 International
+            organization:
+              name: World Glacier Monitoring Service
+            homepage_url: https://www.gtn-g.ch/data_catalogue_glathida/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: World Glacier Monitoring Service
               parents: []
             repos:
               - url: https://gitlab.com/wgms/glathida
             image_data:
               fileName: gla-thi-da.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: DXo4uuw187figZ0bJHFT4gPIij53gEbJBl7vZtDW0wI=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: SICOPOLIS
             logo: SICOPOLIS.svg
@@ -42094,27 +42138,37 @@ landscape:
             logo: Teaspoon.svg
             description: A python library designed to make working with permafrost ground temperature time series data more straightforward, efficient, and reproduceable.
             repo_url: https://gitlab.com/permafrostnet/teaspoon
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/permafrostnet/teaspoon
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            license: GNU General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/nserc-natural-sciences-and-engineering-research-council-of-canada
+            homepage_url: https://permafrostnet.gitlab.io/teaspoon
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Natural Sciences and Engineering Research Council of Canada (NSERC)
+              description: NSERC is a Canadian government agency that provides grants for research in the natural sciences and in engineering.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.nserc-crsng.gc.ca/
+              city: Ottawa
+              region: Ontario
+              country: Canada
+              twitter: https://twitter.com/nserc_crsng
+              linkedin: https://www.linkedin.com/company/natural-sciences-and-engineering-research-council-of-canada/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Government
             repos:
               - url: https://gitlab.com/permafrostnet/teaspoon
             image_data:
               fileName: teaspoon.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: APZ8c5vP4edBZmAlV2un12dxb8csfFXVHSAKCxyacGk=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T14:33:31.000Z
           - item:
             name: BioSNICAR
             logo: BioSNICAR.svg
@@ -47619,27 +47673,35 @@ landscape:
             logo: met.3D.svg
             description: Interactive three-dimensional visualization of numerical ensemble weather predictions and similar numerical atmospheric model datasets.
             repo_url: https://gitlab.com/wxmetvis/met.3d
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-hamburg
             homepage_url: https://gitlab.com/wxmetvis/met.3d
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Hamburg
+              description: With about 38,000 students, the University of Hamburg is one of Germany's largest universities.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.uni-hamburg.de
+              city: Hamburg
+              region: Hamburg
+              country: Germany
+              twitter: http://twitter.com/unihh
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Universities
             repos:
               - url: https://gitlab.com/wxmetvis/met.3d
             image_data:
               fileName: met-3-d.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: UAT9tsRWSxRo0lfqBSAHOqv1DeelcTECt8dUNfgm9f4=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T15:31:50.000Z
           - item:
             name: pyvortex
             logo: pyvortex.svg
@@ -60257,15 +60319,29 @@ landscape:
             logo: The General Lake Model.svg
             description: A water balance and one-dimensional vertical stratification hydrodynamic model.
             repo_url: https://github.com/AquaticEcoDynamics/GLM
-            organization:
-              name: Aquatic EcoDynamics research group
+            crunchbase: https://www.crunchbase.com/organization/university-of-western-australia
             homepage_url: http://aquatic.science.uwa.edu.au/research/models/GLM/
             extra:
               refs: ',https://doi.org/10.5194/gmd-12-473-2019,https://doi.org/10.5194/gmd-12-473-2019'
               topics: lake,model,mixing,hydrodynamics,stratification,water,quality,ecology,glm,biogeochemical,lakes,aquatic-science,hydrology-modeling
             crunchbase_data:
-              name: Aquatic EcoDynamics research group
+              name: University of Western Australia
+              description: The University of Western Australia (UWA) is a leading Australian research university and has an international reputation for excellence.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.uwa.edu.au/
+              city: Western Junction
+              region: Tasmania
+              country: Australia
+              twitter: http://twitter.com/uwanews
+              linkedin: https://www.linkedin.com/company/university-of-western-australia
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
             github_data:
               languages:
                 - name: C
@@ -60302,10 +60378,12 @@ landscape:
               start_date: '2017-06-08T04:13:10Z'
             image_data:
               fileName: the-general-lake-model.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: wXoUFmiieiWHqVg8BOwzl55qb6m3RWz0OGzoLSRPRlw=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T05:51:22.000Z
           - item:
             name: nhdR
             logo: nhdR.svg
@@ -61027,12 +61105,29 @@ landscape:
             repo_url: https://github.com/AguaClara/aguaclara
             extra:
               topics: aguaclara,python,water-treatment
-            organization:
-              name: AguaClara
+            crunchbase: https://www.crunchbase.com/organization/cornell-university
             homepage_url: https://aguaclara.github.io/aguaclara/
             crunchbase_data:
-              name: AguaClara
+              name: Cornell University
+              description: Cornell University is a federal land-grant research university that offers major, minor, and challenging dual-degree programs.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.cornell.edu
+              city: Ithaca
+              region: New York
+              country: United States
+              twitter: http://twitter.com/Cornell
+              linkedin: https://www.linkedin.com/edu/cornell-university-18946
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Computer
+                - Education
+                - Information Technology
+                - Search Engine
             github_data:
               languages:
                 - name: Python
@@ -61057,10 +61152,12 @@ landscape:
               start_date: '2017-05-30T17:56:39Z'
             image_data:
               fileName: aguaclara.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Umf4yuWL+tj+kF1dIU5XXQVXwakcM3uXfn3ov/M7hRI=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T13:36:20.000Z
           - item:
             name: RTC-Tools
             logo: RTC-Tools.svg
@@ -61506,12 +61603,26 @@ landscape:
             repo_url: https://github.com/AquaticEcoDynamics/libaed2
             extra:
               topics: aem,water,quality,aquatic,ecology,lakes,estuaries,phytoplankton,nutrients,sediment
-            organization:
-              name: Aquatic EcoDynamics research group
+            crunchbase: https://www.crunchbase.com/organization/university-of-western-australia
             homepage_url: http://aquatic.science.uwa.edu.au/research/models/AED/
             crunchbase_data:
-              name: Aquatic EcoDynamics research group
+              name: University of Western Australia
+              description: The University of Western Australia (UWA) is a leading Australian research university and has an international reputation for excellence.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.uwa.edu.au/
+              city: Western Junction
+              region: Tasmania
+              country: Australia
+              twitter: http://twitter.com/uwanews
+              linkedin: https://www.linkedin.com/company/university-of-western-australia
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
             github_data:
               languages:
                 - name: Fortran
@@ -61542,10 +61653,12 @@ landscape:
               start_date: '2016-01-25T06:07:04Z'
             image_data:
               fileName: aed2.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: hvD87Z8geHJAJJESUuhRd5itQOK3RwvB/uH2aCAZ/So=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T05:51:22.000Z
           - item:
             name: DORiE
             logo: DORiE.svg
@@ -66137,6 +66250,7 @@ landscape:
             name: ApsimX
             logo: ApsimX.svg
             description: An agricultural modeling framework used extensively worldwide.
+            project_org: https://github.com/APSIMInitiative
             repo_url: https://github.com/APSIMInitiative/ApsimX
             organization:
               name: APSIM Initiative
@@ -66145,58 +66259,153 @@ landscape:
               name: APSIM Initiative
               parents: []
             github_data:
+              description: ''
+              contributors_count: 58
+              contributions: >-
+                29;12;14;40;44;45;64;41;12;31;51;33;31;36;35;60;18;42;51;34;25;19;7;14;15;41;13;40;27;49;85;35;18;5;3;0;5;1;6;27;34;56;39;34;23;15;12;23;27;33;19;15
+              stars: 146
               languages:
                 - name: C#
-                  value: 13842080
+                  value: 33756949
                   color: '#178600'
+                - name: Fortran
+                  value: 7028299
+                  color: '#4d41b1'
+                - name: C++
+                  value: 5261777
+                  color: '#f34b7d'
                 - name: TeX
-                  value: 4180699
+                  value: 4190751
                   color: '#3D6117'
                 - name: Jupyter Notebook
                   value: 947284
                   color: '#DA5B0B'
+                - name: Visual Basic .NET
+                  value: 451819
+                - name: HTML
+                  value: 443751
+                  color: '#e34c26'
                 - name: Shell
-                  value: 130629
+                  value: 162413
                   color: '#89e051'
-                - name: Roff
-                  value: 51229
-                  color: '#ecdebe'
-                - name: Python
-                  value: 21756
-                  color: '#3572A5'
-                - name: Inno Setup
-                  value: 18179
-                - name: Batchfile
-                  value: 17457
-                  color: '#C1F12E'
-                - name: R
-                  value: 10453
-                  color: '#198CE7'
-                - name: XSLT
-                  value: 3385
-                  color: '#EB8CEB'
+                - name: Tcl
+                  value: 146188
+                  color: '#e4cc98'
                 - name: CSS
-                  value: 2676
+                  value: 143622
                   color: '#563d7c'
-              contributions: >-
-                49;39;15;30;12;8;33;27;38;66;34;24;24;32;49;24;56;14;62;27;29;47;43;21;37;10;1;23;17;36;33;19;22;88;66;12;6;5;3;1;4;1;14;13;53;45;34;27;18;17;6;21
-              firstWeek: 2022-04-03Z
-              stars: 103
+                - name: Roff
+                  value: 141728
+                  color: '#ecdebe'
+                - name: R
+                  value: 124277
+                  color: '#198CE7'
+                - name: ASP.NET
+                  value: 86955
+                - name: C
+                  value: 67709
+                  color: '#555555'
+                - name: Makefile
+                  value: 64713
+                  color: '#427819'
+                - name: Batchfile
+                  value: 51030
+                  color: '#C1F12E'
+                - name: Python
+                  value: 47285
+                  color: '#3572A5'
+                - name: Go
+                  value: 38736
+                  color: '#00ADD8'
+                - name: Inno Setup
+                  value: 28727
+                - name: JavaScript
+                  value: 26588
+                  color: '#f1e05a'
+                - name: XSLT
+                  value: 24170
+                  color: '#EB8CEB'
+                - name: ASP
+                  value: 14099
+                  color: '#6a40fd'
+                - name: Dockerfile
+                  value: 12079
+                  color: '#384d54'
+                - name: TSQL
+                  value: 4858
+                - name: sed
+                  value: 2633
+                  color: '#64b970'
+                - name: PowerShell
+                  value: 779
+                  color: '#012456'
+                - name: Assembly
+                  value: 470
+                  color: '#6E4C13'
+                - name: VBScript
+                  value: 55
+              latest_commit_link: /APSIMInitiative/ApsimX/commit/d6e110ca669606a640804cd6f2ed9fb9668d1906
+              latest_commit_date: '2023-04-18T22:42:22Z'
+              firstWeek: 2022-04-24Z
               license: Other
-              description: ApsimX is the next generation of APSIM
-              latest_commit_date: '2023-03-23T04:09:53Z'
-              latest_commit_link: /APSIMInitiative/ApsimX/commit/60319632048d1e5249a85d1dbae980f77b3ceb19
-              contributors_count: 94
               contributors_link: https://github.com/APSIMInitiative/ApsimX/graphs/contributors
             repos:
               - url: https://github.com/APSIMInitiative/ApsimX
                 stars: 103
+              - url: https://github.com/APSIMInitiative/APSIMClassic
+                stars: 24
+              - url: https://github.com/APSIMInitiative/ApsimOnR
+                stars: 4
+              - url: https://github.com/APSIMInitiative/APSoil
+                stars: 4
+              - url: https://github.com/APSIMInitiative/APSIMWheatPhenology
+                stars: 3
+              - url: https://github.com/APSIMInitiative/APSIM.Docker
+                stars: 2
+              - url: https://github.com/APSIMInitiative/ReferencePanel
+                stars: 2
+              - url: https://github.com/APSIMInitiative/apsim-downloads
+                stars: 2
+              - url: https://github.com/APSIMInitiative/POAMA
+                stars: 1
+              - url: https://github.com/APSIMInitiative/APSIM.Client
+                stars: 1
+              - url: https://github.com/APSIMInitiative/APSIM.Shared
+                stars: 0
+              - url: https://github.com/APSIMInitiative/APSIM.Cloud
+                stars: 0
+              - url: https://github.com/APSIMInitiative/APSIM.Builds
+                stars: 0
+              - url: https://github.com/APSIMInitiative/APSIM.Registration
+                stars: 0
+              - url: https://github.com/APSIMInitiative/APSIM.Soils
+                stars: 0
+              - url: https://github.com/APSIMInitiative/APSIM.PerformanceTests
+                stars: 0
+              - url: https://github.com/APSIMInitiative/AzureJobManager
+                stars: 0
+              - url: https://github.com/APSIMInitiative/ApsimIssues
+                stars: 0
+              - url: https://github.com/APSIMInitiative/R-APSIM
+                stars: 0
+              - url: https://github.com/APSIMInitiative/APSIM.ComputeCloud
+                stars: 0
+              - url: https://github.com/APSIMInitiative/Jenkins
+                stars: 0
+              - url: https://github.com/APSIMInitiative/apsim-mac
+                stars: 0
+              - url: https://github.com/APSIMInitiative/apsim-web
+                stars: 0
+              - url: https://github.com/APSIMInitiative/apsim-notes
+                stars: 0
+              - url: https://github.com/APSIMInitiative/APSIM-Classic-Wheat-Doc
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /APSIMInitiative/ApsimX/commit/78b74b90163278a9daf3c79e9bf4fbcd4a556bb5
-              start_date: '2013-08-21T22:43:21Z'
+              start_commit_link: /APSIMInitiative/APSIMClassic/commit/f6c500e045fa9667cdd63180e36a9ac0162019ce
+              start_date: '2009-04-23T04:08:35Z'
             image_data:
               fileName: apsim-x.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: kQSKoJJ9iNopUE8/kNvRLUWFXnURFVBLpfk8kfKScIo=
             best_practice_data:
               badge: false
               percentage: null
@@ -70136,27 +70345,35 @@ landscape:
             logo: XDC Model.svg
             description: Enable users, or any intereted subject, to understand and familiarize with the basic concepts of the X-Degree Compatibility methodology.
             repo_url: https://gitlab.com/xdc-model/xdc
-            unnamed_organization: true
+            license: GNU Affero General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/right-based-on-science
             homepage_url: https://gitlab.com/xdc-model/xdc
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: right. based on science
+              description: right. based on science operates as a scientific climate data start-up.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.right-basedonscience.de/
+              city: Frankfurt
+              region: Hessen
+              country: Germany
+              twitter: https://twitter.com/rightxdc
+              linkedin: https://www.linkedin.com/company/right.basedonscience/
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
             repos:
               - url: https://gitlab.com/xdc-model/xdc
             image_data:
               fileName: xdc-model.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 24anZhDheBk4de7s3bSIZvMECQpSyv3lpP7Z+tfC3ZA=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: gfer
             logo: gfer.svg

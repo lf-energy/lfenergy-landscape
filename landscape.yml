@@ -3510,8 +3510,7 @@ landscape:
             logo: RC_BuildingSimulator.svg
             description: A Resistance Capacitance Model for an Energetic Simulation of a Building.
             repo_url: https://github.com/architecture-building-systems/RC_BuildingSimulator
-            organization:
-              name: Architecture and Building Systems
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             homepage_url: https://github.com/architecture-building-systems/RC_BuildingSimulator
           - item:
             name: City Energy Analyst
@@ -3520,8 +3519,7 @@ landscape:
               Helps you to analyze the effects of building retrofits, land-use planning, district heating and cooling and renewable energy on the future costs,
               emissions and energy consumption of neighborhoods and districts.
             repo_url: https://github.com/architecture-building-systems/CityEnergyAnalyst
-            organization:
-              name: Architecture and Building Systems
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             homepage_url: https://github.com/architecture-building-systems/CityEnergyAnalyst
             extra:
               refs: ',https://doi.org/10.5281/zenodo.6494266\n'
@@ -10232,8 +10230,7 @@ landscape:
             logo: The General Lake Model.svg
             description: A water balance and one-dimensional vertical stratification hydrodynamic model.
             repo_url: https://github.com/AquaticEcoDynamics/GLM
-            organization:
-              name: Aquatic EcoDynamics research group
+            crunchbase: https://www.crunchbase.com/organization/university-of-western-australia
             homepage_url: http://aquatic.science.uwa.edu.au/research/models/GLM/
             extra:
               refs: ',https://doi.org/10.5194/gmd-12-473-2019,https://doi.org/10.5194/gmd-12-473-2019'
@@ -10383,8 +10380,7 @@ landscape:
             repo_url: https://github.com/AguaClara/aguaclara
             extra:
               topics: aguaclara,python,water-treatment
-            organization:
-              name: AguaClara
+            crunchbase: https://www.crunchbase.com/organization/cornell-university
             homepage_url: https://aguaclara.github.io/aguaclara/
           - item:
             name: RTC-Tools
@@ -10469,8 +10465,7 @@ landscape:
             repo_url: https://github.com/AquaticEcoDynamics/libaed2
             extra:
               topics: aem,water,quality,aquatic,ecology,lakes,estuaries,phytoplankton,nutrients,sediment
-            organization:
-              name: Aquatic EcoDynamics research group
+            crunchbase: https://www.crunchbase.com/organization/university-of-western-australia
             homepage_url: http://aquatic.science.uwa.edu.au/research/models/AED/
           - item:
             name: DORiE
@@ -11372,6 +11367,7 @@ landscape:
             name: ApsimX
             logo: ApsimX.svg
             description: An agricultural modeling framework used extensively worldwide.
+            project_org: https://github.com/APSIMInitiative
             repo_url: https://github.com/APSIMInitiative/ApsimX
             organization:
               name: APSIM Initiative
