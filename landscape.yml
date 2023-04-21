@@ -636,8 +636,7 @@ landscape:
             repo_url: https://github.com/WISDEM/WISDEM
             extra:
               topics: openmdao,systems-engineering,wisdem,wind
-            organization:
-              name: WISDEM
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://www.nrel.gov/wind/systems-engineering.html
           - item:
             name: WOMBAT
@@ -646,8 +645,7 @@ landscape:
             repo_url: https://github.com/WISDEM/WOMBAT
             extra:
               topics: simulation,wind-energy,python3,simpy,operations-maintenance
-            organization:
-              name: WISDEM
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://wisdem.github.io/WOMBAT/
           - item:
             name: LandBOSSE
@@ -656,8 +654,7 @@ landscape:
               The Land-based Balance-of-System Systems Engineering model is a systems engineering tool that estimates the balance-of-system costs associated
               with installing utility scale wind plants (10, 1.5 MW turbines or larger).
             repo_url: https://github.com/WISDEM/LandBOSSE
-            organization:
-              name: WISDEM
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/WISDEM/LandBOSSE
           - item:
             name: OpenMDAO
@@ -742,8 +739,7 @@ landscape:
               Offshore Renewable Balance-of-system Installation Tool computes capital costs and activity times for offshore wind plant balance-of-system
               (everything besides the turbine) costs.
             repo_url: https://github.com/WISDEM/ORBIT
-            organization:
-              name: WISDEM
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://wisdem.github.io/ORBIT/
           - item:
             name: WindTurbineClassification
@@ -799,8 +795,7 @@ landscape:
             logo: WEIS.svg
             description: WEIS is a framework that combines multiple tools to enable design optimization of floating offshore wind turbines.
             repo_url: https://github.com/WISDEM/WEIS
-            organization:
-              name: WISDEM
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/WISDEM/WEIS
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/289320573'
@@ -908,8 +903,7 @@ landscape:
             logo: HydroPowerSimulations.jl.svg
             description: Contains extensions on PowerSystems.jl and PowerSimulations.jl to enable enhanced hydropower representations.
             repo_url: https://github.com/NREL-SIIP/HydroPowerSimulations.jl
-            organization:
-              name: NREL-SIIP
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/NREL-SIIP/HydroPowerSimulations.jl
           - item:
             name: OpenHPL
@@ -1627,8 +1621,7 @@ landscape:
             logo: PowerSimulations.jl.svg
             description: A Julia package for power system modeling and simulation of Power Systems operations.
             repo_url: https://github.com/NREL-SIIP/PowerSimulations.jl
-            organization:
-              name: NREL-SIIP
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://www.nrel.gov/analysis/siip.html
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/109443246'
@@ -1638,8 +1631,7 @@ landscape:
             logo: PowerSystems.jl.svg
             description: Provides a rigorous data model using Julia structures to enable power systems analysis and modeling.
             repo_url: https://github.com/NREL-SIIP/PowerSystems.jl
-            organization:
-              name: NREL-SIIP
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://www.nrel.gov/analysis/siip.html
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/114039584,https://doi.org/10.1016/j.softx.2021.100747'
@@ -2462,6 +2454,8 @@ landscape:
             logo: draf.svg
             description: Analysis and decision support framework for local multi-energy hubs focusing on demand response.
             repo_url: https://github.com/DrafProject/draf
+            additional_repos:
+              - repo_url: https://github.com/DrafProject/draf_demo_case_studies
             organization:
               name: The Draf Project
             homepage_url: https://github.com/DrafProject/draf
@@ -2783,8 +2777,7 @@ landscape:
             logo: InfrastructureSystems.jl.svg
             description: Provides utilities to support data models for infrastructure modeling in NREL-SIIP.
             repo_url: https://github.com/NREL-SIIP/InfrastructureSystems.jl
-            organization:
-              name: NREL-SIIP
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/NREL-SIIP/InfrastructureSystems.jl
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/202787784'
@@ -4279,12 +4272,12 @@ landscape:
             unnamed_organization: true
             homepage_url: https://citybik.es
           - item:
-            name: sustainable-mobility-api
+            name: Sustainable Mobility API
             logo: sustainable-mobility-api.svg
             description: Consists of a Python library and HTTP API for estimating the environmental impact of personal mobility.
-            repo_url: https://gitlab.com/mshepherd/sustainable-mobility-api
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/mshepherd/sustainable-mobility-api
+            repo_url: https://github.com/maasglobal/sustainable-mobility-api
+            crunchbase: https://www.crunchbase.com/organization/maas-finland
+            homepage_url: https://github.com/maasglobal/sustainable-mobility-api
           - item:
             name: ChargyDesktopApp
             logo: ChargyDesktopApp.svg
@@ -5278,9 +5271,10 @@ landscape:
             name: vein
             logo: vein.svg
             description: An R package to estimate Vehicular Emissions INventories.
-            repo_url: https://gitlab.com/ibarraespinosa/vein
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/ibarraespinosa/vein
+            repo_url: https://github.com/atmoschem/vein
+            organization:
+              name: ATMOSCHEM
+            homepage_url: https://atmoschem.github.io/vein/
           - item:
             name: The Community Emissions Data System
             logo: The Community Emissions Data System.svg
@@ -5402,8 +5396,7 @@ landscape:
             repo_url: https://github.com/CMU-CREATE-Lab/deep-smoke-machine
             extra:
               topics: deep-learning,neural-network,machine-learning,computer-vision,smoke,air-quality,python,pytorch,smoke-recognition,citizen-science
-            organization:
-              name: CMU CREATE Lab
+            crunchbase: https://www.crunchbase.com/organization/carnegie-mellon-university
             homepage_url: http://smoke.createlab.org
           - item:
             name: Ribbit Network Frog Sensor
@@ -5592,11 +5585,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/u-s-environmental-protection-agency
             homepage_url: https://github.com/USEPA/ElectricityLCI
           - item:
-            name: uslci-content
+            name: Content Repository for the U.S. Life Cycle Inventory Database (USLCI)
             logo: uslci-content.svg
             description: Supplementary content for the U.S. Life Cycle Inventory Database.
             repo_url: https://github.com/uslci-admin/uslci-content
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/uslci-admin/uslci-content
           - item:
             name: OpenLCA
@@ -5869,7 +5862,7 @@ landscape:
             logo: Santiago.jl.svg
             description: A Julia package to generate appropriate sanitation system options.
             repo_url: https://github.com/santiago-sanitation-systems/Santiago.jl
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/eawag
             homepage_url: https://github.com/santiago-sanitation-systems/Santiago.jl
             extra:
               refs: ',https://doi.org/10.1016/j.watres.2018.08.021\n\nSpuhler,https://doi.org/10.1016/j.watres.2020.116281\n\nSpuhler'
@@ -6002,8 +5995,7 @@ landscape:
             logo: DeepLidar.svg
             description: Geographic Generalization in Airborne RGB Deep Learning Tree Detection.
             repo_url: https://github.com/weecology/DeepLidar
-            organization:
-              name: Weecology
+            crunchbase: https://www.crunchbase.com/organization/university-of-florida-cd10
             homepage_url: https://github.com/weecology/DeepLidar
           - item:
             name: wildfire forecasting
@@ -6113,8 +6105,7 @@ landscape:
             logo: DeepForest.svg
             description: Python Package for Tree Crown Detection in Airborne RGB imagery.
             repo_url: https://github.com/weecology/DeepForest
-            organization:
-              name: Weecology
+            crunchbase: https://www.crunchbase.com/organization/university-of-florida-cd10
             homepage_url: https://deepforest.readthedocs.io/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.2538143'
@@ -6131,8 +6122,7 @@ landscape:
             logo: NeonTreeEvaluation.svg
             description: Benchmark dataset for tree detection for airborne RGB, Hyperspectral and LIDAR imagery.
             repo_url: https://github.com/weecology/NeonTreeEvaluation
-            organization:
-              name: Weecology
+            crunchbase: https://www.crunchbase.com/organization/university-of-florida-cd10
             homepage_url: https://github.com/weecology/NeonTreeEvaluation
           - item:
             name: PyCrown
@@ -6173,8 +6163,7 @@ landscape:
             logo: DeepTreeAttention.svg
             description: Hyperspectral Image Classification with Attention Aided CNNs.
             repo_url: https://github.com/weecology/DeepTreeAttention
-            organization:
-              name: Weecology
+            crunchbase: https://www.crunchbase.com/organization/university-of-florida-cd10
             homepage_url: https://github.com/weecology/DeepTreeAttention
           - item:
             name: rebird
@@ -8027,8 +8016,7 @@ landscape:
             logo: maja.svg
             description: An atmospheric correction and cloud screening software.
             repo_url: https://github.com/CNES/MAJA
-            organization:
-              name: CNES
+            crunchbase: https://www.crunchbase.com/organization/cnes
             homepage_url: https://gitlab.orfeo-toolbox.org/maja/maja
             extra:
               refs: ',https://doi.org/10.5281/zenodo.1209633\n\n'
@@ -9079,8 +9067,7 @@ landscape:
             repo_url: https://github.com/Unidata/MetPy
             extra:
               topics: python,atmospheric-science,meteorology,weather,plotting,scientific-computations,hodograph,skew-t,weather-data,hacktoberfest
-            organization:
-              name: Unidata
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: https://unidata.github.io/MetPy
           - item:
             name: wetterdienst
@@ -9103,8 +9090,7 @@ landscape:
             extra:
               topics: >-
                 meteorology,forecasting,hdf5,gempak,data-visualization,data-server,awips,java,spring,python,httpd-server,postgresql,hibernate,python-awips,cave,awips-data,edex,foss
-            organization:
-              name: Unidata
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: http://unidata.github.io/awips2/
       - subcategory:
         name: Climate Data Processing and Access
@@ -9378,8 +9364,7 @@ landscape:
             logo: climpact.svg
             description: Calculate the ET-SCI climate extremes indices.
             repo_url: https://github.com/ARCCSS-extremes/climpact
-            organization:
-              name: ARCCSS climate extremes
+            crunchbase: https://www.crunchbase.com/organization/australian-research-council
             homepage_url: https://github.com/ARCCSS-extremes/climpact
           - item:
             second_path:
@@ -9477,8 +9462,7 @@ landscape:
             repo_url: https://github.com/Unidata/netcdf-fortran
             extra:
               topics: netcdf-fortran,unidata,netcdf-library,dataset,hacktoberfest
-            organization:
-              name: Unidata
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: https://github.com/Unidata/netcdf-fortran
           - item:
             name: netcdf-c
@@ -9489,8 +9473,7 @@ landscape:
             repo_url: https://github.com/Unidata/netcdf-c
             extra:
               topics: netcdf,unidata,unidata-netcdf,c,hacktoberfest
-            organization:
-              name: Unidata
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: https://github.com/Unidata/netcdf-c
           - item:
             name: netcdf-python
@@ -9499,8 +9482,7 @@ landscape:
               The Unidata network Common Data Form (netCDF) in Python is an interface for scientific data access and a set of freely-distributed software
               libraries that provide an implementation of the interface.
             repo_url: https://github.com/Unidata/netcdf4-python
-            organization:
-              name: Unidata
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: http://unidata.github.io/netcdf4-python
             extra:
               refs: ',https://doi.org/10.5281/zenodo.2592290'
@@ -10198,8 +10180,7 @@ landscape:
               A team of volunteers at Code for Boston who are using data modeling, data visualization and machine learning to predict, visualize, and share data
               about the presence of hazardous drinking and surface water contaminants in the United States.
             repo_url: https://github.com/codeforboston/safe-water
-            organization:
-              name: Code for Boston
+            crunchbase: https://www.crunchbase.com/organization/code-for-america-accelerator
             homepage_url: https://github.com/codeforboston/safe-water
           - item:
             name: HydroFunctions
@@ -10219,8 +10200,7 @@ landscape:
             repo_url: https://github.com/CWatM/oldCwat
             additional_repos:
               - repo_url: https://github.com/iiasa/CWatM
-            organization:
-              name: IIASA
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://cwatm.iiasa.ac.at
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3528097'
@@ -11030,8 +11010,7 @@ landscape:
             repo_url: https://github.com/capstone-coal/pycoal
             extra:
               topics: coal,open-surface-mining,surface-mining-activities,python,classification-algorithm,classification,hyperspectral-image-classification
-            organization:
-              name: COAL Capstone
+            crunchbase: https://www.crunchbase.com/organization/oregon-state-university
             homepage_url: http://capstone-coal.github.io/
           - item:
             name: stats_for_soil_survey
@@ -12068,6 +12047,7 @@ landscape:
             repo_url: https://gitlab.com/xdc-model/xdc
             license: GNU Affero General Public License v3.0
             crunchbase: https://www.crunchbase.com/organization/right-based-on-science
+            twitter: null
             homepage_url: https://gitlab.com/xdc-model/xdc
           - item:
             name: gfer
@@ -12761,8 +12741,7 @@ landscape:
             repo_url: https://github.com/Unidata/siphon
             extra:
               topics: python,unidata,netcdf,thredds,thredds-catalogs,hacktoberfest
-            organization:
-              name: Unidata
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: https://unidata.github.io/siphon
       - subcategory:
         name: Curated Lists
