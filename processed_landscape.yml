@@ -2358,7 +2358,7 @@ landscape:
             repo_url: https://github.com/BreakingBytes/pvfree
             organization:
               name: Breaking Bytes
-            homepage_url: https://pvfree.herokuapp.com/
+            homepage_url: https://pvfree.azurewebsites.net/
             crunchbase_data:
               name: Breaking Bytes
               parents: []
@@ -2389,7 +2389,7 @@ landscape:
               start_date: '2015-02-28T08:07:29Z'
             image_data:
               fileName: pv-free.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ihCXRbJoekN/9FK4GGbl4gdxZoDpe25LpFbtkkIwH3w=
             best_practice_data:
               badge: false
               percentage: null
@@ -5463,7 +5463,7 @@ landscape:
               start_date: '2018-07-18T14:25:18Z'
             image_data:
               fileName: brightwind.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: K1R082u2n4iilRRkJ6ivD6fdiFum+kQt6juBt/A270M=
             best_practice_data:
               badge: false
               percentage: null
@@ -5829,15 +5829,30 @@ landscape:
             logo: hydro-power-database.svg
             description: Collects basic information on all the European hydro-power plants.
             repo_url: https://github.com/energy-modelling-toolkit/hydro-power-database
-            organization:
-              name: Energy Modelling Toolkit
+            crunchbase: https://www.crunchbase.com/organization/joint-research-centre
             homepage_url: https://github.com/energy-modelling-toolkit/hydro-power-database
             extra:
               topics: hydropower,energy-system,power-system-simulation
               refs: ',https://zenodo.org/badge/latestdoi/179688356,https://zenodo.org/record/3349843'
             crunchbase_data:
-              name: Energy Modelling Toolkit
-              parents: []
+              name: Joint Research Centre
+              description: Joint Research Centre provides independent scientific and technical advice to the European Commission.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://ec.europa.eu/jrc/en
+              city: Ispra
+              region: Lombardia
+              country: Italy
+              twitter: null
+              linkedin: https://www.linkedin.com/company/european-commission-joint-research-centre
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/european-commission
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Non Profit
             github_data:
               languages: []
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
@@ -5857,7 +5872,7 @@ landscape:
               start_date: '2019-04-05T13:38:24Z'
             image_data:
               fileName: hydro-power-database.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: BZSoIoD2DBDitEMn8vRhHwTSGO9z5lXAtpKTbOAnYdw=
             best_practice_data:
               badge: false
               percentage: null
@@ -7918,12 +7933,30 @@ landscape:
             logo: StorageVET.svg
             description: A valuation model for analysis of energy storage technologies and some other energy resources paired with storage.
             repo_url: https://github.com/epri-dev/StorageVET
-            organization:
-              name: EPRI
+            crunchbase: https://www.crunchbase.com/organization/epri
             homepage_url: https://www.storagevet.com
             crunchbase_data:
               name: EPRI
+              description: Electric Power Research Institute, or EPRI, conducts research on issues related to the electric power industry.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.epri.com
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/epri/
+              acquisitions: []
               parents: []
+              funding: 8999667
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Electrical Distribution
+                - Electronics
+                - Manufacturing
+                - Non Profit
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -7951,7 +7984,7 @@ landscape:
               start_date: '2020-05-21T18:46:07Z'
             image_data:
               fileName: storage-vet.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: urEk6BeSVdQKO8rBdAP9oC5ITVrxgdkMPSKcCH0Dn+4=
             best_practice_data:
               badge: false
               percentage: null
@@ -8144,7 +8177,7 @@ landscape:
             repo_url: https://github.com/BattMoTeam/BattMo
             organization:
               name: BatteryModel.com
-            homepage_url: https://github.com/BattMoTeam/BattMo
+            homepage_url: https://batterymodel.com/battmo/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/410005581\n\nThe'
             crunchbase_data:
@@ -8180,7 +8213,7 @@ landscape:
               start_date: '2020-09-22T10:44:06Z'
             image_data:
               fileName: batt-mo.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: rYMCkI2W2tD+FYd/lZvMuwjLlQs7dwK07YkgucXanEA=
             best_practice_data:
               badge: false
               percentage: null
@@ -9271,12 +9304,27 @@ landscape:
             repo_url: https://github.com/energy-modelling-toolkit/Dispa-SET
             extra:
               topics: python,dispatch,power
-            organization:
-              name: Energy Modelling Toolkit
-            homepage_url: https://github.com/energy-modelling-toolkit/Dispa-SET
+            crunchbase: https://www.crunchbase.com/organization/joint-research-centre
+            homepage_url: https://dispa-set.readthedocs.io/
             crunchbase_data:
-              name: Energy Modelling Toolkit
-              parents: []
+              name: Joint Research Centre
+              description: Joint Research Centre provides independent scientific and technical advice to the European Commission.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://ec.europa.eu/jrc/en
+              city: Ispra
+              region: Lombardia
+              country: Italy
+              twitter: null
+              linkedin: https://www.linkedin.com/company/european-commission-joint-research-centre
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/european-commission
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Non Profit
             github_data:
               languages:
                 - name: Python
@@ -9309,7 +9357,7 @@ landscape:
               start_date: '2016-02-05T18:22:35Z'
             image_data:
               fileName: dispa-set.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 6RAJmr+5urEo7Ad3FtsdqaGcIJun2gW+xvpDYcBBroM=
             best_practice_data:
               badge: false
               percentage: null
@@ -9871,6 +9919,8 @@ landscape:
             name: Balmorel
             logo: Balmorel.svg
             description: A partial equilibrium model for analyzing the electricity and combined heat and power sectors in an international perspective.
+            license: ISC License
+            project_org: https://github.com/balmorelcommunity
             repo_url: https://github.com/balmorelcommunity/Balmorel
             extra:
               topics: energy-system-model,gams,optimisation-model
@@ -9881,41 +9931,81 @@ landscape:
               name: Balmorel Community
               parents: []
             github_data:
+              description: ''
+              contributors_count: 14
+              contributions: 1;0;0;0;0;0;3;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 24
               languages:
+                - name: NASL
+                  value: 61317869
+                - name: Assembly
+                  value: 48607541
+                  color: '#6E4C13'
+                - name: HTML
+                  value: 23689338
+                  color: '#e34c26'
+                - name: Pascal
+                  value: 18890712
+                  color: '#E3F171'
                 - name: Jupyter Notebook
-                  value: 16161808
+                  value: 17328175
                   color: '#DA5B0B'
                 - name: GAMS
-                  value: 7618243
-                - name: HTML
-                  value: 312963
-                  color: '#e34c26'
-                - name: Python
-                  value: 4165
-                  color: '#3572A5'
+                  value: 11945643
+                - name: PHP
+                  value: 5274576
+                  color: '#4F5D95'
+                - name: C++
+                  value: 4626252
+                  color: '#f34b7d'
+                - name: SourcePawn
+                  value: 1742580
+                  color: '#5c7611'
+                - name: Pawn
+                  value: 41402
+                  color: '#dbb284'
                 - name: MATLAB
-                  value: 4147
+                  value: 20587
                   color: '#e16737'
-              contributions: 3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 22
-              license: Unknown License
-              description: Balmorel Model
-              latest_commit_date: '2022-03-29T12:41:13Z'
+                - name: Python
+                  value: 10917
+                  color: '#3572A5'
+                - name: M
+                  value: 4459
+                - name: POV-Ray SDL
+                  value: 290
               latest_commit_link: /balmorelcommunity/Balmorel/commit/605df52f6ccef497ec523c1bd3f004c68316c1d8
-              release_date: '2019-12-13T09:34:34Z'
-              release_link: https://github.com/balmorelcommunity/Balmorel/releases
-              contributors_count: 7
+              latest_commit_date: '2022-03-29T12:41:13Z'
+              firstWeek: 2022-04-24Z
+              license: ISC License
               contributors_link: https://github.com/balmorelcommunity/Balmorel/graphs/contributors
             repos:
               - url: https://github.com/balmorelcommunity/Balmorel
                 stars: 22
+              - url: https://github.com/balmorelcommunity/Balmorel_data
+                stars: 1
+              - url: https://github.com/balmorelcommunity/Balmorel-CM
+                stars: 1
+              - url: https://github.com/balmorelcommunity/Plotting
+                stars: 0
+              - url: https://github.com/balmorelcommunity/processing_capacities
+                stars: 0
+              - url: https://github.com/balmorelcommunity/OptiFlow
+                stars: 0
+              - url: https://github.com/balmorelcommunity/Balmorel_output
+                stars: 0
+              - url: https://github.com/balmorelcommunity/Baldata-CM
+                stars: 0
+              - url: https://github.com/balmorelcommunity/MainResults2CSV
+                stars: 0
+              - url: https://github.com/balmorelcommunity/AdvancedSensitivityAnalysis
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /balmorelcommunity/Balmorel/commit/adabc9b1d9dbd5de49e6a471a1e9e8c0ef9b3052
-              start_date: '2017-07-06T15:04:08Z'
+              start_commit_link: /balmorelcommunity/Balmorel_data/commit/3d36462c180178b866bf16383126594a0fd26e35
+              start_date: '2016-11-24T08:23:45Z'
             image_data:
               fileName: balmorel.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: V/SAJKwd5JPkVBN/pMfnwSdJxp1bvlZmE8Rw5Yiw1lU=
             best_practice_data:
               badge: false
               percentage: null
@@ -10769,12 +10859,24 @@ landscape:
               The Horizon 2020 openENTRANCE project aims at developing, using and disseminating an open, transparent and integrated modeling platform for
               assessing low-carbon transition pathways in Europe.
             repo_url: https://github.com/openENTRANCE/openentrance
-            organization:
-              name: H2020 openENTRANCE
+            crunchbase: https://www.crunchbase.com/organization/horizon-europe
             homepage_url: http://openentrance.eu
             crunchbase_data:
-              name: H2020 openENTRANCE
+              name: Horizon Europe
+              description: Horizon Europe is an European Union's research & innovation framework programme for 2021-2027.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/horizon
+              city: The Hague
+              region: Zuid-Holland
+              country: The Netherlands
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -10802,7 +10904,7 @@ landscape:
               start_date: '2020-03-13T14:21:38Z'
             image_data:
               fileName: open-entrance.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: q6tACs7D0cvRgxrsZ+ibNb4tvD08cOr2Fd+JfN9C6EU=
             best_practice_data:
               badge: false
               percentage: null
@@ -10855,64 +10957,155 @@ landscape:
             description: >-
               Aims to provide multi-scale, simulation-based, open source computational tools and models to support the design, analysis, optimization, scale-up,
               operation and troubleshooting of innovative, advanced energy systems.
+            project_org: https://github.com/IDAES
             repo_url: https://github.com/IDAES/idaes-pse
             extra:
               topics: process-systems-engineering,process-modeling,chemical-engineering
-            organization:
-              name: IDAES
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://idaes-pse.readthedocs.io/
             crunchbase_data:
-              name: IDAES
+              name: Lawrence Berkeley National Laboratory
+              description: Lawrence Berkeley National Laboratory conducts unclassified scientific research on behalf of the United States Department of Energy.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://lbl.gov
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: http://twitter.com/techLBNL
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Big Data
+                - Biotechnology
+                - Energy
+                - Market Research
+                - Nanotechnology
             github_data:
+              description: Institute for the Design of Advanced Energy Systems
+              contributors_count: 144
+              contributions: >-
+                54;61;136;100;79;29;14;70;31;51;47;39;30;74;76;92;118;62;117;47;82;100;54;93;43;64;58;154;125;57;111;152;156;62;72;26;23;87;74;88;141;154;196;92;54;49;34;11;36;58;16;10
+              stars: 170
               languages:
-                - name: Python
-                  value: 12624431
-                  color: '#3572A5'
-                - name: JavaScript
-                  value: 129506
-                  color: '#f1e05a'
-                - name: HTML
-                  value: 8700
-                  color: '#e34c26'
-                - name: PureBasic
-                  value: 8642
-                  color: '#5a6986'
-                - name: CSS
-                  value: 7357
-                  color: '#563d7c'
                 - name: Jupyter Notebook
-                  value: 5932
+                  value: 91243147
                   color: '#DA5B0B'
-                - name: Dockerfile
-                  value: 3090
-                  color: '#384d54'
+                - name: Python
+                  value: 35761838
+                  color: '#3572A5'
+                - name: C++
+                  value: 3699657
+                  color: '#f34b7d'
+                - name: HTML
+                  value: 1108382
+                  color: '#e34c26'
+                - name: Makefile
+                  value: 449613
+                  color: '#427819'
                 - name: Shell
-                  value: 329
+                  value: 418792
                   color: '#89e051'
-              contributions: 21;35;36;15;20;25;17;13;0;0;1;0;0;1;1;7;3;1;0;2;9;10;6;4;11;9;10;8;2;5;4;5;4;6;0;10;4;2;1;0;1;2;4;2;3;5;13;7;5;8;7;4
-              firstWeek: 2022-04-03Z
-              stars: 139
+                - name: C
+                  value: 263378
+                  color: '#555555'
+                - name: CSS
+                  value: 194405
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 181218
+                  color: '#f1e05a'
+                - name: TeX
+                  value: 126954
+                  color: '#3D6117'
+                - name: R
+                  value: 64381
+                  color: '#198CE7'
+                - name: JetBrains MPS
+                  value: 42542
+                - name: AMPL
+                  value: 42215
+                  color: '#E6EFBB'
+                - name: Java
+                  value: 25527
+                  color: '#b07219'
+                - name: M4
+                  value: 22872
+                - name: Dockerfile
+                  value: 19697
+                  color: '#384d54'
+                - name: GAMS
+                  value: 18633
+                - name: PureBasic
+                  value: 17284
+                  color: '#5a6986'
+                - name: CMake
+                  value: 10393
+                - name: MATLAB
+                  value: 9984
+                  color: '#e16737'
+                - name: Fortran
+                  value: 8837
+                  color: '#4d41b1'
+                - name: NASL
+                  value: 2009
+                - name: PowerShell
+                  value: 1419
+                  color: '#012456'
+                - name: Smarty
+                  value: 280
+                - name: Gnuplot
+                  value: 172
+                  color: '#f0a9f0'
+              latest_commit_link: /IDAES/idaes-pse/commit/c16b8a068d8b2aa50b7c5a38ba711095353ea34d
+              latest_commit_date: '2023-04-20T15:40:31Z'
+              firstWeek: 2022-04-24Z
               license: Other
-              description: The IDAES Process Systems Engineering Framework
-              latest_commit_date: '2023-03-23T19:23:01Z'
-              latest_commit_link: /IDAES/idaes-pse/commit/1e288513da60f41bb71825467406e2088800b3b6
-              release_date: '2023-03-03T22:40:40Z'
-              release_link: https://github.com/IDAES/idaes-pse/releases
-              contributors_count: 74
               contributors_link: https://github.com/IDAES/idaes-pse/graphs/contributors
             repos:
               - url: https://github.com/IDAES/idaes-pse
-                stars: 139
+                stars: 142
+              - url: https://github.com/IDAES/examples-pse
+                stars: 18
+              - url: https://github.com/IDAES/idaes-ext
+                stars: 5
+              - url: https://github.com/IDAES/examples
+                stars: 3
+              - url: https://github.com/IDAES/Ipopt
+                stars: 1
+              - url: https://github.com/IDAES/publications
+                stars: 1
+              - url: https://github.com/IDAES/pyomo
+                stars: 0
+              - url: https://github.com/IDAES/RegComp
+                stars: 0
+              - url: https://github.com/IDAES/addheader
+                stars: 0
+              - url: https://github.com/IDAES/devtools
+                stars: 0
+              - url: https://github.com/IDAES/idaes-compatibility
+                stars: 0
+              - url: https://github.com/IDAES/idaes-performance
+                stars: 0
+              - url: https://github.com/IDAES/idaes-ui
+                stars: 0
+              - url: https://github.com/IDAES/idaes_examples
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /IDAES/idaes-pse/commit/dfb77ad33dde604b88958e2028e88a0b31bb71ab
-              start_date: '2018-12-11T16:56:17Z'
+              start_commit_link: /IDAES/Ipopt/commit/6afa9fa918e46db3f04f6cdef92370e0ea957417
+              start_date: '2004-10-21T01:03:09Z'
             image_data:
               fileName: the-idaes-toolkit.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ocyBaMOtY7ucrYFHbfoG3aCNu7MAAMTgaoZXW7isUkw=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-10T19:35:53.000Z
           - item:
             name: Temoa
             logo: Temoa.svg
@@ -13370,7 +13563,7 @@ landscape:
               start_date: '2016-08-08T22:04:51Z'
             image_data:
               fileName: grid-path.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ZnD4G/lDbQDafssALrlNI/b/TqEKTDUMOCG6wDnCGEc=
             best_practice_data:
               badge: false
               percentage: null
@@ -16466,12 +16659,28 @@ landscape:
             logo: origin.svg
             description: A set of toolkits that together provide a system for issuance and management of Energy Attribute Certificates.
             repo_url: https://github.com/energywebfoundation/origin
-            organization:
-              name: Energy Web Foundation
+            crunchbase: https://www.crunchbase.com/organization/energy-web-foundation
             homepage_url: https://energyweb.org/technology/ew-origin/
             crunchbase_data:
               name: Energy Web Foundation
+              description: Energy Web Foundation is a non-profit organization focused on accelerating blockchain technology across the energy sector.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://energyweb.org
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/energywebx
+              linkedin: https://www.linkedin.com/company/energy-web-foundation
+              acquisitions: []
               parents: []
+              funding: 2500000
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Blockchain
+                - Information Technology
+              kind: funding
             github_data:
               languages:
                 - name: TypeScript
@@ -16514,10 +16723,68 @@ landscape:
               start_date: '2019-08-14T08:43:17Z'
             image_data:
               fileName: origin.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: gD3XjqXJK032ycpYGWx5PIdk99oyqjj2/aPAobKR9hM=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-02T17:45:56.000Z
+          - item:
+            second_path: Customer and Market / Customer Response
+            name: The Energy Web Chain
+            description: >-
+              The Energy Web Chain is a public, enterprise-grade blockchain platform designed for the energy sector’s regulatory, operational, and market needs.
+              Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run
+              blockchain-based decentralized applications (dApps).
+            homepage_url: https://github.com/energywebfoundation/paper
+            repo_url: https://github.com/energywebfoundation/paper
+            logo: the-energy-web-chain-text.svg
+            crunchbase: https://www.crunchbase.com/organization/energy-web-foundation
+            crunchbase_data:
+              name: Energy Web Foundation
+              description: Energy Web Foundation is a non-profit organization focused on accelerating blockchain technology across the energy sector.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://energyweb.org
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/energywebx
+              linkedin: https://www.linkedin.com/company/energy-web-foundation
+              acquisitions: []
+              parents: []
+              funding: 2500000
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Blockchain
+                - Information Technology
+              kind: funding
+            github_data:
+              languages: []
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2022-04-24Z
+              stars: 29
+              license: GNU General Public License v3.0
+              description: 'The Energy Web Chain: Accelerating the Energy Transition with an Open-Source, Decentralized Blockchain Platform'
+              latest_commit_date: '2019-07-15T21:24:31Z'
+              latest_commit_link: /energywebfoundation/paper/commit/1918d7f7efa88f2f3423e16b4bda72aca497e698
+              contributors_count: 2
+              contributors_link: https://github.com/energywebfoundation/paper/graphs/contributors
+            repos:
+              - url: https://github.com/energywebfoundation/paper
+                stars: 29
+            github_start_commit_data:
+              start_commit_link: /energywebfoundation/paper/commit/be6f4960f8c27fdc54ab6870cf6a7c5ddad0612d
+              start_date: '2018-10-08T12:52:29Z'
+            image_data:
+              fileName: the-energy-web-chain.svg
+              hash: e1SXUeYUG4O/+VRtk1RTvotXh9B/sZB4S6+UedxDyxk=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-02T17:45:56.000Z
           - item:
             name: Grid Singularity Energy Exchange Engine (D3A)
             logo: Grid Singularity Energy Exchange Engine (D3A).svg
@@ -16756,6 +17023,7 @@ landscape:
             name: SmartGridToolbox
             logo: SmartGridToolbox.svg
             description: Designed to provide an extensible and flexible starting point for developing a wide variety of smart grid simulations and other applications.
+            license: Apache License 2.0
             repo_url: https://gitlab.com/SmartGridToolbox/SmartGridToolbox
             crunchbase: https://www.crunchbase.com/organization/australian-national-university
             homepage_url: https://gitlab.com/SmartGridToolbox/SmartGridToolbox
@@ -19706,20 +19974,36 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-03-31T08:40:41.000Z
           - item:
-            name: The-building-data-genome-project
+            name: Building Data Genome Project
             logo: The-building-data-genome-project.svg
             description: A collection of non-residential buildings for performance analysis and algorithm benchmarking.
             repo_url: https://github.com/buds-lab/the-building-data-genome-project
-            organization:
-              name: Building and Urban Data Science (BUDS) Group
+            crunchbase: https://www.crunchbase.com/organization/national-university-of-singapore
             homepage_url: http://www.buildingdatagenome.org
             extra:
               refs: ',https://doi.org/10.1016/j.egypro.2017.07.400,https://doi.org/10.1016/j.egypro.2017.07.400",\nurl'
               topics: >-
                 open-data,jupyter-notebook,electricity-meter,commercial-building,energy-efficiency,electrical-meters,smart-meter,temporal-data,feature-extraction,feature-engineering
             crunchbase_data:
-              name: Building and Urban Data Science (BUDS) Group
+              name: National University of Singapore
+              description: National University of Singapore operates as a national research university.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.nus.edu.sg
+              city: Singapore
+              region: Central Region
+              country: Singapore
+              twitter: http://twitter.com/NUSingapore
+              linkedin: https://www.linkedin.com/edu/school?id=17114&trk=edu-up-nav-menu-home
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Business Development
+                - Education
+                - Higher Education
+                - Universities
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -19747,11 +20031,13 @@ landscape:
               start_commit_link: /buds-lab/the-building-data-genome-project/commit/0fbde86ed1c9365328004a967aadd250ab86d31c
               start_date: '2016-05-04T04:06:43Z'
             image_data:
-              fileName: the-building-data-genome-project.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: building-data-genome-project.svg
+              hash: FhY2luAri35xQqG8x0tv4a1Zw5Bopon2wMfeEvFEHnM=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T10:00:01.000Z
           - item:
             second_path:
               - Acquisition and Control / Central Hub
@@ -21820,12 +22106,11 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: The Building Data Genome 2 Data-Set
+            name: Building Data Genome Project 2
             logo: The Building Data Genome 2 Data-Set.svg
             description: Whole building non-residential hourly energy meter data from the Great Energy Predictor III competition.
             repo_url: https://github.com/buds-lab/building-data-genome-project-2
-            organization:
-              name: Building and Urban Data Science (BUDS) Group
+            crunchbase: https://www.crunchbase.com/organization/national-university-of-singapore
             homepage_url: https://www.budslab.org/
             extra:
               refs: >-
@@ -21833,8 +22118,25 @@ landscape:
               topics: >-
                 open-source,open-data,open-data-science,energy-efficiency,energy-consumption,building-energy,building-automation,smart-city,smart-meter,electricity-meter,electricity-consumption
             crunchbase_data:
-              name: Building and Urban Data Science (BUDS) Group
+              name: National University of Singapore
+              description: National University of Singapore operates as a national research university.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.nus.edu.sg
+              city: Singapore
+              region: Central Region
+              country: Singapore
+              twitter: http://twitter.com/NUSingapore
+              linkedin: https://www.linkedin.com/edu/school?id=17114&trk=edu-up-nav-menu-home
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Business Development
+                - Education
+                - Higher Education
+                - Universities
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -21858,11 +22160,13 @@ landscape:
               start_commit_link: /buds-lab/building-data-genome-project-2/commit/072dad4a0bf37fde6049c278bdad8b04b1d5742e
               start_date: '2020-03-16T11:57:33Z'
             image_data:
-              fileName: the-building-data-genome-2-data-set.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: building-data-genome-project-2.svg
+              hash: Kx5EToNgudpf44/93L8EoIfqwhYW4GqSL2L6e9sQWXs=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T10:00:01.000Z
           - item:
             name: BESOS
             logo: BESOS.svg
@@ -22828,12 +23132,27 @@ landscape:
             repo_url: https://github.com/bigladder/kiva
             extra:
               topics: engineering,heat-transfer,energy,kiva,foundation,building,simulation
-            organization:
-              name: Big Ladder Software
+            crunchbase: https://www.crunchbase.com/organization/big-ladder-software
             homepage_url: https://github.com/bigladder/kiva
             crunchbase_data:
               name: Big Ladder Software
+              description: Big Ladder Software specializes in technical support, consultation, training workshops, web-based documentation and applications.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://bigladdersoftware.com/
+              city: Denver
+              region: Colorado
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/big-ladder-software/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Software
+                - Technical Support
             github_data:
               languages:
                 - name: C++
@@ -22869,7 +23188,7 @@ landscape:
               start_date: '2013-07-02T16:06:44Z'
             image_data:
               fileName: kiva.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: eh/+bOyyvn/0ZjNHmCQTTABP/M7xrzRT6gqa/3VCRus=
             best_practice_data:
               badge: false
               percentage: null
@@ -29144,12 +29463,27 @@ landscape:
             repo_url: https://github.com/dos-group/leaf
             extra:
               topics: simulation,modeling,fog-computing,edge-computing,energy-consumption
-            organization:
-              name: DOS Group at TU Berlin
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-berlin
             homepage_url: https://leaf.readthedocs.io
             crunchbase_data:
-              name: DOS Group at TU Berlin
+              name: Technical University of Berlin
+              description: Technical University of Berlin is a research institute offering courses in the humanities & economics as well as technical subjects.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.tu-berlin.de
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: http://twitter.com/TUBerlin
+              linkedin: https://www.linkedin.com/company/tu-berlin
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Market Research
+                - Universities
             github_data:
               languages:
                 - name: Python
@@ -29174,10 +29508,12 @@ landscape:
               start_date: '2021-01-22T16:58:54Z'
             image_data:
               fileName: leaf.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: GbIgzCR9QP6F639o+2L+k0OTZvdvdpW4PKbuIyA9AWg=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-06T11:51:15.000Z
           - item:
             name: kube-green
             logo: kube-green.svg
@@ -29609,19 +29945,35 @@ landscape:
             logo: CodeCarbon.svg
             description: Track emissions from Compute and recommend ways to reduce their impact on the environment.
             repo_url: https://github.com/mlco2/codecarbon
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/comet-ml
+            twitter: null
             homepage_url: https://mlco2.github.io/codecarbon
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/263364731'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Comet
+              description: Comet allows data scientists to automatically track their datasets, code changes, experimentation history, and production models.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.comet.com
+              city: New York
+              region: New York
+              country: United States
+              twitter: https://www.twitter.com/cometml
+              linkedin: https://www.linkedin.com/company/comet-ml/
+              acquisitions:
+                - date: '2021-04-01'
+                  acquiree: Stakion
               parents: []
+              funding: 69800000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Artificial Intelligence
+                - Developer Tools
+                - Machine Learning
+                - Software
+              kind: funding
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -29663,12 +30015,10 @@ landscape:
               start_date: '2020-05-12T23:42:31Z'
             image_data:
               fileName: code-carbon.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 6M5+8D1g1GuVC/OseCT4TxV3dhXtz8xdlSE9EtSjRLM=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: experiment-impact-tracker
             logo: experiment-impact-tracker.svg
@@ -29728,12 +30078,27 @@ landscape:
             repo_url: https://github.com/dos-group/lets-wait-awhile
             extra:
               topics: carbon-aware-scheduling,green-computing,simulator,datasets
-            organization:
-              name: DOS Group at TU Berlin
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-berlin
             homepage_url: https://github.com/dos-group/lets-wait-awhile
             crunchbase_data:
-              name: DOS Group at TU Berlin
+              name: Technical University of Berlin
+              description: Technical University of Berlin is a research institute offering courses in the humanities & economics as well as technical subjects.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.tu-berlin.de
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: http://twitter.com/TUBerlin
+              linkedin: https://www.linkedin.com/company/tu-berlin
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Market Research
+                - Universities
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -29759,10 +30124,12 @@ landscape:
               start_date: '2021-10-21T14:52:37Z'
             image_data:
               fileName: let-s-wait-awhile.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: NFUQIMTXBM3yVduVO+uzPLmWrv89uZGGRMBFT8jLVIw=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-06T11:51:15.000Z
           - item:
             name: Environmental Footprint Data
             logo: Environmental Footprint Data.svg
@@ -31420,12 +31787,26 @@ landscape:
             repo_url: https://github.com/bcgov/ghg-emissions-indicator
             extra:
               topics: env,rstats,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/ghg-emissions-indicator
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: R
@@ -31450,7 +31831,7 @@ landscape:
               start_date: '2016-08-19T21:22:37Z'
             image_data:
               fileName: ghg-emissions-indicator.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1qvAHWi1qY/ZqQPXROUl5a8jIX7F82czio4vqBrxhts=
             best_practice_data:
               badge: false
               percentage: null
@@ -31792,16 +32173,34 @@ landscape:
             logo: The Community Emissions Data System.svg
             description: Produces consistent estimates of global air emissions species over the industrial era (1750 - present).
             repo_url: https://github.com/JGCRI/CEDS
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: http://www.globalchange.umd.edu/ceds/
             extra:
               refs: >-
                 ,http://doi.org/10.5281/zenodo.4741285,http://doi.org/10.5281/zenodo.4509372,http://doi.org/10.5281/zenodo.4509372,http://doi.org/10.5281/zenodo.4509372
               topics: emissions,data
             crunchbase_data:
-              name: Joint Global Change Research Institute
+              name: Pacific Northwest National Laboratory
+              description: Pacific Northwest National Laboratory operates as a government research laboratory.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.pnnl.gov/
+              city: Richland
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/PNNLab
+              linkedin: https://www.linkedin.com/company/4714
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Biomass Energy
+                - Energy
+                - Government
+                - Product Research
+                - Security
             github_data:
               languages:
                 - name: R
@@ -31835,7 +32234,7 @@ landscape:
               start_date: '2015-08-28T15:23:16Z'
             image_data:
               fileName: the-community-emissions-data-system.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: T2Lrb7WmepBOmrVb6Q6UW1B6GKM+tggiOeM6Qlx5yHY=
             best_practice_data:
               badge: false
               percentage: null
@@ -32926,26 +33325,37 @@ landscape:
             name: exiobase
             logo: exiobase.svg
             description: A global and detailed Multi-Regional Environmentally Extended Supply-Use Table (MR-SUT) and Input-Output Table (MR-IOT).
+            license: Creative Commons Attribution-ShareAlike 4.0 International License
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/norwegian-university-of-science-and-technology
             homepage_url: https://www.exiobase.eu/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Norwegian University of Science and Technology
+              description: Norwegian University of Science and Technology is a public research university located in the city of Trondheim
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.ntnu.edu
+              city: Trondheim
+              region: Sor-Trondelag
+              country: Norway
+              twitter: http://twitter.com/NTNU
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Higher Education
             image_data:
               fileName: exiobase.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: LNTXv0qeKt/RjSn7LpudLLpkvotX0mrE6io6ijjupsI=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T08:10:12.000Z
           - item:
             name: BONSAI
             logo: bonsai.svg
@@ -32983,7 +33393,7 @@ landscape:
               start_date: '2017-01-20T18:32:01Z'
             image_data:
               fileName: bonsai.svg
-              hash: 6yXRUqA15NRXmjSFgIrb8VkXMBecJQmWReSgNhUzw2M=
+              hash: tZGGe24UVaXnouD7y2aEKzGh3jHTZvJf1NkaAfNqDyw=
             best_practice_data:
               badge: false
               percentage: null
@@ -32991,6 +33401,7 @@ landscape:
             name: brightway2
             logo: brightway2.svg
             description: An open source framework for life cycle assessment.
+            project_org: https://github.com/brightway-lca
             repo_url: https://github.com/brightway-lca/brightway2
             extra:
               topics: life-cycle-assessment,bw2,python,documentation
@@ -33001,40 +33412,146 @@ landscape:
               name: Brightway LCA software framework
               parents: []
             github_data:
+              description: Open source framework for Brightway framework
+              contributors_count: 50
+              contributions: 55;18;2;11;12;17;4;16;8;12;7;3;1;1;0;2;57;50;24;44;10;28;82;115;10;5;2;8;2;6;9;40;23;8;87;11;16;80;20;29;20;35;6;45;24;47;25;47;14;36;25;33
+              stars: 169
               languages:
                 - name: Jupyter Notebook
-                  value: 8266168
+                  value: 18897270
                   color: '#DA5B0B'
                 - name: HTML
-                  value: 5450014
+                  value: 10927560
                   color: '#e34c26'
-                - name: TeX
-                  value: 2862
-                  color: '#3D6117'
                 - name: Python
-                  value: 1696
+                  value: 3462591
                   color: '#3572A5'
+                - name: TeX
+                  value: 23615
+                  color: '#3D6117'
+                - name: CSS
+                  value: 9519
+                  color: '#563d7c'
                 - name: Shell
-                  value: 1310
+                  value: 4340
                   color: '#89e051'
-              contributions: 0;1;0;1;0;6;0;0;0;0;0;1;0;1;5;0;0;0;0;2;3;2;0;0;0;0;0;0;0;0;1;0;0;0;0;1;1;2;0;0;0;3;0;1;0;0;0;2;0;0;0;1
-              firstWeek: 2022-04-03Z
-              stars: 64
-              license: BSD 3-Clause "New" or "Revised" License
-              description: Metapackage for brightway2 imports and documentation
-              latest_commit_date: '2023-03-22T08:59:42Z'
+                - name: Cython
+                  value: 3208
+                - name: Dockerfile
+                  value: 2308
+                  color: '#384d54'
+                - name: Batchfile
+                  value: 1009
+                  color: '#C1F12E'
+                - name: Makefile
+                  value: 634
+                  color: '#427819'
               latest_commit_link: /brightway-lca/brightway2/commit/eb810bd8e0bd65856cf7eabe1cd8a6e19372ea72
-              contributors_count: 7
+              latest_commit_date: '2023-03-22T08:59:42Z'
+              firstWeek: 2022-04-24Z
+              license: BSD 3-Clause "New" or "Revised" License
               contributors_link: https://github.com/brightway-lca/brightway2/graphs/contributors
             repos:
               - url: https://github.com/brightway-lca/brightway2
-                stars: 64
+                stars: 65
+              - url: https://github.com/brightway-lca/brightway2-io
+                stars: 15
+              - url: https://github.com/brightway-lca/brightway2-calc
+                stars: 8
+              - url: https://github.com/brightway-lca/bw_projects
+                stars: 7
+              - url: https://github.com/brightway-lca/from-the-ground-up
+                stars: 7
+              - url: https://github.com/brightway-lca/brightway-shine
+                stars: 6
+              - url: https://github.com/brightway-lca/simapro_ecoinvent_elementary_flows
+                stars: 6
+              - url: https://github.com/brightway-lca/brightway2-analyzer
+                stars: 5
+              - url: https://github.com/brightway-lca/brightway2-data
+                stars: 5
+              - url: https://github.com/brightway-lca/brightway-interactive
+                stars: 5
+              - url: https://github.com/brightway-lca/hackathons
+                stars: 5
+              - url: https://github.com/brightway-lca/bw_recipe_2016
+                stars: 4
+              - url: https://github.com/brightway-lca/multifunctional
+                stars: 3
+              - url: https://github.com/brightway-lca/matrix_utils
+                stars: 3
+              - url: https://github.com/brightway-lca/brightway25
+                stars: 3
+              - url: https://github.com/brightway-lca/brightway-olca
+                stars: 3
+              - url: https://github.com/brightway-lca/enhancement-proposals
+                stars: 3
+              - url: https://github.com/brightway-lca/bw_processing
+                stars: 2
+              - url: https://github.com/brightway-lca/brightway2-regional
+                stars: 2
+              - url: https://github.com/brightway-lca/brightway-documentation
+                stars: 2
+              - url: https://github.com/brightway-lca/bw_default_backend
+                stars: 1
+              - url: https://github.com/brightway-lca/bw_calc
+                stars: 1
+              - url: https://github.com/brightway-lca/bw_exiobase
+                stars: 1
+              - url: https://github.com/brightway-lca/bw_migrations
+                stars: 1
+              - url: https://github.com/brightway-lca/stats_arrays
+                stars: 1
+              - url: https://github.com/brightway-lca/homepage
+                stars: 1
+              - url: https://github.com/brightway-lca/bw2-docker
+                stars: 1
+              - url: https://github.com/brightway-lca/pedigree_matrix
+                stars: 1
+              - url: https://github.com/brightway-lca/logo
+                stars: 1
+              - url: https://github.com/brightway-lca/dardanelles
+                stars: 1
+              - url: https://github.com/brightway-lca/docs
+                stars: 0
+              - url: https://github.com/brightway-lca/bw_io
+                stars: 0
+              - url: https://github.com/brightway-lca/bw_ecoinvent_metadata
+                stars: 0
+              - url: https://github.com/brightway-lca/mrio_common_metadata
+                stars: 0
+              - url: https://github.com/brightway-lca/.github
+                stars: 0
+              - url: https://github.com/brightway-lca/brightway2-parameters
+                stars: 0
+              - url: https://github.com/brightway-lca/brightway2-speedups
+                stars: 0
+              - url: https://github.com/brightway-lca/temporalis
+                stars: 0
+              - url: https://github.com/brightway-lca/bw-docker-dev
+                stars: 0
+              - url: https://github.com/brightway-lca/bw_simple_graph
+                stars: 0
+              - url: https://github.com/brightway-lca/presamples
+                stars: 0
+              - url: https://github.com/brightway-lca/jupyter-book-binder-environment
+                stars: 0
+              - url: https://github.com/brightway-lca/cookiecutter-brightwaylib
+                stars: 0
+              - url: https://github.com/brightway-lca/brightway_projects
+                stars: 0
+              - url: https://github.com/brightway-lca/ecoinvent_interface
+                stars: 0
+              - url: https://github.com/brightway-lca/ecospolder-obsolete
+                stars: 0
+              - url: https://github.com/brightway-lca/bw_graph_tools
+                stars: 0
             github_start_commit_data:
               start_commit_link: /brightway-lca/brightway2/commit/756b9860582dc807ebedaf8ebb22524e20155aed
               start_date: '2012-10-30T22:43:46Z'
             image_data:
               fileName: brightway2.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ST0hhPHFdQxLr5OlBPrauVyz7iT0/rQ5/Q2Id9hS9+Q=
             best_practice_data:
               badge: false
               percentage: null
@@ -34813,12 +35330,28 @@ landscape:
             repo_url: https://github.com/forestgeo/fgeo
             extra:
               topics: ecology,forests,dynamics,forestgeo,metapackage,fgeo,abundance,tree,demography,habitat,dynamic
-            organization:
-              name: ForestGEO
+            crunchbase: https://www.crunchbase.com/organization/smithsonian-institution
             homepage_url: https://forestgeo.github.io/fgeo/.
             crunchbase_data:
-              name: ForestGEO
+              name: Smithsonian Institution
+              description: Smithsonian Institution is a group of museums and research centers administered by the United States government.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.si.edu
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: https://twitter.com/smithsonian
+              linkedin: https://www.linkedin.com/company/5875
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Art
+                - Education
+                - Legal
+                - Museums and Historical Sites
             github_data:
               languages:
                 - name: R
@@ -34843,7 +35376,7 @@ landscape:
               start_date: '2016-09-06T13:29:16Z'
             image_data:
               fileName: fgeo.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: J9mcF0smIT2OelBTtOvLvhZWLXxqDdo4fOGkbSm+fyQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -34852,12 +35385,28 @@ landscape:
             logo: fgeo.biomass.svg
             description: Calculate biomass with allometric equations from the allodb package and ForestGEO data.
             repo_url: https://github.com/forestgeo/fgeo.biomass
-            organization:
-              name: ForestGEO
+            crunchbase: https://www.crunchbase.com/organization/smithsonian-institution
             homepage_url: https://forestgeo.github.io/fgeo.biomass
             crunchbase_data:
-              name: ForestGEO
+              name: Smithsonian Institution
+              description: Smithsonian Institution is a group of museums and research centers administered by the United States government.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.si.edu
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: https://twitter.com/smithsonian
+              linkedin: https://www.linkedin.com/company/5875
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Art
+                - Education
+                - Legal
+                - Museums and Historical Sites
             github_data:
               languages:
                 - name: R
@@ -34882,7 +35431,7 @@ landscape:
               start_date: '2018-11-10T13:39:35Z'
             image_data:
               fileName: fgeo-biomass.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Blz3rgR1Q3caW206ogzLG6/TwnG/PLdlM1IS/IZXGeQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -37918,7 +38467,7 @@ landscape:
               start_date: '2018-03-27T13:55:56Z'
             image_data:
               fileName: pn-vmaps.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: TSJHT/9ktEWg0JyrP/m0xtF1kUx5Xq7dHM39sunYrwg=
             best_practice_data:
               badge: false
               percentage: null
@@ -38088,7 +38637,7 @@ landscape:
               start_date: '2016-01-03T11:53:01Z'
             image_data:
               fileName: phenocamr.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: jD7HN249OySGJvVE7inT5FEKsF43wK5Uf5I0ErzMtDw=
             best_practice_data:
               badge: false
               percentage: null
@@ -39458,12 +40007,26 @@ landscape:
             repo_url: https://github.com/bcgov/wps
             extra:
               topics: flnr,wildfire,bcws,python,fastapi,react,javascript,typescript,weather,postgis,postgres,postgresql,cffdrs,hacktoberfest
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/wps
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: Python
@@ -39512,7 +40075,7 @@ landscape:
               start_date: '2020-01-23T18:42:12Z'
             image_data:
               fileName: wildfire-predictive-services.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: F4wtvLUfQm/CrJKEXsI5os9k8qjlak5KRqp525stbM4=
             best_practice_data:
               badge: false
               percentage: null
@@ -46388,15 +46951,35 @@ landscape:
             logo: VIC.svg
             description: A macroscale hydrologic model that solves full water and energy balances.
             repo_url: https://github.com/UW-Hydro/VIC
-            organization:
-              name: UW Hydro | Computational Hydrology
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
             homepage_url: http://vic.readthedocs.io
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/7766/UW-Hydro/VIC,https://doi.org/10.5194/gmd-11-3481-2018,https://doi.org/10.5194/gmd-11-3481-2018'
               topics: hydrology,climate,land-surface,streamflow
             crunchbase_data:
-              name: UW Hydro | Computational Hydrology
+              name: University of Washington
+              description: University of Washington is an educational institution that provides undergraduate, graduate, and research programs.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.washington.edu/
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/UW
+              linkedin: https://www.linkedin.com/school/university-of-washington/
+              acquisitions: []
               parents: []
+              funding: 101793502
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Energy Storage
+                - Higher Education
+                - Solar
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: C
@@ -46436,66 +47019,102 @@ landscape:
               start_date: '1998-04-12T17:42:19Z'
             image_data:
               fileName: vic.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: PZ+c3ocOAzTAuimSsr7h+8jb/onX3guDPHgTuxVu/u4=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T02:42:19.000Z
           - item:
             name: Badlands
             logo: Badlands.svg
             description: >-
               Basin and Landscape Dynamics is a long-term surface evolution model built to simulate landscape development, sediment transport and sedimentary
               basins formation from upstream regions down to marine environments.
+            project_org: https://github.com/badlands-model
             repo_url: https://github.com/badlands-model/badlands
-            organization:
-              name: Badlands
+            crunchbase: https://www.crunchbase.com/organization/university-of-sydney
             homepage_url: https://badlands.readthedocs.io
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/51286954'
               topics: basin-evolution,landscape-dynamics,geosciences,sedimentology,stratigraphy,marine,climate,geomorphology
             crunchbase_data:
-              name: Badlands
+              name: University of Sydney
+              description: University of Sydney is an Australian public research university that provides educational services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://sydney.edu.au/
+              city: Sydney
+              region: New South Wales
+              country: Australia
+              twitter: https://twitter.com/sydney_uni
+              linkedin: https://www.linkedin.com/school/university-of-sydney/
+              acquisitions: []
               parents: []
+              funding: 2500000
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Universities
+              kind: funding
             github_data:
+              description: Basin and Landscape Dynamics
+              contributors_count: 8
+              contributions: 0;0;1;0;0;0;0;0;0;0;0;0;0;3;1;0;0;0;1;0;0;0;0;4;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0
+              stars: 162
               languages:
+                - name: Jupyter Notebook
+                  value: 27551694
+                  color: '#DA5B0B'
                 - name: Python
-                  value: 454488
+                  value: 2223185
                   color: '#3572A5'
-                - name: Fortran
-                  value: 148790
-                  color: '#4d41b1'
                 - name: C
-                  value: 10364
+                  value: 505198
                   color: '#555555'
+                - name: Fortran
+                  value: 450772
+                  color: '#4d41b1'
                 - name: Makefile
-                  value: 1889
+                  value: 7513
                   color: '#427819'
                 - name: Shell
-                  value: 341
+                  value: 820
                   color: '#89e051'
-              contributions: 0;0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;0;1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 112
-              license: GNU General Public License v3.0
-              description: Basin and Landscape Dynamics model
-              latest_commit_date: '2022-11-27T20:11:35Z'
               latest_commit_link: /badlands-model/badlands/commit/54c02cc1b4edb052ea7d6d38ce8546bd663a4f74
-              release_date: '2019-08-01T04:07:57Z'
-              release_link: https://github.com/badlands-model/badlands/releases
-              contributors_count: 6
+              latest_commit_date: '2022-11-27T20:11:35Z'
+              firstWeek: 2022-04-24Z
+              license: GNU General Public License v3.0
               contributors_link: https://github.com/badlands-model/badlands/graphs/contributors
             repos:
               - url: https://github.com/badlands-model/badlands
-                stars: 112
+                stars: 111
+              - url: https://github.com/badlands-model/badlands-workshop
+                stars: 16
+              - url: https://github.com/badlands-model/badlands-companion
+                stars: 14
+              - url: https://github.com/badlands-model/pyBadlands_serial
+                stars: 10
+              - url: https://github.com/badlands-model/badlands-docker
+                stars: 7
+              - url: https://github.com/badlands-model/badlands-Be
+                stars: 3
+              - url: https://github.com/badlands-model/badlands-sundaland
+                stars: 1
+              - url: https://github.com/badlands-model/badlands-teaching
+                stars: 0
             github_start_commit_data:
               start_commit_link: /badlands-model/badlands/commit/c56c13947fb99598e671f3efa9e7c9adf475b717
               start_date: '2016-02-08T08:46:05Z'
             image_data:
               fileName: badlands.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 5Y4mTq/FP6J2k9BGmEUR1iWQdEe6C+NlabRJRTWyIdI=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T07:01:17.000Z
           - item:
             name: qgs
             logo: qgs.svg
@@ -47685,7 +48304,7 @@ landscape:
               start_date: '2003-06-30T20:26:01Z'
             image_data:
               fileName: geos-chem.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: AiCb+jaHbaZEt18tyjUiRYFRTO68DBnTUXbubrRos44=
             best_practice_data:
               badge: false
               percentage: null
@@ -48318,7 +48937,7 @@ landscape:
               start_date: '2017-06-05T17:40:54Z'
             image_data:
               fileName: gcpy.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: wu3Hcwjde1x+BsiXm0dv4P9wOHQ8qrZtNTOW6qZF0LY=
             best_practice_data:
               badge: false
               percentage: null
@@ -49852,12 +50471,30 @@ landscape:
             repo_url: https://github.com/JGCRI/hector
             extra:
               topics: climate-model,hector,science,climate,climate-change
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://jgcri.github.io/hector
             crunchbase_data:
-              name: Joint Global Change Research Institute
+              name: Pacific Northwest National Laboratory
+              description: Pacific Northwest National Laboratory operates as a government research laboratory.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.pnnl.gov/
+              city: Richland
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/PNNLab
+              linkedin: https://www.linkedin.com/company/4714
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Biomass Energy
+                - Energy
+                - Government
+                - Product Research
+                - Security
             github_data:
               languages:
                 - name: C++
@@ -49894,7 +50531,7 @@ landscape:
               start_date: '2014-08-12T21:20:53Z'
             image_data:
               fileName: hector.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: EIFARTpE8y86o9P2y+qT+KjzCogcjSdRwywTvEPG5vg=
             best_practice_data:
               badge: false
               percentage: null
@@ -50309,16 +50946,36 @@ landscape:
             logo: MetSim.svg
             description: A meteorological simulator and forcing disaggregator for hydrologic modeling and climate applications.
             repo_url: https://github.com/UW-Hydro/MetSim
-            organization:
-              name: UW Hydro | Computational Hydrology
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
             homepage_url: http://metsim.readthedocs.io/
             extra:
               refs: >-
                 ,https://doi.org/10.21105/joss.02042,https://zenodo.org/badge/latestdoi/69834400,https://doi.org/10.21105/joss.02042\n\nOr,https://doi.org/10.21105/joss.02042
               topics: meteorology,disaggregation,hydrology,climate,mtclim
             crunchbase_data:
-              name: UW Hydro | Computational Hydrology
+              name: University of Washington
+              description: University of Washington is an educational institution that provides undergraduate, graduate, and research programs.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.washington.edu/
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/UW
+              linkedin: https://www.linkedin.com/school/university-of-washington/
+              acquisitions: []
               parents: []
+              funding: 101793502
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Energy Storage
+                - Higher Education
+                - Solar
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -50346,10 +51003,12 @@ landscape:
               start_date: '2016-10-03T02:08:03Z'
             image_data:
               fileName: met-sim.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: gkjmRJceOGN+FYqZJ4gdpgf6u5ObKhlxZFrYAPWb+xc=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T02:42:19.000Z
           - item:
             name: ESMF
             logo: ESMF.svg
@@ -52075,14 +52734,29 @@ landscape:
             logo: ERA-NUTS.svg
             description: A set of time-series of meteorological variables based on Copernicus Climate Change Service ERA5 reanalysis.
             repo_url: https://github.com/energy-modelling-toolkit/era-nuts-code
-            organization:
-              name: Energy Modelling Toolkit
+            crunchbase: https://www.crunchbase.com/organization/joint-research-centre
             homepage_url: https://github.com/energy-modelling-toolkit/era-nuts-code
             extra:
               refs: ',https://doi.org/10.5281/zenodo.2650191,https://doi.org/10.5281/zenodo.2650191,https://doi.org/10.5281/zenodo.2650191'
             crunchbase_data:
-              name: Energy Modelling Toolkit
-              parents: []
+              name: Joint Research Centre
+              description: Joint Research Centre provides independent scientific and technical advice to the European Commission.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://ec.europa.eu/jrc/en
+              city: Ispra
+              region: Lombardia
+              country: Italy
+              twitter: null
+              linkedin: https://www.linkedin.com/company/european-commission-joint-research-centre
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/european-commission
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Non Profit
             github_data:
               languages:
                 - name: HTML
@@ -52111,7 +52785,7 @@ landscape:
               start_date: '2019-04-24T12:09:19Z'
             image_data:
               fileName: era-nuts.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: SN3V9Me7zrSzbUaWvqNEAWMqW6AAgxcJ7iJr95tzw/M=
             best_practice_data:
               badge: false
               percentage: null
@@ -52192,14 +52866,30 @@ landscape:
             logo: ForestGEO.svg
             description: This public repository is a portal for climate data and information for ForestGEO sites.
             repo_url: https://github.com/forestgeo/Climate
-            organization:
-              name: ForestGEO
+            crunchbase: https://www.crunchbase.com/organization/smithsonian-institution
             homepage_url: https://forestgeo.github.io/Climate/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/83330500,https://zenodo.org/badge/latestdoi/83330500'
             crunchbase_data:
-              name: ForestGEO
+              name: Smithsonian Institution
+              description: Smithsonian Institution is a group of museums and research centers administered by the United States government.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.si.edu
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: https://twitter.com/smithsonian
+              linkedin: https://www.linkedin.com/company/5875
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Art
+                - Education
+                - Legal
+                - Museums and Historical Sites
             github_data:
               languages:
                 - name: R
@@ -52229,7 +52919,7 @@ landscape:
               start_date: '2017-02-27T18:33:52Z'
             image_data:
               fileName: forest-geo.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: nRpzpcZrllkiHmXAX+Fc/lSxZwIPK61A+X6Ik01m13I=
             best_practice_data:
               badge: false
               percentage: null
@@ -54424,15 +55114,32 @@ landscape:
             logo: ipcc_sr15_scenario_analysis.svg
             description: Scenario analysis notebooks for the IPCC Special Report on Global Warming of 1.5°C.
             repo_url: https://github.com/iiasa/ipcc_sr15_scenario_analysis
-            organization:
-              name: IIASA
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://data.ene.iiasa.ac.at/sr15_scenario_analysis
             extra:
               refs: ',https://doi.org/10.1038/s41558-018-0317-4,https://doi.org/10.5281/zenodo.3363345,https://doi.org/10.22022/SR15/08-2018.15428'
               topics: ipcc,sr15,climate-change,climate-change-mitigation,scenario,pathway-analysis,integrated-assessment
             crunchbase_data:
-              name: IIASA
+              name: International Institute for Applied Systems Analysis
+              description: International Institute for Applied Systems Analysis is a scientific research institute that conducts research for global environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://iiasa.ac.at/
+              city: Laxenburg
+              region: Niederosterreich
+              country: Austria
+              twitter: https://twitter.com/IIASAVienna
+              linkedin: https://www.linkedin.com/company/iiasa-vienna/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Agriculture
+                - Biofuel
+                - Education
+                - Product Search
+                - Risk Management
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -54463,10 +55170,12 @@ landscape:
               start_date: '2018-10-14T20:40:26Z'
             image_data:
               fileName: ipcc-sr15-scenario-analysis.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 4JxGSHV4rTyTiop0yAR5R+Z9REAthvxXu9dNXxkgP5M=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T15:18:02.000Z
           - item:
             name: Geoclimate
             logo: Geoclimate.svg
@@ -56146,7 +56855,7 @@ landscape:
               start_date: '2017-11-07T02:37:31Z'
             image_data:
               fileName: climpact.svg
-              hash: M11/JBjdAUNz/llPfY2P7lB7aAk8Asqnq52u0SmsaXo=
+              hash: iMRV8O8XCEMGfCf0c5S9wUZ2OzQK552cETFIHjZZ6so=
             best_practice_data:
               badge: false
               percentage: null
@@ -57482,12 +58191,28 @@ landscape:
             repo_url: https://github.com/ideas-lab-nus/epwshiftr
             extra:
               topics: climate-change,energyplus,epw,esgf,cmip6
-            organization:
-              name: IDEAS-lab
+            crunchbase: https://www.crunchbase.com/organization/national-university-of-singapore
             homepage_url: https://ideas-lab-nus.github.io/epwshiftr/
             crunchbase_data:
-              name: IDEAS-lab
+              name: National University of Singapore
+              description: National University of Singapore operates as a national research university.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.nus.edu.sg
+              city: Singapore
+              region: Central Region
+              country: Singapore
+              twitter: http://twitter.com/NUSingapore
+              linkedin: https://www.linkedin.com/edu/school?id=17114&trk=edu-up-nav-menu-home
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Business Development
+                - Education
+                - Higher Education
+                - Universities
             github_data:
               languages:
                 - name: R
@@ -57512,10 +58237,12 @@ landscape:
               start_date: '2019-12-16T05:39:53Z'
             image_data:
               fileName: epwshiftr.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: EqcDIABewBMmO3o3DhmyQwWo+6/PXm1G2JqnMPkZHHQ=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T10:00:01.000Z
           - item:
             name: bomrang
             logo: bomrang.svg
@@ -58080,15 +58807,32 @@ landscape:
               A versatile, dynamic systems-optimization modeling framework developed by the IIASA Energy, Climate, and Environment (ECE) Program since the
               1980s.
             repo_url: https://github.com/iiasa/message_ix
-            organization:
-              name: IIASA
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://docs.messageix.org
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4005684'
               topics: energy-system,strategic-planning,integrated-assessment,integrated-assessment-model,gams,open-source
             crunchbase_data:
-              name: IIASA
+              name: International Institute for Applied Systems Analysis
+              description: International Institute for Applied Systems Analysis is a scientific research institute that conducts research for global environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://iiasa.ac.at/
+              city: Laxenburg
+              region: Niederosterreich
+              country: Austria
+              twitter: https://twitter.com/IIASAVienna
+              linkedin: https://www.linkedin.com/company/iiasa-vienna/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Agriculture
+                - Biofuel
+                - Education
+                - Product Search
+                - Risk Management
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -58124,10 +58868,12 @@ landscape:
               start_date: '2017-12-04T08:29:07Z'
             image_data:
               fileName: messag-eix.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: xLaIJdvXPY3ScrNPOdAn+f68PIwKOBXuBZZ6T/hgt1w=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T15:18:02.000Z
           - item:
             name: DICE.jl
             logo: DICE.jl.svg
@@ -58207,15 +58953,32 @@ landscape:
             logo: ENGAGE.svg
             description: Source code for figure generation and analysis of the ENGAGE netzero scenario analysis.
             repo_url: https://github.com/iiasa/ENGAGE-netzero-analysis
-            organization:
-              name: IIASA
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://data.ece.iiasa.ac.at/engage-netzero-analysis/
             extra:
               refs: ',https://doi.org/10.1038/s41558-021-01215-2,https://doi.org/10.5281/zenodo.5553976'
               topics: integrated-assessment,scenario-analysis,pyam,opensource,data-visualization
             crunchbase_data:
-              name: IIASA
+              name: International Institute for Applied Systems Analysis
+              description: International Institute for Applied Systems Analysis is a scientific research institute that conducts research for global environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://iiasa.ac.at/
+              city: Laxenburg
+              region: Niederosterreich
+              country: Austria
+              twitter: https://twitter.com/IIASAVienna
+              linkedin: https://www.linkedin.com/company/iiasa-vienna/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Agriculture
+                - Biofuel
+                - Education
+                - Product Search
+                - Risk Management
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -58241,10 +59004,12 @@ landscape:
               start_date: '2021-10-07T07:35:09Z'
             image_data:
               fileName: engage.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: S1Ig7dBv8um7fBJ9oH3+ChKiEa3JfwWzPi8fYM6RSyA=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T15:18:02.000Z
           - item:
             name: pyam
             logo: pyam.svg
@@ -58309,15 +59074,33 @@ landscape:
               can be used to explore climate change mitigation policies including carbon taxes, carbon trading, regulations and accelerated deployment of energy
               technology.
             repo_url: https://github.com/JGCRI/gcam-core
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: http://jgcri.github.io/gcam-doc/
             extra:
               refs: ',https://doi.org/10.5194/gmd-12-677-2019'
               topics: energy,land,integrated-assessment,economics,gcam,water,climate,coupled-human-natural-systems,human-earth-system
             crunchbase_data:
-              name: Joint Global Change Research Institute
+              name: Pacific Northwest National Laboratory
+              description: Pacific Northwest National Laboratory operates as a government research laboratory.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.pnnl.gov/
+              city: Richland
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/PNNLab
+              linkedin: https://www.linkedin.com/company/4714
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Biomass Energy
+                - Energy
+                - Government
+                - Product Research
+                - Security
             github_data:
               languages:
                 - name: R
@@ -58366,7 +59149,7 @@ landscape:
               start_date: '2002-10-14T17:48:16Z'
             image_data:
               fileName: gcam.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: lmyvAXKd6mdPR/abdiQmiOoEbxgUHwJGNhk32XC8ZqU=
             best_practice_data:
               badge: false
               percentage: null
@@ -59948,14 +60731,32 @@ landscape:
             logo: rfasst.svg
             description: Estimation of a consistent range of adverse health and agricultural effects attributable to air pollution for a GCAM scenario.
             repo_url: https://github.com/JGCRI/rfasst
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://jgcri.github.io/rfasst/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/344924589,https://doi.org/10.21105/joss.03820'
             crunchbase_data:
-              name: Joint Global Change Research Institute
+              name: Pacific Northwest National Laboratory
+              description: Pacific Northwest National Laboratory operates as a government research laboratory.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.pnnl.gov/
+              city: Richland
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/PNNLab
+              linkedin: https://www.linkedin.com/company/4714
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Biomass Energy
+                - Energy
+                - Government
+                - Product Research
+                - Security
             github_data:
               languages:
                 - name: R
@@ -59983,7 +60784,7 @@ landscape:
               start_date: '2021-02-12T19:12:34Z'
             image_data:
               fileName: rfasst.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 8VyMuGMkFPSyPj9gVE3NhZ9RfwAVJTNXztvePbEwZDs=
             best_practice_data:
               badge: false
               percentage: null
@@ -60888,7 +61689,7 @@ landscape:
             description: >-
               Represents one of the new key elements of IIASAs Water program to assess water supply, water demand and environmental needs at global and regional
               level.
-            repo_url: https://github.com/CWatM/oldCwat
+            repo_url: https://github.com/iiasa/CWatM
             crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://cwatm.iiasa.ac.at
             extra:
@@ -60921,39 +61722,37 @@ landscape:
                   value: 38886155
                   color: '#DA5B0B'
                 - name: Python
-                  value: 1831990
+                  value: 1094725
                   color: '#3572A5'
                 - name: HTML
-                  value: 1415001
+                  value: 1048461
                   color: '#e34c26'
                 - name: C++
-                  value: 16876
+                  value: 8438
                   color: '#f34b7d'
-                - name: Batchfile
-                  value: 3280
-                  color: '#C1F12E'
                 - name: CSS
                   value: 2892
                   color: '#563d7c'
+                - name: Batchfile
+                  value: 2123
+                  color: '#C1F12E'
                 - name: Shell
-                  value: 157
+                  value: 51
                   color: '#89e051'
-              contributions: 0;2;0;0;1;0;0;0;0;1;2;2;9;16;4;1;0;0;0;0;1;0;0;0;0;0;0;0;0;8;3;1;1;4;0;0;0;0;14;0;0;0;0;0;2;2;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 45
+              contributions: 1;0;0;0;0;1;0;3;10;8;10;2;1;0;0;0;1;0;0;0;0;0;0;0;0;8;3;1;0;5;0;0;0;0;0;14;0;0;0;0;1;3;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2022-04-24Z
+              stars: 43
               license: GNU General Public License v3.0
               description: >-
-                CWATM represents one of the new key elements of IIASA’s Water program to assess water supply, water demand and environmental needs at global and
-                regional level. 
-              latest_commit_date: '2020-12-10T13:51:32Z'
-              latest_commit_link: /CWatM/oldCwat/commit/a1b530f21e316411287071e913a61f80e92ac343
-              release_date: '2019-08-06T11:15:07Z'
-              release_link: https://github.com/CWatM/oldCwat/releases
-              contributors_count: 3
-              contributors_link: https://github.com/CWatM/oldCwat/graphs/contributors
+                Community Water Model (CWatM) is a hydrological model simulating the water cycle daily at global and local levels, historically and into the
+                future, maintained by IIASA’s Water Security group
+              latest_commit_date: '2023-02-09T13:39:03Z'
+              latest_commit_link: /iiasa/CWatM/commit/7398474fd6f7bffd49331f3d2ff2be8426fcbd6e
+              release_date: '2021-10-08T12:47:43Z'
+              release_link: https://github.com/iiasa/CWatM/releases
+              contributors_count: 7
+              contributors_link: https://github.com/iiasa/CWatM/graphs/contributors
             repos:
-              - url: https://github.com/CWatM/oldCwat
-                stars: 2
               - url: https://github.com/iiasa/CWatM
                 stars: 43
             github_start_commit_data:
@@ -61454,12 +62253,26 @@ landscape:
             repo_url: https://github.com/bcgov/fasstr
             extra:
               topics: water,streamflow,hydrology,hydat,summary-statistics,frequency-analysis,trends,bcgov,for,r
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://bcgov.github.io/fasstr/
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: R
@@ -61484,7 +62297,7 @@ landscape:
               start_date: '2017-10-30T17:31:39Z'
             image_data:
               fileName: fasstr.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: n6yHTmQ0N94yBkljDBvmAdAF+FR8GJpMGVF1HqX4V/Q=
             best_practice_data:
               badge: false
               percentage: null
@@ -61543,12 +62356,26 @@ landscape:
             repo_url: https://github.com/bcgov/gwells
             extra:
               topics: bcgov-csnr,django,vuejs,groundwater-data,env
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://apps.nrs.gov.bc.ca/gwells/
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: Python
@@ -61599,7 +62426,7 @@ landscape:
               start_date: '2015-04-29T12:40:30Z'
             image_data:
               fileName: gwells.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: P1CqvB+WuHF4kOC3hKq1T1M8keeKXjfJPFb5aNvTfNw=
             best_practice_data:
               badge: false
               percentage: null
@@ -62343,12 +63170,26 @@ landscape:
             repo_url: https://github.com/bcgov/wqbc
             extra:
               topics: r-package,rstats,env,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: http://bcgov.github.io/wqbc/
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: R
@@ -62376,7 +63217,7 @@ landscape:
               start_date: '2014-12-16T03:26:57Z'
             image_data:
               fileName: wqbc.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: GoXwe6EHTmblEPn/70PIaMEXu/G9YJAvhuP4HYKVwbg=
             best_practice_data:
               badge: false
               percentage: null
@@ -62622,12 +63463,26 @@ landscape:
             repo_url: https://github.com/bcgov/bcgroundwater
             extra:
               topics: env,rstats,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/bcgroundwater
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: R
@@ -62655,7 +63510,7 @@ landscape:
               start_date: '2014-04-22T21:06:33Z'
             image_data:
               fileName: bcgroundwater.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: GFm4nat0AJrGmAvHKuf2/Dw+vqbskOpsPpYyVavIlgc=
             best_practice_data:
               badge: false
               percentage: null
@@ -62871,12 +63726,26 @@ landscape:
             repo_url: https://github.com/bcgov/groundwater-levels-indicator
             extra:
               topics: env,soe,rstats,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/groundwater-levels-indicator
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: R
@@ -62905,7 +63774,7 @@ landscape:
               start_date: '2015-03-13T23:02:19Z'
             image_data:
               fileName: long-term-trends-in-groundwater-levels-in-b-c.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: dxuImuZvu73qzmxgrY6c1VMEI+a0myo6pZvOVpN1ZEo=
             best_practice_data:
               badge: false
               percentage: null
@@ -62993,12 +63862,26 @@ landscape:
             repo_url: https://github.com/bcgov/canwqdata
             extra:
               topics: rstats,rlang,r-package,env,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/canwqdata
             crunchbase_data:
-              name: Province of British Columbia
+              name: Government of British Columbia
+              description: Government of British Columbia is helping citizens access government services through the internet.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www2.gov.bc.ca/
+              city: Victoria
+              region: British Columbia
+              country: Canada
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Education
             github_data:
               languages:
                 - name: R
@@ -63021,7 +63904,7 @@ landscape:
               start_date: '2018-01-22T22:04:45Z'
             image_data:
               fileName: canwqdata.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: uepPdCJWvhD6FJDd/xf6p8CkII2M9yOxR2lBPEwSKWQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -65136,7 +66019,7 @@ landscape:
               start_date: '2018-06-06T15:56:29Z'
             image_data:
               fileName: predictive-soil-mapping.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: otQvGHxGB3D2qOSnhLJXM/W2FngjZshqkXwSqw5oEAY=
             best_practice_data:
               badge: false
               percentage: null
@@ -65789,14 +66672,32 @@ landscape:
             logo: Demeter.svg
             description: A land use land cover disaggregation and change detection model.
             repo_url: https://github.com/JGCRI/demeter
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://github.com/JGCRI/demeter
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/101879773'
             crunchbase_data:
-              name: Joint Global Change Research Institute
+              name: Pacific Northwest National Laboratory
+              description: Pacific Northwest National Laboratory operates as a government research laboratory.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.pnnl.gov/
+              city: Richland
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/PNNLab
+              linkedin: https://www.linkedin.com/company/4714
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Biomass Energy
+                - Energy
+                - Government
+                - Product Research
+                - Security
             github_data:
               languages:
                 - name: HTML
@@ -65839,7 +66740,7 @@ landscape:
               start_date: '2017-08-30T12:46:33Z'
             image_data:
               fileName: demeter.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: PTw1ffBrTtQn9rEwmfr+cUSEtwSH3TPwwe/BPLfLsD8=
             best_practice_data:
               badge: false
               percentage: null
@@ -68570,12 +69471,25 @@ landscape:
             logo: GlobalFishingWatch.svg
             description: Track commercial fishing activity worldwide on the free, user-friendly, interactive Global Fishing Watch map.
             repo_url: https://github.com/GlobalFishingWatch/map-client
-            organization:
-              name: Global Fishing Watch
+            crunchbase: https://www.crunchbase.com/organization/global-fishing-watch
             homepage_url: http://globalfishingwatch.org/
             crunchbase_data:
               name: Global Fishing Watch
+              description: Global Fishing Watch is the product of a technology partnership between SkyTruth, Oceana.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: http://globalfishingwatch.org/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: https://www.twitter.com/globalfishwatch
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Technology
             github_data:
               languages:
                 - name: JavaScript
@@ -68609,7 +69523,7 @@ landscape:
               start_date: '2016-05-19T07:07:05Z'
             image_data:
               fileName: global-fishing-watch.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: PKvBBT/S6BUpdXn7TxiIVqvjLoa88npjP3e3U1E8VUQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -74237,12 +75151,27 @@ landscape:
             repo_url: https://github.com/wpgp/wopr
             extra:
               topics: bayesian-methods,r-package,shiny-apps,population-model
-            organization:
-              name: WorldPop
+            crunchbase: https://www.crunchbase.com/organization/worldpop
             homepage_url: https://apps.worldpop.org/woprVision
             crunchbase_data:
               name: WorldPop
+              description: WorldPop specializes in datasets on population distributions and characteristics progress towards development objectives.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.worldpop.org
+              city: Southampton
+              region: Southampton
+              country: United Kingdom
+              twitter: https://twitter.com/WorldPopProject
+              linkedin: https://www.linkedin.com/company/worldpop
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Data Mining
+                - Humanitarian
+                - Information Services
             github_data:
               languages:
                 - name: HTML
@@ -74270,10 +75199,12 @@ landscape:
               start_date: '2019-11-07T22:34:19Z'
             image_data:
               fileName: wopr.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 0PTSRH8c844/BPxKupSJfZR3O30r10qtjdygivCd/+w=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-21T08:54:23.000Z
           - item:
             name: rwlts
             logo: rwlts.svg
@@ -74283,12 +75214,31 @@ landscape:
             repo_url: https://github.com/brazil-data-cube/rwlts
             extra:
               topics: earth-science,geoscience,earth-observation,geoinformatics,geospatial,r,land-cover,trajectory
-            organization:
-              name: Brazil Data Cube
-            homepage_url: https://github.com/brazil-data-cube/rwlts
+            crunchbase: https://www.crunchbase.com/organization/funcate
+            homepage_url: http://www.brazildatacube.org/en/about-brazil-data-cube-2/
             crunchbase_data:
-              name: Brazil Data Cube
+              name: FUNCATE
+              description: FUNCATE manages & supports research and technological development projects to fulfill facility services.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.funcate.org.br
+              city: São José Dos Campos
+              region: Sao Paulo
+              country: Brazil
+              twitter: null
+              linkedin: https://www.linkedin.com/company/funcate
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Biotechnology
+                - Facilities Support Services
+                - Facility Management
+                - Health Care
+                - Information Technology
+                - Market Research
+                - Project Management
             github_data:
               languages:
                 - name: R
@@ -74313,7 +75263,7 @@ landscape:
               start_date: '2020-10-23T23:30:32Z'
             image_data:
               fileName: rwlts.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1IhQXJ0btbsXJRVoYYIlZLKXDCe6HhmafniEiUEjWT0=
             best_practice_data:
               badge: false
               percentage: null
@@ -79336,44 +80286,7 @@ landscape:
               latest_tweet_date: 2023-04-04T19:07:01.000Z
       - subcategory:
         name: Customer Response
-        items:
-          - item:
-            name: The Energy Web Chain
-            description: >-
-              The Energy Web Chain is a public, enterprise-grade blockchain platform designed for the energy sector’s regulatory, operational, and market needs.
-              Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run
-              blockchain-based decentralized applications (dApps).
-            homepage_url: https://energyweb.org/technology/energy-web-chain/
-            logo: the-energy-web-chain-text.svg
-            crunchbase: https://www.crunchbase.com/organization/energy-web-foundation
-            crunchbase_data:
-              name: Energy Web Foundation
-              description: Energy Web Foundation is a non-profit organization focused on accelerating blockchain technology across the energy sector.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: http://energyweb.org
-              city: Berlin
-              region: Berlin
-              country: Germany
-              twitter: https://twitter.com/energywebx
-              linkedin: https://www.linkedin.com/company/energy-web-foundation
-              acquisitions: []
-              parents: []
-              funding: 2500000
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Blockchain
-                - Information Technology
-              kind: funding
-            image_data:
-              fileName: the-energy-web-chain.svg
-              hash: FFUijNxg2aIdc3/JX0Y8JLd761hPD1u85MQjKn0xYvg=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-03-02T17:45:56.000Z
+        items: []
   - category:
     name: Shared
     subcategories:
@@ -79653,6 +80566,7 @@ landscape:
               GridAPPS-D™ is an open-source platform that accelerates development and deployment of portable applications for advanced distribution management
               and operations
             homepage_url: https://www.gridapps-d.org/
+            project_org: https://github.com/GRIDAPPSD
             repo_url: https://github.com/GRIDAPPSD/gridappsd-docker
             logo: gridappsd-text.svg
             crunchbase: https://www.crunchbase.com/organization/gridapps-d
@@ -79674,33 +80588,248 @@ landscape:
               industries:
                 - Software
             github_data:
+              description: ''
+              contributors_count: 190
+              contributions: 17;22;41;50;33;19;5;10;44;49;0;0;1;0;4;24;12;21;8;7;13;2;2;11;2;0;7;6;9;2;6;0;2;1;0;0;0;32;21;9;15;20;27;0;1;0;4;5;24;8;4;0
+              stars: 84
               languages:
-                - name: Shell
-                  value: 14090
-                  color: '#89e051'
+                - name: Java
+                  value: 50692932
+                  color: '#b07219'
+                - name: C
+                  value: 30365171
+                  color: '#555555'
+                - name: Jupyter Notebook
+                  value: 25525902
+                  color: '#DA5B0B'
                 - name: Python
-                  value: 4545
+                  value: 17796704
                   color: '#3572A5'
-              contributions: 0;0;3;0;0;0;6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-03-06Z
-              stars: 9
-              license: Unknown License
-              description: Docker based runtime for GridAPPS-D based applications and services.
-              latest_commit_date: '2022-11-10T18:03:00Z'
+                - name: C++
+                  value: 14418860
+                  color: '#f34b7d'
+                - name: MATLAB
+                  value: 10423434
+                  color: '#e16737'
+                - name: JavaScript
+                  value: 6237047
+                  color: '#f1e05a'
+                - name: HTML
+                  value: 1571063
+                  color: '#e34c26'
+                - name: TeX
+                  value: 1518725
+                  color: '#3D6117'
+                - name: Makefile
+                  value: 1016590
+                  color: '#427819'
+                - name: Roff
+                  value: 934274
+                  color: '#ecdebe'
+                - name: Shell
+                  value: 856165
+                  color: '#89e051'
+                - name: TypeScript
+                  value: 733212
+                  color: '#2b7489'
+                - name: XSLT
+                  value: 551950
+                  color: '#EB8CEB'
+                - name: Objective-C
+                  value: 396160
+                  color: '#438eff'
+                - name: Mathematica
+                  value: 355220
+                - name: Fortran
+                  value: 342820
+                  color: '#4d41b1'
+                - name: Julia
+                  value: 277818
+                  color: '#a270ba'
+                - name: M4
+                  value: 192229
+                - name: Cuda
+                  value: 164702
+                  color: '#3A4E3A'
+                - name: Ruby
+                  value: 160943
+                  color: '#701516'
+                - name: Inno Setup
+                  value: 148107
+                - name: SCSS
+                  value: 139444
+                - name: CMake
+                  value: 120781
+                - name: CSS
+                  value: 107149
+                  color: '#563d7c'
+                - name: Perl
+                  value: 54217
+                  color: '#0298c3'
+                - name: Batchfile
+                  value: 44435
+                  color: '#C1F12E'
+                - name: Dockerfile
+                  value: 21075
+                  color: '#384d54'
+                - name: Awk
+                  value: 14107
+                - name: Assembly
+                  value: 11647
+                  color: '#6E4C13'
+                - name: D
+                  value: 11509
+                  color: '#ba595e'
+                - name: PHP
+                  value: 8569
+                  color: '#4F5D95'
+                - name: M
+                  value: 4420
+                - name: sed
+                  value: 1660
+                  color: '#64b970'
+                - name: Clarion
+                  value: 1428
+                  color: '#db901e'
+                - name: R
+                  value: 1128
+                  color: '#198CE7'
+                - name: Gnuplot
+                  value: 373
+                  color: '#f0a9f0'
+                - name: Meson
+                  value: 185
+                  color: '#007800'
+                - name: DTrace
+                  value: 121
               latest_commit_link: /GRIDAPPSD/gridappsd-docker/commit/cc940a5d90bce639f0902034dcb438c5efe872ff
-              release_date: '2023-02-11T02:23:45Z'
-              release_link: https://github.com/GRIDAPPSD/gridappsd-docker/releases
-              contributors_count: 9
+              latest_commit_date: '2022-11-10T18:03:00Z'
+              firstWeek: 2022-04-24Z
+              license: Unknown License
               contributors_link: https://github.com/GRIDAPPSD/gridappsd-docker/graphs/contributors
             repos:
               - url: https://github.com/GRIDAPPSD/gridappsd-docker
                 stars: 9
+              - url: https://github.com/GRIDAPPSD/Powergrid-Models
+                stars: 26
+              - url: https://github.com/GRIDAPPSD/GOSS-GridAPPS-D
+                stars: 12
+              - url: https://github.com/GRIDAPPSD/CIMHub
+                stars: 11
+              - url: https://github.com/GRIDAPPSD/gridappsd-viz
+                stars: 5
+              - url: https://github.com/GRIDAPPSD/pyvvo
+                stars: 4
+              - url: https://github.com/GRIDAPPSD/gridappsd-forum
+                stars: 4
+              - url: https://github.com/GRIDAPPSD/gridappsd-sample-app
+                stars: 3
+              - url: https://github.com/GRIDAPPSD/gridappsd-python
+                stars: 3
+              - url: https://github.com/GRIDAPPSD/gridlab-d
+                stars: 1
+              - url: https://github.com/GRIDAPPSD/gridappsd-state-estimator
+                stars: 1
+              - url: https://github.com/GRIDAPPSD/volttron
+                stars: 1
+              - url: https://github.com/GRIDAPPSD/gridappsd-cim-interop
+                stars: 1
+              - url: https://github.com/GRIDAPPSD/gridappsd-soap-server
+                stars: 1
+              - url: https://github.com/GRIDAPPSD/gridappsd-hackathon
+                stars: 1
+              - url: https://github.com/GRIDAPPSD/gridappsd-training
+                stars: 1
+              - url: https://github.com/GRIDAPPSD/VoltVar
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/test_repo
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/osgi.enroute
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/Bootstrap
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/fncs
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/blazegraph
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-docker-build
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/docker-alpine-bash
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/docker-blazegraph
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-docs
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/suitesparse-metis-for-windows
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-proven-client
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-pyvvo
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-fncs-bridge-service
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/json
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-sensor-simulator
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-gridlabd-vvo
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/database
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-data
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-cpp
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/proven-message
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/proven-cluster
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/proven-client
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/proven-docker
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/github-release-api
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/test-api-release
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-dnp3
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/trigger-travis
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-voltage-violation
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-state-plotter
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-alarms
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/SuiteSparse
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-testing
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/model-validator
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-sample-app-java
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-toolbox
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/topology-processor
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/distributed_dsse
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/distributed-energy-coordinator
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-cim-lab
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/.github
+                stars: 0
+              - url: https://github.com/GRIDAPPSD/gridappsd-dgss-app
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /GRIDAPPSD/gridappsd-docker/commit/a34b7e22361fe9d22de25166e3e6247b32dc471b
-              start_date: '2017-11-07T23:56:08Z'
+              start_commit_link: /GRIDAPPSD/database/commit/902cc9ccb5e8dbdbb1963e5f57c35ee8ddb472c1
+              start_date: '2006-08-26T19:30:57Z'
             image_data:
               fileName: grid-apps-d.svg
-              hash: Zj4JVGaOvzP1tmy7GLTPjGyls9Tjus9MzuWFtBftPLw=
+              hash: oLm646CpJ4STJooV8mTlRPQQVXEOBXPHBSMoJVeoex4=
             best_practice_data:
               badge: false
               percentage: null

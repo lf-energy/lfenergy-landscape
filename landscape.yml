@@ -438,7 +438,7 @@ landscape:
             repo_url: https://github.com/BreakingBytes/pvfree
             organization:
               name: Breaking Bytes
-            homepage_url: https://pvfree.herokuapp.com/
+            homepage_url: https://pvfree.azurewebsites.net/
           - item:
             name: Pysolar
             logo: Pysolar.svg
@@ -872,8 +872,7 @@ landscape:
             logo: hydro-power-database.svg
             description: Collects basic information on all the European hydro-power plants.
             repo_url: https://github.com/energy-modelling-toolkit/hydro-power-database
-            organization:
-              name: Energy Modelling Toolkit
+            crunchbase: https://www.crunchbase.com/organization/joint-research-centre
             homepage_url: https://github.com/energy-modelling-toolkit/hydro-power-database
             extra:
               topics: hydropower,energy-system,power-system-simulation
@@ -1287,8 +1286,7 @@ landscape:
             logo: StorageVET.svg
             description: A valuation model for analysis of energy storage technologies and some other energy resources paired with storage.
             repo_url: https://github.com/epri-dev/StorageVET
-            organization:
-              name: EPRI
+            crunchbase: https://www.crunchbase.com/organization/epri
             homepage_url: https://www.storagevet.com
           - item:
             name: offgridsystems
@@ -1328,7 +1326,7 @@ landscape:
             repo_url: https://github.com/BattMoTeam/BattMo
             organization:
               name: BatteryModel.com
-            homepage_url: https://github.com/BattMoTeam/BattMo
+            homepage_url: https://batterymodel.com/battmo/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/410005581\n\nThe'
           - item:
@@ -1541,9 +1539,8 @@ landscape:
             repo_url: https://github.com/energy-modelling-toolkit/Dispa-SET
             extra:
               topics: python,dispatch,power
-            organization:
-              name: Energy Modelling Toolkit
-            homepage_url: https://github.com/energy-modelling-toolkit/Dispa-SET
+            crunchbase: https://www.crunchbase.com/organization/joint-research-centre
+            homepage_url: https://dispa-set.readthedocs.io/
           - item:
             name: Calliope
             logo: Calliope.svg
@@ -1638,6 +1635,8 @@ landscape:
             name: Balmorel
             logo: Balmorel.svg
             description: A partial equilibrium model for analyzing the electricity and combined heat and power sectors in an international perspective.
+            license: ISC License
+            project_org: https://github.com/balmorelcommunity
             repo_url: https://github.com/balmorelcommunity/Balmorel
             extra:
               topics: energy-system-model,gams,optimisation-model
@@ -1771,8 +1770,7 @@ landscape:
               The Horizon 2020 openENTRANCE project aims at developing, using and disseminating an open, transparent and integrated modeling platform for
               assessing low-carbon transition pathways in Europe.
             repo_url: https://github.com/openENTRANCE/openentrance
-            organization:
-              name: H2020 openENTRANCE
+            crunchbase: https://www.crunchbase.com/organization/horizon-europe
             homepage_url: http://openentrance.eu
           - item:
             name: Joulia.jl
@@ -1792,11 +1790,11 @@ landscape:
             description: >-
               Aims to provide multi-scale, simulation-based, open source computational tools and models to support the design, analysis, optimization, scale-up,
               operation and troubleshooting of innovative, advanced energy systems.
+            project_org: https://github.com/IDAES
             repo_url: https://github.com/IDAES/idaes-pse
             extra:
               topics: process-systems-engineering,process-modeling,chemical-engineering
-            organization:
-              name: IDAES
+            crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: https://idaes-pse.readthedocs.io/
           - item:
             name: Temoa
@@ -2822,9 +2820,19 @@ landscape:
             logo: origin.svg
             description: A set of toolkits that together provide a system for issuance and management of Energy Attribute Certificates.
             repo_url: https://github.com/energywebfoundation/origin
-            organization:
-              name: Energy Web Foundation
+            crunchbase: https://www.crunchbase.com/organization/energy-web-foundation
             homepage_url: https://energyweb.org/technology/ew-origin/
+          - item:
+            second_path: Customer and Market / Customer Response
+            name: The Energy Web Chain
+            description: >-
+              The Energy Web Chain is a public, enterprise-grade blockchain platform designed for the energy sector’s regulatory, operational, and market needs.
+              Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run
+              blockchain-based decentralized applications (dApps).
+            homepage_url: https://github.com/energywebfoundation/paper
+            repo_url: https://github.com/energywebfoundation/paper
+            logo: the-energy-web-chain-text.svg
+            crunchbase: https://www.crunchbase.com/organization/energy-web-foundation
           - item:
             name: Grid Singularity Energy Exchange Engine (D3A)
             logo: Grid Singularity Energy Exchange Engine (D3A).svg
@@ -2877,6 +2885,7 @@ landscape:
             name: SmartGridToolbox
             logo: SmartGridToolbox.svg
             description: Designed to provide an extensible and flexible starting point for developing a wide variety of smart grid simulations and other applications.
+            license: Apache License 2.0
             repo_url: https://gitlab.com/SmartGridToolbox/SmartGridToolbox
             additional_repos:
               - repo_url: https://gitlab.com/SmartGridToolbox/dexter-heatmap
@@ -3360,12 +3369,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://github.com/FZJ-IEK3-VSA/LoadProfileGenerator
           - item:
-            name: The-building-data-genome-project
+            name: Building Data Genome Project
             logo: The-building-data-genome-project.svg
             description: A collection of non-residential buildings for performance analysis and algorithm benchmarking.
             repo_url: https://github.com/buds-lab/the-building-data-genome-project
-            organization:
-              name: Building and Urban Data Science (BUDS) Group
+            crunchbase: https://www.crunchbase.com/organization/national-university-of-singapore
             homepage_url: http://www.buildingdatagenome.org
             extra:
               refs: ',https://doi.org/10.1016/j.egypro.2017.07.400,https://doi.org/10.1016/j.egypro.2017.07.400",\nurl'
@@ -3673,12 +3681,11 @@ landscape:
               refs: >-
                 ,https://zenodo.org/search?page=1&size=20&q=dhnx,https://doi.org/10.5278/ijsepm.6248,https://doi.org/10.5278/ijsepm.6248,https://doi.org/10.5281/zenodo.5084392\r\n\r\n
           - item:
-            name: The Building Data Genome 2 Data-Set
+            name: Building Data Genome Project 2
             logo: The Building Data Genome 2 Data-Set.svg
             description: Whole building non-residential hourly energy meter data from the Great Energy Predictor III competition.
             repo_url: https://github.com/buds-lab/building-data-genome-project-2
-            organization:
-              name: Building and Urban Data Science (BUDS) Group
+            crunchbase: https://www.crunchbase.com/organization/national-university-of-singapore
             homepage_url: https://www.budslab.org/
             extra:
               refs: >-
@@ -3841,8 +3848,7 @@ landscape:
             repo_url: https://github.com/bigladder/kiva
             extra:
               topics: engineering,heat-transfer,energy,kiva,foundation,building,simulation
-            organization:
-              name: Big Ladder Software
+            crunchbase: https://www.crunchbase.com/organization/big-ladder-software
             homepage_url: https://github.com/bigladder/kiva
           - item:
             name: Macquette
@@ -4766,8 +4772,7 @@ landscape:
             repo_url: https://github.com/dos-group/leaf
             extra:
               topics: simulation,modeling,fog-computing,edge-computing,energy-consumption
-            organization:
-              name: DOS Group at TU Berlin
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-berlin
             homepage_url: https://leaf.readthedocs.io
           - item:
             name: kube-green
@@ -4843,7 +4848,8 @@ landscape:
             logo: CodeCarbon.svg
             description: Track emissions from Compute and recommend ways to reduce their impact on the environment.
             repo_url: https://github.com/mlco2/codecarbon
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/comet-ml
+            twitter: null
             homepage_url: https://mlco2.github.io/codecarbon
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/263364731'
@@ -4861,8 +4867,7 @@ landscape:
             repo_url: https://github.com/dos-group/lets-wait-awhile
             extra:
               topics: carbon-aware-scheduling,green-computing,simulator,datasets
-            organization:
-              name: DOS Group at TU Berlin
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-berlin
             homepage_url: https://github.com/dos-group/lets-wait-awhile
           - item:
             name: Environmental Footprint Data
@@ -5180,8 +5185,7 @@ landscape:
             repo_url: https://github.com/bcgov/ghg-emissions-indicator
             extra:
               topics: env,rstats,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/ghg-emissions-indicator
           - item:
             name: DuMux
@@ -5272,8 +5276,7 @@ landscape:
             logo: The Community Emissions Data System.svg
             description: Produces consistent estimates of global air emissions species over the industrial era (1750 - present).
             repo_url: https://github.com/JGCRI/CEDS
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: http://www.globalchange.umd.edu/ceds/
             extra:
               refs: >-
@@ -5530,8 +5533,9 @@ landscape:
             name: exiobase
             logo: exiobase.svg
             description: A global and detailed Multi-Regional Environmentally Extended Supply-Use Table (MR-SUT) and Input-Output Table (MR-IOT).
+            license: Creative Commons Attribution-ShareAlike 4.0 International License
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/norwegian-university-of-science-and-technology
             homepage_url: https://www.exiobase.eu/
           - item:
             name: BONSAI
@@ -5549,6 +5553,7 @@ landscape:
             name: brightway2
             logo: brightway2.svg
             description: An open source framework for life cycle assessment.
+            project_org: https://github.com/brightway-lca
             repo_url: https://github.com/brightway-lca/brightway2
             extra:
               topics: life-cycle-assessment,bw2,python,documentation
@@ -5916,16 +5921,14 @@ landscape:
             repo_url: https://github.com/forestgeo/fgeo
             extra:
               topics: ecology,forests,dynamics,forestgeo,metapackage,fgeo,abundance,tree,demography,habitat,dynamic
-            organization:
-              name: ForestGEO
+            crunchbase: https://www.crunchbase.com/organization/smithsonian-institution
             homepage_url: https://forestgeo.github.io/fgeo/.
           - item:
             name: fgeo.biomass
             logo: fgeo.biomass.svg
             description: Calculate biomass with allometric equations from the allodb package and ForestGEO data.
             repo_url: https://github.com/forestgeo/fgeo.biomass
-            organization:
-              name: ForestGEO
+            crunchbase: https://www.crunchbase.com/organization/smithsonian-institution
             homepage_url: https://forestgeo.github.io/fgeo.biomass
           - item:
             name: BIOMASS
@@ -6678,8 +6681,7 @@ landscape:
             repo_url: https://github.com/bcgov/wps
             extra:
               topics: flnr,wildfire,bcws,python,fastapi,react,javascript,typescript,weather,postgis,postgres,postgresql,cffdrs,hacktoberfest
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/wps
           - item:
             name: detectreeRGB
@@ -7869,8 +7871,7 @@ landscape:
             logo: VIC.svg
             description: A macroscale hydrologic model that solves full water and energy balances.
             repo_url: https://github.com/UW-Hydro/VIC
-            organization:
-              name: UW Hydro | Computational Hydrology
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
             homepage_url: http://vic.readthedocs.io
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/7766/UW-Hydro/VIC,https://doi.org/10.5194/gmd-11-3481-2018,https://doi.org/10.5194/gmd-11-3481-2018'
@@ -7881,9 +7882,9 @@ landscape:
             description: >-
               Basin and Landscape Dynamics is a long-term surface evolution model built to simulate landscape development, sediment transport and sedimentary
               basins formation from upstream regions down to marine environments.
+            project_org: https://github.com/badlands-model
             repo_url: https://github.com/badlands-model/badlands
-            organization:
-              name: Badlands
+            crunchbase: https://www.crunchbase.com/organization/university-of-sydney
             homepage_url: https://badlands.readthedocs.io
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/51286954'
@@ -8408,8 +8409,7 @@ landscape:
             repo_url: https://github.com/JGCRI/hector
             extra:
               topics: climate-model,hector,science,climate,climate-change
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://jgcri.github.io/hector
           - item:
             name: pyhector
@@ -8503,8 +8503,7 @@ landscape:
             logo: MetSim.svg
             description: A meteorological simulator and forcing disaggregator for hydrologic modeling and climate applications.
             repo_url: https://github.com/UW-Hydro/MetSim
-            organization:
-              name: UW Hydro | Computational Hydrology
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
             homepage_url: http://metsim.readthedocs.io/
             extra:
               refs: >-
@@ -8821,8 +8820,7 @@ landscape:
             logo: ERA-NUTS.svg
             description: A set of time-series of meteorological variables based on Copernicus Climate Change Service ERA5 reanalysis.
             repo_url: https://github.com/energy-modelling-toolkit/era-nuts-code
-            organization:
-              name: Energy Modelling Toolkit
+            crunchbase: https://www.crunchbase.com/organization/joint-research-centre
             homepage_url: https://github.com/energy-modelling-toolkit/era-nuts-code
             extra:
               refs: ',https://doi.org/10.5281/zenodo.2650191,https://doi.org/10.5281/zenodo.2650191,https://doi.org/10.5281/zenodo.2650191'
@@ -8845,8 +8843,7 @@ landscape:
             logo: ForestGEO.svg
             description: This public repository is a portal for climate data and information for ForestGEO sites.
             repo_url: https://github.com/forestgeo/Climate
-            organization:
-              name: ForestGEO
+            crunchbase: https://www.crunchbase.com/organization/smithsonian-institution
             homepage_url: https://forestgeo.github.io/Climate/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/83330500,https://zenodo.org/badge/latestdoi/83330500'
@@ -9123,8 +9120,7 @@ landscape:
             logo: ipcc_sr15_scenario_analysis.svg
             description: Scenario analysis notebooks for the IPCC Special Report on Global Warming of 1.5°C.
             repo_url: https://github.com/iiasa/ipcc_sr15_scenario_analysis
-            organization:
-              name: IIASA
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://data.ene.iiasa.ac.at/sr15_scenario_analysis
             extra:
               refs: ',https://doi.org/10.1038/s41558-018-0317-4,https://doi.org/10.5281/zenodo.3363345,https://doi.org/10.22022/SR15/08-2018.15428'
@@ -9575,8 +9571,7 @@ landscape:
             repo_url: https://github.com/ideas-lab-nus/epwshiftr
             extra:
               topics: climate-change,energyplus,epw,esgf,cmip6
-            organization:
-              name: IDEAS-lab
+            crunchbase: https://www.crunchbase.com/organization/national-university-of-singapore
             homepage_url: https://ideas-lab-nus.github.io/epwshiftr/
           - item:
             name: bomrang
@@ -9693,8 +9688,7 @@ landscape:
               A versatile, dynamic systems-optimization modeling framework developed by the IIASA Energy, Climate, and Environment (ECE) Program since the
               1980s.
             repo_url: https://github.com/iiasa/message_ix
-            organization:
-              name: IIASA
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://docs.messageix.org
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4005684'
@@ -9722,8 +9716,7 @@ landscape:
             logo: ENGAGE.svg
             description: Source code for figure generation and analysis of the ENGAGE netzero scenario analysis.
             repo_url: https://github.com/iiasa/ENGAGE-netzero-analysis
-            organization:
-              name: IIASA
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://data.ece.iiasa.ac.at/engage-netzero-analysis/
             extra:
               refs: ',https://doi.org/10.1038/s41558-021-01215-2,https://doi.org/10.5281/zenodo.5553976'
@@ -9749,8 +9742,7 @@ landscape:
               can be used to explore climate change mitigation policies including carbon taxes, carbon trading, regulations and accelerated deployment of energy
               technology.
             repo_url: https://github.com/JGCRI/gcam-core
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: http://jgcri.github.io/gcam-doc/
             extra:
               refs: ',https://doi.org/10.5194/gmd-12-677-2019'
@@ -10045,8 +10037,7 @@ landscape:
             logo: rfasst.svg
             description: Estimation of a consistent range of adverse health and agricultural effects attributable to air pollution for a GCAM scenario.
             repo_url: https://github.com/JGCRI/rfasst
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://jgcri.github.io/rfasst/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/344924589,https://doi.org/10.21105/joss.03820'
@@ -10189,9 +10180,7 @@ landscape:
             description: >-
               Represents one of the new key elements of IIASAs Water program to assess water supply, water demand and environmental needs at global and regional
               level.
-            repo_url: https://github.com/CWatM/oldCwat
-            additional_repos:
-              - repo_url: https://github.com/iiasa/CWatM
+            repo_url: https://github.com/iiasa/CWatM
             crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://cwatm.iiasa.ac.at
             extra:
@@ -10293,8 +10282,7 @@ landscape:
             repo_url: https://github.com/bcgov/fasstr
             extra:
               topics: water,streamflow,hydrology,hydat,summary-statistics,frequency-analysis,trends,bcgov,for,r
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://bcgov.github.io/fasstr/
           - item:
             name: KnowFlow
@@ -10313,8 +10301,7 @@ landscape:
             repo_url: https://github.com/bcgov/gwells
             extra:
               topics: bcgov-csnr,django,vuejs,groundwater-data,env
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://apps.nrs.gov.bc.ca/gwells/
           - item:
             name: waterquality
@@ -10453,8 +10440,7 @@ landscape:
             repo_url: https://github.com/bcgov/wqbc
             extra:
               topics: r-package,rstats,env,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: http://bcgov.github.io/wqbc/
           - item:
             name: Model My Watershed
@@ -10501,8 +10487,7 @@ landscape:
             repo_url: https://github.com/bcgov/bcgroundwater
             extra:
               topics: env,rstats,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/bcgroundwater
           - item:
             name: GSFLOW-GRASS
@@ -10538,8 +10523,7 @@ landscape:
             repo_url: https://github.com/bcgov/groundwater-levels-indicator
             extra:
               topics: env,soe,rstats,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/groundwater-levels-indicator
           - item:
             name: GSFLOW
@@ -10557,8 +10541,7 @@ landscape:
             repo_url: https://github.com/bcgov/canwqdata
             extra:
               topics: rstats,rlang,r-package,env,r,data-science
-            organization:
-              name: Province of British Columbia
+            crunchbase: https://www.crunchbase.com/organization/government-of-british-columbia
             homepage_url: https://github.com/bcgov/canwqdata
           - item:
             name: HASP
@@ -11099,8 +11082,7 @@ landscape:
             logo: Demeter.svg
             description: A land use land cover disaggregation and change detection model.
             repo_url: https://github.com/JGCRI/demeter
-            organization:
-              name: Joint Global Change Research Institute
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://github.com/JGCRI/demeter
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/101879773'
@@ -11627,8 +11609,7 @@ landscape:
             logo: GlobalFishingWatch.svg
             description: Track commercial fishing activity worldwide on the free, user-friendly, interactive Global Fishing Watch map.
             repo_url: https://github.com/GlobalFishingWatch/map-client
-            organization:
-              name: Global Fishing Watch
+            crunchbase: https://www.crunchbase.com/organization/global-fishing-watch
             homepage_url: http://globalfishingwatch.org/
           - item:
             name: r4ss
@@ -12531,8 +12512,7 @@ landscape:
             repo_url: https://github.com/wpgp/wopr
             extra:
               topics: bayesian-methods,r-package,shiny-apps,population-model
-            organization:
-              name: WorldPop
+            crunchbase: https://www.crunchbase.com/organization/worldpop
             homepage_url: https://apps.worldpop.org/woprVision
           - item:
             name: rwlts
@@ -12543,9 +12523,8 @@ landscape:
             repo_url: https://github.com/brazil-data-cube/rwlts
             extra:
               topics: earth-science,geoscience,earth-observation,geoinformatics,geospatial,r,land-cover,trajectory
-            organization:
-              name: Brazil Data Cube
-            homepage_url: https://github.com/brazil-data-cube/rwlts
+            crunchbase: https://www.crunchbase.com/organization/funcate
+            homepage_url: http://www.brazildatacube.org/en/about-brazil-data-cube-2/
           - item:
             name: The POWER Project
             logo: The POWER Project.svg
@@ -13312,16 +13291,7 @@ landscape:
               project_lead: Robben Riksen, Alliander
       - subcategory:
         name: Customer Response
-        items:
-          - item:
-            name: The Energy Web Chain
-            description: >-
-              The Energy Web Chain is a public, enterprise-grade blockchain platform designed for the energy sector’s regulatory, operational, and market needs.
-              Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run
-              blockchain-based decentralized applications (dApps).
-            homepage_url: https://energyweb.org/technology/energy-web-chain/
-            logo: the-energy-web-chain-text.svg
-            crunchbase: https://www.crunchbase.com/organization/energy-web-foundation
+        items: []
   - category:
     name: Shared
     subcategories:
@@ -13381,6 +13351,7 @@ landscape:
               GridAPPS-D™ is an open-source platform that accelerates development and deployment of portable applications for advanced distribution management
               and operations
             homepage_url: https://www.gridapps-d.org/
+            project_org: https://github.com/GRIDAPPSD
             repo_url: https://github.com/GRIDAPPSD/gridappsd-docker
             logo: gridappsd-text.svg
             crunchbase: https://www.crunchbase.com/organization/gridapps-d
