@@ -533,7 +533,8 @@ landscape:
             logo: windpowerlib.svg
             description: A library to model the output of wind turbines and farms.
             repo_url: https://github.com/wind-python/windpowerlib
-            unnamed_organization: true
+            organization:
+              name: oemof community
             homepage_url: https://oemof.org/
             extra:
               topics: wind,energy,power,model,modelling
