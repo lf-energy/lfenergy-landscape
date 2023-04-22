@@ -415,8 +415,7 @@ landscape:
             logo: Tonatiuh.svg
             description: A Monte Carlo ray tracer for the optical simulation of solar concentrating systems.
             repo_url: https://github.com/iat-cener/tonatiuh
-            organization:
-              name: National Renewable Energy Centre - CENER
+            crunchbase: https://www.crunchbase.com/organization/centro-nacional-de-energ%C3%ADas-renovables
             homepage_url: http://iat-cener.github.io/tonatiuh/
             extra:
               topics: solar-concentrating-systems,simulation,solar,energy
@@ -846,7 +845,8 @@ landscape:
             description: Modelling and optimal control of single- and multiple-kite systems for airborne wind energy.
             repo_url: https://github.com/awebox/awebox
             project_org: https://github.com/awebox
-            unnamed_organization: true
+            organization:
+              name: Kiteswarms GmbH i. L.
             homepage_url: https://github.com/awebox/awebox
       - subcategory:
         name: Hydro Energy
@@ -1910,7 +1910,9 @@ landscape:
             repo_url: https://github.com/ADGEfficiency/energy-py-linear
             extra:
               topics: python,optimization,energy
-            unnamed_organization: true
+            organization:
+              name: ADG Efficiency
+              twitter: https://twitter.com/ADGEfficiency
             homepage_url: https://github.com/ADGEfficiency/energy-py-linear
           - item:
             name: switch-model
@@ -2204,7 +2206,9 @@ landscape:
             repo_url: https://github.com/ADGEfficiency/energy-py
             extra:
               topics: reinforcement-learning,energy
-            unnamed_organization: true
+            organization:
+              name: ADG Efficiency
+              twitter: https://twitter.com/ADGEfficiency
             homepage_url: https://github.com/ADGEfficiency/energy-py
           - item:
             name: glaes
@@ -2804,7 +2808,8 @@ landscape:
             extra:
               topics: >-
                 python,powerflow,electrical-engineering,electrical,helm,newton-raphson,latin-hypercube,monte-carlo-simulation,cim,comon-information-model,stochastic-power-flow,multi-terminal,acdc,optimization,power-systems
-            unnamed_organization: true
+            organization:
+              name: Advanced Grid Insight
             homepage_url: https://www.advancedgridinsights.com/gridcal
           - item:
             name: pyehub
@@ -2845,9 +2850,10 @@ landscape:
             name: Backbone
             logo: Backbone.svg
             description: A generic energy network optimization tool written in GAMS.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://gitlab.vtt.fi/backbone/backbone
+            repo_url: https://gitlab.vtt.fi/backbone/backbone
+            license: GNU Lesser General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/vtt
+            homepage_url: https://gitlab.vtt.fi/backbone/backbone/-/wikis/home
           - item:
             name: APIS
             logo: APIS.svg
@@ -4641,8 +4647,7 @@ landscape:
             logo: Green Cost Explorer.svg
             description: See how much of your cloud bill is spent on fossil fuels, so you can do the right thing and switch.
             repo_url: https://github.com/thegreenwebfoundation/green-cost-explorer
-            organization:
-              name: The Green Web Foundation
+            crunchbase: https://www.crunchbase.com/organization/the-green-web-foundation
             homepage_url: https://github.com/thegreenwebfoundation/green-cost-explorer
           - item:
             name: CPU Energy Meter
@@ -4700,9 +4705,8 @@ landscape:
             logo: co2.js.svg
             description: A npm module for accessing the green web API, and estimating the carbon emissions from using digital services.
             repo_url: https://github.com/thegreenwebfoundation/co2.js
-            organization:
-              name: The Green Web Foundation
-            homepage_url: https://github.com/thegreenwebfoundation/co2.js
+            crunchbase: https://www.crunchbase.com/organization/the-green-web-foundation
+            homepage_url: https://developers.thegreenwebfoundation.org/co2js/overview/
           - item:
             name: nvidia-co2
             logo: nvidia-co2.svg
@@ -4822,8 +4826,7 @@ landscape:
             logo: grid-intensity-go.svg
             description: A tool written in go to help you factor carbon intensity into decisions about where and when to run computing jobs.
             repo_url: https://github.com/thegreenwebfoundation/grid-intensity-go
-            organization:
-              name: The Green Web Foundation
+            crunchbase: https://www.crunchbase.com/organization/the-green-web-foundation
             homepage_url: https://github.com/thegreenwebfoundation/grid-intensity-go
           - item:
             name: Eco2AI
@@ -5650,8 +5653,7 @@ landscape:
             logo: Trase.svg
             description: Brings unprecedented transparency to commodity supply chains revealing new pathways towards achieving a deforestation-free economy.
             repo_url: https://github.com/Vizzuality/trase
-            organization:
-              name: Vizzuality
+            crunchbase: https://www.crunchbase.com/organization/vizzuality
             homepage_url: https://trase.earth
           - item:
             name: QSDsan
@@ -5803,8 +5805,7 @@ landscape:
             logo: Global Plastic Navigator.svg
             description: Visualises the most recent and high-resolution data of current scientific publications on marine plastic pollution.
             repo_url: https://github.com/WWF-Deutschland/marine-plastic-explorer
-            organization:
-              name: WWF Deutschland
+            crunchbase: https://www.crunchbase.com/organization/wwf
             homepage_url: https://plasticnavigator.wwf.de
           - item:
             name: marine_debris_ML
@@ -6021,8 +6022,7 @@ landscape:
             repo_url: https://github.com/Vizzuality/gfw
             extra:
               topics: forest-monitoring,satellite-imagery,mapbox,deforestation,nextjs,react,redux
-            organization:
-              name: Vizzuality
+            crunchbase: https://www.crunchbase.com/organization/vizzuality
             homepage_url: https://www.globalforestwatch.org
           - item:
             name: gfw-mapbuilder
@@ -6109,8 +6109,7 @@ landscape:
             logo: pyMETRIC.svg
             description: A set of Python based tools developed for estimating and mapping evapotranspiration for large areas, utilizing the Landsat image archive.
             repo_url: https://github.com/WSWUP/pymetric
-            organization:
-              name: Western States Water Use Program (WSWUP)
+            crunchbase: https://www.crunchbase.com/organization/desert-research-institute
             homepage_url: https://github.com/WSWUP/pymetric
           - item:
             name: NeonTreeEvaluation
@@ -6221,7 +6220,7 @@ landscape:
             extra:
               topics: >-
                 resource-assessment,intrinsic-soil-properties,soil-quality-degradation,soils-data,conservation-assessment-ranking,cart,land-unit,risk,ranking,conservation-practices,ssurgo,nrcs,usda,usda-nrcs,soil-data-access,conservation,assessment,ranking-tool
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://jneme910.github.io/CART/
           - item:
             name: forest-prediction
@@ -6644,8 +6643,7 @@ landscape:
             logo: Bioverse Labs.svg
             description: Python scripts using usual frameworks in Deep Learning for pattern recognition on forest environments.
             repo_url: https://github.com/Bioverse-Labs/deep-learning
-            organization:
-              name: Bioverse Labs
+            crunchbase: https://www.crunchbase.com/organization/bioverse-labs
             homepage_url: https://github.com/Bioverse-Labs/deep-learning
           - item:
             name: Tree Tracker
@@ -6772,8 +6770,8 @@ landscape:
               Blends structured wildlife research with artificial intelligence, citizen science, and computer vision to speed population analysis and develop
               new insights to help fight extinction.
             repo_url: https://github.com/WildMeOrg/Wildbook
-            organization:
-              name: Wild Me
+            project_org: https://github.com/WildMeOrg
+            crunchbase: https://www.crunchbase.com/organization/wild-me-b018
             homepage_url: https://www.wildbook.org
           - item:
             name: Forest Scenario Planner
@@ -6878,11 +6876,11 @@ landscape:
             name: California Forest Observatory
             logo: California Forest Observatory.svg
             description: Python wrappers for accessing Forest Observatory data via the Salo API.
+            project_org: https://github.com/forestobservatory
             repo_url: https://github.com/forestobservatory/cfo-api
             extra:
               topics: ecology,wildfire,california,api,python-wrappers
-            organization:
-              name: California Forest Observatory
+            crunchbase: https://www.crunchbase.com/organization/salo-sciences
             homepage_url: https://www.forestobservatory.com
           - item:
             name: mapme.biodiversity
@@ -7246,9 +7244,8 @@ landscape:
             logo: QGreenland.svg
             description: A free mapping tool to support interdisciplinary Greenland-focused research, teaching, decision making, and collaboration.
             repo_url: https://github.com/nsidc/qgreenland
-            organization:
-              name: National Snow and Ice Data Center
-            homepage_url: https://github.com/nsidc/qgreenland
+            crunchbase: https://www.crunchbase.com/organization/national-snow-and-ice-data-center
+            homepage_url: https://qgreenland.org/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/241453043'
           - item:
@@ -7368,8 +7365,8 @@ landscape:
             logo: Iris.svg
             description: A powerful, format-agnostic, community-driven Python package for analyzing and visualizing Earth science data.
             repo_url: https://github.com/SciTools/iris
-            unnamed_organization: true
-            homepage_url: https://scitools-iris.readthedocs.io/en/latest/
+            crunchbase: https://www.crunchbase.com/organization/met-office
+            homepage_url: https://scitools-iris.readthedocs.io
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/5312648'
               topics: iris,python,netcdf,grib,visualisation,data-analysis,earth-science,meteorology,oceanography,spaceweather
@@ -8217,7 +8214,7 @@ landscape:
             extra:
               refs: ',https://doi.org/10.5194/cp-2018-13'
           - item:
-            name: pangeo
+            name: Pangeo
             logo: pangeo.svg
             description: A community platform for Big Data geoscience.
             repo_url: https://github.com/pangeo-data/pangeo
@@ -8471,9 +8468,9 @@ landscape:
               Stands for CLIMate ADAptation and is a probabilistic natural catastrophe impact model, that also calculates averted damage (benefit) thanks to
               adaptation measures of any kind (from grey to green infrastructure, behavioural, etc.).
             repo_url: https://github.com/CLIMADA-project/climada_python
-            organization:
-              name: Weather and Climate Risks Group
-            homepage_url: https://github.com/CLIMADA-project/climada_python
+            project_org: https://github.com/CLIMADA-project
+            homepage_url: https://climada.ethz.ch/
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             extra:
               refs: >-
                 ,https://zenodo.org/badge/latestdoi/112729129,https://zenodo.org/search?page=1&size=20&q=climada,https://doi.org/10.5194/gmd-12-3085-2019\n\nBresch,https://doi.org/10.5194/gmd-14-351-2021\n\nPlease
@@ -8686,6 +8683,7 @@ landscape:
             logo: xgcm.svg
             description: A Python package for analyzing general circulation model output data.
             repo_url: https://github.com/xgcm/xgcm
+            project_org: https://github.com/xgcm
             organization:
               name: xgcm
             homepage_url: http://xgcm.readthedocs.org
@@ -8717,8 +8715,7 @@ landscape:
             repo_url: https://github.com/wrf-model/WRF
             extra:
               topics: wrf,weather,climate,forecast,nwp,model,simulation,fortran
-            organization:
-              name: Weather Research and Forecasting Model
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: https://github.com/wrf-model/WRF
           - item:
             name: wrf-python
@@ -8806,7 +8803,8 @@ landscape:
               The gridded archive of the Climatic Research Unit (University of East Anglia) and NCAS. The dataset was derived by the interpolation of monthly
               climate observations from extensive networks of weather stations.
             repo_url: null
-            unnamed_organization: true
+            license: Open Government Licence
+            crunchbase: https://www.crunchbase.com/organization/university-of-east-anglia
             homepage_url: https://crudata.uea.ac.uk/cru/data/hrg/
           - item:
             name: E-OBS
@@ -9098,8 +9096,7 @@ landscape:
             logo: cf-python.svg
             description: A CF-compliant Earth Science data analysis library.
             repo_url: https://github.com/NCAS-CMS/cf-python
-            organization:
-              name: NCAS CMS
+            crunchbase: https://www.crunchbase.com/organization/natural-environment-research-council
             homepage_url: http://ncas-cms.github.io/cf-python
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3894533,https://doi.org/10.21105/joss.02717,https://doi.org/10.5194/gmd-10-4619-2017'
@@ -9108,10 +9105,10 @@ landscape:
             name: xCDAT
             logo: xCDAT.svg
             description: An extension of xarray for climate data analysis on structured grids.
+            project_org: https://github.com/xCDAT
             repo_url: https://github.com/xCDAT/xcdat
-            organization:
-              name: xCDAT
-            homepage_url: https://xcdat.readthedocs.io/en/latest/
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
+            homepage_url: https://xcdat.readthedocs.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/354103918\n'
               topics: climate-data-analysis,xarray,climate-science,python,climate-data,cdat,xcdat
@@ -9528,9 +9525,10 @@ landscape:
               An open source project and Python package that provides verification metrics of deterministic (and probabilistic from properscoring) forecasts
               with xarray.
             repo_url: https://github.com/xarray-contrib/xskillscore
-            organization:
-              name: xarray-contrib
-            homepage_url: https://xskillscore.readthedocs.io/en/stable/
+            additional_repos:
+              - repo_url: https://github.com/raybellwaves/xskillscore-tutorial
+            crunchbase: https://www.crunchbase.com/organization/numfocus
+            homepage_url: https://xskillscore.readthedocs.io
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5173152\n\n**xskillscore**'
               topics: forecasting,verification,metrics,pangeo
@@ -10409,8 +10407,7 @@ landscape:
             logo: AWSM.svg
             description: Automated Water Supply Model was developed at the USDA Agricultural Research Service.
             repo_url: https://github.com/USDA-ARS-NWRC/awsm
-            organization:
-              name: USDA ARS Northwest Watershed Research Center
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://github.com/USDA-ARS-NWRC/awsm
             extra:
               refs: ',https://doi.org/10.5281/zenodo.898158'
@@ -10449,8 +10446,7 @@ landscape:
             repo_url: https://github.com/WikiWatershed/model-my-watershed
             extra:
               topics: civic-apps-team,watersheds,hydrology,stormwater
-            organization:
-              name: WikiWatershed
+            crunchbase: https://www.crunchbase.com/organization/stroud-water-research-center
             homepage_url: https://modelmywatershed.org
           - item:
             name: AquaSat
@@ -10762,8 +10758,7 @@ landscape:
             repo_url: https://github.com/ncss-tech/soilReports
             extra:
               topics: usda,nrcs,soil,soil-survey,nasis
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://github.com/ncss-tech/soilReports
           - item:
             name: AQP
@@ -10772,16 +10767,14 @@ landscape:
             repo_url: https://github.com/ncss-tech/aqp
             extra:
               topics: nrcs,usda,soil,digital-soil-mapping,pedometrics,ncss-tech,pedology,soil-survey
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: http://ncss-tech.github.io/aqp/
           - item:
             name: sharpshootR
             logo: sharpshootR.svg
             description: Miscellaneous soil data management, summary, visualization, and conversion utilities to support soil survey.
             repo_url: https://github.com/ncss-tech/sharpshootR
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: http://ncss-tech.github.io/sharpshootR/
           - item:
             name: soilDB
@@ -10790,8 +10783,7 @@ landscape:
             repo_url: https://github.com/ncss-tech/soilDB
             extra:
               topics: nrcs,usda,soil,soil-survey,sql,nasis,soil-data-access,soilweb,kssl
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: http://ncss-tech.github.io/soilDB/
           - item:
             name: Landslides Detection
@@ -10844,8 +10836,7 @@ landscape:
             logo: esa_cci_sm.svg
             description: Readers and converters for ESA CCI Soil Moisture image and time series data.
             repo_url: https://github.com/TUW-GEO/esa_cci_sm
-            organization:
-              name: TU Wien - Department of Geodesy and Geoinformation
+            crunchbase: https://www.crunchbase.com/organization/technische-universit%C3%A4t-wien
             homepage_url: https://www.esa-soilmoisture-cci.org/
           - item:
             name: US_SoilGrids100m
@@ -10863,8 +10854,7 @@ landscape:
             logo: pytesmo.svg
             description: Python Toolbox for the Evaluation of Soil Moisture Observations.
             repo_url: https://github.com/TUW-GEO/pytesmo
-            organization:
-              name: TU Wien - Department of Geodesy and Geoinformation
+            crunchbase: https://www.crunchbase.com/organization/technische-universit%C3%A4t-wien
             homepage_url: https://pytesmo.readthedocs.io
             extra:
               refs: ',https://doi.org/10.5281/zenodo.596422\n\nTo,https://doi.org/10.5281/zenodo.596422'
@@ -10894,8 +10884,7 @@ landscape:
               Leverages deep learning and computer vision for drought resilience, using satellite images and human expert labels to detect drought conditions in
               Northern Kenya.
             repo_url: https://github.com/wandb/droughtwatch
-            organization:
-              name: Weights & Biases
+            crunchbase: https://www.crunchbase.com/organization/weights-biases
             homepage_url: https://github.com/wandb/droughtwatch
           - item:
             name: SoilHealthDB
@@ -10991,8 +10980,8 @@ landscape:
             name: stats_for_soil_survey
             logo: stats_for_soil_survey.svg
             description: Lecture material on "Statistics for Pedologists".
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/ncss-tech/stats_for_soil_survey
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://ncss-tech.github.io/stats_for_soil_survey/
           - item:
             name: Simsphere
@@ -11141,8 +11130,7 @@ landscape:
             logo: ismn.svg
             description: Readers for the data from the International Soil Moisture Database.
             repo_url: https://github.com/TUW-GEO/ismn
-            organization:
-              name: TU Wien - Department of Geodesy and Geoinformation
+            crunchbase: https://www.crunchbase.com/organization/technische-universit%C3%A4t-wien
             homepage_url: https://ismn.earth/en/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.855308\n\nIf,https://doi.org/10.5281/zenodo.855308'
@@ -11154,8 +11142,7 @@ landscape:
             repo_url: https://github.com/Vizzuality/soils-revealed
             extra:
               topics: soils,soils-revealed,climate-change,food-security,water-quality
-            organization:
-              name: Vizzuality
+            crunchbase: https://www.crunchbase.com/organization/vizzuality
             homepage_url: https://soilsrevealed.org/
           - item:
             name: Soil Erosion Watch
@@ -11777,9 +11764,8 @@ landscape:
             repo_url: https://github.com/NRCan/CanFlood
             extra:
               topics: qgis,flood-risk-models,canada,flood,disaster
-            organization:
-              name: Natural Resources Canada
-            homepage_url: https://github.com/NRCan/CanFlood
+            crunchbase: https://www.crunchbase.com/organization/natural-resources-canada
+            homepage_url: https://canflood.readthedocs.io/
           - item:
             name: HYDRAFloods
             logo: HYDRAFloods.svg

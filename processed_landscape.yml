@@ -446,7 +446,7 @@ landscape:
               start_date: '2018-03-07T15:29:55Z'
             image_data:
               fileName: elpv-dataset.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: jdWjYDVZ5djHgRDKYzEGJe3qgogRLFHxQa9Tb6Ao3Vg=
             best_practice_data:
               badge: false
               percentage: null
@@ -2247,14 +2247,30 @@ landscape:
             logo: Tonatiuh.svg
             description: A Monte Carlo ray tracer for the optical simulation of solar concentrating systems.
             repo_url: https://github.com/iat-cener/tonatiuh
-            organization:
-              name: National Renewable Energy Centre - CENER
+            crunchbase: https://www.crunchbase.com/organization/centro-nacional-de-energ%C3%ADas-renovables
             homepage_url: http://iat-cener.github.io/tonatiuh/
             extra:
               topics: solar-concentrating-systems,simulation,solar,energy
             crunchbase_data:
-              name: National Renewable Energy Centre - CENER
+              name: Centro Nacional de Energías Renovables
+              description: Centro Nacional de Energías Renovables specializes in applied research, development, innovation, and promotion of renewable energies.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.cener.com
+              city: Pamplona
+              region: Navarra
+              country: Spain
+              twitter: https://twitter.com/CENER_Energia
+              linkedin: https://www.linkedin.com/company/centro-nacional-de-energ-as-renovables-cener---national-renewable-energy-centre/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Life Science
+                - Renewable Energy
+                - Solar
+                - Wind Energy
             github_data:
               languages:
                 - name: C++
@@ -2287,7 +2303,7 @@ landscape:
               start_date: '2008-06-25T17:42:59Z'
             image_data:
               fileName: tonatiuh.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: rcThLh97C9mnQJi9v54ICucTZ92FmKfjVz4NA70N2pg=
             best_practice_data:
               badge: false
               percentage: null
@@ -3652,7 +3668,7 @@ landscape:
               start_date: '2014-06-01T03:51:44Z'
             image_data:
               fileName: turbines-foam.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: bRF3r3nhX4miq27Yco1jPJd9qwHqk5INCFKpy6oIZ2E=
             best_practice_data:
               badge: false
               percentage: null
@@ -5649,16 +5665,11 @@ landscape:
             description: Modelling and optimal control of single- and multiple-kite systems for airborne wind energy.
             repo_url: https://github.com/awebox/awebox
             project_org: https://github.com/awebox
-            unnamed_organization: true
+            organization:
+              name: Kiteswarms GmbH i. L.
             homepage_url: https://github.com/awebox/awebox
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Kiteswarms GmbH i. L.
               parents: []
             github_data:
               description: null
@@ -5685,12 +5696,10 @@ landscape:
               start_date: '2019-04-26T09:48:23Z'
             image_data:
               fileName: awebox.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: sSj7DxKuoA4cRB24q8fXF9MarLrbP5e7KpIwWLr4B6A=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
       - subcategory:
         name: Hydro Energy
         items:
@@ -6697,7 +6706,7 @@ landscape:
               start_date: '2010-04-13T04:18:18Z'
             image_data:
               fileName: waiwera.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: j+j5s8y+9iQOyu11YxOf4nn/nsh49qMkR8B6gE9zBKA=
             best_practice_data:
               badge: false
               percentage: null
@@ -10209,7 +10218,7 @@ landscape:
               start_date: '2013-05-06T03:17:33Z'
             image_data:
               fileName: nemo.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 8H9S00BIGTQoiqz1b1/MHVL+AcbQT/PTsac/VIJRs2M=
             best_practice_data:
               badge: false
               percentage: null
@@ -11584,16 +11593,13 @@ landscape:
             repo_url: https://github.com/ADGEfficiency/energy-py-linear
             extra:
               topics: python,optimization,energy
-            unnamed_organization: true
+            organization:
+              name: ADG Efficiency
+              twitter: https://twitter.com/ADGEfficiency
             homepage_url: https://github.com/ADGEfficiency/energy-py-linear
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: ADG Efficiency
+              twitter: https://twitter.com/ADGEfficiency
               parents: []
             github_data:
               languages:
@@ -11620,12 +11626,10 @@ landscape:
               start_date: '2019-01-13T04:28:09Z'
             image_data:
               fileName: energy-py-linear.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: R0PWcoRJB+UALi8llQlXDhlN5bRXseE69GPcpH1FQVc=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: switch-model
             logo: switch-model.svg
@@ -13118,16 +13122,13 @@ landscape:
             repo_url: https://github.com/ADGEfficiency/energy-py
             extra:
               topics: reinforcement-learning,energy
-            unnamed_organization: true
+            organization:
+              name: ADG Efficiency
+              twitter: https://twitter.com/ADGEfficiency
             homepage_url: https://github.com/ADGEfficiency/energy-py
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: ADG Efficiency
+              twitter: https://twitter.com/ADGEfficiency
               parents: []
             github_data:
               languages:
@@ -13154,12 +13155,10 @@ landscape:
               start_date: '2021-05-29T15:52:04Z'
             image_data:
               fileName: energy-py.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: aAPpkgrITxjiXLDYSTEYOPpnkjV1rNYqV2mIXtBE6XE=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: glaes
             logo: glaes.svg
@@ -16564,16 +16563,11 @@ landscape:
             extra:
               topics: >-
                 python,powerflow,electrical-engineering,electrical,helm,newton-raphson,latin-hypercube,monte-carlo-simulation,cim,comon-information-model,stochastic-power-flow,multi-terminal,acdc,optimization,power-systems
-            unnamed_organization: true
+            organization:
+              name: Advanced Grid Insight
             homepage_url: https://www.advancedgridinsights.com/gridcal
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Advanced Grid Insight
               parents: []
             github_data:
               languages:
@@ -16611,12 +16605,10 @@ landscape:
               start_date: '2016-01-13T15:40:10Z'
             image_data:
               fileName: grid-cal.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: J+yEjzlO3f1MHwCvKES6saLzRzC+2CrJLOyL9WLL2lA=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: pyehub
             logo: pyehub.svg
@@ -16848,26 +16840,40 @@ landscape:
             name: Backbone
             logo: Backbone.svg
             description: A generic energy network optimization tool written in GAMS.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://gitlab.vtt.fi/backbone/backbone
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            repo_url: https://gitlab.vtt.fi/backbone/backbone
+            license: GNU Lesser General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/vtt
+            homepage_url: https://gitlab.vtt.fi/backbone/backbone/-/wikis/home
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: VTT Technical Research Centre of Finland
+              description: Research and technology organisation (RTO)
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.vttresearch.com/en
+              city: Espoo
+              region: Southern Finland
+              country: Finland
+              twitter: http://twitter.com/VTTFinland
+              linkedin: https://www.linkedin.com/company/vtt
+              acquisitions: []
               parents: []
+              funding: 1054236
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Clean Energy
+                - Information Technology
+                - Internet
+                - Telecommunications
+              kind: funding
+            repos:
+              - url: https://gitlab.vtt.fi/backbone/backbone
             image_data:
               fileName: backbone.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: gwnIQMLrrxYAKRUz4cJHW20AJ/eI0Y2fjuc8mOD1Z0Q=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: APIS
             logo: APIS.svg
@@ -28257,12 +28263,29 @@ landscape:
             logo: Green Cost Explorer.svg
             description: See how much of your cloud bill is spent on fossil fuels, so you can do the right thing and switch.
             repo_url: https://github.com/thegreenwebfoundation/green-cost-explorer
-            organization:
-              name: The Green Web Foundation
+            crunchbase: https://www.crunchbase.com/organization/the-green-web-foundation
             homepage_url: https://github.com/thegreenwebfoundation/green-cost-explorer
             crunchbase_data:
               name: The Green Web Foundation
+              description: The Green Web Foundation tracks and accelerates the transition to a fossil-free internet.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.thegreenwebfoundation.org/
+              city: Wageningen
+              region: Gelderland
+              country: The Netherlands
+              twitter: https://twitter.com/greenwebfound
+              linkedin: https://www.linkedin.com/company/the-green-web-foundation/
+              acquisitions: []
               parents: []
+              funding: 144861
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Environmental Consulting
+                - Internet
+                - Sustainability
+              kind: funding
             github_data:
               languages:
                 - name: JavaScript
@@ -28285,7 +28308,7 @@ landscape:
               start_date: '2019-08-04T09:35:24Z'
             image_data:
               fileName: green-cost-explorer.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: qU3CjAGgg0NMkc6Cu42vFJqFuSzfdM6++UjxM7Fx0e8=
             best_practice_data:
               badge: false
               percentage: null
@@ -28509,12 +28532,29 @@ landscape:
             logo: co2.js.svg
             description: A npm module for accessing the green web API, and estimating the carbon emissions from using digital services.
             repo_url: https://github.com/thegreenwebfoundation/co2.js
-            organization:
-              name: The Green Web Foundation
-            homepage_url: https://github.com/thegreenwebfoundation/co2.js
+            crunchbase: https://www.crunchbase.com/organization/the-green-web-foundation
+            homepage_url: https://developers.thegreenwebfoundation.org/co2js/overview/
             crunchbase_data:
               name: The Green Web Foundation
+              description: The Green Web Foundation tracks and accelerates the transition to a fossil-free internet.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.thegreenwebfoundation.org/
+              city: Wageningen
+              region: Gelderland
+              country: The Netherlands
+              twitter: https://twitter.com/greenwebfound
+              linkedin: https://www.linkedin.com/company/the-green-web-foundation/
+              acquisitions: []
               parents: []
+              funding: 144861
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Environmental Consulting
+                - Internet
+                - Sustainability
+              kind: funding
             github_data:
               languages:
                 - name: JavaScript
@@ -28548,7 +28588,7 @@ landscape:
               start_date: '2020-02-23T19:28:01Z'
             image_data:
               fileName: co2-js.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: gVB10g+nvcYuf8K/2hMB8h/yaAtQ3vdkMxjS6OSlX9I=
             best_practice_data:
               badge: false
               percentage: null
@@ -29796,12 +29836,29 @@ landscape:
             logo: grid-intensity-go.svg
             description: A tool written in go to help you factor carbon intensity into decisions about where and when to run computing jobs.
             repo_url: https://github.com/thegreenwebfoundation/grid-intensity-go
-            organization:
-              name: The Green Web Foundation
+            crunchbase: https://www.crunchbase.com/organization/the-green-web-foundation
             homepage_url: https://github.com/thegreenwebfoundation/grid-intensity-go
             crunchbase_data:
               name: The Green Web Foundation
+              description: The Green Web Foundation tracks and accelerates the transition to a fossil-free internet.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.thegreenwebfoundation.org/
+              city: Wageningen
+              region: Gelderland
+              country: The Netherlands
+              twitter: https://twitter.com/greenwebfound
+              linkedin: https://www.linkedin.com/company/the-green-web-foundation/
+              acquisitions: []
               parents: []
+              funding: 144861
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Environmental Consulting
+                - Internet
+                - Sustainability
+              kind: funding
             github_data:
               languages:
                 - name: Go
@@ -29834,7 +29891,7 @@ landscape:
               start_date: '2020-11-03T11:31:37Z'
             image_data:
               fileName: grid-intensity-go.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: a3dmjDAf32GVJ0VOCCBTASOz0MR+T8DJnl2vXR8L5OY=
             best_practice_data:
               badge: false
               percentage: null
@@ -34000,12 +34057,32 @@ landscape:
             logo: Trase.svg
             description: Brings unprecedented transparency to commodity supply chains revealing new pathways towards achieving a deforestation-free economy.
             repo_url: https://github.com/Vizzuality/trase
-            organization:
-              name: Vizzuality
+            crunchbase: https://www.crunchbase.com/organization/vizzuality
             homepage_url: https://trase.earth
             crunchbase_data:
               name: Vizzuality
+              description: Vizzuality is dedicated in the designing and development of rich internet applications for biodiversity information.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.vizzuality.com
+              city: Madrid
+              region: Madrid
+              country: Spain
+              twitter: http://twitter.com/Vizzuality
+              linkedin: https://www.linkedin.com/company/vizzuality/
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Data Visualization
+                - Enterprise Software
+                - Geospatial
+                - Open Source
+                - Web Design
+                - Web Development
             github_data:
               languages:
                 - name: Ruby
@@ -34051,7 +34128,7 @@ landscape:
               start_date: '2017-02-17T08:25:42Z'
             image_data:
               fileName: trase.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1FGqjE3jnzzxDwB5/eZX5HLCAUdh/KuFbpPsHisGT3g=
             best_practice_data:
               badge: false
               percentage: null
@@ -34744,40 +34821,58 @@ landscape:
             logo: Global Plastic Navigator.svg
             description: Visualises the most recent and high-resolution data of current scientific publications on marine plastic pollution.
             repo_url: https://github.com/WWF-Deutschland/marine-plastic-explorer
-            organization:
-              name: WWF Deutschland
+            crunchbase: https://www.crunchbase.com/organization/wwf
             homepage_url: https://plasticnavigator.wwf.de
             crunchbase_data:
-              name: WWF Deutschland
+              name: WWF
+              description: WWF is a non-profit conservation organization that is focused on stopping the degradation of Earth’s natural environment.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://wwf.panda.org
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/WWF
+              linkedin: https://www.linkedin.com/company/wwf-international
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Communities
+                - Natural Resources
+                - Non Profit
             github_data:
               languages:
                 - name: JavaScript
-                  value: 481361
+                  value: 1240942
                   color: '#f1e05a'
                 - name: Handlebars
-                  value: 10305
+                  value: 20610
                 - name: HTML
-                  value: 5785
+                  value: 11570
                   color: '#e34c26'
-              contributions: 6;4;2;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0
-              firstWeek: 2022-04-03Z
+              contributions: 0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;61;42;44;32
+              firstWeek: 2022-04-24Z
               stars: 4
               license: Other
               description: WWF Global Plastic Navigator
-              latest_commit_date: '2023-03-09T07:51:52Z'
-              latest_commit_link: /WWF-Deutschland/marine-plastic-explorer/commit/46b170baccb97bffbe1b97e517fcb6e4623d7580
+              latest_commit_date: '2023-04-21T10:50:26Z'
+              latest_commit_link: /WWF-Deutschland/marine-plastic-explorer/commit/146f60cc69ff051ba42fd907f6116f113b3ed1fd
               contributors_count: 4
               contributors_link: https://github.com/WWF-Deutschland/marine-plastic-explorer/graphs/contributors
             repos:
               - url: https://github.com/WWF-Deutschland/marine-plastic-explorer
                 stars: 4
+              - url: https://github.com/WWF-Deutschland/marine-plastic-explorer-test
+                stars: 0
             github_start_commit_data:
               start_commit_link: /WWF-Deutschland/marine-plastic-explorer/commit/d6567a965cf90ccdb31afc90adfa23502e05ccdd
               start_date: '2020-06-09T15:30:18Z'
             image_data:
               fileName: global-plastic-navigator.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: E/CpWR/zBN7HIPU2wems9dcUhRxnAtfZRFMCzkoMKWA=
             best_practice_data:
               badge: false
               percentage: null
@@ -35935,12 +36030,32 @@ landscape:
             repo_url: https://github.com/Vizzuality/gfw
             extra:
               topics: forest-monitoring,satellite-imagery,mapbox,deforestation,nextjs,react,redux
-            organization:
-              name: Vizzuality
+            crunchbase: https://www.crunchbase.com/organization/vizzuality
             homepage_url: https://www.globalforestwatch.org
             crunchbase_data:
               name: Vizzuality
+              description: Vizzuality is dedicated in the designing and development of rich internet applications for biodiversity information.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.vizzuality.com
+              city: Madrid
+              region: Madrid
+              country: Spain
+              twitter: http://twitter.com/Vizzuality
+              linkedin: https://www.linkedin.com/company/vizzuality/
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Data Visualization
+                - Enterprise Software
+                - Geospatial
+                - Open Source
+                - Web Design
+                - Web Development
             github_data:
               languages:
                 - name: JavaScript
@@ -35970,7 +36085,7 @@ landscape:
               start_date: '2012-05-16T15:13:00Z'
             image_data:
               fileName: global-forest-watch.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: L4robEI3meV1EqGI7EddobE9fjZB8XWq8V9Xl7NfSmw=
             best_practice_data:
               badge: false
               percentage: null
@@ -36426,12 +36541,24 @@ landscape:
             logo: pyMETRIC.svg
             description: A set of Python based tools developed for estimating and mapping evapotranspiration for large areas, utilizing the Landsat image archive.
             repo_url: https://github.com/WSWUP/pymetric
-            organization:
-              name: Western States Water Use Program (WSWUP)
+            crunchbase: https://www.crunchbase.com/organization/desert-research-institute
             homepage_url: https://github.com/WSWUP/pymetric
             crunchbase_data:
-              name: Western States Water Use Program (WSWUP)
+              name: Desert Research Institute
+              description: Desert Research Institute (DRI) serves as the environmental research arm of the Nevada System of Higher Education.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.dri.edu
+              city: Reno
+              region: Nevada
+              country: United States
+              twitter: https://www.twitter.com/driscience
+              linkedin: https://www.linkedin.com/company/28927
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -36456,7 +36583,7 @@ landscape:
               start_date: '2018-05-10T23:57:10Z'
             image_data:
               fileName: py-metric.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: enGbdy0Y6ZTgKx8PmDVeItpEoU0efjU0IoylASQWeiA=
             best_practice_data:
               badge: false
               percentage: null
@@ -37077,17 +37204,29 @@ landscape:
             extra:
               topics: >-
                 resource-assessment,intrinsic-soil-properties,soil-quality-degradation,soils-data,conservation-assessment-ranking,cart,land-unit,risk,ranking,conservation-practices,ssurgo,nrcs,usda,usda-nrcs,soil-data-access,conservation,assessment,ranking-tool
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://jneme910.github.io/CART/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: U.S. Department of Agriculture
+              description: U.S. Department of Agriculture is  provider leadership on food, agriculture, natural resources, and related issues based.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usda.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/usda
+              linkedin: https://www.linkedin.com/company/usda
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Association
+                - Farming
+                - Food and Beverage
+                - Government
             github_data:
               languages:
                 - name: HTML
@@ -37121,12 +37260,10 @@ landscape:
               start_date: '2019-04-29T16:16:13Z'
             image_data:
               fileName: cart.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 7mb4NW8Ym8s+6SRTPDLyeLs725ZxiFHRFjDxCZi5tdM=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: forest-prediction
             logo: forest-prediction.svg
@@ -39816,12 +39953,26 @@ landscape:
             logo: Bioverse Labs.svg
             description: Python scripts using usual frameworks in Deep Learning for pattern recognition on forest environments.
             repo_url: https://github.com/Bioverse-Labs/deep-learning
-            organization:
-              name: Bioverse Labs
+            crunchbase: https://www.crunchbase.com/organization/bioverse-labs
             homepage_url: https://github.com/Bioverse-Labs/deep-learning
             crunchbase_data:
               name: Bioverse Labs
+              description: Biotechnology startup developing automated species identification technologies for AgTech, BioTech, and Environmental monitoring sectors.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.bioverselabs.com
+              city: Miami
+              region: Florida
+              country: United States
+              twitter: https://twitter.com/BioverseLabs
+              linkedin: https://www.linkedin.com/company/bioverse
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Biotechnology
+                - Information Technology
             github_data:
               languages:
                 - name: Python
@@ -39844,7 +39995,7 @@ landscape:
               start_date: '2020-08-13T19:27:30Z'
             image_data:
               fileName: bioverse-labs.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: mGZkSWjDyTfVy8IYV34O2kWhsFUmU0tQdaUGYyKx7b8=
             best_practice_data:
               badge: false
               percentage: null
@@ -40509,64 +40660,257 @@ landscape:
               Blends structured wildlife research with artificial intelligence, citizen science, and computer vision to speed population analysis and develop
               new insights to help fight extinction.
             repo_url: https://github.com/WildMeOrg/Wildbook
-            organization:
-              name: Wild Me
+            project_org: https://github.com/WildMeOrg
+            crunchbase: https://www.crunchbase.com/organization/wild-me-b018
             homepage_url: https://www.wildbook.org
             crunchbase_data:
               name: Wild Me
+              description: Wild Me builds open software and artificial intelligence for conservation research.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.wildme.org/
+              city: Oregon
+              region: Ohio
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries: []
             github_data:
+              description: Conservation meets machine learning
+              contributors_count: 214
+              contributions: >-
+                191;83;105;92;146;89;86;88;81;79;70;35;33;22;31;43;32;73;35;17;25;28;43;35;10;26;12;36;16;39;8;9;19;4;1;10;4;7;9;4;5;27;30;41;75;46;45;44;21;20;28;27
+              stars: 182
               languages:
+                - name: Python
+                  value: 24552607
+                  color: '#3572A5'
+                - name: Jupyter Notebook
+                  value: 13896773
+                  color: '#DA5B0B'
                 - name: Java
-                  value: 7540842
+                  value: 7541023
                   color: '#b07219'
                 - name: JavaScript
-                  value: 3211458
+                  value: 6879994
                   color: '#f1e05a'
                 - name: HTML
-                  value: 612076
+                  value: 2295985
                   color: '#e34c26'
-                - name: Less
-                  value: 218739
+                - name: C++
+                  value: 934975
+                  color: '#f34b7d'
+                - name: C
+                  value: 749094
+                  color: '#555555'
                 - name: CSS
-                  value: 179845
+                  value: 382403
                   color: '#563d7c'
+                - name: TSQL
+                  value: 368489
+                - name: Less
+                  value: 219532
+                - name: Shell
+                  value: 185629
+                  color: '#89e051'
+                - name: CMake
+                  value: 170216
+                - name: EJS
+                  value: 159364
+                - name: Cuda
+                  value: 135776
+                  color: '#3A4E3A'
+                - name: R
+                  value: 98128
+                  color: '#198CE7'
+                - name: Jinja
+                  value: 84636
+                - name: MATLAB
+                  value: 65356
+                  color: '#e16737'
+                - name: TypeScript
+                  value: 64892
+                  color: '#2b7489'
+                - name: Dockerfile
+                  value: 43407
+                  color: '#384d54'
+                - name: Lua
+                  value: 23428
+                  color: '#000080'
+                - name: Makefile
+                  value: 20441
+                  color: '#427819'
                 - name: Perl
                   value: 14509
                   color: '#0298c3'
                 - name: PLpgSQL
-                  value: 8359
-                - name: Shell
-                  value: 6347
-                  color: '#89e051'
-                - name: Python
-                  value: 6028
-                  color: '#3572A5'
+                  value: 13804
                 - name: SCSS
-                  value: 5169
-                - name: Dockerfile
-                  value: 3046
-                  color: '#384d54'
-              contributions: 4;4;4;0;1;2;3;4;2;18;1;2;3;0;1;1;0;0;2;0;2;1;0;1;1;0;0;1;0;3;0;1;1;0;0;5;2;1;6;3;2;1;4;2;0;0;0;3;1;0;2;0
-              firstWeek: 2022-04-03Z
-              stars: 86
+                  value: 11390
+                - name: Cython
+                  value: 9799
+                - name: Batchfile
+                  value: 9062
+                  color: '#C1F12E'
+                - name: Ruby
+                  value: 6969
+                  color: '#701516'
+                - name: Mako
+                  value: 1933
+                - name: Procfile
+                  value: 103
+              latest_commit_link: /WildMeOrg/Wildbook/commit/db11b4fe2d26b360681a6de983bc03ac0e634e2f
+              latest_commit_date: '2023-04-01T21:18:48Z'
+              firstWeek: 2022-04-24Z
               license: GNU General Public License v2.0
-              description: Wildbook Data Management Layer
-              latest_commit_date: '2023-03-19T03:12:22Z'
-              latest_commit_link: /WildMeOrg/Wildbook/commit/445a26d0c4e2e6ebcabf15b4e4677a06b7d32d50
-              release_date: '2022-11-04T22:05:26Z'
-              release_link: https://github.com/WildMeOrg/Wildbook/releases
-              contributors_count: 55
               contributors_link: https://github.com/WildMeOrg/Wildbook/graphs/contributors
             repos:
               - url: https://github.com/WildMeOrg/Wildbook
                 stars: 86
+              - url: https://github.com/WildMeOrg/wildbook-ia
+                stars: 53
+              - url: https://github.com/WildMeOrg/codex-frontend
+                stars: 6
+              - url: https://github.com/WildMeOrg/houston
+                stars: 6
+              - url: https://github.com/WildMeOrg/wildme-docs
+                stars: 6
+              - url: https://github.com/WildMeOrg/wbia-deprecate-tpl-brambox
+                stars: 3
+              - url: https://github.com/WildMeOrg/sage-identification-pipeline
+                stars: 3
+              - url: https://github.com/WildMeOrg/wbia-tpl-pyflann
+                stars: 2
+              - url: https://github.com/WildMeOrg/wbia-project-website
+                stars: 2
+              - url: https://github.com/WildMeOrg/wbia-deprecate-tpl-lightnet
+                stars: 2
+              - url: https://github.com/WildMeOrg/wildme.org
+                stars: 2
+              - url: https://github.com/WildMeOrg/wbia-plugin-orientation
+                stars: 2
+              - url: https://github.com/WildMeOrg/wbia-utool
+                stars: 1
+              - url: https://github.com/WildMeOrg/wbia-vtool
+                stars: 1
+              - url: https://github.com/WildMeOrg/wbia-plugin-id-example
+                stars: 1
+              - url: https://github.com/WildMeOrg/Humpback-Whale-Identification-Challenge-2019_2nd_palce_solution
+                stars: 1
+              - url: https://github.com/WildMeOrg/wbia-plugin-pie
+                stars: 1
+              - url: https://github.com/WildMeOrg/report-app
+                stars: 1
+              - url: https://github.com/WildMeOrg/wbia-tpl-curvrank-v2
+                stars: 1
+              - url: https://github.com/WildMeOrg/linc-webapp
+                stars: 1
+              - url: https://github.com/WildMeOrg/wbia-plugin-pie-v2
+                stars: 1
+              - url: https://github.com/WildMeOrg/wbia-tpl-pyhesaff
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-tpl-pydarknet
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-tpl-pyrf
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-cnn
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-flukematch
+                stars: 0
+              - url: https://github.com/WildMeOrg/D3-DataVis-WildBook
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-template
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-curvrank
+                stars: 0
+              - url: https://github.com/WildMeOrg/finFindR
+                stars: 0
+              - url: https://github.com/WildMeOrg/reid-manta
+                stars: 0
+              - url: https://github.com/WildMeOrg/Humpback-Whale-Identification-1st-
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-tpl-curvrank
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-tpl-lca
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-lca
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-deepsense
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-finfindr
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-tpl-kaggle7
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-kaggle7
+                stars: 0
+              - url: https://github.com/WildMeOrg/cocoapi
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-tpl-2d-orientation
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-2d-orientation
+                stars: 0
+              - url: https://github.com/WildMeOrg/CommDy
+                stars: 0
+              - url: https://github.com/WildMeOrg/wildMeCypress
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-pypkg-build
+                stars: 0
+              - url: https://github.com/WildMeOrg/macports-github-actions
+                stars: 0
+              - url: https://github.com/WildMeOrg/aerial_wildlife_detection
+                stars: 0
+              - url: https://github.com/WildMeOrg/linc-cv
+                stars: 0
+              - url: https://github.com/WildMeOrg/wb-to-wm-redirect
+                stars: 0
+              - url: https://github.com/WildMeOrg/community-redirect
+                stars: 0
+              - url: https://github.com/WildMeOrg/linc-api
+                stars: 0
+              - url: https://github.com/WildMeOrg/linc-annotation-tool
+                stars: 0
+              - url: https://github.com/WildMeOrg/linc-cv-sandbox
+                stars: 0
+              - url: https://github.com/WildMeOrg/LINC-AI_for_earth
+                stars: 0
+              - url: https://github.com/WildMeOrg/linc_api_client
+                stars: 0
+              - url: https://github.com/WildMeOrg/wayfinder
+                stars: 0
+              - url: https://github.com/WildMeOrg/gumby
+                stars: 0
+              - url: https://github.com/WildMeOrg/animal-reidentification
+                stars: 0
+              - url: https://github.com/WildMeOrg/linc-cv-1
+                stars: 0
+              - url: https://github.com/WildMeOrg/SealFaceRecognition
+                stars: 0
+              - url: https://github.com/WildMeOrg/deploy
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-blend
+                stars: 0
+              - url: https://github.com/WildMeOrg/scoutbot
+                stars: 0
+              - url: https://github.com/WildMeOrg/react-annotated-image
+                stars: 0
+              - url: https://github.com/WildMeOrg/scout
+                stars: 0
+              - url: https://github.com/WildMeOrg/WBIA-Piev2-Experiments
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-segmentation
+                stars: 0
+              - url: https://github.com/WildMeOrg/wbia-plugin-tbd
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /WildMeOrg/Wildbook/commit/90bc826a9909763c1335e97bc5635be05c192c15
-              start_date: '2010-04-01T03:52:15Z'
+              start_commit_link: /WildMeOrg/wbia-tpl-pyflann/commit/cde66f153bb8c3e9d5dbe8546aa42822d5e1024f
+              start_date: '2007-06-07T06:48:39Z'
             image_data:
               fileName: wildbook.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: R8wnpireDhc8f/WfNb5GBUsBt9XNfZYLnUbCrg3xeFI=
             best_practice_data:
               badge: false
               percentage: null
@@ -41110,44 +41454,71 @@ landscape:
             name: California Forest Observatory
             logo: California Forest Observatory.svg
             description: Python wrappers for accessing Forest Observatory data via the Salo API.
+            project_org: https://github.com/forestobservatory
             repo_url: https://github.com/forestobservatory/cfo-api
             extra:
               topics: ecology,wildfire,california,api,python-wrappers
-            organization:
-              name: California Forest Observatory
+            crunchbase: https://www.crunchbase.com/organization/salo-sciences
             homepage_url: https://www.forestobservatory.com
             crunchbase_data:
-              name: California Forest Observatory
+              name: Salo Sciences
+              description: Salo Sciences develops solutions to climate change and biodiversity loss.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://salo.ai/
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/salosciences/
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Artificial Intelligence
+                - Machine Learning
+                - Software
             github_data:
+              description: Every tree, mapped
+              contributors_count: 1
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 11
               languages:
+                - name: Jupyter Notebook
+                  value: 193387
+                  color: '#DA5B0B'
                 - name: Python
-                  value: 26987
+                  value: 76328
                   color: '#3572A5'
+                - name: R
+                  value: 6905
+                  color: '#198CE7'
                 - name: Makefile
-                  value: 2908
+                  value: 3704
                   color: '#427819'
                 - name: Dockerfile
-                  value: 222
+                  value: 1108
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 10
-              license: MIT License
-              description: Python wrappers for accessing Forest Observatory data via the Salo API
-              latest_commit_date: '2021-02-09T01:20:42Z'
               latest_commit_link: /forestobservatory/cfo-api/commit/fd3a8156f02226937e2a2b1f783ceb39fb22ff15
-              contributors_count: 1
+              latest_commit_date: '2021-02-09T01:20:42Z'
+              firstWeek: 2022-04-24Z
+              license: MIT License
               contributors_link: https://github.com/forestobservatory/cfo-api/graphs/contributors
             repos:
               - url: https://github.com/forestobservatory/cfo-api
                 stars: 10
+              - url: https://github.com/forestobservatory/giants
+                stars: 1
+              - url: https://github.com/forestobservatory/cfo-big-trees
+                stars: 0
             github_start_commit_data:
               start_commit_link: /forestobservatory/cfo-api/commit/f6fd2c7eb025b4f17f8a94749ac0b176837a2237
               start_date: '2020-06-24T22:49:54Z'
             image_data:
               fileName: california-forest-observatory.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: g+djlyXGq2iJWfbzlHpdfqXXy7wop2P3gzK0tfjR9zQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -43151,14 +43522,28 @@ landscape:
             logo: QGreenland.svg
             description: A free mapping tool to support interdisciplinary Greenland-focused research, teaching, decision making, and collaboration.
             repo_url: https://github.com/nsidc/qgreenland
-            organization:
-              name: National Snow and Ice Data Center
-            homepage_url: https://github.com/nsidc/qgreenland
+            crunchbase: https://www.crunchbase.com/organization/national-snow-and-ice-data-center
+            homepage_url: https://qgreenland.org/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/241453043'
             crunchbase_data:
               name: National Snow and Ice Data Center
+              description: NSIDC studies our world's frozen realms, or cryosphere. They specialize in snow, ice, glaciers, frozen ground, and climate.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: http://nsidc.org/
+              city: Boulder
+              region: Colorado
+              country: United States
+              twitter: https://twitter.com/NSIDC
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Food and Beverage
             github_data:
               languages:
                 - name: Python
@@ -43191,10 +43576,12 @@ landscape:
               start_date: '2020-01-15T23:05:17Z'
             image_data:
               fileName: q-greenland.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: OF3pk+AW0eDhbZdyPCydCBW7hRBquONrg8ycvKJv9Yw=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-19T14:29:02.000Z
           - item:
             name: Teaspoon
             logo: Teaspoon.svg
@@ -43815,20 +44202,31 @@ landscape:
             logo: Iris.svg
             description: A powerful, format-agnostic, community-driven Python package for analyzing and visualizing Earth science data.
             repo_url: https://github.com/SciTools/iris
-            unnamed_organization: true
-            homepage_url: https://scitools-iris.readthedocs.io/en/latest/
+            crunchbase: https://www.crunchbase.com/organization/met-office
+            homepage_url: https://scitools-iris.readthedocs.io
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/5312648'
               topics: iris,python,netcdf,grib,visualisation,data-analysis,earth-science,meteorology,oceanography,spaceweather
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Met Office
+              description: A world-leading weather and climate service.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.metoffice.gov.uk
+              city: Devon
+              region: Pennsylvania
+              country: United States
+              twitter: http://twitter.com/metoffice
+              linkedin: https://www.linkedin.com/company/met-office
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Environmental Consulting
+                - News
+                - Service Industry
             github_data:
               languages:
                 - name: Python
@@ -43856,12 +44254,10 @@ landscape:
               start_date: '2012-08-06T10:20:02Z'
             image_data:
               fileName: iris.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Y5tpzzmr4xxe6+BCr8U2vlSZ053e7L3AhfOPi+lIBfQ=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Veros
             logo: Veros.svg
@@ -49280,7 +49676,7 @@ landscape:
               badge: false
               percentage: null
           - item:
-            name: pangeo
+            name: Pangeo
             logo: pangeo.svg
             description: A community platform for Big Data geoscience.
             repo_url: https://github.com/pangeo-data/pangeo
@@ -49320,7 +49716,7 @@ landscape:
               start_date: '2017-08-30T00:48:31Z'
             image_data:
               fileName: pangeo.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: mywV8+gZknGBE3C+DQAvKd8pQhhffuPfIlpYJJk1EUQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -50810,52 +51206,81 @@ landscape:
               Stands for CLIMate ADAptation and is a probabilistic natural catastrophe impact model, that also calculates averted damage (benefit) thanks to
               adaptation measures of any kind (from grey to green infrastructure, behavioural, etc.).
             repo_url: https://github.com/CLIMADA-project/climada_python
-            organization:
-              name: Weather and Climate Risks Group
-            homepage_url: https://github.com/CLIMADA-project/climada_python
+            project_org: https://github.com/CLIMADA-project
+            homepage_url: https://climada.ethz.ch/
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             extra:
               refs: >-
                 ,https://zenodo.org/badge/latestdoi/112729129,https://zenodo.org/search?page=1&size=20&q=climada,https://doi.org/10.5194/gmd-12-3085-2019\n\nBresch,https://doi.org/10.5194/gmd-14-351-2021\n\nPlease
             crunchbase_data:
-              name: Weather and Climate Risks Group
+              name: ETH Zurich
+              description: ETH Zurich is a Switzerland-based engineering, science, technology, mathematics, and management university.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.ethz.ch
+              city: Zürich
+              region: Zurich
+              country: Switzerland
+              twitter: https://twitter.com/eth
+              linkedin: https://www.linkedin.com/school/4923
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - 3D Technology
+                - Education
+                - Higher Education
+                - Universities
             github_data:
+              description: Research group at ETH Zurich
+              contributors_count: 418
+              contributions: >-
+                461;434;323;583;362;305;434;295;344;541;505;398;416;461;352;491;419;461;326;368;364;430;349;454;382;295;466;444;390;370;423;466;405;372;237;101;181;249;361;368;339;280;223;182;112;0;2;0;2;1;0;2
+              stars: 252
               languages:
                 - name: Jupyter Notebook
-                  value: 6567776
+                  value: 28301442
                   color: '#DA5B0B'
                 - name: Python
-                  value: 2276846
+                  value: 3996253
                   color: '#3572A5'
-                - name: Makefile
-                  value: 1503
-                  color: '#427819'
                 - name: Shell
-                  value: 485
+                  value: 11095
                   color: '#89e051'
-              contributions: 16;11;5;10;3;4;4;7;1;3;3;8;17;9;37;1;6;3;1;4;6;0;3;0;1;5;6;2;3;0;7;11;1;5;5;2;4;6;1;0;2;9;3;3;7;11;17;0;7;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 209
+                - name: XSLT
+                  value: 5907
+                  color: '#EB8CEB'
+                - name: Makefile
+                  value: 3013
+                  color: '#427819'
+              latest_commit_link: /CLIMADA-project/climada_python/commit/4d8fa43b42fd8322313cc0a8c8b6f347cfaeed5b
+              latest_commit_date: '2023-04-19T13:27:34Z'
+              firstWeek: 2022-04-24Z
               license: GNU General Public License v3.0
-              description: Python (3.8+) version of CLIMADA
-              latest_commit_date: '2023-03-02T12:09:24Z'
-              latest_commit_link: /CLIMADA-project/climada_python/commit/e26f900ca0e7e3ea627555e9345c5ae76f911428
-              release_date: '2023-03-02T12:12:05Z'
-              release_link: https://github.com/CLIMADA-project/climada_python/releases
-              contributors_count: 60
               contributors_link: https://github.com/CLIMADA-project/climada_python/graphs/contributors
             repos:
               - url: https://github.com/CLIMADA-project/climada_python
-                stars: 209
+                stars: 217
+              - url: https://github.com/CLIMADA-project/climada_papers
+                stars: 18
+              - url: https://github.com/CLIMADA-project/climada_petals
+                stars: 17
+              - url: https://github.com/CLIMADA-project/staged-recipes
+                stars: 0
+              - url: https://github.com/CLIMADA-project/climada-feedstock
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /CLIMADA-project/climada_python/commit/41af133c1de0448ab44643614fed40658b93bf6f
-              start_date: '2017-12-01T10:47:53Z'
+              start_commit_link: /CLIMADA-project/staged-recipes/commit/24507f6c6b2d2e03caee550e13830df15d791751
+              start_date: '2015-09-02T21:49:20Z'
             image_data:
               fileName: climada.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ysqfCB+1TO4SmQ03u7QjNhCOhUKGyJywUj3TInDI+3s=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-19T10:06:30.000Z
           - item:
             name: ClimateMARGO.jl
             logo: ClimateMARGO.jl.svg
@@ -51744,7 +52169,7 @@ landscape:
               start_date: '2017-09-16T18:11:33Z'
             image_data:
               fileName: climpred.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 7908oOi7+TPNUOAHQzJYuHNvRiYLPt3ekDTNOV5cE6Y=
             best_practice_data:
               badge: false
               percentage: null
@@ -51953,6 +52378,7 @@ landscape:
             logo: xgcm.svg
             description: A Python package for analyzing general circulation model output data.
             repo_url: https://github.com/xgcm/xgcm
+            project_org: https://github.com/xgcm
             organization:
               name: xgcm
             homepage_url: http://xgcm.readthedocs.org
@@ -51963,33 +52389,54 @@ landscape:
               name: xgcm
               parents: []
             github_data:
+              description: xarray-based tools for general circulation model analysis
+              contributors_count: 51
+              contributions: 26;9;8;6;15;15;12;30;5;17;5;1;7;1;2;5;4;4;1;4;0;5;2;3;3;1;0;0;0;4;2;0;3;2;0;0;1;2;5;2;2;6;0;14;0;1;2;0;0;0;4;0
+              stars: 470
               languages:
+                - name: Jupyter Notebook
+                  value: 3980183
+                  color: '#DA5B0B'
                 - name: Python
-                  value: 370070
+                  value: 1297880
                   color: '#3572A5'
+                - name: Fortran
+                  value: 88575
+                  color: '#4d41b1'
                 - name: TeX
                   value: 3818
                   color: '#3D6117'
-              contributions: 1;0;1;9;3;2;1;6;3;0;0;16;0;4;4;1;2;1;1;0;0;2;1;2;0;0;2;2;2;1;0;0;0;4;2;0;1;2;0;0;0;1;0;2;2;0;0;0;0;0;1;0
-              firstWeek: 2022-04-03Z
-              stars: 198
+                - name: Shell
+                  value: 1150
+                  color: '#89e051'
+              latest_commit_link: /xgcm/xgcm/commit/9ec23b268f871a5446e1cdebb24d22d4c8071a82
+              latest_commit_date: '2023-04-13T21:02:18Z'
+              firstWeek: 2022-04-24Z
               license: MIT License
-              description: python package for analyzing general circulation model output data
-              latest_commit_date: '2023-03-16T13:58:16Z'
-              latest_commit_link: /xgcm/xgcm/commit/33c673fca9a453f88ceb4f6e207be7698b99a896
-              release_date: '2022-11-22T18:43:38Z'
-              release_link: https://github.com/xgcm/xgcm/releases
-              contributors_count: 32
               contributors_link: https://github.com/xgcm/xgcm/graphs/contributors
             repos:
               - url: https://github.com/xgcm/xgcm
                 stars: 198
+              - url: https://github.com/xgcm/xrft
+                stars: 136
+              - url: https://github.com/xgcm/xhistogram
+                stars: 79
+              - url: https://github.com/xgcm/xcape
+                stars: 24
+              - url: https://github.com/xgcm/fastjmd95
+                stars: 11
+              - url: https://github.com/xgcm/aerobulk-python
+                stars: 11
+              - url: https://github.com/xgcm/xgcm-examples
+                stars: 10
+              - url: https://github.com/xgcm/xgcm_examples
+                stars: 1
             github_start_commit_data:
-              start_commit_link: /xgcm/xgcm/commit/873f698f7594b357fdb2659775b4e9a12da20554
-              start_date: '2015-07-23T05:29:30Z'
+              start_commit_link: /xgcm/xrft/commit/9e23495a60b43cfdd74b3019c5f64adf5443c0f4
+              start_date: '2015-05-21T01:02:11Z'
             image_data:
               fileName: xgcm.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: nin8EEU5QWL2aL6avyq8feSsatPBdEC7CijORoDvVkU=
             best_practice_data:
               badge: false
               percentage: null
@@ -52146,12 +52593,26 @@ landscape:
             repo_url: https://github.com/wrf-model/WRF
             extra:
               topics: wrf,weather,climate,forecast,nwp,model,simulation,fortran
-            organization:
-              name: Weather Research and Forecasting Model
+            crunchbase: https://www.crunchbase.com/organization/university-corporation-for-atmospheric-research
             homepage_url: https://github.com/wrf-model/WRF
             crunchbase_data:
-              name: Weather Research and Forecasting Model
+              name: University Corporation for Atmospheric Research
+              description: University Corporation for Atmospheric Research is a consortium focused on research in the atmospheric and related Earth system sciences.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.ucar.edu/
+              city: Boulder
+              region: Colorado
+              country: United States
+              twitter: https://www.twitter.com/atmosnews
+              linkedin: https://www.linkedin.com/company/university-corporation-for-atmospheric-research
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Search Engine
             github_data:
               languages:
                 - name: Fortran
@@ -52243,10 +52704,12 @@ landscape:
               start_date: '2006-03-20T16:16:40Z'
             image_data:
               fileName: wrf.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 6nCOANdRXhyMQ2KLGErhPa8gnObSmW9J3+FzK/rgJy4=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2018-03-06T16:58:32.000Z
           - item:
             name: wrf-python
             logo: wrf-python.svg
@@ -52686,25 +53149,31 @@ landscape:
               The gridded archive of the Climatic Research Unit (University of East Anglia) and NCAS. The dataset was derived by the interpolation of monthly
               climate observations from extensive networks of weather stations.
             repo_url: null
-            unnamed_organization: true
+            license: Open Government Licence
+            crunchbase: https://www.crunchbase.com/organization/university-of-east-anglia
             homepage_url: https://crudata.uea.ac.uk/cru/data/hrg/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of East Anglia
+              description: University of East Anglia is a school in Norwich.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.uea.ac.uk/
+              city: Norwich
+              region: Norfolk
+              country: United Kingdom
+              twitter: http://twitter.com/uniofeastanglia
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             image_data:
               fileName: cru-ts.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: CIKd8JT+UAdRdFv2fKeNnFECBJupzT2qAGB8HKvijII=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: E-OBS
             logo: E-OBS.svg
@@ -55030,15 +55499,29 @@ landscape:
             logo: cf-python.svg
             description: A CF-compliant Earth Science data analysis library.
             repo_url: https://github.com/NCAS-CMS/cf-python
-            organization:
-              name: NCAS CMS
+            crunchbase: https://www.crunchbase.com/organization/natural-environment-research-council
             homepage_url: http://ncas-cms.github.io/cf-python
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3894533,https://doi.org/10.21105/joss.02717,https://doi.org/10.5194/gmd-10-4619-2017'
               topics: cf,metadata,netcdf,um,pp,cfdm,cfunits,data-analysis,earth-science,python
             crunchbase_data:
-              name: NCAS CMS
+              name: Natural Environment Research Council
+              description: NERC – the Natural Environment Research Council – is the UK’s leading public funder of environmental science.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.nerc.ac.uk/
+              city: Swindon
+              region: Wiltshire
+              country: United Kingdom
+              twitter: https://twitter.com/NERCscience
+              linkedin: https://www.linkedin.com/company/nerc
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Government
             github_data:
               languages: []
               contributions: 29;40;34;52;31;23;39;0;1;6;8;28;46;3;13;3;4;10;31;13;10;18;13;16;0;11;0;19;26;26;35;23;29;81;23;7;29;52;65;0;46;30;3;69;144;8;28;3;28;89;17;6
@@ -55060,7 +55543,7 @@ landscape:
               start_date: '2019-09-13T08:57:38Z'
             image_data:
               fileName: cf-python.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: pxsd7fR/ioxCVEDDuPTEN0NTAoOydIh1DAHZwaEvZFU=
             best_practice_data:
               badge: false
               percentage: null
@@ -55068,47 +55551,71 @@ landscape:
             name: xCDAT
             logo: xCDAT.svg
             description: An extension of xarray for climate data analysis on structured grids.
+            project_org: https://github.com/xCDAT
             repo_url: https://github.com/xCDAT/xcdat
-            organization:
-              name: xCDAT
-            homepage_url: https://xcdat.readthedocs.io/en/latest/
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
+            homepage_url: https://xcdat.readthedocs.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/354103918\n'
               topics: climate-data-analysis,xarray,climate-science,python,climate-data,cdat,xcdat
             crunchbase_data:
-              name: xCDAT
+              name: US Department of Energy
+              description: US Department of Energy is a government administration that regulates energy policy, research and development.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.energy.gov/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/energy
+              linkedin: https://www.linkedin.com/company/u-s--department-of-energy
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Energy
+                - Energy Efficiency
+                - Energy Management
+                - Finance
             github_data:
+              description: Xarray Climate Data Analysis Tools
+              contributors_count: 8
+              contributions: 4;1;1;0;4;3;3;2;3;3;1;0;0;5;9;2;6;2;1;1;5;0;3;1;3;5;1;2;3;1;0;0;0;0;0;0;0;0;0;7;0;1;1;0;1;3;0;1;4;0;1;2
+              stars: 66
               languages:
+                - name: Jupyter Notebook
+                  value: 8689299
+                  color: '#DA5B0B'
                 - name: Python
-                  value: 534553
+                  value: 615632
                   color: '#3572A5'
                 - name: Makefile
                   value: 2131
                   color: '#427819'
-              contributions: 0;1;0;3;4;1;1;0;2;3;3;1;3;1;0;0;0;4;7;2;5;2;1;0;4;0;3;0;3;5;1;2;3;1;0;0;0;0;0;0;0;0;0;3;0;1;1;0;1;3;0;1
-              firstWeek: 2022-04-03Z
-              stars: 60
+              latest_commit_link: /xCDAT/xcdat/commit/cbef082d9f3ea43aa7e4e36f4d2b23877a8826bc
+              latest_commit_date: '2023-04-20T21:59:17Z'
+              firstWeek: 2022-04-24Z
               license: Apache License 2.0
-              description: An extension of xarray for climate data analysis on structured grids.
-              latest_commit_date: '2023-03-21T18:46:42Z'
-              latest_commit_link: /xCDAT/xcdat/commit/532cec0f76868037e1c6f154f59c00cb154df192
-              release_date: '2022-11-09T22:57:44Z'
-              release_link: https://github.com/xCDAT/xcdat/releases
-              contributors_count: 6
               contributors_link: https://github.com/xCDAT/xcdat/graphs/contributors
             repos:
               - url: https://github.com/xCDAT/xcdat
-                stars: 60
+                stars: 63
+              - url: https://github.com/xCDAT/xcdat-validation
+                stars: 3
+              - url: https://github.com/xCDAT/xcdat-feedstock
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /xCDAT/xcdat/commit/490426972be5291720c8702e2a599180a39fcfaf
-              start_date: '2021-04-02T18:38:34Z'
+              start_commit_link: /xCDAT/xcdat-validation/commit/ab5b04e39462f9900e6320b21655163cd6c04af9
+              start_date: '2021-03-09T01:40:49Z'
             image_data:
               fileName: x-cdat.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: eB9Wk9k9U/5Nq3+yk3Nn93x9GKQiVW5hTQLO5KgTptI=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-03T15:49:58.000Z
           - item:
             name: ipcc_sr15_scenario_analysis
             logo: ipcc_sr15_scenario_analysis.svg
@@ -57969,46 +58476,70 @@ landscape:
               An open source project and Python package that provides verification metrics of deterministic (and probabilistic from properscoring) forecasts
               with xarray.
             repo_url: https://github.com/xarray-contrib/xskillscore
-            organization:
-              name: xarray-contrib
-            homepage_url: https://xskillscore.readthedocs.io/en/stable/
+            crunchbase: https://www.crunchbase.com/organization/numfocus
+            homepage_url: https://xskillscore.readthedocs.io
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5173152\n\n**xskillscore**'
               topics: forecasting,verification,metrics,pangeo
             crunchbase_data:
-              name: xarray-contrib
+              name: NumFOCUS
+              description: NumFOCUS is a 501(c)(3) nonprofit that supports and promotes world-class, innovative, open source scientific software.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://www.numfocus.org/
+              city: Austin
+              region: Texas
+              country: United States
+              twitter: https://twitter.com/numfocus
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Communities
+                - Education
+                - Non Profit
+                - Open Source
+                - Software
             github_data:
               languages:
+                - name: Jupyter Notebook
+                  value: 329997
+                  color: '#DA5B0B'
                 - name: Python
-                  value: 326886
+                  value: 326896
                   color: '#3572A5'
                 - name: Shell
-                  value: 841
+                  value: 1325
                   color: '#89e051'
-              contributions: 1;1;1;2;0;2;1;0;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 171
+              contributions: 0;2;0;1;1;1;1;1;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;0;0;0;0;2;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0
+              firstWeek: 2022-04-24Z
+              stars: 183
               license: Apache License 2.0
               description: Metrics for verifying forecasts
-              latest_commit_date: '2022-12-06T07:01:11Z'
-              latest_commit_link: /xarray-contrib/xskillscore/commit/16a2ba1b21daefc8824ff94ff06a16d5cea4b793
+              latest_commit_date: '2023-04-04T20:33:28Z'
+              latest_commit_link: /xarray-contrib/xskillscore/commit/88474c98ad6078ebce9624b97b5afa4af0ba6e03
               release_date: '2021-10-09T00:22:24Z'
               release_link: https://github.com/xarray-contrib/xskillscore/releases
-              contributors_count: 16
+              contributors_count: 10
               contributors_link: https://github.com/xarray-contrib/xskillscore/graphs/contributors
             repos:
               - url: https://github.com/xarray-contrib/xskillscore
-                stars: 171
+                stars: 175
+              - url: https://github.com/raybellwaves/xskillscore-tutorial
+                stars: 8
             github_start_commit_data:
               start_commit_link: /xarray-contrib/xskillscore/commit/93de81821e8d6a322d396a972a6eeedaf1c73e85
               start_date: '2018-06-14T19:21:12Z'
             image_data:
               fileName: xskillscore.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: gXeRXPGzcAWiSFHeBPazZp3znISMCzhhU4fHWEXEjew=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-24T15:05:59.000Z
           - item:
             name: getCRUCLdata
             logo: getCRUCLdata.svg
@@ -63023,15 +63554,32 @@ landscape:
             logo: AWSM.svg
             description: Automated Water Supply Model was developed at the USDA Agricultural Research Service.
             repo_url: https://github.com/USDA-ARS-NWRC/awsm
-            organization:
-              name: USDA ARS Northwest Watershed Research Center
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://github.com/USDA-ARS-NWRC/awsm
             extra:
               refs: ',https://doi.org/10.5281/zenodo.898158'
               topics: watershed,hydrology,awsm,forecast,modeling,water,snow
             crunchbase_data:
-              name: USDA ARS Northwest Watershed Research Center
+              name: U.S. Department of Agriculture
+              description: U.S. Department of Agriculture is  provider leadership on food, agriculture, natural resources, and related issues based.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usda.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/usda
+              linkedin: https://www.linkedin.com/company/usda
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Association
+                - Farming
+                - Food and Beverage
+                - Government
             github_data:
               languages:
                 - name: Python
@@ -63070,7 +63618,7 @@ landscape:
               start_date: '2017-08-18T20:52:31Z'
             image_data:
               fileName: awsm.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: h7qhu0BBsvlBgfF7Q5lH2hOi3QOPf6l4hd7weu4Ief8=
             best_practice_data:
               badge: false
               percentage: null
@@ -63228,12 +63776,26 @@ landscape:
             repo_url: https://github.com/WikiWatershed/model-my-watershed
             extra:
               topics: civic-apps-team,watersheds,hydrology,stormwater
-            organization:
-              name: WikiWatershed
+            crunchbase: https://www.crunchbase.com/organization/stroud-water-research-center
             homepage_url: https://modelmywatershed.org
             crunchbase_data:
-              name: WikiWatershed
+              name: Stroud Water Research Center
+              description: Stroud Water Research Center seeks to advance knowledge & stewardship of freshwater systems through research, education, & restoration.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://stroudcenter.org
+              city: Avondale
+              region: Pennsylvania
+              country: United States
+              twitter: https://www.twitter.com/stroudcenter
+              linkedin: https://www.linkedin.com/company/stroud-water-research-center/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Consulting
+                - Environmental Consulting
             github_data:
               languages:
                 - name: JavaScript
@@ -63276,7 +63838,7 @@ landscape:
               start_date: '2015-03-23T16:02:55Z'
             image_data:
               fileName: model-my-watershed.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ovhAO1mjm6zDbSrZOEAypQeyD3p1IqM6MudBQXGJutU=
             best_practice_data:
               badge: false
               percentage: null
@@ -64995,12 +65557,29 @@ landscape:
             repo_url: https://github.com/ncss-tech/soilReports
             extra:
               topics: usda,nrcs,soil,soil-survey,nasis
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://github.com/ncss-tech/soilReports
             crunchbase_data:
-              name: ncss-tech
+              name: U.S. Department of Agriculture
+              description: U.S. Department of Agriculture is  provider leadership on food, agriculture, natural resources, and related issues based.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usda.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/usda
+              linkedin: https://www.linkedin.com/company/usda
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Association
+                - Farming
+                - Food and Beverage
+                - Government
             github_data:
               languages:
                 - name: R
@@ -65028,7 +65607,7 @@ landscape:
               start_date: '2016-08-05T19:34:17Z'
             image_data:
               fileName: soil-reports.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: HG3vtqz9hjHtV4yU+pU8cq5KKUFtAxKnwXFWgroSQXc=
             best_practice_data:
               badge: false
               percentage: null
@@ -65039,12 +65618,29 @@ landscape:
             repo_url: https://github.com/ncss-tech/aqp
             extra:
               topics: nrcs,usda,soil,digital-soil-mapping,pedometrics,ncss-tech,pedology,soil-survey
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: http://ncss-tech.github.io/aqp/
             crunchbase_data:
-              name: ncss-tech
+              name: U.S. Department of Agriculture
+              description: U.S. Department of Agriculture is  provider leadership on food, agriculture, natural resources, and related issues based.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usda.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/usda
+              linkedin: https://www.linkedin.com/company/usda
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Association
+                - Farming
+                - Food and Beverage
+                - Government
             github_data:
               languages:
                 - name: R
@@ -65069,7 +65665,7 @@ landscape:
               start_date: '2010-03-10T18:05:16Z'
             image_data:
               fileName: aqp.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /wGLdjBp9f8YWo0HL/CbkNMmzOXgGucNYfVMOxTfBzM=
             best_practice_data:
               badge: false
               percentage: null
@@ -65078,12 +65674,29 @@ landscape:
             logo: sharpshootR.svg
             description: Miscellaneous soil data management, summary, visualization, and conversion utilities to support soil survey.
             repo_url: https://github.com/ncss-tech/sharpshootR
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: http://ncss-tech.github.io/sharpshootR/
             crunchbase_data:
-              name: ncss-tech
+              name: U.S. Department of Agriculture
+              description: U.S. Department of Agriculture is  provider leadership on food, agriculture, natural resources, and related issues based.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usda.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/usda
+              linkedin: https://www.linkedin.com/company/usda
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Association
+                - Farming
+                - Food and Beverage
+                - Government
             github_data:
               languages:
                 - name: R
@@ -65108,7 +65721,7 @@ landscape:
               start_date: '2013-01-28T18:52:03Z'
             image_data:
               fileName: sharpshoot-r.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 4SZ6RSNHZvZAuDLzWaM2tRqiArX4mLsH2tzbWgy2+II=
             best_practice_data:
               badge: false
               percentage: null
@@ -65119,12 +65732,29 @@ landscape:
             repo_url: https://github.com/ncss-tech/soilDB
             extra:
               topics: nrcs,usda,soil,soil-survey,sql,nasis,soil-data-access,soilweb,kssl
-            organization:
-              name: ncss-tech
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: http://ncss-tech.github.io/soilDB/
             crunchbase_data:
-              name: ncss-tech
+              name: U.S. Department of Agriculture
+              description: U.S. Department of Agriculture is  provider leadership on food, agriculture, natural resources, and related issues based.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usda.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/usda
+              linkedin: https://www.linkedin.com/company/usda
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Association
+                - Farming
+                - Food and Beverage
+                - Government
             github_data:
               languages:
                 - name: R
@@ -65149,7 +65779,7 @@ landscape:
               start_date: '2011-12-27T17:35:19Z'
             image_data:
               fileName: soil-db.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: eCxXUOiNd/sVU5xyh90ZAGIFg7FyQ3V6tnGv3DdfF6Y=
             best_practice_data:
               badge: false
               percentage: null
@@ -65428,12 +66058,24 @@ landscape:
             logo: esa_cci_sm.svg
             description: Readers and converters for ESA CCI Soil Moisture image and time series data.
             repo_url: https://github.com/TUW-GEO/esa_cci_sm
-            organization:
-              name: TU Wien - Department of Geodesy and Geoinformation
+            crunchbase: https://www.crunchbase.com/organization/technische-universit%C3%A4t-wien
             homepage_url: https://www.esa-soilmoisture-cci.org/
             crunchbase_data:
-              name: TU Wien - Department of Geodesy and Geoinformation
+              name: TU Wien
+              description: TU Wien is one of the major technical universities in Europe
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.tuwien.at
+              city: Vienna
+              region: Wien
+              country: Austria
+              twitter: https://twitter.com/tuvienna
+              linkedin: https://www.linkedin.com/school/tuwien/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -65517,15 +66159,27 @@ landscape:
             logo: pytesmo.svg
             description: Python Toolbox for the Evaluation of Soil Moisture Observations.
             repo_url: https://github.com/TUW-GEO/pytesmo
-            organization:
-              name: TU Wien - Department of Geodesy and Geoinformation
+            crunchbase: https://www.crunchbase.com/organization/technische-universit%C3%A4t-wien
             homepage_url: https://pytesmo.readthedocs.io
             extra:
               refs: ',https://doi.org/10.5281/zenodo.596422\n\nTo,https://doi.org/10.5281/zenodo.596422'
               topics: python,remote-sensing,soil-moisture,earth-science,validation
             crunchbase_data:
-              name: TU Wien - Department of Geodesy and Geoinformation
+              name: TU Wien
+              description: TU Wien is one of the major technical universities in Europe
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.tuwien.at
+              city: Vienna
+              region: Wien
+              country: Austria
+              twitter: https://twitter.com/tuvienna
+              linkedin: https://www.linkedin.com/school/tuwien/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -65552,7 +66206,7 @@ landscape:
               start_date: '2013-08-12T13:06:16Z'
             image_data:
               fileName: pytesmo.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: pyBtvjuk6qHn6oZz2AAhTRW+FCC44wF7UOPDi/AS/ow=
             best_practice_data:
               badge: false
               percentage: null
@@ -65672,12 +66326,31 @@ landscape:
               Leverages deep learning and computer vision for drought resilience, using satellite images and human expert labels to detect drought conditions in
               Northern Kenya.
             repo_url: https://github.com/wandb/droughtwatch
-            organization:
-              name: Weights & Biases
+            crunchbase: https://www.crunchbase.com/organization/weights-biases
             homepage_url: https://github.com/wandb/droughtwatch
             crunchbase_data:
               name: Weights & Biases
+              description: Weights & Biases provides a developer-first MLOps platform that offers performance visualization tools for machine learning.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.wandb.ai
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/weights_biases
+              linkedin: https://www.linkedin.com/company/weights-biases
+              acquisitions: []
               parents: []
+              funding: 200000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Artificial Intelligence
+                - Data Visualization
+                - Developer Tools
+                - Machine Learning
+                - Software
+              kind: funding
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -65706,7 +66379,7 @@ landscape:
               start_date: '2019-06-12T05:48:06Z'
             image_data:
               fileName: droughtwatch.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: IMEjVbInRY7SOtfpWv7bx1YXQa1sZ8XnsA4WgXeXGU0=
             best_practice_data:
               badge: false
               percentage: null
@@ -66221,26 +66894,68 @@ landscape:
             name: stats_for_soil_survey
             logo: stats_for_soil_survey.svg
             description: Lecture material on "Statistics for Pedologists".
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/ncss-tech/stats_for_soil_survey
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://ncss-tech.github.io/stats_for_soil_survey/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: U.S. Department of Agriculture
+              description: U.S. Department of Agriculture is  provider leadership on food, agriculture, natural resources, and related issues based.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usda.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/usda
+              linkedin: https://www.linkedin.com/company/usda
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Association
+                - Farming
+                - Food and Beverage
+                - Government
+            github_data:
+              languages:
+                - name: HTML
+                  value: 121561011
+                  color: '#e34c26'
+                - name: R
+                  value: 235157
+                  color: '#198CE7'
+                - name: JavaScript
+                  value: 225591
+                  color: '#f1e05a'
+                - name: CSS
+                  value: 181774
+                  color: '#563d7c'
+                - name: TeX
+                  value: 74098
+                  color: '#3D6117'
+              contributions: 0;2;0;1;0;0;0;0;0;0;0;0;0;0;0;0;1;4;2;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;6;0;2;16;0;0;29;24;1;1;6;0;0;0;0
+              firstWeek: 2022-04-24Z
+              stars: 24
+              license: GNU General Public License v2.0
+              description: 'S4SS: Statistics for Soil Survey'
+              latest_commit_date: '2023-03-21T20:24:27Z'
+              latest_commit_link: /ncss-tech/stats_for_soil_survey/commit/05aa3eeb2a39edae29a0fb97fbd00ff6ca0b632e
+              contributors_count: 19
+              contributors_link: https://github.com/ncss-tech/stats_for_soil_survey/graphs/contributors
+            repos:
+              - url: https://github.com/ncss-tech/stats_for_soil_survey
+                stars: 24
+            github_start_commit_data:
+              start_commit_link: /ncss-tech/stats_for_soil_survey/commit/cf7dd58fb25878281d438d6bbf7019bfbf70e2c9
+              start_date: '2015-09-10T19:38:53Z'
             image_data:
               fileName: stats-for-soil-survey.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: VEjG3vobaBEj0cfRh0vvM7S673cqfh+PBWbl9N/Gsww=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Simsphere
             logo: Simsphere.svg
@@ -66613,7 +67328,7 @@ landscape:
               start_date: '2018-03-01T09:21:04Z'
             image_data:
               fileName: landscapemetrics.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: MOBIsgbeOQmFOF9fv7aBjRZKFQS3pG5XPuHF48G5Q20=
             best_practice_data:
               badge: false
               percentage: null
@@ -66971,15 +67686,27 @@ landscape:
             logo: ismn.svg
             description: Readers for the data from the International Soil Moisture Database.
             repo_url: https://github.com/TUW-GEO/ismn
-            organization:
-              name: TU Wien - Department of Geodesy and Geoinformation
+            crunchbase: https://www.crunchbase.com/organization/technische-universit%C3%A4t-wien
             homepage_url: https://ismn.earth/en/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.855308\n\nIf,https://doi.org/10.5281/zenodo.855308'
               topics: soil-moisture,in-situ,remote-sensing,ismn
             crunchbase_data:
-              name: TU Wien - Department of Geodesy and Geoinformation
+              name: TU Wien
+              description: TU Wien is one of the major technical universities in Europe
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.tuwien.at
+              city: Vienna
+              region: Wien
+              country: Austria
+              twitter: https://twitter.com/tuvienna
+              linkedin: https://www.linkedin.com/school/tuwien/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -67004,7 +67731,7 @@ landscape:
               start_date: '2017-08-30T11:50:23Z'
             image_data:
               fileName: ismn.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: PQB25qYQo4vLPVMRTDbiXLxbuVnLMcXkc9TBLUUzHB0=
             best_practice_data:
               badge: false
               percentage: null
@@ -67015,12 +67742,32 @@ landscape:
             repo_url: https://github.com/Vizzuality/soils-revealed
             extra:
               topics: soils,soils-revealed,climate-change,food-security,water-quality
-            organization:
-              name: Vizzuality
+            crunchbase: https://www.crunchbase.com/organization/vizzuality
             homepage_url: https://soilsrevealed.org/
             crunchbase_data:
               name: Vizzuality
+              description: Vizzuality is dedicated in the designing and development of rich internet applications for biodiversity information.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.vizzuality.com
+              city: Madrid
+              region: Madrid
+              country: Spain
+              twitter: http://twitter.com/Vizzuality
+              linkedin: https://www.linkedin.com/company/vizzuality/
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Data Visualization
+                - Enterprise Software
+                - Geospatial
+                - Open Source
+                - Web Design
+                - Web Development
             github_data:
               languages:
                 - name: JavaScript
@@ -67054,7 +67801,7 @@ landscape:
               start_date: '2020-02-25T15:00:47Z'
             image_data:
               fileName: soils-revealed.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: WVIqtyoXTKTCFZXZXIp7eYuJ+gvlfB++gAKMMIqyvFM=
             best_practice_data:
               badge: false
               percentage: null
@@ -70437,12 +71184,27 @@ landscape:
             repo_url: https://github.com/NRCan/CanFlood
             extra:
               topics: qgis,flood-risk-models,canada,flood,disaster
-            organization:
-              name: Natural Resources Canada
-            homepage_url: https://github.com/NRCan/CanFlood
+            crunchbase: https://www.crunchbase.com/organization/natural-resources-canada
+            homepage_url: https://canflood.readthedocs.io/
             crunchbase_data:
               name: Natural Resources Canada
+              description: Natural Resources Canada is a company of resources and information about the protection of natural land and water.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.nrcan.gc.ca
+              city: Ottawa
+              region: Ontario
+              country: Canada
+              twitter: https://www.twitter.com/nrcan
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Energy
+                - Food and Beverage
             github_data:
               languages:
                 - name: Python
@@ -70479,7 +71241,7 @@ landscape:
               start_date: '2020-02-05T17:57:39Z'
             image_data:
               fileName: can-flood.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: jz/yS2uxmeTjFoKjDOhRiD1YdBCeLKkVJ7xBN9jRVxg=
             best_practice_data:
               badge: false
               percentage: null
@@ -77320,7 +78082,7 @@ landscape:
               start_date: '2019-03-26T19:13:59Z'
             image_data:
               fileName: awesome-open-climate-science.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: PE+UW7ALcsGg+HjRDmFTHU5BXFMLok1NUnv/Rf+uYig=
             best_practice_data:
               badge: false
               percentage: null
