@@ -49344,12 +49344,29 @@ landscape:
             repo_url: https://github.com/byrd-polar/fluid-earth
             extra:
               topics: webgl,webgl2,earth,ohio-state-university,byrd,fever,atmosphere,oceans
-            organization:
-              name: Byrd Polar Education and Outreach
+            crunchbase: https://www.crunchbase.com/organization/the-ohio-state-university
             homepage_url: https://fluid-earth.byrd.osu.edu/#smode=false
             crunchbase_data:
-              name: Byrd Polar Education and Outreach
+              name: The Ohio State University
+              description: The Ohio State University is a public research university based in Columbus, Ohio.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.osu.edu/
+              city: Columbus
+              region: Ohio
+              country: United States
+              twitter: http://twitter.com/OhioState
+              linkedin: https://www.linkedin.com/company/3173
+              acquisitions: []
               parents: []
+              funding: 46876363
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: Svelte
@@ -49385,7 +49402,7 @@ landscape:
               start_date: '2020-07-14T14:12:47Z'
             image_data:
               fileName: fluid-earth.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: UeTPVv4wqDOHfcl5io4cg53XzHj4Eo//t33MdusfFAI=
             best_practice_data:
               badge: false
               percentage: null
@@ -64584,33 +64601,90 @@ landscape:
             name: Liquid Prep
             logo: Liquid Prep.svg
             description: Offers an end-to-end solution for farmers looking to optimize their water usage; especially during times of drought.
-            repo_url: https://github.com/Call-for-Code/Liquid-Prep
-            organization:
-              name: Call for Code® with The Linux Foundation
-            homepage_url: https://github.com/Call-for-Code/Liquid-Prep
+            project_org: https://github.com/Liquid-Prep
+            repo_url: https://github.com/Liquid-Prep/Liquid-Prep
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
+            homepage_url: https://liquidprep.wixsite.com/website
             crunchbase_data:
-              name: Call for Code® with The Linux Foundation
+              name: Linux Foundation
+              description: The Linux Foundation builds sustainable ecosystems around open source projects to accelerate technology development and industry adoption.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: http://www.linuxfoundation.org
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: http://twitter.com/linuxfoundation
+              linkedin: https://www.linkedin.com/company/the-linux-foundation
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Communities
+                - Education
+                - Enterprise Software
+                - Events
+                - Information Technology
+                - Linux
+                - Non Profit
+                - Open Source
             github_data:
-              languages: []
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 3
+              description: A Call for Code® with The Linux Foundation project.
+              contributors_count: 42
+              contributions: 3;4;0;0;0;0;0;0;0;0;1;0;0;0;0;0;3;0;1;2;0;2;2;0;2;7;3;9;5;0;1;0;0;0;0;0;0;1;1;2;0;0;0;2;2;0;0;0;3;0;0;0
+              stars: 140
+              languages:
+                - name: TypeScript
+                  value: 154082
+                  color: '#2b7489'
+                - name: SCSS
+                  value: 49036
+                - name: C++
+                  value: 40251
+                  color: '#f34b7d'
+                - name: HTML
+                  value: 32618
+                  color: '#e34c26'
+                - name: Liquid
+                  value: 30511
+                - name: JavaScript
+                  value: 19492
+                  color: '#f1e05a'
+                - name: Ruby
+                  value: 1382
+                  color: '#701516'
+                - name: Dockerfile
+                  value: 1072
+                  color: '#384d54'
+              latest_commit_link: /Liquid-Prep/Liquid-Prep/commit/d054a5d7d00033a9c0729fdddfa25c3b242e6d86
+              latest_commit_date: '2022-02-15T17:49:56Z'
+              firstWeek: 2022-05-01Z
               license: Apache License 2.0
-              description: Liquid Prep offers an end-to-end solution for farmers looking to optimize their water usage, especially during times of drought.
-              latest_commit_date: '2022-01-31T18:15:12Z'
-              latest_commit_link: /Call-for-Code/Liquid-Prep/commit/e453690e2deb68908f066baf94127c429a012cc7
-              contributors_count: 1
-              contributors_link: https://github.com/Call-for-Code/Liquid-Prep/graphs/contributors
+              contributors_link: https://github.com/Liquid-Prep/Liquid-Prep/graphs/contributors
             repos:
-              - url: https://github.com/Call-for-Code/Liquid-Prep
-                stars: 3
+              - url: https://github.com/Liquid-Prep/Liquid-Prep
+                stars: 123
+              - url: https://github.com/Liquid-Prep/LiquidPrep-Hardware
+                stars: 5
+              - url: https://github.com/Liquid-Prep/LiquidPrep-App
+                stars: 5
+              - url: https://github.com/Liquid-Prep/LiquidPrep-Backend
+                stars: 4
+              - url: https://github.com/Liquid-Prep/.github
+                stars: 1
+              - url: https://github.com/Liquid-Prep/LiquidPrep-Website
+                stars: 1
+              - url: https://github.com/Liquid-Prep/LiquidPrep-Node-Backend
+                stars: 1
+              - url: https://github.com/Liquid-Prep/LiquidPrep-ML
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /Call-for-Code/Liquid-Prep/commit/967b2a10cde506a1dd664ff4fd313a031bf9f2ec
-              start_date: '2022-01-28T14:43:09Z'
+              start_commit_link: /Liquid-Prep/LiquidPrep-Website/commit/dcf1d840e546008cb697aa1b561e867b65f55fc3
+              start_date: '2017-10-02T13:37:28Z'
             image_data:
               fileName: liquid-prep.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /NLHg3ItCwZ4KhII83bOBkwfJWnjk79+kGK0fECxnmI=
             best_practice_data:
               badge: false
               percentage: null
@@ -71135,48 +71209,98 @@ landscape:
             repo_url: https://github.com/ec-jrc/lisflood-code
             extra:
               topics: flood,forecasting,environmental-modelling,lisflood,lisvap,efas,glofas,cordex,copernicus
-            organization:
-              name: European Commission, Joint Research Centre (JRC)
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://ec-jrc.github.io/lisflood
             crunchbase_data:
-              name: European Commission, Joint Research Centre (JRC)
+              name: European Commission
+              description: The European Commission is an institution of the European Union, responsible for proposing legislation and implementing decisions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://ec.europa.eu/commission/index_en
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              twitter: https://twitter.com/EU_commission
+              linkedin: https://www.linkedin.com/company/european-commission/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Government
             github_data:
               languages:
                 - name: Python
-                  value: 779785
+                  value: 1328690
                   color: '#3572A5'
+                - name: SCSS
+                  value: 94097
+                - name: HTML
+                  value: 85516
+                  color: '#e34c26'
+                - name: Jupyter Notebook
+                  value: 39998
+                  color: '#DA5B0B'
+                - name: Shell
+                  value: 10929
+                  color: '#89e051'
+                - name: R
+                  value: 9461
+                  color: '#198CE7'
+                - name: nesC
+                  value: 8637
+                  color: '#94B0C7'
                 - name: Cython
                   value: 8133
+                - name: JavaScript
+                  value: 3639
+                  color: '#f1e05a'
+                - name: Ruby
+                  value: 3185
+                  color: '#701516'
                 - name: Dockerfile
-                  value: 1173
+                  value: 3135
                   color: '#384d54'
-                - name: Shell
-                  value: 998
-                  color: '#89e051'
-              contributions: 0;4;6;3;0;1;0;3;6;0;9;2;0;3;0;2;7;3;3;0;0;0;0;1;0;0;1;3;0;0;2;6;0;1;0;2;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;7
-              firstWeek: 2022-04-03Z
-              stars: 73
+                - name: TeX
+                  value: 346
+                  color: '#3D6117'
+              contributions: 3;7;5;3;19;0;13;15;4;14;4;9;10;8;3;0;0;0;0;1;0;0;6;5;0;0;2;6;0;2;0;2;2;0;0;0;1;0;0;0;2;3;0;0;0;0;2;14;0;0;0;0
+              firstWeek: 2022-05-01Z
+              stars: 117
               license: European Union Public License 1.2
               description: Lisflood OS - LISFLOOD
               latest_commit_date: '2023-03-22T09:14:27Z'
               latest_commit_link: /ec-jrc/lisflood-code/commit/4d1f2ed531ef32a563c418c4c09754e9d5ac8f40
               release_date: '2023-03-22T09:23:06Z'
               release_link: https://github.com/ec-jrc/lisflood-code/releases
-              contributors_count: 15
+              contributors_count: 20
               contributors_link: https://github.com/ec-jrc/lisflood-code/graphs/contributors
             repos:
               - url: https://github.com/ec-jrc/lisflood-code
-                stars: 73
+                stars: 74
+              - url: https://github.com/ec-jrc/lisflood-utilities
+                stars: 13
+              - url: https://github.com/ec-jrc/lisflood-usecases
+                stars: 10
+              - url: https://github.com/ec-jrc/lisflood-calibration
+                stars: 8
+              - url: https://github.com/ec-jrc/lisflood-lisvap
+                stars: 6
+              - url: https://github.com/ec-jrc/lisflood-model
+                stars: 5
+              - url: https://github.com/ec-jrc/lisflood-tests
+                stars: 1
             github_start_commit_data:
-              start_commit_link: /ec-jrc/lisflood-code/commit/ba1df5c82c4abb2ad16f28cbc4e5ec627746892b
-              start_date: '2018-10-24T14:43:49Z'
+              start_commit_link: /ec-jrc/lisflood-model/commit/10afcd9023cec7a7aabd4e5875ea383427d137da
+              start_date: '2018-04-20T12:58:49Z'
             image_data:
               fileName: lisflood.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 8aOlgxL4Vv9e2mwiHNa84rsHXf00UmFOVTb+fddvYGU=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-20T14:05:12.000Z
           - item:
             name: CanFlood
             logo: CanFlood.svg
@@ -71250,15 +71374,31 @@ landscape:
             logo: HYDRAFloods.svg
             description: An open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data.
             repo_url: https://github.com/Servir-Mekong/hydra-floods
-            organization:
-              name: SERVIR-Mekong
+            crunchbase: https://www.crunchbase.com/organization/servir-global
             homepage_url: https://servir-mekong.github.io/hydra-floods/
             extra:
               topics: remote-sensing,surface-water,flood,near-real-time,earth-engine,google-cloud
               refs: ',https://doi.org/10.3390/rs12152469\nwater_imgs'
             crunchbase_data:
-              name: SERVIR-Mekong
+              name: Servir Global
+              description: Servir Global connects space to a village by helping developing countries use satellite data to address critical challenges.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: https://www.servirglobal.net
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: https://www.twitter.com/SERVIRGlobal
+              linkedin: https://www.linkedin.com/company/servir-global
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Database
+                - Geospatial
+                - Natural Resources
+                - Training
             github_data:
               languages:
                 - name: Python
@@ -71286,7 +71426,7 @@ landscape:
               start_date: '2018-06-10T22:16:13Z'
             image_data:
               fileName: hydra-floods.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 0bbXfKuql+AHrFCP+VkYvKX6DhWVqxEwag/ylimmhtI=
             best_practice_data:
               badge: false
               percentage: null
@@ -71294,52 +71434,157 @@ landscape:
             name: OasisLMF
             logo: OasisLMF.svg
             description: An open source catastrophe modelling platform, free to use by anyone.
+            project_org: https://github.com/OasisLMF
             repo_url: https://github.com/OasisLMF/OasisLMF
             extra:
               topics: catastrophe-modelling,catastrophe-model,risk,hazard,vulnerability,loss,insurance,reinsurance
-            organization:
-              name: Oasis Loss Modelling Framework
-            homepage_url: https://github.com/OasisLMF/OasisLMF
+            crunchbase: https://www.crunchbase.com/organization/climate-kic
+            homepage_url: https://oasislmf.org/
             crunchbase_data:
-              name: Oasis Loss Modelling Framework
+              name: Climate-KIC
+              description: Climate-KIC is the EU’s largest public private partnership addressing climate change through innovation to build a zero carbon economy.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.climate-kic.org/
+              city: Zürich
+              region: Zurich
+              country: Switzerland
+              twitter: https://twitter.com/ClimateKIC
+              linkedin: https://www.linkedin.com/company/2897547
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Communities
+                - Energy Efficiency
+                - Environmental Consulting
+                - Environmental Engineering
+                - Information Technology
             github_data:
+              description: An open source catastrophe modelling platform, free to use by anyone.
+              contributors_count: 52
+              contributions: 11;2;20;6;3;3;19;8;26;34;33;30;3;17;0;13;1;13;9;53;28;13;31;36;1;21;25;5;34;3;13;27;10;15;45;3;3;61;12;26;4;67;1;19;9;11;36;10;5;10;10;4
+              stars: 290
               languages:
                 - name: Python
-                  value: 26795910
+                  value: 28326636
                   color: '#3572A5'
                 - name: Jupyter Notebook
-                  value: 30088
+                  value: 1004881
                   color: '#DA5B0B'
-                - name: Groovy
-                  value: 18191
-                  color: '#e69f56'
-                - name: Makefile
-                  value: 14040
-                  color: '#427819'
+                - name: C++
+                  value: 755408
+                  color: '#f34b7d'
+                - name: R
+                  value: 526226
+                  color: '#198CE7'
                 - name: Shell
-                  value: 171
+                  value: 272408
                   color: '#89e051'
-              contributions: 0;6;5;0;0;0;6;2;3;2;9;2;2;7;20;17;0;2;0;5;0;0;0;19;0;0;1;2;0;1;2;0;9;1;2;6;5;0;1;0;1;16;1;0;1;5;0;1;0;1;8;1
-              firstWeek: 2022-04-03Z
-              stars: 102
+                - name: XSLT
+                  value: 91532
+                  color: '#EB8CEB'
+                - name: Groovy
+                  value: 64835
+                  color: '#e69f56'
+                - name: Bicep
+                  value: 28125
+                - name: Makefile
+                  value: 27459
+                  color: '#427819'
+                - name: M4
+                  value: 27283
+                - name: C
+                  value: 23335
+                  color: '#555555'
+                - name: CMake
+                  value: 22491
+                - name: HCL
+                  value: 20207
+                - name: CSS
+                  value: 13089
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 1781
+                  color: '#f1e05a'
+                - name: Dockerfile
+                  value: 1494
+                  color: '#384d54'
+                - name: Batchfile
+                  value: 236
+                  color: '#C1F12E'
+              latest_commit_link: /OasisLMF/OasisLMF/commit/5f9209dc2a27d5c770e2f14b3a147d2f8beb16ff
+              latest_commit_date: '2023-04-13T16:01:44Z'
+              firstWeek: 2022-05-01Z
               license: BSD 3-Clause "New" or "Revised" License
-              description: Loss modelling framework.
-              latest_commit_date: '2023-03-21T22:18:37Z'
-              latest_commit_link: /OasisLMF/OasisLMF/commit/61ac528fa297a5ddec3377b526196085c1c84943
-              release_date: '2023-03-15T16:15:56Z'
-              release_link: https://github.com/OasisLMF/OasisLMF/releases
-              contributors_count: 22
               contributors_link: https://github.com/OasisLMF/OasisLMF/graphs/contributors
             repos:
               - url: https://github.com/OasisLMF/OasisLMF
-                stars: 102
+                stars: 103
+              - url: https://github.com/OasisLMF/ODS_OpenExposureData
+                stars: 48
+              - url: https://github.com/OasisLMF/OasisPlatform
+                stars: 40
+              - url: https://github.com/OasisLMF/ktools
+                stars: 25
+              - url: https://github.com/OasisLMF/OasisPiWind
+                stars: 19
+              - url: https://github.com/OasisLMF/OasisUI
+                stars: 14
+              - url: https://github.com/OasisLMF/OasisEvaluation
+                stars: 11
+              - url: https://github.com/OasisLMF/OpenDataTransform
+                stars: 7
+              - url: https://github.com/OasisLMF/LloydsLab2019
+                stars: 3
+              - url: https://github.com/OasisLMF/camel
+                stars: 3
+              - url: https://github.com/OasisLMF/ReinsuranceTestTool
+                stars: 2
+              - url: https://github.com/OasisLMF/Workshop2021
+                stars: 2
+              - url: https://github.com/OasisLMF/gerund
+                stars: 2
+              - url: https://github.com/OasisLMF/ODS_OpenResultsData
+                stars: 2
+              - url: https://github.com/OasisLMF/ODS_Tools
+                stars: 2
+              - url: https://github.com/OasisLMF/OasisModels
+                stars: 2
+              - url: https://github.com/OasisLMF/ktest
+                stars: 1
+              - url: https://github.com/OasisLMF/Workshop2019
+                stars: 1
+              - url: https://github.com/OasisLMF/OasisAtScaleEvaluation
+                stars: 1
+              - url: https://github.com/OasisLMF/ParisWindstormModel
+                stars: 1
+              - url: https://github.com/OasisLMF/Workshop2022
+                stars: 1
+              - url: https://github.com/OasisLMF/ZurichWorkshop2018
+                stars: 0
+              - url: https://github.com/OasisLMF/ComplexModelMDK
+                stars: 0
+              - url: https://github.com/OasisLMF/build
+                stars: 0
+              - url: https://github.com/OasisLMF/OasisWorkerController
+                stars: 0
+              - url: https://github.com/OasisLMF/gem
+                stars: 0
+              - url: https://github.com/OasisLMF/DeterministicModel
+                stars: 0
+              - url: https://github.com/OasisLMF/OasisAzureDeployment
+                stars: 0
+              - url: https://github.com/OasisLMF/water_seller
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /OasisLMF/OasisLMF/commit/d812db2b2271ff9126f362cf9f0807d7caf296f2
-              start_date: '2018-01-15T15:12:26Z'
+              start_commit_link: /OasisLMF/ktools/commit/73795a217b7cb35e273be79538a2c5bb5d729663
+              start_date: '2015-03-11T14:07:33Z'
             image_data:
               fileName: oasis-lmf.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: N2sR2uA19qKhb9WnQ8efhUDPBvH6lv8zZ6AjHfVEQtE=
             best_practice_data:
               badge: false
               percentage: null
@@ -71347,47 +71592,80 @@ landscape:
             name: CAMS
             logo: CAMS.svg
             description: Critical Asset Management and Disaster Resilience for Islands, Cities, and Communities.
-            repo_url: https://github.com/CriticalAssetManagement/CAMS
+            repo_url: https://github.com/CriticalAssetManagement/CAMS-Dashboard
+            project_org: https://github.com/CriticalAssetManagement
             extra:
               topics: open-source
-            organization:
-              name: CAMS
-            homepage_url: https://github.com/CriticalAssetManagement/CAMS
+            crunchbase: https://www.crunchbase.com/organization/united-nations
+            homepage_url: https://climateresilient.world/
             crunchbase_data:
-              name: CAMS
+              name: United Nations
+              description: United Nations is an international organization founded after the Second World War to maintain international peace and security.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.un.org
+              city: New York
+              region: New York
+              country: United States
+              twitter: http://twitter.com/UN_radio
+              linkedin: https://www.linkedin.com/company/united-nations
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Communities
+                - Humanitarian
+                - Non Profit
             github_data:
+              description: An open-source project led by ARISE-US and TerminusDB to help countries & regions become climate resilient
+              contributors_count: 8
+              contributions: 11;3;12;3;14;5;0;3;2;0;0;0;3;0;3;9;16;13;0;11;5;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;2;0;0;0;0;0;0
+              stars: 28
               languages:
+                - name: JavaScript
+                  value: 259700
+                  color: '#f1e05a'
                 - name: Vue
                   value: 20938
                   color: '#2c3e50'
-                - name: JavaScript
-                  value: 1641
-                  color: '#f1e05a'
+                - name: CSS
+                  value: 9517
+                  color: '#563d7c'
+                - name: HTML
+                  value: 2206
+                  color: '#e34c26'
                 - name: Python
                   value: 1253
                   color: '#3572A5'
-                - name: HTML
-                  value: 823
-                  color: '#e34c26'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 14
+                - name: Shell
+                  value: 469
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 91
+                  color: '#384d54'
+              latest_commit_link: /CriticalAssetManagement/CAMS-Dashboard/commit/8f29716a0b879d1a0d21c8849169866dc585fd52
+              latest_commit_date: '2023-03-06T09:43:14Z'
+              firstWeek: 2022-05-01Z
               license: Apache License 2.0
-              description: Repository no longer in use
-              latest_commit_date: '2022-08-19T06:37:55Z'
-              latest_commit_link: /CriticalAssetManagement/CAMS/commit/8b7f6139bbba83b33d32ea2a5a9ec697e5adf5c9
-              contributors_count: 5
-              contributors_link: https://github.com/CriticalAssetManagement/CAMS/graphs/contributors
+              contributors_link: https://github.com/CriticalAssetManagement/CAMS-Dashboard/graphs/contributors
             repos:
+              - url: https://github.com/CriticalAssetManagement/CAMS-Dashboard
+                stars: 11
               - url: https://github.com/CriticalAssetManagement/CAMS
-                stars: 14
+                stars: 15
+              - url: https://github.com/CriticalAssetManagement/CAMS-web-assets
+                stars: 2
+              - url: https://github.com/CriticalAssetManagement/.github
+                stars: 0
+              - url: https://github.com/CriticalAssetManagement/contributor-guide
+                stars: 0
             github_start_commit_data:
               start_commit_link: /CriticalAssetManagement/CAMS/commit/fc2c7fca712780ea78be193b134563f2e8190d5f
               start_date: '2021-10-24T12:10:22Z'
             image_data:
               fileName: cams.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: wyaxT0X7hcWPUyOZ4+/YyG0JUv89BFKyY8ITFWHm23E=
             best_practice_data:
               badge: false
               percentage: null
@@ -72214,19 +72492,28 @@ landscape:
             logo: WHAT-IF.svg
             description: Water, Hydropower, Agriculture Tool for Investment and Financing decision support tool.
             repo_url: https://github.com/RaphaelPB/WHAT-IF
-            unnamed_organization: true
-            homepage_url: https://github.com/RaphaelPB/WHAT-IF
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
+            homepage_url: https://github.com/RaphaelPB/WHAT-IF/wiki
             extra:
               refs: ',https://doi.org/10.5194/hess-23-4129-2019,https://doi.org/10.5194/hess-23-4129-2019'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Technical University of Denmark
+              description: Technical University of Denmark is a university located in Kongens, Lyngby, Denmark
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.dtu.dk
+              city: Lyngby
+              region: Hovedstaden
+              country: Denmark
+              twitter: http://twitter.com/DTUtweet
+              linkedin: https://www.linkedin.com/company/technical-university-of-denmark
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
             github_data:
               languages:
                 - name: Python
@@ -72251,12 +72538,12 @@ landscape:
               start_date: '2019-03-15T12:57:52Z'
             image_data:
               fileName: what-if.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 7HDksvqMF6io+ZtUvxaGeY84Yo6sMqVDHIDCTCb6APA=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-30T15:39:51.000Z
           - item:
             name: Investment Framework for a More Sustainable World
             logo: Investment Framework for a More Sustainable World.svg
@@ -72264,16 +72551,11 @@ landscape:
               This framework was created as a tool for those seeking to make emissions reductions and sustainability related investments with the goal of
               mitigating the impacts of climate change, based on guidelines set forth by Chamath Palihapitiya in July 2020.
             repo_url: https://github.com/My-Climate-Journey/climate-sustainability-investment-framework
-            unnamed_organization: true
+            organization:
+              name: My Climate Journey
             homepage_url: https://github.com/My-Climate-Journey/climate-sustainability-investment-framework
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: My Climate Journey
               parents: []
             github_data:
               languages: []
@@ -72294,12 +72576,10 @@ landscape:
               start_date: '2020-08-01T13:49:33Z'
             image_data:
               fileName: investment-framework-for-a-more-sustainable-world.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: LGmdnu+gj6BmE/cW3u8XIyMGyVROQoVXE9lAx72si2E=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: r2dii.analysis
             logo: r2dii.analysis.svg
@@ -72462,16 +72742,11 @@ landscape:
             logo: MimiFUND.jl.svg
             description: Used to perform cost-benefit and cost-effectiveness analyses of greenhouse gas emission reduction policies.
             repo_url: https://github.com/fund-model/MimiFUND.jl
-            unnamed_organization: true
+            organization:
+              name: Richard Tol
             homepage_url: https://www.fund-model.org
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Richard Tol
               parents: []
             github_data:
               languages:
@@ -72500,12 +72775,10 @@ landscape:
               start_date: '2012-03-21T17:00:36Z'
             image_data:
               fileName: mimi-fund-jl.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: OSNG7BfwO4Nz+buAubMywSm2kn41a8lj/s9142kpbxY=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: open-climate-investing
             logo: open-climate-investing.svg

@@ -8166,8 +8166,7 @@ landscape:
             repo_url: https://github.com/byrd-polar/fluid-earth
             extra:
               topics: webgl,webgl2,earth,ohio-state-university,byrd,fever,atmosphere,oceans
-            organization:
-              name: Byrd Polar Education and Outreach
+            crunchbase: https://www.crunchbase.com/organization/the-ohio-state-university
             homepage_url: https://fluid-earth.byrd.osu.edu/#smode=false
   - category:
     name: Climate and Earth Science
@@ -10560,10 +10559,10 @@ landscape:
             name: Liquid Prep
             logo: Liquid Prep.svg
             description: Offers an end-to-end solution for farmers looking to optimize their water usage; especially during times of drought.
-            repo_url: https://github.com/Call-for-Code/Liquid-Prep
-            organization:
-              name: Call for Code® with The Linux Foundation
-            homepage_url: https://github.com/Call-for-Code/Liquid-Prep
+            project_org: https://github.com/Liquid-Prep
+            repo_url: https://github.com/Liquid-Prep/Liquid-Prep
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
+            homepage_url: https://liquidprep.wixsite.com/website
           - item:
             name: flopy
             logo: flopy.svg
@@ -11752,10 +11751,16 @@ landscape:
             logo: LISFLOOD.svg
             description: A spatially distributed water resources model, developed by the Joint Research Centre of the European Commission since 1997.
             repo_url: https://github.com/ec-jrc/lisflood-code
+            additional_repos:
+              - repo_url: https://github.com/ec-jrc/lisflood-lisvap
+              - repo_url: https://github.com/ec-jrc/lisflood-calibration
+              - repo_url: https://github.com/ec-jrc/lisflood-utilities
+              - repo_url: https://github.com/ec-jrc/lisflood-usecases
+              - repo_url: https://github.com/ec-jrc/lisflood-model
+              - repo_url: https://github.com/ec-jrc/lisflood-tests
             extra:
               topics: flood,forecasting,environmental-modelling,lisflood,lisvap,efas,glofas,cordex,copernicus
-            organization:
-              name: European Commission, Joint Research Centre (JRC)
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://ec-jrc.github.io/lisflood
           - item:
             name: CanFlood
@@ -11771,8 +11776,7 @@ landscape:
             logo: HYDRAFloods.svg
             description: An open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data.
             repo_url: https://github.com/Servir-Mekong/hydra-floods
-            organization:
-              name: SERVIR-Mekong
+            crunchbase: https://www.crunchbase.com/organization/servir-global
             homepage_url: https://servir-mekong.github.io/hydra-floods/
             extra:
               topics: remote-sensing,surface-water,flood,near-real-time,earth-engine,google-cloud
@@ -11781,22 +11785,22 @@ landscape:
             name: OasisLMF
             logo: OasisLMF.svg
             description: An open source catastrophe modelling platform, free to use by anyone.
+            project_org: https://github.com/OasisLMF
             repo_url: https://github.com/OasisLMF/OasisLMF
             extra:
               topics: catastrophe-modelling,catastrophe-model,risk,hazard,vulnerability,loss,insurance,reinsurance
-            organization:
-              name: Oasis Loss Modelling Framework
-            homepage_url: https://github.com/OasisLMF/OasisLMF
+            crunchbase: https://www.crunchbase.com/organization/climate-kic
+            homepage_url: https://oasislmf.org/
           - item:
             name: CAMS
             logo: CAMS.svg
             description: Critical Asset Management and Disaster Resilience for Islands, Cities, and Communities.
-            repo_url: https://github.com/CriticalAssetManagement/CAMS
+            repo_url: https://github.com/CriticalAssetManagement/CAMS-Dashboard
+            project_org: https://github.com/CriticalAssetManagement
             extra:
               topics: open-source
-            organization:
-              name: CAMS
-            homepage_url: https://github.com/CriticalAssetManagement/CAMS
+            crunchbase: https://www.crunchbase.com/organization/united-nations
+            homepage_url: https://climateresilient.world/
           - item:
             name: pystorms
             logo: pystorms.svg
@@ -11927,8 +11931,8 @@ landscape:
             logo: WHAT-IF.svg
             description: Water, Hydropower, Agriculture Tool for Investment and Financing decision support tool.
             repo_url: https://github.com/RaphaelPB/WHAT-IF
-            unnamed_organization: true
-            homepage_url: https://github.com/RaphaelPB/WHAT-IF
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
+            homepage_url: https://github.com/RaphaelPB/WHAT-IF/wiki
             extra:
               refs: ',https://doi.org/10.5194/hess-23-4129-2019,https://doi.org/10.5194/hess-23-4129-2019'
           - item:
@@ -11938,7 +11942,8 @@ landscape:
               This framework was created as a tool for those seeking to make emissions reductions and sustainability related investments with the goal of
               mitigating the impacts of climate change, based on guidelines set forth by Chamath Palihapitiya in July 2020.
             repo_url: https://github.com/My-Climate-Journey/climate-sustainability-investment-framework
-            unnamed_organization: true
+            organization:
+              name: My Climate Journey
             homepage_url: https://github.com/My-Climate-Journey/climate-sustainability-investment-framework
           - item:
             name: r2dii.analysis
@@ -11972,7 +11977,8 @@ landscape:
             logo: MimiFUND.jl.svg
             description: Used to perform cost-benefit and cost-effectiveness analyses of greenhouse gas emission reduction policies.
             repo_url: https://github.com/fund-model/MimiFUND.jl
-            unnamed_organization: true
+            organization:
+              name: Richard Tol
             homepage_url: https://www.fund-model.org
           - item:
             name: open-climate-investing
