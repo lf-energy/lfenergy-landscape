@@ -391,8 +391,7 @@ landscape:
             logo: honeybee.svg
             description: A Python library to create, run and visualize the results of daylight (RADIANCE) and energy analysis (EnergyPlus/OpenStudio).
             repo_url: https://github.com/ladybug-tools/honeybee
-            organization:
-              name: Ladybug Tools
+            crunchbase: https://www.crunchbase.com/organization/ladybug-tools
             homepage_url: http://ladybug-tools.github.io/honeybee/docs
           - item:
             name: Open Solar Project
@@ -3879,8 +3878,7 @@ landscape:
             logo: Urban Weather Generator.svg
             description: A Python application for modeling the urban heat island effect.
             repo_url: https://github.com/ladybug-tools/uwg
-            organization:
-              name: Ladybug Tools
+            crunchbase: https://www.crunchbase.com/organization/ladybug-tools
             homepage_url: https://www.ladybug.tools/uwg/docs/
       - subcategory:
         name: Mobility and Transportation
@@ -3970,7 +3968,9 @@ landscape:
             logo: EVNotify.svg
             description: Allows you to monitor your electric vehicle and let you notify when the specified preset state of charge has been achieved.
             repo_url: https://github.com/EVNotify/EVNotify
-            unnamed_organization: true
+            project_org: https://github.com/EVNotify
+            organization:
+              name: EVNotify
             homepage_url: https://evnotify.com
           - item:
             name: icare
@@ -3997,7 +3997,7 @@ landscape:
             logo: UTD19.svg
             description: Largest multi-city traffic dataset publicly available.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
             homepage_url: https://utd19.ethz.ch/
           - item:
             name: OpenEVSE
@@ -4025,7 +4025,7 @@ landscape:
             repo_url: https://github.com/vonfeng/DeepMove
             extra:
               topics: mobility-trajectory,attention,www,prediction
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/tsinghua-university
             homepage_url: https://github.com/vonfeng/DeepMove
           - item:
             name: mobility-data-specification
@@ -4060,10 +4060,12 @@ landscape:
             name: EVCC
             logo: EVCC.svg
             description: An extensible EV Charge Controller with PV integration implemented in Go.
+            project_org: https://github.com/evcc-io
             repo_url: https://github.com/evcc-io/evcc
             extra:
               topics: mqtt,golang,pv,wallbox,emobility,charger,wallbe,home-automation
-            unnamed_organization: true
+            organization:
+              name: EVCC
             homepage_url: https://evcc.io
           - item:
             name: SteVe
@@ -4095,7 +4097,8 @@ landscape:
             extra:
               topics: >-
                 mobility,mobility-modeling,autonomous-vehicles,optimization-algorithms,simulation-framework,simulator,ridesharing,fleet-management,python,ridehailing,transportation
-            unnamed_organization: true
+            organization:
+              name: Oleksandr Lysenko
             homepage_url: https://github.com/sash-ko/simobility
           - item:
             name: MobiVoc
@@ -4114,17 +4117,18 @@ landscape:
             repo_url: https://github.com/grote/Transportr
             extra:
               topics: public-transportation,android-app,map
-            unnamed_organization: true
+            organization:
+              name: Torsten Grote
             homepage_url: https://transportr.app
           - item:
             name: OneBusAway
             logo: OneBusAway.svg
             description: The Open Source platform for Real Time Transit Info.
+            project_org: https://github.com/OneBusAway
             repo_url: https://github.com/OneBusAway/onebusaway-android
             extra:
               topics: android,onebusaway,java,public-transportation,transit,open-transit-software-foundation
-            organization:
-              name: OneBusAway
+            crunchbase: https://www.crunchbase.com/organization/onebusaway
             homepage_url: http://www.onebusaway.org/
           - item:
             name: transitfeed
@@ -4150,7 +4154,8 @@ landscape:
             repo_url: https://github.com/schildbach/public-transport-enabler
             extra:
               topics: java,library,public-transportation,navitia,hafas,efa
-            unnamed_organization: true
+            organization:
+              name: Andreas Schildbach
             homepage_url: https://groups.google.com/forum/#!forum/public-transport-enabler-discuss
           - item:
             name: osm2gtfs
@@ -4159,7 +4164,8 @@ landscape:
             repo_url: https://github.com/grote/osm2gtfs
             extra:
               topics: openstreetmap,gtfs,schedule,public-transportation,python
-            unnamed_organization: true
+            organization:
+              name: Torsten Grote
             homepage_url: https://github.com/grote/osm2gtfs
           - item:
             name: Quetzal
@@ -4174,7 +4180,8 @@ landscape:
             logo: quetzal_germany.svg
             description: A four step transport model for Germany using the quetzal transport modeling suite.
             repo_url: https://github.com/marlinarnz/quetzal_germany
-            unnamed_organization: true
+            organization:
+              name: marlinarnz
             homepage_url: https://github.com/marlinarnz/quetzal_germany
             extra:
               refs: ',https://doi.org/10.1186/s12544-022-00568-9\n\nIt,https://doi.org/10.5281/zenodo.5659679'
@@ -4182,8 +4189,10 @@ landscape:
             name: OpenMobility
             logo: OpenMobility.svg
             description: Driving the Evolution and Broad Adoption of Open Source Mobility Modeling and Simulation Technologies.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/eclipse/sumo
+            additional_repos:
+              - repo_url: https://github.com/eclipse/mosaic
+            crunchbase: https://www.crunchbase.com/organization/eclipse-foundation
             homepage_url: https://openmobility.eclipse.org/
           - item:
             name: NoiseModelling
@@ -4221,6 +4230,7 @@ landscape:
             name: CyclOSM
             logo: CyclOSM.svg
             description: A CartoCSS map style designed with cycling in mind.
+            project_org: https://github.com/cyclosm
             repo_url: https://github.com/cyclosm/cyclosm-cartocss-style
             extra:
               topics: osm,cartocss,cycling,openstreetmap,map,tiles
@@ -4232,8 +4242,7 @@ landscape:
             logo: Gym Electric Motor.svg
             description: An OpenAI Gym Environment for Electric Motors.
             repo_url: https://github.com/upb-lea/gym-electric-motor
-            organization:
-              name: Paderborn University - LEA
+            crunchbase: https://www.crunchbase.com/organization/university-of-paderborn
             homepage_url: https://upb-lea.github.io/gym-electric-motor/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4355691,https://doi.org/10.21105/joss.02498,https://doi.org/10.21105/joss.02498'
@@ -4264,7 +4273,7 @@ landscape:
             repo_url: https://github.com/PierrickP/multicycles
             extra:
               topics: velib,freefloating,bike,bikesharing,bikeshare,mobike,bike-rental-services,lime,bird,voi,tier,api,carsharing,scooters,bikes,cars
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/fluctuo
             homepage_url: https://multicycles.org/
           - item:
             name: pybikes
@@ -8559,12 +8568,13 @@ landscape:
               name: Community Surface Dynamics Modeling System
             homepage_url: https://github.com/csdms/pymt
           - item:
-            name: Dragonfly for Grasshopper
+            name: Dragonfly
             logo: Dragonfly for Grasshopper.svg
             description: Legacy dragonfly plugin for large-scale climate and urban heat island modeling.
-            repo_url: https://github.com/ladybug-tools/dragonfly-legacy
-            organization:
-              name: Ladybug Tools
+            repo_url: https://github.com/ladybug-tools/dragonfly-core
+            additional_repos:
+              - repo_url: https://github.com/ladybug-tools/dragonfly-legacy
+            crunchbase: https://www.crunchbase.com/organization/ladybug-tools
             homepage_url: https://github.com/ladybug-tools/dragonfly-legacy
           - item:
             name: pyOSOAA
