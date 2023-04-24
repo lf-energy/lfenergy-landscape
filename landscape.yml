@@ -624,9 +624,10 @@ landscape:
             name: PyWake
             logo: PyWake.svg
             description: An AEP calculator for wind farms implemented in Python including a collection of wake models.
-            repo_url: null
+            repo_url: https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake
+            license: MIT License
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
-            homepage_url: https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake
+            homepage_url: https://topfarm.pages.windenergy.dtu.dk/PyWake
           - item:
             name: WISDEM
             logo: WISDEM.svg
@@ -669,16 +670,18 @@ landscape:
             name: TopFarm2
             logo: TopFarm2.svg
             description: A Python package developed by DTU Wind Energy to help with wind-farm optimizations.
-            repo_url: null
+            license: MIT License
+            repo_url: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
-            homepage_url: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2
+            homepage_url: https://topfarm.pages.windenergy.dtu.dk/TopFarm2/
           - item:
             name: BasicDTUController
             logo: BasicDTUController.svg
             description: The scope of this project is to provide an open source, open access controller that can be used by the wind energy community as a reference.
-            repo_url: null
+            license: GNU General Public License v3.0
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
             homepage_url: https://gitlab.windenergy.dtu.dk/OpenLAC/BasicDTUController
+            repo_url: https://gitlab.windenergy.dtu.dk/OpenLAC/BasicDTUController
           - item:
             name: WindEnergyToolbox
             logo: WindEnergyToolbox.svg
@@ -727,7 +730,8 @@ landscape:
             name: pyconturb
             logo: pyconturb.svg
             description: Constrained Stochastic Turbulence for Wind Energy Applications.
-            repo_url: null
+            repo_url: https://gitlab.windenergy.dtu.dk/pyconturb
+            license: MIT License
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
             homepage_url: https://gitlab.windenergy.dtu.dk/pyconturb/pyconturb
           - item:
@@ -3041,8 +3045,7 @@ landscape:
             repo_url: https://github.com/wri/global-power-plant-database
             extra:
               topics: open-data,open-datasets,energy,energy-data,free-datasets,climate,climate-data
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://github.com/wri/global-power-plant-database
           - item:
             name: entsoe-py
@@ -3197,8 +3200,7 @@ landscape:
             repo_url: https://github.com/owid/energy-data
             extra:
               topics: energy,electricity
-            organization:
-              name: Our World in Data
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://ourworldindata.org/energy
           - item:
             name: OpenEI
@@ -3330,7 +3332,7 @@ landscape:
             repo_url: https://github.com/trynthink/scout
             extra:
               topics: building-energy,energy-data,energy-consumption,energy-efficiency,demand-side-management,carbon-emissions
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
             homepage_url: https://scout.energy.gov
           - item:
             name: BOPTEST
@@ -3355,9 +3357,9 @@ landscape:
             name: hpxml
             logo: hpxml.svg
             description: Home Performance XML is a data transfer standard for the home performance industry.
+            project_org: https://github.com/hpxmlwg
             repo_url: https://github.com/hpxmlwg/hpxml
-            organization:
-              name: HPXML Working Group
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: http://hpxmlonline.com
           - item:
             name: HPXML to Home Energy Score Translator
@@ -3419,9 +3421,9 @@ landscape:
             name: BEMServer
             logo: BEMServer.svg
             description: An open source Python server to deploy energy management solutions for buildings.
+            project_org: https://github.com/HIT2GAP-EU-PROJECT
             repo_url: https://github.com/HIT2GAP-EU-PROJECT/bemserver
-            organization:
-              name: HIT2GAP
+            crunchbase: https://www.crunchbase.com/organization/nobatek-inef4
             homepage_url: http://bemserver.org
           - item:
             name: SEED
@@ -3429,6 +3431,7 @@ landscape:
             description: >-
               Standard Energy Efficiency Data Platform™ is a web-based application that helps organizations easily manage data on the energy performance of
               large groups of buildings.
+            project_org: https://github.com/SEED-platform
             repo_url: https://github.com/SEED-platform/seed
             extra:
               topics: energy,commercial,buildings
@@ -3440,8 +3443,7 @@ landscape:
             logo: HPWHsim.svg
             description: An open source simulation model for Heat Pump Water Heaters (HPWH).
             repo_url: https://github.com/EcotopeResearch/HPWHsim
-            organization:
-              name: Ecotope, Inc.
+            crunchbase: https://www.crunchbase.com/organization/ecotope
             homepage_url: https://github.com/EcotopeResearch/HPWHsim
           - item:
             name: OpenStudio-ERI
@@ -3490,8 +3492,7 @@ landscape:
             logo: IDEAS.svg
             description: A Modelica model library for integrated building or district energy simulations.
             repo_url: https://github.com/open-ideas/IDEAS
-            organization:
-              name: OpenIDEAS
+            crunchbase: https://www.crunchbase.com/organization/university-of-leuven
             homepage_url: https://github.com/open-ideas/IDEAS
           - item:
             name: tespy
@@ -3535,13 +3536,12 @@ landscape:
               topics: modelica,buildings,control,energy-efficiency
           - item:
             name: StROBe
-            logo: StROBe.svg
+            logo: strobe.svg
             description: >-
               An open web tool developed at the KU Leuven Building Physics Section to model the pervasive space for residential integrated district energy
               assessment simulations in the openIDEAS modeling environment.
             repo_url: https://github.com/open-ideas/StROBe
-            organization:
-              name: OpenIDEAS
+            crunchbase: https://www.crunchbase.com/organization/university-of-leuven
             homepage_url: https://github.com/open-ideas/StROBe
             extra:
               refs: ',https://doi.org/10.1080/19401493.2015.1070203\n2'
@@ -3575,15 +3575,16 @@ landscape:
             name: Hotmaps
             logo: Hotmaps.svg
             description: The open source mapping and planning tool for heating and cooling.
+            project_org: https://github.com/HotMaps
             repo_url: https://github.com/HotMaps/Hotmaps-toolbox-service
-            unnamed_organization: true
-            homepage_url: https://github.com/HotMaps/Hotmaps-toolbox-service
+            crunchbase: https://www.crunchbase.com/organization/horizon-2020
+            homepage_url: https://www.hotmaps-project.eu/
           - item:
             name: BuildSysPro
             logo: BuildSysPro.svg
             description: EDF's Modelica library for buildings, districts and energy systems modeling.
             repo_url: https://github.com/EDF-Lab/BuildSysPro
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/edf-energy
             homepage_url: https://github.com/EDF-Lab/BuildSysPro
           - item:
             name: MPCPy
@@ -3600,21 +3601,20 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lawrence-berkeley-national-laboratory
             homepage_url: http://obc.lbl.gov
           - item:
-            name: The Application Domain Extension
+            name: CityGML Energy ADE
             logo: The Application Domain Extension.svg
             description: >-
               Defines a standardized data model based on CityGML format for urban energy analyses, aiming to be a reference exchange data format between
               different urban modeling tools and expert databases.
             repo_url: https://github.com/cstb/citygml-energy
-            organization:
-              name: CSTB
+            crunchbase: https://www.crunchbase.com/organization/cstb
             homepage_url: https://github.com/cstb/citygml-energy
           - item:
             name: PLANHEAT Tool
             logo: PLANHEAT Tool.svg
             description: A QGIS plug-in based on an open source code, whose goal is to analyze, plan and simulate low carbon Heating & Cooling scenarios.
             repo_url: https://github.com/Planheat/Planheat-Tool
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://github.com/Planheat/Planheat-Tool
           - item:
             name: Energy Signature Analyser
@@ -3632,8 +3632,7 @@ landscape:
             repo_url: https://github.com/UdK-VPT/BuildingSystems
             extra:
               topics: modelica,building,energy,simulation
-            organization:
-              name: UdK-VPT
+            crunchbase: https://www.crunchbase.com/organization/berlin-university-of-the-arts
             homepage_url: http://modelica-buildingsystems.de/
           - item:
             name: modelica-ibpsa
@@ -3657,8 +3656,9 @@ landscape:
             name: teb
             logo: teb.svg
             description: A library to calculate the urban surface energy balance at neighborhood scale assuming a simplified canyon geometry.
+            project_org: https://github.com/TEB-model
             repo_url: https://github.com/TEB-model/teb
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/capitoul-informatique
             homepage_url: https://github.com/TEB-model/teb
             extra:
               refs: >-
@@ -3709,18 +3709,18 @@ landscape:
             logo: pythermalcomfort.svg
             description: Package to calculate several thermal comfort indices (e.g. PMV, PPD, SET, adaptive) and convert physical variables.
             repo_url: https://github.com/CenterForTheBuiltEnvironment/pythermalcomfort
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/center-for-the-built-environment
             homepage_url: https://pythermalcomfort.readthedocs.io/en/latest/
             extra:
               refs: ',https://doi.org/10.1016/j.softx.2020.100578'
           - item:
-            name: comfort_tool
+            name: CBE Thermal Comfort Tool
             logo: comfort_tool.svg
             description: A web interface for comfort model calculations and visualizations according to ASHRAE Standard-55, EN Standard 16798 and ISO Standard 7730.
             repo_url: https://github.com/CenterForTheBuiltEnvironment/comfort_tool
             extra:
               topics: comfort,air-temperature,thermal-comfort,pmv-prediction,pmv
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/center-for-the-built-environment
             homepage_url: http://comfort.cbe.berkeley.edu
           - item:
             name: resstock
@@ -3733,6 +3733,7 @@ landscape:
             name: DSMR-reader
             logo: DSMR-reader.svg
             description: Used for reading the smart meter DSMR (Dutch Smart Meter Requirements) P1 port yourself at your home.
+            project_org: https://github.com/dsmrreader
             repo_url: https://github.com/dsmrreader/dsmr-reader
             extra:
               topics: raspberry-pi,non-commercial,dsmr5,dsmr4,dsmrp1,dsmr-reader,telegram-data-storage,energy-consumption-visualizer
@@ -3755,7 +3756,7 @@ landscape:
               Provides a rich toolkit of using whole building energy simulation program EnergyPlus directly in R, which enables programmatic navigation,
               modification of EnergyPlus, conducts parametric simulations and retrieves outputs.
             repo_url: https://github.com/hongyuanjia/eplusr
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/chongqing-science-and-technology-career-academy
             homepage_url: https://hongyuanjia.github.io/eplusr
             extra:
               refs: ',https://doi.org/10.1016/j.enbuild.2021.110757\n#'
@@ -3784,8 +3785,9 @@ landscape:
             description: >-
               Non-Intrusive Load Monitoring is the process of estimating the energy consumed by individual appliances given just a whole-house power meter
               reading.
+            project_org: https://github.com/nilmtk
             repo_url: https://github.com/nilmtk/nilmtk
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/indian-institute-of-technology-gandhinagar
             homepage_url: http://nilmtk.github.io
             extra:
               refs: ',https://doi.org/10.1145/3360322.3360844'
@@ -3822,8 +3824,7 @@ landscape:
             logo: hplib.svg
             description: Database with efficiency parameters from public Heatpump Keymark datasets as well as parameter-sets and functions in order to simulate heat pumps.
             repo_url: https://github.com/RE-Lab-Projects/hplib
-            organization:
-              name: RE-Lab-Projects
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://github.com/RE-Lab-Projects/hplib
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5521597,https://doi.org/10.5281/zenodo.5521597\n\n##'
@@ -3844,7 +3845,7 @@ landscape:
             repo_url: https://github.com/CenterForTheBuiltEnvironment/clima
             extra:
               topics: clima,epw,epw-files,climate-analysis,building-design,python
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/center-for-the-built-environment
             homepage_url: https://clima.cbe.berkeley.edu
           - item:
             name: Kiva
@@ -3870,8 +3871,10 @@ landscape:
             name: Urban Multi-scale Environmental Predictor
             logo: Urban Multi-scale Environmental Predictor.svg
             description: A climate service tool, designed for researchers and service providers presented as a plugin for QGIS.
-            repo_url: null
-            unnamed_organization: true
+            project_org: https://github.com/UMEP-dev
+            repo_url: https://github.com/UMEP-dev/UMEP
+            organization:
+              name: UMEP
             homepage_url: https://umep-docs.readthedocs.io/en/latest/
           - item:
             name: Urban Weather Generator
@@ -4282,7 +4285,8 @@ landscape:
               Provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of classes and
               methods to access this sort of information.
             repo_url: https://github.com/eskerda/pybikes
-            unnamed_organization: true
+            organization:
+              name: eskerda
             homepage_url: https://citybik.es
           - item:
             name: Sustainable Mobility API
@@ -4298,8 +4302,7 @@ landscape:
             repo_url: https://github.com/OpenChargingCloud/ChargyDesktopApp
             extra:
               topics: transparency,eichrecht,electron,chargy,smartmetering,evroamingdeluxe,premiumeichrecht,evroaming,e-mobility
-            organization:
-              name: Open Charging Cloud
+            crunchbase: https://www.crunchbase.com/organization/graphdefined-gmbh
             homepage_url: https://github.com/OpenChargingCloud/ChargyDesktopApp
           - item:
             name: WWCP_OCPP
@@ -4308,8 +4311,7 @@ landscape:
             repo_url: https://github.com/OpenChargingCloud/WWCP_OCPP
             extra:
               topics: ocpp,e-mobility,charging,chargingstation
-            organization:
-              name: Open Charging Cloud
+            crunchbase: https://www.crunchbase.com/organization/graphdefined-gmbh
             homepage_url: https://github.com/OpenChargingCloud/WWCP_OCPP
           - item:
             name: WWCP_Core
@@ -4320,8 +4322,7 @@ landscape:
             repo_url: https://github.com/OpenChargingCloud/WWCP_Core
             extra:
               topics: wwcp,e-mobility,ev-roaming,charging,chargingstation
-            organization:
-              name: Open Charging Cloud
+            crunchbase: https://www.crunchbase.com/organization/graphdefined-gmbh
             homepage_url: https://github.com/OpenChargingCloud/WWCP_Core
           - item:
             name: openv2g
@@ -4330,15 +4331,15 @@ landscape:
               The objective to start this project is primarily to support the ISO and IEC standardization process to specify the so called "Vehicle 2 Grid
               Communication Interface" (V2G CI) which became the ISO IEC 15118 specification by now.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/siemens-energy-6cf7
             homepage_url: http://openv2g.sourceforge.net/
           - item:
             name: RAMP-mobility
             logo: RAMP-mobility.svg
             description: A novel application of the RAMP main engine for generating bottom-up stochastic electric vehicles load profiles.
+            project_org: https://github.com/RAMP-project
             repo_url: https://github.com/RAMP-project/RAMP-mobility
-            organization:
-              name: RAMP
+            crunchbase: https://www.crunchbase.com/organization/tu-delft
             homepage_url: https://github.com/RAMP-project/RAMP-mobility
             extra:
               refs: >-
@@ -4378,10 +4379,12 @@ landscape:
             name: CityFlow
             logo: CityFlow.svg
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
+            project_org: https://github.com/cityflow-project
             repo_url: https://github.com/cityflow-project/CityFlow
             extra:
               topics: multiagent-systems,multiagent-reinforcement-learning,traffic-simulation,traffic-signal-control
-            unnamed_organization: true
+            organization:
+              name: CityFlow
             homepage_url: https://cityflow-project.github.io
           - item:
             name: Complete_Street_Rule
@@ -4391,7 +4394,7 @@ landscape:
             extra:
               topics: >-
                 complete,streets,transportation,cityengine,procedural-generation,cga,treatments,street-rule,geometry,simulation,environmental-modelling,urban-planning,arcgis-cityengine,street-configuration,urban-design
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/esri
             homepage_url: https://geonet.esri.com/docs/DOC-6915
           - item:
             name: tesla_powerwall
@@ -4586,15 +4589,6 @@ landscape:
             homepage_url: https://github.com/NREL/Industry-energy-data-book
             extra:
               refs: ',https://doi.org/10.2172/1335587,https://doi.org/10.1016/j.apenergy.2019.01.077,https://doi.org/10.2172/1484348'
-          - item:
-            name: CalTRACK
-            logo: CalTRACK.svg
-            description: >-
-              Methods are developed in an open and transparent stakeholder process that uses empirical testing to define replicable methods for calculating
-              normalized metered energy consumption using either monthly or interval data from an existing conditions baseline.
-            repo_url: https://github.com/energy-market-methods/caltrack
-            unnamed_organization: true
-            homepage_url: http://docs.caltrack.org
           - item:
             name: OpenModelica
             logo: OpenModelica.svg
@@ -4960,9 +4954,8 @@ landscape:
               Seeks to fill a critical need for high-quality, publicly-accessible, hourly grid emissions data that can be used for GHG accounting, policymaking,
               academic research, and energy attribute certificate markets.
             repo_url: https://github.com/singularity-energy/open-grid-emissions
-            organization:
-              name: Singularity Energy
-            homepage_url: https://github.com/singularity-energy/open-grid-emissions
+            crunchbase: https://www.crunchbase.com/organization/singularity-energy
+            homepage_url: https://docs.singularity.energy/docs/open-grid-emissions-docs/about_ogei-about-the-open-grid-emissions-initiative
             extra:
               refs: ',https://doi.org/10.5281/zenodo.7062460'
               topics: >-
@@ -5039,6 +5032,7 @@ landscape:
             repo_url: https://github.com/KKulma/intensegRid
             extra:
               topics: climate-change,carbon-intensity,carbon-api,carbon-emissions,r,hacktoberfest
+            crunchbase: https://www.crunchbase.com/organization/national-grid
             unnamed_organization: true
             homepage_url: https://carbonintensity.org.uk/
           - item:
@@ -5054,15 +5048,15 @@ landscape:
             logo: CAMx.svg
             description: A multi-scale photochemical modeling system for gas and particulate air pollution.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ramboll
             homepage_url: https://www.camx.com/
           - item:
             name: Open-Emission-Factors-DB
             logo: Open-Emission-Factors-DB.svg
             description: An open access, contributer-led database of emission factors, validated by the team at Climatiq.
+            project_org: https://github.com/climatiq
             repo_url: https://github.com/climatiq/Open-Emission-Factors-DB
-            organization:
-              name: Climatiq
+            crunchbase: https://www.crunchbase.com/organization/climatiq
             homepage_url: https://www.climatiq.io/explorer
           - item:
             name: elmada
@@ -5089,10 +5083,11 @@ landscape:
             name: Silicone
             logo: Silicone.svg
             description: Automated filling of detail in reported emission scenarios.
+            project_org: https://github.com/GranthamImperial
             repo_url: https://github.com/GranthamImperial/silicone
             extra:
               topics: emissions,automation,filling,detail,climate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/imperial-college-london
             homepage_url: https://silicone.readthedocs.io
           - item:
             name: gridemissions
@@ -5205,8 +5200,9 @@ landscape:
             description: >-
               Based on the DUNE framework and aims to provide a multitude of numerical models as well as flexible discretization methods for complex non-linear
               phenomena, such as CO2 sequestration, soil remediation, drug delivery in cancer therapy and more.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://git.iws.uni-stuttgart.de/dumux-repositories/dumux
+            license: GNU General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/university-of-stuttgart
             homepage_url: https://git.iws.uni-stuttgart.de/dumux-repositories/dumux
           - item:
             name: oco2peak
@@ -5225,7 +5221,7 @@ landscape:
               The CHE Data Portal provides an interface to the distributed data used and made available through the project, either as input data sets or as
               resulting data sets.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/horizon-europe
             homepage_url: https://www.che-project.eu/data-portal
           - item:
             name: Global Carbon Budget
@@ -5322,8 +5318,7 @@ landscape:
             repo_url: https://github.com/owid/co2-data
             extra:
               topics: co2-emissions,greenhouse-gas-emissions,environment,energy
-            organization:
-              name: Our World in Data
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
           - item:
             name: X-STILT
@@ -5394,7 +5389,7 @@ landscape:
               Explore, analyze, and download methane plumes detected from airborne platforms on an interactive map alongside VISTA infrastructure, gridded
               methane estimates, and other additional data layers.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/jet-propulsion-laboratory
             homepage_url: https://methane.jpl.nasa.gov/
           - item:
             name: deep-smoke-machine
@@ -5912,8 +5907,7 @@ landscape:
               This model maps gross greenhouse gas emissions from forests between 2001 and 2015, gross carbon removals by forests between 2001, and the
               difference between them (net flux).
             repo_url: https://github.com/wri/carbon-budget
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://github.com/wri/carbon-budget
           - item:
             name: treeseg
@@ -6040,8 +6034,7 @@ landscape:
             repo_url: https://github.com/wri/gfw-mapbuilder
             extra:
               topics: gfw,esri-js,website
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://my.gfw-mapbuilder.org/v1.latest/
           - item:
             name: taxize
@@ -6644,8 +6637,7 @@ landscape:
             logo: Sentinel-Tree-Cover.svg
             description: This project maps tree extent at the ten-meter scale using open source artificial intelligence and satellite imagery.
             repo_url: https://github.com/wri/sentinel-tree-cover
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://github.com/wri/sentinel-tree-cover
           - item:
             name: Bioverse Labs
@@ -9849,8 +9841,7 @@ landscape:
             repo_url: https://github.com/opendata-stuttgart/sensors-software
             extra:
               topics: sensor,arduino,iot,iot-device
-            organization:
-              name: Open Data Stuttgart
+            crunchbase: https://www.crunchbase.com/organization/the-open-knowledge-foundation-deutschland-okf-de
             homepage_url: https://github.com/opendata-stuttgart/sensors-software
           - item:
             name: AirCasting
@@ -10026,8 +10017,7 @@ landscape:
             repo_url: https://github.com/opendata-stuttgart/sensor.community
             extra:
               topics: svelte,sapper,javascript,sensor-community
-            organization:
-              name: Open Data Stuttgart
+            crunchbase: https://www.crunchbase.com/organization/the-open-knowledge-foundation-deutschland-okf-de
             homepage_url: https://sensor.community
           - item:
             name: openSenseMap
@@ -11971,8 +11961,7 @@ landscape:
             repo_url: https://github.com/ScienceBasedTargets/SBTi-finance-tool
             extra:
               topics: suistainable,finance,portfolio,climate-science,climate-model,climate-data
-            organization:
-              name: Science Based Targets initiative
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://sciencebasedtargets.org/
           - item:
             name: Real Impact Tracker Methodology
@@ -12365,8 +12354,7 @@ landscape:
             logo: owid-catalog.svg
             description: A Pythonic API for working with Our World in Data catalog.
             repo_url: https://github.com/owid/owid-catalog-py
-            organization:
-              name: Our World in Data
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://github.com/owid/owid-catalog-py
           - item:
             name: Global Environmental Database
@@ -12401,7 +12389,7 @@ landscape:
             repo_url: https://github.com/piersyork/owidR
             extra:
               topics: r,r-package,data,data-visualisation,economics
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://github.com/piersyork/owidR
           - item:
             name: Custom Scripts Sentinel Hub

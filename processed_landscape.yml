@@ -4178,9 +4178,10 @@ landscape:
             name: PyWake
             logo: PyWake.svg
             description: An AEP calculator for wind farms implemented in Python including a collection of wake models.
-            repo_url: null
+            repo_url: https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake
+            license: MIT License
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
-            homepage_url: https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake
+            homepage_url: https://topfarm.pages.windenergy.dtu.dk/PyWake
             crunchbase_data:
               name: Technical University of Denmark
               description: Technical University of Denmark is a university located in Kongens, Lyngby, Denmark
@@ -4199,9 +4200,11 @@ landscape:
               company_type: ''
               industries:
                 - Education
+            repos:
+              - url: https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake
             image_data:
               fileName: py-wake.svg
-              hash: omwWKZm1E6rR3hZBWEGMoFjBae7wfxHKzvsjb6+WyPw=
+              hash: vWzOmZFYXhEabBo4JFTKY6yw99hoakFDsXF95n9r9Lg=
             best_practice_data:
               badge: false
               percentage: null
@@ -4571,9 +4574,10 @@ landscape:
             name: TopFarm2
             logo: TopFarm2.svg
             description: A Python package developed by DTU Wind Energy to help with wind-farm optimizations.
-            repo_url: null
+            license: MIT License
+            repo_url: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
-            homepage_url: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2
+            homepage_url: https://topfarm.pages.windenergy.dtu.dk/TopFarm2/
             crunchbase_data:
               name: Technical University of Denmark
               description: Technical University of Denmark is a university located in Kongens, Lyngby, Denmark
@@ -4592,6 +4596,8 @@ landscape:
               company_type: ''
               industries:
                 - Education
+            repos:
+              - url: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2
             image_data:
               fileName: top-farm2.svg
               hash: Rgx80jRAdItgrsiaR4xbzR+V3ZjMqtldT20ee6QQiQs=
@@ -4604,9 +4610,10 @@ landscape:
             name: BasicDTUController
             logo: BasicDTUController.svg
             description: The scope of this project is to provide an open source, open access controller that can be used by the wind energy community as a reference.
-            repo_url: null
+            license: GNU General Public License v3.0
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
             homepage_url: https://gitlab.windenergy.dtu.dk/OpenLAC/BasicDTUController
+            repo_url: https://gitlab.windenergy.dtu.dk/OpenLAC/BasicDTUController
             crunchbase_data:
               name: Technical University of Denmark
               description: Technical University of Denmark is a university located in Kongens, Lyngby, Denmark
@@ -4625,6 +4632,8 @@ landscape:
               company_type: ''
               industries:
                 - Education
+            repos:
+              - url: https://gitlab.windenergy.dtu.dk/OpenLAC/BasicDTUController
             image_data:
               fileName: basic-dtu-controller.svg
               hash: H54I8tP/mZnZ8lUYy9MyGSduCMCflcO5H6sR5uN1Bno=
@@ -4925,7 +4934,8 @@ landscape:
             name: pyconturb
             logo: pyconturb.svg
             description: Constrained Stochastic Turbulence for Wind Energy Applications.
-            repo_url: null
+            repo_url: https://gitlab.windenergy.dtu.dk/pyconturb
+            license: MIT License
             crunchbase: https://www.crunchbase.com/organization/technical-university-of-denmark
             homepage_url: https://gitlab.windenergy.dtu.dk/pyconturb/pyconturb
             crunchbase_data:
@@ -4946,6 +4956,8 @@ landscape:
               company_type: ''
               industries:
                 - Education
+            repos:
+              - url: https://gitlab.windenergy.dtu.dk/pyconturb
             image_data:
               fileName: pyconturb.svg
               hash: O6WhtT7iZzOrWY3cOetPCGE6zCPMDHK+mTzRD9ke4mg=
@@ -12862,7 +12874,7 @@ landscape:
               start_date: '2019-02-20T17:02:32Z'
             image_data:
               fileName: ramp.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: k1PISaNO2YdNL7gld8bVTJsm93Zpqikp7mEftYdpZJM=
             best_practice_data:
               badge: false
               percentage: null
@@ -18276,12 +18288,26 @@ landscape:
             repo_url: https://github.com/wri/global-power-plant-database
             extra:
               topics: open-data,open-datasets,energy,energy-data,free-datasets,climate,climate-data
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://github.com/wri/global-power-plant-database
             crunchbase_data:
-              name: World Resources Institute
+              name: World Resources Institute - WRI
+              description: World Research Institute is a global research organization that is focused on sustaining a healthy environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.wri.org/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/worldresources
+              linkedin: https://www.linkedin.com/company/18878
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
             github_data:
               languages:
                 - name: HTML
@@ -18312,10 +18338,12 @@ landscape:
               start_date: '2018-04-09T22:13:47Z'
             image_data:
               fileName: global-power-plant-database.svg
-              hash: Gps+zKDtvWa1LwavqXuzNT7lBzDvMyXRwgMocXul08k=
+              hash: mHK3+PP3gcUX7ODyOnm9hDLZcDI/HBxPZZuz1MR8Ed0=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:52:04.000Z
           - item:
             name: entsoe-py
             logo: entsoe-py.svg
@@ -19038,12 +19066,30 @@ landscape:
             repo_url: https://github.com/owid/energy-data
             extra:
               topics: energy,electricity
-            organization:
-              name: Our World in Data
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://ourworldindata.org/energy
             crunchbase_data:
-              name: Our World in Data
+              name: Our World In Data
+              description: Our World In Data is a focussing on the powerful changes that reshape our world.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://ourworldindata.org/
+              city: Oxford
+              region: Oxfordshire
+              country: United Kingdom
+              twitter: https://twitter.com/ourworldindata
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 150000
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Data Visualization
+                - Education
+                - Internet
+                - Non Profit
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -19066,7 +19112,7 @@ landscape:
               start_date: '2020-09-08T15:21:27Z'
             image_data:
               fileName: energy-data.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: zpCgUfUG+75qnuijAHURlJgEz5iqomw/f7dmqOxTS3s=
             best_practice_data:
               badge: false
               percentage: null
@@ -19649,17 +19695,28 @@ landscape:
             repo_url: https://github.com/trynthink/scout
             extra:
               topics: building-energy,energy-data,energy-consumption,energy-efficiency,demand-side-management,carbon-emissions
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
             homepage_url: https://scout.energy.gov
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: US Department of Energy
+              description: US Department of Energy is a government administration that regulates energy policy, research and development.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.energy.gov/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/energy
+              linkedin: https://www.linkedin.com/company/u-s--department-of-energy
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Energy
+                - Energy Efficiency
+                - Energy Management
+                - Finance
             github_data:
               languages:
                 - name: Python
@@ -19689,12 +19746,12 @@ landscape:
               start_date: '2014-11-04T22:04:43Z'
             image_data:
               fileName: scout.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: UK67Igb2pRA5trzApclJl+JtcpEfVz6d4zxMfpI5ugw=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-03T15:49:58.000Z
           - item:
             name: BOPTEST
             logo: BOPTEST.svg
@@ -19825,14 +19882,37 @@ landscape:
             name: hpxml
             logo: hpxml.svg
             description: Home Performance XML is a data transfer standard for the home performance industry.
+            project_org: https://github.com/hpxmlwg
             repo_url: https://github.com/hpxmlwg/hpxml
-            organization:
-              name: HPXML Working Group
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: http://hpxmlonline.com
             crunchbase_data:
-              name: HPXML Working Group
+              name: National Renewable Energy Laboratory
+              description: National Renewable Energy Laboratory develops renewable energy and energy efficiency technologies and practices.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.nrel.gov
+              city: Golden
+              region: Colorado
+              country: United States
+              twitter: http://twitter.com/nrel
+              linkedin: https://www.linkedin.com/company/national-renewable-energy-laboratory
+              acquisitions: []
               parents: []
+              funding: 8200000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Clean Energy
+                - CleanTech
+                - Energy
+                - Renewable Energy
+              kind: funding
             github_data:
+              description: ''
+              contributors_count: 11
+              contributions: 0;4;4;0;0;3;2;9;2;15;0;2;0;0;3;4;1;0;0;0;10;3;4;3;18;0;0;0;11;0;0;3;8;0;0;3;0;6;0;0;2;13;5;0;9;0;22;0;0;0;9;0
+              stars: 32
               languages:
                 - name: Python
                   value: 13934
@@ -19843,29 +19923,25 @@ landscape:
                 - name: Batchfile
                   value: 6746
                   color: '#C1F12E'
-              contributions: 0;0;0;0;0;4;4;0;0;3;2;9;2;15;0;2;0;0;3;4;1;0;0;0;10;3;4;3;18;0;0;0;11;0;0;3;8;0;0;3;0;6;0;0;1;13;5;0;0;0;16;0
-              firstWeek: 2022-04-03Z
-              stars: 31
+              latest_commit_link: /hpxmlwg/hpxml/commit/be76e322fcf18f59737e8731becbef2065d3084d
+              latest_commit_date: '2023-04-13T21:48:24Z'
+              firstWeek: 2022-05-01Z
               license: Unknown License
-              description: Home Performance XML
-              latest_commit_date: '2023-03-13T15:46:13Z'
-              latest_commit_link: /hpxmlwg/hpxml/commit/b8c564b97613b520f018b7955674b04158a5d9ec
-              release_date: '2022-06-29T21:23:38Z'
-              release_link: https://github.com/hpxmlwg/hpxml/releases
-              contributors_count: 13
               contributors_link: https://github.com/hpxmlwg/hpxml/graphs/contributors
             repos:
               - url: https://github.com/hpxmlwg/hpxml
-                stars: 31
+                stars: 32
             github_start_commit_data:
               start_commit_link: /hpxmlwg/hpxml/commit/75ff4a48bd4ffdde54656e3ee029b778c38c5aaa
               start_date: '2011-08-11T14:39:21Z'
             image_data:
               fileName: hpxml.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: o3S3I2hmfCtXtGtUPvd/fcOSQT3f4lzXDxI9gxgJkLA=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-24T22:00:07.000Z
           - item:
             name: HPXML to Home Energy Score Translator
             logo: HPXML to Home Energy Score Translator.svg
@@ -20329,46 +20405,71 @@ landscape:
             name: BEMServer
             logo: BEMServer.svg
             description: An open source Python server to deploy energy management solutions for buildings.
+            project_org: https://github.com/HIT2GAP-EU-PROJECT
             repo_url: https://github.com/HIT2GAP-EU-PROJECT/bemserver
-            organization:
-              name: HIT2GAP
+            crunchbase: https://www.crunchbase.com/organization/nobatek-inef4
             homepage_url: http://bemserver.org
             crunchbase_data:
-              name: HIT2GAP
+              name: NOBATEK INEF4
+              description: NOBATEK/INEF4 is a private applied research center for energy and environmental transition in the construction industry.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: http://www.nobatek.inef4.com
+              city: Anglet
+              region: Aquitaine
+              country: France
+              twitter: https://twitter.com/NobatekInef4
+              linkedin: https://www.linkedin.com/company/nobatekinef4/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Energy
+                - Environmental Engineering
+                - Non Profit
+                - Renewable Energy
             github_data:
+              description: An energy management platform could help to reduce this energy gap
+              contributors_count: 7
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 44
               languages:
+                - name: HTML
+                  value: 2201778
+                  color: '#e34c26'
                 - name: Python
                   value: 1067198
                   color: '#3572A5'
+                - name: CSS
+                  value: 57595
+                  color: '#563d7c'
                 - name: Shell
                   value: 26563
                   color: '#89e051'
                 - name: Dockerfile
-                  value: 1838
+                  value: 2105
                   color: '#384d54'
                 - name: Mako
                   value: 494
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 38
-              license: Other
-              description: An open source Python server to deploy energy management solutions for buildings
-              latest_commit_date: '2022-10-27T16:05:33Z'
               latest_commit_link: /HIT2GAP-EU-PROJECT/bemserver/commit/64fa996052a1e4ad7887f0acde82a9ae04a4eb0a
-              release_date: '2019-08-21T16:23:01Z'
-              release_link: https://github.com/HIT2GAP-EU-PROJECT/bemserver/releases
-              contributors_count: 8
+              latest_commit_date: '2022-10-27T16:05:33Z'
+              firstWeek: 2022-05-01Z
+              license: Other
               contributors_link: https://github.com/HIT2GAP-EU-PROJECT/bemserver/graphs/contributors
             repos:
               - url: https://github.com/HIT2GAP-EU-PROJECT/bemserver
                 stars: 38
+              - url: https://github.com/HIT2GAP-EU-PROJECT/BEMOnt
+                stars: 6
+              - url: https://github.com/HIT2GAP-EU-PROJECT/Modules-Documentation
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /HIT2GAP-EU-PROJECT/bemserver/commit/7eb45b02397f907ad112194562e75cf1c5ac8089
-              start_date: '2019-07-16T15:31:36Z'
+              start_commit_link: /HIT2GAP-EU-PROJECT/BEMOnt/commit/3e6a1595d5aab837a617f2faa7f85adcc2b32aae
+              start_date: '2017-04-07T09:31:26Z'
             image_data:
               fileName: bem-server.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: XkaJbE7dY2tvXhPSMM+ABzezg9yU2I/beoGElr215FQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -20378,6 +20479,7 @@ landscape:
             description: >-
               Standard Energy Efficiency Data Platform™ is a web-based application that helps organizations easily manage data on the energy performance of
               large groups of buildings.
+            project_org: https://github.com/SEED-platform
             repo_url: https://github.com/SEED-platform/seed
             extra:
               topics: energy,commercial,buildings
@@ -20388,48 +20490,88 @@ landscape:
               name: Standard Energy Efficiency Data Platform™
               parents: []
             github_data:
+              description: Standard data platform for aggregating and managing building energy performance data
+              contributors_count: 52
+              contributions: 44;64;58;39;34;34;58;65;35;43;56;104;62;15;15;5;24;50;29;23;79;18;63;12;12;6;11;2;26;9;16;16;30;54;5;2;5;5;11;9;9;2;25;14;1;0;1;21;9;1;4;5
+              stars: 103
               languages:
                 - name: Python
-                  value: 4363897
+                  value: 5133627
                   color: '#3572A5'
                 - name: JavaScript
-                  value: 1370348
+                  value: 1377069
                   color: '#f1e05a'
                 - name: HTML
-                  value: 633276
+                  value: 638864
                   color: '#e34c26'
+                - name: Java
+                  value: 109083
+                  color: '#b07219'
                 - name: SCSS
-                  value: 98654
+                  value: 101103
+                - name: TypeScript
+                  value: 55674
+                  color: '#2b7489'
                 - name: Shell
-                  value: 30587
+                  value: 34287
                   color: '#89e051'
+                - name: Ruby
+                  value: 26096
+                  color: '#701516'
+                - name: Groovy
+                  value: 10078
+                  color: '#e69f56'
                 - name: Dockerfile
-                  value: 4525
+                  value: 5962
                   color: '#384d54'
                 - name: Mustache
                   value: 3824
-              contributions: 41;11;17;26;44;64;58;39;34;22;57;33;26;33;45;103;54;15;15;5;24;45;29;21;79;18;63;8;11;6;11;2;21;9;15;9;27;53;5;2;4;4;5;8;9;2;10;3;0;0;1;21
-              firstWeek: 2022-04-03Z
-              stars: 95
+                - name: Makefile
+                  value: 848
+                  color: '#427819'
+                - name: CSS
+                  value: 492
+                  color: '#563d7c'
+              latest_commit_link: /SEED-platform/seed/commit/7a2384a1544b7b38edffa4f74a69617772f3d657
+              latest_commit_date: '2023-04-20T14:37:50Z'
+              firstWeek: 2022-05-01Z
               license: Other
-              description: >-
-                Standard Energy Efficiency Data (SEED) Platform™ is a web-based application that helps organizations easily manage data on the energy
-                performance of large groups of buildings.
-              latest_commit_date: '2023-03-26T02:58:02Z'
-              latest_commit_link: /SEED-platform/seed/commit/16ace48ae34e756f6bee732a1e4c8033447fef12
-              release_date: '2023-02-21T21:48:55Z'
-              release_link: https://github.com/SEED-platform/seed/releases
-              contributors_count: 68
               contributors_link: https://github.com/SEED-platform/seed/graphs/contributors
             repos:
               - url: https://github.com/SEED-platform/seed
-                stars: 95
+                stars: 96
+              - url: https://github.com/SEED-platform/py-bes
+                stars: 3
+              - url: https://github.com/SEED-platform/py-seed
+                stars: 2
+              - url: https://github.com/SEED-platform/seed-mcm
+                stars: 1
+              - url: https://github.com/SEED-platform/seed-superperms
+                stars: 1
+              - url: https://github.com/SEED-platform/django-tos
+                stars: 0
+              - url: https://github.com/SEED-platform/ruby-client
+                stars: 0
+              - url: https://github.com/SEED-platform/OEP
+                stars: 0
+              - url: https://github.com/SEED-platform/buildingid
+                stars: 0
+              - url: https://github.com/SEED-platform/website
+                stars: 0
+              - url: https://github.com/SEED-platform/seedling
+                stars: 0
+              - url: https://github.com/SEED-platform/jwt-oauth2
+                stars: 0
+              - url: https://github.com/SEED-platform/seed-salesforce
+                stars: 0
+              - url: https://github.com/SEED-platform/pyseed-examples
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /SEED-platform/seed/commit/572871b9b39beb4cb69b3681983d727e5140cfee
-              start_date: '2014-10-20T04:27:18Z'
+              start_commit_link: /SEED-platform/django-tos/commit/b166a446906a04a7b562cd45219bcfa829a193e0
+              start_date: '2010-06-18T16:17:07Z'
             image_data:
               fileName: seed.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1Cg1LyMO7x8uZJWYdDmGyNv1coWjwDkmZR9inQApdgc=
             best_practice_data:
               badge: false
               percentage: null
@@ -20438,12 +20580,28 @@ landscape:
             logo: HPWHsim.svg
             description: An open source simulation model for Heat Pump Water Heaters (HPWH).
             repo_url: https://github.com/EcotopeResearch/HPWHsim
-            organization:
-              name: Ecotope, Inc.
+            crunchbase: https://www.crunchbase.com/organization/ecotope
             homepage_url: https://github.com/EcotopeResearch/HPWHsim
             crunchbase_data:
-              name: Ecotope, Inc.
+              name: Ecotope
+              description: Ecotope is a consulting, research, and mechanical engineering firm that focuses on energy efficiency and design in buildings.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://ecotope.com
+              city: Seattle
+              region: Washington
+              country: United States
+              twitter: https://twitter.com/designforoff
+              linkedin: https://www.linkedin.com/company/ecotope-inc.
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Energy
+                - Energy Management
+                - Mechanical Engineering
             github_data:
               languages:
                 - name: C++
@@ -20470,7 +20628,7 @@ landscape:
               start_date: '2015-12-04T01:20:56Z'
             image_data:
               fileName: hpw-hsim.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: zveZYwIA0VBcQCs9/1fN6P6LCmQWevuGytJZbBcK4DU=
             best_practice_data:
               badge: false
               percentage: null
@@ -20823,12 +20981,26 @@ landscape:
             logo: IDEAS.svg
             description: A Modelica model library for integrated building or district energy simulations.
             repo_url: https://github.com/open-ideas/IDEAS
-            organization:
-              name: OpenIDEAS
+            crunchbase: https://www.crunchbase.com/organization/university-of-leuven
             homepage_url: https://github.com/open-ideas/IDEAS
             crunchbase_data:
-              name: OpenIDEAS
+              name: University of Leuven
+              description: Founded in 1425, the multidisciplinary and research-driven University of Leuven has been a centre of learning for almost six centuries.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.kuleuven.be/english
+              city: Leuven
+              region: Vlaams-Brabant
+              country: Belgium
+              twitter: https://twitter.com/LeuvenU
+              linkedin: https://www.linkedin.com/company/ku_leuven
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Universities
             github_data:
               languages:
                 - name: Modelica
@@ -20887,7 +21059,7 @@ landscape:
               start_date: '2011-12-08T14:16:22Z'
             image_data:
               fileName: ideas.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: FE8v/vBe20o/jmb/9QXZstAJBSPvSbJVS7dtX94/5h4=
             best_practice_data:
               badge: false
               percentage: null
@@ -21177,19 +21349,33 @@ landscape:
               latest_tweet_date: 2023-03-10T19:35:53.000Z
           - item:
             name: StROBe
-            logo: StROBe.svg
+            logo: strobe.svg
             description: >-
               An open web tool developed at the KU Leuven Building Physics Section to model the pervasive space for residential integrated district energy
               assessment simulations in the openIDEAS modeling environment.
             repo_url: https://github.com/open-ideas/StROBe
-            organization:
-              name: OpenIDEAS
+            crunchbase: https://www.crunchbase.com/organization/university-of-leuven
             homepage_url: https://github.com/open-ideas/StROBe
             extra:
               refs: ',https://doi.org/10.1080/19401493.2015.1070203\n2'
             crunchbase_data:
-              name: OpenIDEAS
+              name: University of Leuven
+              description: Founded in 1425, the multidisciplinary and research-driven University of Leuven has been a centre of learning for almost six centuries.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.kuleuven.be/english
+              city: Leuven
+              region: Vlaams-Brabant
+              country: Belgium
+              twitter: https://twitter.com/LeuvenU
+              linkedin: https://www.linkedin.com/company/ku_leuven
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Universities
             github_data:
               languages:
                 - name: Python
@@ -21212,7 +21398,7 @@ landscape:
               start_date: '2013-10-01T12:45:56Z'
             image_data:
               fileName: st-ro-be.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: UEWenblNLbYgO/LRSwqyAqgHCgVpV+wXTwgaz7gH5eI=
             best_practice_data:
               badge: false
               percentage: null
@@ -21316,68 +21502,252 @@ landscape:
             name: Hotmaps
             logo: Hotmaps.svg
             description: The open source mapping and planning tool for heating and cooling.
+            project_org: https://github.com/HotMaps
             repo_url: https://github.com/HotMaps/Hotmaps-toolbox-service
-            unnamed_organization: true
-            homepage_url: https://github.com/HotMaps/Hotmaps-toolbox-service
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            crunchbase: https://www.crunchbase.com/organization/horizon-2020
+            homepage_url: https://www.hotmaps-project.eu/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
-              parents: []
+              name: Horizon 2020
+              description: Horizon 2020 is the biggest EU Research and Innovation program supporting University of Coimbra Olimpiada Economia
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://ec.europa.eu/programmes/horizon2020/
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              twitter: https://twitter.com/eu_h2020
+              linkedin: null
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/european-commission
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Business Development
+                - Government
+                - Information Technology
             github_data:
-              languages:
-                - name: Python
-                  value: 894172
-                  color: '#3572A5'
-                - name: Dockerfile
-                  value: 3602
-                  color: '#384d54'
-                - name: Shell
-                  value: 2355
-                  color: '#89e051'
+              description: Hotmaps project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 723677.
+              contributors_count: 221
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 4
-              license: Apache License 2.0
-              description: null
-              latest_commit_date: '2020-10-20T12:49:22Z'
+              stars: 27
+              languages:
+                - name: C
+                  value: 16888767
+                  color: '#555555'
+                - name: Python
+                  value: 14080955
+                  color: '#3572A5'
+                - name: HTML
+                  value: 3386261
+                  color: '#e34c26'
+                - name: C++
+                  value: 1849561
+                  color: '#f34b7d'
+                - name: TypeScript
+                  value: 1033601
+                  color: '#2b7489'
+                - name: CSS
+                  value: 782757
+                  color: '#563d7c'
+                - name: Shell
+                  value: 477601
+                  color: '#89e051'
+                - name: JavaScript
+                  value: 325606
+                  color: '#f1e05a'
+                - name: Makefile
+                  value: 245462
+                  color: '#427819'
+                - name: Ruby
+                  value: 200581
+                  color: '#701516'
+                - name: Objective-C
+                  value: 146776
+                  color: '#438eff'
+                - name: TeX
+                  value: 128040
+                  color: '#3D6117'
+                - name: Rich Text Format
+                  value: 78328
+                - name: PostScript
+                  value: 40348
+                  color: '#da291c'
+                - name: Dockerfile
+                  value: 27593
+                  color: '#384d54'
+                - name: TSQL
+                  value: 20586
+                - name: Batchfile
+                  value: 17433
+                  color: '#C1F12E'
+                - name: Yacc
+                  value: 13771
+                  color: '#4B6C4B'
+                - name: Perl
+                  value: 11857
+                  color: '#0298c3'
+                - name: Lex
+                  value: 11290
+                  color: '#DBCA00'
+                - name: SCSS
+                  value: 10116
+                - name: Roff
+                  value: 6628
+                  color: '#ecdebe'
+                - name: Less
+                  value: 3253
+                - name: PLpgSQL
+                  value: 3053
+                - name: AppleScript
+                  value: 1912
+                  color: '#101F1F'
+                - name: POV-Ray SDL
+                  value: 1724
+                - name: Mako
+                  value: 1637
+                - name: PLSQL
+                  value: 1472
+                  color: '#dad8d8'
+                - name: sed
+                  value: 553
+                  color: '#64b970'
+                - name: AGS Script
+                  value: 478
+                  color: '#B9D9FF'
               latest_commit_link: /HotMaps/Hotmaps-toolbox-service/commit/ba1e287dbc63e34bf9feb80b65b02c1db93ce91c
-              contributors_count: 19
+              latest_commit_date: '2020-10-20T12:49:22Z'
+              firstWeek: 2022-05-01Z
+              license: Apache License 2.0
               contributors_link: https://github.com/HotMaps/Hotmaps-toolbox-service/graphs/contributors
             repos:
               - url: https://github.com/HotMaps/Hotmaps-toolbox-service
                 stars: 4
+              - url: https://github.com/HotMaps/Hotmaps-toolbox-client
+                stars: 7
+              - url: https://github.com/HotMaps/Hotmaps-Waste-heat-application
+                stars: 2
+              - url: https://github.com/HotMaps/CI_DatasetIntegration
+                stars: 2
+              - url: https://github.com/HotMaps/solar_potential
+                stars: 2
+              - url: https://github.com/HotMaps/gchp_potential
+                stars: 2
+              - url: https://github.com/HotMaps/Hotmaps-res-potential
+                stars: 1
+              - url: https://github.com/HotMaps/Hotmaps-building_h-c
+                stars: 1
+              - url: https://github.com/HotMaps/Hotmaps-building_h-c_default_EU28
+                stars: 1
+              - url: https://github.com/HotMaps/Hotmaps-GRASS-rest
+                stars: 1
+              - url: https://github.com/HotMaps/api-template
+                stars: 1
+              - url: https://github.com/HotMaps/dh_potential
+                stars: 1
+              - url: https://github.com/HotMaps/hotmaps_wiki
+                stars: 1
+              - url: https://github.com/HotMaps/load_profile_cm
+                stars: 1
+              - url: https://github.com/HotMaps/datapackage-validation
+                stars: 0
+              - url: https://github.com/HotMaps/base_calculation_module
+                stars: 0
+              - url: https://github.com/HotMaps/CM_DH_Test_CREM
+                stars: 0
+              - url: https://github.com/HotMaps/dh_grid
+                stars: 0
+              - url: https://github.com/HotMaps/test_repo
+                stars: 0
+              - url: https://github.com/HotMaps/lcoh
+                stars: 0
+              - url: https://github.com/HotMaps/dispatch_module
+                stars: 0
+              - url: https://github.com/HotMaps/renovation_scenarios
+                stars: 0
+              - url: https://github.com/HotMaps/excess_heat_cm
+                stars: 0
+              - url: https://github.com/HotMaps/wind_potential
+                stars: 0
+              - url: https://github.com/HotMaps/renovation_effect
+                stars: 0
+              - url: https://github.com/HotMaps/dh_economic_assessment
+                stars: 0
+              - url: https://github.com/HotMaps/reslib
+                stars: 0
+              - url: https://github.com/HotMaps/resutils
+                stars: 0
+              - url: https://github.com/HotMaps/decentral_heating_city
+                stars: 0
+              - url: https://github.com/HotMaps/add_industry_plant_cm
+                stars: 0
+              - url: https://github.com/HotMaps/biomass_potential
+                stars: 0
+              - url: https://github.com/HotMaps/grass
+                stars: 0
+              - url: https://github.com/HotMaps/wiki
+                stars: 0
+              - url: https://github.com/HotMaps/customized_h_fa_dm
+                stars: 0
+              - url: https://github.com/HotMaps/omnigollum
+                stars: 0
+              - url: https://github.com/HotMaps/gollum
+                stars: 0
+              - url: https://github.com/HotMaps/vehicle_stock
+                stars: 0
+              - url: https://github.com/HotMaps/scenario_assessment
+                stars: 0
+              - url: https://github.com/HotMaps/gollum-1
+                stars: 0
+              - url: https://github.com/HotMaps/postgis-database
+                stars: 0
+              - url: https://github.com/HotMaps/how-to-start-a-CM
+                stars: 0
+              - url: https://github.com/HotMaps/heatsource_potential
+                stars: 0
+              - url: https://github.com/HotMaps/training_materials
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /HotMaps/Hotmaps-toolbox-service/commit/1ad4c502e527839c74ceeda8254a6437309482b4
-              start_date: '2017-07-05T13:28:15Z'
+              start_commit_link: /HotMaps/grass/commit/db49180dd772ddb7643b633d57ad00c58914a519
+              start_date: '2008-04-27T12:33:26Z'
             image_data:
               fileName: hotmaps.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: YV8hu+RfZBYURROdIogmVf3pm+GL0senPidqXtQuYxM=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: BuildSysPro
             logo: BuildSysPro.svg
             description: EDF's Modelica library for buildings, districts and energy systems modeling.
             repo_url: https://github.com/EDF-Lab/BuildSysPro
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/edf-energy
             homepage_url: https://github.com/EDF-Lab/BuildSysPro
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
-              parents: []
+              name: EDF Energy
+              description: EDF Energy is a producer of low-carbon electricity that has 35 wind farms – including two off-shore.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.edfenergy.com
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: http://twitter.com/edfenergy
+              linkedin: https://www.linkedin.com/company/edf-energy
+              acquisitions:
+                - date: '2018-05-17'
+                  acquiree: Oreka Solutions
+              parents:
+                - https://www.crunchbase.com/organization/edf
+              ticker: EDF.PA
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Electrical Distribution
+                - Energy
+                - Renewable Energy
+                - Solar
+              kind: market_cap
             github_data:
               languages:
                 - name: Modelica
@@ -21431,14 +21801,15 @@ landscape:
             github_start_commit_data:
               start_commit_link: /EDF-Lab/BuildSysPro/commit/2de3a7964959c94bdcb1588882c2e53d79f3fdaa
               start_date: '2016-01-29T12:43:53Z'
+            yahoo_finance_data:
+              market_cap: 52599168317
+              effective_ticker: EDF.PA
             image_data:
               fileName: build-sys-pro.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: RaL8vxg4Be//v0JYetQ9ib2xLy0OM4zJsFv2z2pPM18=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: MPCPy
             logo: MPCPy.svg
@@ -21575,18 +21946,34 @@ landscape:
             twitter_data:
               latest_tweet_date: 2023-03-10T19:35:53.000Z
           - item:
-            name: The Application Domain Extension
+            name: CityGML Energy ADE
             logo: The Application Domain Extension.svg
             description: >-
               Defines a standardized data model based on CityGML format for urban energy analyses, aiming to be a reference exchange data format between
               different urban modeling tools and expert databases.
             repo_url: https://github.com/cstb/citygml-energy
-            organization:
-              name: CSTB
+            crunchbase: https://www.crunchbase.com/organization/cstb
             homepage_url: https://github.com/cstb/citygml-energy
             crunchbase_data:
               name: CSTB
+              description: CSTB provides engineering consulting and quality assessment services for sustainable building construction projects.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.cstb.fr/fr/
+              city: Champs-sur-marne
+              region: Ile-de-France
+              country: France
+              twitter: https://twitter.com/cstb_fr
+              linkedin: https://www.linkedin.com/company/cstb/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Civil Engineering
+                - Construction
+                - Professional Services
+                - Test and Measurement
             github_data:
               languages:
                 - name: Python
@@ -21610,8 +21997,8 @@ landscape:
               start_commit_link: /cstb/citygml-energy/commit/0cc51c23da8e898c1dc4fb2342467c41ad7545ce
               start_date: '2015-01-13T21:55:47Z'
             image_data:
-              fileName: the-application-domain-extension.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: city-gml-energy-ade.svg
+              hash: YcdtTq2xX3wZxXaxldsZs8HDfbpJlNlud6PIa407VOc=
             best_practice_data:
               badge: false
               percentage: null
@@ -21620,17 +22007,25 @@ landscape:
             logo: PLANHEAT Tool.svg
             description: A QGIS plug-in based on an open source code, whose goal is to analyze, plan and simulate low carbon Heating & Cooling scenarios.
             repo_url: https://github.com/Planheat/Planheat-Tool
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://github.com/Planheat/Planheat-Tool
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: European Commission
+              description: The European Commission is an institution of the European Union, responsible for proposing legislation and implementing decisions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://ec.europa.eu/commission/index_en
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              twitter: https://twitter.com/EU_commission
+              linkedin: https://www.linkedin.com/company/european-commission/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Government
             github_data:
               languages:
                 - name: Python
@@ -21678,12 +22073,12 @@ landscape:
               start_date: '2019-11-15T15:53:10Z'
             image_data:
               fileName: planheat-tool.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: v+sb+HDldVajstBi7RjHzxJU48iLvVvXu7zP81TCRYI=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T14:05:12.000Z
           - item:
             name: Energy Signature Analyser
             logo: Energy Signature Analyser.svg
@@ -21728,12 +22123,25 @@ landscape:
             repo_url: https://github.com/UdK-VPT/BuildingSystems
             extra:
               topics: modelica,building,energy,simulation
-            organization:
-              name: UdK-VPT
+            crunchbase: https://www.crunchbase.com/organization/berlin-university-of-the-arts
             homepage_url: http://modelica-buildingsystems.de/
             crunchbase_data:
-              name: UdK-VPT
+              name: Berlin University of the Arts
+              description: Berlin University of the Arts is a school.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.udk-berlin.de
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://www.twitter.com/udkberlinsummer
+              linkedin: https://www.linkedin.com/school/5373744
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Art
             github_data:
               languages:
                 - name: Modelica
@@ -21787,7 +22195,7 @@ landscape:
               start_date: '2015-11-09T09:50:59Z'
             image_data:
               fileName: building-systems.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: GDkCLtWG5OxnWFUvVo+tEm9GOF01Bh5C6vCki+J8p6U=
             best_practice_data:
               badge: false
               percentage: null
@@ -21966,61 +22374,150 @@ landscape:
             name: teb
             logo: teb.svg
             description: A library to calculate the urban surface energy balance at neighborhood scale assuming a simplified canyon geometry.
+            project_org: https://github.com/TEB-model
             repo_url: https://github.com/TEB-model/teb
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/capitoul-informatique
             homepage_url: https://github.com/TEB-model/teb
             extra:
               refs: >-
                 ,https://doi.org/10.21105/joss.02008,https://doi.org/10.5281/zenodo.3887080,https://doi.org/10.1029/2019MS001961,https://doi.org/10.1007/s00703-008-0289-4,https://doi.org/10.1023/A:1002463829265,https://doi.org/10.21105/joss.02008,https://doi.org/10.5281/zenodo.3887080,https://doi.org/10.1023/A:1002463829265.\n\n,https://doi.org/10.21105/joss.02008.\n\n*please,https://doi.org/10.5281/zenodo.3887080
               topics: >-
                 energy-balance-model,urban-meteorology,land-surface-model,meteorology,building-energy,energy-model,energy-consumption,energy-simulation,urban-planning,atmospheric-modelling,environmental-modelling,cmake,teb,town-energy-balance,urban-energy-budget,forecasting-model
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: CAPITOUL INFORMATIQUE
+              description: CAPITOUL INFORMATIQUE provides services in the field of IT and multimedia.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://www.ci-info.fr
+              city: Cadours
+              region: Midi-Pyrenees
+              country: France
+              twitter: null
+              linkedin: https://www.linkedin.com/company/capitoul-informatique/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Computer
+                - Information Technology
+                - Internet
+                - TV
             github_data:
+              description: Town Energy Balance (TEB) model
+              contributors_count: 90
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 22
               languages:
                 - name: Fortran
-                  value: 1610520
+                  value: 66097481
                   color: '#4d41b1'
+                - name: Roff
+                  value: 28021466
+                  color: '#ecdebe'
+                - name: C++
+                  value: 5687040
+                  color: '#f34b7d'
+                - name: C
+                  value: 1858684
+                  color: '#555555'
+                - name: NASL
+                  value: 702217
+                - name: Shell
+                  value: 674739
+                  color: '#89e051'
+                - name: Pawn
+                  value: 246124
+                  color: '#dbb284'
+                - name: Makefile
+                  value: 207177
+                  color: '#427819'
+                - name: Assembly
+                  value: 138494
+                  color: '#6E4C13'
+                - name: Pascal
+                  value: 115120
+                  color: '#E3F171'
+                - name: PLSQL
+                  value: 97841
+                  color: '#dad8d8'
+                - name: NCL
+                  value: 93755
+                  color: '#28431f'
+                - name: CMake
+                  value: 64835
+                - name: Perl
+                  value: 51726
+                  color: '#0298c3'
+                - name: HTML
+                  value: 41795
+                  color: '#e34c26'
+                - name: Yacc
+                  value: 40074
+                  color: '#4B6C4B'
+                - name: Lex
+                  value: 34846
+                  color: '#DBCA00'
+                - name: M4
+                  value: 31657
+                - name: TeX
+                  value: 20673
+                  color: '#3D6117'
                 - name: Python
                   value: 18193
                   color: '#3572A5'
-                - name: TeX
-                  value: 15548
-                  color: '#3D6117'
-                - name: CMake
-                  value: 2932
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 19
-              license: Unknown License
-              description: 🏘️ The Town Energy Balance (TEB) model software and platform
-              latest_commit_date: '2021-12-13T10:03:17Z'
+                - name: MATLAB
+                  value: 11669
+                  color: '#e16737'
+                - name: Forth
+                  value: 11604
+                  color: '#341708'
+                - name: Emacs Lisp
+                  value: 5139
+                  color: '#c065db'
+                - name: EmberScript
+                  value: 4549
+                  color: '#FFF4F3'
+                - name: Batchfile
+                  value: 3062
+                  color: '#C1F12E'
+                - name: PHP
+                  value: 2593
+                  color: '#4F5D95'
+                - name: PowerShell
+                  value: 2075
+                  color: '#012456'
+                - name: sed
+                  value: 1672
+                  color: '#64b970'
+                - name: SourcePawn
+                  value: 521
+                  color: '#5c7611'
+                - name: NewLisp
+                  value: 102
+                  color: '#87AED7'
+                - name: Ruby
+                  value: 98
+                  color: '#701516'
               latest_commit_link: /TEB-model/teb/commit/b685f5f322d2ec55e4d9f8d72716d32f0b5200e9
-              release_date: '2021-12-13T10:08:38Z'
-              release_link: https://github.com/TEB-model/teb/releases
-              contributors_count: 2
+              latest_commit_date: '2021-12-13T10:03:17Z'
+              firstWeek: 2022-05-01Z
+              license: Unknown License
               contributors_link: https://github.com/TEB-model/teb/graphs/contributors
             repos:
               - url: https://github.com/TEB-model/teb
                 stars: 19
+              - url: https://github.com/TEB-model/wrf-teb
+                stars: 3
             github_start_commit_data:
-              start_commit_link: /TEB-model/teb/commit/76afbc5868b3fcd9777454863413d72d393b134a
-              start_date: '2019-04-14T10:46:30Z'
+              start_commit_link: /TEB-model/wrf-teb/commit/363334074df7361ee3a669297bb98a27cc910248
+              start_date: '2006-03-20T16:16:40Z'
             image_data:
               fileName: teb.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: zhOqdMAheCdQ24V57bMaEetATgsXabpcPvHTl2CLiso=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: tsib
             logo: tsib.svg
@@ -22228,19 +22725,29 @@ landscape:
             logo: pythermalcomfort.svg
             description: Package to calculate several thermal comfort indices (e.g. PMV, PPD, SET, adaptive) and convert physical variables.
             repo_url: https://github.com/CenterForTheBuiltEnvironment/pythermalcomfort
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/center-for-the-built-environment
             homepage_url: https://pythermalcomfort.readthedocs.io/en/latest/
             extra:
               refs: ',https://doi.org/10.1016/j.softx.2020.100578'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: The Center for the Built Environment
+              description: The Center for the Built Environment is a research facility that studies indoor environmental quality, HVAC systems, and human interactions.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://cbe.berkeley.edu
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: https://twitter.com/cbe_berkeley
+              linkedin: https://www.linkedin.com/company/center-for-the-built-environment-uc-berkeley/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Education
+                - Infrastructure
+                - Non Profit
             github_data:
               languages:
                 - name: Python
@@ -22266,30 +22773,38 @@ landscape:
               start_date: '2020-02-11T01:52:56Z'
             image_data:
               fileName: pythermalcomfort.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 4HwHZ+fKwUD1+jrlhMxxSSrI/PWgmAs95B0Y8Dsp1V8=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
-            name: comfort_tool
+            name: CBE Thermal Comfort Tool
             logo: comfort_tool.svg
             description: A web interface for comfort model calculations and visualizations according to ASHRAE Standard-55, EN Standard 16798 and ISO Standard 7730.
             repo_url: https://github.com/CenterForTheBuiltEnvironment/comfort_tool
             extra:
               topics: comfort,air-temperature,thermal-comfort,pmv-prediction,pmv
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/center-for-the-built-environment
             homepage_url: http://comfort.cbe.berkeley.edu
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: The Center for the Built Environment
+              description: The Center for the Built Environment is a research facility that studies indoor environmental quality, HVAC systems, and human interactions.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://cbe.berkeley.edu
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: https://twitter.com/cbe_berkeley
+              linkedin: https://www.linkedin.com/company/center-for-the-built-environment-uc-berkeley/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Education
+                - Infrastructure
+                - Non Profit
             github_data:
               languages:
                 - name: JavaScript
@@ -22327,13 +22842,11 @@ landscape:
               start_commit_link: /CenterForTheBuiltEnvironment/comfort_tool/commit/f8b95a6bc1f94493d7bf87888a9870d36aa9ff1b
               start_date: '2013-04-23T17:41:59Z'
             image_data:
-              fileName: comfort-tool.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: cbe-thermal-comfort-tool.svg
+              hash: CKNlyTM2KSV/ACn/b2ldiIfaew22jV9yskHKVAKdIEs=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: resstock
             logo: resstock.svg
@@ -22409,6 +22922,7 @@ landscape:
             name: DSMR-reader
             logo: DSMR-reader.svg
             description: Used for reading the smart meter DSMR (Dutch Smart Meter Requirements) P1 port yourself at your home.
+            project_org: https://github.com/dsmrreader
             repo_url: https://github.com/dsmrreader/dsmr-reader
             extra:
               topics: raspberry-pi,non-commercial,dsmr5,dsmr4,dsmrp1,dsmr-reader,telegram-data-storage,energy-consumption-visualizer
@@ -22419,6 +22933,10 @@ landscape:
               name: DSMR-reader
               parents: []
             github_data:
+              description: Open-source, non-commercial reader for (Dutch) smart meters supporting the DSMR protocol.
+              contributors_count: 29
+              contributions: 3;0;0;12;18;0;30;5;0;1;23;13;7;13;17;1;0;3;0;0;0;6;19;0;0;0;0;0;0;5;14;21;5;1;7;6;10;6;6;21;6;0;0;0;0;0;0;0;0;0;0;0
+              stars: 437
               languages:
                 - name: Python
                   value: 1462476
@@ -22435,26 +22953,20 @@ landscape:
                 - name: Shell
                   value: 60887
                   color: '#89e051'
-              contributions: 5;4;0;4;3;0;0;12;18;0;30;5;0;1;23;13;7;13;17;1;0;3;0;0;0;6;19;0;0;0;0;0;0;5;14;21;5;1;7;6;10;6;6;21;6;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 433
-              license: Other
-              description: DSMR-telegram reader & data visualizer for hobbyists. Free for non-commercial use.
-              latest_commit_date: '2023-02-02T06:39:12Z'
               latest_commit_link: /dsmrreader/dsmr-reader/commit/a11ad666e9823ec532992f9ee66a93ea2bdaf321
-              release_date: '2023-02-01T21:21:07Z'
-              release_link: https://github.com/dsmrreader/dsmr-reader/releases
-              contributors_count: 31
+              latest_commit_date: '2023-02-02T06:39:12Z'
+              firstWeek: 2022-05-01Z
+              license: Other
               contributors_link: https://github.com/dsmrreader/dsmr-reader/graphs/contributors
             repos:
               - url: https://github.com/dsmrreader/dsmr-reader
-                stars: 433
+                stars: 437
             github_start_commit_data:
               start_commit_link: /dsmrreader/dsmr-reader/commit/8406a48aa0615d6b3c0b8d031cf2b55e7aac7598
               start_date: '2015-10-29T21:40:48Z'
             image_data:
               fileName: dsmr-reader.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: XLoGEMLyyTAkN4+D5SPvp9rnYhkIfKuvAYlMYorql6g=
             best_practice_data:
               badge: false
               percentage: null
@@ -22541,20 +23053,28 @@ landscape:
               Provides a rich toolkit of using whole building energy simulation program EnergyPlus directly in R, which enables programmatic navigation,
               modification of EnergyPlus, conducts parametric simulations and retrieves outputs.
             repo_url: https://github.com/hongyuanjia/eplusr
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/chongqing-science-and-technology-career-academy
             homepage_url: https://hongyuanjia.github.io/eplusr
             extra:
               refs: ',https://doi.org/10.1016/j.enbuild.2021.110757\n#'
               topics: energyplus,r,idf,idd,eplus,r6,parametric-simulation,epw,energyplus-models,simulation,energy-simulation
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
+              name: Chongqing Science And Technology Career Academy
+              description: Chongqing Science And Technology Career Academy is an educational institution.
+              num_employees_min: null
+              num_employees_max: null
               homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              city: Chongqing Shi
+              region: Chongqing
+              country: China
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
             github_data:
               languages:
                 - name: R
@@ -22585,12 +23105,10 @@ landscape:
               start_date: '2017-04-26T15:12:20Z'
             image_data:
               fileName: eplusr.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Wa8j2jT8CgBcepv20Dzs9pjp1oGqyBKlWMMiT8w5jxA=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Brick
             logo: Brick.svg
@@ -22745,49 +23263,82 @@ landscape:
             description: >-
               Non-Intrusive Load Monitoring is the process of estimating the energy consumed by individual appliances given just a whole-house power meter
               reading.
+            project_org: https://github.com/nilmtk
             repo_url: https://github.com/nilmtk/nilmtk
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/indian-institute-of-technology-gandhinagar
             homepage_url: http://nilmtk.github.io
             extra:
               refs: ',https://doi.org/10.1145/3360322.3360844'
               topics: disaggregation,python,nilm,energy,forecasting,algorithms,ipython-notebook,energy-disaggregation,nilmtk,nilm-algorithms
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Indian Institute of Technology Gandhinagar
+              description: Indian Institute of Technology Gandhinagar, located in Ahmedabad, Gujarat
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.iitgn.ac.in
+              city: Gandhinagar
+              region: Gujarat
+              country: India
+              twitter: https://www.twitter.com/iitgn
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Higher Education
+                - Information Technology
             github_data:
+              description: null
+              contributors_count: 32
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 878
               languages:
-                - name: Python
-                  value: 641879
-                  color: '#3572A5'
+                - name: HTML
+                  value: 3920878
+                  color: '#e34c26'
                 - name: Jupyter Notebook
-                  value: 56819
+                  value: 3034235
                   color: '#DA5B0B'
+                - name: Python
+                  value: 835281
+                  color: '#3572A5'
+                - name: CSS
+                  value: 110728
+                  color: '#563d7c'
+                - name: JavaScript
+                  value: 99568
+                  color: '#f1e05a'
                 - name: Shell
-                  value: 1220
+                  value: 2522
                   color: '#89e051'
+                - name: TeX
+                  value: 671
+                  color: '#3D6117'
                 - name: Batchfile
-                  value: 106
+                  value: 318
                   color: '#C1F12E'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 717
-              license: Apache License 2.0
-              description: Non-Intrusive Load Monitoring Toolkit (nilmtk)
-              latest_commit_date: '2022-08-11T12:37:49Z'
               latest_commit_link: /nilmtk/nilmtk/commit/dde510b7b2299958597a6b3885230844c1b7e9da
-              release_date: '2020-08-27T01:27:47Z'
-              release_link: https://github.com/nilmtk/nilmtk/releases
-              contributors_count: 50
+              latest_commit_date: '2022-08-11T12:37:49Z'
+              firstWeek: 2022-05-01Z
+              license: Apache License 2.0
               contributors_link: https://github.com/nilmtk/nilmtk/graphs/contributors
             repos:
               - url: https://github.com/nilmtk/nilmtk
-                stars: 717
+                stars: 723
+              - url: https://github.com/nilmtk/nilmtk-contrib
+                stars: 93
+              - url: https://github.com/nilmtk/nilm_metadata
+                stars: 40
+              - url: https://github.com/nilmtk/buildsys2019-paper-notebooks
+                stars: 18
+              - url: https://github.com/nilmtk/writing
+                stars: 2
+              - url: https://github.com/nilmtk/nilmtk.github.io
+                stars: 1
+              - url: https://github.com/nilmtk/real-data-test
+                stars: 1
             github_start_commit_data:
               start_commit_link: /nilmtk/nilmtk/commit/06c6908be96477fda77e6557794aa35782a7e29f
               start_date: '2013-12-03T11:39:12Z'
@@ -22797,8 +23348,6 @@ landscape:
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: volkszaehler.org
             logo: volkszaehler.org.svg
@@ -22992,15 +23541,31 @@ landscape:
             logo: hplib.svg
             description: Database with efficiency parameters from public Heatpump Keymark datasets as well as parameter-sets and functions in order to simulate heat pumps.
             repo_url: https://github.com/RE-Lab-Projects/hplib
-            organization:
-              name: RE-Lab-Projects
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://github.com/RE-Lab-Projects/hplib
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5521597,https://doi.org/10.5281/zenodo.5521597\n\n##'
               topics: energy,simulation,heatpump
             crunchbase_data:
-              name: RE-Lab-Projects
+              name: Forschungszentrum Julich
+              description: Forschungszentrum Jülich provides research services in Germany and internationally.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://www.fz-juelich.de/portal/DE/Home/home_node.html
+              city: Germany
+              region: Georgia
+              country: United States
+              twitter: https://twitter.com/fz_juelich
+              linkedin: https://www.linkedin.com/company/49116?trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1425916028042%2Ctas%3AForschungszentrum+J%C3%BClich+
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Energy
+                - Energy Management
+                - Information Services
+                - Information Technology
             github_data:
               languages:
                 - name: Python
@@ -23030,10 +23595,12 @@ landscape:
               start_date: '2021-04-06T08:55:40Z'
             image_data:
               fileName: hplib.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: BYCiU3a3FVajcJft8XEEuYeNwZggvmKzisZrRteKV/A=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-03-31T08:40:41.000Z
           - item:
             name: Thermofeel
             logo: Thermofeel.svg
@@ -23097,17 +23664,27 @@ landscape:
             repo_url: https://github.com/CenterForTheBuiltEnvironment/clima
             extra:
               topics: clima,epw,epw-files,climate-analysis,building-design,python
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/center-for-the-built-environment
             homepage_url: https://clima.cbe.berkeley.edu
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: The Center for the Built Environment
+              description: The Center for the Built Environment is a research facility that studies indoor environmental quality, HVAC systems, and human interactions.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://cbe.berkeley.edu
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: https://twitter.com/cbe_berkeley
+              linkedin: https://www.linkedin.com/company/center-for-the-built-environment-uc-berkeley/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Education
+                - Infrastructure
+                - Non Profit
             github_data:
               languages:
                 - name: Python
@@ -23140,12 +23717,10 @@ landscape:
               start_date: '2020-10-18T19:45:10Z'
             image_data:
               fileName: cbe-clima-tool.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ceN7iGl392XQucg1rT5nSwDHZisXpm+BqIjBN175Nqs=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Kiva
             logo: Kiva.svg
@@ -23239,26 +23814,92 @@ landscape:
             name: Urban Multi-scale Environmental Predictor
             logo: Urban Multi-scale Environmental Predictor.svg
             description: A climate service tool, designed for researchers and service providers presented as a plugin for QGIS.
-            repo_url: null
-            unnamed_organization: true
+            project_org: https://github.com/UMEP-dev
+            repo_url: https://github.com/UMEP-dev/UMEP
+            organization:
+              name: UMEP
             homepage_url: https://umep-docs.readthedocs.io/en/latest/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: UMEP
               parents: []
+            github_data:
+              description: null
+              contributors_count: 23
+              contributions: 2;3;8;4;21;1;10;6;9;27;3;10;24;13;16;23;13;45;51;66;87;23;0;0;4;1;4;0;5;0;1;0;0;0;1;0;0;2;0;25;12;19;51;66;31;19;8;5;65;41;26;39
+              stars: 73
+              languages:
+                - name: Python
+                  value: 6149905
+                  color: '#3572A5'
+                - name: Jupyter Notebook
+                  value: 2642258
+                  color: '#DA5B0B'
+                - name: Fortran
+                  value: 2331302
+                  color: '#4d41b1'
+                - name: JavaScript
+                  value: 177725
+                  color: '#f1e05a'
+                - name: QML
+                  value: 116309
+                  color: '#44a51c'
+                - name: Makefile
+                  value: 66831
+                  color: '#427819'
+                - name: TeX
+                  value: 53075
+                  color: '#3D6117'
+                - name: CSS
+                  value: 43407
+                  color: '#563d7c'
+                - name: HTML
+                  value: 20317
+                  color: '#e34c26'
+                - name: C
+                  value: 19941
+                  color: '#555555'
+                - name: Shell
+                  value: 18705
+                  color: '#89e051'
+                - name: Batchfile
+                  value: 13177
+                  color: '#C1F12E'
+                - name: MATLAB
+                  value: 12999
+                  color: '#e16737'
+                - name: GAP
+                  value: 11327
+              latest_commit_link: /UMEP-dev/UMEP/commit/45a4f691de08495033167009c1f463bdeb16e83a
+              latest_commit_date: '2023-04-24T13:59:22Z'
+              firstWeek: 2022-05-01Z
+              license: Unknown License
+              contributors_link: https://github.com/UMEP-dev/UMEP/graphs/contributors
+            repos:
+              - url: https://github.com/UMEP-dev/UMEP
+                stars: 44
+              - url: https://github.com/UMEP-dev/SuPy
+                stars: 11
+              - url: https://github.com/UMEP-dev/SUEWS
+                stars: 8
+              - url: https://github.com/UMEP-dev/UMEP-processing
+                stars: 5
+              - url: https://github.com/UMEP-dev/UMEP-Tutorials
+                stars: 3
+              - url: https://github.com/UMEP-dev/UMEP-Docs
+                stars: 2
+              - url: https://github.com/UMEP-dev/UMEP-Workshop
+                stars: 0
+              - url: https://github.com/UMEP-dev/umep-reqs
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /UMEP-dev/SUEWS/commit/c0d573efc0730a94aba36e8bb52f72b9da767c78
+              start_date: '2014-04-06T15:49:25Z'
             image_data:
               fileName: urban-multi-scale-environmental-predictor.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: YoBpE0K+RDDg51pTt6sSaCvqdwY5zdhI6jafGVSuCNU=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Urban Weather Generator
             logo: Urban Weather Generator.svg
@@ -23725,7 +24366,7 @@ landscape:
               start_date: '2016-10-28T19:09:21Z'
             image_data:
               fileName: coop-cycle.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: BMQ1U7Gn2e7Iu1Twxkh5t9g2Ei05XE7qgDh9NXE9Fog=
             best_practice_data:
               badge: false
               percentage: null
@@ -26352,16 +26993,11 @@ landscape:
               Provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of classes and
               methods to access this sort of information.
             repo_url: https://github.com/eskerda/pybikes
-            unnamed_organization: true
+            organization:
+              name: eskerda
             homepage_url: https://citybik.es
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: eskerda
               parents: []
             github_data:
               languages:
@@ -26388,12 +27024,10 @@ landscape:
               start_date: '2010-07-16T10:11:30Z'
             image_data:
               fileName: pybikes.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: lOkjkAKMQ9+y3+LocYQvVoprlhryLWam0Dfghpu7lU4=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Sustainable Mobility API
             logo: sustainable-mobility-api.svg
@@ -26468,12 +27102,29 @@ landscape:
             repo_url: https://github.com/OpenChargingCloud/ChargyDesktopApp
             extra:
               topics: transparency,eichrecht,electron,chargy,smartmetering,evroamingdeluxe,premiumeichrecht,evroaming,e-mobility
-            organization:
-              name: Open Charging Cloud
+            crunchbase: https://www.crunchbase.com/organization/graphdefined-gmbh
             homepage_url: https://github.com/OpenChargingCloud/ChargyDesktopApp
             crunchbase_data:
-              name: Open Charging Cloud
+              name: GraphDefined GmbH
+              description: GraphDefined is a company that offers to help clients in their communication and information technologies.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://graphdefined.de/
+              city: Jena
+              region: Thuringen
+              country: Germany
+              twitter: https://www.twitter.com/graphdefined
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Information Services
+                - Information Technology
+                - Legal
+                - Software
             github_data:
               languages:
                 - name: TypeScript
@@ -26512,7 +27163,7 @@ landscape:
               start_date: '2018-11-29T21:51:20Z'
             image_data:
               fileName: chargy-desktop-app.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ViF5smD+FVN/gvyxaUy/14I+DUl8uPk/U9ooPnM0Ww4=
             best_practice_data:
               badge: false
               percentage: null
@@ -26523,12 +27174,29 @@ landscape:
             repo_url: https://github.com/OpenChargingCloud/WWCP_OCPP
             extra:
               topics: ocpp,e-mobility,charging,chargingstation
-            organization:
-              name: Open Charging Cloud
+            crunchbase: https://www.crunchbase.com/organization/graphdefined-gmbh
             homepage_url: https://github.com/OpenChargingCloud/WWCP_OCPP
             crunchbase_data:
-              name: Open Charging Cloud
+              name: GraphDefined GmbH
+              description: GraphDefined is a company that offers to help clients in their communication and information technologies.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://graphdefined.de/
+              city: Jena
+              region: Thuringen
+              country: Germany
+              twitter: https://www.twitter.com/graphdefined
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Information Services
+                - Information Technology
+                - Legal
+                - Software
             github_data:
               languages:
                 - name: C#
@@ -26562,7 +27230,7 @@ landscape:
               start_date: '2016-05-23T17:09:23Z'
             image_data:
               fileName: wwcp-ocpp.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 0iUKyKf7G1JkA/VdAY2KbvvOY2xV6bVhCmCmcmsapMQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -26575,12 +27243,29 @@ landscape:
             repo_url: https://github.com/OpenChargingCloud/WWCP_Core
             extra:
               topics: wwcp,e-mobility,ev-roaming,charging,chargingstation
-            organization:
-              name: Open Charging Cloud
+            crunchbase: https://www.crunchbase.com/organization/graphdefined-gmbh
             homepage_url: https://github.com/OpenChargingCloud/WWCP_Core
             crunchbase_data:
-              name: Open Charging Cloud
+              name: GraphDefined GmbH
+              description: GraphDefined is a company that offers to help clients in their communication and information technologies.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://graphdefined.de/
+              city: Jena
+              region: Thuringen
+              country: Germany
+              twitter: https://www.twitter.com/graphdefined
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Information Services
+                - Information Technology
+                - Legal
+                - Software
             github_data:
               languages:
                 - name: C#
@@ -26606,7 +27291,7 @@ landscape:
               start_date: '2013-11-19T18:51:56Z'
             image_data:
               fileName: wwcp-core.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: UhjzSmUYGbbh4N1Uz/2W/7Hxjb13cCWIcZKrC0XGbls=
             best_practice_data:
               badge: false
               percentage: null
@@ -26617,65 +27302,104 @@ landscape:
               The objective to start this project is primarily to support the ISO and IEC standardization process to specify the so called "Vehicle 2 Grid
               Communication Interface" (V2G CI) which became the ISO IEC 15118 specification by now.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/siemens-energy-6cf7
             homepage_url: http://openv2g.sourceforge.net/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Siemens Energy
+              description: Siemens Energy AG is one of the world’s leading energy technology company.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://www.siemens-energy.com/
+              city: München
+              region: Bayern
+              country: Germany
+              twitter: https://twitter.com/siemens_energy
+              linkedin: https://www.linkedin.com/company/siemens-energy/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Cyber Security
+                - Energy
+                - Energy Storage
+                - Industrial
+                - Industrial Automation
+                - Oil and Gas
+                - Power Grid
+                - Renewable Energy
             image_data:
               fileName: openv2g.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: LPeBQ1pcaHptiWDNII7IZz3Ax+DWCNuYpfr8/9iiO9g=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-01T17:05:22.000Z
           - item:
             name: RAMP-mobility
             logo: RAMP-mobility.svg
             description: A novel application of the RAMP main engine for generating bottom-up stochastic electric vehicles load profiles.
+            project_org: https://github.com/RAMP-project
             repo_url: https://github.com/RAMP-project/RAMP-mobility
-            organization:
-              name: RAMP
+            crunchbase: https://www.crunchbase.com/organization/tu-delft
             homepage_url: https://github.com/RAMP-project/RAMP-mobility
             extra:
               refs: >-
                 ,https://doi.org/10.1016/j.energy.2019.04.097,https://doi.org/10.1016/j.apenergy.2022.118676,https://doi.org/10.1016/j.apenergy.2022.118676,https://doi.org/10.13140/RG.2.2.29560.26880*\n\nOr,https://doi.org/10.1016/j.energy.2019.04.097.*\n\n##
               topics: electric-vehicles-mobility,charging-profiles,ramp-model,charging-strategies,demand
             crunchbase_data:
-              name: RAMP
+              name: TU Delft
+              description: TU Delft focuses on providing design services in the field of industrial design.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://www.tudelft.nl/en/ide
+              city: South Holland
+              region: Illinois
+              country: United States
+              twitter: https://twitter.com/IDETUDelft
+              linkedin: https://www.linkedin.com/school/idetudelft
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Industrial Design
             github_data:
+              description: Stochastic multi-energy load profiles
+              contributors_count: 5
+              contributions: 0;0;0;0;0;0;16;13;3;17;14;12;0;10;15;1;0;0;1;0;0;0;1;1;0;5;8;7;8;0;2;0;13;1;6;0;1;0;1;0;2;8;9;7;4;5;19;12;0;0;2;0
+              stars: 52
               languages:
                 - name: Python
-                  value: 1359958
+                  value: 1474724
                   color: '#3572A5'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 14
-              license: European Union Public License 1.2
-              description: A novel application of the RAMP main engine for generating bottom-up stochastic electric vehicles load profiles.
-              latest_commit_date: '2022-10-05T18:23:03Z'
+                - name: HTML
+                  value: 2792
+                  color: '#e34c26'
+                - name: Ruby
+                  value: 1304
+                  color: '#701516'
+                - name: SCSS
+                  value: 1062
               latest_commit_link: /RAMP-project/RAMP-mobility/commit/356c1ce1f1f274a387ec3d6ee4f81005eeda8fed
-              release_date: '2021-05-28T07:43:30Z'
-              release_link: https://github.com/RAMP-project/RAMP-mobility/releases
-              contributors_count: 5
+              latest_commit_date: '2022-10-05T18:23:03Z'
+              firstWeek: 2022-05-01Z
+              license: European Union Public License 1.2
               contributors_link: https://github.com/RAMP-project/RAMP-mobility/graphs/contributors
             repos:
               - url: https://github.com/RAMP-project/RAMP-mobility
-                stars: 14
+                stars: 15
+              - url: https://github.com/RAMP-project/RAMP
+                stars: 37
+              - url: https://github.com/RAMP-project/ramp-website
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /RAMP-project/RAMP-mobility/commit/af1449d589d0345759ed39ad5d7d7ea725131722
-              start_date: '2020-05-24T09:47:43Z'
+              start_commit_link: /RAMP-project/RAMP/commit/c12621cab9a5027c91c23b67724a0a848b92c802
+              start_date: '2019-02-20T17:02:32Z'
             image_data:
               fileName: ramp-mobility.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: HVFVSytD762Y4oxS+x/A1c7p5Wt85CyOl7/JV7ubpS4=
             best_practice_data:
               badge: false
               percentage: null
@@ -26844,65 +27568,78 @@ landscape:
             name: CityFlow
             logo: CityFlow.svg
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
+            project_org: https://github.com/cityflow-project
             repo_url: https://github.com/cityflow-project/CityFlow
             extra:
               topics: multiagent-systems,multiagent-reinforcement-learning,traffic-simulation,traffic-signal-control
-            unnamed_organization: true
+            organization:
+              name: CityFlow
             homepage_url: https://cityflow-project.github.io
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: CityFlow
               parents: []
             github_data:
+              description: null
+              contributors_count: 8
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 639
               languages:
                 - name: C++
-                  value: 221597
+                  value: 1381047
                   color: '#f34b7d'
+                - name: CSS
+                  value: 93102
+                  color: '#563d7c'
                 - name: Python
-                  value: 50001
+                  value: 69940
                   color: '#3572A5'
                 - name: JavaScript
-                  value: 25363
+                  value: 50774
                   color: '#f1e05a'
-                - name: HTML
-                  value: 8266
-                  color: '#e34c26'
                 - name: CMake
-                  value: 4603
-                - name: CSS
-                  value: 1964
-                  color: '#563d7c'
+                  value: 38276
+                - name: C
+                  value: 24295
+                  color: '#555555'
+                - name: HTML
+                  value: 23768
+                  color: '#e34c26'
+                - name: Shell
+                  value: 2528
+                  color: '#89e051'
                 - name: Dockerfile
                   value: 669
                   color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 629
-              license: Apache License 2.0
-              description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario
-              latest_commit_date: '2020-12-04T03:30:19Z'
+                - name: Objective-C
+                  value: 120
+                  color: '#438eff'
               latest_commit_link: /cityflow-project/CityFlow/commit/75f31b8ccc04bf0dd2952b704fdd3e20982cc78f
-              contributors_count: 8
+              latest_commit_date: '2020-12-04T03:30:19Z'
+              firstWeek: 2022-05-01Z
+              license: Apache License 2.0
               contributors_link: https://github.com/cityflow-project/CityFlow/graphs/contributors
             repos:
               - url: https://github.com/cityflow-project/CityFlow
-                stars: 629
+                stars: 635
+              - url: https://github.com/cityflow-project/cityflow-project.github.io
+                stars: 2
+              - url: https://github.com/cityflow-project/data
+                stars: 2
+              - url: https://github.com/cityflow-project/pybind11
+                stars: 0
+              - url: https://github.com/cityflow-project/rapidjson
+                stars: 0
+              - url: https://github.com/cityflow-project/demo
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /cityflow-project/CityFlow/commit/03a95e6ffaa9fe76c7934fb6e7e1331d218b0872
-              start_date: '2019-05-17T07:30:26Z'
+              start_commit_link: /cityflow-project/cityflow-project.github.io/commit/3c844bdb0ae216902c82cecafa29c778a3598c44
+              start_date: '2019-03-19T12:45:59Z'
             image_data:
               fileName: city-flow.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: bEIerTBnHfIGu+gAziU3K8KtA492ETlRCwrC9hrrueY=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Complete_Street_Rule
             logo: Complete_Street_Rule.svg
@@ -26911,17 +27648,43 @@ landscape:
             extra:
               topics: >-
                 complete,streets,transportation,cityengine,procedural-generation,cga,treatments,street-rule,geometry,simulation,environmental-modelling,urban-planning,arcgis-cityengine,street-configuration,urban-design
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/esri
             homepage_url: https://geonet.esri.com/docs/DOC-6915
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Esri
+              description: Esri is the global market leader in GIS, pioneering problem solving to help you see what others can’t. We build ArcGIS.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.esri.com
+              city: Redlands
+              region: California
+              country: United States
+              twitter: https://twitter.com/esri
+              linkedin: https://www.linkedin.com/company/esri
+              acquisitions:
+                - date: '2011-07-11'
+                  acquiree: Procedural
+                - date: '2018-02-23'
+                  acquiree: ClearTerra
+                - date: '2019-02-28'
+                  acquiree: indoo.rs
+                - date: '2020-09-09'
+                  acquiree: nFrames
+                - date: '2020-12-07'
+                  acquiree: Zibumi
+                  price: 5000000
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - 3D Technology
+                - Analytics
+                - Big Data
+                - CivicTech
+                - Data Visualization
+                - Internet of Things
+                - Mapping Services
+                - Software
             github_data:
               languages:
                 - name: Python
@@ -26948,12 +27711,10 @@ landscape:
               start_date: '2015-09-01T05:09:39Z'
             image_data:
               fileName: complete-street-rule.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: cwk6psMcZYfMNPxURhQNwvy4TuuGdm0pWH7nUroW5kE=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: tesla_powerwall
             logo: tesla_powerwall.svg
@@ -28098,54 +28859,6 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2023-03-24T22:00:07.000Z
-          - item:
-            name: CalTRACK
-            logo: CalTRACK.svg
-            description: >-
-              Methods are developed in an open and transparent stakeholder process that uses empirical testing to define replicable methods for calculating
-              normalized metered energy consumption using either monthly or interval data from an existing conditions baseline.
-            repo_url: https://github.com/energy-market-methods/caltrack
-            unnamed_organization: true
-            homepage_url: http://docs.caltrack.org
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
-              parents: []
-            github_data:
-              languages:
-                - name: Dockerfile
-                  value: 286
-                  color: '#384d54'
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 49
-              license: Creative Commons Zero v1.0 Universal
-              description: Shared repository for documentation and testing of CalTRACK methods
-              latest_commit_date: '2022-12-06T21:00:21Z'
-              latest_commit_link: /openeemeter/caltrack/commit/5b3a68fbee15b4235b767ba395306abbe3bdd769
-              release_date: '2019-11-14T21:34:37Z'
-              release_link: https://github.com/energy-market-methods/caltrack/releases
-              contributors_count: 23
-              contributors_link: https://github.com/energy-market-methods/caltrack/graphs/contributors
-            repos:
-              - url: https://github.com/energy-market-methods/caltrack
-                stars: 49
-            github_start_commit_data:
-              start_commit_link: /openeemeter/caltrack/commit/1688277b69d4e3b5c9d4eb8cf780c4e68031ad8e
-              start_date: '2016-08-25T14:53:20Z'
-            image_data:
-              fileName: cal-track.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
-            best_practice_data:
-              badge: false
-              percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: OpenModelica
             logo: OpenModelica.svg
@@ -30879,16 +31592,34 @@ landscape:
               Seeks to fill a critical need for high-quality, publicly-accessible, hourly grid emissions data that can be used for GHG accounting, policymaking,
               academic research, and energy attribute certificate markets.
             repo_url: https://github.com/singularity-energy/open-grid-emissions
-            organization:
-              name: Singularity Energy
-            homepage_url: https://github.com/singularity-energy/open-grid-emissions
+            crunchbase: https://www.crunchbase.com/organization/singularity-energy
+            homepage_url: https://docs.singularity.energy/docs/open-grid-emissions-docs/about_ogei-about-the-open-grid-emissions-initiative
             extra:
               refs: ',https://doi.org/10.5281/zenodo.7062460'
               topics: >-
                 carbon-accounting,climate,electricity,emissions,ghg,open-data,eia,epa,power-systems,python,ghg-emissions,carbon-emissions,climate-change,decarbonization
             crunchbase_data:
               name: Singularity Energy
+              description: Singularity Energy uses real-time carbon data to make better energy decisions.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.singularity.energy
+              city: Somerville
+              region: Massachusetts
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 5725000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Clean Energy
+                - CleanTech
+                - Energy
+                - Software
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -30916,7 +31647,7 @@ landscape:
               start_date: '2022-02-22T16:10:26Z'
             image_data:
               fileName: open-grid-emissions-initiative.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Lev5vYcD+Sh3Lrn9o2Ud4jSwLihwRDCB86kJCXEfJ+8=
             best_practice_data:
               badge: false
               percentage: null
@@ -30959,7 +31690,7 @@ landscape:
               start_date: '2019-10-07T16:48:56Z'
             image_data:
               fileName: carbon-footprint.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: OJlpR18TGhJmtH4Wmm1Cn4xzhS11gbJl62sg6D6t9e4=
             best_practice_data:
               badge: false
               percentage: null
@@ -31006,7 +31737,7 @@ landscape:
               start_date: '2019-10-29T16:20:13Z'
             image_data:
               fileName: conference-carbon-tracker.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: BprZSsijEte52Pk1dcrJMbnZvvxY7ElIcpWXZHuweso=
             best_practice_data:
               badge: false
               percentage: null
@@ -31057,7 +31788,7 @@ landscape:
               start_date: '2019-11-25T10:12:38Z'
             image_data:
               fileName: nmf-earth-app.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: IbrhZe17H/SVTp4sm4bq5abpQECw9ErKCUCrPXXWo6E=
             best_practice_data:
               badge: false
               percentage: null
@@ -31292,9 +32023,9 @@ landscape:
             repo_url: https://github.com/KKulma/intensegRid
             extra:
               topics: climate-change,carbon-intensity,carbon-api,carbon-emissions,r,hacktoberfest
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
             unnamed_organization: true
             homepage_url: https://carbonintensity.org.uk/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
               name: Non-Public Unnamed Organization
               homepage: null
@@ -31327,7 +32058,7 @@ landscape:
               start_date: '2020-03-02T13:22:48Z'
             image_data:
               fileName: intenseg-rid.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: zBswuYnZB4khIjzO6kZjqelLXwXNGmAHIOApB2dR0JQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -31400,58 +32131,103 @@ landscape:
             logo: CAMx.svg
             description: A multi-scale photochemical modeling system for gas and particulate air pollution.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ramboll
             homepage_url: https://www.camx.com/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Ramboll
+              description: Ramboll is an engineering, architecture, and consultancy company that is committed to creating sustainable and long-term solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.ramboll.com/
+              city: Copenhagen
+              region: Hovedstaden
+              country: Denmark
+              twitter: https://www.twitter.com/ramboll
+              linkedin: https://www.linkedin.com/company/ramboll/
+              acquisitions:
+                - date: '2008-04-04'
+                  acquiree: IMIsoft Engineering
+                - date: '2021-04-13'
+                  acquiree: Incept Sustainability
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
             image_data:
               fileName: ca-mx.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 2/UFRx+agDLt19ZH1MkoqM8LxhHTCHA6ko0ic92e2tU=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Open-Emission-Factors-DB
             logo: Open-Emission-Factors-DB.svg
             description: An open access, contributer-led database of emission factors, validated by the team at Climatiq.
+            project_org: https://github.com/climatiq
             repo_url: https://github.com/climatiq/Open-Emission-Factors-DB
-            organization:
-              name: Climatiq
+            crunchbase: https://www.crunchbase.com/organization/climatiq
             homepage_url: https://www.climatiq.io/explorer
             crunchbase_data:
               name: Climatiq
+              description: Build climate intelligent solutions powered by smart data
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.climatiq.io
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/climatiqhq
+              linkedin: https://www.linkedin.com/company/climatiq/
+              acquisitions: []
               parents: []
+              funding: 7836899
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - CleanTech
+                - Developer APIs
+                - Enterprise Software
+                - Software
+                - Sustainability
+              kind: funding
             github_data:
-              languages: []
-              contributions: 2;9;5;0;7;5;5;2;8;5;1;2;1;2;2;1;2;3;6;2;1;3;1;0;0;2;0;0;3;4;5;1;4;3;0;3;4;7;10;0;0;0;9;6;5;2;3;1;4;1;0;0
-              firstWeek: 2022-04-03Z
-              stars: 73
+              description: ''
+              contributors_count: 15
+              contributions: 8;8;6;2;9;15;1;4;1;2;2;1;2;3;15;2;2;3;1;0;1;2;0;0;3;4;6;1;4;3;4;4;4;7;10;0;0;0;9;6;5;2;3;1;4;1;0;0;5;3;6;6
+              stars: 85
+              languages:
+                - name: Python
+                  value: 71628
+                  color: '#3572A5'
+                - name: Jupyter Notebook
+                  value: 20918
+                  color: '#DA5B0B'
+                - name: JavaScript
+                  value: 412
+                  color: '#f1e05a'
+              latest_commit_link: /climatiq/Open-Emission-Factors-DB/commit/81439a39dd0c6b51dbac9fd56f8761b73124d3ff
+              latest_commit_date: '2023-04-21T16:37:15Z'
+              firstWeek: 2022-05-01Z
               license: Other
-              description: An open access, contributer-led database of emission factors, validated by the team at Climatiq
-              latest_commit_date: '2023-03-27T08:07:19Z'
-              latest_commit_link: /climatiq/Open-Emission-Factors-DB/commit/0889b45fcdf097d4c4a81e76de9b1914617210fe
-              release_date: '2022-05-17T13:47:44Z'
-              release_link: https://github.com/climatiq/Open-Emission-Factors-DB/releases
-              contributors_count: 14
               contributors_link: https://github.com/climatiq/Open-Emission-Factors-DB/graphs/contributors
             repos:
               - url: https://github.com/climatiq/Open-Emission-Factors-DB
-                stars: 73
+                stars: 79
+              - url: https://github.com/climatiq/python-oefdb-sdk
+                stars: 3
+              - url: https://github.com/climatiq/examples
+                stars: 3
+              - url: https://github.com/climatiq/eslint-config-climatiq
+                stars: 0
+              - url: https://github.com/climatiq/prettier-config-climatiq
+                stars: 0
             github_start_commit_data:
               start_commit_link: /climatiq/Open-Emission-Factors-DB/commit/469bacf56432111da7754b2a831536f32c44c478
               start_date: '2021-09-21T08:21:58Z'
             image_data:
               fileName: open-emission-factors-db.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Y/2T9oJvR6aDWLbGhotxHB6Q/EpN1iVT8Eq07oxgvxA=
             best_practice_data:
               badge: false
               percentage: null
@@ -31574,56 +32350,67 @@ landscape:
             name: Silicone
             logo: Silicone.svg
             description: Automated filling of detail in reported emission scenarios.
+            project_org: https://github.com/GranthamImperial
             repo_url: https://github.com/GranthamImperial/silicone
             extra:
               topics: emissions,automation,filling,detail,climate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/imperial-college-london
             homepage_url: https://silicone.readthedocs.io
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Imperial College London
+              description: Imperial College London is a university with a mission to benefit society through excellence in science, engineering, medicine and business.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://imperial.ac.uk
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: http://twitter.com/imperialcollege
+              linkedin: https://www.linkedin.com/company/5106
+              acquisitions: []
               parents: []
+              funding: 4899446
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Universities
+              kind: funding
             github_data:
+              description: null
+              contributors_count: 3
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 4
               languages:
                 - name: Jupyter Notebook
-                  value: 5658605
+                  value: 12609706
                   color: '#DA5B0B'
                 - name: Python
-                  value: 507527
+                  value: 543361
                   color: '#3572A5'
                 - name: Makefile
                   value: 6306
                   color: '#427819'
-              contributions: 10;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;2;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 3
-              license: BSD 3-Clause "New" or "Revised" License
-              description: Automated filling of detail in reported emission scenarios
-              latest_commit_date: '2022-10-19T08:18:25Z'
               latest_commit_link: /GranthamImperial/silicone/commit/0cf0852084140d7b883169642bdd0e6aabca6ead
-              release_date: '2022-10-19T08:24:16Z'
-              release_link: https://github.com/GranthamImperial/silicone/releases
-              contributors_count: 5
+              latest_commit_date: '2022-10-19T08:18:25Z'
+              firstWeek: 2022-05-01Z
+              license: BSD 3-Clause "New" or "Revised" License
               contributors_link: https://github.com/GranthamImperial/silicone/graphs/contributors
             repos:
               - url: https://github.com/GranthamImperial/silicone
                 stars: 3
+              - url: https://github.com/GranthamImperial/silicone_examples
+                stars: 1
             github_start_commit_data:
               start_commit_link: /GranthamImperial/silicone/commit/5475059f2a48ebb27d383f573c3f4f26f1676a7e
               start_date: '2019-05-13T05:25:26Z'
             image_data:
               fileName: silicone.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: IUlo8ggIVQudaPNKR2bGoy2Nu1O0sVLXYu9qHyRYCvY=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: gridemissions
             logo: gridemissions.svg
@@ -32210,26 +32997,34 @@ landscape:
             description: >-
               Based on the DUNE framework and aims to provide a multitude of numerical models as well as flexible discretization methods for complex non-linear
               phenomena, such as CO2 sequestration, soil remediation, drug delivery in cancer therapy and more.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://git.iws.uni-stuttgart.de/dumux-repositories/dumux
+            license: GNU General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/university-of-stuttgart
             homepage_url: https://git.iws.uni-stuttgart.de/dumux-repositories/dumux
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Stuttgart
+              description: The University of Stuttgart is especially known for its excellent reputation in the fields of advanced automotive engineering.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.uni-stuttgart.de/
+              city: Stuttgart
+              region: Baden-Wurttemberg
+              country: Germany
+              twitter: http://twitter.com/Uni_Stuttgart
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            repos:
+              - url: https://git.iws.uni-stuttgart.de/dumux-repositories/dumux
             image_data:
               fileName: du-mux.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: YuPuuuaDhIfX6oFfVrHEEBTdtnOt1YMJiKyKIADpg2U=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: oco2peak
             logo: oco2peak.svg
@@ -32294,25 +33089,30 @@ landscape:
               The CHE Data Portal provides an interface to the distributed data used and made available through the project, either as input data sets or as
               resulting data sets.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/horizon-europe
             homepage_url: https://www.che-project.eu/data-portal
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Horizon Europe
+              description: Horizon Europe is an European Union's research & innovation framework programme for 2021-2027.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/horizon
+              city: The Hague
+              region: Zuid-Holland
+              country: The Netherlands
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             image_data:
               fileName: co2-emission-datasets.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: srld/l5geUvcrMGTRCRuuPjfW66fvnporGWPKgmcOnI=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Global Carbon Budget
             logo: Global Carbon Budget.svg
@@ -32709,12 +33509,30 @@ landscape:
             repo_url: https://github.com/owid/co2-data
             extra:
               topics: co2-emissions,greenhouse-gas-emissions,environment,energy
-            organization:
-              name: Our World in Data
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
             crunchbase_data:
-              name: Our World in Data
+              name: Our World In Data
+              description: Our World In Data is a focussing on the powerful changes that reshape our world.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://ourworldindata.org/
+              city: Oxford
+              region: Oxfordshire
+              country: United Kingdom
+              twitter: https://twitter.com/ourworldindata
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 150000
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Data Visualization
+                - Education
+                - Internet
+                - Non Profit
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -32737,7 +33555,7 @@ landscape:
               start_date: '2020-08-06T13:02:34Z'
             image_data:
               fileName: co2-data.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1JdkNLaRlsqwSO2U3A76mbAzn6M/aV38GC5gM+5WJpY=
             best_practice_data:
               badge: false
               percentage: null
@@ -33039,25 +33857,35 @@ landscape:
               Explore, analyze, and download methane plumes detected from airborne platforms on an interactive map alongside VISTA infrastructure, gridded
               methane estimates, and other additional data layers.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/jet-propulsion-laboratory
             homepage_url: https://methane.jpl.nasa.gov/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Jet Propulsion Laboratory
+              description: Jet Propulsion Laboratory engages in the construction and operation of robotic planetary spacecrafts and NASA's Deep Space Network.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.jpl.nasa.gov/
+              city: Pasadena
+              region: California
+              country: United States
+              twitter: https://twitter.com/nasajpl
+              linkedin: https://www.linkedin.com/company/jet-propulsion-laboratory/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Aerospace
+                - Construction
+                - National Security
+                - Robotics
+                - Space Travel
             image_data:
               fileName: methane-source-finder.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ot8eZoQsrwQsGtnNKSXvo2XqHliiJ/MOsm4GfBfb4ig=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: deep-smoke-machine
             logo: deep-smoke-machine.svg
@@ -35634,12 +36462,26 @@ landscape:
               This model maps gross greenhouse gas emissions from forests between 2001 and 2015, gross carbon removals by forests between 2001, and the
               difference between them (net flux).
             repo_url: https://github.com/wri/carbon-budget
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://github.com/wri/carbon-budget
             crunchbase_data:
-              name: World Resources Institute
+              name: World Resources Institute - WRI
+              description: World Research Institute is a global research organization that is focused on sustaining a healthy environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.wri.org/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/worldresources
+              linkedin: https://www.linkedin.com/company/18878
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
             github_data:
               languages:
                 - name: Python
@@ -35676,10 +36518,12 @@ landscape:
               start_date: '2017-04-11T18:05:56Z'
             image_data:
               fileName: carbon-budget.svg
-              hash: IH3Qu5yr4bzuBpkiG68meF03jevgy2HMEccaEVBVMs0=
+              hash: 32bMWAJZo3St5PH+5JLhjURx1XK489buV4W+MA2J/iQ=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:52:04.000Z
           - item:
             name: treeseg
             logo: treeseg.svg
@@ -36408,12 +37252,26 @@ landscape:
             repo_url: https://github.com/wri/gfw-mapbuilder
             extra:
               topics: gfw,esri-js,website
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://my.gfw-mapbuilder.org/v1.latest/
             crunchbase_data:
-              name: World Resources Institute
+              name: World Resources Institute - WRI
+              description: World Research Institute is a global research organization that is focused on sustaining a healthy environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.wri.org/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/worldresources
+              linkedin: https://www.linkedin.com/company/18878
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
             github_data:
               languages:
                 - name: TypeScript
@@ -36448,10 +37306,12 @@ landscape:
               start_date: '2016-03-17T19:08:35Z'
             image_data:
               fileName: gfw-mapbuilder.svg
-              hash: YbFod5tgBbmKqanHYf7qUjffKTREFN8vEvhijmjySBw=
+              hash: mbIjkekmbKU3yLsRDLYbr91bXoXZSOVj2LOxyhP63Fo=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:52:04.000Z
           - item:
             name: taxize
             logo: taxize.svg
@@ -40206,12 +41066,26 @@ landscape:
             logo: Sentinel-Tree-Cover.svg
             description: This project maps tree extent at the ten-meter scale using open source artificial intelligence and satellite imagery.
             repo_url: https://github.com/wri/sentinel-tree-cover
-            organization:
-              name: World Resources Institute
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://github.com/wri/sentinel-tree-cover
             crunchbase_data:
-              name: World Resources Institute
+              name: World Resources Institute - WRI
+              description: World Research Institute is a global research organization that is focused on sustaining a healthy environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.wri.org/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/worldresources
+              linkedin: https://www.linkedin.com/company/18878
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -40256,10 +41130,12 @@ landscape:
               start_date: '2020-02-04T16:49:35Z'
             image_data:
               fileName: sentinel-tree-cover.svg
-              hash: MZfyRKZh+syH8fjXbR5fzoVpYl53xIg/TTZWIhVUKeE=
+              hash: hZ/flrIOOh1afDPf98mCS2i2V8Mco4hWWiGf3f0LRWY=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:52:04.000Z
           - item:
             name: Bioverse Labs
             logo: Bioverse Labs.svg
@@ -60498,12 +61374,29 @@ landscape:
             repo_url: https://github.com/opendata-stuttgart/sensors-software
             extra:
               topics: sensor,arduino,iot,iot-device
-            organization:
-              name: Open Data Stuttgart
+            crunchbase: https://www.crunchbase.com/organization/the-open-knowledge-foundation-deutschland-okf-de
             homepage_url: https://github.com/opendata-stuttgart/sensors-software
             crunchbase_data:
-              name: Open Data Stuttgart
+              name: The Open Knowledge Foundation Deutschland (OKF DE)
+              description: Open Knowledge for the digital society
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://okfn.de/en/
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/okfde
+              linkedin: https://www.linkedin.com/company/open-knowledge-foundation-deutschland-e-v-
+              acquisitions: []
               parents: []
+              funding: 1396258
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Services
+                - Information Technology
+                - Non Profit
+              kind: funding
             github_data:
               languages:
                 - name: C++
@@ -60561,7 +61454,7 @@ landscape:
               start_date: '2015-04-04T20:22:52Z'
             image_data:
               fileName: opendata-stuttgart.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: kNM1mcWNINCvqP8hPvN9UFVuElV566GdWatcIPWzEu8=
             best_practice_data:
               badge: false
               percentage: null
@@ -61515,12 +62408,29 @@ landscape:
             repo_url: https://github.com/opendata-stuttgart/sensor.community
             extra:
               topics: svelte,sapper,javascript,sensor-community
-            organization:
-              name: Open Data Stuttgart
+            crunchbase: https://www.crunchbase.com/organization/the-open-knowledge-foundation-deutschland-okf-de
             homepage_url: https://sensor.community
             crunchbase_data:
-              name: Open Data Stuttgart
+              name: The Open Knowledge Foundation Deutschland (OKF DE)
+              description: Open Knowledge for the digital society
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://okfn.de/en/
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: https://twitter.com/okfde
+              linkedin: https://www.linkedin.com/company/open-knowledge-foundation-deutschland-e-v-
+              acquisitions: []
               parents: []
+              funding: 1396258
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Services
+                - Information Technology
+                - Non Profit
+              kind: funding
             github_data:
               languages:
                 - name: Svelte
@@ -61551,7 +62461,7 @@ landscape:
               start_date: '2020-01-04T09:16:49Z'
             image_data:
               fileName: sensor-community.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: iV1FnIoa6ZDzY4f1EQsPZfqkvt2tcOKLRi2YFQtGRgE=
             best_practice_data:
               badge: false
               percentage: null
@@ -61604,7 +62514,7 @@ landscape:
               start_date: '2013-12-26T01:53:38Z'
             image_data:
               fileName: open-sense-map.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: qRB3oQQCkOhUb2V43QSqfUJz5wg4DFoJuLz3zEIFJEg=
             best_practice_data:
               badge: false
               percentage: null
@@ -72982,12 +73892,26 @@ landscape:
             repo_url: https://github.com/ScienceBasedTargets/SBTi-finance-tool
             extra:
               topics: suistainable,finance,portfolio,climate-science,climate-model,climate-data
-            organization:
-              name: Science Based Targets initiative
+            crunchbase: https://www.crunchbase.com/organization/world-resources-institute
             homepage_url: https://sciencebasedtargets.org/
             crunchbase_data:
-              name: Science Based Targets initiative
+              name: World Resources Institute - WRI
+              description: World Research Institute is a global research organization that is focused on sustaining a healthy environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.wri.org/
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/worldresources
+              linkedin: https://www.linkedin.com/company/18878
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
             github_data:
               languages:
                 - name: Python
@@ -73014,10 +73938,12 @@ landscape:
               start_date: '2020-05-25T11:19:24Z'
             image_data:
               fileName: sb-ti-temperature-alignment-tool.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: HOrZTJLEJNJwWxiTnW+kB6ee2Dwc+fh+ZU8vIoYNM4M=
             best_practice_data:
               badge: false
               percentage: null
+            twitter_data:
+              latest_tweet_date: 2023-04-12T19:52:04.000Z
           - item:
             name: Real Impact Tracker Methodology
             logo: Real-Impact-Tracker-Methodology.svg
@@ -73607,7 +74533,7 @@ landscape:
               start_date: '2017-07-25T07:51:14Z'
             image_data:
               fileName: climate-watch.svg
-              hash: x2hqLC6H5pPwIq+KsMY018ICF3opWV6vAZhkXJpmaMk=
+              hash: pcF5tR6TKuDzOkArJR7YQ7ahmVaC6CIzapfPlilZhS0=
             best_practice_data:
               badge: false
               percentage: null
@@ -75233,12 +76159,30 @@ landscape:
             logo: owid-catalog.svg
             description: A Pythonic API for working with Our World in Data catalog.
             repo_url: https://github.com/owid/owid-catalog-py
-            organization:
-              name: Our World in Data
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://github.com/owid/owid-catalog-py
             crunchbase_data:
-              name: Our World in Data
+              name: Our World In Data
+              description: Our World In Data is a focussing on the powerful changes that reshape our world.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://ourworldindata.org/
+              city: Oxford
+              region: Oxfordshire
+              country: United Kingdom
+              twitter: https://twitter.com/ourworldindata
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 150000
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Data Visualization
+                - Education
+                - Internet
+                - Non Profit
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -75264,7 +76208,7 @@ landscape:
               start_date: '2021-09-22T08:46:36Z'
             image_data:
               fileName: owid-catalog.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 0N7yMEHeBBz62dPxe6t3QfFM2xL2UmLUx3IlLuZW8O8=
             best_practice_data:
               badge: false
               percentage: null
@@ -75395,17 +76339,30 @@ landscape:
             repo_url: https://github.com/piersyork/owidR
             extra:
               topics: r,r-package,data,data-visualisation,economics
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/our-world-in-data
             homepage_url: https://github.com/piersyork/owidR
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Our World In Data
+              description: Our World In Data is a focussing on the powerful changes that reshape our world.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://ourworldindata.org/
+              city: Oxford
+              region: Oxfordshire
+              country: United Kingdom
+              twitter: https://twitter.com/ourworldindata
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 150000
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Data Visualization
+                - Education
+                - Internet
+                - Non Profit
+              kind: funding
             github_data:
               languages:
                 - name: R
@@ -75430,12 +76387,10 @@ landscape:
               start_date: '2021-06-28T18:02:01Z'
             image_data:
               fileName: owid-r.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: qVkExTUNsKY3+4Owg0Sq90pqHgYzGsbFRaJwQg1PuIM=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Custom Scripts Sentinel Hub
             logo: Custom Scripts Sentinel Hub.svg
