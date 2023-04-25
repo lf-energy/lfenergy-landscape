@@ -47982,14 +47982,30 @@ landscape:
             logo: LakePy.svg
             description: Pythonic user-centered front-end to the Global Lake Level Database.
             repo_url: https://github.com/ESIPFed/LakePy
-            organization:
-              name: ESIP
+            crunchbase: https://www.crunchbase.com/organization/earth-science-information-partners
+            twitter: https://twitter.com/ESIPFed
             homepage_url: https://github.com/ESIPFed/LakePy
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/322186575,http://doi.org/10.\n5281/zenodo.4415936\n\n##'
             crunchbase_data:
-              name: ESIP
+              name: Earth Science Information Partners
+              description: Earth Science Information Partners specializes in advancing the usage of data necessary to address pressing global environmental challenges.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.esipfed.org
+              city: Severna Park
+              region: Maryland
+              country: United States
+              twitter: https://twitter.com/ESIPFed/
+              linkedin: https://www.linkedin.com/company/foundation-for-earth-science/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Data Integration
+                - Environmental Engineering
+                - Non Profit
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -48023,7 +48039,7 @@ landscape:
               start_date: '2020-12-17T04:54:21Z'
             image_data:
               fileName: lake-py.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: qgGPhfQPsWZFvHwSQr4w+TVsdKxS2Yd6epzTns4zr/U=
             best_practice_data:
               badge: false
               percentage: null
@@ -71961,12 +71977,27 @@ landscape:
             logo: Automatic field delineation.svg
             description: Generate automatic contours for agricultural parcels, given Sentinel-2 images.
             repo_url: https://github.com/sentinel-hub/field-delineation
-            organization:
-              name: Sentinel Hub
+            crunchbase: https://www.crunchbase.com/organization/sentinel-hub
             homepage_url: https://github.com/sentinel-hub/field-delineation
             crunchbase_data:
               name: Sentinel Hub
+              description: Sentinel Hub is a cloud-based GIS platform for distribution, management, and analysis of satellite data.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.sentinel-hub.com
+              city: Ljubljana
+              region: Ljubljana Urban Commune
+              country: Slovenia
+              twitter: https://twitter.com/sentinel_hub
+              linkedin: https://www.linkedin.com/showcase/sentinel-hub
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Technology
+                - Small and Medium Businesses
+                - Software
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -71995,7 +72026,7 @@ landscape:
               start_date: '2020-10-15T09:56:05Z'
             image_data:
               fileName: automatic-field-delineation.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: WBm9sC5oIoBtxedu59kLOCsNBN9MjVe2TfoWCu2HOLo=
             best_practice_data:
               badge: false
               percentage: null
@@ -74763,56 +74794,92 @@ landscape:
             description: >-
               The mission of Project Drawdown is to help the world reach "Drawdown"— the point in the future when levels of greenhouse gases in the atmosphere
               stop climbing and start to steadily decline, thereby stopping catastrophic climate change — as quickly, safely, and equitably as possible.
+            project_org: https://github.com/ProjectDrawdown
             repo_url: https://github.com/ProjectDrawdown/solutions
             extra:
               topics: climate-solutions,climate,climate-change,climate-model,climate-change-mitigation,drawdown
-            organization:
-              name: Project Drawdown
+            crunchbase: https://www.crunchbase.com/organization/project-drawdown
             homepage_url: https://www.drawdown.org/
             crunchbase_data:
               name: Project Drawdown
+              description: Project Drawdown consists of a book, an open-source database, and a digital platform that quantify the impact of climate solutions
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.drawdown.org
+              city: Sausalito
+              region: California
+              country: United States
+              twitter: https://www.twitter.com/projectdrawdown
+              linkedin: https://www.linkedin.com/company/project-drawdown
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Technology
+                - Internet
             github_data:
+              description: ''
+              contributors_count: 39
+              contributions: 1;1;0;0;0;0;1;0;0;5;0;0;0;3;6;0;0;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 230
               languages:
                 - name: Python
-                  value: 3495054
+                  value: 4124634
                   color: '#3572A5'
                 - name: Jupyter Notebook
                   value: 756329
                   color: '#DA5B0B'
+                - name: JavaScript
+                  value: 673285
+                  color: '#f1e05a'
                 - name: Visual Basic .NET
                   value: 133926
                 - name: HTML
-                  value: 5111
+                  value: 37248
                   color: '#e34c26'
+                - name: MATLAB
+                  value: 5728
+                  color: '#e16737'
                 - name: Shell
                   value: 2162
                   color: '#89e051'
+                - name: CSS
+                  value: 1067
+                  color: '#563d7c'
+                - name: Dockerfile
+                  value: 626
+                  color: '#384d54'
+                - name: Mako
+                  value: 494
                 - name: Makefile
-                  value: 382
+                  value: 483
                   color: '#427819'
-              contributions: 0;0;1;2;1;1;0;0;0;0;0;0;0;5;0;0;0;3;6;0;0;0;0;0;0;0;1;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 190
-              license: Other
-              description: >-
-                The mission of Project Drawdown is to help the world reach “Drawdown”— the point in the future when levels of greenhouse gases in the atmosphere
-                stop climbing and start to steadily decline, thereby stopping catastrophic climate change — as quickly, safely, and equitably as possible.
-              latest_commit_date: '2022-10-10T19:38:56Z'
+                - name: Emacs Lisp
+                  value: 76
+                  color: '#c065db'
               latest_commit_link: /ProjectDrawdown/solutions/commit/6b49aa3c64123db89ef31dd18a9c048a0369caf4
-              release_date: '2022-06-30T06:43:11Z'
-              release_link: https://github.com/ProjectDrawdown/solutions/releases
-              contributors_count: 40
+              latest_commit_date: '2022-10-10T19:38:56Z'
+              firstWeek: 2022-05-01Z
+              license: Other
               contributors_link: https://github.com/ProjectDrawdown/solutions/graphs/contributors
             repos:
               - url: https://github.com/ProjectDrawdown/solutions
-                stars: 190
+                stars: 193
+              - url: https://github.com/ProjectDrawdown/global-research-platform
+                stars: 16
+              - url: https://github.com/ProjectDrawdown/spatial-aez
+                stars: 10
+              - url: https://github.com/ProjectDrawdown/research-platform
+                stars: 6
+              - url: https://github.com/ProjectDrawdown/explorer
+                stars: 5
             github_start_commit_data:
               start_commit_link: /ProjectDrawdown/solutions/commit/c0a4bf1d5baee3366865b6e50cfc87be25c06dcc
               start_date: '2018-08-21T00:28:25Z'
             image_data:
               fileName: project-drawdown.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /1PGZjnzlRbnD8QH/go6sXckJwAUJJU6N4SL3KUJxgQ=
             best_practice_data:
               badge: false
               percentage: null
@@ -75428,12 +75495,30 @@ landscape:
             repo_url: https://github.com/regen-network/regen-ledger
             extra:
               topics: blockchain,ecology,sustainability,climate-change,cosmos-sdk,tendermint,agriculture
-            organization:
-              name: Regen Network
+            crunchbase: https://www.crunchbase.com/organization/regen-network
             homepage_url: https://www.regen.network
             crunchbase_data:
               name: Regen Network
+              description: Regen Network is a global marketplace & contracting platform for Earth's ecosystem assets, services, and data.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.regen.network/
+              city: Great Barrington
+              region: Massachusetts
+              country: United States
+              twitter: https://twitter.com/regen_network
+              linkedin: https://www.linkedin.com/company/regen-network/
+              acquisitions: []
               parents: []
+              funding: 120000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - AgTech
+                - Agriculture
+                - Blockchain
+                - Impact Investing
+              kind: funding
             github_data:
               languages:
                 - name: Go
@@ -75470,7 +75555,7 @@ landscape:
               start_date: '2018-04-12T19:54:56Z'
             image_data:
               fileName: regen-ledger.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Qw3aGTv7rB/lqCJ+M43eFa8yGXBrm1DRTZSvfI1XITA=
             best_practice_data:
               badge: false
               percentage: null
@@ -75479,12 +75564,57 @@ landscape:
             logo: Stripe Climate Carbon Removal Purchases.svg
             description: Source materials supporting Stripe Climate carbon removal purchases.
             repo_url: https://github.com/stripe/carbon-removal-source-materials
-            organization:
-              name: Stripe
-            homepage_url: https://github.com/stripe/carbon-removal-source-materials
+            crunchbase: https://www.crunchbase.com/organization/stripe
+            homepage_url: https://stripe.com/climate
             crunchbase_data:
               name: Stripe
+              description: Stripe is a developer-oriented commerce company that helps small and large companies accept web and mobile payments.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://stripe.com
+              city: South San Francisco
+              region: California
+              country: United States
+              twitter: http://twitter.com/stripe
+              linkedin: https://www.linkedin.com/company/stripe
+              acquisitions:
+                - date: '2013-03-12'
+                  acquiree: Kickoff
+                - date: '2015-02-15'
+                  acquiree: TOTEMS
+                - date: '2016-09-13'
+                  acquiree: RunKit
+                - date: '2016-10-25'
+                  acquiree: Teapot
+                - date: '2017-04-11'
+                  acquiree: Indie Hackers
+                - date: '2017-07-26'
+                  acquiree: Payable
+                - date: '2018-03-08'
+                  acquiree: Index
+                - date: '2019-04-17'
+                  acquiree: Touchtech Payments
+                - date: '2020-10-15'
+                  acquiree: Paystack
+                  price: 200000000
+                - date: '2021-04-27'
+                  acquiree: TaxJar
+                - date: '2021-05-14'
+                  acquiree: Bouncer
+                - date: '2021-10-20'
+                  acquiree: Recko
+                - date: '2021-12-06'
+                  acquiree: OpenChannel
               parents: []
+              funding: 8735000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - FinTech
+                - Finance
+                - Mobile Payments
+                - SaaS
+              kind: funding
             github_data:
               languages: []
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
@@ -75506,7 +75636,7 @@ landscape:
               start_date: '2020-05-18T08:31:42Z'
             image_data:
               fileName: stripe-climate-carbon-removal-purchases.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: yubIWmq5/IJ2HJDi1Dr0KEaxQQ4NF/nBPoV0mOAp6C0=
             best_practice_data:
               badge: false
               percentage: null
@@ -75517,25 +75647,34 @@ landscape:
               A wiki oriented around human systems and ecological restoration (usually riparian / watershed) for the Salish Sea area (Northwestern US & BC
               Canada).
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/salish-sea-research-center
             homepage_url: https://salishsearestoration.org/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Salish Sea Research Center
+              description: Salish Sea Research Center provides environmental and marine health research services.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.salishsearesearchcenter.com
+              city: Bellingham
+              region: Washington
+              country: United States
+              twitter: null
+              linkedin: https://www.linkedin.com/company/salishsearesearchcenter
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Environmental Engineering
+                - Health Care
+                - Training
             image_data:
               fileName: salish-sea-wiki.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: aDJL/+G/slqWTe2Z3LImR+fOw5Q2pg4h+C0noerjaMg=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Justice40 Tool
             logo: Justice40 Tool.svg
@@ -75605,25 +75744,35 @@ landscape:
               Create the definitive global resource for collating, assessing and presenting the scale and quality of net zero pledges across nationals,
               sub-nationals, companies and other entities.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-oxford
             homepage_url: https://zerotracker.net/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Oxford
+              description: Oxford is a world-leading centre of learning, teaching and research and the oldest university in the English-speaking world.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://ox.ac.uk/
+              city: Oxford
+              region: Oxfordshire
+              country: United Kingdom
+              twitter: http://twitter.com/uniofoxford
+              linkedin: https://www.linkedin.com/school/oxforduni/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Association
+                - E-Learning
+                - Education
+                - Knowledge Management
+                - Universities
             image_data:
               fileName: net-zero-tracker.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: T22t5XVlSwPF+4SIuDQXtRbNeSNhmeO/YWkiUYsNsIw=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Credible Goals Database
             logo: Credible Goals Database.svg
@@ -75746,15 +75895,31 @@ landscape:
             name: SWEET
             logo: SWEET.svg
             description: Official repository for Semantic Web for Earth and Environmental Terminology Ontologies.
+            twitter: https://twitter.com/ESIPFed
             repo_url: https://github.com/ESIPFed/sweet
             extra:
               topics: ontologies,earth-science,environment,environment-variables,owl-ontology,owl,earth,sweet-ontologies
-            organization:
-              name: ESIP
+            crunchbase: https://www.crunchbase.com/organization/earth-science-information-partners
             homepage_url: https://github.com/ESIPFed/sweet
             crunchbase_data:
-              name: ESIP
+              name: Earth Science Information Partners
+              description: Earth Science Information Partners specializes in advancing the usage of data necessary to address pressing global environmental challenges.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://www.esipfed.org
+              city: Severna Park
+              region: Maryland
+              country: United States
+              twitter: https://twitter.com/ESIPFed/
+              linkedin: https://www.linkedin.com/company/foundation-for-earth-science/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Data Integration
+                - Environmental Engineering
+                - Non Profit
             github_data:
               languages:
                 - name: Turtle
@@ -75783,7 +75948,7 @@ landscape:
               start_date: '2017-03-10T17:57:43Z'
             image_data:
               fileName: sweet.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Ubfrgju0jl6vxHhZeM2voUW7ptAfiw2tG3KJgg62KHM=
             best_practice_data:
               badge: false
               percentage: null
@@ -76047,12 +76212,25 @@ landscape:
             logo: EEA geospatial data catalogue.svg
             description: Discover and access easily the geospatial data catalogue of the European Environment Agency.
             repo_url: https://github.com/eea/geonetwork-eea
-            organization:
-              name: European Environment Agency
-            homepage_url: https://github.com/eea/geonetwork-eea
+            crunchbase: https://www.crunchbase.com/organization/european-environment-agency
+            homepage_url: https://geonetwork-opensource.org/
             crunchbase_data:
               name: European Environment Agency
+              description: Eye on Earth is a global public information network for creating and sharing environmentally relevant data though interactive maps.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://eyeonearth.org
+              city: Albuquerque
+              region: New Mexico
+              country: United States
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Search Engine
             github_data:
               languages:
                 - name: Java
@@ -76109,7 +76287,7 @@ landscape:
               start_date: '2006-10-20T15:09:16Z'
             image_data:
               fileName: eea-geospatial-data-catalogue.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: M+UzkUcoXIO1ENX+efOwoHa0KLsIq+cebCExy0rR9WU=
             best_practice_data:
               badge: false
               percentage: null
@@ -76217,25 +76395,35 @@ landscape:
             logo: Global Environmental Database.svg
             description: Providing long-term monitoring data, data analysis results, output of models.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-institute-for-environmental-studies
             homepage_url: https://db.cger.nies.go.jp/portal/geds/index
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: National Institute for Environmental Studies
+              description: National Institute of Environmental Studies specializes in research that promotes and protects a healthy environment for future generations.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.nies.go.jp/index-e.html
+              city: Ibaraki
+              region: Osaka
+              country: Japan
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consumer Research
+                - Education
+                - Environmental Consulting
+                - Environmental Engineering
+                - Universities
             image_data:
               fileName: global-environmental-database.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ZckiCbxzJSpECjcSooN4in0aY+/UJm4AgqAbq18bp/8=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Resource Watch
             logo: Resource Watch.svg
@@ -76398,12 +76586,27 @@ landscape:
             repo_url: https://github.com/sentinel-hub/custom-scripts
             extra:
               topics: sentinel-hub,remote-sensing,earth-observation
-            organization:
-              name: Sentinel Hub
+            crunchbase: https://www.crunchbase.com/organization/sentinel-hub
             homepage_url: https://github.com/sentinel-hub/custom-scripts
             crunchbase_data:
               name: Sentinel Hub
+              description: Sentinel Hub is a cloud-based GIS platform for distribution, management, and analysis of satellite data.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.sentinel-hub.com
+              city: Ljubljana
+              region: Ljubljana Urban Commune
+              country: Slovenia
+              twitter: https://twitter.com/sentinel_hub
+              linkedin: https://www.linkedin.com/showcase/sentinel-hub
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Technology
+                - Small and Medium Businesses
+                - Software
             github_data:
               languages:
                 - name: JavaScript
@@ -76431,7 +76634,7 @@ landscape:
               start_date: '2017-08-11T10:26:12Z'
             image_data:
               fileName: custom-scripts-sentinel-hub.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: b457dxhZqgukDY13wTDGNcFkUCY4OIZOraVWjdy/1CI=
             best_practice_data:
               badge: false
               percentage: null
@@ -76712,25 +76915,37 @@ landscape:
             logo: MeCCO.svg
             description: Open Database on the Media Coverage of Climate Change and Global Warming.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-colorado
             homepage_url: http://sciencepolicy.colorado.edu/icecaps/research/media_coverage/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Colorado
+              description: University of Colorado offers higher education and serving as the catalysts in business, arts, health, and community growth.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://www.cu.edu
+              city: Denver
+              region: Colorado
+              country: United States
+              twitter: http://twitter.com/CUSystem
+              linkedin: https://www.linkedin.com/company/university-of-colorado
+              acquisitions: []
               parents: []
+              funding: 500000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Higher Education
+                - Universities
+              kind: funding
             image_data:
               fileName: me-cco.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: nOmz2sXn5wFDxTUw33sGUcKLTwnoSpDsOvizuKbd7dA=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-03T15:56:11.000Z
           - item:
             name: Climate Action Plans
             logo: Climate Action Plans.svg
@@ -76738,12 +76953,30 @@ landscape:
             repo_url: https://github.com/mysociety/caps
             extra:
               topics: climate,climate-change,local-government,citizen-participation,mapit,docker,vagrant
-            organization:
-              name: mySociety
+            crunchbase: https://www.crunchbase.com/organization/mysociet
             homepage_url: https://data.climateemergency.uk
             crunchbase_data:
               name: mySociety
+              description: mySociety develops web tools that offer parliamentary monitoring, information freedom, and problem reporting services.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.mysociety.org
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: https://twitter.com/mysociety
+              linkedin: https://www.linkedin.com/company/1003945
+              acquisitions: []
               parents: []
+              funding: 575000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Accounting
+                - Information Technology
+                - Internet
+                - Software
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -76780,7 +77013,7 @@ landscape:
               start_date: '2020-08-21T20:17:52Z'
             image_data:
               fileName: climate-action-plans.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Ax1bsNne4/akbBqhOlNNhWyR5anSi0vOmk7JM3fHPmA=
             best_practice_data:
               badge: false
               percentage: null
@@ -77596,25 +77829,36 @@ landscape:
             logo: The POWER Project.svg
             description: Provides solar and meteorological data sets from NASA research for support of renewable energy, building energy efficiency and agricultural needs.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa
             homepage_url: https://power.larc.nasa.gov/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: NASA
+              description: NASA is responsible for the civilian space program, as well as aeronautics and aerospace research.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.nasa.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/nasa
+              linkedin: https://www.linkedin.com/company/nasa
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Aerospace
+                - National Security
+                - Robotics
+                - Space Travel
             image_data:
               fileName: the-power-project.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: mILEfczEYQSQSKExjWQVVM5qC8PHGviVkI+fSFf4JjE=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-26T16:20:18.000Z
           - item:
             name: Earthdata Search
             logo: Earthdata Search.svg
@@ -77691,12 +77935,27 @@ landscape:
             repo_url: https://github.com/sentinel-hub/sentinelhub-py
             extra:
               topics: python-library,sentinel-hub,aws,ogc-services,satellite-imagery
-            organization:
-              name: Sentinel Hub
-            homepage_url: http://sentinelhub-py.readthedocs.io/en/latest/
+            crunchbase: https://www.crunchbase.com/organization/sentinel-hub
+            homepage_url: http://sentinelhub-py.readthedocs.io
             crunchbase_data:
               name: Sentinel Hub
+              description: Sentinel Hub is a cloud-based GIS platform for distribution, management, and analysis of satellite data.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.sentinel-hub.com
+              city: Ljubljana
+              region: Ljubljana Urban Commune
+              country: Slovenia
+              twitter: https://twitter.com/sentinel_hub
+              linkedin: https://www.linkedin.com/showcase/sentinel-hub
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Technology
+                - Small and Medium Businesses
+                - Software
             github_data:
               languages:
                 - name: Python
@@ -77724,7 +77983,7 @@ landscape:
               start_date: '2017-05-17T12:10:00Z'
             image_data:
               fileName: sentinelhub-py.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: AaJA2tfKiTWVNSv9oEEsE5GQado4DMs6DRqT02DY9PI=
             best_practice_data:
               badge: false
               percentage: null
@@ -78368,25 +78627,18 @@ landscape:
             logo: Global Energy Monitor.svg
             description: Studies the evolving international energy landscape, creating databases, reports, and interactive tools that enhance understanding.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: Global Energy Monitor
             homepage_url: https://globalenergymonitor.org/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Global Energy Monitor
               parents: []
             image_data:
               fileName: global-energy-monitor.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: wVz4l9laCVPiNOKJHblQPtmUue4t5dRwPDEptAoaoN4=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: STAC Index
             logo: STAC Index.svg
@@ -78439,53 +78691,69 @@ landscape:
               Comprises environmental, land cover, terrain, climatic, soil and vegetation layers covering the continental Europe at relatively fine spatial
               resolutions.
             repo_url: https://gitlab.com/geoharmonizer_inea/eumap
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/geoharmonizer_inea/eumap
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            crunchbase: https://www.crunchbase.com/organization/european-union
+            homepage_url: http://eumap.readthedocs.org/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: European Union
+              description: European Union provides access to information published by all EU institutions, agencies and bodies.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://eeas.europa.eu/delegations/venezuela_es
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: https://twitter.com/europeanunion
+              linkedin: https://www.linkedin.com/company/european-union
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Government
+                - Information Services
             repos:
               - url: https://gitlab.com/geoharmonizer_inea/eumap
             image_data:
               fileName: eumap.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Ir5iJWCbKHLo2pBIps9w2tC3c2f2oMdr2DhFFLtlr6k=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
-            name: Open Data Science Europe Metadata Catalog
+            name: EcoDataCube
             logo: Open Data Science Europe Metadata Catalog.svg
             description: >-
               Building the Open Data Science Europe Portal, a freely-accessible viewer containing gridded layers for Europe at spatial resolutions of 30-m or
               better.
             repo_url: null
-            unnamed_organization: true
-            homepage_url: https://maps.opendatascience.eu/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            crunchbase: https://www.crunchbase.com/organization/european-commission
+            homepage_url: https://ecodatacube.eu/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: European Commission
+              description: The European Commission is an institution of the European Union, responsible for proposing legislation and implementing decisions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://ec.europa.eu/commission/index_en
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              twitter: https://twitter.com/EU_commission
+              linkedin: https://www.linkedin.com/company/european-commission/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Government
             image_data:
-              fileName: open-data-science-europe-metadata-catalog.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: eco-data-cube.svg
+              hash: FGCb78K45ZtVNHCbTBkoDzGqEkiJnE5+g/uqLuY//4w=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T14:05:12.000Z
           - item:
             name: Satip
             logo: Satip.svg
