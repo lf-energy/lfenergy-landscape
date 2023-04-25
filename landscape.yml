@@ -881,14 +881,14 @@ landscape:
               topics: hydropower,energy-system,power-system-simulation
               refs: ',https://zenodo.org/badge/latestdoi/179688356,https://zenodo.org/record/3349843'
           - item:
-            name: MHKiT-Python
+            name: MHKiT
             logo: MHKiT-Python.svg
             description: >-
               Provides the marine renewable energy community tools for data processing, visualization, quality control, resource assessment, and device
               performance.
-            repo_url: https://github.com/MHKiT-Software/MHKiT-Python
-            organization:
-              name: MHKiT
+            project_org: https://github.com/MHKiT-Software
+            repo_url: https://github.com/MHKiT-Software/MHKiT
+            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
             homepage_url: https://mhkit-software.github.io/MHKiT/
             extra:
               topics: mhkit-python,mhkit,marine-renewable-energy,quality-control,visualization,python
@@ -898,7 +898,8 @@ landscape:
             logo: hydropowerlib.svg
             description: Designed to calculate feed-in time series of run-of-the-river hydropower plants.
             repo_url: https://github.com/hydro-python/hydropowerlib
-            unnamed_organization: true
+            organization:
+              name: hydro-python
             homepage_url: https://github.com/hydro-python/hydropowerlib
           - item:
             name: HydroPowerSimulations.jl
@@ -914,14 +915,16 @@ landscape:
             repo_url: https://github.com/OpenSimHub/OpenHPL
             extra:
               topics: hacktoberfest,hydropower,modelica-library,academic
-            organization:
-              name: OpenSimHub
+            crunchbase: https://www.crunchbase.com/organization/university-of-south-eastern-norway
             homepage_url: https://openhpl.opensimhub.org
           - item:
             name: WEC-Sim
             logo: WEC-Sim.svg
             description: Wave Energy Converter Simulator is an open source code for simulating wave energy converters.
             repo_url: https://github.com/WEC-Sim/WEC-Sim
+            additional_repos:
+              - repo_url: https://github.com/WEC-Sim/WEC-Sim_Applications
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             unnamed_organization: true
             homepage_url: https://wec-sim.github.io/WEC-Sim
             extra:
@@ -944,7 +947,7 @@ landscape:
             description: A Python package for the simulation of the interaction between water waves and floating bodies in frequency domain.
             repo_url: https://github.com/capytaine/capytaine
             project_org: https://github.com/capytaine
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://ancell.in/capytaine/
             extra:
               topics: python,fortran,hydrodynamics,potential-flow,boundary-element-method,water-wave,wave-energy
@@ -956,7 +959,7 @@ landscape:
             repo_url: https://github.com/swd-turner/reservoir
             extra:
               topics: reservoir,simulation,water-resources,hydrology
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: http://swd-turner.github.io/reservoir
       - subcategory:
         name: Geothermal Energy
@@ -966,7 +969,7 @@ landscape:
             logo: pygfunction.svg
             description: An open source toolbox for the evaluation of thermal response factors of geothermal borehole fields.
             repo_url: https://github.com/MassimoCimmino/pygfunction
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cole-polytechnique-de-montr-al
             homepage_url: https://github.com/MassimoCimmino/pygfunction
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/100305705'
@@ -975,8 +978,8 @@ landscape:
             logo: GHEtool.svg
             description: GHEtool is an open source Python package that contains all the functionalities needed to deal with borefield design.
             repo_url: https://github.com/wouterpeere/GHEtool
-            unnamed_organization: true
-            homepage_url: https://github.com/wouterpeere/GHEtool
+            crunchbase: https://www.crunchbase.com/organization/university-of-leuven
+            homepage_url: https://ghetool.readthedocs.io/
             extra:
               topics: geothermal-energy,borefields,sizing,energy,storage,geothermal
               refs: >-
@@ -988,7 +991,8 @@ landscape:
             repo_url: https://github.com/charxie/multiphysics
             extra:
               topics: simulation,energy,physics,heat-transfer,engineering,science
-            unnamed_organization: true
+            organization:
+              name: Institute for Future Intelligence
             homepage_url: https://github.com/charxie/multiphysics
           - item:
             name: OpenGeoSys 6
@@ -996,9 +1000,10 @@ landscape:
             description: >-
               A scientific open source project for the development of numerical methods for the simulation of thermo-hydro-mechanical-chemical processes in
               porous and fractured media.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://gitlab.opengeosys.org/ogs/ogs
+            repo_url: https://gitlab.opengeosys.org/ogs/ogs
+            organization:
+              name: OpenGeoSys Community
+            homepage_url: https://www.opengeosys.org/
           - item:
             name: FEHM
             logo: FEHM.svg
@@ -1017,8 +1022,8 @@ landscape:
             logo: thermo.svg
             description: Thermodynamics, phase equilibrium, transport properties and chemical database component of Chemical Engineering Design Library.
             repo_url: https://github.com/CalebBell/thermo
-            unnamed_organization: true
-            homepage_url: https://github.com/CalebBell/thermo
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-brunswick
+            homepage_url: https://thermo.readthedocs.io/
             extra:
               topics: >-
                 thermodynamics,chemistry,cheminformatics,chemical-engineering,mechanical-engineering,viscosity,density,heat-capacity,thermal-conductivity,surface-tension,combustion,environmental-engineering,solubility,vapor-pressure,equation-of-state,molecule,process-simulation,physics
@@ -1043,15 +1048,14 @@ landscape:
             repo_url: https://github.com/ICWallis/fractoolbox
             extra:
               topics: geology,structural-geology,fracture-mechanics,fracture,fractures,geomechanics,borehole-image-analysis,python,mplstereonet,geothermal
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-auckland
             homepage_url: https://github.com/ICWallis/fractoolbox
           - item:
             name: GeoThermalCloud.jl
             logo: GeoThermalCloud.jl.svg
             description: A repository containing all the data and codes required to demonstrate applications of machine learning methods for geothermal exploration.
             repo_url: https://github.com/SmartTensors/GeoThermalCloud.jl
-            organization:
-              name: SmartTensors
+            crunchbase: https://www.crunchbase.com/organization/envitrace
             homepage_url: https://github.com/SmartTensors/GeoThermalCloud.jl
             extra:
               topics: julia,geothermal,machine-learning,unsupervised-machine-learning
@@ -1064,7 +1068,7 @@ landscape:
             logo: biogas.svg
             description: 'Tools for biogas research in R: process biogas data and predict biogas production.'
             repo_url: https://github.com/sashahafner/biogas
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/aarhus-university
             homepage_url: https://github.com/sashahafner/biogas
             extra:
               refs: ',https://doi.org/10.1016/j.softx.2018.06.005\n*'
@@ -1072,10 +1076,10 @@ landscape:
             name: biosteam
             logo: biosteam.svg
             description: The Biorefinery Simulation and Techno-Economic Analysis Modules.
+            project_org: https://github.com/BioSTEAMDevelopmentGroup
             repo_url: https://github.com/BioSTEAMDevelopmentGroup/biosteam
-            organization:
-              name: BioSTEAM Development Group
-            homepage_url: https://github.com/BioSTEAMDevelopmentGroup/biosteam
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
+            homepage_url: https://biosteam.readthedocs.io/en/latest/
             extra:
               topics: >-
                 distillation,flash,biorefinery,bioprocess,fermentation,thermodynamics,pump,monte-carlo,heat-exchanger,techno-economic-analysis,chemical-engineering,biochemical-process,unit-operation,process-simulation,sensitivity-analysis,reactor,centrifuge,life-cycle-assessment
@@ -1390,7 +1394,7 @@ landscape:
             logo: pandapipes.svg
             description: A pipeflow calculation tool that complements pandapower in the simulation of multi energy grids, in particular heat and gas networks.
             repo_url: https://github.com/e2nIEE/pandapipes
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-kassel
             homepage_url: https://www.pandapipes.org
           - item:
             name: The Hydrogen Risk Assessment Models
@@ -1416,26 +1420,25 @@ landscape:
             name: SciGRID_gas
             logo: SciGRID_gas.svg
             description: Methods to create an automated network model of the European gas transportation network.
+            license: Creative Commons Attribution 4.0 International
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/federal-ministry-for-economic-affairs-and-energy
             homepage_url: https://www.gas.scigrid.de/
           - item:
             name: Vehicle with Fuel Cell Powertrain
             logo: Vehicle with Fuel Cell Powertrain.svg
             description: Fuel cell electric vehicle with battery model and cooling system.
             repo_url: https://github.com/mathworks/Fuel-Cell-Vehicle-Model-Simscape
-            organization:
-              name: MathWorks
+            crunchbase: https://www.crunchbase.com/organization/mathworks
             homepage_url: https://github.com/mathworks/Fuel-Cell-Vehicle-Model-Simscape
           - item:
             name: VirtualFCS
             logo: VirtualFCS.svg
             description: A Modelica library for hybrid hydrogen fuel cell and battery power systems.
+            project_org: https://github.com/Virtual-FCS
             repo_url: https://github.com/Virtual-FCS/VirtualFCS
-            organization:
-              name: Virtual-FCS H2020
+            crunchbase: https://www.crunchbase.com/organization/sintef
             homepage_url: https://github.com/Virtual-FCS/VirtualFCS
-            extra: null
   - category:
     name: Energy Systems
     subcategories:
@@ -1522,8 +1525,7 @@ landscape:
             description: An easy to use open source tool for power system modeling, analysis and optimization with a high degree of automation.
             homepage_url: http://www.pandapower.org/
             repo_url: https://github.com/e2nIEE/pandapower
-            organization:
-              name: University of Kassel and Fraunhofer Institute for for Energy Economics and Energy System Technology (IEE) Kassel
+            crunchbase: https://www.crunchbase.com/organization/university-of-kassel
           - item:
             name: urbs
             logo: urbs.svg
@@ -3266,7 +3268,7 @@ landscape:
             extra:
               topics: energy-data,power-stations
             organization:
-              name: Open Source UK Energy Data
+              name: Open Source UK Energy Data (OSUKED)
             homepage_url: https://osuked.github.io/Power-Station-Dictionary/
           - item:
             name: ElexonDataPortal
@@ -3276,7 +3278,7 @@ landscape:
               Britain.
             repo_url: https://github.com/OSUKED/ElexonDataPortal
             organization:
-              name: Open Source UK Energy Data
+              name: Open Source UK Energy Data (OSUKED)
             homepage_url: https://osuked.github.io/ElexonDataPortal
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/189842391'
@@ -5023,7 +5025,8 @@ landscape:
             logo: footprint.svg
             description: An R package to calculate carbon footprints from air travel based on IATA airport codes or latitude and longitude.
             repo_url: https://github.com/acircleda/footprint
-            unnamed_organization: true
+            organization:
+              name: Anthony Schmidt
             homepage_url: https://github.com/acircleda/footprint
           - item:
             name: intensegRid
@@ -5094,7 +5097,7 @@ landscape:
             logo: gridemissions.svg
             description: Displays the hourly carbon footprint of the US electricity system.
             repo_url: https://github.com/jdechalendar/gridemissions
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://github.com/jdechalendar/gridemissions
       - subcategory:
         name: Carbon Capture and Removal
@@ -5237,14 +5240,14 @@ landscape:
               refs: ',https://doi.org/10.5194/essd-11-1783-2019,https://doi.org/10.18160/gcp-2019\n\nor\n\nGlobal'
               topics: data-package
           - item:
-            name: emissions-api
+            name: Emissions API
             logo: emissions-api.svg
             description: A solution that provides simple access to emissions data of climate-relevant gases.
+            project_org: https://github.com/emissions-api
             repo_url: https://github.com/emissions-api/emissions-api
             extra:
               topics: emissions-api,python,esa,sentinel-5,copernicus,remote-sensing,air-quality,citizen-science,hacktoberfest
-            organization:
-              name: Emissions API
+            crunchbase: https://www.crunchbase.com/organization/the-open-knowledge-foundation-deutschland-okf-de
             homepage_url: https://emissions-api.org
           - item:
             name: eixport
@@ -5291,12 +5294,12 @@ landscape:
                 ,http://doi.org/10.5281/zenodo.4741285,http://doi.org/10.5281/zenodo.4509372,http://doi.org/10.5281/zenodo.4509372,http://doi.org/10.5281/zenodo.4509372
               topics: emissions,data
           - item:
-            name: national-climate-plans
+            name: Nationally Determined Contributions (NDCs)
             logo: national-climate-plans.svg
             description: >-
               Intended Nationally Determined Contributions as provided in the UNFCCC registries, containing only the main document and using the English version
               if multiple are available.
-            repo_url: https://github.com/openclimatedata/national-climate-plans
+            repo_url: https://github.com/openclimatedata/ndcs
             extra:
               topics: data-package
             organization:
@@ -5415,7 +5418,8 @@ landscape:
             logo: FIRECAM.svg
             description: An online app for end-users to diagnose and explore regional differences in fire emissions from five global fire emissions inventories.
             repo_url: https://github.com/tianjialiu/FIRECAM
-            unnamed_organization: true
+            organization:
+              name: Tianjia Liu
             homepage_url: https://sites.google.com/view/firecam/home
             extra:
               refs: >-
@@ -5430,15 +5434,15 @@ landscape:
             repo_url: https://github.com/mmb-carb/ESTA
             extra:
               topics: emissions,air-pollution,modeling,inventory,on-road,automobiles
-            organization:
-              name: Modeling and Meteorology Branch of the California Air Resources Board
+            crunchbase: https://www.crunchbase.com/organization/california-air-resources-board
             homepage_url: https://github.com/mmb-carb/ESTA
           - item:
             name: FlyingClimate
             logo: FlyingClimate.svg
             description: Model the CO2 and non-CO2 effects like nitrogen oxide emissions and contrail formation to analyse aviation's total warming footprint.
             repo_url: https://github.com/milankl/FlyingClimate
-            unnamed_organization: true
+            organization:
+              name: Milan Klöwer
             homepage_url: https://github.com/milankl/FlyingClimate
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/314593749'
@@ -5450,15 +5454,14 @@ landscape:
             extra:
               topics: git-scraping,eu-ets-market
             organization:
-              name: Open Source UK Energy Data
+              name: Open Source UK Energy Data (OSUKED)
             homepage_url: https://OSUKED.github.io/ETS-Watch/
           - item:
             name: Industrial Smoke Plume Detection
             logo: Industrial Smoke Plume Detection.svg
             description: Characterization of Industrial Smoke Plumes from Remote Sensing Data.
             repo_url: https://github.com/HSG-AIML/IndustrialSmokePlumeDetection
-            organization:
-              name: Artificial Intelligence & Machine Learning (AI:ML Lab) @ HSG
+            crunchbase: https://www.crunchbase.com/organization/university-of-st-gallen
             homepage_url: https://github.com/HSG-AIML/IndustrialSmokePlumeDetection
             extra:
               refs: ',http://doi.org/10.5281/zenodo.4250706,http://doi.org/10.5281/zenodo.4250706'
@@ -5467,21 +5470,21 @@ landscape:
             logo: EDGAR.svg
             description: Emissions Database for Global Atmospheric Research.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://edgar.jrc.ec.europa.eu/
           - item:
             name: OpenGHGMap
             logo: OpenGHGMap.svg
             description: A city-level CO2 emissions inventory for Europe.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cdp-2
             homepage_url: https://openghgmap.net/
           - item:
             name: GCP-GridFED
             logo: GCP-GridFED.svg
             description: Gridded fossil CO2 emissions and related O2 combustion consistent with national inventories 1959-2018.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://zenodo.org/record/3958283
           - item:
             name: Integrated Carbon Observation System
@@ -5502,7 +5505,7 @@ landscape:
               The Global Database of Cement, Iron and Steel Production Assets provides information on global cement production plants that are operational
               today.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/smith-school-of-enterprise-and-the-environment-university-of-oxford
             homepage_url: https://www.cgfi.ac.uk/spatial-finance-initiative/geoasset-project/geoasset-databases/
           - item:
             name: The Global Registry of Fossil Fuels
@@ -9656,8 +9659,7 @@ landscape:
             repo_url: https://github.com/mathworks/climatedatastore
             extra:
               topics: climate-data,matlab,matlab-toolbox,data-science,data-analysis,climate
-            organization:
-              name: MathWorks
+            crunchbase: https://www.crunchbase.com/organization/mathworks
             homepage_url: https://github.com/mathworks/climatedatastore
           - item:
             name: semanticClimate
