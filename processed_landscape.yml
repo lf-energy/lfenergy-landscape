@@ -12431,15 +12431,29 @@ landscape:
               Python Generator of REnewable Time series and mAps: a tool that generates high-resolution potential maps and time series for user-defined regions
               within the globe.
             repo_url: https://github.com/tum-ens/pyGRETA
-            organization:
-              name: Chair of Renewable and Sustainable Energy Systems
-            homepage_url: https://github.com/tum-ens/pyGRETA
+            crunchbase: https://www.crunchbase.com/organization/potsdam-institute-for-climate-impact-research
+            homepage_url: https://pygreta.readthedocs.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/174577484,https://doi.org/10.5281/zenodo.3727416\n'
               topics: renewable-energy,renewable-timeseries,potentials,wind,pv,csp,gis,high-resolution
             crunchbase_data:
-              name: Chair of Renewable and Sustainable Energy Systems
+              name: Potsdam Institute for Climate Impact Research
+              description: Potsdam Institute for Climate Impact Research is a German government-funded research institute.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.pik-potsdam.de/
+              city: Potsdam
+              region: Brandenburg
+              country: Germany
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Non Profit
             github_data:
               languages:
                 - name: Python
@@ -12464,7 +12478,7 @@ landscape:
               start_date: '2019-03-08T17:08:34Z'
             image_data:
               fileName: py-greta.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: VeolmOCXHg1Mf9r3gEBk5naIlWlgTkSqbKSOgo5jpwM=
             best_practice_data:
               badge: false
               percentage: null
@@ -16844,7 +16858,7 @@ landscape:
               start_date: '2016-01-13T15:40:10Z'
             image_data:
               fileName: grid-cal.svg
-              hash: J+yEjzlO3f1MHwCvKES6saLzRzC+2CrJLOyL9WLL2lA=
+              hash: G4FKbaAGzLHWv2kYjO+CsnzlgOLcULisvtWyo4IFHvs=
             best_practice_data:
               badge: false
               percentage: null
@@ -26385,12 +26399,28 @@ landscape:
             repo_url: https://github.com/BlinkTagInc/node-gtfs
             extra:
               topics: gtfs,node-gtfs,transit,transit-data,public-transportation,sqlite,geojson
-            organization:
-              name: BlinkTag
+            crunchbase: https://www.crunchbase.com/organization/blinktag
             homepage_url: https://github.com/BlinkTagInc/node-gtfs
             crunchbase_data:
-              name: BlinkTag
+              name: Blinktag
+              description: Blinktag offers web-based tools and apps for transportation and city planning.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: https://blinktag.com
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: https://twitter.com/blinktaginc
+              linkedin: https://www.linkedin.com/company/blinktag-inc
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Information Technology
+                - Mobile Apps
+                - Small and Medium Businesses
+                - Web Apps
             github_data:
               languages:
                 - name: JavaScript
@@ -26421,7 +26451,7 @@ landscape:
               start_date: '2011-12-07T08:51:57Z'
             image_data:
               fileName: node-gtfs.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: g/jcDoWe/qDOGKz2OffhhuCeKB7BcHYHyZSzOiAwtJI=
             best_practice_data:
               badge: false
               percentage: null
@@ -58567,15 +58597,28 @@ landscape:
             logo: icclim.svg
             description: Python library for climate indices and climate indicators calculation.
             repo_url: https://github.com/cerfacs-globc/icclim
-            organization:
-              name: CERFACS GLOBC
+            crunchbase: https://www.crunchbase.com/organization/european-commission
             homepage_url: https://icclim.readthedocs.io/en/latest/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/15936714\n'
               topics: calculation-climate,climate-indices,python,climate-indicators,netcdf,climate-simulations,python-library,python-package,xclim,xarray,icclim
             crunchbase_data:
-              name: CERFACS GLOBC
+              name: European Commission
+              description: The European Commission is an institution of the European Union, responsible for proposing legislation and implementing decisions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://ec.europa.eu/commission/index_en
+              city: Brussels
+              region: Brussels Hoofdstedelijk Gewest
+              country: Belgium
+              twitter: https://twitter.com/EU_commission
+              linkedin: https://www.linkedin.com/company/european-commission/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Government
             github_data:
               languages:
                 - name: Python
@@ -58603,10 +58646,12 @@ landscape:
               start_date: '2014-01-15T14:19:19Z'
             image_data:
               fileName: icclim.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: u2SfGgV2T6bBuqOjB9IFvzsuzocKXb/tsMm5ploJPbo=
             best_practice_data:
               badge: 6495
               percentage: 79
+            twitter_data:
+              latest_tweet_date: 2023-04-20T14:05:12.000Z
           - item:
             name: DeepSphere
             logo: DeepSphere.svg
@@ -61053,25 +61098,32 @@ landscape:
               A process-based model that simulates climate and land-use change impacts on the terrestrial biosphere, the water and carbon cycle and on
               agricultural production.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/potsdam-institute-for-climate-impact-research
             homepage_url: https://gitlab.pik-potsdam.de/lpjml/LPJmL
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Potsdam Institute for Climate Impact Research
+              description: Potsdam Institute for Climate Impact Research is a German government-funded research institute.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.pik-potsdam.de/
+              city: Potsdam
+              region: Brandenburg
+              country: Germany
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Non Profit
             image_data:
               fileName: lp-jm-l.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 22CUR4b9K9mPse8dcPW+tOoSK435bEL5CT2X7aWQ2fM=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: ENGAGE
             logo: ENGAGE.svg
@@ -80066,16 +80118,33 @@ landscape:
             logo: awesome-transit.svg
             description: Community list of transit APIs, apps, datasets, research, and software.
             repo_url: https://github.com/CUTR-at-USF/awesome-transit
-            organization:
-              name: Center for Urban Transportation Research @ USF
+            crunchbase: https://www.crunchbase.com/organization/university-of-south-florida
             homepage_url: https://github.com/CUTR-at-USF/awesome-transit
             extra:
               topics: >-
                 transit,gtfs,awesome-list,bus,datasets,awesome,list,tools,transit-data,gtfs-feed,gtfs-realtime,gtfs-validator,gtfs-files,transit-map,transit-agencies,realtime-data,gtfs-utils,gtfs-libraries,gtfs-converters,gtfs-analysis
               refs: ',https://doi.org/10.5198/jtlu.2022.2012'
             crunchbase_data:
-              name: Center for Urban Transportation Research @ USF
+              name: University of South Florida
+              description: University of South Florida is a public research university located in Tampa, Florida.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.usf.edu
+              city: Tampa
+              region: Florida
+              country: United States
+              twitter: http://twitter.com/USouthFlorida
+              linkedin: https://www.linkedin.com/company/usouthflorida
+              acquisitions: []
               parents: []
+              funding: 144000000
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Training
+                - Universities
+              kind: funding
             github_data:
               languages: []
               contributions: 1;3;2;1;0;2;0;1;0;2;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;8;0;0;0
@@ -80095,7 +80164,7 @@ landscape:
               start_date: '2015-08-13T00:38:54Z'
             image_data:
               fileName: awesome-transit.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Jl6A/T11PoBP6QfSX6rjhEWHezXSUw+mfFiizdqumk4=
             best_practice_data:
               badge: false
               percentage: null
