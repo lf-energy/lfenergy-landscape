@@ -1219,7 +1219,7 @@ landscape:
             logo: CAEBAT OAS.svg
             description: A flexible, robust, and computationally scalable open-architecture framework that integrates multi-physics and multi- scale battery models.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/oak-ridge-national-laboratory
             homepage_url: https://vibe.ornl.gov/#introduction
           - item:
             name: universal-battery-database
@@ -5651,7 +5651,7 @@ landscape:
             logo: Federal LCA Commons.svg
             description: A central point of access to a collection of data repositories for use in Life Cycle Assessment.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://www.lcacommons.gov/
           - item:
             name: Trase
@@ -5739,7 +5739,7 @@ landscape:
             logo: Trash-ICRA19.svg
             description: A Bounding Box Labeled Dataset of Underwater Trash.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-minnesota
             homepage_url: https://conservancy.umn.edu/handle/11299/214366
           - item:
             name: TACO
@@ -5899,7 +5899,7 @@ landscape:
               The images acquired by ECOSTRESS are the most detailed temperature images of the surface ever acquired from space and can be used to measure the
               temperature of an individual farmers field and plants.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/jet-propulsion-laboratory
             homepage_url: https://ecostress.jpl.nasa.gov/
           - item:
             name: carbon budget
@@ -5940,8 +5940,7 @@ landscape:
             logo: BIOMASS.svg
             description: An R package for estimating aboveground biomass and its uncertainty in tropical forests.
             repo_url: https://github.com/umr-amap/BIOMASS
-            organization:
-              name: UMR AMAP
+            crunchbase: https://www.crunchbase.com/organization/cirad
             homepage_url: https://github.com/umr-amap/BIOMASS
           - item:
             name: forest
@@ -6096,7 +6095,8 @@ landscape:
             repo_url: https://github.com/brycefrank/pyfor
             extra:
               topics: lidar,forestry,las,forest-inventory
-            unnamed_organization: true
+            organization:
+              name: Bryce Frank
             homepage_url: https://github.com/brycefrank/pyfor
           - item:
             name: DeepForest
@@ -6538,8 +6538,7 @@ landscape:
               Provide information about the impacts of changing climate and other factors on the distribution of marine life to the National Climate Assessment,
               fisheries communities, policymakers, and to others.
             repo_url: https://github.com/pinskylab/OceanAdapt
-            organization:
-              name: Global Change Ecology & Evolution Research Group
+            crunchbase: https://www.crunchbase.com/organization/rutgers-university
             homepage_url: http://oceanadapt.rutgers.edu
             extra:
               refs: >-
@@ -6938,7 +6937,7 @@ landscape:
             repo_url: https://github.com/pyinat/pyinaturalist
             extra:
               topics: python,inaturalist,api-client,api,biodiversity,biodiversity-data,biodiversity-informatics,citizen-science
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/inaturalist
             homepage_url: https://pyinaturalist.readthedocs.io
           - item:
             name: TaxonWorks
@@ -7186,7 +7185,7 @@ landscape:
             repo_url: https://github.com/Joel-hanson/Iceberg-locations
             extra:
               topics: climate-change,iceberg,python,beautifulsoup4,scraping
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/brigham-young-university
             homepage_url: https://www.scp.byu.edu/current_icebergs.html
           - item:
             name: GlaThiDa
@@ -7457,7 +7456,7 @@ landscape:
             logo: CoralNet.svg
             description: A repository and resource for benthic image analysis.
             repo_url: https://github.com/beijbom/coralnet
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-california-san-diego
             homepage_url: http://coralnet.ucsd.edu/
           - item:
             name: Ferret
@@ -10985,7 +10984,7 @@ landscape:
             logo: Simsphere.svg
             description: A one-dimensional model that allows one to simulate the transfer of heat and moisture between plants, soil and atmosphere over a 24 hour day.
             repo_url: https://github.com/tjc181/simsphere
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/pennsylvania-state-university
             homepage_url: https://simsphere.ems.psu.edu
           - item:
             name: CryoGrid3
@@ -11852,8 +11851,7 @@ landscape:
             logo: US Sustainable Development Goal indicators.svg
             description: U.S. National Reporting Platform for the Sustainable Development Goals.
             repo_url: https://github.com/GSA/sdg-indicators-usa
-            organization:
-              name: U.S. General Services Administration
+            crunchbase: https://www.crunchbase.com/organization/us-general-services-administration
             homepage_url: https://sdg.data.gov
           - item:
             name: SDGIO
@@ -12217,14 +12215,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/salish-sea-research-center
             homepage_url: https://salishsearestoration.org/
           - item:
-            name: Justice40 Tool
+            name: Climate and Economic Justice Screening Tool
             logo: Justice40 Tool.svg
             description: A tool to identify disadvantaged communities due to environmental, socioeconomic and health burdens.
             repo_url: https://github.com/usds/justice40-tool
             extra:
               topics: open-source,environmental-justice,climate-change
-            organization:
-              name: U.S. Digital Service
+            crunchbase: https://www.crunchbase.com/organization/u-s-digital-service
             homepage_url: https://screeningtool.geoplatform.gov/
           - item:
             name: Net Zero Tracker
