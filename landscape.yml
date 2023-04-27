@@ -7010,7 +7010,7 @@ landscape:
             repo_url: https://github.com/acannistra/planet-snowcover
             extra:
               topics: planet-labs,computer-vision,cloud-native
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
             homepage_url: https://planet-snowcover.readthedocs.io/en/latest/
           - item:
             name: Sea ice drift
@@ -7032,12 +7032,13 @@ landscape:
             unnamed_organization: true
             homepage_url: https://github.com/smrt-model/smrt
           - item:
-            name: OGGM
+            name: Open Global Glacier Model
             logo: OGGM.svg
             description: A modular open source model for glacier dynamics.
+            project_org: https://github.com/OGGM
             repo_url: https://github.com/OGGM/oggm
             organization:
-              name: Open Global Glacier Model
+              name: OGGM e.V.
             homepage_url: http://oggm.org
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/43965645\n'
@@ -7054,9 +7055,9 @@ landscape:
             name: PISM
             logo: PISM.svg
             description: The Parallel Ice Sheet Model is an open source, parallel, high-resolution ice sheet model.
+            project_org: https://github.com/pism
             repo_url: https://github.com/pism/pism
-            organization:
-              name: Parallel Ice Sheet Model
+            crunchbase: https://www.crunchbase.com/organization/university-of-alaska-fairbanks
             homepage_url: https://pism.io/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.1199019\n'
@@ -7066,9 +7067,8 @@ landscape:
             logo: icepack.svg
             description: Finite element modeling of glaciers and ice sheets.
             repo_url: https://github.com/CICE-Consortium/Icepack
-            organization:
-              name: CICE Consortium
-            homepage_url: https://github.com/CICE-Consortium/Icepack
+            crunchbase: https://www.crunchbase.com/organization/us-department-of-energy
+            homepage_url: https://cice-consortium-icepack.readthedocs.io/
           - item:
             name: DeepBedMap
             logo: DeepBedMap.svg
@@ -7129,8 +7129,7 @@ landscape:
             logo: freshwater.svg
             description: Greenland liquid water runoff from 1958 through 2019.
             repo_url: https://github.com/GEUS-Glaciology-and-Climate/freshwater
-            organization:
-              name: GEUS Glaciology and Climate
+            crunchbase: https://www.crunchbase.com/organization/geus-375a
             homepage_url: https://doi.org/10.5194/essd-12-2811-2020
             extra:
               refs: >-
@@ -7161,8 +7160,8 @@ landscape:
             repo_url: https://github.com/icesat2py/icepyx
             extra:
               topics: icesat-2,community-driven,python3,hacktoberfest,closember
-            unnamed_organization: true
-            homepage_url: https://icepyx.readthedocs.io/en/latest/
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
+            homepage_url: https://icepyx.readthedocs.io/
           - item:
             name: BedMachine
             logo: BedMachine.svg
@@ -7681,12 +7680,12 @@ landscape:
             name: COSIMA
             logo: COSIMA.svg
             description: Ocean and sea-ice model analysis tools and examples.
+            project_org: https://github.com/COSIMA
             repo_url: https://github.com/COSIMA/cosima-cookbook
             extra:
               topics: ocean,mom,analysis
-            organization:
-              name: COSIMA
-            homepage_url: https://github.com/COSIMA/cosima-cookbook
+            crunchbase: https://www.crunchbase.com/organization/australian-national-university
+            homepage_url: https://cosima.org.au/
           - item:
             name: WaterDetect
             logo: WaterDetect.svg
@@ -7802,16 +7801,16 @@ landscape:
             repo_url: https://github.com/euroargodev/argopy
             extra:
               topics: argo,python,argo-floats,oceanography,argo-data
-            organization:
-              name: Euro-Argo ERIC
+            crunchbase: https://www.crunchbase.com/organization/ifremer
             homepage_url: https://argopy.readthedocs.io
           - item:
             name: eWaterCycle
             logo: eWaterCycle.svg
             description: Makes it easier to use hydrological models without having intimate knowledge about how to install and run the models.
+            project_org: https://github.com/eWaterCycle
             repo_url: https://github.com/eWaterCycle/ewatercycle
-            unnamed_organization: true
-            homepage_url: https://github.com/eWaterCycle/ewatercycle
+            crunchbase: https://www.crunchbase.com/organization/netherlands-escience-centre-nlesc
+            homepage_url: https://www.ewatercycle.org/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5119389'
           - item:
@@ -10716,20 +10715,14 @@ landscape:
         name: Soil and Land
         items:
           - item:
-            name: SoilGrids250m
-            logo: SoilGrids250m.svg
-            description: Global Spatial predictions of soil properties and classes at 250 m resolution.
-            repo_url: https://github.com/ISRICWorldSoil/SoilGrids250m
-            organization:
-              name: ISRIC — World Soil Information
-            homepage_url: https://github.com/ISRICWorldSoil/SoilGrids250m
-          - item:
             name: SoilGrids
             logo: SoilGrids.svg
             description: A system for automated soil mapping based on global soil profile and environmental covariate data at 250 m spatial resolution.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://git.wur.nl/isric/soilgrids/soilgrids.notebooks/
+            crunchbase: https://www.crunchbase.com/organization/wageningen-university-and-research-centre
+            homepage_url: https://soilgrids.org/
+            repo_url: https://github.com/ISRICWorldSoil/SoilGrids250m
+            additional_repos:
+              - repo_url: https://git.wur.nl/isric/soilgrids/soilgrids.notebooks/
           - item:
             name: Hyperspectral Soilmoisture Dataset
             logo: Hyperspectral Soilmoisture Dataset.svg
@@ -10955,7 +10948,7 @@ landscape:
             extra:
               topics: >-
                 qgis-plugin,conservation,remote-sensing,python,sdgs,sustainable-development-goals,conservation-international,unccd,ldn,gef,toolbox,trends,land,earth,land-degradation,climate,climate-change,natural-climate-solutions
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/conservation-international
             homepage_url: http://trends.earth
           - item:
             name: pycoal
@@ -11139,9 +11132,9 @@ landscape:
             logo: Soil Erosion Watch.svg
             description: A Google Earth Engine App to explore the state of the world's degraded soils.
             repo_url: https://github.com/SoilWatch/soil-erosion-watch
-            organization:
-              name: SoilWatch
-            homepage_url: https://github.com/SoilWatch/soil-erosion-watch
+            crunchbase: https://www.crunchbase.com/organization/soilwatch
+            homepage_url: https://soilwatch.eu/
+            project_org: https://github.com/SoilWatch
           - item:
             name: Land Matrix
             logo: Land Matrix.svg
@@ -11179,9 +11172,18 @@ landscape:
             logo: Terraso.svg
             description: Develop an open source technology platform to help local community leaders practice Integrated Landscape Management.
             repo_url: https://github.com/techmatters/terraso-backend
-            organization:
-              name: Tech Matters
-            homepage_url: https://github.com/techmatters/terraso-backend
+            additional_repos:
+              - repo_url: https://github.com/techmatters/terraso-wp-theme
+              - repo_url: https://github.com/techmatters/terraso-web-client-e2e
+              - repo_url: https://github.com/techmatters/terraso-web-client
+              - repo_url: https://github.com/techmatters/terraso-backend
+              - repo_url: https://github.com/techmatters/terraso-ilm-guide-plugin
+              - repo_url: https://github.com/techmatters/terraso-mobile-client
+              - repo_url: https://github.com/techmatters/terraso-allauth
+              - repo_url: https://github.com/techmatters/terraso-cron-job
+              - repo_url: https://github.com/techmatters/terraso-library-prototype
+            crunchbase: https://www.crunchbase.com/organization/techmatters
+            homepage_url: https://terraso.org/
           - item:
             name: Open Soil Spectral Library
             logo: Open Soil Spectral Library.svg
@@ -11424,15 +11426,6 @@ landscape:
             organization:
               name: Karrot Dev
             homepage_url: https://karrot.world
-          - item:
-            name: AquaCropR
-            logo: AquaCropR.svg
-            description: >-
-              Implementation of the AquaCrop crop growth model developed by FAO to address food security and assess the effect of the environment and management
-              on crop production.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://bitbucket.org/anyelacamargo/aquacropr/
           - item:
             name: openfoodnetwork
             logo: openfoodnetwork.svg
@@ -12437,9 +12430,9 @@ landscape:
             name: openEO
             logo: openEO.svg
             description: Provides intuitive programming libraries to process a wide variety of earth observation datasets.
+            project_org: https://github.com/Open-EO
             repo_url: https://github.com/Open-EO/openeo-python-client
-            organization:
-              name: openEO
+            crunchbase: https://www.crunchbase.com/organization/university-of-m-nster
             homepage_url: https://github.com/Open-EO/openeo-python-client
           - item:
             name: MeCCO
