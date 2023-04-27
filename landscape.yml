@@ -5957,8 +5957,7 @@ landscape:
             logo: SEPAL.svg
             description: System for Earth Observation Data Access, Processing and Analysis for Land Monitoring.
             repo_url: https://github.com/openforis/sepal
-            organization:
-              name: Open Foris
+            crunchbase: https://www.crunchbase.com/organization/fao
             homepage_url: https://sepal.io/
           - item:
             name: Forest Carbon database
@@ -6300,8 +6299,7 @@ landscape:
             repo_url: https://github.com/pyronear/pyro-vision
             extra:
               topics: wildfire,python,deep-learning,pytorch,image-classification,object-detection,keypoint-detection,computer-vision
-            organization:
-              name: PyroNear
+            crunchbase: https://www.crunchbase.com/organization/pyronear
             homepage_url: https://pyronear.org/pyro-vision/
           - item:
             name: auk
@@ -6380,8 +6378,7 @@ landscape:
               Build and maintain a global alliance that collaborates with scientific communities to facilitate free and open access to, and application of,
               biodiversity and biogeographic data and information on marine life.
             repo_url: https://github.com/iobis/robis
-            organization:
-              name: OBIS
+            crunchbase: https://www.crunchbase.com/organization/unesco
             homepage_url: https://iobis.github.io/robis
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/47509713'
@@ -6427,8 +6424,7 @@ landscape:
               An R package that contains a set of tools suitable for calculating the metrics required for making assessments of species and ecosystems against
               the IUCN Red List of Threatened Species and the IUCN Red List of Ecosystems categories and criteria.
             repo_url: https://github.com/red-list-ecosystem/redlistr
-            organization:
-              name: IUCN Red List of Ecosystems Science Team
+            crunchbase: https://www.crunchbase.com/organization/iucn
             homepage_url: https://github.com/red-list-ecosystem/redlistr
           - item:
             name: ALA4R
@@ -6458,7 +6454,7 @@ landscape:
             logo: pywdpa.svg
             description: Python interface to the World Database on Protected Areas.
             repo_url: https://github.com/ghislainv/pywdpa
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cirad
             homepage_url: https://ecology.ghislainv.fr/pywdpa
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4275513\n'
@@ -6580,8 +6576,7 @@ landscape:
             repo_url: https://github.com/pyronear/pyro-risks
             extra:
               topics: python3,wildfire-forecasting,scikit-learn
-            organization:
-              name: PyroNear
+            crunchbase: https://www.crunchbase.com/organization/pyronear
             homepage_url: https://pyronear.github.io/pyro-risks
           - item:
             name: Tree Mapper App
@@ -6800,7 +6795,7 @@ landscape:
             logo: spanner.svg
             description: Utilities to support landscape-, forest-, and tree-related data collection, manipulation, analysis, modelling, and visualization.
             repo_url: https://github.com/bi0m3trics/spanner
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/northern-arizona-university
             homepage_url: https://github.com/bi0m3trics/spanner
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4624277,https://doi.org/10.3390/rs13122297,https://doi.org/10.3390/rs13122297\n\n```r\nlibrary(spanner)\n\n#'
@@ -6870,8 +6865,7 @@ landscape:
             repo_url: https://github.com/usa-npn/rnpn
             extra:
               topics: web-api,species,data,rstats,r,national-phenology-network,phenology,r-package
-            organization:
-              name: USA National Phenology Network
+            crunchbase: https://www.crunchbase.com/organization/usa-national-phenology-network
             homepage_url: https://rdrr.io/cran/rnpn/
           - item:
             name: California Forest Observatory
@@ -6908,7 +6902,7 @@ landscape:
             extra:
               topics: taxonomy,life,science,biodiversity,nomenclature
             organization:
-              name: COL
+              name: Species 2000
             homepage_url: https://github.com/CatalogueOfLife/general
           - item:
             name: Darwin Core
@@ -6946,8 +6940,7 @@ landscape:
             repo_url: https://github.com/SpeciesFileGroup/taxonworks
             extra:
               topics: species,biodiversity-informatics,ruby,taxonomy,biodiversity,describe,life,evolution,nomenclature,collections
-            organization:
-              name: Species File Group
+            crunchbase: https://www.crunchbase.com/organization/illinois-natural-history-survey
             homepage_url: http://taxonworks.org
           - item:
             name: bioRad
@@ -6964,7 +6957,7 @@ landscape:
             logo: spatialEco.svg
             description: R package for spatial analysis and modelling of ecological systems.
             repo_url: https://github.com/jeffreyevans/spatialEco
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/the-nature-conservancy
             homepage_url: https://github.com/jeffreyevans/spatialEco
           - item:
             name: allodb
@@ -6999,7 +6992,8 @@ landscape:
               Increase the accessibility and use of the USFS Forest Inventory and Analysis Database by providing a user-friendly, open source platform to easily
               query and analyze.
             repo_url: https://github.com/hunter-stanke/rFIA
-            unnamed_organization: true
+            organization:
+              name: Hunter Stanke
             homepage_url: https://rfia.netlify.com/
             extra:
               refs: ',https://doi.org/10.1016/j.envsoft.2020.104664,https://doi.org/10.1016/j.envsoft.2020.104664'
@@ -10925,7 +10919,7 @@ landscape:
             logo: ISRaD.svg
             description: Improve the use of radiocarbon as a constraint for understanding the soil carbon cycle.
             repo_url: https://github.com/International-Soil-Radiocarbon-Database/ISRaD
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/u-s-department-of-agriculture
             homepage_url: https://international-soil-radiocarbon-database.github.io/ISRaD/
             extra:
               refs: ',https://doi.org/10.5194/essd-12-61-2020,https://doi.org/10.5194/essd-12-61-2020'
@@ -10946,12 +10940,12 @@ landscape:
             name: OpenFLUID
             logo: OpenFLUID.svg
             description: A software environment for modeling and simulation of complex landscape systems.
+            project_org: https://github.com/OpenFLUID
             repo_url: https://github.com/OpenFLUID/openfluid
             extra:
               topics: >-
                 modelling,simulation,complex-systems,environmental-engineering,c-plus-plus,boost,gdal,cmake,gui,openfluid-framework,linux,ogr,qt5,science,simulators
-            organization:
-              name: OpenFLUID
+            crunchbase: https://www.crunchbase.com/organization/inrae
             homepage_url: https://www.openfluid-project.org/
           - item:
             name: Trends.Earth
@@ -11112,14 +11106,14 @@ landscape:
               name: eMapR Lab
             homepage_url: https://emapr.github.io/LT-GEE
           - item:
-            name: Full Lands INtegration Tool
+            name: Full Lands INtegration Tool (FLINT)
             logo: Full Lands INtegration Tool.svg
             description: A modular system to estimate greenhouse gas emissions and removals by the land sector.
-            repo_url: https://github.com/moja-global/About_moja_global
+            project_org: https://github.com/moja-global
+            repo_url: https://github.com/moja-global/FLINT
             extra:
               topics: moja-global,flint,climate-change,hacktoberfest,governance,contributing
-            organization:
-              name: moja global
+            crunchbase: https://www.crunchbase.com/organization/linux-foundation
             homepage_url: https://github.com/moja-global/About_moja_global
           - item:
             name: ismn
@@ -11153,8 +11147,7 @@ landscape:
             logo: Land Matrix.svg
             description: Independent global land monitoring initiative that promotes transparency & accountability in decisions over large-scale land acquisitions.
             repo_url: https://github.com/sinnwerkstatt/landmatrix
-            organization:
-              name: Sinnwerkstatt
+            crunchbase: https://www.crunchbase.com/organization/sinnwerkstatt-media-agency
             homepage_url: https://landmatrix.org
           - item:
             name: SITS
@@ -11163,23 +11156,21 @@ landscape:
             repo_url: https://github.com/e-sensing/sits
             extra:
               topics: remote-sensing,satellite-imagery,big-earth-data,geospatial,data-cubes
-            organization:
-              name: e-sensing
+            crunchbase: https://www.crunchbase.com/organization/instituto-nacional-de-pesquisas-espaciais
             homepage_url: https://e-sensing.github.io/sitsbook/
           - item:
             name: iSDAsoil
             logo: iSDAsoil.svg
             description: Open access soil property map with 30m resolution for Africa.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/iSDA-Africa/open-soil-data
+            crunchbase: https://www.crunchbase.com/organization/isda-cdf0
             homepage_url: https://www.isda-africa.com/isdasoil/
           - item:
             name: Landlab
             logo: Landlab.svg
             description: An open source Python package for numerical modeling of Earth surface dynamics.
             repo_url: https://github.com/landlab/landlab
-            organization:
-              name: Landlab
+            crunchbase: https://www.crunchbase.com/organization/university-of-colorado-boulder-566f
             homepage_url: https://landlab.readthedocs.io/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3776837\n\n,https://doi.org/10.5194/esurf-8-379-2020,https://doi.org/10.5281/zenodo.595872\n\n'
@@ -11197,15 +11188,16 @@ landscape:
             description: >-
               Brings together soil scientists, spectroscopists, informaticians, data scientists and software engineers to overcome some of the current
               bottlenecks preventing wider and more efficient use of soil spectroscopy.
-            repo_url: null
-            unnamed_organization: true
+            project_org: https://github.com/soilspectroscopy
+            repo_url: https://github.com/soilspectroscopy/ossl-manual
+            crunchbase: https://www.crunchbase.com/organization/woodwell-climate-research-center
             homepage_url: https://soilspectroscopy.github.io/ossl-manual/
           - item:
             name: OpenLand
             logo: OpenLand.svg
             description: Tool for Quantitative Analysis and Visualization of Land Use and Land Cover Change.
             repo_url: https://github.com/reginalexavier/OpenLand
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/universidade-de-so-paulo
             homepage_url: https://reginalexavier.github.io/OpenLand/articles/openland_vignette.html
             extra:
               refs: >-
@@ -11547,8 +11539,7 @@ landscape:
             name: Food and Agriculture Organization Corporate Statistical Database
             logo: Food and Agriculture Organization Corporate Statistical Database.svg
             description: Disseminates statistical data collected and maintained by the Food and Agriculture Organization.
-            repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/fao
             homepage_url: http://www.fao.org/faostat/en/#data
           - item:
             name: Growstuff
@@ -12314,7 +12305,7 @@ landscape:
             logo: Food and Agriculture Organization Map Catalog.svg
             description: Allows to easily share geographically referenced thematic information between different organizations.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/fao
             homepage_url: https://data.apps.fao.org/
           - item:
             name: The Subak Data Catalogue
