@@ -152,7 +152,7 @@ landscape:
               effective_ticker: SPWR
             image_data:
               fileName: pvfactors.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: cPptjfnXnTkdXYMhVk4XXhwog2raqjGzSVYrDkc0hJ0=
             best_practice_data:
               badge: false
               percentage: null
@@ -9519,15 +9519,29 @@ landscape:
             logo: urbs.svg
             description: A linear optimization model for distributed energy systems.
             repo_url: https://github.com/tum-ens/urbs
-            organization:
-              name: Chair of Renewable and Sustainable Energy Systems
-            homepage_url: https://github.com/tum-ens/urbs
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-munich
+            homepage_url: https://urbs.readthedocs.io
             extra:
               refs: ',https://doi.org/10.5281/zenodo.594200'
               topics: python,pyomo,pandas,optimisation-model,mathematical-modelling,linear-programming,energy-system
             crunchbase_data:
-              name: Chair of Renewable and Sustainable Energy Systems
+              name: Technical University of Munich
+              description: 'The Technical University of Munich (TUM) is one of Europe''s leading universities. '
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.tum.de
+              city: München
+              region: Bayern
+              country: Germany
+              twitter: https://twitter.com/tu_muenchen
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 7500000
+              stockExchange: null
+              company_type: ''
+              industries: []
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -9555,7 +9569,7 @@ landscape:
               start_date: '2014-01-24T12:47:32Z'
             image_data:
               fileName: urbs.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: P+/NyEdHROhvRcDysB+5n4z3HJncIFAkD89POAHn2yg=
             best_practice_data:
               badge: false
               percentage: null
@@ -11777,26 +11791,35 @@ landscape:
             name: OMEGAlpes
             logo: OMEGAlpes.svg
             description: Aims to be an energy systems modeling tool for linear optimization (LP, MILP).
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://gricad-gitlab.univ-grenoble-alpes.fr/omegalpes/omegalpes
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            license: Apache License 2.0
+            crunchbase: https://www.crunchbase.com/organization/grenoble-alpes-university
+            homepage_url: https://omegalpes-examples.readthedocs.io/
+            repo_url: https://gricad-gitlab.univ-grenoble-alpes.fr/omegalpes/omegalpes
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University Grenoble Alpes
+              description: The University Grenoble Alpes is a major player in higher education and research in France.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.univ-grenoble-alpes.fr/en/home-page-136826.kjsp
+              city: Saint-martin-d'heres
+              region: Rhone-Alpes
+              country: France
+              twitter: https://twitter.com/UGrenobleAlpes
+              linkedin: https://www.linkedin.com/school/universit%C3%A9-grenoble-alpes/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+            repos:
+              - url: https://gricad-gitlab.univ-grenoble-alpes.fr/omegalpes/omegalpes
             image_data:
               fileName: omeg-alpes.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: zNiU2NVkjU0l0EEXTsiLTRkaivziJrdul2DKRqBYZ20=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: deflex
             logo: deflex.svg
@@ -11988,76 +12011,135 @@ landscape:
               Extracts, filters and categorizes the geo-referenced urban energy infrastructure and allocates the required decentralized storage in urban
               settings.
             repo_url: https://github.com/FlexiGIS/FlexiGIS
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/german-aerospace-center
             homepage_url: https://github.com/FlexiGIS/FlexiGIS
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4497334'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: DLR
+              description: DLR is the research center of the Federal Republic of Germany for aerospace.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.dlr.de
+              city: Cologne
+              region: Nordrhein-Westfalen
+              country: Germany
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries: []
             github_data:
               languages:
                 - name: Python
-                  value: 78786
+                  value: 434263
                   color: '#3572A5'
+                - name: JavaScript
+                  value: 101799
+                  color: '#f1e05a'
                 - name: Makefile
-                  value: 19226
+                  value: 48906
                   color: '#427819'
-              contributions: 0;0;0;0;0;15;0;0;0;0;0;0;0;0;0;0;1;0;0;0;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 13
+                - name: CSS
+                  value: 20830
+                  color: '#563d7c'
+                - name: HTML
+                  value: 19894
+                  color: '#e34c26'
+                - name: Batchfile
+                  value: 4126
+                  color: '#C1F12E'
+                - name: Shell
+                  value: 2446
+                  color: '#89e051'
+              contributions: 15;2;0;3;0;6;1;0;0;1;0;1;0;0;0;1;1;0;2;6;3;3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0;0
+              firstWeek: 2022-05-08Z
+              stars: 21
               license: Unknown License
               description: 'FlexiGIS: Open source GIS-based platform for the optimisation of flexibility options in urban areas'
               latest_commit_date: '2023-02-22T10:10:26Z'
               latest_commit_link: /FlexiGIS/FlexiGIS/commit/e22d4959662efc7de6a95e7b62882436c5381c08
               release_date: '2021-02-03T08:41:08Z'
               release_link: https://github.com/FlexiGIS/FlexiGIS/releases
-              contributors_count: 5
+              contributors_count: 6
               contributors_link: https://github.com/FlexiGIS/FlexiGIS/graphs/contributors
             repos:
               - url: https://github.com/FlexiGIS/FlexiGIS
-                stars: 13
+                stars: 14
+              - url: https://github.com/FlexiGIS/FlexiGIS-plugin
+                stars: 3
+              - url: https://github.com/FlexiGIS/FlexiGIS-Grid
+                stars: 2
+              - url: https://github.com/FlexiGIS/FlexiGIS_light
+                stars: 1
+              - url: https://github.com/FlexiGIS/FlexiGIS_Philadelphia
+                stars: 1
             github_start_commit_data:
-              start_commit_link: /FlexiGIS/FlexiGIS/commit/5ba1030c4c71f8b65c68efbff3dc8e7d10648dad
-              start_date: '2019-12-02T08:47:34Z'
+              start_commit_link: /FlexiGIS/FlexiGIS_Philadelphia/commit/766e726c0ba0042c96cc1a577d824ce74e2c70a2
+              start_date: '2019-11-04T12:42:18Z'
             image_data:
               fileName: flexi-gis.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 6fVMjuzY1Wnq+WDUNmCsslscLzBIwkxmn+a10f26G2Y=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: EMMA
             logo: EMMA.svg
             description: A techno-economic model of the north-west European power market covering France, Benelux, Germany and Poland.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://neon.energy/emma/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            project_org: https://github.com/emma-model
+            repo_url: https://github.com/emma-model/EMMA
+            crunchbase: https://www.crunchbase.com/organization/hertie-school-of-governance
+            homepage_url: https://emma-model.com/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Hertie School of Governance
+              description: The Hertie School of Governance is a private university based in Berlin, accredited by the State and the German Science Council.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: http://www.hertie-school.org
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: http://twitter.com/thehertieschool
+              linkedin: https://www.linkedin.com/company/hertie-school-of-governance
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
+            github_data:
+              description: null
+              contributors_count: 2
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0
+              stars: 13
+              languages:
+                - name: Jupyter Notebook
+                  value: 416977
+                  color: '#DA5B0B'
+                - name: GAMS
+                  value: 66551
+                - name: Python
+                  value: 46360
+                  color: '#3572A5'
+              latest_commit_link: /emma-model/EMMA/commit/d4c60a2a3c9d6db9d9ffe3ad21eaf3079a1d689b
+              latest_commit_date: '2023-01-25T16:40:56Z'
+              firstWeek: 2022-05-08Z
+              license: Other
+              contributors_link: https://github.com/emma-model/EMMA/graphs/contributors
+            repos:
+              - url: https://github.com/emma-model/EMMA
+                stars: 13
+            github_start_commit_data:
+              start_commit_link: /emma-model/EMMA/commit/4ac0bdfd5cc43926e07ea9f2cf7cc59adfa42035
+              start_date: '2020-06-26T10:52:13Z'
             image_data:
               fileName: emma.svg
               hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: reVX
             logo: reVX.svg
@@ -12133,20 +12215,15 @@ landscape:
             logo: CapacityExpansion.jl.svg
             description: Future energy system planning (Generation and Transmission Capacity Expansion Planning) in Julia.
             repo_url: https://github.com/YoungFaithful/CapacityExpansion.jl
-            unnamed_organization: true
+            organization:
+              name: Elias Kuepper, Holger Teichgraeber
             homepage_url: https://youngfaithful.github.io/CapacityExpansion.jl/stable
             extra:
               refs: >-
                 ,https://zenodo.org/badge/latestdoi/178281868,https://doi.org/10.21105/joss.02034,https://doi.org/10.21105/joss.02034,https://doi.org/10.21105/joss.02034,https://doi.org/10.21105/joss.02034
               topics: capacity-expansion-planning,energy,energy-optimization-model,julia,jump,clustering,california,germany
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Elias Kuepper, Holger Teichgraeber
               parents: []
             github_data:
               languages:
@@ -12175,12 +12252,10 @@ landscape:
               start_date: '2017-05-08T03:50:49Z'
             image_data:
               fileName: capacity-expansion-jl.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: W00OPjnATXkZD35tac4vJL+nzKhQJz7cAk9tYuth/ms=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: GenX
             logo: GenX.svg
@@ -12188,17 +12263,33 @@ landscape:
               A highly-configurable, open source electricity resource capacity expansion model that incorporates several state-of-the-art practices in
               electricity system planning to offer improved decision support for a changing electricity landscape.
             repo_url: https://github.com/GenXProject/GenX
-            unnamed_organization: true
-            homepage_url: https://genxproject.github.io/GenX/dev/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            crunchbase: https://www.crunchbase.com/organization/mit-energy-initiative
+            homepage_url: https://genxproject.github.io/GenX
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
-              parents: []
+              name: MIT Energy Initiative
+              description: MIT Energy Initiative links science, innovation and policy to transform the world's energy systems.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: http://mitei.mit.edu
+              city: Cambridge
+              region: Massachusetts
+              country: United States
+              twitter: http://twitter.com/mitenergy
+              linkedin: null
+              acquisitions: []
+              parents:
+                - https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
+              funding: 25000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Energy
+                - Energy Management
+                - Government
+                - Innovation Management
+                - Renewable Energy
+              kind: funding
             github_data:
               languages:
                 - name: Julia
@@ -12226,12 +12317,10 @@ landscape:
               start_date: '2021-05-19T17:57:58Z'
             image_data:
               fileName: gen-x.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 3x5chaL5hj5DKZTczK1yFgrcOOIYCc2vYAe7ivaXy7o=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Open Energy Platform
             logo: Open Energy Platform.svg
@@ -12864,16 +12953,11 @@ landscape:
             repo_url: https://github.com/energyRt/energyRt
             extra:
               topics: energy-models,gams,glpk,pyomo,julia
-            unnamed_organization: true
+            organization:
+              name: energyRt
             homepage_url: http://www.energyRt.org
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: energyRt
               parents: []
             github_data:
               languages:
@@ -12913,12 +12997,10 @@ landscape:
               start_date: '2016-06-30T09:16:04Z'
             image_data:
               fileName: energy-rt.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1qfdH0SWdnXpEeGeglQrZWzkBDN0AKxZlXMnYu9Bk2M=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: MVS
             logo: MVS.svg
@@ -12970,22 +13052,32 @@ landscape:
             logo: PowNet.svg
             description: A least-cost optimization model for simulating the Unit Commitment and Economic Dispatch of large-scale (regional to country) power systems.
             repo_url: https://github.com/kamal0013/PowNet
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ministry-of-education
             homepage_url: https://github.com/kamal0013/PowNet
             extra:
               refs: >-
                 ,https://doi.org/10.5281/zenodo.4020167,https://zenodo.org/record/4688309#.YHc5euhKguU,https://zenodo.org/record/3756750,https://zenodo.org/record/4020167#.X1hqrGhKguU,https://doi.org/10.1029/2020EF001814,http://doi.org/10.5334/jors.302.\n\nIn,https://zenodo.org/record/4020167#.X1hsSWhKguU,https://doi.org/10.1029/2020EF001814.\n2.\tChowdhury,https://doi.org/10.1061/(ASCE)WR.1943-5452.0001279,http://doi.org/10.5334/jors.302.\n
               topics: >-
                 power-system-analysis,unit-commitment,economic-dispatch,transmission,dc-flow,n-1-criterion,water-energy-nexus,python,dispatchable-units,renewable-resources,electricity-supply,substations
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Ministry of Education
+              description: Ministry Of Education directs the formulation and implementation of education policies.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.moe.gov.sg
+              city: Singapore
+              region: Central Region
+              country: Singapore
+              twitter: https://www.twitter.com/moesg
+              linkedin: https://www.linkedin.com/company/ministry-of-education-singapore
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - EdTech
+                - Education
+                - Government
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -13013,12 +13105,10 @@ landscape:
               start_date: '2019-09-27T03:03:02Z'
             image_data:
               fileName: pow-net.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 9yhDTv9ZBjG8rn6SYQF2TYquJQVweiSVE4eoIYj5sLw=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: OpenIPSL
             logo: OpenIPSL.svg
@@ -13123,17 +13213,28 @@ landscape:
             logo: POMATO.svg
             description: An easy to use tool for the comprehensive analysis of the modern electricity market.
             repo_url: https://github.com/richard-weinhold/pomato
-            unnamed_organization: true
-            homepage_url: https://github.com/richard-weinhold/pomato
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            crunchbase: https://www.crunchbase.com/organization/federal-ministry-for-economic-affairs-and-energy
+            homepage_url: https://pomato.readthedocs.io/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Federal Ministry for Economic Affairs and Energy (BMWi)
+              description: Federal Ministry for Economic Affairs and Energy is a cabinet-level ministry of the Federal Republic of Germany.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.bmwi.de/EN/root.html
+              city: Berlin
+              region: Berlin
+              country: Germany
+              twitter: http://twitter.com/BMWi_Bund
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Association
+                - Energy
+                - Finance
+                - Government
             github_data:
               languages:
                 - name: Python
@@ -13161,36 +13262,45 @@ landscape:
               start_date: '2018-11-07T19:23:12Z'
             image_data:
               fileName: pomato.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: BQ+CJvr5iw21gHkTe8yd1y+qs+Fkd4mQjHX9CHJNd4I=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: PowerGAMA
             logo: PowerGAMA.svg
             description: A lightweight simulation tool for high level analyses of renewable energy integration in large power systems.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://bitbucket.org/harald_g_svendsen/powergama
+            crunchbase: https://www.crunchbase.com/organization/sintef
             homepage_url: https://bitbucket.org/harald_g_svendsen/powergama/wiki/Home
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: SINTEF
+              description: SINTEF is an independent research company that offers world-leading laboratories within a broad spectre of technology areas.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.sintef.no/en/
+              city: Trondheim
+              region: Sor-Trondelag
+              country: Norway
+              twitter: https://twitter.com/SINTEF
+              linkedin: https://www.linkedin.com/company/sintef
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Biotechnology
+                - Information Technology
+                - Information and Communications Technology (ICT)
+                - Market Research
+            repos:
+              - url: https://bitbucket.org/harald_g_svendsen/powergama
             image_data:
               fileName: power-gama.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: UyJEplGnAkcUiid21utyLOglXhn/2HdlKycGhNh3EZM=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Power System Analysis Toolbox
             logo: Power System Analysis Toolbox.svg
@@ -68239,7 +68349,7 @@ landscape:
                   value: 50632
                   color: '#44a51c'
               contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              firstWeek: 2022-05-01Z
+              firstWeek: 2022-05-08Z
               stars: 109
               license: GNU General Public License v2.0
               description: Global spatial predictions of soil properties and classes at 250 m resolution
@@ -71188,7 +71298,7 @@ landscape:
             github_data:
               languages:
                 - name: JavaScript
-                  value: 1185937
+                  value: 1185962
                   color: '#f1e05a'
                 - name: Python
                   value: 589403
@@ -71200,16 +71310,16 @@ landscape:
                   value: 55406
                   color: '#563d7c'
                 - name: PHP
-                  value: 30957
+                  value: 32162
                   color: '#4F5D95'
                 - name: SCSS
-                  value: 21104
+                  value: 21108
+                - name: TypeScript
+                  value: 7539
+                  color: '#2b7489'
                 - name: Java
                   value: 7342
                   color: '#b07219'
-                - name: TypeScript
-                  value: 7290
-                  color: '#2b7489'
                 - name: Makefile
                   value: 5296
                   color: '#427819'
@@ -71228,13 +71338,13 @@ landscape:
                 - name: Dockerfile
                   value: 1034
                   color: '#384d54'
-              contributions: 7;3;7;12;17;18;14;1;0;3;1;0;5;6;2;1;2;1;10;9;2;3;9;2;1;4;1;20;75;10;1;18;4;23;0;3;8;7;9;4;19;7;16;11;18;20;16;20;27;30;49;85
-              firstWeek: 2022-05-01Z
+              contributions: 4;8;2;17;23;18;3;1;0;4;0;2;8;3;0;3;0;1;10;10;1;10;3;1;1;5;0;37;63;5;9;11;5;21;0;3;11;7;8;14;8;7;16;11;17;20;21;18;27;46;46;123
+              firstWeek: 2022-05-08Z
               stars: 21
               license: GNU Affero General Public License v3.0
               description: A Django project that powers the backend of Terraso platform.
-              latest_commit_date: '2023-04-25T02:11:38Z'
-              latest_commit_link: /techmatters/terraso-backend/commit/59044f8603e082402c5d71890bca266370e36353
+              latest_commit_date: '2023-04-28T20:43:48Z'
+              latest_commit_link: /techmatters/terraso-backend/commit/ac3cde1564dc11b84025bc6a3fcce457bbea3740
               contributors_count: 10
               contributors_link: https://github.com/techmatters/terraso-backend/graphs/contributors
             repos:
@@ -71403,62 +71513,112 @@ landscape:
             name: Farmbot
             logo: Farmbot.svg
             description: Humanity's open-source CNC farming machine.
+            project_org: https://github.com/FarmBot
             repo_url: https://github.com/FarmBot/Farmbot-Web-App
             extra:
               topics: farmbot
-            organization:
-              name: FarmBot
+            crunchbase: https://www.crunchbase.com/organization/farmbot
             homepage_url: https://my.farm.bot
             crunchbase_data:
-              name: FarmBot
+              name: Farmbot
+              description: Farmbot was established in Sydney in 2014 and is a leading Australian Agtech company in the Internet of Things (IoT) of Agriculture.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: http://farmbot.com.au
+              city: North Sydney
+              region: New South Wales
+              country: Australia
+              twitter: https://www.twitter.com/farmbot_tech
+              linkedin: https://www.linkedin.com/company/farmbot-tech/
+              acquisitions: []
               parents: []
+              funding: 3064187
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - AgTech
+                - Agriculture
+                - Farming
+                - Robotics
+                - Software
+              kind: funding
             github_data:
+              description: Humanity's open-source CNC farming machine
+              contributors_count: 72
+              contributions: 2;3;14;9;3;4;18;12;14;7;4;8;5;15;17;6;8;1;8;7;4;10;15;2;15;9;5;21;7;3;13;10;10;4;2;3;5;7;2;3;2;4;9;6;2;2;5;12;9;5;2;5
+              stars: 2305
               languages:
                 - name: TypeScript
-                  value: 4804754
+                  value: 4922718
                   color: '#2b7489'
+                - name: Elixir
+                  value: 1026986
+                  color: '#6e4a7e'
                 - name: Ruby
-                  value: 937235
+                  value: 948289
                   color: '#701516'
+                - name: Python
+                  value: 339693
+                  color: '#3572A5'
+                - name: C++
+                  value: 261404
+                  color: '#f34b7d'
                 - name: SCSS
-                  value: 233117
+                  value: 233911
                 - name: HTML
-                  value: 43520
+                  value: 75781
                   color: '#e34c26'
+                - name: Lua
+                  value: 56176
+                  color: '#000080'
+                - name: C
+                  value: 52651
+                  color: '#555555'
                 - name: JavaScript
-                  value: 25087
+                  value: 28048
                   color: '#f1e05a'
-                - name: Shell
-                  value: 4400
-                  color: '#89e051'
+                - name: Makefile
+                  value: 24797
+                  color: '#427819'
                 - name: CSS
-                  value: 3915
+                  value: 12081
                   color: '#563d7c'
+                - name: Shell
+                  value: 7379
+                  color: '#89e051'
                 - name: Dockerfile
                   value: 1024
                   color: '#384d54'
                 - name: Procfile
                   value: 325
-              contributions: 1;10;5;4;6;2;0;11;6;3;2;5;1;2;5;4;3;5;7;8;7;7;0;3;6;4;10;3;2;3;9;4;4;4;1;5;9;4;4;2;3;3;8;1;2;2;3;8;3;2;1;3
-              firstWeek: 2022-04-03Z
-              stars: 803
+              latest_commit_link: /FarmBot/Farmbot-Web-App/commit/4af3d9c41129a046eceae47eec2c1d1addb3bd9b
+              latest_commit_date: '2023-04-27T22:37:31Z'
+              firstWeek: 2022-05-01Z
               license: MIT License
-              description: Setup, customize, and control FarmBot from any device
-              latest_commit_date: '2023-03-24T01:41:04Z'
-              latest_commit_link: /FarmBot/Farmbot-Web-App/commit/94aa15dddb153107936caede834d7800783f790a
-              release_date: '2023-03-03T01:12:35Z'
-              release_link: https://github.com/FarmBot/Farmbot-Web-App/releases
-              contributors_count: 40
               contributors_link: https://github.com/FarmBot/Farmbot-Web-App/graphs/contributors
             repos:
               - url: https://github.com/FarmBot/Farmbot-Web-App
-                stars: 803
+                stars: 806
+              - url: https://github.com/FarmBot/farmbot_os
+                stars: 957
+              - url: https://github.com/FarmBot/farmbot-arduino-firmware
+                stars: 370
+              - url: https://github.com/FarmBot/farmbot-js
+                stars: 109
+              - url: https://github.com/FarmBot/farmbot-py
+                stars: 27
+              - url: https://github.com/FarmBot/farmbot_system_rpi3
+                stars: 21
+              - url: https://github.com/FarmBot/farmbot_system_rpi
+                stars: 12
+              - url: https://github.com/FarmBot/farmbot_system_rpi4
+                stars: 3
             github_start_commit_data:
-              start_commit_link: /FarmBot/Farmbot-Web-App/commit/f9f40bdfc2595bce1af7c6ec33b217918f1f8a68
-              start_date: '2014-03-12T02:38:26Z'
+              start_commit_link: /FarmBot/farmbot_os/commit/73725cf45d24a094066443be259833fd30ced9bf
+              start_date: '2014-01-12T18:54:11Z'
             image_data:
               fileName: farmbot.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 0X0RkZt3Zzzq+LiPCcKcw5vkV5oR9n5uOEf+kjO0O80=
             best_practice_data:
               badge: false
               percentage: null
@@ -71469,12 +71629,24 @@ landscape:
             repo_url: https://github.com/mudpi/mudpi-core
             extra:
               topics: raspberry-pi,python,redis,arduino,garden,automation
-            organization:
-              name: MudPi
+            crunchbase: https://www.crunchbase.com/organization/mudpi
             homepage_url: https://mudpi.app
             crunchbase_data:
-              name: MudPi
+              name: mudpi
+              description: A scalable smart garden system that allows you to maintain, monitor, and manage resources of your garden.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://mudpi.app/
+              city: Madison
+              region: Wisconsin
+              country: United States
+              twitter: http://twitter.com/mudpiapp
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -71502,31 +71674,35 @@ landscape:
               start_date: '2018-09-02T17:14:29Z'
             image_data:
               fileName: mud-pi.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: khg9+mJgIySqQCAWH06p+P6j7s8Wx/eL/Q3DlXh26dw=
             best_practice_data:
               badge: false
               percentage: null
           - item:
-            name: OBIA4RTM
+            name: Eodal
             logo: OBIA4RTM.svg
-            description: >-
-              Aims for plant parameter retrieval - relevant in smart farming applications - by using radiative transfer models and object-based image analysis
-              that directly addresses actual user needs and policy demands in a highly efficient, flexible and scalable way.
             repo_url: https://github.com/lukasValentin/OBIA4RTM
-            unnamed_organization: true
-            homepage_url: https://github.com/lukasValentin/OBIA4RTM
+            crunchbase: https://www.crunchbase.com/organization/agroscope
+            homepage_url: https://www.eoa-team.net/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/184379375,https://zenodo.org/badge/latestdoi/184379375'
               topics: obia,image-analysis,rtm,vegetation,remote,remote-sensing,google-earth-engine,sentinel-2,imagery
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Agroscope
+              description: Agroscope is a Farming company of Swiss that is the center of excellence for agricultural research.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.agroscope.admin.ch/agroscope/de/home/ueber-uns.html
+              city: Bern
+              region: Bern
+              country: Switzerland
+              twitter: https://twitter.com/agroscope?lang=en
+              linkedin: https://www.linkedin.com/company/agroscope
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: Python
@@ -71555,13 +71731,11 @@ landscape:
               start_commit_link: /lukasValentin/OBIA4RTM/commit/4ef2a4b8c3b0141c19417092f9e17ba5263d330b
               start_date: '2019-05-01T06:44:02Z'
             image_data:
-              fileName: obia4-rtm.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              fileName: eodal.svg
+              hash: Jzo0NSYQv3HAM1TXeutl5vgAzhE2CkwZdTJQJXc0eEI=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Crop-Classification
             logo: Crop-Classification.svg
@@ -71657,26 +71831,57 @@ landscape:
             name: MAgPIE
             logo: MAgPIE.svg
             description: Model of Agricultural Production and its Impact on the Environment.
+            project_org: https://github.com/magpiemodel
             repo_url: https://github.com/magpiemodel/magpie
-            organization:
-              name: Model of Agricultural Production and its Impact on the Environment
-            homepage_url: https://github.com/magpiemodel/magpie
+            crunchbase: https://www.crunchbase.com/organization/potsdam-institute-for-climate-impact-research
+            homepage_url: https://magpiemodel.github.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/135430060,https://doi.org/10.5194/gmd-12-1299-2019\n\nThe'
               topics: magpie,pik,gams,land
             crunchbase_data:
-              name: Model of Agricultural Production and its Impact on the Environment
+              name: Potsdam Institute for Climate Impact Research
+              description: Potsdam Institute for Climate Impact Research is a German government-funded research institute.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.pik-potsdam.de/
+              city: Potsdam
+              region: Brandenburg
+              country: Germany
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Association
+                - Non Profit
             github_data:
+              description: A modular open source framework for modeling global land-systems
+              contributors_count: 27
+              contributions: >-
+                58;69;25;30;39;34;59;30;26;45;33;39;33;22;11;13;34;24;28;17;42;31;30;36;22;24;16;19;16;32;42;24;51;17;3;11;89;39;46;35;18;59;14;31;10;13;5;2;0;0;0;0
+              stars: 71
               languages:
+                - name: HTML
+                  value: 4068983
+                  color: '#e34c26'
                 - name: GAMS
-                  value: 1468883
+                  value: 1468029
                 - name: R
-                  value: 477047
+                  value: 476684
                   color: '#198CE7'
+                - name: JavaScript
+                  value: 204480
+                  color: '#f1e05a'
                 - name: TeX
-                  value: 144235
+                  value: 144407
                   color: '#3D6117'
+                - name: CSS
+                  value: 78891
+                  color: '#563d7c'
+                - name: SCSS
+                  value: 33048
                 - name: Dockerfile
                   value: 2719
                   color: '#384d54'
@@ -71686,27 +71891,27 @@ landscape:
                 - name: Shell
                   value: 1820
                   color: '#89e051'
-              contributions: >-
-                28;32;33;58;74;72;58;23;34;42;27;59;41;14;45;33;39;33;24;9;13;34;24;28;17;42;32;29;38;19;24;16;19;16;30;39;23;52;19;0;18;79;40;41;32;20;57;7;0;0;0;0
-              firstWeek: 2022-04-03Z
-              stars: 67
+                - name: Ruby
+                  value: 1149
+                  color: '#701516'
+              latest_commit_link: /magpiemodel/magpie/commit/ea7e5af842f7176fa9a37981736afd4b0594fe63
+              latest_commit_date: '2023-03-29T14:34:50Z'
+              firstWeek: 2022-05-01Z
               license: Other
-              description: Model of Agricultural Production and its Impact on the Environment (MAgPIE) - model code
-              latest_commit_date: '2023-02-22T15:21:40Z'
-              latest_commit_link: /magpiemodel/magpie/commit/ff1b1bf8de4df912e6b6e228ad66554dc68c930d
-              release_date: '2023-02-22T15:23:53Z'
-              release_link: https://github.com/magpiemodel/magpie/releases
-              contributors_count: 37
               contributors_link: https://github.com/magpiemodel/magpie/graphs/contributors
             repos:
               - url: https://github.com/magpiemodel/magpie
-                stars: 67
+                stars: 68
+              - url: https://github.com/magpiemodel/tutorials
+                stars: 3
+              - url: https://github.com/magpiemodel/magpiemodel.github.io
+                stars: 0
             github_start_commit_data:
               start_commit_link: /magpiemodel/magpie/commit/37cf29b7101392b7aa8019776d064846c73d2895
               start_date: '2017-01-09T14:15:19Z'
             image_data:
               fileName: m-ag-pie.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: qrBnfHMyxacYAjD9S56RTxuLi8l/EGVB8Fs4CIwA59s=
             best_practice_data:
               badge: false
               percentage: null
@@ -71770,12 +71975,29 @@ landscape:
               A daily time-step agroecosystem model that simulates the biophysical processes and management practices occurring within cropping systems and
               other land uses.
             repo_url: https://github.com/PSUmodeling/Cycles
-            organization:
-              name: Penn State Earth System Modeling Team
+            crunchbase: https://www.crunchbase.com/organization/pennsylvania-state-university
             homepage_url: https://psumodeling.github.io/Cycles/
             crunchbase_data:
-              name: Penn State Earth System Modeling Team
+              name: Penn State University
+              description: The Pennsylvania State University is a public, state-related research university with campuses and facilities throughout Pennsylvania.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.psu.edu/
+              city: University Park
+              region: Pennsylvania
+              country: United States
+              twitter: http://twitter.com/penn_state
+              linkedin: https://www.linkedin.com/edu/penn-state-university-19318
+              acquisitions: []
               parents: []
+              funding: 13400000
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Training
+                - Universities
+              kind: funding
             github_data:
               languages: []
               contributions: 0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0
@@ -71797,7 +72019,7 @@ landscape:
               start_date: '2017-04-13T19:44:32Z'
             image_data:
               fileName: cycles.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Z3HLywc5BDDEEvU2jl1XuicsTGOK9cXmOW0UenzT32g=
             best_practice_data:
               badge: false
               percentage: null
@@ -71973,17 +72195,26 @@ landscape:
             repo_url: https://github.com/ConservationInternational/resilienceatlas
             extra:
               topics: resilience,bigdata,conservation,sustainability,climate-change
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/conservation-international
             homepage_url: https://github.com/ConservationInternational/resilienceatlas
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Conservation International
+              description: Conservation International is a financially accountable and transparent organization that empowers societies to responsibly care for nature.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.conservation.org
+              city: Arlington
+              region: Virginia
+              country: United States
+              twitter: http://twitter.com/conservationorg
+              linkedin: https://www.linkedin.com/company/conservation-international
+              acquisitions: []
               parents: []
+              funding: 0
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Non Profit
             github_data:
               languages:
                 - name: Ruby
@@ -72030,12 +72261,10 @@ landscape:
               start_date: '2015-06-22T16:08:46Z'
             image_data:
               fileName: resilience-atlas.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Q5xolqgtJjjhIiVbqlvZvaV0rvIQXjQQEcXLBlQHV1A=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: rice-awd-shb
             logo: rice-awd-shb.svg
@@ -72043,21 +72272,31 @@ landscape:
               Research compendium for a report on the effects of using alternate wetting and drying irrigation techniques and nitrogen rates on sheath blight
               disease in rice paddies.
             repo_url: https://github.com/adamhsparks/rice-awd-shb
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-southern-queensland
             homepage_url: https://adamhsparks.github.io/rice-awd-shb/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3889800,https://doi.org/10.5281/zenodo.3889800,https://doi.org/xxx/xxx,https://doi.org/xxx/xxx'
               topics: >-
                 nitrogen-managements,water,rice,sheath-blight,awd,irrigation,rhizoctonia-solani,rhizoctonia,plant-disease,botanical-epidemiology,nitrogen,fertilisation,fertilizer,split-plot,agriculture,agriculture-research,reproducible-research,r,rstats
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Southern Queensland
+              description: The University of Southern Queensland is a medium-sized, regional university based in Toowoomba, Queensland
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.usq.edu.au/
+              city: Toowoomba
+              region: Queensland
+              country: Australia
+              twitter: http://twitter.com/usqedu
+              linkedin: https://www.linkedin.com/school/university-of-southern-queensland/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Higher Education
+                - STEM Education
+                - Universities
             github_data:
               languages:
                 - name: PostScript
@@ -72094,12 +72333,10 @@ landscape:
               start_date: '2016-11-28T06:56:25Z'
             image_data:
               fileName: rice-awd-shb.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: iYf8jSLNdqLbkuok74VBYIOhAdaNLWztlQvSow8jHVs=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: monica
             logo: monica.svg
@@ -72298,17 +72535,28 @@ landscape:
             repo_url: https://github.com/ss3sim/ss3sim
             extra:
               topics: r,fisheries,stock-synthesis,simulation,r-package
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/noaa-marine-fisheries
             homepage_url: https://ss3sim.github.io/ss3sim/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: NOAA Marine Fisheries
+              description: NOAA Marine Fisheries specializes in the management, protection, and conservation of living marine resources.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.fisheries.noaa.gov/
+              city: Silver Spring
+              region: Maryland
+              country: United States
+              twitter: https://twitter.com/NOAAFisheries
+              linkedin: https://www.linkedin.com/company/615311
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Consulting
+                - Education
+                - Environmental Consulting
+                - Seafood
             github_data:
               languages:
                 - name: R
@@ -72339,12 +72587,12 @@ landscape:
               start_date: '2013-03-21T21:54:45Z'
             image_data:
               fileName: ss3sim.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: mAxzUdy/KfRCtjk5Rxd8DY4dZAvfGH37VajykN3Fnb8=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-31T18:12:18.000Z
           - item:
             name: rfisheries
             logo: rfisheries.svg
@@ -72439,7 +72687,7 @@ landscape:
               start_date: '2014-04-01T23:19:44Z'
             image_data:
               fileName: fisheries-stock-assessment.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 1QonQYmvW/tjT7qj2VzKFdmdHFcSkwBtJlyUXAozT+c=
             best_practice_data:
               badge: false
               percentage: null
@@ -72483,7 +72731,7 @@ landscape:
               start_date: '2018-02-11T21:32:15Z'
             image_data:
               fileName: r-fish-bc.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Ljcnelkn3OpSmSm+MPMp+ZplRK71pXLqQvqmjamRUuY=
             best_practice_data:
               badge: false
               percentage: null
@@ -72495,12 +72743,24 @@ landscape:
             extra:
               topics: >-
                 r,fisheries,ecosystem-model,fish-population-dynamics,species-interactions,marine-ecosystem,simulation,fisheries-management,population-dynamics,size-structure,transport-equation
-            organization:
-              name: Sizespectrum
+            crunchbase: https://www.crunchbase.com/organization/horizon-europe
             homepage_url: https://sizespectrum.org/mizer
             crunchbase_data:
-              name: Sizespectrum
+              name: Horizon Europe
+              description: Horizon Europe is an European Union's research & innovation framework programme for 2021-2027.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/horizon
+              city: The Hague
+              region: Zuid-Holland
+              country: The Netherlands
+              twitter: null
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: R
@@ -72531,7 +72791,7 @@ landscape:
               start_date: '2012-09-21T08:51:19Z'
             image_data:
               fileName: mizer.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: AV15iAzXsWZGlDyzIIn4uJnxHGGUPwffvQn6HEcUNQc=
             best_practice_data:
               badge: false
               percentage: null
@@ -72590,57 +72850,125 @@ landscape:
             name: Karrot
             logo: Karrot.svg
             description: Web application for organization of foodsaving groups worldwide.
+            project_org: https://github.com/karrot-dev
             repo_url: https://github.com/karrot-dev/karrot-frontend
             extra:
               topics: social,community,organization,food,grassroots
             organization:
-              name: Karrot Dev
+              name: Foodsaving Worldwide Dev Team
             homepage_url: https://karrot.world
             crunchbase_data:
-              name: Karrot Dev
+              name: Foodsaving Worldwide Dev Team
               parents: []
             github_data:
+              description: Start a group, become a community
+              contributors_count: 95
+              contributions: 0;3;3;0;1;13;4;19;3;4;10;7;2;7;11;1;7;3;4;10;3;27;1;5;1;0;0;0;2;3;7;7;8;6;0;1;0;0;0;0;0;1;0;0;0;4;1;0;1;13;11;6
+              stars: 510
               languages:
-                - name: Vue
-                  value: 717855
-                  color: '#2c3e50'
-                - name: JavaScript
-                  value: 565930
-                  color: '#f1e05a'
-                - name: HTML
-                  value: 38157
-                  color: '#e34c26'
-                - name: Shell
-                  value: 13608
-                  color: '#89e051'
+                - name: PHP
+                  value: 3641796
+                  color: '#4F5D95'
                 - name: Python
-                  value: 7285
+                  value: 1637326
                   color: '#3572A5'
-                - name: Sass
-                  value: 2284
+                - name: JavaScript
+                  value: 876989
+                  color: '#f1e05a'
+                - name: Vue
+                  value: 795553
+                  color: '#2c3e50'
+                - name: HTML
+                  value: 292955
+                  color: '#e34c26'
                 - name: CSS
-                  value: 284
+                  value: 246478
                   color: '#563d7c'
-              contributions: 0;1;2;1;0;1;3;2;0;1;4;3;13;0;1;7;3;1;0;1;0;3;2;2;4;2;11;3;1;0;0;0;0;4;6;7;3;6;3;0;1;0;0;0;0;0;0;0;0;0;0;1
-              firstWeek: 2022-04-03Z
-              stars: 371
+                - name: SCSS
+                  value: 77868
+                - name: TeX
+                  value: 40355
+                  color: '#3D6117'
+                - name: Jinja
+                  value: 35429
+                - name: Shell
+                  value: 24389
+                  color: '#89e051'
+                - name: Ruby
+                  value: 9403
+                  color: '#701516'
+                - name: Dockerfile
+                  value: 6108
+                  color: '#384d54'
+                - name: Sass
+                  value: 3142
+                - name: Logos
+                  value: 1647
+                - name: XSLT
+                  value: 827
+                  color: '#EB8CEB'
+              latest_commit_link: /karrot-dev/karrot-frontend/commit/b575f6aabe9abdb5645e21955f9f09568004fcd1
+              latest_commit_date: '2023-04-29T07:10:05Z'
+              firstWeek: 2022-05-01Z
               license: MIT License
-              description: >-
-                Karrot is a free and open-source tool for grassroots initiatives and groups of people that want to coordinate face-to-face activities on a
-                local, autonomous and voluntary basis.
-              latest_commit_date: '2023-03-20T11:24:19Z'
-              latest_commit_link: /karrot-dev/karrot-frontend/commit/7ccf690139338856fa3d4029c5d5862289a7564d
-              contributors_count: 77
               contributors_link: https://github.com/karrot-dev/karrot-frontend/graphs/contributors
             repos:
               - url: https://github.com/karrot-dev/karrot-frontend
-                stars: 371
+                stars: 373
+              - url: https://github.com/karrot-dev/karrot-backend
+                stars: 116
+              - url: https://github.com/karrot-dev/karrot-docker
+                stars: 9
+              - url: https://github.com/karrot-dev/foodsaving.world
+                stars: 3
+              - url: https://github.com/karrot-dev/yuca
+                stars: 3
+              - url: https://github.com/karrot-dev/yunity.org
+                stars: 2
+              - url: https://github.com/karrot-dev/uavcan-web
+                stars: 2
+              - url: https://github.com/karrot-dev/karrot-images
+                stars: 1
+              - url: https://github.com/karrot-dev/uavcan-influxdb-writer
+                stars: 1
+              - url: https://github.com/karrot-dev/karrot-blog
+                stars: 0
+              - url: https://github.com/karrot-dev/foodsaving.today
+                stars: 0
+              - url: https://github.com/karrot-dev/karrot-ios
+                stars: 0
+              - url: https://github.com/karrot-dev/35c3-foodsaving-talk
+                stars: 0
+              - url: https://github.com/karrot-dev/karrot-image-python
+                stars: 0
+              - url: https://github.com/karrot-dev/karrot-image-android
+                stars: 0
+              - url: https://github.com/karrot-dev/openwrt-stats-collector
+                stars: 0
+              - url: https://github.com/karrot-dev/housebus-overview
+                stars: 0
+              - url: https://github.com/karrot-dev/email_reply_trimmer_service
+                stars: 0
+              - url: https://github.com/karrot-dev/karrot-prototyping
+                stars: 0
+              - url: https://github.com/karrot-dev/community-landing-pages
+                stars: 0
+              - url: https://github.com/karrot-dev/foodsharing-festival-karrot-presentation
+                stars: 0
+              - url: https://github.com/karrot-dev/.github
+                stars: 0
+              - url: https://github.com/karrot-dev/karrot-is-down
+                stars: 0
+              - url: https://github.com/karrot-dev/karrot-docker-production
+                stars: 0
+              - url: https://github.com/karrot-dev/karrot-resources
+                stars: 0
             github_start_commit_data:
-              start_commit_link: /karrot-dev/karrot-frontend/commit/a46008e7f1e9428c52dad254d9b31fb0702e6fae
-              start_date: '2016-07-21T18:10:17Z'
+              start_commit_link: /karrot-dev/karrot-backend/commit/5bd568f121a27c1deb1af91e2c147244bd33eeb0
+              start_date: '2015-09-23T21:23:11Z'
             image_data:
               fileName: karrot.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: TGQ8QdrfRiwlFHNZlLzkln+8AQNXJy9BVQH0y1ZIBw4=
             best_practice_data:
               badge: false
               percentage: null
@@ -72829,16 +73157,11 @@ landscape:
             repo_url: https://github.com/morkro/happy-plants
             extra:
               topics: vuejs,pwa,plants,happy-plants,gardening,green-technologies,lernajs,houseplants,firebase
-            unnamed_organization: true
+            organization:
+              name: Moritz Kröger
             homepage_url: https://happyplants.garden
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Moritz Kröger
               parents: []
             github_data:
               languages:
@@ -72876,12 +73199,10 @@ landscape:
               start_date: '2017-04-06T15:48:36Z'
             image_data:
               fileName: happy-plants.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: ONkTsrhOzkXBwvPyX/YO+0mrE6FendxjNFNQIgv2LAo=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: dormancyR
             logo: dormancyR.svg
@@ -72889,20 +73210,27 @@ landscape:
               Provide alternatives to common chill models used in horticulture to compute chill metrics in deciduous fruit tree orchards as well as functions to
               handle weather data.
             repo_url: https://github.com/EduardoFernandezC/dormancyR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/pontificia-universidad-cat%C3%B3lica-de-valpara%C3%ADso
             homepage_url: https://github.com/EduardoFernandezC/dormancyR
             extra:
               refs: ',https://doi.org/10.1016/j.eja.2020.126103'
               topics: weather-data,chill-models,agronomy
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Pontificia Universidad Católica de Valparaíso
+              description: PUCV is a university focused in sciences and arts.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: https://www.pucv.cl/pucv/site/edic/base/port/inicio.html
+              city: Valparaiso
+              region: Valparaiso
+              country: Chile
+              twitter: https://twitter.com/pucv_cl
+              linkedin: null
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: R
@@ -72930,12 +73258,10 @@ landscape:
               start_date: '2019-02-20T16:01:58Z'
             image_data:
               fileName: dormancy-r.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: PDx4tWblKttRXLQa8/jYXs5A4xa94BDnGmgxAYDoePE=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: seedr
             logo: seedr.svg
@@ -72943,17 +73269,25 @@ landscape:
             repo_url: https://github.com/efernandezpascual/seedr
             extra:
               topics: seeds,botany,ecology,agronomy,germination
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-oviedo
             homepage_url: https://github.com/efernandezpascual/seedr
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Oviedo
+              description: The University of Oviedo is a public institution in the Principality of Asturias. With over 400 years of hi
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.uniovi.es/en
+              city: Oviedo
+              region: Asturias
+              country: Spain
+              twitter: http://twitter.com/uniovi_info
+              linkedin: >-
+                https://www.linkedin.com/edu/school?id=12224&trk=tyah&trkInfo=clickedVertical%3Aschool%2CclickedEntityId%3A12224%2Cidx%3A4-1-9%2CtarId%3A1454984619537%2Ctas%3AUniversidad%20de%20Oviedo
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries: []
             github_data:
               languages:
                 - name: R
@@ -72978,12 +73312,10 @@ landscape:
               start_date: '2020-03-04T18:41:53Z'
             image_data:
               fileName: seedr.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: fE8weyZoLo4PC/n0LUr2sHS5hncFNIz//gJRdoIQzEo=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: plantFEM
             logo: plantFEM.svg
@@ -72993,17 +73325,27 @@ landscape:
             repo_url: https://github.com/kazulagi/plantFEM
             extra:
               topics: agriculture,finite-element-methods,fem
-            unnamed_organization: true
-            homepage_url: https://github.com/kazulagi/plantFEM
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            crunchbase: https://www.crunchbase.com/organization/tokyo-institute-of-technology
+            homepage_url: https://plantfem.org/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Tokyo Institute of Technology
+              description: Tokyo Institute of Technology is a national top-tier research university located in Greater Tokyo Area, Japan.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: http://www.titech.ac.jp/
+              city: Tokyo
+              region: Tokyo
+              country: Japan
+              twitter: http://twitter.com/tokyotech_jp
+              linkedin: https://www.linkedin.com/school/%E6%9D%B1%E4%BA%AC%E5%B7%A5%E6%A5%AD%E5%A4%A7%E5%AD%A6/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Information Technology
+                - Training
             github_data:
               languages:
                 - name: Fortran
@@ -73066,12 +73408,10 @@ landscape:
               start_date: '2019-09-22T16:27:02Z'
             image_data:
               fileName: plant-fem.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: AvxnCTZMCFjCRnutrE6aXGyofBhMcrSeKjJFK2l1Tyg=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: openfoodfacts-server
             logo: openfoodfacts-server.svg
@@ -73148,27 +73488,60 @@ landscape:
           - item:
             name: ramlegacy
             logo: ramlegacy.svg
-            description: A compilation of stock assessment results for commercially exploited marine populations from around the world.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://www.ramlegacy.org/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            repo_url: https://github.com/ropensci/ramlegacy
+            crunchbase: https://www.crunchbase.com/organization/ropensci
+            homepage_url: https://github.com/ropensci/ramlegacy/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: rOpenSci
+              description: rOpenSci is a transforming science through open data and software
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://ropensci.org/
+              city: Berkeley
+              region: California
+              country: United States
+              twitter: https://twitter.com/ropensci
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 678000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Software
+              kind: funding
+            github_data:
+              languages:
+                - name: R
+                  value: 39100
+                  color: '#198CE7'
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
+              firstWeek: 2022-05-08Z
+              stars: 4
+              license: Other
+              description: >-
+                R :package: to download, cache and read in different versions of the RAM Legacy Stock Assessment Data Base, an online compilation of stock
+                assessment results for commercially exploited marine populations from around the world.
+              latest_commit_date: '2019-12-09T14:27:53Z'
+              latest_commit_link: /ropensci/ramlegacy/commit/cb6f34535be2c79583dc9d07de53c1263f7995e5
+              release_date: '2019-04-14T19:16:40Z'
+              release_link: https://github.com/ropensci/ramlegacy/releases
+              contributors_count: 3
+              contributors_link: https://github.com/ropensci/ramlegacy/graphs/contributors
+            repos:
+              - url: https://github.com/ropensci/ramlegacy
+                stars: 4
+            github_start_commit_data:
+              start_commit_link: /ropensci/ramlegacy/commit/4437b11847fb1d5ddc38ae2ce4e3748749d5a4db
+              start_date: '2018-09-03T19:55:57Z'
             image_data:
               fileName: ramlegacy.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: qvbujodT4uhp+qeB5OAyDf5QuLWqmSmI/lUB4syr6ts=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-27T14:03:11.000Z
           - item:
             name: FABIO
             logo: FABIO.svg
@@ -73309,26 +73682,123 @@ landscape:
             name: FarmOS
             logo: FarmOS.svg
             description: Open source web-based application for farm management, planning, and record keeping.
-            repo_url: null
-            unnamed_organization: true
+            project_org: https://github.com/farmOS
+            repo_url: https://github.com/farmOS/farmOS
+            organization:
+              name: FarmOS
             homepage_url: https://farmos.org/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: FarmOS
               parents: []
+            github_data:
+              description: Web-based farm management and recordkeeping
+              contributors_count: 43
+              contributions: 3;4;2;11;4;10;28;10;16;3;0;4;2;4;3;3;21;19;20;43;28;26;0;6;20;21;14;16;39;25;36;20;14;9;21;24;9;8;10;30;20;11;7;12;11;12;10;14;10;4;4;0
+              stars: 768
+              languages:
+                - name: PHP
+                  value: 9842772
+                  color: '#4F5D95'
+                - name: JavaScript
+                  value: 1036628
+                  color: '#f1e05a'
+                - name: YAML
+                  value: 624810
+                - name: CSS
+                  value: 237442
+                  color: '#563d7c'
+                - name: Vue
+                  value: 218363
+                  color: '#2c3e50'
+                - name: Python
+                  value: 201508
+                  color: '#3572A5'
+                - name: HTML
+                  value: 137116
+                  color: '#e34c26'
+                - name: TypeScript
+                  value: 51232
+                  color: '#2b7489'
+                - name: Shell
+                  value: 41495
+                  color: '#89e051'
+                - name: Dockerfile
+                  value: 11075
+                  color: '#384d54'
+                - name: Twig
+                  value: 7967
+                - name: Mako
+                  value: 494
+                - name: Hack
+                  value: 129
+                  color: '#878787'
+              latest_commit_link: /farmOS/farmOS/commit/8d551450ab470995b6cf4da71c0271d7eb59c572
+              latest_commit_date: '2023-04-19T18:10:18Z'
+              firstWeek: 2022-05-01Z
+              license: GNU General Public License v2.0
+              contributors_link: https://github.com/farmOS/farmOS/graphs/contributors
+            repos:
+              - url: https://github.com/farmOS/farmOS
+                stars: 613
+              - url: https://github.com/farmOS/field-kit
+                stars: 52
+              - url: https://github.com/farmOS/farmOS-map
+                stars: 24
+              - url: https://github.com/farmOS/farmOS.py
+                stars: 21
+              - url: https://github.com/farmOS/farmOS-aggregator
+                stars: 14
+              - url: https://github.com/farmOS/farmOS.js
+                stars: 12
+              - url: https://github.com/farmOS/farmOS.org
+                stars: 7
+              - url: https://github.com/farmOS/farmOS-community-blog
+                stars: 4
+              - url: https://github.com/farmOS/farmOS-microblog
+                stars: 4
+              - url: https://github.com/farmOS/farm_grazing
+                stars: 3
+              - url: https://github.com/farmOS/farm_nrcs
+                stars: 3
+              - url: https://github.com/farmOS/farm_maple
+                stars: 2
+              - url: https://github.com/farmOS/composer-project
+                stars: 2
+              - url: https://github.com/farmOS/farm_mushroom
+                stars: 1
+              - url: https://github.com/farmOS/farm_map_no
+                stars: 1
+              - url: https://github.com/farmOS/farm_produce_safety
+                stars: 1
+              - url: https://github.com/farmOS/farm_eggs
+                stars: 1
+              - url: https://github.com/farmOS/farm_organic
+                stars: 1
+              - url: https://github.com/farmOS/farm_weather
+                stars: 1
+              - url: https://github.com/farmOS/farm_biodynamic
+                stars: 1
+              - url: https://github.com/farmOS/farm_bee
+                stars: 0
+              - url: https://github.com/farmOS/farm_nutrient
+                stars: 0
+              - url: https://github.com/farmOS/irc.farmos.org
+                stars: 0
+              - url: https://github.com/farmOS/farm_forest
+                stars: 0
+              - url: https://github.com/farmOS/farm_ledger
+                stars: 0
+              - url: https://github.com/farmOS/.github
+                stars: 0
+            github_start_commit_data:
+              start_commit_link: /farmOS/farmOS/commit/53ca3e8753d7eca390338c5563de454c1e3e5a66
+              start_date: '2013-02-03T15:48:10Z'
             image_data:
               fileName: farm-os.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: JJn5iqXJ4Fs16OwTq4QJGZhz3QeNPpnppZNmt/bLB0A=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Is-Vegan
             logo: Is-Vegan.svg
@@ -73336,16 +73806,11 @@ landscape:
             repo_url: https://github.com/hmontazeri/is-vegan
             extra:
               topics: vegan,food,ingredients,npm
-            unnamed_organization: true
-            homepage_url: https://github.com/hmontazeri/is-vegan
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            organization:
+              name: Hamed Montazeri
+            homepage_url: https://is-vegan.netlify.app/
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Hamed Montazeri
               parents: []
             github_data:
               languages:
@@ -73369,31 +73834,24 @@ landscape:
               start_date: '2018-02-04T02:43:39Z'
             image_data:
               fileName: is-vegan.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Lu2C789dmQwyIlxNPSkmHQTsY2JfSbBnPZh3NwnR4o4=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: fishRman
             logo: fishRman.svg
             description: Shiny R Dashboard to easily query, download, analyse and visualise Global Fishing Watch data on fishing effort.
             repo_url: https://github.com/Shyentist/fish-r-man
-            unnamed_organization: true
+            organization:
+              name: Open Source for Open Seas
             homepage_url: https://osmos.xyz/
             extra:
               refs: ',https://doi.org/10.21105/joss.03467,https://doi.org/10.21105/joss.03467**\r\n-'
               topics: >-
                 marine-biology,fisheries,fisheries-research,fisheries-management,shiny,r,open-source,globalfishingwatch,global-fishing-watch,dashboard,fishing-effort
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Open Source for Open Seas
               parents: []
             github_data:
               languages:
@@ -73425,12 +73883,10 @@ landscape:
               start_date: '2020-11-30T18:00:49Z'
             image_data:
               fileName: fish-rman.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /WYjooaybk8WY/bILRjgkJnSLnQ63aID9MevEaicO9Q=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: GlobalFishingWatch
             logo: GlobalFishingWatch.svg
@@ -73609,19 +74065,28 @@ landscape:
             logo: CropHarvest.svg
             description: Collects data from a variety of agricultural land use datasets and remote sensing products.
             repo_url: https://github.com/nasaharvest/cropharvest
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa-harvest
             homepage_url: https://github.com/nasaharvest/cropharvest
             extra:
               refs: ',https://zenodo.org/record/5828893,https://zenodo.org/record/7257688'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: NASA Harvest
+              description: NASA Harvest is a NASAs Food Security and Agriculture Program.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://www.nasaharvest.org/
+              city: College Park
+              region: Maryland
+              country: United States
+              twitter: https://twitter.com/NASAHarvest
+              linkedin: https://www.linkedin.com/company/nasaharvest/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Agriculture
+                - Food and Beverage
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -73652,28 +74117,35 @@ landscape:
               start_date: '2021-06-17T18:37:36Z'
             image_data:
               fileName: crop-harvest.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: pBreLqYge/AxfUkPR+9JKLaPUajBZ5nlhj2VYy/B2aI=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: BreizhCrops
             logo: BreizhCrops.svg
             description: A Satellite Time Series Dataset for Crop Type Identification.
             repo_url: https://github.com/dl4sits/BreizhCrops
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-munich
             homepage_url: https://github.com/dl4sits/BreizhCrops
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Technical University of Munich
+              description: 'The Technical University of Munich (TUM) is one of Europe''s leading universities. '
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.tum.de
+              city: München
+              region: Bayern
+              country: Germany
+              twitter: https://twitter.com/tu_muenchen
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 7500000
+              stockExchange: null
+              company_type: ''
+              industries: []
+              kind: funding
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -73705,12 +74177,10 @@ landscape:
               start_date: '2019-04-27T22:19:28Z'
             image_data:
               fileName: breizh-crops.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: T5dMg7KY5gNSXesyUvg1agMahE4sWwF0f/ybz04JnFw=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: VeganCheck.me
             logo: VeganCheck.me.svg
@@ -73919,20 +74389,29 @@ landscape:
             logo: EuroCrops.svg
             description: A dataset collection combining all publicly available self-declared crop reporting datasets from countries of the European Union.
             repo_url: https://github.com/maja601/EuroCrops
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/technical-university-of-munich
             homepage_url: https://www.eurocrops.tum.de
             extra:
               refs: ',https://zenodo.org/record/6866846'
               topics: dataset,opendata,agriculture,machine-learning,deep-learning,sentinel-2
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Technical University of Munich
+              description: 'The Technical University of Munich (TUM) is one of Europe''s leading universities. '
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: http://www.tum.de
+              city: München
+              region: Bayern
+              country: Germany
+              twitter: https://twitter.com/tu_muenchen
+              linkedin: null
+              acquisitions: []
               parents: []
+              funding: 7500000
+              stockExchange: null
+              company_type: ''
+              industries: []
+              kind: funding
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -73955,12 +74434,10 @@ landscape:
               start_date: '2021-08-20T08:11:29Z'
             image_data:
               fileName: euro-crops.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: sXLiHH6ofn+YgpmiQ1m0qWaAfOWC84NXn96Lie6PiRE=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
       - subcategory:
         name: Natural Hazard and Poverty
         items:
