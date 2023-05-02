@@ -8361,8 +8361,7 @@ landscape:
             logo: ClimateMachine.jl.svg
             description: 'Climate Machine: an Earth System Model that automatically learns from data.'
             repo_url: https://github.com/CliMA/ClimateMachine.jl
-            organization:
-              name: Climate Modeling Alliance
+            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
             homepage_url: https://clima.github.io/ClimateMachine.jl/latest/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/162166244\n\nFor'
@@ -8435,8 +8434,9 @@ landscape:
             name: CliMT
             logo: CliMT.svg
             description: A Toolkit for building Earth system models in Python.
+            project_org: https://github.com/CliMT
             repo_url: https://github.com/CliMT/climt
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stockholm-university
             homepage_url: https://climt.readthedocs.io
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/74854230\n'
@@ -8446,9 +8446,9 @@ landscape:
             logo: climlab.svg
             description: A Python package for process-oriented climate modeling.
             repo_url: https://github.com/climlab/climlab
-            organization:
-              name: climlab
-            homepage_url: https://github.com/climlab/climlab
+            crunchbase: https://www.crunchbase.com/organization/university-at-albany-the-state-university-of-new-york
+            twitter: https://twitter.com/ualbany
+            homepage_url: https://climlab.readthedocs.io/
             extra:
               refs: >-
                 ,https://doi.org/10.21105/joss.00659\n\n\nDependencies\n-----------------\n\nThese,https://doi.org/10.21105/joss.00659\n,https://zenodo.org/badge/latestdoi/24968065\n
@@ -8457,9 +8457,10 @@ landscape:
             name: FAIR
             logo: FAIR.svg
             description: Finite Amplitude Impulse-Response simple climate-carbon-cycle model.
+            project_org: https://github.com/OMS-NetZero
             repo_url: https://github.com/OMS-NetZero/FAIR
-            unnamed_organization: true
-            homepage_url: https://fair.readthedocs.io/en/latest/
+            crunchbase: https://www.crunchbase.com/organization/university-of-leeds-england
+            homepage_url: https://fair.readthedocs.io
             extra:
               refs: ',https://doi.org/10.5194/gmd-11-2273-2018,https://doi.org/10.5281/zenodo.1247898\n'
           - item:
@@ -8524,7 +8525,7 @@ landscape:
               Regional Earth System Model is designed to be a state-of-art coupled modeling system that allows using variety of different earth system model
               components as well as their integration with co-processing tool.
             repo_url: https://github.com/uturuncoglu/RegESM
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ncar
             homepage_url: https://github.com/uturuncoglu/RegESM
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/7665906,https://doi.org/10.1145/3364228.3364231,https://doi.org/10.5194/gmd-12-233-2019'
@@ -8536,7 +8537,8 @@ landscape:
               A free and open source QGIS plug-in to help researchers and practitioners with their Advanced Research Weather Research and Forecasting modeling
               workflows.
             repo_url: https://github.com/GIS4WRF/gis4wrf
-            unnamed_organization: true
+            project_org: https://github.com/GIS4WRF
+            crunchbase: https://www.crunchbase.com/organization/university-of-reading
             homepage_url: https://gis4wrf.github.io
             extra:
               refs: >-
@@ -8549,8 +8551,9 @@ landscape:
             description: >-
               The Model for Prediction Across Scales is a collaborative project for developing atmosphere, ocean, and other earth-system simulation components
               for use in climate, regional climate, and weather studies.
+            project_org: https://github.com/MPAS-Dev
             repo_url: https://github.com/MPAS-Dev/MPAS-Model
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/los-alamos-national-laboratory
             homepage_url: https://github.com/MPAS-Dev/MPAS-Model
           - item:
             name: pymt
@@ -8576,8 +8579,8 @@ landscape:
             repo_url: https://github.com/fnemina/pyOSOAA
             extra:
               topics: radiative-transfer,radiative-transfer-models,ocean-sciences,atmospheric-science
-            unnamed_organization: true
-            homepage_url: https://github.com/fnemina/pyOSOAA
+            crunchbase: https://www.crunchbase.com/organization/comision-nacional-de-mercado-de-valores
+            homepage_url: https://pyosoaa.readthedocs.io/
           - item:
             name: ECRAD
             logo: ECRAD.svg
@@ -8590,7 +8593,7 @@ landscape:
             logo: ClimateModels.jl.svg
             description: Uniform interface to climate models of varying complexity and completeness.
             repo_url: https://github.com/gaelforget/ClimateModels.jl
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
             homepage_url: https://gaelforget.github.io/ClimateModels.jl/dev/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/260379066'
@@ -8602,7 +8605,7 @@ landscape:
               Effective climate sensitivity, effective 2xCO2 radiative forcing, and radiative feedbacks for all CMIP5 and CMIP6 models that have published
               output from abrupt CO2 quadrupling experiments.
             repo_url: https://github.com/mzelinka/cmip56_forcing_feedback_ecs
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/lawrence-livermore-national-laboratory
             homepage_url: https://github.com/mzelinka/cmip56_forcing_feedback_ecs
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/259409949'
@@ -8618,7 +8621,7 @@ landscape:
             logo: hn2016_falwa.svg
             description: A Python library for computing Finite-Amplitude Local Wave Activity from climate data.
             repo_url: https://github.com/csyhuang/hn2016_falwa
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-chicago
             homepage_url: https://hn2016-falwa.readthedocs.io/en/latest/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/63908662,https://doi.org/10.1126/science.aat0721'
@@ -8675,7 +8678,8 @@ landscape:
             logo: climateforcing.svg
             description: An incomplete toolbox of scripts and modules used for analysis of climate models and climate data.
             repo_url: https://github.com/chrisroadmap/climateforcing
-            unnamed_organization: true
+            organization:
+              name: Chris Smith
             homepage_url: https://github.com/chrisroadmap/climateforcing
             extra:
               refs: >-
@@ -8693,21 +8697,13 @@ landscape:
               refs: ',https://zenodo.org/badge/latestdoi/41581350\n'
               topics: climate-model,gridded-data,python,finite-volume
           - item:
-            name: MPAS-Analysis
-            logo: MPAS-Analysis.svg
-            description: Provides analysis for the MPAS components of ACME.
-            repo_url: https://github.com/MPAS-Dev/MPAS-Analysis
-            extra:
-              topics: mpas-analysis,mpas,e3sm,climate-analysis,climate-model
-            unnamed_organization: true
-            homepage_url: https://github.com/MPAS-Dev/MPAS-Analysis
-          - item:
-            name: DALES
+            name: DALES - Dutch Atmospheric Large Eddy Simulation
             logo: DALES.svg
             description: Dutch Atmospheric Large-Eddy Simulation model.
+            project_org: https://github.com/dalesteam
             repo_url: https://github.com/dalesteam/dales
-            unnamed_organization: true
-            homepage_url: https://github.com/dalesteam/dales
+            crunchbase: https://www.crunchbase.com/organization/knmi
+            homepage_url: https://github.com/dalesteam/dales/wiki/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/32735454,https://doi.org/10.5194/gmd-3-415-2010,https://doi.org/10.1007/s10546-016-0182-5'
           - item:
@@ -8760,21 +8756,16 @@ landscape:
               rainfall data, vegetation condition data, and 180-day forecasts of rainfall and temperature to improve understanding of, and make improved
               decisions for, issues related to agriculture and water availability.
             repo_url: https://github.com/SERVIR/ClimateSERV2
+            additional_repos:
+              - repo_url: https://github.com/SERVIR/ClimateSERV
+              - repo_url: https://github.com/SERVIR/ClimateSERVpy
+              - repo_url: https://github.com/SERVIR/ClimateSERV-2.0-Server
+              - repo_url: https://github.com/SERVIR/ClimateSERV-UI
+              - repo_url: https://github.com/SERVIR/ClimateSERV-2.0-Client-Admin
             extra:
               topics: climate,servir,servirglobal,climateserv,ndvi,esi,emodis,imerg,chirps
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/servir-global
             homepage_url: https://climateserv.servirglobal.net/
-          - item:
-            name: ClimateSERVpy
-            logo: ClimateSERVpy.svg
-            description: >-
-              Enables access to the ClimateSERV API where many types of climate data can be subset by area of interest, and time range, then either downloaded
-              as tif, or NetCDf files, or the data can be statistically processed to render json values or csv.
-            repo_url: https://github.com/SERVIR/ClimateSERVpy
-            extra:
-              topics: climateserv,python,dataset,time-series,chirps,smap,imerg,emodis,esi
-            unnamed_organization: true
-            homepage_url: https://pypi.org/project/climateserv/
           - item:
             name: chirps
             logo: chirps.svg
@@ -9931,8 +9922,8 @@ landscape:
               A multi-scale emissions-to-health impact model for fine particulate matter (PM2.5) that mechanistically evaluates air quality and health benefits
               of perturbations to baseline emissions.
             repo_url: https://github.com/spatialmodel/inmap
-            unnamed_organization: true
-            homepage_url: https://github.com/spatialmodel/inmap
+            crunchbase: https://www.crunchbase.com/organization/university-of-illinois
+            homepage_url: https://inmap.run/
           - item:
             name: Open Source EMEP MSC-W model
             logo: Open Source EMEP MSC-W model.svg
@@ -9959,14 +9950,14 @@ landscape:
             logo: YETI.svg
             description: A bottom-up traffic emission calculation tool developed at the Institute for Advanced Sustainability Studies in Potsdam and built in Python.
             repo_url: https://github.com/twollnik/YETI
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/german-research-centre-for-geosciences
             homepage_url: https://www.iass-potsdam.de/en
           - item:
             name: PM2.5-GNN
             logo: PM2.5-GNN.svg
             description: A Domain Knowledge Enhanced Graph Neural Network For PM2.5 Forecasting.
             repo_url: https://github.com/shuowang-ai/PM2.5-GNN
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/beijing-normal-university
             homepage_url: https://github.com/shuowang-ai/PM2.5-GNN
             extra:
               refs: ',https://doi.org/10.1145/3397536.3422208'
@@ -9985,7 +9976,7 @@ landscape:
             logo: rmweather.svg
             description: An R package to conduct meteorological/weather normalisation on air quality so trends and interventions can be investigated in a robust way.
             repo_url: https://github.com/skgrange/rmweather
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/empa
             homepage_url: https://github.com/skgrange/rmweather
             extra:
               refs: ',https://doi.org/10.1021/acs.estlett.0c00605'
@@ -10040,7 +10031,7 @@ landscape:
             logo: saqgetr.svg
             description: Import Air Quality Monitoring Data in a Fast and Easy Way.
             repo_url: https://github.com/skgrange/saqgetr
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/empa
             homepage_url: https://github.com/skgrange/saqgetr
           - item:
             name: Ozone
@@ -10166,8 +10157,8 @@ landscape:
             repo_url: https://github.com/mroberge/hydrofunctions
             extra:
               topics: water,hydrology,scientific-visualization
-            unnamed_organization: true
-            homepage_url: https://github.com/mroberge/hydrofunctions
+            crunchbase: https://www.crunchbase.com/organization/towson-university
+            homepage_url: https://hydrofunctions.readthedocs.io/
           - item:
             name: CWATM
             logo: CWATM.svg
@@ -10195,7 +10186,7 @@ landscape:
             logo: nhdR.svg
             description: An R interface to the US National Hydrography Dataset.
             repo_url: https://github.com/jsta/nhdR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/los-alamos-national-laboratory
             homepage_url: https://jsta.github.io/nhdR/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/75339263'
@@ -10219,16 +10210,10 @@ landscape:
             description: >-
               An easy to use Graphical User Interface + an accelerated Deltares-version of MODFLOW with fast, flexible and consistent sub-domain modeling
               techniques.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://oss.deltares.nl/web/imod/home
-          - item:
-            name: Imod-Python
-            logo: Imod-Python.svg
-            description: Designed to help you in your MODFLOW groundwater modeling efforts.
+            license: MIT License
             repo_url: https://gitlab.com/deltares/imod/imod-python
-            unnamed_organization: true
-            homepage_url: https://gitlab.com/deltares/imod/imod-python
+            crunchbase: https://www.crunchbase.com/organization/deltares
+            homepage_url: https://oss.deltares.nl/web/imod/home
           - item:
             name: pysheds
             logo: pysheds.svg
@@ -10236,8 +10221,8 @@ landscape:
             repo_url: https://github.com/mdbartos/pysheds
             extra:
               topics: digital-elevation-model,hydrology,flow-direction,accumulation,catchments,gis
-            unnamed_organization: true
-            homepage_url: https://github.com/mdbartos/pysheds
+            crunchbase: https://www.crunchbase.com/organization/university-of-texas-at-austin
+            homepage_url: https://mdbartos.github.io/pysheds
           - item:
             name: WhiteboxTools
             logo: WhiteboxTools.svg
@@ -10689,15 +10674,15 @@ landscape:
             logo: SPEI.svg
             description: Computing the Standardized Precipitation-Evapotranspiration Index and other reference evapotranspiration.
             repo_url: https://github.com/sbegueria/SPEI
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/spanish-national-research-council-csic
             homepage_url: https://github.com/sbegueria/SPEI
           - item:
             name: pipedream
             logo: pipedream.svg
             description: Interactive hydrodynamic solver for sewer/stormwater networks.
             repo_url: https://github.com/mdbartos/pipedream
-            unnamed_organization: true
-            homepage_url: https://mdbartos.github.io/pipedream
+            crunchbase: https://www.crunchbase.com/organization/university-of-texas-at-austin
+            homepage_url: https://mattbartos.com/pipedream/
           - item:
             name: TADA
             logo: TADA.svg
@@ -10735,7 +10720,7 @@ landscape:
             logo: Hyperspectral Soilmoisture Dataset.svg
             description: Hyperspectral benchmark dataset on soil moisture.
             repo_url: https://github.com/felixriese/hyperspectral-soilmoisture-dataset
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/omicera-diagnostics
             homepage_url: https://doi.org/10.5281/zenodo.1227837
             extra:
               refs: >-
@@ -10783,8 +10768,8 @@ landscape:
             extra:
               topics: >-
                 landslides-detection,random-forest,google-earth-engine,k-means,image-segmentation,object-based-image-analysis,merging-algorithms,optical-satellite-imagery,rsgislib,obia,geomatics
-            unnamed_organization: true
-            homepage_url: https://github.com/mhscience/landslides_detection
+            crunchbase: https://www.crunchbase.com/organization/delft-university-of-technology
+            homepage_url: https://github.com/mhscience/landslides_detection/wiki
           - item:
             name: pyTSEB
             logo: pyTSEB.svg
@@ -10794,8 +10779,8 @@ landscape:
             repo_url: https://github.com/hectornieto/pyTSEB
             extra:
               topics: source-energy-balance,canopy,soil,radiometric-temperatures,heat,satellite-imagery,evapotranspiration
-            unnamed_organization: true
-            homepage_url: https://github.com/hectornieto/pyTSEB
+            crunchbase: https://www.crunchbase.com/organization/consejo-superior-de-investigaciones-cient%C3%ADficas
+            homepage_url: https://pytseb.readthedocs.io
           - item:
             name: slga
             logo: slga.svg
@@ -10803,7 +10788,7 @@ landscape:
             repo_url: https://github.com/obrl-soil/slga
             extra:
               topics: soil,australia,raster-data,wcs,r,terrain,digital-soil-mapping
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/manaaki-whenua-landcare-research
             homepage_url: https://obrl-soil.github.io/slga/index.html
           - item:
             name: smapr
@@ -10835,7 +10820,7 @@ landscape:
               Complete-coverage gridded predictions of soil properties (percent organic carbon, total nitrogen, bulk density, pH, and percent sand and clay) and
               classes (taxonomic great group and particle size in the control section) for the Conterminous U.S.
             repo_url: https://github.com/aramcharan/US_SoilGrids100m
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/pennsylvania-state-university
             homepage_url: https://github.com/aramcharan/US_SoilGrids100m
             extra:
               refs: ',https://doi.org/10.18113/S1KW2H'
