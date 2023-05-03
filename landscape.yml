@@ -7278,8 +7278,7 @@ landscape:
             logo: Raven.svg
             description: Made to help scientists run hydrological modeling experiments with climate change projections.
             repo_url: https://github.com/Ouranosinc/raven
-            organization:
-              name: Ouranos inc.
+            crunchbase: https://www.crunchbase.com/organization/ouranos
             homepage_url: https://pavics-raven.readthedocs.io/en/latest/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/135511617\n'
@@ -7730,7 +7729,7 @@ landscape:
             repo_url: https://github.com/jmigueldelgado/buhayra
             extra:
               topics: dams,sentinel,iwrm,reservoirs,filters
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/german-research-foundation
             homepage_url: https://github.com/jmigueldelgado/buhayra
           - item:
             name: Wflow
@@ -7739,8 +7738,7 @@ landscape:
               A Julia package that provides a hydrological modeling framework, as well as several different vertical and lateral concepts that can be used to
               run hydrological simulations.
             repo_url: https://github.com/Deltares/Wflow.jl
-            organization:
-              name: Deltares
+            crunchbase: https://www.crunchbase.com/organization/deltares
             homepage_url: https://deltares.github.io/Wflow.jl/dev/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/246787232'
@@ -7763,7 +7761,7 @@ landscape:
             extra:
               topics: >-
                 hydrology,mapping,usgs,usgs-data,usgs-api,visualization,data-visualization,mapbox,mapping-tools,svelte,river-runner,yellowstone-national-park,nhdplus,ocean,geology,3d,topography,nhdplus-data,mountain-features,sci-viz
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/mapbox
             homepage_url: https://river-runner-global.samlearner.com/
           - item:
             name: visGWDB
@@ -7790,8 +7788,8 @@ landscape:
             repo_url: https://github.com/mkoohafkan/rivr
             extra:
               topics: hydraulics
-            unnamed_organization: true
-            homepage_url: https://mkoohafkan.github.io/rivr
+            crunchbase: https://www.crunchbase.com/organization/u-s-army-corps-of-engineers
+            homepage_url: https://hydroecology.net/rivr
           - item:
             name: Aqualink
             logo: Aqualink.svg
@@ -7825,8 +7823,9 @@ landscape:
             name: RHESSys
             logo: RHESSys.svg
             description: The Regional Hydro-Ecologic Simulation System.
+            project_org: https://github.com/RHESSys
             repo_url: https://github.com/RHESSys/RHESSys
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-california-santa-barbara
             homepage_url: https://github.com/RHESSys/RHESSys
           - item:
             name: tidyhydat
@@ -7843,8 +7842,8 @@ landscape:
             logo: PyCO2SYS.svg
             description: Marine carbonate system calculations in Python.
             repo_url: https://github.com/mvdh7/PyCO2SYS
-            unnamed_organization: true
-            homepage_url: https://pyco2sys.rtfd.io
+            crunchbase: https://www.crunchbase.com/organization/nioz
+            homepage_url: https://pyco2sys.readthedocs.io/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3744275,https://doi.org/10.5194/gmd-15-15-2022,https://doi.org/10.5281/zenodo.3744275'
           - item:
@@ -7936,7 +7935,7 @@ landscape:
               A Python module which makes it easy for coastal engineers and scientists to test and use various empirical wave runup models which have been
               published in literature.
             repo_url: https://github.com/chrisleaman/py-wave-runup
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
             homepage_url: https://github.com/chrisleaman/py-wave-runup
             extra:
               refs: >-
@@ -7950,7 +7949,7 @@ landscape:
             logo: pyglow.svg
             description: A Python module that wraps several upper atmosphere climatological models written in FORTRAN.
             repo_url: https://github.com/timduly4/pyglow
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/spire
             homepage_url: https://github.com/timduly4/pyglow
           - item:
             name: OasisPiWind
@@ -7965,8 +7964,7 @@ landscape:
             logo: Massive-Parallel Trajectory Calculations.svg
             description: A Lagrangian particle dispersion model for the analysis of atmospheric transport processes in the free troposphere and stratosphere.
             repo_url: https://github.com/slcs-jsc/mptrac
-            organization:
-              name: Simulation and Data Laboratory Climate Science
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://github.com/slcs-jsc/mptrac
             extra:
               refs: >-
@@ -7987,7 +7985,7 @@ landscape:
             logo: splitr.svg
             description: We can determine, from one or more receptor sites, where arriving air masses originated.
             repo_url: https://github.com/rich-iannone/splitr
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/rstudio
             homepage_url: https://github.com/rich-iannone/splitr
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/20543/rich-iannone/SplitR'
@@ -7997,7 +7995,7 @@ landscape:
             logo: PyCHAM.svg
             description: CHemistry with Aerosol Microphysics in Python box model for Windows, Linux and Mac.
             repo_url: https://github.com/simonom/PyCHAM
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-manchester
             homepage_url: https://github.com/simonom/PyCHAM
             extra:
               refs: >-
@@ -8018,7 +8016,7 @@ landscape:
             logo: Mission Support System.svg
             description: A collaboration server to plan atmospheric research flights.
             repo_url: https://github.com/Open-MSS/MSS
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/deutsches-zentrum-f%C3%BCr-neurodegenerative-erkrankungen-dzne
             homepage_url: https://open-mss.github.io
             extra:
               refs: ',https://doi.org/10.5281/zenodo.6572620'
@@ -8028,8 +8026,8 @@ landscape:
             logo: MiMA.svg
             description: 'Model of an idealized Moist Atmosphere: Intermediate-complexity General Circulation Model with full radiation.'
             repo_url: https://github.com/mjucker/MiMA
-            unnamed_organization: true
-            homepage_url: https://github.com/mjucker/MiMA
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
+            homepage_url: http://mjucker.github.io/MiMA/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.597136'
               topics: fortran,gcm,climate-model,atmospheric-science,atmospheric-modelling
@@ -8069,7 +8067,7 @@ landscape:
             logo: FluxEngine.svg
             description: An open source atmosphere ocean gas flux data processing toolbox.
             repo_url: https://github.com/oceanflux-ghg/FluxEngine
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-space-agency-f580
             homepage_url: https://github.com/oceanflux-ghg/FluxEngine
             extra:
               refs: >-
@@ -8078,16 +8076,18 @@ landscape:
             name: GRAL
             logo: GRAL.svg
             description: Provides a CFD model for the flow calculation around buildings or micrsocale terrain structures.
+            project_org: https://github.com/GralDispersionModel
             repo_url: https://github.com/GralDispersionModel/GRAL
-            unnamed_organization: true
-            homepage_url: https://github.com/GralDispersionModel/GRAL
+            crunchbase: https://www.crunchbase.com/organization/graz-university-of-technology
+            homepage_url: https://gral.tugraz.at/
           - item:
             name: Chemical Lagrangian Model of the Stratosphere
             logo: Chemical Lagrangian Model of the Stratosphere.svg
             description: A world leader in simulating exchange processes in the atmosphere across transport barriers such as stratosphere-troposphere exchange.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://jugit.fz-juelich.de/clams/CLaMS
+            license: GNU General Public License v3.0
+            repo_url: https://jugit.fz-juelich.de/clams/CLaMS
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
+            homepage_url: https://jugit.fz-juelich.de/clams
           - item:
             name: GEOS-Chem
             logo: GEOS-Chem.svg
@@ -8105,15 +8105,15 @@ landscape:
             name: mHM
             logo: mHM.svg
             description: The mesoscale Hydrological Model.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://git.ufz.de/mhm/mhm
+            crunchbase: https://www.crunchbase.com/organization/helmholtz
+            homepage_url: https://mhm.pages.ufz.de/mhm
+            repo_url: https://git.ufz.de/mhm/mhm
           - item:
             name: PyBox
             logo: PyBox.svg
             description: A Python based box-model generator and simulator designed for atmospheric chemistry and aerosol studies.
             repo_url: https://github.com/loftytopping/PyBox
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-manchester
             homepage_url: https://github.com/loftytopping/PyBox
             extra:
               refs: ',https://doi.org/10.21105/joss.00755,https://doi.org/10.21105/joss.00755,https://doi.org/10.21105/joss.00755\n'
@@ -8148,7 +8148,7 @@ landscape:
             logo: pyvortex.svg
             description: Equivalent Latitude and polar vortex edge calculation using Nash criteria.
             repo_url: https://github.com/pankajkarman/pyvortex
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/karlsruhe-institute-of-technology
             homepage_url: https://github.com/pankajkarman/pyvortex
           - item:
             name: gcpy
@@ -8342,8 +8342,8 @@ landscape:
               Contains Python implementations of various climate index algorithms which provide a geographical and temporal picture of the severity of
               precipitation and temperature anomalies useful for climate monitoring and research.
             repo_url: https://github.com/monocongo/climate_indices
-            unnamed_organization: true
-            homepage_url: https://github.com/monocongo/climate_indices
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
+            homepage_url: https://climate-indices.readthedocs.io/
           - item:
             name: The Global Environmental Multiscale Model
             logo: The Global Environmental Multiscale Model.svg
@@ -8396,8 +8396,8 @@ landscape:
             description: >-
               Provides an access to the outputs of the current phase 6 of the Coupled Model Intercomparison Project (CMIP). CMIP6 global climate models give a
               base to (almost) all we may know for the climate of the future.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/PCMDI/pcmdi.github.io
+            crunchbase: https://www.crunchbase.com/organization/lawrence-livermore-national-laboratory
             homepage_url: https://pcmdi.github.io/CMIP6/
           - item:
             name: hector
@@ -8915,7 +8915,7 @@ landscape:
             repo_url: https://github.com/robintw/Py6S
             extra:
               topics: python,radiative-transfer,science,satellite,atmosphere,remote-sensing
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-southampton
             homepage_url: https://py6s.readthedocs.io/
           - item:
             name: RTE+RRTMGP
@@ -8950,7 +8950,7 @@ landscape:
             extra:
               topics: radiative-transfer,earth-observation
             organization:
-              name: Eradiate
+              name: Rayference
             homepage_url: https://www.eradiate.eu
           - item:
             name: Juelich Rapid Spectral Simulation Code
@@ -9331,8 +9331,7 @@ landscape:
             logo: xclim.svg
             description: A library of derived climate variables, i.e. climate indicators, based on xarray.
             repo_url: https://github.com/Ouranosinc/xclim
-            organization:
-              name: Ouranos inc.
+            crunchbase: https://www.crunchbase.com/organization/ouranos
             homepage_url: https://xclim.readthedocs.io/en/latest/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.2795043\n\nCredits\n-------\n\nxclim,https://zenodo.org/badge/latestdoi/142608764\n'
@@ -9631,7 +9630,7 @@ landscape:
             logo: climateR.svg
             description: An R package for getting point and gridded climate data by AOI.
             repo_url: https://github.com/mikejohnson51/climateR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://mikejohnson51.github.io/climateR-intro/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/158620263'
@@ -9658,7 +9657,8 @@ landscape:
             logo: semanticClimate.svg
             description: Conversion of IPCC documents into semantic form.
             repo_url: https://github.com/petermr/semanticClimate
-            unnamed_organization: true
+            organization:
+              name: semanticClimate
             homepage_url: https://github.com/petermr/semanticClimate
           - item:
             name: Miranda
@@ -9667,8 +9667,7 @@ landscape:
             repo_url: https://github.com/Ouranosinc/miranda
             extra:
               topics: climate,netcdf,archiving,collection,management
-            organization:
-              name: Ouranos inc.
+            crunchbase: https://www.crunchbase.com/organization/ouranos
             homepage_url: https://github.com/Ouranosinc/miranda
       - subcategory:
         name: Integrated Assessment
@@ -9692,7 +9691,7 @@ landscape:
               The Dynamic Integrated model of Climate and the Economy model family are a popular and capable type of simple Integrated Assessment Model of
               climate change economics pioneered by William Nordhaus.
             repo_url: https://github.com/Libbum/DICE.jl
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cervest
             homepage_url: https://github.com/Libbum/DICE.jl
           - item:
             name: LPJmL
@@ -9700,7 +9699,7 @@ landscape:
             description: >-
               A process-based model that simulates climate and land-use change impacts on the terrestrial biosphere, the water and carbon cycle and on
               agricultural production.
-            repo_url: null
+            repo_url: https://github.com/PIK-LPJmL/LPJmL
             crunchbase: https://www.crunchbase.com/organization/potsdam-institute-for-climate-impact-research
             homepage_url: https://gitlab.pik-potsdam.de/lpjml/LPJmL
           - item:
@@ -9804,8 +9803,9 @@ landscape:
             description: >-
               Machine Learning on Air data is an environment that simplifies and accelerates the creation of new machine learning models for the analysis and
               forecasting of meteorological and air quality time-series.
-            repo_url: null
-            unnamed_organization: true
+            license: MIT License
+            repo_url: https://gitlab.version.fz-juelich.de/esde/machine-learning/mlair
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://gitlab.version.fz-juelich.de/esde/machine-learning/mlair
           - item:
             name: shoot-i-smoke
@@ -9850,7 +9850,7 @@ landscape:
             repo_url: https://github.com/davidcarslaw/openair
             extra:
               topics: air-quality,meteorology,air-quality-data,openair
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-york
             homepage_url: http://davidcarslaw.github.io/openair/
           - item:
             name: ropenaq
@@ -10234,7 +10234,7 @@ landscape:
             repo_url: https://github.com/jblindsay/whitebox-tools
             extra:
               topics: geospatial,gis,remote-sensing,geoprocessing,hydrology,geomorphometry,geomorphology
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-guelph-2
             homepage_url: https://www.whiteboxgeo.com/
           - item:
             name: CRITERIA3D
@@ -10293,7 +10293,7 @@ landscape:
             repo_url: https://github.com/RAJohansen/waterquality
             extra:
               topics: water-quality,algal-bloom,algorithms,sentinel-2,landsat-8,meris,olci,modis,remote-sensing
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/u-s-army-corps-of-engineers
             homepage_url: https://rajohansen.github.io/waterquality/
           - item:
             name: QGEP
@@ -10313,7 +10313,8 @@ landscape:
             repo_url: https://github.com/toogad/PooPyLab_Project
             extra:
               topics: simulation,python,wastewater,environmental-engineering,process-flow-diagram
-            unnamed_organization: true
+            organization:
+              name: PooPyLab
             homepage_url: https://github.com/toogad/PooPyLab_Project
           - item:
             name: aguaclara
@@ -10329,7 +10330,7 @@ landscape:
             logo: RTC-Tools.svg
             description: A toolbox for control and optimization of water systems.
             repo_url: https://gitlab.com/deltares/rtc-tools
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/deltares
             homepage_url: https://gitlab.com/deltares/rtc-tools
           - item:
             name: EPANET
@@ -10369,7 +10370,7 @@ landscape:
             repo_url: https://github.com/isikdogan/rivamap
             extra:
               topics: river,river-networks,mapping,automated-river-analysis
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/apple
             homepage_url: https://github.com/isikdogan/rivamap
           - item:
             name: PyGnome
@@ -10385,7 +10386,7 @@ landscape:
               The model simulates key hydrological processes occurring in a river basin (e.g. water and energy balances, streamflow routing), but does not
               account for the operations of artificial water reservoirs.
             repo_url: https://github.com/thanhiwer/VICRes
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/singapore-university-of-technology-design
             homepage_url: https://github.com/thanhiwer/VICRes
           - item:
             name: AWSM
@@ -10408,13 +10409,6 @@ landscape:
               topics: aem,water,quality,aquatic,ecology,lakes,estuaries,phytoplankton,nutrients,sediment
             crunchbase: https://www.crunchbase.com/organization/university-of-western-australia
             homepage_url: http://aquatic.science.uwa.edu.au/research/models/AED/
-          - item:
-            name: DORiE
-            logo: DORiE.svg
-            description: A Discontinuous Galerkin Solver for Soil Water Flow and Passive Solute Transport Based on DUNE.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://ts-gitlab.iup.uni-heidelberg.de/dorie/dorie
           - item:
             name: wqbc
             logo: wqbc.svg
@@ -10477,7 +10471,7 @@ landscape:
             repo_url: https://github.com/UMN-Hydro/GSFLOW-GRASS
             extra:
               topics: hydrologic-modeling,hydrology,grass,gis
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-minnesota
             homepage_url: https://github.com/UMN-Hydro/GSFLOW-GRASS
           - item:
             name: GWHAT
@@ -10486,7 +10480,7 @@ landscape:
             repo_url: https://github.com/jnsebgosselin/gwhat
             extra:
               topics: groundwater-recharge,well-hydrograph,soil-water-balance,hydrographs
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/geostack
             homepage_url: https://github.com/jnsebgosselin/gwhat
           - item:
             name: Soil-Water-Balance
@@ -10595,21 +10589,22 @@ landscape:
             logo: WWTP.svg
             description: EU28 Waste Water Treatment Plants.
             repo_url: https://gitlab.com/hotmaps/potential/WWTP
-            unnamed_organization: true
+            license: Creative Commons Attribution 4.0 International
+            crunchbase: https://www.crunchbase.com/organization/eurac-research
             homepage_url: https://gitlab.com/hotmaps/potential/WWTP
           - item:
             name: AWH-Geo
             logo: AWH-Geo.svg
             description: Tool and calculations for Global Potential of Harvesting Drinking Water from Air using Solar Energy.
             repo_url: https://github.com/AWH-GlobalPotential-X/AWH-Geo
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://github.com/AWH-GlobalPotential-X/AWH-Geo
           - item:
             name: RainfallRescue
             logo: RainfallRescue.svg
             description: Monthly rainfall observations taken in the UK and Ireland, covering the period 1677-1960.
             repo_url: https://github.com/ed-hawkins/rainfall-rescue
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/met-office
             homepage_url: https://github.com/ed-hawkins/rainfall-rescue
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/261481817'
@@ -10631,7 +10626,8 @@ landscape:
             logo: reservatoriosBR.svg
             description: R package for Brazilian reservoirs data.
             repo_url: https://github.com/brunomioto/reservatoriosBR
-            unnamed_organization: true
+            organization:
+              name: Bruno Mioto
             homepage_url: https://brunomioto.github.io/reservatoriosBR
             extra:
               refs: ',https://doi.org/10.5281/zenodo.5496237,https://doi.org/10.5281/zenodo.5496237'
@@ -10645,22 +10641,21 @@ landscape:
             repo_url: https://github.com/usbr/PyForecast
             extra:
               topics: python,forecasting,machine-learning,statistical-models,hydrology
-            organization:
-              name: U.S. Bureau of Reclamation
+            crunchbase: https://www.crunchbase.com/organization/bureau-of-reclamation
             homepage_url: https://github.com/usbr/PyForecast
           - item:
             name: pyWaPOR
             logo: pyWaPOR.svg
             description: Data manual and Algorithm to compute the evapotranspiration of large areas using remote sensing data.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/eleaf
             homepage_url: https://bitbucket.org/cioapps/wapor-et-look/
           - item:
             name: HydroSHEDS
             logo: HydroSHEDS.svg
             description: Seamless hydrographic data for global and regional applications.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/world-wildlife-fund
             homepage_url: https://www.hydrosheds.org/
           - item:
             name: OpenET
@@ -10845,7 +10840,7 @@ landscape:
             repo_url: https://github.com/imartinezl/drought-map
             extra:
               topics: r,rstudio,data-visualization,map,animation,heatmap,spain,drought-indices,dataset
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/vicomtech
             homepage_url: https://github.com/imartinezl/drought-map
           - item:
             name: ml_drought
@@ -10872,14 +10867,14 @@ landscape:
               Compiled data from a set of soil health measurements collected across 41 countries around the world, which includes 5,241 data entries from 281
               published studies.
             repo_url: https://github.com/jinshijian/SoilHealthDB
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/virginia-tech
             homepage_url: https://github.com/jinshijian/SoilHealthDB
           - item:
             name: srdb
             logo: srdb.svg
             description: Global soil respiration database.
             repo_url: https://github.com/bpbond/srdb
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://github.com/bpbond/srdb
             extra:
               refs: ',https://doi.org/10.3334/ORNLDAAC/1235,https://doi.org/10.5194/essd-13-255-2021'
@@ -10891,14 +10886,15 @@ landscape:
             repo_url: https://github.com/bpbond/cosore
             extra:
               topics: carbon-cycle,soil-respiration,science,earth-sciences
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/pacific-northwest-national-laboratory
             homepage_url: https://github.com/bpbond/cosore
           - item:
             name: sidb
             logo: sidb.svg
             description: Contains information on laboratory soil incubation experiments, with emphasis on time series of CO2 release.
+            project_org: https://github.com/SoilBGC-Datashare
             repo_url: https://github.com/SoilBGC-Datashare/sidb
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/max-planck-society
             homepage_url: https://soilbgc-datashare.github.io/sidb/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3871263,https://doi.org/10.5194/essd-2019-184'
@@ -10970,11 +10966,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pennsylvania-state-university
             homepage_url: https://simsphere.ems.psu.edu
           - item:
-            name: CryoGrid3
-            logo: CryoGrid3.svg
+            name: CryoGrid
+            logo: CryoGrid.svg
             description: A one-dimensional land surface model dedicated to simulate ground temperatures in permafrost environments.
-            repo_url: https://github.com/CryoGrid/CryoGrid3
-            unnamed_organization: true
+            repo_url: https://github.com/CryoGrid/CryoGridCommunity_source
+            project_org: https://github.com/CryoGrid
+            crunchbase: https://www.crunchbase.com/organization/alfred-wegener-institute
             homepage_url: https://github.com/CryoGrid/CryoGrid3
             extra:
               refs: >-
@@ -10984,7 +10981,7 @@ landscape:
             logo: CNN-SoilTextureClassification.svg
             description: One-dimensional convolutional neural networks (CNN) for the classification of soil texture based on hyperspectral data.
             repo_url: https://github.com/felixriese/CNN-SoilTextureClassification
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/karlsruhe-institute-of-technology
             homepage_url: https://doi.org/10.5281/zenodo.2540718
             extra:
               refs: >-
@@ -11014,8 +11011,8 @@ landscape:
             logo: globsim.svg
             description: Using global reanalyses for permafrost simulation.
             repo_url: https://github.com/geocryology/globsim
-            unnamed_organization: true
-            homepage_url: https://github.com/geocryology/globsim
+            crunchbase: https://www.crunchbase.com/organization/carleton-university
+            homepage_url: https://globsim.readthedocs.io/
           - item:
             name: rSFSW2
             logo: rSFSW2.svg
@@ -11031,7 +11028,7 @@ landscape:
             logo: landscapemetrics.svg
             description: Landscape Metrics for Categorical Map Patterns in R.
             repo_url: https://github.com/r-spatialecology/landscapemetrics
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-massachusetts
             homepage_url: https://r-spatialecology.github.io/landscapemetrics
             extra:
               refs: ',https://doi.org/10.1111/ecog.04617,https://doi.org/10.1007/s10980-019-00830-x'
