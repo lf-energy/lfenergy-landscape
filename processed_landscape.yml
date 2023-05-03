@@ -56020,25 +56020,34 @@ landscape:
             logo: E-OBS.svg
             description: The detailed gridded observations data archive for the whole of Europe.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/met-office
             homepage_url: https://www.ecad.eu/download/ensembles/download.php
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Met Office
+              description: A world-leading weather and climate service.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: http://www.metoffice.gov.uk
+              city: Devon
+              region: Pennsylvania
+              country: United States
+              twitter: http://twitter.com/metoffice
+              linkedin: https://www.linkedin.com/company/met-office
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Association
+                - Environmental Consulting
+                - News
+                - Service Industry
             image_data:
               fileName: e-obs.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 85PIrqAgA899h3kxsXa+QF9nBPbN9zWc5yw4gMbWe8w=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: ERA-NUTS
             logo: ERA-NUTS.svg
@@ -57270,7 +57279,7 @@ landscape:
             extra:
               topics: python,radiative-transfer,science,satellite,atmosphere,remote-sensing
             unnamed_organization: true
-            homepage_url: https://github.com/robintw/Py6S
+            homepage_url: https://py6s.readthedocs.io/
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
               name: Non-Public Unnamed Organization
@@ -57302,7 +57311,7 @@ landscape:
               start_date: '2011-06-20T10:34:54Z'
             image_data:
               fileName: py6-s.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: abxpJ6UeCi6JANEcCR79S0HtWaYwyufjGw0QIo12a44=
             best_practice_data:
               badge: false
               percentage: null
@@ -57756,17 +57765,30 @@ landscape:
             repo_url: https://github.com/rich-iannone/stationaRy
             extra:
               topics: r,met-data,dataset,global
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/rstudio
             homepage_url: http://rich-iannone.github.io/stationaRy/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: RStudio
+              description: RStudio develops open source and enterprise-ready professional software for the R statistical computing environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: http://www.rstudio.com/
+              city: Boston
+              region: Massachusetts
+              country: United States
+              twitter: https://twitter.com/rstudio
+              linkedin: https://www.linkedin.com/company/rstudio-pbc/
+              acquisitions: []
               parents: []
+              funding: 166384540
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Developer Tools
+                - Enterprise Software
+                - Software
+                - Web Browsers
+              kind: funding
             github_data:
               languages:
                 - name: R
@@ -57791,12 +57813,10 @@ landscape:
               start_date: '2013-11-21T02:06:45Z'
             image_data:
               fileName: stationa-ry.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /pXeYlh6c27KYAaHgbKdCtGHvylY2ZJHZ4BnxIrDVvs=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: weathercan
             logo: weathercan.svg
@@ -57872,20 +57892,31 @@ landscape:
             logo: metR.svg
             description: Several functions and utilities that make R better for handling meteorological data in the tidy data paradigm.
             repo_url: https://github.com/eliocamp/metR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-buenos-aires
             homepage_url: https://eliocamp.github.io/metR/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/96357263'
               topics: r,atmospheric-science
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: University of Buenos Aires
+              description: Una de las mayores universidades de Argentina, es considerada como uno de los centros de estudios más prestigiosos de América Latina
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.uba.ar
+              city: Buenos Aires
+              region: Distrito Federal
+              country: Argentina
+              twitter: http://twitter.com/ubaonline
+              linkedin: https://www.linkedin.com/edu/university-of-buenos-aires-10103
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Market Research
+                - Universities
             github_data:
               languages:
                 - name: R
@@ -57910,31 +57941,41 @@ landscape:
               start_date: '2017-07-05T20:12:35Z'
             image_data:
               fileName: met-r.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: pqKwxLySXEVeWEZKsSDEiO4BqBFybhTfWw4f3F9iSgE=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: climate
             logo: climate.svg
             description: The goal of the climate R package is to automatize downloading of meteorological and hydrological data from publicly available repositories.
             repo_url: https://github.com/bczernecki/climate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/iqdata
             homepage_url: https://bczernecki.github.io/climate/
             extra:
               refs: ',https://doi.org/10.3390/su12010394"\n\nLaTeX/BibTeX'
               topics: climate,climate-data,meteorological-data,meteorology,ogimet,imgw,sounding,r,noaa-data,r-package
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: IQDATA
+              description: IQDATA provides outsourcing, application development, and digital marketing services.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: https://www.iqdata.ro
+              city: Cluj-napoca
+              region: Cluj
+              country: Romania
+              twitter: null
+              linkedin: https://www.linkedin.com/company/iqdataro
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - E-Commerce
+                - Mobile Apps
+                - Outsourcing
+                - Software
+                - Web Apps
             github_data:
               languages:
                 - name: R
@@ -57959,29 +58000,22 @@ landscape:
               start_date: '2019-07-17T20:17:38Z'
             image_data:
               fileName: climate.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: rTKE91+ROrfmifJpbJzjcOlM46JoKxD8dcJ8g3sEST8=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: rdwd
             logo: rdwd.svg
             description: An R package to select, download and read climate data from the German Weather Service.
             repo_url: https://github.com/brry/rdwd
-            unnamed_organization: true
+            organization:
+              name: Berry Boessenkool
             homepage_url: https://bookdown.org/brry/rdwd
             extra:
               refs: ',https://doi.org/10.1016/j.scitotenv.2018.02.241,https://doi.org/10.5675/HyWa_2017,3_1'
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Berry Boessenkool
               parents: []
             github_data:
               languages:
@@ -58007,12 +58041,10 @@ landscape:
               start_date: '2016-10-19T15:07:56Z'
             image_data:
               fileName: rdwd.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /lmpeKtiGQnsdNBAnz9aVnsGq+6Yohksc3T9LF5EtFQ=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: MetPy
             logo: MetPy.svg
@@ -58084,20 +58116,15 @@ landscape:
             logo: wetterdienst.svg
             description: Trying to make access to weather data in Python feel like a warm summer breeze.
             repo_url: https://github.com/earthobservations/wetterdienst
-            unnamed_organization: true
+            organization:
+              name: earthobservations
             homepage_url: https://wetterdienst.readthedocs.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/160953150\n'
               topics: >-
                 deutscher-wetterdienst,germany,open-source,open-data,historical-data,time-series,dwd,radar,weather,weatherservice,weather-forecast,weather-api,weather-station,eccc,canada,data,united-states,uk,hydrology,meteorology
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: earthobservations
               parents: []
             github_data:
               languages:
@@ -58126,12 +58153,10 @@ landscape:
               start_date: '2020-04-21T21:48:41Z'
             image_data:
               fileName: wetterdienst.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: Xn5us3Heg0l5GtItilSChlqUmmefp83CQdRLklgX0/w=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: AWIPS
             logo: AWIPS.svg
@@ -59558,20 +59583,32 @@ landscape:
             logo: easyclimate.svg
             description: Easy access to high-resolution daily climate data for Europe.
             repo_url: https://github.com/VeruGHub/easyclimate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/harvard-university
             homepage_url: https://verughub.github.io/easyclimate/
             extra:
               refs: ',https://doi.org/10.1002/joc.4436,https://doi.org/10.1002/joc.4436'
               topics: r-package,climate-data,europe
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Harvard University
+              description: Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders who make a difference globally.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://harvard.edu
+              city: Cambridge
+              region: Massachusetts
+              country: United States
+              twitter: http://twitter.com/Harvard
+              linkedin: https://www.linkedin.com/edu/harvard-university-18483
+              acquisitions: []
               parents: []
+              funding: 125329910
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Higher Education
+                - Universities
+              kind: funding
             github_data:
               languages:
                 - name: R
@@ -59596,12 +59633,10 @@ landscape:
               start_date: '2019-11-08T09:56:40Z'
             image_data:
               fileName: easyclimate.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: REtXNU9tH2mcY4uYHlFk/73vSjNgqYx3cJ2pTbVXxq0=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: Climate categories
             logo: Climate categories.svg
@@ -59701,17 +59736,29 @@ landscape:
             repo_url: https://github.com/aaronspring/remote_climate_data
             extra:
               topics: data-catalog,shapefiles,accessibility,netcdf,thredds-catalogs,opendap,observations,climate-science,climate-data,remote
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/new-work
             homepage_url: https://github.com/aaronspring/remote_climate_data
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: New Work
+              description: "New Work is a\_technology company offers a wide range of brands, products, and services for an online business network."
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: https://www.new-work.se/
+              city: Hamburg
+              region: Hamburg
+              country: Germany
+              twitter: https://twitter.com/NEW_WORK_SE_IR
+              linkedin: https://www.linkedin.com/company/new-work-se
+              acquisitions: []
               parents: []
+              ticker: NWO.DE
+              stockExchange: etr
+              company_type: For Profit
+              industries:
+                - Information Technology
+                - Internet of Things
+                - Social Network
+              kind: market_cap
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -59735,14 +59782,15 @@ landscape:
             github_start_commit_data:
               start_commit_link: /aaronspring/remote_climate_data/commit/4cb5c803bfc6ca3b454587be1d9de47e7d6f0b5d
               start_date: '2020-07-29T14:52:06Z'
+            yahoo_finance_data:
+              market_cap: 1024211837
+              effective_ticker: NWO.DE
             image_data:
               fileName: remote-climate-data.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: gveUOWSOviaoDUIpR/C48uHGlvRKRs4s/wSfs4qfLvw=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: AR6-WG1-Data-Compilation
             logo: AR6-WG1-Data-Compilation.svg
@@ -60059,25 +60107,33 @@ landscape:
             logo: Climate Data Store Toolbox.svg
             description: Dive into this wealth of information about the Earth's past, present and future climate.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-union
             homepage_url: https://cds.climate.copernicus.eu/toolbox/doc/index.html
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: European Union
+              description: European Union provides access to information published by all EU institutions, agencies and bodies.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: https://eeas.europa.eu/delegations/venezuela_es
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: https://twitter.com/europeanunion
+              linkedin: https://www.linkedin.com/company/european-union
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: ''
+              industries:
+                - Education
+                - Government
+                - Information Services
             image_data:
               fileName: climate-data-store-toolbox.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: sT6JiYWBcJCRF4b7BO5tJUvi85gN/eDvaZ34E6FPMY0=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: ATLAS
             logo: atlas2.svg
@@ -60391,17 +60447,29 @@ landscape:
             repo_url: https://github.com/Yuanchao-Xu/hyfo
             extra:
               topics: climate,forecasting-models,netcdf4,hydrology,maps,climate-forecasting,cran
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ey-japan
             homepage_url: http://yuanchao-xu.github.io/hyfo/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: EY
+              description: EY Japan is a professional services firm that specialises in consulting, assurance, tax, strategy, and transaction services.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.ey.com/ja_jp
+              city: Tokyo
+              region: Tokyo
+              country: Japan
+              twitter: https://twitter.com/Japan_EY?s=20&t=ype1BJCjWuLaJLAJnmarvA
+              linkedin: https://www.linkedin.com/company/ey-japan/?originalSubdomain=jp
+              acquisitions:
+                - date: '2023-01-13'
+                  acquiree: eBorn Consulting
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Accounting
+                - Consulting
+                - Professional Services
             github_data:
               languages:
                 - name: R
@@ -60426,12 +60494,10 @@ landscape:
               start_date: '2015-06-14T12:41:25Z'
             image_data:
               fileName: hyfo.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 58wET9L1TUNoaA3hraeD0myl7P6jzqPukQxCOzrjoqs=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: rWBclimate
             logo: rWBclimate.svg
@@ -60496,20 +60562,30 @@ landscape:
             logo: aospy.svg
             description: A Python package for automated analysis and management of gridded climate data.
             repo_url: https://github.com/spencerahill/aospy
-            unnamed_organization: true
-            homepage_url: https://github.com/spencerahill/aospy
+            crunchbase: https://www.crunchbase.com/organization/lamont-doherty-earth-observatory
+            homepage_url: https://aospy.readthedocs.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/37231620\n'
               topics: python,xarray,netcdf,science,climate
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Lamont-Doherty Earth Observatory
+              description: Lamont-Doherty Earth Observatory is a dynamic community of scientists, students & staff whose expertise advances the field of Earth science.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: https://www.ldeo.columbia.edu/
+              city: New York
+              region: New York
+              country: United States
+              twitter: https://www.twitter.com/https://twitter.com/LamontEarth
+              linkedin: https://www.linkedin.com/company/3685564
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Education
+                - Life Science
+                - Market Research
             github_data:
               languages:
                 - name: Python
@@ -60537,12 +60613,10 @@ landscape:
               start_date: '2015-04-01T22:48:19Z'
             image_data:
               fileName: aospy.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: /4julqt3acPh/nuU6i6GgNSOtUgU9UJs8XBAUapjSyY=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: NASAaccess
             logo: NASAaccess.svg
@@ -61033,17 +61107,29 @@ landscape:
             logo: Data wrangling for the "IEA Net Zero by 2050" Roadmap.svg
             description: Transform data supporting the IEA Netzero2050 Roadmap (2021) to the IAMC format.
             repo_url: https://github.com/danielhuppmann/iea-netzero2050-datawrangler
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://github.com/danielhuppmann/iea-netzero2050-datawrangler
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: International Institute for Applied Systems Analysis
+              description: International Institute for Applied Systems Analysis is a scientific research institute that conducts research for global environment.
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: https://iiasa.ac.at/
+              city: Laxenburg
+              region: Niederosterreich
+              country: Austria
+              twitter: https://twitter.com/IIASAVienna
+              linkedin: https://www.linkedin.com/company/iiasa-vienna/
+              acquisitions: []
               parents: []
+              stockExchange: null
+              company_type: Non Profit
+              industries:
+                - Agriculture
+                - Biofuel
+                - Education
+                - Product Search
+                - Risk Management
             github_data:
               languages:
                 - name: Jupyter Notebook
@@ -61068,31 +61154,44 @@ landscape:
               start_date: '2021-05-19T12:40:40Z'
             image_data:
               fileName: data-wrangling-for-the-iea-net-zero-by-2050-roadmap.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: BwKhcIJsqdUtF3wh4oZ3utjDppOwWFqgOn2o+KkV7K4=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-04-20T15:18:02.000Z
           - item:
             name: IceVarFigs
             logo: IceVarFigs.svg
             description: Weather and climate graphics for science communication.
             repo_url: https://github.com/zmlabe/IceVarFigs
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://zacklabe.com/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/107888830'
               topics: arctic-sea-ice,sea-ice-thickness,climate-change,scicomm,climate-variability
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: National Oceanic and Atmospheric Administration
+              description: The National Oceanic and Atmospheric Administration is a federal agency focused on the condition of the oceans and the atmosphere.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: http://www.noaa.gov
+              city: Washington
+              region: District of Columbia
+              country: United States
+              twitter: http://twitter.com/NOAA
+              linkedin: https://www.linkedin.com/company/noaa
+              acquisitions: []
               parents: []
+              funding: 3624
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Government
+                - Information Services
+                - Public Safety
+                - Service Industry
+              kind: funding
             github_data:
               languages:
                 - name: Python
@@ -61123,12 +61222,12 @@ landscape:
               start_date: '2017-10-22T17:48:10Z'
             image_data:
               fileName: ice-var-figs.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: aJsWbH0Kaj1kZr9H1fX3GCQ7c1w63sz3qscVVonBHtM=
             best_practice_data:
               badge: false
               percentage: null
             twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
+              latest_tweet_date: 2023-03-31T19:09:05.000Z
           - item:
             name: climaemet
             logo: climaemet.svg
@@ -61481,16 +61580,11 @@ landscape:
             extra:
               topics: >-
                 climate-data,ggplot2,climate-change,climate,warming-stripes,noaa,sea-ice,temperature-data,sea-levels,carbon-dioxide-data,climate-science,rstats,carbon-emissions,carbon
-            unnamed_organization: true
+            organization:
+              name: Hernando Cortina
             homepage_url: https://cortinah.github.io/hockeystick/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Hernando Cortina
               parents: []
             github_data:
               languages:
@@ -61516,12 +61610,10 @@ landscape:
               start_date: '2020-07-26T18:42:35Z'
             image_data:
               fileName: hockeystick.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: VRWkaX4aOg+yZLQNfCXbtT1vabU9Fhk3hoXDxGOpGe8=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: cfgrib
             logo: cfgrib.svg
@@ -61761,16 +61853,11 @@ landscape:
             repo_url: https://github.com/h5netcdf/h5netcdf
             extra:
               topics: python,netcdf,hdf5,h5py
-            unnamed_organization: true
+            organization:
+              name: Kai Mühlbauer
             homepage_url: https://h5netcdf.org
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Kai Mühlbauer
               parents: []
             github_data:
               languages:
@@ -61796,12 +61883,10 @@ landscape:
               start_date: '2015-04-07T18:48:11Z'
             image_data:
               fileName: h5netcdf.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: 00OB0Xsc0FUF5W9LT6ACb5CPeG/HRK3sWTW9xc2Dw0c=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: rsoi
             logo: rsoi.svg
@@ -61809,17 +61894,29 @@ landscape:
             repo_url: https://github.com/boshek/rsoi
             extra:
               topics: oceanography,r,cran,oceanic-nino
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/voltron-data
             homepage_url: https://boshek.github.io/rsoi/
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
             crunchbase_data:
-              name: Non-Public Unnamed Organization
-              homepage: null
-              city: Bouvet Island
-              region: Antarctica
-              country: Antarctica
-              twitter: https://twitter.com/LFE_Foundation
+              name: Voltron Data
+              description: Voltron Data develops high-performance data access and in-memory computing tools to improve the existing data analytics ecosystem.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: https://voltrondata.com/
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: https://twitter.com/voltrondata
+              linkedin: https://www.linkedin.com/company/voltrondata/
+              acquisitions: []
               parents: []
+              funding: 110000000
+              stockExchange: null
+              company_type: For Profit
+              industries:
+                - Analytics
+                - Hardware
+                - Software
+              kind: funding
             github_data:
               languages:
                 - name: R
@@ -61844,12 +61941,10 @@ landscape:
               start_date: '2017-03-29T17:23:07Z'
             image_data:
               fileName: rsoi.svg
-              hash: dugyasFkdN8omjr1tBO47XQPSrOjZLoN38zcC/CNlSc=
+              hash: G7HtUzSkU5g2S/1zfWRFlRAZ2vQtxf+RwQ62JR5wDSo=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2023-04-04T19:07:01.000Z
           - item:
             name: NCO
             logo: NCO.svg
@@ -71530,7 +71625,7 @@ landscape:
             github_data:
               languages:
                 - name: JavaScript
-                  value: 1185962
+                  value: 1161211
                   color: '#f1e05a'
                 - name: Python
                   value: 589403
@@ -71539,16 +71634,16 @@ landscape:
                   value: 500303
                   color: '#e34c26'
                 - name: CSS
-                  value: 55406
+                  value: 55606
                   color: '#563d7c'
                 - name: PHP
                   value: 32441
                   color: '#4F5D95'
-                - name: SCSS
-                  value: 21108
                 - name: TypeScript
-                  value: 7539
+                  value: 31665
                   color: '#2b7489'
+                - name: SCSS
+                  value: 21159
                 - name: Java
                   value: 7342
                   color: '#b07219'
@@ -71570,7 +71665,7 @@ landscape:
                 - name: Dockerfile
                   value: 1034
                   color: '#384d54'
-              contributions: 5;8;11;6;25;17;3;0;0;4;0;4;6;3;1;2;1;0;10;10;1;12;1;1;1;5;4;64;32;5;10;10;7;19;0;9;7;5;9;18;3;7;26;17;12;24;20;23;29;44;53;111
+              contributions: 4;7;12;12;20;17;1;0;3;1;0;5;6;2;1;2;1;10;9;1;1;12;1;1;3;3;12;66;27;1;9;12;24;0;0;9;8;7;6;19;2;19;14;17;19;18;19;23;32;43;71;61
               firstWeek: 2022-05-08Z
               stars: 21
               license: GNU Affero General Public License v3.0

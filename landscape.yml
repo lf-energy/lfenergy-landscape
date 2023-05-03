@@ -8804,7 +8804,7 @@ landscape:
             logo: E-OBS.svg
             description: The detailed gridded observations data archive for the whole of Europe.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/met-office
             homepage_url: https://www.ecad.eu/download/ensembles/download.php
           - item:
             name: ERA-NUTS
@@ -8916,7 +8916,7 @@ landscape:
             extra:
               topics: python,radiative-transfer,science,satellite,atmosphere,remote-sensing
             unnamed_organization: true
-            homepage_url: https://github.com/robintw/Py6S
+            homepage_url: https://py6s.readthedocs.io/
           - item:
             name: RTE+RRTMGP
             logo: RTE+RRTMGP.svg
@@ -8997,7 +8997,7 @@ landscape:
             repo_url: https://github.com/rich-iannone/stationaRy
             extra:
               topics: r,met-data,dataset,global
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/rstudio
             homepage_url: http://rich-iannone.github.io/stationaRy/
           - item:
             name: weathercan
@@ -9016,7 +9016,7 @@ landscape:
             logo: metR.svg
             description: Several functions and utilities that make R better for handling meteorological data in the tidy data paradigm.
             repo_url: https://github.com/eliocamp/metR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-buenos-aires
             homepage_url: https://eliocamp.github.io/metR/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/96357263'
@@ -9026,7 +9026,7 @@ landscape:
             logo: climate.svg
             description: The goal of the climate R package is to automatize downloading of meteorological and hydrological data from publicly available repositories.
             repo_url: https://github.com/bczernecki/climate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/iqdata
             homepage_url: https://bczernecki.github.io/climate/
             extra:
               refs: ',https://doi.org/10.3390/su12010394"\n\nLaTeX/BibTeX'
@@ -9036,7 +9036,8 @@ landscape:
             logo: rdwd.svg
             description: An R package to select, download and read climate data from the German Weather Service.
             repo_url: https://github.com/brry/rdwd
-            unnamed_organization: true
+            organization:
+              name: Berry Boessenkool
             homepage_url: https://bookdown.org/brry/rdwd
             extra:
               refs: ',https://doi.org/10.1016/j.scitotenv.2018.02.241,https://doi.org/10.5675/HyWa_2017,3_1'
@@ -9054,7 +9055,8 @@ landscape:
             logo: wetterdienst.svg
             description: Trying to make access to weather data in Python feel like a warm summer breeze.
             repo_url: https://github.com/earthobservations/wetterdienst
-            unnamed_organization: true
+            organization:
+              name: earthobservations
             homepage_url: https://wetterdienst.readthedocs.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/160953150\n'
@@ -9212,7 +9214,7 @@ landscape:
             logo: easyclimate.svg
             description: Easy access to high-resolution daily climate data for Europe.
             repo_url: https://github.com/VeruGHub/easyclimate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/harvard-university
             homepage_url: https://verughub.github.io/easyclimate/
             extra:
               refs: ',https://doi.org/10.1002/joc.4436,https://doi.org/10.1002/joc.4436'
@@ -9245,7 +9247,7 @@ landscape:
             repo_url: https://github.com/aaronspring/remote_climate_data
             extra:
               topics: data-catalog,shapefiles,accessibility,netcdf,thredds-catalogs,opendap,observations,climate-science,climate-data,remote
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/new-work
             homepage_url: https://github.com/aaronspring/remote_climate_data
           - item:
             name: AR6-WG1-Data-Compilation
@@ -9311,7 +9313,7 @@ landscape:
             logo: Climate Data Store Toolbox.svg
             description: Dive into this wealth of information about the Earth's past, present and future climate.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-union
             homepage_url: https://cds.climate.copernicus.eu/toolbox/doc/index.html
           - item:
             name: ATLAS
@@ -9373,7 +9375,7 @@ landscape:
             repo_url: https://github.com/Yuanchao-Xu/hyfo
             extra:
               topics: climate,forecasting-models,netcdf4,hydrology,maps,climate-forecasting,cran
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ey-japan
             homepage_url: http://yuanchao-xu.github.io/hyfo/
           - item:
             name: rWBclimate
@@ -9389,8 +9391,8 @@ landscape:
             logo: aospy.svg
             description: A Python package for automated analysis and management of gridded climate data.
             repo_url: https://github.com/spencerahill/aospy
-            unnamed_organization: true
-            homepage_url: https://github.com/spencerahill/aospy
+            crunchbase: https://www.crunchbase.com/organization/lamont-doherty-earth-observatory
+            homepage_url: https://aospy.readthedocs.io/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/37231620\n'
               topics: python,xarray,netcdf,science,climate
@@ -9468,14 +9470,14 @@ landscape:
             logo: Data wrangling for the "IEA Net Zero by 2050" Roadmap.svg
             description: Transform data supporting the IEA Netzero2050 Roadmap (2021) to the IAMC format.
             repo_url: https://github.com/danielhuppmann/iea-netzero2050-datawrangler
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/international-institute-for-applied-systems-analysis
             homepage_url: https://github.com/danielhuppmann/iea-netzero2050-datawrangler
           - item:
             name: IceVarFigs
             logo: IceVarFigs.svg
             description: Weather and climate graphics for science communication.
             repo_url: https://github.com/zmlabe/IceVarFigs
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://zacklabe.com/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/107888830'
@@ -9542,7 +9544,8 @@ landscape:
             extra:
               topics: >-
                 climate-data,ggplot2,climate-change,climate,warming-stripes,noaa,sea-ice,temperature-data,sea-levels,carbon-dioxide-data,climate-science,rstats,carbon-emissions,carbon
-            unnamed_organization: true
+            organization:
+              name: Hernando Cortina
             homepage_url: https://cortinah.github.io/hockeystick/
           - item:
             name: cfgrib
@@ -9593,7 +9596,8 @@ landscape:
             repo_url: https://github.com/h5netcdf/h5netcdf
             extra:
               topics: python,netcdf,hdf5,h5py
-            unnamed_organization: true
+            organization:
+              name: Kai Mühlbauer
             homepage_url: https://h5netcdf.org
           - item:
             name: rsoi
@@ -9602,7 +9606,7 @@ landscape:
             repo_url: https://github.com/boshek/rsoi
             extra:
               topics: oceanography,r,cran,oceanic-nino
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/voltron-data
             homepage_url: https://boshek.github.io/rsoi/
           - item:
             name: NCO
