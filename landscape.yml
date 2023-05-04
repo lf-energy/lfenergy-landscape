@@ -4700,7 +4700,7 @@ landscape:
               Loads websites, compute metrics (from network activity, loaded payloads and the web page), and uses them to assess the website's ecodesign
               maturity based on a list of best practices.
             repo_url: https://gitlab.com/ecoconceptionweb/ecometer
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/atol-consulting-developments
             homepage_url: https://gitlab.com/ecoconceptionweb/ecometer
           - item:
             name: patch-node
@@ -4724,7 +4724,8 @@ landscape:
             logo: nvidia-co2.svg
             description: Adds gCO2eq emissions to nvidia-smi.
             repo_url: https://github.com/kylemcdonald/nvidia-co2
-            unnamed_organization: true
+            organization:
+              name: Kyle McDonald
             homepage_url: https://github.com/kylemcdonald/nvidia-co2
           - item:
             name: The Low Impact Website
@@ -4743,7 +4744,8 @@ landscape:
             repo_url: https://github.com/kylemcdonald/ethereum-nft-activity
             extra:
               topics: ethereum,cryptoart,climate
-            unnamed_organization: true
+            organization:
+              name: Kyle McDonald
             homepage_url: https://github.com/kylemcdonald/ethereum-nft-activity
           - item:
             name: Cloud Carbon Footprint
@@ -4778,8 +4780,8 @@ landscape:
             name: FEEP
             logo: FEEP.svg
             description: Improve the energy efficiency of free and open source software.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://invent.kde.org/cschumac/feep
+            crunchbase: https://www.crunchbase.com/organization/kde
             homepage_url: https://invent.kde.org/cschumac/feep
           - item:
             name: LEAF
@@ -4794,10 +4796,11 @@ landscape:
             name: kube-green
             logo: kube-green.svg
             description: A k8s operator to reduce CO2 footprint of your clusters.
+            project_org: https://github.com/kube-green
             repo_url: https://github.com/kube-green/kube-green
             extra:
               topics: kubernetes,k8s,green-software,resources,cloud-native,downscale,hacktoberfest
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/mia-platform
             homepage_url: https://kube-green.dev
           - item:
             name: ecoCode
@@ -4831,7 +4834,7 @@ landscape:
             logo: Principles of Green Software Engineering.svg
             description: Are a core set of competencies needed to define, build and run sustainable software applications.
             repo_url: https://github.com/jawache/principles-green
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/green-software-foundation
             homepage_url: https://github.com/jawache/principles-green
           - item:
             name: grid-intensity-go
@@ -4845,7 +4848,7 @@ landscape:
             logo: Eco2AI.svg
             description: A Python library which accumulates statistics about power consumption and CO2 emission during running code.
             repo_url: https://github.com/sb-ai-lab/Eco2AI
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/artificial-intelligence-research-institute-f36a
             homepage_url: https://github.com/sb-ai-lab/Eco2AI
             extra:
               refs: ',https://doi.org/10.48550/arxiv.2208.00406,\n'
@@ -4856,7 +4859,7 @@ landscape:
             logo: impact.svg
             description: Compute your ML model's emissions with our calculator and add the results to your paper with our generated LaTeX template.
             repo_url: https://github.com/mlco2/impact
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/black-rock-marketing-group
             homepage_url: https://mlco2.github.io/impact
           - item:
             name: CodeCarbon
@@ -4873,8 +4876,8 @@ landscape:
             logo: experiment-impact-tracker.svg
             description: Meant to be a simple drop-in method to track energy usage, carbon emissions, and compute utilization of your system.
             repo_url: https://github.com/Breakend/experiment-impact-tracker
-            unnamed_organization: true
-            homepage_url: https://github.com/Breakend/experiment-impact-tracker
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
+            homepage_url: https://breakend.github.io/experiment-impact-tracker/
           - item:
             name: Let's Wait Awhile
             logo: lets-wait-awhile.svg
@@ -4903,23 +4906,23 @@ landscape:
             repo_url: https://github.com/carbonalyser/Carbonalyser
             extra:
               topics: addon,ecology,carbon-emissions,firefox-addon,chrome-extension
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/the-shift-project
             homepage_url: https://theshiftproject.org/en/carbonalyser-browser-extension/
           - item:
             name: carbontracker
             logo: carbontracker.svg
             description: Track and predict the energy consumption and carbon footprint of training deep learning models.
             repo_url: https://github.com/lfwa/carbontracker
-            unnamed_organization: true
-            homepage_url: https://github.com/lfwa/carbontracker
+            crunchbase: https://www.crunchbase.com/organization/eth-zurich
+            homepage_url: https://theshiftproject.org/en/carbonalyser-browser-extension/
           - item:
             name: green-ai
             logo: green-ai.svg
             description: The Green AI Standard aims to develop a standard and raise awareness for best environmental practices in AI research and development.
             repo_url: https://github.com/daviddao/green-ai
-            unnamed_organization: true
+            organization:
+              name: GainForest e.V.
             homepage_url: https://github.com/daviddao/green-ai
-            extra: null
   - category:
     name: Emissions
     subcategories:
@@ -5018,7 +5021,8 @@ landscape:
             logo: CarbonFootprint.svg
             description: A browser extension that displays carbon footprint information in multiple map services.
             repo_url: https://gitlab.com/aossie/CarbonFootprint
-            unnamed_organization: true
+            organization:
+              name: AOSSIE
             homepage_url: https://gitlab.com/aossie/CarbonFootprint
           - item:
             name: blockchain-carbon-accounting
@@ -5319,7 +5323,7 @@ landscape:
             repo_url: https://github.com/quishqa/PyChEmiss
             extra:
               topics: emission,wrf-chem,wrf-domain
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/federal-university-of-sao-paulo
             homepage_url: https://github.com/quishqa/PyChEmiss
           - item:
             name: co2-data
@@ -5361,8 +5365,8 @@ landscape:
             logo: OPGEE.svg
             description: Oil Production Greenhouse Gas Emissions Estimator.
             repo_url: https://github.com/arbrandt/OPGEE
-            unnamed_organization: true
-            homepage_url: https://github.com/arbrandt/OPGEE
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
+            homepage_url: https://eao.stanford.edu/opgee-oil-production-greenhouse-gas-emissions-estimator
           - item:
             name: OpenGHG
             logo: OpenGHG.svg
@@ -5390,7 +5394,7 @@ landscape:
             logo: Methane-detection-from-hyperspectral-imagery.svg
             description: Deep Learning based Remote Sensing Methods for Methane Detection in Airborne Hyperspectral Imagery.
             repo_url: https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-california-santa-barbara
             homepage_url: https://github.com/satish1901/Methane-detection-from-hyperspectral-imagery
           - item:
             name: Methane Source Finder
@@ -5417,8 +5421,7 @@ landscape:
             repo_url: https://github.com/Ribbit-Network/ribbit-network-frog-sensor
             extra:
               topics: climate,co2-sensors,balena,influxdb,raspberry-pi
-            organization:
-              name: Ribbit Network
+            crunchbase: https://www.crunchbase.com/organization/ribbit-network
             homepage_url: https://github.com/Ribbit-Network/ribbit-network-frog-sensor
           - item:
             name: FIRECAM
@@ -5519,7 +5522,8 @@ landscape:
             logo: The Global Registry of Fossil Fuels.svg
             description: Open Source database of oil, gas and coal production and reserves globally, expressed in CO2-equivalent.
             repo_url: https://github.com/fossilfuelregistry/portal-v2
-            unnamed_organization: true
+            organization:
+              name: Global Energy Monitor
             homepage_url: https://github.com/fossilfuelregistry/portal-v2
           - item:
             name: Easy-ERA5-Trck
@@ -5528,7 +5532,7 @@ landscape:
             repo_url: https://github.com/Novarizark/easy-era5-trck
             extra:
               topics: era5,python,lagrangian,trajectory,multiprocessing
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/hong-kong-university-of-science-and-technology
             homepage_url: https://github.com/Novarizark/easy-era5-trck
           - item:
             name: GRACED
@@ -5582,7 +5586,7 @@ landscape:
             logo: carculator.svg
             description: Prospective environmental and economic life cycle assessment of vehicles made blazing fast.
             repo_url: https://github.com/romainsacchi/carculator
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/paul-scherrer-institut
             homepage_url: http://carculator.psi.ch
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3778259'
@@ -5612,7 +5616,7 @@ landscape:
             repo_url: https://github.com/GreenDelta/olca-app
             extra:
               topics: openlca,eclipse-rcp,java
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/greendelta
             homepage_url: https://openlca.org
           - item:
             name: openlca-python-tutorial
@@ -5621,7 +5625,7 @@ landscape:
             repo_url: https://github.com/GreenDelta/openlca-python-tutorial
             extra:
               topics: python,jython,tutorial,openlca
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/greendelta
             homepage_url: https://github.com/GreenDelta/openlca-python-tutorial
           - item:
             name: Global LCA Data Access Network
@@ -5629,8 +5633,8 @@ landscape:
             description: >-
               Gathers life cycle dataset providers and other stakeholders who share the goal of improving sustainability-related decisions through enhanced,
               interoperable and global access to LCA datasets.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/UNEP-Economy-Division/GLAD-ElementaryFlowResources
+            crunchbase: https://www.crunchbase.com/organization/un-environment-programme
             homepage_url: https://www.globallcadataaccess.org/
           - item:
             name: BioSTEAM_LCA
@@ -5641,7 +5645,7 @@ landscape:
             repo_url: https://github.com/scyjth/biosteam_lca
             extra:
               topics: life-cycle-assessment,environmental-impacts,integrated-lca-and-tea,uncertainty
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-illinois
             homepage_url: https://github.com/scyjth/biosteam_lca
           - item:
             name: lca_algebraic
@@ -5652,8 +5656,7 @@ landscape:
             repo_url: https://github.com/oie-mines-paristech/lca_algebraic
             extra:
               topics: lca,brightway2,numpy,monte-carlo,lca-algebraic,foreground-activities,symbolic-expressions
-            organization:
-              name: OIE - Mines ParisTech
+            crunchbase: https://www.crunchbase.com/organization/mines-paristech
             homepage_url: https://github.com/oie-mines-paristech/lca_algebraic
           - item:
             name: Federal LCA Commons
@@ -5686,8 +5689,7 @@ landscape:
             logo: premise.svg
             description: Coupling Integrated Assessment Models output with Life Cycle Assessment.
             repo_url: https://github.com/polca/premise
-            organization:
-              name: POLCA
+            crunchbase: https://www.crunchbase.com/organization/paul-scherrer-institut
             homepage_url: https://github.com/polca/premise
             extra:
               refs: ',https://doi.org/10.1016/j.rser.2022.112311'
@@ -5726,8 +5728,8 @@ landscape:
             name: pymrio
             logo: pymrio.svg
             description: Multi-Regional Input-Output Analysis in Python.
-            repo_url: https://github.com/konstantinstadler/pymrio
-            unnamed_organization: true
+            repo_url: https://github.com/IndEcol/pymrio
+            crunchbase: https://www.crunchbase.com/organization/yale-university
             homepage_url: http://pymrio.readthedocs.io/en/latest/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/21688312\n'
@@ -5755,7 +5757,7 @@ landscape:
             logo: TACO.svg
             description: Trash Annotations in Context Dataset Toolkit.
             repo_url: https://github.com/pedropro/TACO
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa-jet-propulsion-laboratory-2a9c
             homepage_url: http://tacodataset.org
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3587843'
@@ -5777,7 +5779,7 @@ landscape:
             repo_url: https://github.com/sangminwoo/RecycleNet
             extra:
               topics: trash-classification,attention,recyclenet,trashnet
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/korea-advanced-institute-of-science-and-technology
             homepage_url: https://github.com/sangminwoo/RecycleNet
           - item:
             name: trashnet
@@ -5786,7 +5788,7 @@ landscape:
             repo_url: https://github.com/garythung/trashnet
             extra:
               topics: dataset,torch,convolutional-neural-networks,deep-learning,trash,garbage,image-classification
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://github.com/garythung/trashnet
           - item:
             name: OpenLitterMap
@@ -5958,8 +5960,7 @@ landscape:
             repo_url: https://github.com/MetOffice/forest
             extra:
               topics: visualization,meteorology
-            organization:
-              name: Met Office
+            crunchbase: https://www.crunchbase.com/organization/met-office
             homepage_url: http://forest.metoffice.cloud
           - item:
             name: SEPAL
@@ -6070,7 +6071,7 @@ landscape:
             logo: Global Biotic Interactions.svg
             description: Global Biotic Interactions provides access to existing species interaction datasets.
             repo_url: https://github.com/globalbioticinteractions/globalbioticinteractions
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/encyclopedia-of-life
             homepage_url: https://globalbioticinteractions.org
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/2478263,https://doi.org/10.1016/j.ecoinf.2014.08.005'
@@ -6145,14 +6146,14 @@ landscape:
             logo: canopyLazR.svg
             description: An R package that estimates leaf area density and leaf area index from airborne LiDAR point clouds.
             repo_url: https://github.com/akamoske/canopyLazR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/michigan-state-university
             homepage_url: https://github.com/akamoske/canopyLazR
           - item:
             name: forestlas
             logo: forestlas.svg
             description: Code for generating metrics of forest vertical structure from airborne LiDAR data.
             repo_url: https://github.com/philwilkes/forestlas
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/crcsi
             homepage_url: https://github.com/philwilkes/forestlas
             extra:
               refs: ',https://doi.org/10.1111/2041-210X.12510'
@@ -6161,7 +6162,7 @@ landscape:
             logo: OpenTreeMap.svg
             description: A collaborative platform for crowdsourced tree inventory, ecosystem services calculations, urban forestry analysis and community engagement.
             repo_url: https://github.com/OpenTreeMap/otm-core
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-institute-of-food-and-agriculture
             homepage_url: https://www.opentreemap.org
           - item:
             name: DeepTreeAttention
@@ -6201,8 +6202,8 @@ landscape:
             logo: PyETo.svg
             description: A Python library for calculating reference crop evapotranspiration, sometimes referred to as potential evapotranspiration.
             repo_url: https://github.com/woodcrafty/PyETo
-            unnamed_organization: true
-            homepage_url: https://github.com/woodcrafty/PyETo
+            crunchbase: https://www.crunchbase.com/organization/university-of-aberdeen
+            homepage_url: https://pyeto.readthedocs.io/
           - item:
             name: burnr
             logo: burnr.svg
@@ -6219,7 +6220,8 @@ landscape:
             logo: forestmangr.svg
             description: An R package for forest mensuration and management.
             repo_url: https://github.com/sollano/forestmangr
-            unnamed_organization: true
+            organization:
+              name: Sollano Rabelo Braga
             homepage_url: https://github.com/sollano/forestmangr
           - item:
             name: CART
@@ -6283,7 +6285,7 @@ landscape:
             repo_url: https://github.com/ghislainv/forestatrisk-tropics
             additional_repos:
               - repo_url: https://github.com/ghislainv/forestatrisk
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cirad
             homepage_url: https://forestatrisk.cirad.fr
             extra:
               refs: >-
@@ -6297,7 +6299,7 @@ landscape:
               The focus of CRootBox is the simulation of different types of root architecture, and to provide a generic interface for coupling with arbitrary
               soil/environmental models, e.g., in order to determine the impact of specific root architectures on function.
             repo_url: https://github.com/Plant-Root-Soil-Interactions-Modelling/CRootBox
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://plant-root-soil-interactions-modelling.github.io/CRootBox/
             extra:
               refs: ',https://doi.org/10.1093/aob/mcx221\n\nSTATISTICAL'
@@ -6317,8 +6319,7 @@ landscape:
             repo_url: https://github.com/CornellLabofOrnithology/auk
             extra:
               topics: r,ebird,dataset
-            organization:
-              name: Cornell Lab of Ornithology
+            crunchbase: https://www.crunchbase.com/organization/cornell-university
             homepage_url: https://CornellLabofOrnithology.github.io/auk/
           - item:
             name: spocc
@@ -6992,7 +6993,7 @@ landscape:
             logo: photosynthesis.svg
             description: An R package with modeling tools for C3 photosynthesis, as well as analytical tools for curve-fitting plant ecophysiology responses.
             repo_url: https://github.com/cdmuir/photosynthesis
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-hawaii-at-manoa-40f2
             homepage_url: https://github.com/cdmuir/photosynthesis
           - item:
             name: rFIA
@@ -7035,11 +7036,12 @@ landscape:
             name: smrt
             logo: smrt.svg
             description: Snow Microwave Radiative Transfer model to compute thermal emission and backscatter from snowpack.
+            project_org: https://github.com/smrt-model
             repo_url: https://github.com/smrt-model/smrt
             extra:
               topics: modeling,snow,microwave
-            unnamed_organization: true
-            homepage_url: https://github.com/smrt-model/smrt
+            crunchbase: https://www.crunchbase.com/organization/european-space-agency-f580
+            homepage_url: https://smrt-model.science/
           - item:
             name: Open Global Glacier Model
             logo: OGGM.svg
