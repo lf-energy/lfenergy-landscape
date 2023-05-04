@@ -696,7 +696,8 @@ landscape:
             logo: windfarmGA.svg
             description: Genetic algorithm to optimize the layout of wind farms.
             repo_url: https://github.com/YsoSirius/windfarmGA
-            unnamed_organization: true
+            organization:
+              name: Sebastian Gatscha
             homepage_url: https://ysosirius.github.io/windfarmGA/
           - item:
             name: wtphm
@@ -2190,7 +2191,7 @@ landscape:
             logo: USelectricity.svg
             description: Forecast the US demand for electricity.
             repo_url: https://github.com/RamiKrispin/USelectricity
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/apple
             homepage_url: https://ramikrispin.github.io/USelectricity/
           - item:
             name: reV
@@ -3186,14 +3187,14 @@ landscape:
             logo: UKgrid.svg
             description: An R data package with the UK National Grid historical demand for electricity between April 2005 and October 2019.
             repo_url: https://github.com/RamiKrispin/UKgrid
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/apple
             homepage_url: https://ramikrispin.github.io/UKgrid/
           - item:
             name: USgrid
             logo: USgrid.svg
             description: The hourly demand and supply of electricity in the US.
             repo_url: https://github.com/RamiKrispin/USgrid
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/apple
             homepage_url: https://ramikrispin.github.io/USgrid/
           - item:
             name: ESIOS
@@ -6472,7 +6473,7 @@ landscape:
             logo: wdpar.svg
             description: R Interface to the World Database on Protected Areas.
             repo_url: https://github.com/prioritizr/wdpar
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/carleton-university
             homepage_url: https://prioritizr.github.io/wdpar
             extra:
               refs: ',https://doi.org/10.1111/conl.12158,https://doi.org/10.1126/science.aac9180,https://doi.org/10.21105/joss.04594'
@@ -6515,15 +6516,16 @@ landscape:
             description: >-
               Introduces optimality-based phytoplankton and zooplankton into the UVic-ESCM (version 2.9) with variable C:N:P(:Chl) stoichiometry for
               phytoplankton, diazotrophs and detritus.
-            repo_url: null
-            unnamed_organization: true
+            license: GNU General Public License v3.0
+            crunchbase: https://www.crunchbase.com/organization/geomar
             homepage_url: https://git.geomar.de/markus-pahlow/UVic-updates-opem
+            repo_url: https://git.geomar.de/markus-pahlow/UVic-updates-opem
           - item:
             name: Quantitative Plant
             logo: Quantitative Plant.svg
             description: A website presenting image analysis software tools and models for plants.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/catholic-university-of-louvain
             homepage_url: https://www.quantitative-plant.org/
           - item:
             name: phenocamr
@@ -6601,7 +6603,7 @@ landscape:
             logo: biodivMapR.svg
             description: An R package for α- and β-diversity mapping using remotely-sensed images.
             repo_url: https://github.com/jbferet/biodivMapR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/agence-national-de-la-recherche
             homepage_url: https://jbferet.github.io/biodivMapR/index.html
             extra:
               refs: ',https://doi.org/10.1111/2041-210X.13310\n\nF\xc3\xa9ret,https://doi.org/10.1890/13-1824.1\n\n\n#'
@@ -6623,14 +6625,14 @@ landscape:
             repo_url: https://github.com/DiversiTree/TreeDiversity
             extra:
               topics: ecology,forestry,urban-planning
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-college-dublin
             homepage_url: https://github.com/DiversiTree/TreeDiversity
           - item:
             name: DetecTree
             logo: DetecTree.svg
             description: A Pythonic library to classify tree/non-tree pixels from aerial imagery.
             repo_url: https://github.com/martibosch/detectree
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/epfl
             homepage_url: https://doi.org/10.21105/joss.02172
             extra:
               refs: ',https://doi.org/10.21105/joss.02172,https://doi.org/10.5281/zenodo.3908338,https://doi.org/10.21105/joss.02172'
@@ -6672,7 +6674,7 @@ landscape:
             logo: rGEDI.svg
             description: An R Package for NASA's Global Ecosystem Dynamics Investigation (GEDI) Data Visualization and Processing.
             repo_url: https://github.com/carlos-alberto-silva/rGEDI
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-florida-cd10
             homepage_url: https://github.com/carlos-alberto-silva/rGEDI
             extra:
               refs: ',https://doi.org/10.1016/j.srs.2020.100002\n\nHancock,https://doi.org/10.1029/2018EA000506\n\nSilva'
@@ -6690,7 +6692,7 @@ landscape:
             logo: detectreeRGB.svg
             description: Tree crown delineation from RGB imagery, coupled with methods to delineate tree crowns from LiDAR data.
             repo_url: https://github.com/shmh40/detectreeRGB
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
             homepage_url: https://github.com/shmh40/detectreeRGB
             extra:
               refs: ',https://zenodo.org/record/5090039.\n\n##'
@@ -6699,14 +6701,14 @@ landscape:
             logo: FSDL Deforestation Detection.svg
             description: A deep learning approach to detecting deforestation risk, using satellite images and a deep learning model.
             repo_url: https://github.com/karthikraja95/fsdl_deforestation_detection
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/full-stack-deep-learning
             homepage_url: https://github.com/karthikraja95/fsdl_deforestation_detection
           - item:
             name: ForesToolboxRS
             logo: ForesToolboxRS.svg
             description: Remote Sensing Tools for Forest Monitoring.
             repo_url: https://github.com/ytarazona/ForesToolboxRS
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/universidad-nacional-agraria-la-molina
             homepage_url: https://ytarazona.github.io/ForesToolboxRS/
             extra:
               refs: ',https://doi.org/10.1080/07038992.2021.1941823'
@@ -6718,8 +6720,7 @@ landscape:
             repo_url: https://github.com/technologiestiftung/giessdenkiez-de
             extra:
               topics: citylab-berlin,trees,watering,rain,community,map,berlin,open-data
-            organization:
-              name: Technologiestiftung Berlin
+            crunchbase: https://www.crunchbase.com/organization/technologiestiftung-berlin
             homepage_url: https://www.giessdenkiez.de
           - item:
             name: mobr
@@ -6738,7 +6739,7 @@ landscape:
             logo: Forest Structural Complexity Tool.svg
             description: Allowing plot scale measurements to be extracted automatically from most high-resolution forest point clouds from a variety of sensor sources.
             repo_url: https://github.com/SKrisanski/FSCT
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/australian-research-council
             homepage_url: https://github.com/SKrisanski/FSCT
             extra:
               refs: ',https://doi.org/10.3390/rs12101652,https://doi.org/10.3390/rs13224677\n\n##'
@@ -6753,9 +6754,10 @@ landscape:
             name: MAAP
             logo: MAAP.svg
             description: Discover and use biomass relevant data, integrating the data for comparison, analysis, evaluation, and generation.
+            project_org: https://github.com/MAAP-Project
             repo_url: https://github.com/MAAP-Project/maap-documentation
-            unnamed_organization: true
-            homepage_url: https://github.com/MAAP-Project/maap-documentation
+            crunchbase: https://www.crunchbase.com/organization/nasa
+            homepage_url: https://docs.maap-project.org/
           - item:
             name: DynACof
             logo: DynACof.svg
@@ -6763,7 +6765,7 @@ landscape:
               Process-based model computes plot-scale Net Primary Productivity, carbon allocation, growth, yield, energy, and water balance of coffee
               plantations according to management.
             repo_url: https://github.com/VEZY/DynACof
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/agence-national-de-la-recherche
             homepage_url: https://vezy.github.io/DynACof/
             extra:
               refs: ',https://doi.org/10.5281/zenodo.1256816,https://doi.org/10.1016/j.envsoft.2019.104609'
@@ -6782,8 +6784,7 @@ landscape:
             logo: Forest Scenario Planner.svg
             description: An online tool for forest management scenario planning.
             repo_url: https://github.com/Ecotrust/forestplanner
-            organization:
-              name: Ecotrust
+            crunchbase: https://www.crunchbase.com/organization/ecotrust
             homepage_url: https://github.com/Ecotrust/forestplanner
           - item:
             name: PEcAn
@@ -6824,14 +6825,14 @@ landscape:
             logo: ForestTools.svg
             description: Detect and segment individual tree from remotely sensed data.
             repo_url: https://github.com/andrew-plowright/ForestTools
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/natural-resources-canada
             homepage_url: https://github.com/andrew-plowright/ForestTools
           - item:
             name: gfcanalysis
             logo: gfcanalysis.svg
             description: Tools for working with Global Forest Change dataset.
             repo_url: https://github.com/azvoleff/gfcanalysis
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/conservation-international
             homepage_url: https://github.com/azvoleff/gfcanalysis
           - item:
             name: FIREDpy
@@ -6900,7 +6901,7 @@ landscape:
             repo_url: https://github.com/prioritizr/prioritizr
             extra:
               topics: r,spatial,optimization,conservation,biodiversity,prioritization,solver,conservation-planner,rstats
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/carleton-university
             homepage_url: https://prioritizr.net
           - item:
             name: The Catalogue of Life
@@ -6955,7 +6956,7 @@ landscape:
             logo: bioRad.svg
             description: R package for analysis and visualisation of biological signals in weather radar data.
             repo_url: https://github.com/adokter/bioRad
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cornell-university
             homepage_url: http://adokter.github.io/bioRad
             extra:
               refs: ',https://doi.org/10.5281/zenodo.3370004,https://doi.org/10.1111/ecog.04028'
