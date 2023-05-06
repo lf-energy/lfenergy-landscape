@@ -928,7 +928,6 @@ landscape:
             additional_repos:
               - repo_url: https://github.com/WEC-Sim/WEC-Sim_Applications
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            unnamed_organization: true
             homepage_url: https://wec-sim.github.io/WEC-Sim
             extra:
               topics: wec-sim,marine-renewable-energy,wave-energy,matlab,simulink,snl-applications,hydrodynamics
@@ -1121,7 +1120,7 @@ landscape:
               A free, open and flexible development environment to design battery management systems. It is the first modular open source BMS development
               platform.
             repo_url: https://github.com/foxBMS/foxBMS
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/fraunhofer-iis
             homepage_url: https://github.com/foxBMS/foxBMS
           - item:
             name: impedance.py
@@ -1162,8 +1161,9 @@ landscape:
             repo_url: https://github.com/EnnoidMe/ENNOID-BMS
             extra:
               topics: bms,batteries,powerwall,slave-boards,battery-management-system
-            unnamed_organization: true
-            homepage_url: https://github.com/EnnoidMe/ENNOID-BMS
+            organization:
+              name: ENNOID
+            homepage_url: https://www.ennoid.me/bms
           - item:
             name: cellpy
             logo: cellpy.svg
@@ -1171,14 +1171,14 @@ landscape:
             repo_url: https://github.com/jepegit/cellpy
             extra:
               topics: chemistry,electrochemistry,physics,data-analysis,opensource,battery
-            unnamed_organization: true
-            homepage_url: https://github.com/jepegit/cellpy
+            crunchbase: https://www.crunchbase.com/organization/ife-b98a
+            homepage_url: https://cellpy.readthedocs.io/
           - item:
             name: prediction-of-battery-cycle
             logo: prediction-of-battery-cycle.svg
             description: Data driven prediction of battery cycle life before capacity degradation.
             repo_url: https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
             homepage_url: https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation
           - item:
             name: BatterySense
@@ -1187,7 +1187,7 @@ landscape:
               A simple Arduino library to monitor battery consumption of your battery powered projects, being LiPo, LiIon, NiCd or any other battery type,
               single or multiple cells: if it can power your Arduino you can monitor it.
             repo_url: https://github.com/rlogiacco/BatterySense
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/rci-bank
             homepage_url: https://github.com/rlogiacco/BatterySense
           - item:
             name: beep
@@ -1196,9 +1196,8 @@ landscape:
               A set of tools designed to support Battery Evaluation and Early Prediction of cycle life corresponding to the research of the d3batt program and
               the Toyota Research Institute.
             repo_url: https://github.com/TRI-AMDD/beep
-            organization:
-              name: Toyota Research Institute - Accelerated Materials Design & Discovery (AMDD)
-            homepage_url: https://github.com/TRI-AMDD/beep
+            crunchbase: https://www.crunchbase.com/organization/toyota-research-institute
+            homepage_url: https://tri-amdd.github.io/beep/
             extra:
               refs: ',https://doi.org/10.1016/j.softx.2020.100506,https://doi.org/10.1016/j.softx.2020.100506'
           - item:
@@ -1214,8 +1213,9 @@ landscape:
             name: simses
             logo: simses.svg
             description: Software for techno-economic Simulation of Stationary Energy Storage Systems.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://gitlab.lrz.de/open-ees-ses/simses
+            license: BSD 3-Clause "New" or "Revised" License
+            crunchbase: https://www.crunchbase.com/organization/leibniz-supercomputing-centre
             homepage_url: https://gitlab.lrz.de/open-ees-ses/simses
           - item:
             name: CAEBAT OAS
