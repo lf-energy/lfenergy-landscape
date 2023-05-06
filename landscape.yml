@@ -444,7 +444,7 @@ landscape:
               A collection of Python libraries for simulating the irradiation of any point on earth by the sun. It includes code for extremely precise ephemeris
               calculations.
             repo_url: https://github.com/pingswept/pysolar
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/tufts-university
             homepage_url: http://pysolar.org
           - item:
             name: PV_ICE
@@ -513,7 +513,7 @@ landscape:
             logo: IEA-15-240-RWT.svg
             description: A 15 MW reference wind turbine repository developed in conjunction with IEA Wind.
             repo_url: https://github.com/IEAWindTask37/IEA-15-240-RWT
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/IEAWindTask37/IEA-15-240-RWT
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/213679527'
@@ -708,7 +708,7 @@ landscape:
             repo_url: https://github.com/lkev/wtphm
             extra:
               topics: wind-turbine,wind-energy,fault-detection,machine-learning,scada
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-college-cork
             homepage_url: https://github.com/lkev/wtphm
           - item:
             name: AirfoilPreppy
@@ -749,7 +749,7 @@ landscape:
             logo: WindTurbineClassification.svg
             description: Specification of 'normal' wind turbine operating behaviour for rapid anomaly detection.
             repo_url: https://github.com/nmstreethran/WindTurbineClassification
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-college-cork
             homepage_url: https://github.com/nmstreethran/WindTurbineClassification
             extra:
               topics: energy,renewable-energy,python,jupyter-notebook,wind-turbines
@@ -769,8 +769,9 @@ landscape:
             name: windrose
             logo: windrose.svg
             description: A graphic tool used by meteorologists to give a succinct view of how wind speed and direction are typically distributed at a particular location.
+            project_org: https://github.com/python-windrose
             repo_url: https://github.com/python-windrose/windrose
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-poitiers
             homepage_url: https://python-windrose.github.io/windrose
             extra:
               topics: python,matplotlib,windrose,wind,speed,pandas,numpy
@@ -809,7 +810,7 @@ landscape:
             repo_url: https://github.com/YingyiLiu/HAMS
             extra:
               topics: wave-structure-interaction,boundary-element-method,potential-flow-theory,offshore-wind-platforms,ocean-wave-energy-converters
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/kyushu-university
             homepage_url: https://github.com/YingyiLiu/HAMS
           - item:
             name: brightwind
@@ -833,7 +834,8 @@ landscape:
             logo: welib.svg
             description: Wind energy library, python and matlab tools for wind turbines analyses.
             repo_url: https://github.com/ebranlard/welib
-            unnamed_organization: true
+            organization:
+              name: E. Branlard
             homepage_url: https://github.com/ebranlard/welib
           - item:
             name: digital_wra_data_standard
@@ -7390,7 +7392,7 @@ landscape:
             logo: oce.svg
             description: An R package for oceanographic processing.
             repo_url: https://github.com/dankelley/oce
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/dalhousie-university
             homepage_url: http://dankelley.github.io/oce/
             extra:
               refs: ',https://doi.org/10.21105/joss.03594'
@@ -7420,7 +7422,7 @@ landscape:
             logo: marineHeatWaves.svg
             description: A module for Python which implements the Marine Heatwave definition of Hobday et al. (2016).
             repo_url: https://github.com/ecjoliver/marineHeatWaves
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/dalhousie-university
             homepage_url: https://github.com/ecjoliver/marineHeatWaves
           - item:
             name: heatwaveR
@@ -7429,7 +7431,7 @@ landscape:
               Contains the original functions from the RmarineHeatWaves package that calculate and display marine heatwaves according to the definition of
               Hobday et al. (2016).
             repo_url: https://github.com/robwschlegel/heatwaveR
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/institut-national-des-sciences-et-technologies-de-la-mer
             homepage_url: https://robwschlegel.github.io/heatwaveR/
             extra:
               refs: ',https://doi.org/10.21105/joss.00821,https://doi.org/10.5281/zenodo.1324308,https://doi.org/10.21105/joss.00821'
@@ -7493,7 +7495,7 @@ landscape:
             logo: parcels.svg
             description: Can be used to track passive and active particulates such as water, plankton, plastic and fish.
             repo_url: https://github.com/OceanParcels/parcels
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/european-research-council
             homepage_url: http://www.oceanparcels.org
             extra:
               refs: ',https://doi.org/10.5194/gmd-2017-167*\n\nThe,https://doi.org/10.5194/gmd-12-3571-2019*\n\n###,https://doi.org/10.5281/zenodo.823561'
@@ -7553,7 +7555,7 @@ landscape:
             logo: pyroms.svg
             description: A collection of tools to process input and output files from the Regional Ocean Modeling System.
             repo_url: https://github.com/ESMG/pyroms
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-alaska-fairbanks
             homepage_url: https://github.com/ESMG/pyroms
           - item:
             name: Intro to Physical Oceanography
@@ -10551,7 +10553,7 @@ landscape:
             logo: flopy.svg
             description: A Python package to create, run, and post-process MODFLOW-based models.
             repo_url: https://github.com/modflowpy/flopy
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/usgs
             homepage_url: https://flopy.readthedocs.io
             extra:
               refs: ',https://doi.org/10.1111/gwat.12413,https://doi.org/10.5066/F7BK19FH,https://doi.org/10.5066/F7BK19FH'
@@ -11041,8 +11043,8 @@ landscape:
             logo: SCOPE.svg
             description: Simulation model for radiative transfer, photosynthesis and energy fluxes in vegetation and soil.
             repo_url: https://github.com/Christiaanvandertol/SCOPE
-            unnamed_organization: true
-            homepage_url: https://github.com/Christiaanvandertol/SCOPE
+            crunchbase: https://www.crunchbase.com/organization/l-universit%C3%A0-di-milano-bicocca
+            homepage_url: https://scope-model.readthedocs.io/
             extra:
               refs: ',https://doi.org/10.5194/gmd-2020-251.\n\nVan,https://doi.org/10.5194/bg-6-3109-2009'
           - item:
@@ -11069,7 +11071,7 @@ landscape:
             logo: PyLandStats.svg
             description: An open-source Pythonic library to compute landscape metrics.
             repo_url: https://github.com/martibosch/pylandstats
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/epfl
             homepage_url: https://doi.org/10.1371/journal.pone.0225734
             extra:
               refs: ',https://doi.org/10.1371/journal.pone.0225734'
@@ -11239,7 +11241,7 @@ landscape:
             repo_url: https://github.com/bhavesh907/Crop-Classification
             extra:
               topics: agriculture-research,agricultural-modelling,satellite-images,crop-classification
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://github.com/bhavesh907/Crop-Classification
           - item:
             name: DSSAT Cropping System Model
@@ -11273,7 +11275,8 @@ landscape:
             repo_url: https://github.com/AgroCares/Open-Bodem-Index-Calculator
             extra:
               topics: r,package,soil,agriculture
-            unnamed_organization: true
+            organization:
+              name: Nutriënten Management Instituut
             homepage_url: https://agrocares.github.io/Open-Bodem-Index-Calculator/
           - item:
             name: Cycles
@@ -11670,7 +11673,7 @@ landscape:
             logo: Flood Mapping.svg
             description: Flood forecasting via the National Water Model.
             repo_url: https://github.com/mikejohnson51/FloodMapping
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-oceanic-and-atmospheric-administration
             homepage_url: https://mikejohnson51.github.io/FloodMapping/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/130427796'
@@ -11680,7 +11683,7 @@ landscape:
             logo: GLOCOFFS.svg
             description: An ADCIRC-based global storm tide modeling system providing real-time forecasts of coastal flooding.
             repo_url: https://github.com/WPringle/GLOCOFFS
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/argonne-national-laboratory
             homepage_url: https://wpringle.github.io/GLOCOFFS/
             extra:
               refs: >-
@@ -11961,7 +11964,7 @@ landscape:
             extra:
               topics: >-
                 finance,stock-market,stock,factor-analysis,fama-french,modern-portfolio-theory,modern-portfolio-analysis,hacktoberfest,hacktoberfest2021,climate-change,climate-data,esg
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/open-source-strategies
             homepage_url: https://climate-investing-book.opensourcestrategies.com/v/main/book
           - item:
             name: SSC
@@ -11996,7 +11999,7 @@ landscape:
             repo_url: https://github.com/Yuanchao-Xu/gfer
             extra:
               topics: green-finance,data-scraping,data-analysis,stock-data,environmental-risk,corporate-social-responsibility,csr
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/ernst-young
             homepage_url: https://yuanchao-xu.github.io/gfer/
           - item:
             name: WikiRate
@@ -12034,6 +12037,7 @@ landscape:
             logo: Open Hardware Observatory.svg
             description: Search engine and assessment platform for sustainable open hardware.
             repo_url: null
+            license: Creative Commons Attribution 4.0 International
             organization:
               name: Open Hardware Observatory
             homepage_url: https://en.oho.wiki/wiki/Home
@@ -12101,7 +12105,7 @@ landscape:
             logo: Open Climate Knowledge.svg
             description: An open research project for data mining Open Access papers related to Climate Change.
             repo_url: https://github.com/petermr/climate
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/german-national-library
             homepage_url: https://github.com/petermr/climate
             extra:
               refs: >-
@@ -12272,21 +12276,21 @@ landscape:
             logo: Global Fishing Watch.svg
             description: We use cutting-edge technology to visualise, track and share data about global fishing activity in near real-time and for free.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/global-fishing-watch
             homepage_url: https://globalfishingwatch.org/
           - item:
             name: Global Wind Atlas
             logo: Global Wind Atlas.svg
             description: Immediately start exploring windy areas.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/the-world-bank-group
             homepage_url: https://globalwindatlas.info/
           - item:
             name: Global Solar Atlas
             logo: Global Solar Atlas.svg
             description: Start exploring solar potential.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/the-world-bank-group
             homepage_url: https://globalsolaratlas.info/
           - item:
             name: Food and Agriculture Organization Map Catalog
@@ -12300,7 +12304,7 @@ landscape:
             logo: The Subak Data Catalogue.svg
             description: Exists to make climate data more discoverable, more trusted and more connected.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/subak
             homepage_url: https://data.climatesubak.org/
           - item:
             name: EEA geospatial data catalogue
@@ -12375,8 +12379,7 @@ landscape:
             logo: OGC API - Environmental Data Retrieval.svg
             description: A Web API that provides a family of lightweight interfaces for accessing Environmental Data resources.
             repo_url: https://github.com/opengeospatial/ogcapi-environmental-data-retrieval
-            organization:
-              name: Open Geospatial Consortium
+            crunchbase: https://www.crunchbase.com/organization/open-geospatial-consortium
             homepage_url: https://ogcapi.ogc.org/edr/
           - item:
             name: eurostat R package
@@ -12574,7 +12577,7 @@ landscape:
             repo_url: https://github.com/fdetsch/MODIS
             extra:
               topics: download,modis,process
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/meter-group
             homepage_url: https://github.com/fdetsch/MODIS
           - item:
             name: MODIStsp
@@ -12682,7 +12685,8 @@ landscape:
             repo_url: https://github.com/KKulma/climate-change-data
             extra:
               topics: climate,climate-change,climate-data,climate-analysis,rstats,r,datascience,python,data-science,data,resources,hacktoberfest
-            unnamed_organization: true
+            organization:
+              name: Dr. Kasia Kulma
             homepage_url: https://github.com/KKulma/climate-change-data
           - item:
             name: Awesome Green Software
@@ -12701,7 +12705,8 @@ landscape:
             extra:
               topics: >-
                 awesome-list,sustainability,jobs,jobsearch,job-search,renewable-energies,renewables,circular-economy,emobility,job-portal,jobseeker,job-board,carbon-footprint,climate-change,climatechange,green-tech,climate-action
-            unnamed_organization: true
+            organization:
+              name: pogopaule
             homepage_url: https://github.com/pogopaule/awesome-sustainability-jobs
           - item:
             name: Awesome Spectral Indices
@@ -12721,7 +12726,8 @@ landscape:
             logo: Awesome Vegetation Index.svg
             description: List of reference, applications of common Vegetation Indices for Multi-spectral, hyper-spectral and UAV images.
             repo_url: https://github.com/px39n/Awesome-Vegetation-Index
-            unnamed_organization: true
+            organization:
+              name: px39n
             homepage_url: https://github.com/px39n/Awesome-Vegetation-Index
           - item:
             name: awesome-transit
@@ -12739,7 +12745,7 @@ landscape:
             logo: Awesome Coastal.svg
             description: A curated list of awesome resources for coastal engineers and scientists.
             repo_url: https://github.com/chrisleaman/awesome-coastal
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-new-south-wales
             homepage_url: https://github.com/chrisleaman/awesome-coastal
             extra:
               topics: awesome,coastal,beaches,coastal-modelling,coastal-engineering
@@ -12749,7 +12755,8 @@ landscape:
             logo: Awesome Agriculture.svg
             description: Open source technology for agriculture, farming, and gardening.
             repo_url: https://github.com/brycejohnston/awesome-agriculture
-            unnamed_organization: true
+            organization:
+              name: Bryce Johnston
             homepage_url: https://github.com/brycejohnston/awesome-agriculture
             extra:
               topics: agriculture,awesome-list,farming,farm,plants,agricultural,crop,soil,grower,weather,awesome,gardening
@@ -12759,12 +12766,11 @@ landscape:
             logo: Awesome ERDDAP.svg
             description: >-
               A data server that gives you a simple, consistent way to download subsets of gridded and tabular scientific datasets in common file formats and
-              make graphs and maps.
+              makeps.
             repo_url: https://github.com/IrishMarineInstitute/awesome-erddap
             extra:
               topics: awesome-list,awesome,lists,resources,erddap,cc0
-            organization:
-              name: Irish Marine Institute
+            crunchbase: https://www.crunchbase.com/organization/marine-institute
             homepage_url: https://github.com/IrishMarineInstitute/awesome-erddap
           - item:
             name: Cryosphere Software, Data and Tools
@@ -12787,7 +12793,7 @@ landscape:
             repo_url: https://github.com/nglgzz/awesome-clean-tech
             extra:
               topics: awesome,awesome-list,clean-tech,environment-friendly,climate-change,climate-change-mitigation
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/neo-technology
             homepage_url: https://github.com/nglgzz/awesome-clean-tech
           - item:
             name: Awesome Open Climate Science
@@ -12824,7 +12830,7 @@ landscape:
             logo: Code against Climate Change.svg
             description: A curated list of tech projects against climate change - hoping to inspire disruptive technological climate action.
             repo_url: https://github.com/daviddao/code-against-climate-change
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/gainforest-labs
             homepage_url: https://github.com/daviddao/code-against-climate-change
           - item:
             name: Awesome Arctic Data
@@ -12841,7 +12847,8 @@ landscape:
             logo: Awesome Remote Sensing Change Detection.svg
             description: List of datasets, codes, and contests related to remote sensing change detection.
             repo_url: https://github.com/wenhwu/awesome-remote-sensing-change-detection
-            unnamed_organization: true
+            organization:
+              name: wenhwu
             homepage_url: https://github.com/wenhwu/awesome-remote-sensing-change-detection
             extra:
               topics: awesome,change-detection,remote-sensing,dataset
@@ -12851,7 +12858,7 @@ landscape:
             logo: Awesome-forests.svg
             description: A curated list of ground-truth forest datasets for the machine learning and forestry community.
             repo_url: https://github.com/blutjens/awesome-forests
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
             homepage_url: https://github.com/blutjens/awesome-forests
             extra:
               topics: machine-learning,forestry,carbon,deep-learning,datasets,ecosystems,biodiversity,climate-change
@@ -12864,7 +12871,7 @@ landscape:
             repo_url: https://github.com/philippgaertner/awesome-earth-engine-apps
             extra:
               topics: google-earth-engine,earth-engine,apps
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/umweltbundesamt
             homepage_url: https://github.com/philippgaertner/awesome-earth-engine-apps
           - item:
             name: awesome-gee-community-datasets
