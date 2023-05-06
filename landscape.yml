@@ -1231,28 +1231,28 @@ landscape:
             repo_url: https://github.com/Samuel-Buteau/universal-battery-database
             extra:
               topics: lithium-ion,universal-battery-database,lithium-ion-cells,tensorflow,ml,deep-learning
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/dalhousie-university
             homepage_url: https://github.com/Samuel-Buteau/universal-battery-database
           - item:
             name: open_BEA
             logo: open_BEA.svg
             description: Open Battery Models for Electrical Grid Applications.
-            repo_url: null
-            unnamed_organization: true
             homepage_url: https://gitlab.lrz.de/open-ees-ses/openbea
+            crunchbase: https://www.crunchbase.com/organization/leibniz-supercomputing-centre
+            repo_url: https://gitlab.lrz.de/open-ees-ses/openbea
           - item:
             name: lp_opt
             logo: lp_opt.svg
             description: Linear Programming Optimization Tool for Battery Energy Storage Systems.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://gitlab.lrz.de/open-ees-ses/lp_opt
+            crunchbase: https://www.crunchbase.com/organization/leibniz-supercomputing-centre
             homepage_url: https://gitlab.lrz.de/open-ees-ses/lp_opt
           - item:
             name: SLIDE
             logo: SLIDE.svg
             description: SLIDE is a C++ code that simulates degradation of lithium ion cell.
             repo_url: https://github.com/davidhowey/SLIDE
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-oxford
             homepage_url: https://github.com/davidhowey/SLIDE
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/185216614.\n\n,https://doi.org/10.1149/2.0281914jes'
@@ -1270,6 +1270,7 @@ landscape:
             name: long-live-the-battery
             logo: long-live-the-battery.svg
             description: Predicting total battery cycle life time with machine learning.
+            project_org: https://github.com/dsr-18
             repo_url: https://github.com/dsr-18/long-live-the-battery
             unnamed_organization: true
             homepage_url: https://github.com/dsr-18/long-live-the-battery
