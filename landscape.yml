@@ -363,8 +363,7 @@ landscape:
             logo: pvcompare.svg
             description: A model for comparing the benefits of different PV technologies in a specified local energy system in different energy supply scenarios.
             repo_url: https://github.com/greco-project/pvcompare
-            organization:
-              name: GRECO project
+            crunchbase: https://www.crunchbase.com/organization/universidad-polit-cnica-de-madrid-cepade
             homepage_url: https://github.com/greco-project/pvcompare
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/224614782\n\n\npvcompare\n~~~~~~~~~\n\nIntroduction\n============\n\n*pvcompare*'
@@ -781,8 +780,7 @@ landscape:
             logo: SHARPy.svg
             description: Simulation of High Aspect Ratio aeroplanes and wind turbines in Python.
             repo_url: https://github.com/ImperialCollegeLondon/sharpy
-            organization:
-              name: Imperial College London
+            crunchbase: https://www.crunchbase.com/organization/imperial-college-london
             homepage_url: https://imperial.ac.uk/aeroelastics/sharpy
             extra:
               topics: aeroelasticity,simulation,aeronautics,structures,structural-dynamics,wind-turbines
@@ -1272,7 +1270,8 @@ landscape:
             description: Predicting total battery cycle life time with machine learning.
             project_org: https://github.com/dsr-18
             repo_url: https://github.com/dsr-18/long-live-the-battery
-            unnamed_organization: true
+            organization:
+              name: dsr-18
             homepage_url: https://github.com/dsr-18/long-live-the-battery
           - item:
             name: ISEAFramework
@@ -1306,7 +1305,8 @@ landscape:
             repo_url: https://github.com/offgridsystems/Documents
             extra:
               topics: battery,cell,bms,lithium,wireless,welding,cc1310,powerwall,ev,electric-vehicle,dkblock,no-weld
-            unnamed_organization: true
+            organization:
+              name: offgridsystems
             homepage_url: https://github.com/offgridsystems/Documents
           - item:
             name: 3d_milp
@@ -1320,7 +1320,7 @@ landscape:
             logo: LIONSIMBA.svg
             description: A Matlab framework based on a finite volume model suitable for Li-ion battery design, simulation, and control.
             repo_url: https://github.com/lionsimbatoolbox/LIONSIMBA
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-pavia
             homepage_url: https://github.com/lionsimbatoolbox/LIONSIMBA
           - item:
             name: emobpy
@@ -1454,21 +1454,22 @@ landscape:
             logo: Open Energy System Models.svg
             description: Used to explore future energy systems and are often applied to questions involving energy and climate policy.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/wikipedia
             homepage_url: https://en.wikipedia.org/wiki/Open_energy_system_models
           - item:
             name: Open Energy System Databases
             logo: Open Energy System Databases.svg
             description: Employ open data methods to collect, clean, and republish energy-related datasets for open use.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/wikipedia
             homepage_url: https://en.wikipedia.org/wiki/Open_energy_system_databases
           - item:
             name: Open Models
             logo: Open Models.svg
             description: This page lists energy models published under open source licenses.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: openmod initiative
             homepage_url: https://wiki.openmod-initiative.org/wiki/Open_Models
           - item:
             name: System Advisor Model
@@ -1495,7 +1496,8 @@ landscape:
             description: A tool to quickly and easily create inputs for power systems models.
             repo_url: https://github.com/PowerGenome/PowerGenome
             project_org: https://github.com/PowerGenome
-            unnamed_organization: true
+            organization:
+              name: Carbon Impact Consulting
             homepage_url: https://github.com/PowerGenome/PowerGenome
             extra:
               refs: >-
@@ -1508,7 +1510,7 @@ landscape:
             repo_url: https://github.com/pyaf/load_forecasting
             extra:
               topics: machine-learning,rnn,lstm,gru,arima,wma,ses,sma,electric-load-forecasting,time-series-forecasting
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/tvarit
             homepage_url: https://github.com/pyaf/load_forecasting
           - item:
             name: REopt_Lite_API
@@ -1978,8 +1980,7 @@ landscape:
             logo: CapacityExpansion.jl.svg
             description: Future energy system planning (Generation and Transmission Capacity Expansion Planning) in Julia.
             repo_url: https://github.com/YoungFaithful/CapacityExpansion.jl
-            organization:
-              name: Elias Kuepper, Holger Teichgraeber
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://youngfaithful.github.io/CapacityExpansion.jl/stable
             extra:
               refs: >-
@@ -2187,7 +2188,7 @@ landscape:
             logo: Power System Analysis Toolbox.svg
             description: A Matlab toolbox for electric power system analysis and simulation.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-college-dublin
             homepage_url: http://faraday1.ucd.ie/psat.html
           - item:
             name: USelectricity
@@ -2288,7 +2289,7 @@ landscape:
               Provides simple integration of multi-dimensional time-series data (e.g. multiple attributes such as wind availability, solar availability, and
               electricity demand) in a single aggregation process.
             repo_url: https://github.com/holgerteichgraeber/TimeSeriesClustering.jl
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/stanford-university
             homepage_url: https://github.com/holgerteichgraeber/TimeSeriesClustering.jl
             extra:
               refs: >-
@@ -2311,7 +2312,7 @@ landscape:
             logo: Peaky Finders.svg
             description: A Plotly Dash application with helpful peak load visualizations and a day ahead forecasting model for five different ISOs.
             repo_url: https://github.com/kbaranko/peaky-finders
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/paces-ai
             homepage_url: https://github.com/kbaranko/peaky-finders
           - item:
             name: Renewcast
@@ -2320,7 +2321,8 @@ landscape:
             repo_url: https://github.com/derevirn/renewcast
             extra:
               topics: time-series,renewable-energy,machine-learning,streamlit,time-series-forecasting,pycaret
-            unnamed_organization: true
+            organization:
+              name: Giannis Tolios
             homepage_url: https://renewcast.herokuapp.com/
           - item:
             name: ANDES
@@ -2349,8 +2351,8 @@ landscape:
             repo_url: https://github.com/EnergyTransition/ESDL
             extra:
               topics: esdl,energy,energy-transition,energy-transition-calculation,dsl,description-language,language,energy-information,interoperability
-            unnamed_organization: true
-            homepage_url: https://github.com/EnergyTransition/ESDL
+            crunchbase: https://www.crunchbase.com/organization/tno
+            homepage_url: https://energytransition.gitbook.io/esdl/
           - item:
             name: Transactive Energy Service System
             logo: Transactive Energy Service System.svg
@@ -2365,7 +2367,7 @@ landscape:
             logo: Minpower.svg
             description: An open source toolkit for students and researchers in power systems.
             repo_url: https://github.com/adamgreenhall/minpower
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-washington
             homepage_url: https://adamgreenhall.github.io/minpower
           - item:
             name: TIMES-Ireland Model
@@ -2385,15 +2387,15 @@ landscape:
             name: Frictionless Energy data
             logo: Frictionless Energy data.svg
             description: Common medium to facilitate the flow of data between energy and environmental models in a way that can be automated.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://github.com/sentinel-energy/friendly_data
+            crunchbase: https://www.crunchbase.com/organization/sentinel-energy
             homepage_url: https://sentinel-energy.github.io/friendly_data/
           - item:
             name: Open Modeling Framework
             logo: Open Modeling Framework.svg
             description: A set of Python libraries for simulating power systems behavior with an emphasis on cost-benefit analysis of emerging technologies.
             repo_url: https://github.com/dpinney/omf
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nreca
             homepage_url: https://omf.coop
           - item:
             name: PSP-UFU
@@ -2440,7 +2442,7 @@ landscape:
             logo: EIAdata.svg
             description: Provides programmatic access to the Energy Information Administration's API.
             repo_url: https://github.com/Matt-Brigida/EIAdata
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/u-s-energy-information-administration
             homepage_url: https://github.com/Matt-Brigida/EIAdata
           - item:
             name: Energy System Technology Data
@@ -2460,7 +2462,7 @@ landscape:
             logo: Asset-level Transition Risk in the Global Coal, Oil, and Gas Supply Chains.svg
             description: The global fossil fuel supply chain, mapped at the asset-level.
             repo_url: https://github.com/Lkruitwagen/global-fossil-fuel-supply-chain
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/oxford-earth-observation
             homepage_url: https://github.com/Lkruitwagen/global-fossil-fuel-supply-chain
           - item:
             name: draf
@@ -2479,15 +2481,15 @@ landscape:
             name: GENeSYS-MOD
             logo: GENeSYS-MOD.svg
             description: An open-source energy system model, originally based on the Open-Source Energy Modeling System (OSeMOSYS) framework, with various additions.
-            repo_url: null
-            unnamed_organization: true
+            repo_url: https://git.tu-berlin.de/genesysmod/genesys-mod-public
+            crunchbase: https://www.crunchbase.com/organization/cfe-tu-berlin
             homepage_url: https://git.tu-berlin.de/genesysmod/genesys-mod-public
           - item:
             name: PyPSA-Earth
             logo: PyPSA-Earth.svg
             description: An Open Optimisation Model of the Earth Energy System.
             repo_url: https://github.com/pypsa-meets-earth/pypsa-earth
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/pypsa-meets-africa
             homepage_url: https://pypsa-earth.readthedocs.io/en/latest/
             extra:
               topics: pypsa-africa,pypsa-earth
@@ -2620,7 +2622,7 @@ landscape:
             logo: SimBench.svg
             description: The objective of the research project SimBench is the development of a benchmark dataset to support research in grid planning and operation.
             repo_url: https://github.com/e2nIEE/simbench
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-kassel
             homepage_url: https://simbench.de/en/
           - item:
             name: EGRET Python
@@ -2713,7 +2715,7 @@ landscape:
             repo_url: https://github.com/MarvinLer/pypownet
             extra:
               topics: power-network,reinforcement-learning,simulator,powergrid,reinforcement-learning-environments,gym-environments
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/rte-france
             homepage_url: https://pypownet.readthedocs.io/
           - item:
             name: Grid2Op
@@ -2730,15 +2732,14 @@ landscape:
             logo: eDisGo.svg
             description: Optimization of flexibility options and grid expansion for distribution grids based on PyPSA.
             repo_url: https://github.com/openego/eDisGo
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/reiner-lemoine-institut
             homepage_url: https://github.com/openego/eDisGo
           - item:
             name: offgridders
             logo: offgridders.svg
             description: Models and optimizes capacity & dispatch of electricity supply systems, off-grid or connected to a (weak) central grid.
             repo_url: https://github.com/rl-institut/offgridders
-            organization:
-              name: Reiner Lemoine Institut
+            crunchbase: https://www.crunchbase.com/organization/reiner-lemoine-institut
             homepage_url: https://github.com/rl-institut/offgridders
           - item:
             name: RTS-GMLC
@@ -2747,7 +2748,7 @@ landscape:
             repo_url: https://github.com/GridMod/RTS-GMLC
             extra:
               topics: rts,energy-system,energy-data,power-systems,power-systems-analysis,matpower
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/GridMod/RTS-GMLC
           - item:
             name: openmodelica-microgrid-gym
@@ -2766,7 +2767,7 @@ landscape:
             logo: OpenDSS.svg
             description: An electric power Distribution System Simulator for supporting distributed resource integration and grid modernization efforts.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/epri
             homepage_url: https://sourceforge.net/projects/electricdss/
           - item:
             name: PowerDynamics.jl
@@ -2952,7 +2953,7 @@ landscape:
             logo: Gym-ANM.svg
             description: Design Reinforcement Learning environments that model Active Network Management tasks in electricity distribution networks.
             repo_url: https://github.com/robinhenry/gym-anm
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/habitat-energy
             homepage_url: https://gym-anm.readthedocs.io/en/latest/
             extra:
               refs: >-
@@ -3038,7 +3039,8 @@ landscape:
             logo: Open Power System Data.svg
             description: A list of primary data sources that are helpful for power system modeling of Europe.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: Open Energy Modeling Initiative
             homepage_url: https://open-power-system-data.org/data-sources
           - item:
             name: The Public Utility Data Liberation Project
@@ -3124,7 +3126,7 @@ landscape:
             repo_url: https://github.com/cristianst85/GeoNuclearData
             extra:
               topics: database,nuclear,reactor,npps,power,plant,powerplant,geolocation,open-datasets,open-data,energy
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/world-nuclear-association
             homepage_url: https://github.com/cristianst85/GeoNuclearData
           - item:
             name: pyEIA
@@ -3133,7 +3135,7 @@ landscape:
             repo_url: https://github.com/thomastu/pyEIA
             extra:
               topics: eia,python,eia-api,energy-data,energy
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/u-s-energy-information-administration
             homepage_url: https://github.com/thomastu/pyEIA
           - item:
             name: EIA
@@ -3165,7 +3167,7 @@ landscape:
             extra:
               topics: >-
                 electricity,nyiso,energy,analysis,data,datasets,datascience,decarbonization,visualization,clcpa,newyork,clean-energy,renewable-energy,kaggle,kaggle-competition,kaggle-dataset,machine-learning,ml
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/e3-6ecf
             homepage_url: https://github.com/m4rz910/NYISOToolkit
           - item:
             name: Photovoltaic time series for European countries
@@ -3174,7 +3176,7 @@ landscape:
               Comprises 38 years-long hourly time series representing the photovoltaic capacity factors in every European country (EU-28 plus Serbia,
               Bosnia-Herzegovina, Norway, and Switzerland).
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/aarhus-university
             homepage_url: https://zenodo.org/record/2613651#.XRtJRP7Rapo
           - item:
             name: SolarData
@@ -3183,7 +3185,7 @@ landscape:
             repo_url: https://github.com/dazhiyang/SolarData
             extra:
               topics: solar-energy
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/harbin-institute-of-technology
             homepage_url: https://github.com/dazhiyang/SolarData
           - item:
             name: UKgrid
@@ -3204,7 +3206,7 @@ landscape:
             logo: ESIOS.svg
             description: Comprehensive library to access the Spanish electricity market entity in Python.
             repo_url: https://github.com/SanPen/ESIOS
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/red-electrica-de-espana
             homepage_url: https://github.com/SanPen/ESIOS
           - item:
             name: energy-data
@@ -3222,7 +3224,7 @@ landscape:
               A knowledge-sharing online community dedicated to connecting people with the latest information and data on energy resources from around the
               world.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://openei.org/wiki/Main_Page
           - item:
             name: Power grid frequency data base
@@ -3231,7 +3233,7 @@ landscape:
               This data set contains precisely time stamped (GPS referenced) frequency data from several power grids around the world in one second resolution
               and 1 hour excerpts of raw data.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/open-science-framework
             homepage_url: https://osf.io/by5hu/
           - item:
             name: EnergyDataSimulationChallenge
@@ -3246,21 +3248,21 @@ landscape:
             logo: disaggregator.svg
             description: A set of tools for processing of spatial and temporal disaggregations of demands of electricity, heat and natural gas.
             repo_url: https://github.com/DemandRegioTeam/disaggregator
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://github.com/DemandRegioTeam/disaggregator
           - item:
             name: The FfE Open Data Portal
             logo: The FfE Open Data Portal.svg
             description: Offers an overview of free datasets for modelling energy demand and generation.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/forschungsstelle-f%C3%BCr-energiewirtschaft
             homepage_url: http://opendata.ffe.de/
           - item:
             name: DKA Solar Centre
             logo: DKA Solar Centre.svg
             description: Online hub for sharing solar-related knowledge and data from the Northern Territory, Australia.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/australian-government
             homepage_url: http://dkasolarcentre.com.au/
           - item:
             name: eiapy
@@ -3269,7 +3271,8 @@ landscape:
             repo_url: https://github.com/systemcatch/eiapy
             extra:
               topics: api-wrapper,energy-data,python,eia
-            unnamed_organization: true
+            organization:
+              name: systemcatch
             homepage_url: https://pypi.org/project/eiapy/
           - item:
             name: Power Station Dictionary
@@ -3308,7 +3311,7 @@ landscape:
             repo_url: https://github.com/kmax12/gridstatus
             extra:
               topics: co2-emissions,decarbonization,electrical-grid,energy,python
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
             homepage_url: https://docs.gridstatus.io
           - item:
             name: sup3r
@@ -3327,7 +3330,7 @@ landscape:
             logo: EnergyData.Info.svg
             description: An open data platform from the World Bank Group providing access to datasets and data analytics that are relevant to the energy sector.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/the-world-bank-group
             homepage_url: https://energydata.info/
             extra: null
   - category:
@@ -4068,6 +4071,7 @@ landscape:
             name: Open Charge Map
             logo: Open Charge Map.svg
             description: The global public registry of electric vehicle charging locations.
+            project_org: https://github.com/openchargemap
             repo_url: https://github.com/openchargemap/ocm-system
             organization:
               name: Open Charge Map
@@ -4279,7 +4283,8 @@ landscape:
             repo_url: https://github.com/ubahnverleih/WoBike
             extra:
               topics: bike,sharing,api,map,location,documentation,opendata,scooter,bike-share,scooter-sharing
-            unnamed_organization: true
+            organization:
+              name: ubahnverleih
             homepage_url: https://github.com/ubahnverleih/WoBike
           - item:
             name: multicycles
@@ -4415,14 +4420,14 @@ landscape:
             repo_url: https://github.com/jrester/tesla_powerwall
             extra:
               topics: python,api,tesla,tesla-powerwall,battery,powerwall,powerwall-api,powerwall-status
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/charge-v
             homepage_url: https://github.com/jrester/tesla_powerwall
           - item:
             name: Vehicle Energy Dataset
             logo: Vehicle Energy Dataset.svg
             description: A large-scale dataset for vehicle energy consumption research.
             repo_url: https://github.com/gsoh/VED
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/google
             homepage_url: https://github.com/gsoh/VED
             extra:
               refs: ',https://doi.org/10.1109/TITS.2020.3035596'
@@ -4458,18 +4463,19 @@ landscape:
             name: EVMap
             logo: EVMap.svg
             description: Android app to access the goingelectric.de electric vehicle charging station directory.
-            repo_url: https://github.com/johan12345/EVMap
+            project_org: https://github.com/ev-map
+            repo_url: https://github.com/ev-map/EVMap
             extra:
               topics: charging-stations,android,electric-vehicle,hacktoberfest,map
-            unnamed_organization: true
-            homepage_url: https://github.com/johan12345/EVMap
+            organization:
+              name: Johan von Forstner
+            homepage_url: https://github.com/ev-map/EVMap
           - item:
             name: emobility-smart-charging
             logo: emobility-smart-charging.svg
             description: Smart charging algorithms with REST API for electric vehicle fleets.
             repo_url: https://github.com/SAP/emobility-smart-charging
-            organization:
-              name: SAP
+            crunchbase: https://www.crunchbase.com/organization/sap
             homepage_url: https://github.com/SAP/emobility-smart-charging
           - item:
             name: open-ev-data
@@ -4483,8 +4489,10 @@ landscape:
             name: SmartEVSE
             logo: SmartEVSE.svg
             description: Smart EVSE Electric Vehicle Charging Station.
+            project_org: https://github.com/SmartEVSE
             repo_url: https://github.com/SmartEVSE/smartevse
-            unnamed_organization: true
+            organization:
+              name: Stegen Electronics
             homepage_url: https://github.com/SmartEVSE/smartevse
           - item:
             name: BikeshareClient
@@ -4493,14 +4501,14 @@ landscape:
             repo_url: https://github.com/andmos/BikeshareClient
             extra:
               topics: gbfs,bikeshare-systems,bikeshare,netstandard
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/north-american-bikeshare-association
             homepage_url: https://github.com/andmos/BikeshareClient
           - item:
             name: Growing Urban Bicycle Networks
             logo: Growing Urban Bicycle Networks.svg
             description: Source code for the paper Growing Urban Bicycle Networks, exploring algorithmically the limitations of urban bicycle network growth.
             repo_url: https://github.com/mszell/bikenwgrowth
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/university-of-copenhagen
             homepage_url: https://github.com/mszell/bikenwgrowth
             extra:
               refs: ',https://zenodo.org/record/5083049'
@@ -4630,7 +4638,7 @@ landscape:
             repo_url: https://github.com/fvaleye/tracarbon
             extra:
               topics: energy,sustainability,energy-consumption,electricity-consumption,energy-efficiency,carbon-footprint
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/back-market
             homepage_url: https://fvaleye.github.io/tracarbon/documentation/
           - item:
             name: H2020 CATALYST
@@ -4650,13 +4658,6 @@ landscape:
             organization:
               name: Green Software Lab
             homepage_url: https://github.com/greensoftwarelab/Energy-Languages
-          - item:
-            name: energyusage
-            logo: energyusage.svg
-            description: A Python package that measures the environmental impact of computation.
-            repo_url: https://github.com/responsibleproblemsolving/energy-usage
-            unnamed_organization: true
-            homepage_url: https://github.com/responsibleproblemsolving/energy-usage
           - item:
             name: Green Cost Explorer
             logo: Green Cost Explorer.svg
@@ -5050,7 +5051,6 @@ landscape:
             extra:
               topics: climate-change,carbon-intensity,carbon-api,carbon-emissions,r,hacktoberfest
             crunchbase: https://www.crunchbase.com/organization/national-grid
-            unnamed_organization: true
             homepage_url: https://carbonintensity.org.uk/
           - item:
             name: Carbonfact Models
@@ -5200,7 +5200,8 @@ landscape:
             logo: Carbon Mapper.svg
             description: Accelerate local climate action globally by locating, quantifying and tracking methane leaks and CO2 point-sources from space.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: Carbon Mapper
             homepage_url: https://carbonmapperdata.org/
           - item:
             name: ghg emissions indicator
@@ -5544,7 +5545,8 @@ landscape:
               Near-real-time Global Gridded Daily CO2 Emissions Dataset from fossil fuel and cement production with a global spatial resolution of 0.1° by 0.1°
               and a temporal resolution of 1 day.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: Carbon Monitor
             homepage_url: https://carbonmonitor-graced.com/
             extra: null
   - category:
@@ -5724,8 +5726,7 @@ landscape:
             logo: FORBIO.svg
             description: Physical multi-regional input-output model for forestry, wood and paper products.
             repo_url: https://github.com/fineprint-global/forbio
-            organization:
-              name: FINEPRINT
+            crunchbase: https://www.crunchbase.com/organization/vienna-university-of-economics-and-business
             homepage_url: https://github.com/fineprint-global/forbio
           - item:
             name: pymrio
@@ -5806,7 +5807,8 @@ landscape:
             logo: Recyclebot.svg
             description: An open source waste plastic extruder that creates 3D printer filament from waste plastic and natural polymers.
             repo_url: null
-            unnamed_organization: true
+            organization:
+              name: RecycleBot
             homepage_url: https://www.appropedia.org/Recyclebot
           - item:
             name: pycirk
@@ -5839,8 +5841,7 @@ landscape:
             logo: ADVECTOR.svg
             description: A whole-ocean marine debris transport model which is built to handle millions of particles and terabytes of data.
             repo_url: https://github.com/TheOceanCleanupAlgorithms/ADVECT
-            organization:
-              name: The Ocean Cleanup
+            crunchbase: https://www.crunchbase.com/organization/the-ocean-cleanup
             homepage_url: https://github.com/TheOceanCleanupAlgorithms/ADVECT
           - item:
             name: Surfrider Plastic Origins
@@ -5849,8 +5850,7 @@ landscape:
             repo_url: https://github.com/surfriderfoundationeurope/The-Plastic-Origins-Project
             extra:
               topics: ngo,ngo-data,trash,detection-model,citizen-science
-            organization:
-              name: Surfrider Foundation Europe
+            crunchbase: https://www.crunchbase.com/organization/surfrider-foundation
             homepage_url: https://plasticorigins.eu/
           - item:
             name: MARIDA
@@ -5869,7 +5869,8 @@ landscape:
             logo: Detect waste.svg
             description: Detecting plastic waste in the environment to combat environmental pollution and promote circular economy.
             repo_url: https://github.com/wimlds-trojmiasto/detect-waste
-            unnamed_organization: true
+            organization:
+              name: wimlds-trojmiasto
             homepage_url: https://detectwaste.ml
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/314221459,https://doi.org/10.1016/j.wasman.2021.12.001'
@@ -5929,7 +5930,8 @@ landscape:
             logo: treeseg.svg
             description: Developed to near-automatically extract tree-level point clouds from high-density larger-area lidar point clouds acquired in forests.
             repo_url: https://github.com/apburt/treeseg
-            unnamed_organization: true
+            organization:
+              name: Andrew Burt
             homepage_url: https://github.com/apburt/treeseg
             extra:
               refs: ',https://doi.org/10.1111/2041-210X.13121'
@@ -5987,7 +5989,8 @@ landscape:
             logo: TreeLS.svg
             description: High performance R functions for forest data processing based on Terrestrial Laser Scanning (but not only) point clouds.
             repo_url: https://github.com/tiagodc/TreeLS
-            unnamed_organization: true
+            organization:
+              name: Tiago de Conto
             homepage_url: https://github.com/tiagodc/TreeLS
             extra:
               refs: ',https://doi.org/10.1016/j.compag.2017.10.019'
@@ -6095,7 +6098,7 @@ landscape:
             logo: Digital Forestry Toolbox.svg
             description: A collection of digital forestry tools for Matlab/Octave.
             repo_url: https://github.com/mparkan/Digital-Forestry-Toolbox
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/epfl
             homepage_url: http://mparkan.github.io/Digital-Forestry-Toolbox/
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/58712667'
@@ -6360,8 +6363,8 @@ landscape:
             logo: CODED.svg
             description: An algorithm developed to monitor for low-magnitude forest disturbances using Landsat data.
             repo_url: https://github.com/bullocke/coded
-            unnamed_organization: true
-            homepage_url: https://github.com/bullocke/coded
+            crunchbase: https://www.crunchbase.com/organization/boston-university
+            homepage_url: https://coded.readthedocs.io/
           - item:
             name: OpenPlantPathology
             logo: OpenPlantPathology.svg
@@ -6379,7 +6382,7 @@ landscape:
             logo: palmerpenguins.svg
             description: The palmerpenguins data contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.
             repo_url: https://github.com/allisonhorst/palmerpenguins
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/observable
             homepage_url: https://allisonhorst.github.io/palmerpenguins/
             extra:
               refs: >-
@@ -6410,15 +6413,14 @@ landscape:
             logo: PCSE.svg
             description: A framework developed for implementing crop simulation models developed in Wageningen.
             repo_url: https://github.com/ajwdewit/pcse
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/wageningen-university-and-research-centre
             homepage_url: https://github.com/ajwdewit/pcse
           - item:
             name: Deep Plant Phenomics
             logo: Deep Plant Phenomics.svg
             description: A platform for plant phenotyping using deep learning.
             repo_url: https://github.com/p2irc/deepplantphenomics
-            organization:
-              name: p2irc
+            crunchbase: https://www.crunchbase.com/organization/university-of-saskatchewan
             homepage_url: https://github.com/p2irc/deepplantphenomics
           - item:
             name: PlanktonIndividuals.jl
@@ -6986,7 +6988,7 @@ landscape:
               A standard vocabulary for the ecological community, a need expressed repeatedly over the past few years at workshops focused on ecological,
               environmental, and population-based semantics.
             repo_url: https://github.com/EcologicalSemantics/ecocore
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-science-foundation
             homepage_url: https://github.com/EcologicalSemantics/ecocore
             extra:
               refs: ',https://zenodo.org/record/846451'
@@ -7088,7 +7090,7 @@ landscape:
             logo: DeepBedMap.svg
             description: Using a deep neural network to better resolve the bed topography of Antarctica.
             repo_url: https://github.com/weiji14/deepbedmap
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/development-seed
             homepage_url: https://github.com/weiji14/deepbedmap
             extra:
               refs: >-
@@ -7100,7 +7102,8 @@ landscape:
             logo: OSSP.svg
             description: Open Source Algorithm for Detecting Sea Ice Surface Features in High Resolution Optical Imagery.
             repo_url: https://github.com/wrightni/OSSP
-            unnamed_organization: true
+            organization:
+              name: Nicholas Wright
             homepage_url: https://github.com/wrightni/OSSP
           - item:
             name: captoolkit
@@ -7118,7 +7121,8 @@ landscape:
             repo_url: https://github.com/vannizhang/sea-ice
             extra:
               topics: arcgis-js-api,living-atlas,arcgis-online,esri,d3,sea-ice,visualization,arctic,antarctic
-            unnamed_organization: true
+            twitter: https://twitter.com/Esri
+            crunchbase: https://www.crunchbase.com/organization/arcgis
             homepage_url: https://livingatlas.arcgis.com/sea-ice/
           - item:
             name: SIS2
@@ -7136,7 +7140,7 @@ landscape:
               The Flexible Snow Model is a multi-physics energy balance model of snow accumulation and melt, extending the Factorial Snow Model (Essery, 2015)
               with additional physics, driving and output options.
             repo_url: https://github.com/RichardEssery/FSM2
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/the-university-of-edinburgh
             homepage_url: https://github.com/RichardEssery/FSM2
           - item:
             name: freshwater
@@ -7154,7 +7158,7 @@ landscape:
             logo: PyTrx.svg
             description: Its primary purpose is to obtain velocities, surface areas, and distances from oblique, optical imagery of glacial environments.
             repo_url: https://github.com/PennyHow/PyTrx
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/geus-375a
             homepage_url: https://github.com/PennyHow/PyTrx
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/91549468,https://doi.org/10.5194/tc-11-2691-2017'
@@ -7183,7 +7187,7 @@ landscape:
             repo_url: https://github.com/chadagreene/BedMachine
             extra:
               topics: antarctica,matlab,greenland,bedmachine,geology,ice-shelves,glaciology,glaciers
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/nasa-jet-propulsion-laboratory-2a9c
             homepage_url: https://github.com/chadagreene/BedMachine
           - item:
             name: Iceberg Locations
@@ -7207,9 +7211,9 @@ landscape:
             name: SICOPOLIS
             logo: SICOPOLIS.svg
             description: A 3-d dynamic/thermodynamic model that simulates the evolution of large ice sheets and ice caps.
-            repo_url: null
-            unnamed_organization: true
-            homepage_url: https://gitlab.awi.de/sicopolis/sicopolis
+            repo_url: https://gitlab.awi.de/sicopolis/sicopolis
+            crunchbase: https://www.crunchbase.com/organization/alfred-wegener-institute
+            homepage_url: http://www.sicopolis.net/
           - item:
             name: ALPGM
             logo: ALPGM.svg
@@ -7225,14 +7229,15 @@ landscape:
             logo: Glacier Mapping From Satellite Imagery.svg
             description: Use computer vision to automatically segment debris and ice glaciers from satellite images.
             repo_url: https://github.com/krisrs1128/glacier_mapping
-            unnamed_organization: true
+            organization:
+              name: Kris Sankaran
             homepage_url: https://github.com/krisrs1128/glacier_mapping
           - item:
             name: DeepIceDrain
             logo: DeepIceDrain.svg
             description: Mapping and monitoring deep subglacial water activity in Antarctica using remote sensing and machine learning.
             repo_url: https://github.com/weiji14/deepicedrain
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/development-seed
             homepage_url: https://github.com/weiji14/deepicedrain
             extra:
               refs: ',https://doi.org/10.5281/zenodo.4071235,https://doi.org/10.5281/zenodo.4071235.\n'
@@ -7271,7 +7276,8 @@ landscape:
               Predicts the spectral albedo of snow and glacier ice between 200nm to 5000nm given information about the illumination conditions, ice structure
               and the type and concentration particulates.
             repo_url: https://github.com/jmcook1186/biosnicar-py
-            unnamed_organization: true
+            organization:
+              name: Joseph Cook
             homepage_url: https://github.com/jmcook1186/biosnicar-py
             extra:
               refs: >-
@@ -7563,14 +7569,14 @@ landscape:
             logo: Intro to Physical Oceanography.svg
             description: Course materials for Introduction to Physical Oceanography.
             repo_url: https://github.com/rabernat/intro_to_physical_oceanography
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/columbia-university
             homepage_url: http://rabernat.github.io/intro_to_physical_oceanography
           - item:
             name: TSG-QC
             logo: TSG-QC.svg
             description: Analysis and validation of underway Sea Surface Temperature and Sea Surface Salinity measurements from a SeaBird Thermosalinograph.
             repo_url: null
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/inrae
             homepage_url: https://git.outils-is.ird.fr/grelet/TSG-QC
           - item:
             name: WRF-Hydro
@@ -7649,7 +7655,7 @@ landscape:
             logo: CO2SYS.svg
             description: A MATLAB (or Octave) project to compute variables of ocean CO2 systems.
             repo_url: https://github.com/jamesorr/CO2SYS-MATLAB
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cea
             homepage_url: https://github.com/jamesorr/CO2SYS-MATLAB
             extra:
               refs: >-
@@ -7659,7 +7665,7 @@ landscape:
             logo: mocsy.svg
             description: Routines to model ocean carbonate system thermodynamics.
             repo_url: https://github.com/jamesorr/mocsy
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cea
             homepage_url: https://github.com/jamesorr/mocsy
             extra:
               refs: ',https://doi.org/10.5194/bg-12-1483-2015,https://doi.org/10.1016/j.marchem.2018.10.006'
@@ -7668,7 +7674,7 @@ landscape:
             logo: seacarb.svg
             description: An R package that calculates various parameters of the carbonate system in seawater.
             repo_url: https://github.com/jpgattuso/seacarb-git
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/cnrs-university
             homepage_url: https://github.com/jpgattuso/seacarb-git
           - item:
             name: RivGraph
@@ -7687,7 +7693,7 @@ landscape:
             repo_url: https://github.com/GClunies/noaa_coops
             extra:
               topics: noaa,tidesandcurrents,tides,currents,metocean
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/surfline
             homepage_url: https://github.com/GClunies/noaa_coops
           - item:
             name: COSIMA
@@ -7706,7 +7712,7 @@ landscape:
               End-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery from MAJA1 processor, without any a priori
               knowledge on the scene.
             repo_url: https://github.com/cordmaur/WaterDetect
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/brazilgovernment
             homepage_url: https://github.com/cordmaur/WaterDetect
             extra:
               refs: >-
@@ -7716,7 +7722,7 @@ landscape:
             logo: FLAREr.svg
             description: Flexible, scalable, robust, and near-real time iterative ecological forecasts in lakes and reservoirs.
             repo_url: https://github.com/FLARE-forecast/FLAREr
-            unnamed_organization: true
+            crunchbase: https://www.crunchbase.com/organization/national-science-foundation
             homepage_url: https://flare-forecast.org/FLAREr/
           - item:
             name: HyRiver
@@ -9775,8 +9781,7 @@ landscape:
             logo: edgeTransport.svg
             description: Prepare EDGE Transport Data for the REMIND model.
             repo_url: https://github.com/pik-piam/edgeTransport
-            organization:
-              name: Potsdam Integrated Assessment Modelling (PIAM)
+            crunchbase: https://www.crunchbase.com/organization/potsdam-institute-for-climate-impact-research
             homepage_url: https://github.com/pik-piam/edgeTransport
   - category:
     name: Natural Resources
@@ -11504,8 +11509,7 @@ landscape:
             repo_url: https://github.com/openfoodfacts/openfoodfacts-server
             extra:
               topics: food,food-products,perl,database,crowdsourcing,nutrition,recycling,allergies,allergens,hacktoberfest,environment
-            organization:
-              name: Open Food Facts
+            crunchbase: https://www.crunchbase.com/organization/open-food-facts
             homepage_url: https://github.com/openfoodfacts/openfoodfacts-server
           - item:
             name: ramlegacy
