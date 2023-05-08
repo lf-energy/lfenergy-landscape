@@ -1450,6 +1450,91 @@ landscape:
         name: Modeling and Optimization
         items:
           - item:
+            name: Dynaωo
+            homepage_url: https://dynawo.energy
+            second_path:
+              - System Management / Power System Calculation
+              - Project Stack / Business Intelligence
+            project: sandbox
+            repo_url: https://github.com/dynawo/dynawo
+            project_org: https://github.com/dynawo
+            logo: dynawo.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/dynawo
+              slack_channel: '#dynawo'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fdynawo
+              wiki_page: https://wiki.lfenergy.org/display/DYN
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/dynawo
+              TSC_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/dynawo/calendar
+              contribution_guidelines: https://github.com/dynawo/.github/blob/master/CONTRIBUTING.md
+              project_lead: Marco Chiaramello
+          - item:
+            name: CIMapplication
+            second_path:
+              - System Management / Power System Calculation
+            description: CIM J2EE application with resource adapter access to Spark.
+            homepage_url: https://derrickoswald.github.io/CIMSparkPresentation/index.html
+            repo_url: https://github.com/derrickoswald/CIMApplication
+            logo: CIMapplication.svg
+            crunchbase: https://www.crunchbase.com/organization/9code
+          - item:
+            name: CIMspark
+            second_path:
+              - System Management / Power System Calculation
+            description: J2EE access to Spark for Common Information Model (CIM) applications.
+            homepage_url: https://derrickoswald.github.io/CIMSparkPresentation/index.html
+            repo_url: https://github.com/derrickoswald/CIMSpark
+            logo: CIMspark.svg
+            crunchbase: https://www.crunchbase.com/organization/9code
+          - item:
+            name: CIMspace
+            second_path:
+              - Shared / Data Management
+            description: >-
+              CIMSpace allows you to read, display, analyze and edit CIM files, which are a data interchange format based on IEC standards 61968 & 61970. See
+              CIM users group for additional details on the CIM format.
+            homepage_url: https://github.com/derrickoswald
+            repo_url: https://github.com/derrickoswald/CIMSpace
+            logo: cimspace.svg
+            crunchbase: https://www.crunchbase.com/organization/9code
+          - item:
+            name: CIMDraw
+            second_path:
+              - Shared / Data Management
+            description: CIMDraw is a WebApp to view IEC CIM (CGMES) files
+            homepage_url: https://cimug.ucaiug.org/
+            repo_url: https://github.com/danielePala/CIMDraw
+            logo: cimdraw-text.svg
+            crunchbase: https://www.crunchbase.com/organization/ricerca-sul-sistema-energetico-rse-s-p-a
+          - item:
+            name: CIMSpy
+            second_path:
+              - Shared / Data Management
+            description: CIM/RDF/XML file browser, editor, and validator.
+            homepage_url: http://www.powerinfo.us/CIMSpyEE.html
+            logo: cimspy-text.svg
+            crunchbase: https://www.crunchbase.com/organization/power-info-llc
+          - item:
+            name: CIMTool
+            second_path:
+              - Shared / Data Management
+            description: CIM profile and message schema creation, validation.
+            homepage_url: https://wiki.cimtool.org
+            repo_url: https://github.com/CIMug-org/CIMTool
+            logo: cimtool-text.svg
+            crunchbase: https://www.crunchbase.com/organization/langdale-consulting-and-technical-services
+          - item:
+            name: PowerMatcher
+            second_path:
+              - Customer and Market / Market Platform Gateway
+            description: The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market.
+            homepage_url: http://flexiblepower.github.io/technology/powermatcher/
+            repo_url: https://github.com/flexiblepower/powermatcher
+            logo: powermatcher-txt.svg
+            crunchbase: https://www.crunchbase.com/organization/powermatcher
+          - item:
             name: Open Energy System Models
             logo: Open Energy System Models.svg
             description: Used to explore future energy systems and are often applied to questions involving energy and climate policy.
@@ -1600,6 +1685,7 @@ landscape:
           - item:
             second_path:
               - Acquisition and Control / Substation Node
+              - Project Stack / Central Supporting Services
             name: CoMPAS
             description: >-
               Configuration Modules for Power industry Automation Systems. The CoMPAS project was formed to develop open source software components related to
@@ -1626,6 +1712,7 @@ landscape:
             homepage_url: https://opengeh.energy
             second_path:
               - Shared / Data Management
+              - Project Stack / Business Intelligence
             project: sandbox
             repo_url: https://github.com/opengeh/.github
             project_org: https://github.com/opengeh
@@ -1635,6 +1722,7 @@ landscape:
             name: Shapeshifter
             second_path:
               - Customer and Market / Market Platform Gateway
+              - Project Stack / Business Intelligence
             homepage_url: https://github.com/shapeshifter
             project: incubation
             repo_url: https://github.com/shapeshifter/shapeshifter-specification
@@ -1655,6 +1743,7 @@ landscape:
             name: Hyphae
             homepage_url: https://www.lfenergy.org/projects/hyphae/
             second_path:
+              - Project Stack / Edge & Distributed Intelligence
               - Acquisition and Control / Edge Node Control
             project: incubation
             repo_url: https://github.com/hyphae/apis-common
@@ -1695,6 +1784,7 @@ landscape:
           - item:
             second_path:
               - System Management / Power System Calculation
+              - Project Stack / Business Intelligence
             name: Grid Capacity Map
             description: >-
               A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
@@ -1720,6 +1810,7 @@ landscape:
           - item:
             second_path:
               - Acquisition and Control / Communication Infrastructure
+              - Project Stack / Edge & Distributed Intelligence
             name: FledgePOWER
             homepage_url: https://www.lfenergy.org/projects/fledgepower/
             project: incubation
@@ -1865,6 +1956,7 @@ landscape:
             name: SOGNO
             second_path:
               - System Management / System Control
+              - Project Stack / Business Intelligence
             homepage_url: https://www.lfenergy.org/projects/sogno/
             project: earlyadoption
             repo_url: https://github.com/sogno-platform/dpsim
@@ -2179,9 +2271,31 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/forschungszentrum-julich
             homepage_url: https://github.com/FZJ-IEK3-VSA/RESKit
           - item:
+            name: Power Grid Model
+            second_path:
+              - System Management / Power System Calculation
+              - Project Stack / Business Intelligence
+            homepage_url: https://powergridmodel.energy
+            project: sandbox
+            repo_url: https://github.com/PowerGridModel/power-grid-model
+            project_org: https://github.com/PowerGridModel
+            logo: powergridmodel.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: none
+              slack_channel: '#powergridmodel'
+              LFX_insights_url: none
+              wiki_page: none
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md
+              project_lead: Tony Xiang
+          - item:
             name: PowSyBl
             second_path:
               - System Management / Power System Calculation
+              - Project Stack / Business Intelligence
             description: >-
               A High-Performance Computing Framework For Grid Simulation and Planning. PowSyBl provides the code building blocks for the simulations and
               analyses of power systems, for horizons from real-time operation to investment planning.
@@ -2535,6 +2649,7 @@ landscape:
           - item:
             second_path:
               - System Management / Power System Calculation
+              - Project Stack / Business Intelligence
             name: OpenSTEF
             homepage_url: https://openstef.energy
             project: incubation
@@ -2630,6 +2745,7 @@ landscape:
           - item:
             second_path:
               - Customer and Market / Customer Relationship and Communication
+              - Project Stack / Business Intelligence
             name: OpenEEmeter
             description: >-
               Consistent treatment of energy meter data for demand flexibility. Generates consistent and replicable results by always using the same methods to
@@ -2655,6 +2771,7 @@ landscape:
             name: OperatorFabric
             second_path:
               - Shared / Unified Operator's UX Components and Framework
+              - Project Stack / Business Intelligence
             description: >-
               A Smart Assistant For System Operators. OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for use in
               electricity, water, and other utility operations.
@@ -2700,7 +2817,6 @@ landscape:
               - System Management / Data Management
             name: Emoncms
             homepage_url: https://emoncms.org/
-            project: null
             repo_url: https://github.com/emoncms/emoncms
             project_org: https://github.com/emoncms
             logo: emoncms.svg
@@ -2711,6 +2827,7 @@ landscape:
           - item:
             second_path:
               - Asset Management / Data Management
+              - Project Stack / Business Intelligence
             name: FlexMeasures
             homepage_url: https://flexmeasures.io
             description: A platform for building energy flexibility services with forecasting and scheduling, written in Python & offering a USEF-conform API.
@@ -2733,6 +2850,37 @@ landscape:
       - subcategory:
         name: Distribution and Grids
         items:
+          - item:
+            name: OpenMUC
+            second_path:
+              - Acquisition and Control / Central Hub
+            description: OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.
+            homepage_url: https://www.openmuc.org/
+            repo_url: https://github.com/openmuc/jrxtx
+            logo: Fraunhofer Ise - OpenMUC.svg
+            twitter: https://twitter.com/FraunhoferISE
+            crunchbase: https://www.crunchbase.com/organization/openmuc
+          - item:
+            name: GridAPPS-D
+            second_path:
+              - Shared / Unified Operator's UX Components and Framework
+            description: >-
+              GridAPPS-D™ is an open-source platform that accelerates development and deployment of portable applications for advanced distribution management
+              and operations
+            homepage_url: https://www.gridapps-d.org/
+            project_org: https://github.com/GRIDAPPSD
+            repo_url: https://github.com/GRIDAPPSD/gridappsd-docker
+            logo: gridappsd-text.svg
+            crunchbase: https://www.crunchbase.com/organization/gridapps-d
+          - item:
+            name: Grid Protection Alliance
+            second_path:
+              - Acquisition and Control / Edge Node Control
+            description: GPA is a not-for-profit corporation formed to facilitate the development of comprehensive electric energy solutions.
+            homepage_url: https://www.gridprotectionalliance.org/
+            repo_url: https://github.com/GridProtectionAlliance/gsf
+            logo: gridprotectionalliance.svg
+            crunchbase: https://www.crunchbase.com/organization/grid-protection-alliance
           - item:
             name: SimBench
             logo: SimBench.svg
@@ -2781,6 +2929,7 @@ landscape:
             name: Grid eXchange Fabric
             second_path:
               - Acquisition and Control / Infrastructure Management
+              - Project Stack / Central Supporting Services
             description: >-
               Control and Monitor Smart Devices. Grid eXchange Fabric (GXF) allows you to monitor and control hardware in the public space. With several
               (generic) functions ready to use, the main benefits of GXF are scalability & high availability, high security, its generic design, and no vendor
@@ -2917,6 +3066,7 @@ landscape:
             description: A friendly and compliant OpenADR implementation for Python 3
             second_path:
               - Acquisition and Control / Edge Node Control
+              - Project Stack / Edge & Distributed Intelligence
             homepage_url: https://www.lfenergy.org/projects/openleadr/
             project: incubation
             repo_url: https://github.com/OpenLEADR/openleadr-python
@@ -3047,6 +3197,7 @@ landscape:
             name: Real Time Data Ingestion Platform (RTDIP)
             second_path:
               - System Management / Data Management
+              - Project Stack / Edge & Distributed Intelligence
             homepage_url: https://rtdip.io
             project: sandbox
             repo_url: https://github.com/rtdip/core
@@ -3067,6 +3218,7 @@ landscape:
             name: Arras
             second_path:
               - System Management / Power System Calculation
+              - Project Stack / Central Supporting Services
             description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
             homepage_url: https://arras.energy/
             project: sandbox
@@ -3099,6 +3251,7 @@ landscape:
             name: SEAPATH
             second_path:
               - Acquisition and Control / Substation Node
+              - Project Stack / Edge & Distributed Intelligence
             description: >-
               SEAPATH, Software Enabled Automation Platform and Artifacts (THerein), aims at developing a “reference design” and “industrial grade” open source
               real-time platform that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially
@@ -4672,6 +4825,7 @@ landscape:
           - item:
             second_path:
               - Customer and Market / Customer Relationship and Communication
+              - Project Stack / Central Supporting Services
             name: Super Advanced Meter (SAM)
             description: LF Energy project focused on enabling advanced smart meter solutions.
             homepage_url: https://superadvancedmeter.energy
@@ -4694,6 +4848,7 @@ landscape:
             name: EVerest
             second_path:
               - Acquisition and Control / Infrastructure Management
+              - Project Stack / Edge & Distributed Intelligence
             homepage_url: https://www.lfenergy.org/projects/everest/
             project: incubation
             repo_url: https://github.com/EVerest/EVerest
@@ -5091,7 +5246,9 @@ landscape:
         name: Carbon Intensity and Accounting
         items:
           - item:
-            second_path: Asset Management / Data Management
+            second_path:
+              - Project Stack / Central Supporting Services
+              - Asset Management / Data Management
             name: Carbon Data Specification Consortium (CDSC)
             homepage_url: https://carbondataspec.org/
             project: sandboxs
@@ -13228,24 +13385,9 @@ landscape:
             logo: Schneider-Electric-EcoStruxure.svg
             twitter: https://twitter.com/SchneiderElecCA
             crunchbase: https://www.crunchbase.com/organization/schneider-electric
-          - item:
-            name: OpenMUC
-            description: OpenMUC is a software framework based on Java and OSGi that simplifies the development of customized monitoring, logging and control systems.
-            homepage_url: https://www.openmuc.org/
-            repo_url: https://github.com/openmuc/jrxtx
-            logo: Fraunhofer Ise - OpenMUC.svg
-            twitter: https://twitter.com/FraunhoferISE
-            crunchbase: https://www.crunchbase.com/organization/openmuc
       - subcategory:
         name: Edge Node Control
         items:
-          - item:
-            name: Grid Protection Alliance
-            description: GPA is a not-for-profit corporation formed to facilitate the development of comprehensive electric energy solutions.
-            homepage_url: https://www.gridprotectionalliance.org/
-            repo_url: https://github.com/GridProtectionAlliance/gsf
-            logo: gridprotectionalliance.svg
-            crunchbase: https://www.crunchbase.com/organization/grid-protection-alliance
           - item:
             name: SASensor
             description: >-
@@ -13316,13 +13458,6 @@ landscape:
             homepage_url: https://en.gopacs.eu/
             logo: Tennet GOPACS - text.svg
             crunchbase: https://www.crunchbase.com/organization/tennet
-          - item:
-            name: PowerMatcher
-            description: The PowerMatcher is a ‘demand response’ technology that balances all smart devices, from low voltage to high voltage, in a virtual market.
-            homepage_url: http://flexiblepower.github.io/technology/powermatcher/
-            repo_url: https://github.com/flexiblepower/powermatcher
-            logo: powermatcher-txt.svg
-            crunchbase: https://www.crunchbase.com/organization/powermatcher
       - subcategory:
         name: Customer Response
         items: []
@@ -13343,26 +13478,6 @@ landscape:
             twitter: https://twitter.com/ENTSO_E
             crunchbase: https://www.crunchbase.com/organization/entso-e
           - item:
-            name: CIMDraw
-            description: CIMDraw is a WebApp to view IEC CIM (CGMES) files
-            homepage_url: https://cimug.ucaiug.org/
-            repo_url: https://github.com/danielePala/CIMDraw
-            logo: cimdraw-text.svg
-            crunchbase: https://www.crunchbase.com/organization/ricerca-sul-sistema-energetico-rse-s-p-a
-          - item:
-            name: CIMSpy
-            description: CIM/RDF/XML file browser, editor, and validator.
-            homepage_url: http://www.powerinfo.us/CIMSpyEE.html
-            logo: cimspy-text.svg
-            crunchbase: https://www.crunchbase.com/organization/power-info-llc
-          - item:
-            name: CIMTool
-            description: CIM profile and message schema creation, validation.
-            homepage_url: https://wiki.cimtool.org
-            repo_url: https://github.com/CIMug-org/CIMTool
-            logo: cimtool-text.svg
-            crunchbase: https://www.crunchbase.com/organization/langdale-consulting-and-technical-services
-          - item:
             name: Enterprise Architect
             description: Enterprise Architect CIM UML utility, creates IEC document content, validation, Rose migration and model merge.
             homepage_url: https://sparxsystems.com/
@@ -13370,17 +13485,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sparx-systems
       - subcategory:
         name: Unified Operator's UX Components and Framework
-        items:
-          - item:
-            name: GridAPPS-D
-            description: >-
-              GridAPPS-D™ is an open-source platform that accelerates development and deployment of portable applications for advanced distribution management
-              and operations
-            homepage_url: https://www.gridapps-d.org/
-            project_org: https://github.com/GRIDAPPSD
-            repo_url: https://github.com/GRIDAPPSD/gridappsd-docker
-            logo: gridappsd-text.svg
-            crunchbase: https://www.crunchbase.com/organization/gridapps-d
+        items: []
       - subcategory:
         name: Systems Governance
         items:
@@ -13398,16 +13503,7 @@ landscape:
     subcategories:
       - subcategory:
         name: Data Management
-        items:
-          - item:
-            name: CIMspace
-            description: >-
-              CIMSpace allows you to read, display, analyze and edit CIM files, which are a data interchange format based on IEC standards 61968 & 61970. See
-              CIM users group for additional details on the CIM format.
-            homepage_url: https://github.com/derrickoswald
-            repo_url: https://github.com/derrickoswald/CIMSpace
-            logo: cimspace.svg
-            crunchbase: https://www.crunchbase.com/organization/9code
+        items: []
       - subcategory:
         name: Forecasting
         items:
@@ -13439,43 +13535,11 @@ landscape:
         name: Power System Calculation
         items:
           - item:
-            name: CIMapplication
-            description: CIM J2EE application with resource adapter access to Spark.
-            homepage_url: https://derrickoswald.github.io/CIMSparkPresentation/index.html
-            repo_url: https://github.com/derrickoswald/CIMApplication
-            logo: CIMapplication.svg
-            crunchbase: https://www.crunchbase.com/organization/9code
-          - item:
-            name: CIMspark
-            description: J2EE access to Spark for Common Information Model (CIM) applications.
-            homepage_url: https://derrickoswald.github.io/CIMSparkPresentation/index.html
-            repo_url: https://github.com/derrickoswald/CIMSpark
-            logo: CIMspark.svg
-            crunchbase: https://www.crunchbase.com/organization/9code
-          - item:
             name: CYME
             description: Power Engineering Software for either transmission/industrial or distribution power network analysis.
             homepage_url: https://www.cyme.com/software
             logo: Eaton-CYME.svg
             crunchbase: https://www.crunchbase.com/organization/eaton
-          - item:
-            name: Dynaωo
-            homepage_url: https://dynawo.energy
-            project: sandbox
-            repo_url: https://github.com/dynawo/dynawo
-            project_org: https://github.com/dynawo
-            logo: dynawo.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/dynawo
-              slack_channel: '#dynawo'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fdynawo
-              wiki_page: https://wiki.lfenergy.org/display/DYN
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/dynawo
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/dynawo/calendar
-              contribution_guidelines: https://github.com/dynawo/.github/blob/master/CONTRIBUTING.md
-              project_lead: Marco Chiaramello
           - item:
             name: EMTP-RV
             description: EMTP is the most complete and technically advanced software for simulation and analysis of power systems.
@@ -13600,6 +13664,18 @@ landscape:
             logo: Siemens-Spectrum-Power.svg
             twitter: https://twitter.com/siemens_energy
             crunchbase: https://www.crunchbase.com/organization/siemens
+  - category:
+    name: Project Stack
+    subcategories:
+      - subcategory:
+        name: Business Intelligence
+        items: []
+      - subcategory:
+        name: Central Supporting Services
+        items: []
+      - subcategory:
+        name: Edge & Distributed Intelligence
+        items: []
   - category:
     name: LF Energy Member
     subcategories:

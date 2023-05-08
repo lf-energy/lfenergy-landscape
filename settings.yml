@@ -363,6 +363,39 @@ big_picture:
         color: rgb(0,0,0)
         fit_width: true
     category: LF Energy Member
+  sixth:
+    tab_index: 1
+    url: softwarestack
+    name: Software Stack
+    title: Software Stack
+    fullscreen_header: Become an LF Energy at member at www.lfenergy.org/join/
+    fullscreen_hide_grey_logos: true
+    elements:
+      - type: VerticalCategory
+        category: Business Intelligence
+        rows: 2
+        width: 500
+        height: 200
+        top: 0
+        left: 0
+        color: '#2abeef'
+      - type: VerticalCategory
+        category: Central Supporting Services
+        rows: 1
+        width: 500
+        height: 120
+        top: 220
+        left: 0
+        color: '#0077bb'
+      - type: VerticalCategory
+        category: Edge & Distributed Intelligence
+        rows: 2
+        width: 500
+        height: 200
+        top: 360
+        left: 0
+        color: '#003764'
+    category: Project Stack
 test:
   header: LF Energy Interactive Landscape
   section: LF Energy Members
