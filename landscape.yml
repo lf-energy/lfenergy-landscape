@@ -1450,6 +1450,26 @@ landscape:
         name: Modeling and Optimization
         items:
           - item:
+            name: ExaGO
+            description: >-
+              ExaGO is a library for solving large-scale alternating current optimal power flow (ACOPF) problems including stochastic effects, security
+              constraints and multi-period constraints.
+            homepage_url: https://gitlab.pnnl.gov/exasgd/frameworks/exago
+            logo: exago.svg
+            crunchbase: https://www.crunchbase.com/organization/battelle-memorial-institute
+            repo_url: https://gitlab.pnnl.gov/exasgd/frameworks/exago
+            license: BSD Zero Clause License
+          - item:
+            name: SpineOpt.jl
+            description: >-
+              SpineOpt is a flexible, open-source, energy systems modelling framework for performing operational and planning studies, consisting of a wide
+              spectrum of novel tools and functionalities. The most salient features of SpineOpt include a generic data structure, flexible temporal and spatial
+              structures, a comprehensive representation of uncertainties, and model decomposition capabilities to reduce the computational complexity.
+            homepage_url: http://www.spine-model.org/index.htm
+            logo: spineoptjl.svg
+            repo_url: https://github.com/Spine-project/SpineOpt.jl
+            crunchbase: https://www.crunchbase.com/organization/spine-project
+          - item:
             name: Dynaωo
             homepage_url: https://dynawo.energy
             second_path:
@@ -1564,7 +1584,7 @@ landscape:
               residential, commercial, and utility-scale projects.
             repo_url: https://github.com/NREL/SAM
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            homepage_url: https://github.com/NREL/SAM
+            homepage_url: https://sam.nrel.gov
           - item:
             name: openTEPES
             logo: openTEPES.svg
