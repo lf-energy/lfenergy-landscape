@@ -13459,6 +13459,24 @@ landscape:
             logo: Eaton-CYME.svg
             crunchbase: https://www.crunchbase.com/organization/eaton
           - item:
+            name: Dynaωo
+            homepage_url: https://dynawo.energy
+            project: sandbox
+            repo_url: https://github.com/dynawo/dynawo
+            project_org: https://github.com/dynawo
+            logo: dynawo.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/dynawo
+              slack_channel: '#dynawo'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fdynawo
+              wiki_page: https://wiki.lfenergy.org/display/DYN
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/dynawo
+              TSC_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/dynawo/calendar
+              contribution_guidelines: https://github.com/dynawo/.github/blob/master/CONTRIBUTING.md
+              project_lead: Marco Chiaramello
+          - item:
             name: EMTP-RV
             description: EMTP is the most complete and technically advanced software for simulation and analysis of power systems.
             homepage_url: https://www.emtp.com
@@ -13634,6 +13652,7 @@ landscape:
             name: Blockchain Technology Partners, Inc.
             homepage_url: https://btp.works/
             logo: blockchain_technology_partners_inc.svg
+            twitter: https://twitter.com/btpworx
             crunchbase: https://www.crunchbase.com/organization/btpworks
           - item:
             name: Cleartrace
@@ -13651,8 +13670,7 @@ landscape:
             homepage_url: https://electricitymap.org/
             logo: electricity_maps.svg
             twitter: https://twitter.com/ElectricityMaps
-            organization:
-              name: Electricity Maps
+            crunchbase: https://www.crunchbase.com/organization/electricitymap
           - item:
             name: Energinet
             homepage_url: https://energinet.dk/
@@ -13696,7 +13714,7 @@ landscape:
             name: Recurve
             homepage_url: https://recurve.com/
             logo: recurve.svg
-            twitter: https://twitter.com/RecurveUS
+            twitter: https://twitter.com/Recurve_Energy
             crunchbase: https://www.crunchbase.com/organization/recurve
           - item:
             name: Savoir-faire Linux
@@ -13892,7 +13910,7 @@ landscape:
             name: RWTH Aachen University
             homepage_url: https://rwth-aachen.de/
             logo: rwth_aachen_university.svg
-            twitter: https://twitter.com/RWTH_Academy
+            twitter: https://twitter.com/IGaD_RWTH
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
           - item:
             name: Stanford University
@@ -13932,4 +13950,5 @@ landscape:
             name: Washington State University
             homepage_url: https://wsu.edu/
             logo: washington_state_university.svg
+            twitter: https://twitter.com/nsbe_wazzu
             crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
