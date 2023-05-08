@@ -29,51 +29,116 @@ relation:
       label: LF Energy Projects
       children:
         - id: graduated
-          label: Graduated
-          prefix: LF Energy
+          label: Technical Project - Graduated
+          prefix: LF Energy Technical Project
           tag: Graduated
-          color: '#3570af'
+          color: '#008F65'
           big_picture_order: 1
-          big_picture_label: LF Energy Graduated
-          big_picture_color: rgb(24,54,114)
+          big_picture_label: Technical Project - Graduated
+          big_picture_color: '#008F65'
           additional_relation: member
         - id: earlyadoption
-          label: Early Adoption
-          prefix: LF Energy
+          label: Technical Project - Early Adoption
+          prefix: LF Energy Technical Project
           tag: Early Adoption
-          color: '#3570af'
+          color: rgb(24,54,114)
           big_picture_order: 1
-          big_picture_label: LF Energy Early Adoption
+          big_picture_label: Technical Project - Early Adoption
           big_picture_color: rgb(24,54,114)
+          additional_relation: member
         - id: incubation
-          label: Incubation
-          prefix: LF Energy
+          label: Technical Project - Incubation
+          prefix: LF Energy Technical Project
           tag: Incubation
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Energy Incubation
-          big_picture_color: rgb(24,54,114)
+          big_picture_label: Technical Project - Incubation
+          big_picture_color: '#3570af'
+          additional_relation: member
         - id: sandbox
-          label: Sandbox
-          prefix: LF Energy
+          label: Technical Project - Sandbox
+          prefix: LF Energy Technical Project
           tag: Sandbox
-          color: '#3570af'
+          color: '#ff5d47'
           big_picture_order: 1
-          big_picture_label: LF Energy Sandbox
-          big_picture_color: rgb(24,54,114)
+          big_picture_label: Technical Project - Sandbox
+          big_picture_color: '#ff5d47'
+          additional_relation: member
         - id: emeritus
-          label: Emeritus
-          prefix: LF Energy
+          label: Technical Project - Emeritus
+          prefix: LF Energy Technical Project
           tag: Emeritus
+          color: rgba(191, 191, 191, 0.3)
+          big_picture_order: 1
+          big_picture_label: Technical Project - Emeritus
+          big_picture_color: rgba(191, 191, 191, 0.3)
+          additional_relation: member
+        - id: stable
+          label: Standards Project - Stable
+          prefix: LF Energy Standards Project
+          tag: Stable
+          color: '#008F65'
+          big_picture_order: 1
+          big_picture_label: Standards Project - Stable
+          big_picture_color: '#008F65'
+          additional_relation: member
+        - id: development
+          label: Standards Project - Development
+          prefix: LF Energy Standards Project
+          tag: Development
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: LF Energy Emeritus
-          big_picture_color: rgb(24,54,114)
+          big_picture_label: Standards Project - Development
+          big_picture_color: '#3570af'
+          additional_relation: member
+        - id: sandboxs
+          label: Standards Project - Sandbox
+          prefix: LF Energy Standards Project
+          tag: Sandbox
+          color: '#ff5d47'
+          big_picture_order: 1
+          big_picture_label: Standards Project - Sandbox
+          big_picture_color: '#ff5d47'
+          additional_relation: member
+        - id: emerituss
+          label: Standards Project - Emeritus
+          prefix: LF Energy Standards Project
+          tag: Emeritus
+          color: rgba(191, 191, 191, 0.3)
+          big_picture_order: 1
+          big_picture_label: Standards Project - Emeritus
+          big_picture_color: rgba(191, 191, 191, 0.3)
+          additional_relation: member
+        - id: active
+          label: Working Group - Active
+          prefix: LF Energy Working Group
+          tag: Active
+          color: '#008F65'
+          big_picture_order: 1
+          big_picture_label: Working Group - Active
+          big_picture_color: '#008F65'
+          additional_relation: member
+        - id: sandboxw
+          label: Working Group - Sandbox
+          prefix: LF Energy Working Group
+          tag: Sandbox
+          color: '#ff5d47'
+          big_picture_order: 1
+          big_picture_label: Working Group - Sandbox
+          big_picture_color: '#ff5d47'
+          additional_relation: member
+        - id: emeritusw
+          label: Working Group - Emeritus
+          prefix: LF Energy Working Group
+          tag: Emeritus
+          color: rgba(191, 191, 191, 0.3)
+          big_picture_order: 1
+          big_picture_label: Working Group - Emeritus
+          big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
     - id: company
       label: LF Energy Members
       tag: Company
-      big_picture_order: 3
     - id: member
       label: LF Energy Member Products/Projects
       tag: LF Energy Member
@@ -109,7 +174,6 @@ home:
     here</a> to add a new entry to the landscape<h2> <h2><a
     href="https://github.com/lf-energy/lfenergy-landscape/issues/new?assignees=jmertic%2CYarille&labels=update+entry&template=update-landscape-entry.yml&title=Update+Landscape+Entry+for+%5BPROJECT%5D">Click
     here</a> to update an existing landscape entry</h2>
-  footer: null
 ads:
   - url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/?utm_source=lfenergy_landscape&utm_medium=web&utm_campaign=kccncna19
     image: /images/info1.jpg
@@ -135,89 +199,134 @@ big_picture:
     title: LF Energy Landscape
     fullscreen_header: See the interactive landscape at l.lfenergy.org
     elements:
-      - type: HorizontalCategory
-        category: Customer and Market
-        rows: 4
-        width: 600
-        height: 300
-        top: 0
-        left: 0
-        color: rgb(0,206,209)
-        fit_width: true
-      - type: HorizontalCategory
-        category: System Management
-        rows: 4
-        width: 600
-        height: 300
-        top: 0
-        left: 610
-        color: rgb(106,44,218)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Asset Management
-        rows: 4
-        width: 600
-        height: 300
-        top: 540
-        left: 610
-        color: rgb(179,60,133)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Shared
-        rows: 4
-        width: 890
-        height: 200
-        top: 315
-        left: 0
-        color: rgb(29,119,164)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Acquisition and Control
-        rows: 4
-        width: 600
-        height: 300
-        top: 540
-        left: 0
-        color: rgb(37,81,209)
-        fit_width: true
-      - type: LandscapeInfo
-        width: 300
-        height: 200
-        top: 315
-        left: 910
-        children:
-          - type: text
-            text: >-
-              This LF Energy Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource to better
-              understand the open energy ecosystem.
-            top: 55
-            left: 120
-            right: 20
-            font_size: 10
-          - type: image
-            image: qr.svg
-            top: 55
-            left: 10
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: l.lfenergy.org
-            top: 150
-            left: 19
-            font_size: 12
-          - type: image
-            image: left-logo.svg
-            width: 110
-            right: 160
-            top: 10
-            title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            width: 109
-            right: 25
-            top: 15
-            title: LF Energy Logo
+        - type: HorizontalCategory
+          category: Renewable Energy
+          rows: 4
+          width: 1200
+          height: 300
+          top: 0
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Energy Storage
+          rows: 3
+          width: 900
+          height: 200
+          top: 310
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Energy Systems
+          rows: 4
+          width: 1200
+          height: 400
+          top: 530
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Consumption of Energy and Resources
+          rows: 4
+          width: 1200
+          height: 300
+          top: 950
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Emissions
+          rows: 4
+          width: 1200
+          height: 300
+          top: 1260
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Industrial Ecology
+          rows: 4
+          width: 1200
+          height: 300
+          top: 1570
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Earth Systems
+          rows: 4
+          width: 1200
+          height: 300
+          top: 1880
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Climate and Earth Science
+          rows: 4
+          width: 1200
+          height: 300
+          top: 2210
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Natural Resources
+          rows: 4
+          width: 1200
+          height: 300
+          top: 2550
+          left: 0
+          color: rgb(0,206,209)
+          fit_width: true
+        - type: HorizontalCategory
+          category: Sustainable Development
+          rows: 4
+          width: 1200
+          height: 300
+          top: 2900
+          left: 0
+          color: rgb(106,44,218)
+          fit_width: true
+        - type: LandscapeInfo
+          width: 300
+          height: 200
+          top: 310
+          left: 910
+          children:
+            - type: text
+              text: >-
+                This LF Energy Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource to better
+                understand the open energy ecosystem.
+              top: 55
+              left: 120
+              right: 20
+              font_size: 10
+            - type: image
+              image: qr.svg
+              top: 55
+              left: 10
+              width: 90
+              height: 90
+              title: QR Code
+            - type: title
+              title: l.lfenergy.org
+              top: 150
+              left: 19
+              font_size: 12
+            - type: image
+              image: left-logo.svg
+              width: 110
+              right: 160
+              top: 10
+              title: Landscape Logo
+            - type: image
+              image: right-logo.svg
+              width: 109
+              right: 25
+              top: 15
+              title: LF Energy Logo
   third:
     tab_index: 1
     url: members
@@ -254,11 +363,46 @@ big_picture:
         color: rgb(0,0,0)
         fit_width: true
     category: LF Energy Member
+  sixth:
+    tab_index: 1
+    url: softwarestack
+    name: Software Stack
+    title: Software Stack
+    fullscreen_header: Become an LF Energy at member at www.lfenergy.org/join/
+    fullscreen_hide_grey_logos: true
+    elements:
+      - type: VerticalCategory
+        category: Business Intelligence
+        rows: 2
+        width: 500
+        height: 200
+        top: 0
+        left: 0
+        color: '#2abeef'
+      - type: VerticalCategory
+        category: Central Supporting Services
+        rows: 1
+        width: 500
+        height: 120
+        top: 220
+        left: 0
+        color: '#0077bb'
+      - type: VerticalCategory
+        category: Edge & Distributed Intelligence
+        rows: 2
+        width: 500
+        height: 200
+        top: 360
+        left: 0
+        color: '#003764'
+    category: Project Stack
 test:
   header: LF Energy Interactive Landscape
-  section: Early Adoption
+  section: LF Energy Members
   logo: operator-fabric.svg
 prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless
-  hosted_projects: /card-mode?grouping=no&project=hosted&style=borderless&embed=yes
-  hosted_projects_grouped: /card-mode?project=hosted&style=borderless&embed=yes
+  hosted_projects: /card-mode?grouping=no&project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
+  hosted_projects_grouped: card-mode?project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
+  opensustaintech: /card-mode?category=renewable-energy,energy-storage,energy-systems,consumption-of-energy-and-resources,emissions,industrial-ecology,earth-systems,climate-and-earth-science,natural-resources,sustainable-development&grouping=category
+export: {}
