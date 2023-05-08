@@ -199,133 +199,6 @@ big_picture:
     title: LF Energy Landscape
     fullscreen_header: See the interactive landscape at l.lfenergy.org
     elements:
-      - type: HorizontalCategory
-        category: Customer and Market
-        rows: 4
-        width: 600
-        height: 300
-        top: 0
-        left: 0
-        color: rgb(0,206,209)
-        fit_width: true
-      - type: HorizontalCategory
-        category: System Management
-        rows: 4
-        width: 600
-        height: 300
-        top: 0
-        left: 610
-        color: rgb(106,44,218)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Asset Management
-        rows: 4
-        width: 600
-        height: 300
-        top: 540
-        left: 610
-        color: rgb(179,60,133)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Shared
-        rows: 4
-        width: 890
-        height: 200
-        top: 315
-        left: 0
-        color: rgb(29,119,164)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Acquisition and Control
-        rows: 4
-        width: 600
-        height: 300
-        top: 540
-        left: 0
-        color: rgb(37,81,209)
-        fit_width: true
-      - type: LandscapeInfo
-        width: 300
-        height: 200
-        top: 315
-        left: 910
-        children:
-          - type: text
-            text: >-
-              This LF Energy Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource to better
-              understand the open energy ecosystem.
-            top: 55
-            left: 120
-            right: 20
-            font_size: 10
-          - type: image
-            image: qr.svg
-            top: 55
-            left: 10
-            width: 90
-            height: 90
-            title: QR Code
-          - type: title
-            title: l.lfenergy.org
-            top: 150
-            left: 19
-            font_size: 12
-          - type: image
-            image: left-logo.svg
-            width: 110
-            right: 160
-            top: 10
-            title: Landscape Logo
-          - type: image
-            image: right-logo.svg
-            width: 109
-            right: 25
-            top: 15
-            title: LF Energy Logo
-  third:
-    tab_index: 1
-    url: members
-    name: Members
-    title: LF Energy Members
-    fullscreen_header: Become an LF Energy at member at www.lfenergy.org/join/
-    fullscreen_hide_grey_logos: true
-    elements:
-      - type: HorizontalCategory
-        category: Strategic
-        rows: 3
-        width: 1210
-        height: 200
-        top: 0
-        left: 0
-        color: '#e5e4e2'
-        fit_width: true
-      - type: HorizontalCategory
-        category: General
-        rows: 3
-        width: 1210
-        height: 400
-        top: 210
-        left: 0
-        color: '#C0C0C0'
-        fit_width: true
-      - type: HorizontalCategory
-        category: Associate
-        rows: 3
-        width: 1210
-        height: 200
-        top: 620
-        left: 0
-        color: rgb(0,0,0)
-        fit_width: true
-    category: LF Energy Member
-  fourth:
-      tab_index: 5
-      url: open-sustainable-energy
-      name: Open Sustainable Energy
-      title: Open Sustainable Energu
-      fullscreen_header: Open Sustainable Energy
-      fullscreen_hide_grey_logos: true
-      elements:
         - type: HorizontalCategory
           category: Renewable Energy
           rows: 4
@@ -338,7 +211,7 @@ big_picture:
         - type: HorizontalCategory
           category: Energy Storage
           rows: 3
-          width: 1200
+          width: 900
           height: 200
           top: 310
           left: 0
@@ -390,11 +263,11 @@ big_picture:
           color: rgb(0,206,209)
           fit_width: true
         - type: HorizontalCategory
-          category: Climate and Earth Science 
+          category: Climate and Earth Science
           rows: 4
           width: 1200
           height: 300
-          top: 2190
+          top: 2210
           left: 0
           color: rgb(106,44,218)
           fit_width: true
@@ -403,7 +276,7 @@ big_picture:
           rows: 4
           width: 1200
           height: 300
-          top: 2500
+          top: 2550
           left: 0
           color: rgb(0,206,209)
           fit_width: true
@@ -412,21 +285,88 @@ big_picture:
           rows: 4
           width: 1200
           height: 300
-          top: 2810
+          top: 2900
           left: 0
           color: rgb(106,44,218)
           fit_width: true
+        - type: LandscapeInfo
+          width: 300
+          height: 200
+          top: 310
+          left: 910
+          children:
+            - type: text
+              text: >-
+                This LF Energy Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource to better
+                understand the open energy ecosystem.
+              top: 55
+              left: 120
+              right: 20
+              font_size: 10
+            - type: image
+              image: qr.svg
+              top: 55
+              left: 10
+              width: 90
+              height: 90
+              title: QR Code
+            - type: title
+              title: l.lfenergy.org
+              top: 150
+              left: 19
+              font_size: 12
+            - type: image
+              image: left-logo.svg
+              width: 110
+              right: 160
+              top: 10
+              title: Landscape Logo
+            - type: image
+              image: right-logo.svg
+              width: 109
+              right: 25
+              top: 15
+              title: LF Energy Logo
+  third:
+    tab_index: 1
+    url: members
+    name: Members
+    title: LF Energy Members
+    fullscreen_header: Become an LF Energy at member at www.lfenergy.org/join/
+    fullscreen_hide_grey_logos: true
+    elements:
+      - type: HorizontalCategory
+        category: Strategic
+        rows: 3
+        width: 1210
+        height: 200
+        top: 0
+        left: 0
+        color: '#e5e4e2'
+        fit_width: true
+      - type: HorizontalCategory
+        category: General
+        rows: 3
+        width: 1210
+        height: 400
+        top: 210
+        left: 0
+        color: '#C0C0C0'
+        fit_width: true
+      - type: HorizontalCategory
+        category: Associate
+        rows: 3
+        width: 1210
+        height: 200
+        top: 620
+        left: 0
+        color: rgb(0,0,0)
+        fit_width: true
+    category: LF Energy Member
 test:
   header: LF Energy Interactive Landscape
   section: LF Energy Members
   logo: operator-fabric.svg
-anonymous_organization:
-  name: Non-Public Unnamed Organization
-  homepage: null
-  city: Bouvet Island
-  region: Antarctica
-  country: Antarctica
-  twitter: https://twitter.com/LFE_Foundation 
 prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless
   hosted_projects: /card-mode?grouping=no&project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes

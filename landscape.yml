@@ -1622,6 +1622,122 @@ landscape:
               contribution_guidelines: https://com-pas.github.io/contributing/
               project_lead: Frederic Fouseret, RTE
           - item:
+            name: OpenGEH
+            homepage_url: https://opengeh.energy
+            second_path:
+              - Shared / Data Management
+            project: sandbox
+            repo_url: https://github.com/opengeh/.github
+            project_org: https://github.com/opengeh
+            logo: opengeh.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+          - item:
+            name: Shapeshifter
+            second_path:
+              - Customer and Market / Market Platform Gateway
+            homepage_url: https://github.com/shapeshifter
+            project: incubation
+            repo_url: https://github.com/shapeshifter/shapeshifter-specification
+            project_org: https://github.com/shapeshifter
+            logo: shapeshifter.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
+              slack_channel: '#shapeshifter'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
+              wiki_page: https://wiki.lfenergy.org/display/SHAP
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/shapeshifter
+              TSC_meeting_notes: https://github.com/shapeshifter/tsc/tree/main/tsc/meetings
+              calendar: https://lists.lfenergy.org/g/shapeshifter-discussion/calendar
+              contribution_guidelines: https://github.com/shapeshifter/tsc/blob/main/CONTRIBUTING.md
+              project_lead: Robben Riksen, Alliander
+          - item:
+            name: Hyphae
+            homepage_url: https://www.lfenergy.org/projects/hyphae/
+            second_path:
+              - Acquisition and Control / Edge Node Control
+            project: incubation
+            repo_url: https://github.com/hyphae/apis-common
+            project_org: https://github.com/hyphae
+            logo: hyphae.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
+              slack_channel: '#hyphae'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fhyphae
+              wiki_page: https://wiki.lfenergy.org/display/HYP
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/hyphae
+              TSC_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/hyphae-tsc/calendar
+              contribution_guidelines: none
+              project_lead: Kotaro Jinushi, Sony ESL
+          - item:
+            name: RIAPS
+            second_path:
+              - Acquisition and Control / Edge Node Control
+            description: An Effective Distributed Software Platform for Smart Grid Apps
+            homepage_url: https://www.lfenergy.org/projects/riaps/
+            project: emeritus
+            repo_url: https://github.com/RIAPS/riaps-core
+            project_org: https://github.com/RIAPS
+            logo: riaps.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/riaps
+              slack_channel: '#riaps'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Friaps
+              wiki_page: https://wiki.lfenergy.org/display/RIAP
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/riaps
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: none
+              project_lead: Ken Dulaney
+          - item:
+            second_path:
+              - System Management / Power System Calculation
+            name: Grid Capacity Map
+            description: >-
+              A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
+              to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
+              connections are realistic to give a better connection experience with fewer surprises for both grid owner (DSO/TSO), grid customers and other
+              stakeholders.
+            homepage_url: https://github.com/gridcapacitymap
+            project: incubation
+            repo_url: https://github.com/gridcapacitymap/tsc
+            project_org: https://github.com/gridcapacitymap
+            logo: grid-capacity-map.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
+              slack_channel: none
+              LFX_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/GCM
+              SBOM: none
+              TSC_meeting_notes: https://github.com/gridcapacitymap/tsc/tree/main/tsc/meetings
+              calendar: https://lists.lfenergy.org/g/gridcapacitymap-tsc/calendar
+              contribution_guidelines: none
+              project_lead: none
+          - item:
+            second_path:
+              - Acquisition and Control / Communication Infrastructure
+            name: FledgePOWER
+            homepage_url: https://www.lfenergy.org/projects/fledgepower/
+            project: incubation
+            repo_url: https://github.com/fledge-power/contributing
+            project_org: https://github.com/fledge-power
+            logo: fledge-power.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
+              slack_channel: '#fledgepower'
+              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
+              wiki_page: https://wiki.lfenergy.org/display/FLED
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: https://lists.lfenergy.org/g/fledgepower-tsc/calendar
+              contribution_guidelines: https://github.com/fledge-power/contributing/blob/main/CONTRIBUTING.md
+              project_lead: Akli Rahmoun, RTE
+          - item:
             name: PowerSimulations.jl
             logo: PowerSimulations.jl.svg
             description: A Julia package for power system modeling and simulation of Power Systems operations.
@@ -2927,6 +3043,26 @@ landscape:
             organization:
               name: Energy and Power Group
             homepage_url: https://github.com/EPGOxford/OPEN
+          - item:
+            name: Real Time Data Ingestion Platform (RTDIP)
+            second_path:
+              - System Management / Data Management
+            homepage_url: https://rtdip.io
+            project: sandbox
+            repo_url: https://github.com/rtdip/core
+            project_org: https://github.com/rtdip
+            logo: rtdip.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
+              slack_channel: '#rtdip'
+              LFX_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/RTDIP/Real+Time+Data+Ingestion+Platform+Home
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: none
+              project_lead: none
           - item:
             name: Arras
             second_path:
@@ -4533,6 +4669,27 @@ landscape:
             organization:
               name: enviroCar
             homepage_url: https://envirocar.org
+          - item:
+            second_path:
+              - Customer and Market / Customer Relationship and Communication
+            name: Super Advanced Meter (SAM)
+            description: LF Energy project focused on enabling advanced smart meter solutions.
+            homepage_url: https://superadvancedmeter.energy
+            project: sandboxs
+            repo_url: https://github.com/super-advanced-meter/SAMeter
+            project_org: https://github.com/super-advanced-meter
+            logo: sam.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/sam-steering-committee
+              slack_channel: '#sam-general'
+              LFX_insights_url: none
+              wiki_page: none
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: none
+              project_lead: Mark Nigge-Uricher, Alliander
           - item:
             name: EVerest
             second_path:
@@ -13090,43 +13247,6 @@ landscape:
             logo: gridprotectionalliance.svg
             crunchbase: https://www.crunchbase.com/organization/grid-protection-alliance
           - item:
-            name: Hyphae
-            homepage_url: https://www.lfenergy.org/projects/hyphae/
-            project: incubation
-            repo_url: https://github.com/hyphae/apis-common
-            project_org: https://github.com/hyphae
-            logo: hyphae.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
-              slack_channel: '#hyphae'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fhyphae
-              wiki_page: https://wiki.lfenergy.org/display/HYP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/hyphae
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/hyphae-tsc/calendar
-              contribution_guidelines: none
-              project_lead: Kotaro Jinushi, Sony ESL
-          - item:
-            name: RIAPS
-            description: An Effective Distributed Software Platform for Smart Grid Apps
-            homepage_url: https://www.lfenergy.org/projects/riaps/
-            project: emeritus
-            repo_url: https://github.com/RIAPS/riaps-core
-            project_org: https://github.com/RIAPS
-            logo: riaps.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/riaps
-              slack_channel: '#riaps'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Friaps
-              wiki_page: https://wiki.lfenergy.org/display/RIAP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/riaps
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: none
-              project_lead: Ken Dulaney
-          - item:
             name: SASensor
             description: >-
               SASensor® is a digital substation automation system comprised of a high-performance central processing unit capable of providing substation
@@ -13147,25 +13267,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dnv-gl
       - subcategory:
         name: Communication Infrastructure
-        items:
-          - item:
-            name: FledgePOWER
-            homepage_url: https://www.lfenergy.org/projects/fledgepower/
-            project: incubation
-            repo_url: https://github.com/fledge-power/contributing
-            project_org: https://github.com/fledge-power
-            logo: fledge-power.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
-              slack_channel: '#fledgepower'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
-              wiki_page: https://wiki.lfenergy.org/display/FLED
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/fledgepower-tsc/calendar
-              contribution_guidelines: https://github.com/fledge-power/contributing/blob/main/CONTRIBUTING.md
-              project_lead: Akli Rahmoun, RTE
+        items: []
       - subcategory:
         name: Infrastructure Management
         items: []
@@ -13184,25 +13286,6 @@ landscape:
             homepage_url: https://www.estfeed.eu/en/home
             logo: estfeed.svg
             crunchbase: https://www.crunchbase.com/organization/estfeed
-          - item:
-            name: Super Advanced Meter (SAM)
-            description: LF Energy project focused on enabling advanced smart meter solutions.
-            homepage_url: https://superadvancedmeter.energy
-            project: sandboxs
-            repo_url: https://github.com/super-advanced-meter/SAMeter
-            project_org: https://github.com/super-advanced-meter
-            logo: sam.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/sam-steering-committee
-              slack_channel: '#sam-general'
-              LFX_insights_url: none
-              wiki_page: none
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: none
-              project_lead: Mark Nigge-Uricher, Alliander
       - subcategory:
         name: Market Platform Gateway
         items:
@@ -13240,24 +13323,6 @@ landscape:
             repo_url: https://github.com/flexiblepower/powermatcher
             logo: powermatcher-txt.svg
             crunchbase: https://www.crunchbase.com/organization/powermatcher
-          - item:
-            name: Shapeshifter
-            homepage_url: https://github.com/shapeshifter
-            project: incubation
-            repo_url: https://github.com/shapeshifter/shapeshifter-specification
-            project_org: https://github.com/shapeshifter
-            logo: shapeshifter.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
-              slack_channel: '#shapeshifter'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
-              wiki_page: https://wiki.lfenergy.org/display/SHAP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/shapeshifter
-              TSC_meeting_notes: https://github.com/shapeshifter/tsc/tree/main/tsc/meetings
-              calendar: https://lists.lfenergy.org/g/shapeshifter-discussion/calendar
-              contribution_guidelines: https://github.com/shapeshifter/tsc/blob/main/CONTRIBUTING.md
-              project_lead: Robben Riksen, Alliander
       - subcategory:
         name: Customer Response
         items: []
@@ -13303,14 +13368,6 @@ landscape:
             homepage_url: https://sparxsystems.com/
             logo: Spark Systems - Enterprise Architect - text.svg
             crunchbase: https://www.crunchbase.com/organization/sparx-systems
-          - item:
-            name: OpenGEH
-            homepage_url: https://opengeh.energy
-            project: sandbox
-            repo_url: https://github.com/opengeh/.github
-            project_org: https://github.com/opengeh
-            logo: opengeh.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
       - subcategory:
         name: Unified Operator's UX Components and Framework
         items:
@@ -13351,24 +13408,6 @@ landscape:
             repo_url: https://github.com/derrickoswald/CIMSpace
             logo: cimspace.svg
             crunchbase: https://www.crunchbase.com/organization/9code
-          - item:
-            name: Real Time Data Ingestion Platform (RTDIP)
-            homepage_url: https://rtdip.io
-            project: sandbox
-            repo_url: https://github.com/rtdip/core
-            project_org: https://github.com/rtdip
-            logo: rtdip.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
-              slack_channel: '#rtdip'
-              LFX_insights_url: none
-              wiki_page: https://wiki.lfenergy.org/display/RTDIP/Real+Time+Data+Ingestion+Platform+Home
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: none
-              project_lead: none
       - subcategory:
         name: Forecasting
         items:
@@ -13425,29 +13464,6 @@ landscape:
             homepage_url: https://www.emtp.com
             logo: emtp-rv-text.svg
             crunchbase: https://www.crunchbase.com/organization/emtp-alliance
-          - item:
-            name: Grid Capacity Map
-            description: >-
-              A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
-              to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
-              connections are realistic to give a better connection experience with fewer surprises for both grid owner (DSO/TSO), grid customers and other
-              stakeholders.
-            homepage_url: https://github.com/gridcapacitymap
-            project: incubation
-            repo_url: https://github.com/gridcapacitymap/tsc
-            project_org: https://github.com/gridcapacitymap
-            logo: grid-capacity-map.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
-              slack_channel: none
-              LFX_insights_url: none
-              wiki_page: https://wiki.lfenergy.org/display/GCM
-              SBOM: none
-              TSC_meeting_notes: https://github.com/gridcapacitymap/tsc/tree/main/tsc/meetings
-              calendar: https://lists.lfenergy.org/g/gridcapacitymap-tsc/calendar
-              contribution_guidelines: none
-              project_lead: none
           - item:
             name: PSCAD/EMTDC
             description: >-
