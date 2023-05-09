@@ -199,134 +199,134 @@ big_picture:
     title: LF Energy Landscape
     fullscreen_header: See the interactive landscape at l.lfenergy.org
     elements:
-        - type: HorizontalCategory
-          category: Renewable Energy
-          rows: 4
-          width: 1200
-          height: 300
-          top: 0
-          left: 0
-          color: rgb(0,206,209)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Energy Storage
-          rows: 3
-          width: 900
-          height: 200
-          top: 310
-          left: 0
-          color: rgb(106,44,218)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Energy Systems
-          rows: 4
-          width: 1200
-          height: 400
-          top: 530
-          left: 0
-          color: rgb(0,206,209)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Consumption of Energy and Resources
-          rows: 4
-          width: 1200
-          height: 300
-          top: 950
-          left: 0
-          color: rgb(106,44,218)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Emissions
-          rows: 4
-          width: 1200
-          height: 300
-          top: 1260
-          left: 0
-          color: rgb(0,206,209)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Industrial Ecology
-          rows: 4
-          width: 1200
-          height: 300
-          top: 1570
-          left: 0
-          color: rgb(106,44,218)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Earth Systems
-          rows: 4
-          width: 1200
-          height: 300
-          top: 1880
-          left: 0
-          color: rgb(0,206,209)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Climate and Earth Science
-          rows: 4
-          width: 1200
-          height: 300
-          top: 2210
-          left: 0
-          color: rgb(106,44,218)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Natural Resources
-          rows: 4
-          width: 1200
-          height: 300
-          top: 2550
-          left: 0
-          color: rgb(0,206,209)
-          fit_width: true
-        - type: HorizontalCategory
-          category: Sustainable Development
-          rows: 4
-          width: 1200
-          height: 300
-          top: 2900
-          left: 0
-          color: rgb(106,44,218)
-          fit_width: true
-        - type: LandscapeInfo
-          width: 300
-          height: 200
-          top: 310
-          left: 910
-          children:
-            - type: text
-              text: >-
-                This LF Energy Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource to better
-                understand the open energy ecosystem.
-              top: 55
-              left: 120
-              right: 20
-              font_size: 10
-            - type: image
-              image: qr.svg
-              top: 55
-              left: 10
-              width: 90
-              height: 90
-              title: QR Code
-            - type: title
-              title: l.lfenergy.org
-              top: 150
-              left: 19
-              font_size: 12
-            - type: image
-              image: left-logo.svg
-              width: 110
-              right: 160
-              top: 10
-              title: Landscape Logo
-            - type: image
-              image: right-logo.svg
-              width: 109
-              right: 25
-              top: 15
-              title: LF Energy Logo
+      - type: HorizontalCategory
+        category: Renewable Energy
+        rows: 4
+        width: 1200
+        height: 300
+        top: 0
+        left: 0
+        color: rgb(0,206,209)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Energy Storage
+        rows: 3
+        width: 900
+        height: 200
+        top: 310
+        left: 0
+        color: rgb(106,44,218)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Energy Systems
+        rows: 4
+        width: 1200
+        height: 400
+        top: 530
+        left: 0
+        color: rgb(0,206,209)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Consumption of Energy and Resources
+        rows: 4
+        width: 1200
+        height: 300
+        top: 950
+        left: 0
+        color: rgb(106,44,218)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Emissions
+        rows: 4
+        width: 1200
+        height: 300
+        top: 1260
+        left: 0
+        color: rgb(0,206,209)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Industrial Ecology
+        rows: 4
+        width: 1200
+        height: 300
+        top: 1570
+        left: 0
+        color: rgb(106,44,218)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Earth Systems
+        rows: 4
+        width: 1200
+        height: 300
+        top: 1880
+        left: 0
+        color: rgb(0,206,209)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Climate and Earth Science
+        rows: 4
+        width: 1200
+        height: 300
+        top: 2210
+        left: 0
+        color: rgb(106,44,218)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Natural Resources
+        rows: 4
+        width: 1200
+        height: 300
+        top: 2550
+        left: 0
+        color: rgb(0,206,209)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Sustainable Development
+        rows: 4
+        width: 1200
+        height: 300
+        top: 2900
+        left: 0
+        color: rgb(106,44,218)
+        fit_width: true
+      - type: LandscapeInfo
+        width: 300
+        height: 200
+        top: 310
+        left: 910
+        children:
+          - type: text
+            text: >-
+              This LF Energy Landscape is a living document that developers, investors, vendors, researchers and others can use as a resource to better
+              understand the open energy ecosystem.
+            top: 55
+            left: 120
+            right: 20
+            font_size: 10
+          - type: image
+            image: qr.svg
+            top: 55
+            left: 10
+            width: 90
+            height: 90
+            title: QR Code
+          - type: title
+            title: l.lfenergy.org
+            top: 150
+            left: 19
+            font_size: 12
+          - type: image
+            image: left-logo.svg
+            width: 110
+            right: 160
+            top: 10
+            title: Landscape Logo
+          - type: image
+            image: right-logo.svg
+            width: 109
+            right: 25
+            top: 15
+            title: LF Energy Logo
   third:
     tab_index: 1
     url: members
@@ -404,5 +404,6 @@ prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless
   hosted_projects: /card-mode?grouping=no&project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
   hosted_projects_grouped: card-mode?project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
-  opensustaintech: /card-mode?category=renewable-energy,energy-storage,energy-systems,consumption-of-energy-and-resources,emissions,industrial-ecology,earth-systems,climate-and-earth-science,natural-resources,sustainable-development&grouping=category
+  opensustaintech: >-
+    /card-mode?category=renewable-energy,energy-storage,energy-systems,consumption-of-energy-and-resources,emissions,industrial-ecology,earth-systems,climate-and-earth-science,natural-resources,sustainable-development&grouping=category
 export: {}
