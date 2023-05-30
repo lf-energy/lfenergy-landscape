@@ -363,6 +363,53 @@ big_picture:
         color: rgb(0,0,0)
         fit_width: true
     category: LF Energy Member
+  fifth:
+    tab_index: 1
+    url: smartgridplane
+    name: Smart Grid Plane
+    title: Smart Grid Plane
+    fullscreen_hide_grey_logos: true
+    elements:
+      - type: HorizontalCategory
+        category: Generation
+        rows: 2
+        width: 500
+        height: 200
+        top: 0
+        left: 0
+        color: '#2abeef'
+      - type: HorizontalCategory
+        category: Transmission
+        rows: 2
+        width: 500
+        height: 200
+        top: 220
+        left: 0
+        color: '#0077bb'
+      - type: HorizontalCategory
+        category: Distribution
+        rows: 2
+        width: 500
+        height: 200
+        top: 440
+        left: 0
+        color: '#003764'
+      - type: HorizontalCategory
+        category: DER
+        rows: 2
+        width: 500
+        height: 200
+        top: 660
+        left: 0
+        color: '#003764'
+      - type: HorizontalCategory
+        category: Customer Premises
+        rows: 2
+        width: 500
+        height: 200
+        top: 880
+        left: 0
+        color: '#003764'
   sixth:
     tab_index: 1
     url: softwarestack
