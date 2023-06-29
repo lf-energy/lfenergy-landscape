@@ -1709,7 +1709,7 @@ landscape:
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
             homepage_url: https://dynawo.energy
-            project: sandbox
+            project: incubation
             repo_url: https://github.com/dynawo/dynawo
             project_org: https://github.com/dynawo
             logo: dynawo.svg
@@ -1907,6 +1907,10 @@ landscape:
             second_path:
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
+              - Transmission / Station
+              - Distribution / Station
+              - Transmission / Field
+              - Distribution / Field
             description: >-
               A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
               to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
@@ -2924,6 +2928,10 @@ landscape:
             second_path:
               - System Management / Power System Calculation
               - Project Stack / Central Supporting Services
+              - Transmission / Operation
+              - Distribution / Operation
+              - DER / Operation
+              - Customer Premises / Operation
             description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
             homepage_url: https://arras.energy/
             project: sandbox
@@ -3272,6 +3280,16 @@ landscape:
             second_path:
               - System Management / Data Management
               - Project Stack / Edge & Distributed Intelligence
+              - Generation / Operation
+              - Transmission / Operation
+              - Distribution / Operation
+              - DER / Operation
+              - Customer Premises / Operation
+              - Generation / Enterprise
+              - Transmission / Enterprise
+              - Distribution / Enterprise
+              - DER / Enterprise
+              - Customer Premises / Enterprise
             homepage_url: https://rtdip.io
             project: sandbox
             repo_url: https://github.com/rtdip/core
@@ -3319,7 +3337,7 @@ landscape:
               real-time platform that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially
               beyond). This platform is intended to host multi-provider applications.
             homepage_url: https://www.lfenergy.org/projects/seapath/
-            project: incubation
+            project: earlyadoption
             repo_url: https://github.com/seapath/seapath-architecture
             project_org: https://github.com/seapath
             url_for_bestpractices: https://github.com/seapath
@@ -4448,7 +4466,7 @@ landscape:
               - Acquisition and Control / Infrastructure Management
               - Project Stack / Edge & Distributed Intelligence
             homepage_url: https://www.lfenergy.org/projects/everest/
-            project: incubation
+            project: earlyadoption
             repo_url: https://github.com/EVerest/EVerest
             project_org: https://github.com/everest
             logo: everest.svg
@@ -5557,8 +5575,8 @@ landscape:
             name: GEOSX
             description: A simulation framework for modeling coupled flow, transport, and geomechanics in the subsurface.
             homepage_url: https://geosx-geosx.readthedocs-hosted.com/
-            repo_url: https://github.com/GEOSX/GEOSX
-            project_org: https://github.com/GEOSX
+            repo_url: https://github.com/GEOS-DEV/GEOS
+            project_org: https://github.com/GEOS-DEV
             logo: GEOSX.svg
             crunchbase: https://www.crunchbase.com/organization/lawrence-livermore-national-laboratory
             extra:
@@ -7929,7 +7947,6 @@ landscape:
             homepage_url: https://github.com/ESIPFed/LakePy
             repo_url: https://github.com/ESIPFed/LakePy
             logo: LakePy.svg
-            twitter: https://twitter.com/ESIPFed
             crunchbase: https://www.crunchbase.com/organization/earth-science-information-partners
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/322186575,http://doi.org/10.\n5281/zenodo.4415936\n\n##'
@@ -12647,7 +12664,6 @@ landscape:
             homepage_url: https://github.com/ESIPFed/sweet
             repo_url: https://github.com/ESIPFed/sweet
             logo: SWEET.svg
-            twitter: https://twitter.com/ESIPFed
             crunchbase: https://www.crunchbase.com/organization/earth-science-information-partners
             extra:
               topics: ontologies,earth-science,environment,environment-variables,owl-ontology,owl,earth,sweet-ontologies
@@ -13851,9 +13867,9 @@ landscape:
         name: Strategic
         items:
           - item:
-            name: Alliander (member)
+            name: GitLab Inc (member)
             homepage_url: https://alliander.com/
-            logo: alliander.svg
+            logo: gitlab_inc.svg
             twitter: https://twitter.com/Alliander
             crunchbase: https://www.crunchbase.com/organization/alliander
           - item:
@@ -13882,16 +13898,10 @@ landscape:
         name: General
         items:
           - item:
-            name: Aspen Technology, Inc. (member)
+            name: Aspen Technology, Inc (member)
             homepage_url: https://aspentech.com/
             logo: aspen_technology_inc.svg
             crunchbase: https://www.crunchbase.com/organization/aspen-technology
-          - item:
-            name: Atos SE (member)
-            homepage_url: https://atos.net/
-            logo: atos_se.svg
-            twitter: https://twitter.com/Atos
-            crunchbase: https://www.crunchbase.com/organization/atos
           - item:
             name: AVEVA Group (member)
             homepage_url: https://aveva.com/
@@ -13901,15 +13911,14 @@ landscape:
             name: Blockchain Technology Partners, Inc. (member)
             homepage_url: https://btp.works/
             logo: blockchain_technology_partners_inc.svg
-            twitter: https://twitter.com/btpworx
             crunchbase: https://www.crunchbase.com/organization/btpworks
           - item:
-            name: CarbonLaces (member)
+            name: Carbonlaces (member)
             homepage_url: https://carbonlaces.com/
             logo: carbonlaces.svg
             twitter: https://twitter.com/carbonlaces
             organization:
-              name: CarbonLaces
+              name: Carbonlaces
           - item:
             name: chargebyte (member)
             homepage_url: https://chargebyte.com/
@@ -13960,6 +13969,12 @@ landscape:
             logo: hitachi_ltd.svg
             crunchbase: https://www.crunchbase.com/organization/hitachi
           - item:
+            name: Lutech Advanced Solutions S.p.A. (member)
+            homepage_url: https://lutech.group/
+            logo: lutech_advanced_solutions_spa.svg
+            twitter: https://twitter.com/LutechGroup
+            crunchbase: https://www.crunchbase.com/organization/lutech-s-p-a
+          - item:
             name: M-RETS, Inc. (member)
             homepage_url: https://mrets.org/
             logo: m-rets_inc.svg
@@ -13988,13 +14003,20 @@ landscape:
             homepage_url: https://sensereply.com/
             logo: sense_reply.svg
             twitter: https://twitter.com/Reply_UK
-            crunchbase: https://www.crunchbase.com/organization/reply-com
+            crunchbase: https://www.crunchbase.com/organization/sense-reply
           - item:
             name: Statnett (member)
             homepage_url: https://statnett.no/
             logo: statnett.svg
             twitter: https://twitter.com/Statnett
             crunchbase: https://www.crunchbase.com/organization/statnett-sf
+          - item:
+            name: TBD (member)
+            homepage_url: https://vattenfalleldistribution.se/
+            logo: tbd.svg
+            twitter: https://twitter.com/VEldistribution
+            organization:
+              name: TBD
           - item:
             name: TenneT (member)
             homepage_url: https://tennet.eu/
@@ -14012,13 +14034,6 @@ landscape:
             logo: utilityapi.svg
             twitter: https://twitter.com/UtilityAPI
             crunchbase: https://www.crunchbase.com/organization/utilityapi
-          - item:
-            name: Vattenfall Eldistribution AB (member)
-            homepage_url: https://vattenfalleldistribution.se/
-            logo: vattenfall_eldistribution_ab.svg
-            twitter: https://twitter.com/VEldistribution
-            organization:
-              name: Vattenfall Eldistribution AB
           - item:
             name: WattCarbon (member)
             homepage_url: https://wattcarbon.com/
@@ -14072,12 +14087,6 @@ landscape:
             twitter: https://twitter.com/EnAccessFdn
             crunchbase: https://www.crunchbase.com/organization/enaccess-foundation
           - item:
-            name: Energy Foundation (member)
-            homepage_url: https://ef.org/
-            logo: energy_foundation.svg
-            twitter: https://twitter.com/EnergyFdn
-            crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
-          - item:
             name: EnergyAi (member)
             homepage_url: https://energyai.berlin/
             logo: energyai.svg
@@ -14091,9 +14100,9 @@ landscape:
             organization:
               name: EnergyTag
           - item:
-            name: ENTSO-E (European Network of Transmission System Operators) (member)
+            name: ENTSO-E (member)
             homepage_url: https://entsoe.eu/
-            logo: entso-e_european_network_of_transmission_system_operators.svg
+            logo: entso-e.svg
             twitter: https://twitter.com/ENTSO_E
             crunchbase: https://www.crunchbase.com/organization/entso-e
           - item:
@@ -14143,7 +14152,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
             name: Open Earth Foundation (member)
-            homepage_url: https://openfoundation.earth/
+            homepage_url: https://openearth.org/
             logo: open_earth_foundation.svg
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
           - item:
@@ -14191,6 +14200,17 @@ landscape:
             twitter: https://twitter.com/_TECTweets
             crunchbase: https://www.crunchbase.com/organization/nw-energy-coalition
           - item:
+            name: The Energy Foundation (member)
+            homepage_url: https://ef.org/
+            logo: the_energy_foundation.svg
+            twitter: https://twitter.com/EnergyFdn
+            crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
+          - item:
+            name: Trusted Computing Group (member)
+            homepage_url: https://trustedcomputinggroup.org/
+            logo: trusted_computing_group.svg
+            crunchbase: https://www.crunchbase.com/organization/trusted-computing-group
+          - item:
             name: Universiti Teknologi MARA (member)
             homepage_url: https://uitm.edu.my/
             logo: universiti_teknologi_mara.svg
@@ -14219,3 +14239,10 @@ landscape:
             logo: washington_state_university.svg
             twitter: https://twitter.com/nsbe_wazzu
             crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
+          - item:
+            name: WattTime Corporation (member)
+            homepage_url: https://watttime.org/
+            logo: watttime_corporation.svg
+            twitter: https://twitter.com/wattTime
+            organization:
+              name: WattTime Corporation
