@@ -406,4 +406,6 @@ prerender:
   hosted_projects_grouped: card-mode?project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
   opensustaintech: >-
     /card-mode?category=renewable-energy,energy-storage,energy-systems,consumption-of-energy-and-resources,emissions,industrial-ecology,earth-systems,climate-and-earth-science,natural-resources,sustainable-development&grouping=category
-export: {}
+export:
+  projects-hosted: card-mode?grouping=no&category=projects&project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw
+  projects-hosted-by-stage: card-mode?category=projects&project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw
