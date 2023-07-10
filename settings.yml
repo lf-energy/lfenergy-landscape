@@ -402,8 +402,8 @@ test:
   logo: operator-fabric.svg
 prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless
-  hosted-projects: /card-mode?grouping=no&project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
-  hosted-projects-grouped: card-mode?project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
+  hosted-projects-notgrouped: /card-mode?grouping=no&project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
+  hosted-projects: card-mode?project=graduated,earlyadoption,incubation,sandbox,stable,development,sandboxs,active,sandboxw&style=borderless&embed=yes
   opensustaintech: >-
     /card-mode?category=renewable-energy,energy-storage,energy-systems,consumption-of-energy-and-resources,emissions,industrial-ecology,earth-systems,climate-and-earth-science,natural-resources,sustainable-development&grouping=category
 export:
