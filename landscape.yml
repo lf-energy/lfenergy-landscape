@@ -1614,6 +1614,10 @@ landscape:
           - item:
             name: CoMPAS
             second_path:
+              - Distribution / Operation
+              - Distribution / Station
+              - Transmission / Operation
+              - Transmission / Station
               - Acquisition and Control / Substation Node
               - Project Stack / Central Supporting Services
             description: >-
@@ -1817,6 +1821,12 @@ landscape:
           - item:
             name: FledgePOWER
             second_path:
+              - Generation / Operation
+              - Generation / Station
+              - Distribution / Operation
+              - Distribution / Station
+              - Transmission / Operation
+              - Transmission / Station
               - Acquisition and Control / Communication Infrastructure
               - Project Stack / Edge & Distributed Intelligence
             homepage_url: https://www.lfenergy.org/projects/fledgepower/
@@ -1897,6 +1907,10 @@ landscape:
             second_path:
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
+              - Transmission / Station
+              - Distribution / Station
+              - Transmission / Field
+              - Distribution / Field
             description: >-
               A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
               to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
@@ -1944,6 +1958,9 @@ landscape:
           - item:
             name: Hyphae
             second_path:
+              - DER / Field
+              - DER / Operation
+              - DER / Station
               - Project Stack / Edge & Distributed Intelligence
               - Acquisition and Control / Edge Node Control
             homepage_url: https://www.lfenergy.org/projects/hyphae/
@@ -2187,6 +2204,11 @@ landscape:
           - item:
             name: OpenSTEF
             second_path:
+              - Generation / Enterprise
+              - Transmission / Enterprise
+              - Distribution / Enterprise
+              - DER / Enterprise
+              - Customer Premises / Enterprise
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
             homepage_url: https://openstef.energy
@@ -2255,6 +2277,10 @@ landscape:
           - item:
             name: Power Grid Model
             second_path:
+              - Distribution / Operation
+              - Distribution / Enterprise
+              - DER / Operation
+              - DER / Enterprise
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
             homepage_url: https://powergridmodel.energy
@@ -2562,6 +2588,11 @@ landscape:
           - item:
             name: Shapeshifter
             second_path:
+              - Generation / Market
+              - Transmission / Market
+              - Distribution / Market
+              - DER / Market
+              - Customer Premises / Market
               - Customer and Market / Market Platform Gateway
               - Project Stack / Business Intelligence
             homepage_url: https://github.com/shapeshifter
@@ -2583,6 +2614,9 @@ landscape:
           - item:
             name: SOGNO
             second_path:
+              - Distribution / Field
+              - Distribution / Operation
+              - Distribution / Station
               - System Management / System Control
               - Project Stack / Business Intelligence
             homepage_url: https://www.lfenergy.org/projects/sogno/
@@ -2772,6 +2806,12 @@ landscape:
           - item:
             name: FlexMeasures
             second_path:
+              - Customer Premises / Operation
+              - Customer Premises / Enterprise
+              - Customer Premises / Market
+              - DER / Operation
+              - DER / Enterprise
+              - DER / Market
               - Asset Management / Data Management
               - Project Stack / Business Intelligence
             description: A platform for building energy flexibility services with forecasting and scheduling, written in Python & offering a USEF-conform API.
@@ -2845,6 +2885,11 @@ landscape:
           - item:
             name: OperatorFabric
             second_path:
+              - Generation / Enterprise
+              - Transmission / Enterprise
+              - Distribution / Enterprise
+              - DER / Enterprise
+              - Customer Premises / Enterprise
               - Shared / Unified Operator's UX Components and Framework
               - Project Stack / Business Intelligence
             description: >-
@@ -2883,6 +2928,10 @@ landscape:
             second_path:
               - System Management / Power System Calculation
               - Project Stack / Central Supporting Services
+              - Transmission / Operation
+              - Distribution / Operation
+              - DER / Operation
+              - Customer Premises / Operation
             description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
             homepage_url: https://arras.energy/
             project: sandbox
@@ -2951,6 +3000,11 @@ landscape:
           - item:
             name: Grid eXchange Fabric
             second_path:
+              - Generation / Operation
+              - Transmission / Operation
+              - Distribution / Operation
+              - DER / Operation
+              - Customer Premises / Operation
               - Acquisition and Control / Infrastructure Management
               - Project Stack / Central Supporting Services
             description: >-
@@ -3079,6 +3133,12 @@ landscape:
           - item:
             name: openLEADR
             second_path:
+              - Customer Premises / Field
+              - Customer Premises / Operation
+              - Customer Premises / Station
+              - DER / Field
+              - DER / Operation
+              - DER / Station
               - Acquisition and Control / Edge Node Control
               - Project Stack / Edge & Distributed Intelligence
             description: A friendly and compliant OpenADR implementation for Python 3
@@ -3220,6 +3280,16 @@ landscape:
             second_path:
               - System Management / Data Management
               - Project Stack / Edge & Distributed Intelligence
+              - Generation / Operation
+              - Transmission / Operation
+              - Distribution / Operation
+              - DER / Operation
+              - Customer Premises / Operation
+              - Generation / Enterprise
+              - Transmission / Enterprise
+              - Distribution / Enterprise
+              - DER / Enterprise
+              - Customer Premises / Enterprise
             homepage_url: https://rtdip.io
             project: sandbox
             repo_url: https://github.com/rtdip/core
@@ -3256,6 +3326,10 @@ landscape:
           - item:
             name: SEAPATH
             second_path:
+              - Transmission / Station
+              - Distribution / Station
+              - Transmission / Field
+              - Distribution / Field
               - Acquisition and Control / Substation Node
               - Project Stack / Edge & Distributed Intelligence
             description: >-
@@ -4387,6 +4461,8 @@ landscape:
           - item:
             name: EVerest
             second_path:
+              - Customer Premises / Field
+              - DER / Field
               - Acquisition and Control / Infrastructure Management
               - Project Stack / Edge & Distributed Intelligence
             homepage_url: https://www.lfenergy.org/projects/everest/
@@ -4786,6 +4862,8 @@ landscape:
           - item:
             name: Super Advanced Meter (SAM)
             second_path:
+              - Customer Premises / Field
+              - DER / Field
               - Customer and Market / Customer Relationship and Communication
               - Project Stack / Central Supporting Services
             description: LF Energy project focused on enabling advanced smart meter solutions.
@@ -13691,6 +13769,96 @@ landscape:
         items: []
       - subcategory:
         name: Edge & Distributed Intelligence
+        items: []
+  - category:
+    name: Generation
+    subcategories:
+      - subcategory:
+        name: Field
+        items: []
+      - subcategory:
+        name: Station
+        items: []
+      - subcategory:
+        name: Operation
+        items: []
+      - subcategory:
+        name: Enterprise
+        items: []
+      - subcategory:
+        name: Market
+        items: []
+  - category:
+    name: Transmission
+    subcategories:
+      - subcategory:
+        name: Field
+        items: []
+      - subcategory:
+        name: Station
+        items: []
+      - subcategory:
+        name: Operation
+        items: []
+      - subcategory:
+        name: Enterprise
+        items: []
+      - subcategory:
+        name: Market
+        items: []
+  - category:
+    name: Distribution
+    subcategories:
+      - subcategory:
+        name: Field
+        items: []
+      - subcategory:
+        name: Station
+        items: []
+      - subcategory:
+        name: Operation
+        items: []
+      - subcategory:
+        name: Enterprise
+        items: []
+      - subcategory:
+        name: Market
+        items: []
+  - category:
+    name: DER
+    subcategories:
+      - subcategory:
+        name: Field
+        items: []
+      - subcategory:
+        name: Station
+        items: []
+      - subcategory:
+        name: Operation
+        items: []
+      - subcategory:
+        name: Enterprise
+        items: []
+      - subcategory:
+        name: Market
+        items: []
+  - category:
+    name: Customer Premises
+    subcategories:
+      - subcategory:
+        name: Field
+        items: []
+      - subcategory:
+        name: Station
+        items: []
+      - subcategory:
+        name: Operation
+        items: []
+      - subcategory:
+        name: Enterprise
+        items: []
+      - subcategory:
+        name: Market
         items: []
   - category:
     name: LF Energy Member
