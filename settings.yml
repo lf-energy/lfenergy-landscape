@@ -29,85 +29,67 @@ relation:
       label: LF Energy Projects
       children:
         - id: graduated
-          label: Technical Project - Graduated
+          label: LF Energy Projects - Graduated
           prefix: LF Energy Technical Project
           tag: Graduated
           color: '#008F65'
           big_picture_order: 1
-          big_picture_label: Technical Project - Graduated
+          big_picture_label: LF Energy Project - Graduated
           big_picture_color: '#008F65'
           additional_relation: member
         - id: earlyadoption
-          label: Technical Project - Early Adoption
-          prefix: LF Energy Technical Project
+          label: LF Energy Projects - Early Adoption
+          prefix: LF Energy Project
           tag: Early Adoption
           color: rgb(24,54,114)
           big_picture_order: 2
-          big_picture_label: Technical Project - Early Adoption
+          big_picture_label: LF Energy Project - Early Adoption
           big_picture_color: rgb(24,54,114)
           additional_relation: member
         - id: incubation
-          label: Technical Project - Incubation
-          prefix: LF Energy Technical Project
+          label: LF Energy Projects - Incubation
+          prefix: LF Energy Project
           tag: Incubation
           color: '#3570af'
           big_picture_order: 3
-          big_picture_label: Technical Project - Incubation
+          big_picture_label: LF Energy Project - Incubation
           big_picture_color: '#3570af'
           additional_relation: member
         - id: sandbox
-          label: Technical Project - Sandbox
-          prefix: LF Energy Technical Project
+          label: LF Energy Projects - Sandbox
+          prefix: LF Energy Project
           tag: Sandbox
           color: '#ff5d47'
           big_picture_order: 4
-          big_picture_label: Technical Project - Sandbox
+          big_picture_label: LF Energy Project - Sandbox
           big_picture_color: '#ff5d47'
           additional_relation: member
         - id: emeritus
-          label: Technical Project - Emeritus
-          prefix: LF Energy Technical Project
+          label: LF Energy Projects - Emeritus
+          prefix: LF Energy Project
           tag: Emeritus
           color: rgba(191, 191, 191, 0.3)
           big_picture_order: 99
-          big_picture_label: Technical Project - Emeritus
+          big_picture_label: LF Energy Project - Emeritus
           big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
         - id: lfess
-          label: LF Energy Standards and Specifications
+          label: LF Energy Standards and Specifications (LFESS) Working Groups
           prefix: LFESS
           tag: Working Group
           color: '#3570af'
-          big_picture_order: 10
+          big_picture_order: 20
           big_picture_label: LFESS Working Group
           big_picture_color: '#3570af'
           additional_relation: member
-        - id: active
-          label: Working Group - Active
+        - id: working-group
+          label: LF Energy Working Groups
           prefix: LF Energy Working Group
           tag: Active
           color: '#008F65'
-          big_picture_order: 20
-          big_picture_label: Working Group - Active
+          big_picture_order: 10
+          big_picture_label: LF Energy Working Group
           big_picture_color: '#008F65'
-          additional_relation: member
-        - id: sandboxw
-          label: Working Group - Sandbox
-          prefix: LF Energy Working Group
-          tag: Sandbox
-          color: '#ff5d47'
-          big_picture_order: 21
-          big_picture_label: Working Group - Sandbox
-          big_picture_color: '#ff5d47'
-          additional_relation: member
-        - id: emeritusw
-          label: Working Group - Emeritus
-          prefix: LF Energy Working Group
-          tag: Emeritus
-          color: rgba(191, 191, 191, 0.3)
-          big_picture_order: 999
-          big_picture_label: Working Group - Emeritus
-          big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
     - id: company
       label: LF Energy Members
@@ -327,6 +309,7 @@ big_picture:
         left: 0
         color: '#e5e4e2'
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: General
         rows: 3
@@ -336,6 +319,7 @@ big_picture:
         left: 0
         color: '#C0C0C0'
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Associate
         rows: 3
@@ -345,6 +329,7 @@ big_picture:
         left: 0
         color: rgb(0,0,0)
         fit_width: true
+        is_large: false
     category: LF Energy Member
   sixth:
     tab_index: 1
@@ -356,28 +341,28 @@ big_picture:
     elements:
       - type: VerticalCategory
         category: Business Intelligence
-        rows: 2
         width: 500
         height: 200
         top: 0
         left: 0
         color: '#2abeef'
+        is_large: false
       - type: VerticalCategory
         category: Central Supporting Services
-        rows: 1
         width: 500
         height: 120
         top: 220
         left: 0
         color: '#0077bb'
+        is_large: false
       - type: VerticalCategory
         category: Edge & Distributed Intelligence
-        rows: 2
         width: 500
         height: 200
         top: 360
         left: 0
         color: '#003764'
+        is_large: false
     category: Project Stack
 test:
   header: LF Energy Interactive Landscape
