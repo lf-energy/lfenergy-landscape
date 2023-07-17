@@ -73,41 +73,14 @@ relation:
           big_picture_label: Technical Project - Emeritus
           big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
-        - id: stable
-          label: Standards Project - Stable
-          prefix: LF Energy Standards Project
-          tag: Stable
-          color: '#008F65'
-          big_picture_order: 1
-          big_picture_label: Standards Project - Stable
-          big_picture_color: '#008F65'
-          additional_relation: member
-        - id: development
-          label: Standards Project - Development
-          prefix: LF Energy Standards Project
-          tag: Development
+        - id: lfess
+          label: LF Energy Standards and Specifications
+          prefix: LFESS
+          tag: LFESS
           color: '#3570af'
           big_picture_order: 1
-          big_picture_label: Standards Project - Development
+          big_picture_label: LFESS
           big_picture_color: '#3570af'
-          additional_relation: member
-        - id: sandboxs
-          label: Standards Project - Sandbox
-          prefix: LF Energy Standards Project
-          tag: Sandbox
-          color: '#ff5d47'
-          big_picture_order: 1
-          big_picture_label: Standards Project - Sandbox
-          big_picture_color: '#ff5d47'
-          additional_relation: member
-        - id: emerituss
-          label: Standards Project - Emeritus
-          prefix: LF Energy Standards Project
-          tag: Emeritus
-          color: rgba(191, 191, 191, 0.3)
-          big_picture_order: 1
-          big_picture_label: Standards Project - Emeritus
-          big_picture_color: rgba(191, 191, 191, 0.3)
           additional_relation: member
         - id: active
           label: Working Group - Active
@@ -208,6 +181,7 @@ big_picture:
         left: 0
         color: rgb(0,206,209)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Energy Storage
         rows: 3
@@ -217,6 +191,7 @@ big_picture:
         left: 0
         color: rgb(106,44,218)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Energy Systems
         rows: 4
@@ -226,6 +201,7 @@ big_picture:
         left: 0
         color: rgb(0,206,209)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Consumption of Energy and Resources
         rows: 4
@@ -235,6 +211,7 @@ big_picture:
         left: 0
         color: rgb(106,44,218)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Emissions
         rows: 4
@@ -244,6 +221,7 @@ big_picture:
         left: 0
         color: rgb(0,206,209)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Industrial Ecology
         rows: 4
@@ -253,6 +231,7 @@ big_picture:
         left: 0
         color: rgb(106,44,218)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Earth Systems
         rows: 4
@@ -262,6 +241,7 @@ big_picture:
         left: 0
         color: rgb(0,206,209)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Climate and Earth Science
         rows: 4
@@ -271,6 +251,7 @@ big_picture:
         left: 0
         color: rgb(106,44,218)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Natural Resources
         rows: 4
@@ -280,6 +261,7 @@ big_picture:
         left: 0
         color: rgb(0,206,209)
         fit_width: true
+        is_large: false
       - type: HorizontalCategory
         category: Sustainable Development
         rows: 4
@@ -289,6 +271,7 @@ big_picture:
         left: 0
         color: rgb(106,44,218)
         fit_width: true
+        is_large: false
       - type: LandscapeInfo
         width: 300
         height: 200
