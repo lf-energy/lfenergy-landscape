@@ -1725,6 +1725,13 @@ landscape:
               contribution_guidelines: https://github.com/dynawo/.github/blob/master/CONTRIBUTING.md
               leads: Marco Chiaramello
           - item:
+            name: eGon
+            homepage_url: https://ego-n.org/
+            repo_url: https://github.com/openego/eGo
+            project_org: https://github.com/openego
+            logo: egon.svg
+            crunchbase: https://www.crunchbase.com/organization/federal-ministry-for-economic-affairs-and-energy
+          - item:
             name: EIAdata
             description: Provides programmatic access to the Energy Information Administration's API.
             homepage_url: https://github.com/Matt-Brigida/EIAdata
@@ -2238,6 +2245,15 @@ landscape:
               refs: ',https://doi.org/10.1016/j.softx.2022.101070'
             organization:
               name: Comillas Pontifical University
+          - item:
+            name: open_plan
+            homepage_url: https://open-plan-tool.org/
+            project: null
+            repo_url: https://github.com/open-plan-tool/gui
+            license: MIT License
+            project_org: https://github.com/open-plan-tool
+            logo: open_plan.svg
+            crunchbase: https://www.crunchbase.com/organization/federal-ministry-for-economic-affairs-and-energy
           - item:
             name: OSeMOSYS
             second_path: Asset Management / Asset Investment Planning
@@ -2777,22 +2793,6 @@ landscape:
             project_org: https://github.com/VILLASframework
             logo: VILLASnode.svg
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
-          - item:
-            name: open_plan
-            license: MIT License
-            homepage_url: https://open-plan-tool.org/
-            project: null
-            repo_url: https://github.com/open-plan-tool/gui
-            project_org: https://github.com/open-plan-tool
-            logo: open_plan.svg
-            crunchbase: https://www.crunchbase.com/organization/federal-ministry-for-economic-affairs-and-energy
-          - item:
-            name: eGon
-            homepage_url: https://ego-n.org/
-            repo_url: https://github.com/openego/eGo
-            project_org: https://github.com/openego
-            logo: egon.svg
-            crunchbase: https://www.crunchbase.com/organization/federal-ministry-for-economic-affairs-and-energy
       - subcategory:
         name: Monitoring and Control
         items:
