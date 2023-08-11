@@ -54,28 +54,44 @@ body:
       label: Category
       description: Pick the best category for your project
       options:
-        - Asset Management - Analytics
-        - Asset Management - Asset Investment Planning
-        - Asset Management - Asset Repository
-        - Asset Management - Asset Supervision
-        - Asset Management - Data Management
-        - Asset Management - Field Work Management
-        - Acquisition and Control - Central Hub
-        - Acquisition and Control - Edge Node Control
-        - Acquisition and Control - Communication Infrastructure
-        - Acquisition and Control - Infrastructure Management
-        - Acquisition and Control - Substation Node
-        - Customer and Market - Customer Relationship and Communication
-        - Customer and Market - Metering and Compensation
-        - Customer and Market - Market Platform Gateway
-        - Customer and Market - Customer Response
-        - Shared - Data Management
-        - Shared - Unified Operator's UX Components and Framework
-        - Shared - Systems Governance
-        - System Management - Data Management
-        - System Management - Forecasting
-        - System Management - Power System Calculation
-        - System Management - Market Signal
-        - System Management - System Control
+        - Climate and Earth Science - Climate Data Processing and Access
+        - Climate and Earth Science - Earth and Climate Modeling
+        - Climate and Earth Science - Integrated Assessment
+        - Climate and Earth Science - Meteorological Observation and Forecast
+        - Climate and Earth Science - Radiative Transfer
+        - Consumption of Energy and Resources - Buildings and Heating
+        - Consumption of Energy and Resources - Computation and Communication
+        - Consumption of Energy and Resources - Mobility and Transportation
+        - Consumption of Energy and Resources - Production and Industry
+        - Earth Systems - Atmosphere
+        - Earth Systems - Biosphere
+        - Earth Systems - Cryosphere
+        - Earth Systems - Hydrosphere
+        - Emissions - Carbon Capture and Removal
+        - Emissions - Carbon Intensity and Accounting
+        - Emissions - Emission Observation and Modeling
+        - Energy Storage - Battery
+        - Energy Storage - Hydrogen
+        - Energy Systems - Datasets on Energy Systems
+        - Energy Systems - Distribution and Grids
+        - Energy Systems - Modeling and Optimization
+        - Energy Systems - Monitoring and Control
+        - Industrial Ecology - Circular Economy and Waste
+        - Industrial Ecology - Life Cycle Assessment
+        - Natural Resources - Agriculture and Nutrition
+        - Natural Resources - Air Quality
+        - Natural Resources - Natural Hazard and Poverty
+        - Natural Resources - Soil and Land
+        - Natural Resources - Water Supply and Quality
+        - Renewable Energy - Bioenergy
+        - Renewable Energy - Geothermal Energy
+        - Renewable Energy - Hydro Energy
+        - Renewable Energy - Photovoltaics and Solar Energy
+        - Renewable Energy - Wind Energy
+        - Sustainable Development - Curated Lists
+        - Sustainable Development - Data Catalogs and Interfaces
+        - Sustainable Development - Knowledge Platforms
+        - Sustainable Development - Sustainable Development Goals
+        - Sustainable Development - Sustainable Investment
     validations:
       required: true
