@@ -1989,6 +1989,13 @@ landscape:
               contribution_guidelines: none
               leads: Asimenia Korompili
           - item:
+            name: Interactive Power Flow (IPF)
+            homepage_url: https://bpa-ipf.readthedocs.io
+            project: null
+            repo_url: https://github.com/mbheinen/bpa-ipf-tsp
+            logo: ipf.svg
+            crunchbase: https://www.crunchbase.com/organization/bonneville-power-administration
+          - item:
             name: Joulia.jl
             description: A Large-Scale Spatial Power System Model for Julia.
             homepage_url: https://github.com/JuliaEnergy/Joulia.jl
@@ -2797,13 +2804,6 @@ landscape:
             project_org: https://github.com/VILLASframework
             logo: VILLASnode.svg
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
-          - item:
-            name: Interactive Power Flow (IPF)
-            homepage_url: https://bpa-ipf.readthedocs.io
-            project: null
-            repo_url: https://github.com/mbheinen/bpa-ipf-tsp
-            logo: ipf.svg
-            crunchbase: https://www.crunchbase.com/organization/bonneville-power-administration
       - subcategory:
         name: Monitoring and Control
         items:
