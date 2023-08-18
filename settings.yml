@@ -15,10 +15,8 @@ global:
     twitter: LFE_Foundation
     google_site_verification: eZAQgcvgZbehffBtw1azh327yJwPL0bCsCGbMmkfdBc
     ms_validate: 3AF9FFA12CCC3C49C0ABA71CCA222665
-    extra: >
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=361402579"></script>
-      <script>
+    extra: |
+      <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=361402579"></script> <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
