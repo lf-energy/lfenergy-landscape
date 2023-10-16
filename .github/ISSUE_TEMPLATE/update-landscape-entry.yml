@@ -1,5 +1,5 @@
 name: Update Landscape Entry
-description: Let us know if a landscape entry needs corrected.
+description: Let us know if a landscape entry needs to be corrected.
 title: Update Landscape Entry for [PROJECT]
 labels: ['update entry']
 assignees: 
@@ -8,7 +8,10 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: Please put the name of the project in place of [PROJECT] in the title above, and then detail below the changes needed.
+      value: |
+        Please put the name of the project in place of [PROJECT] in the title above, and then detail below the changes needed.
+
+        NOTE: If the change is a member logo, please make the change instead at https://myorg.lfx.dev/.
   - type: textarea
     attributes:
       label: Changes requested
