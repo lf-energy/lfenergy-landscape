@@ -2004,6 +2004,14 @@ landscape:
             logo: ipf.svg
             crunchbase: https://www.crunchbase.com/organization/bonneville-power-administration
           - item:
+            name: IRENA FlexTool
+            homepage_url: https://irena-flextool.github.io/flextool/
+            project: null
+            repo_url: https://github.com/irena-flextool/flextool
+            project_org: https://github.com/irena-flextool
+            logo: irena-flextool.svg
+            crunchbase: https://www.crunchbase.com/organization/irena-2
+          - item:
             name: Joulia.jl
             description: A Large-Scale Spatial Power System Model for Julia.
             homepage_url: https://github.com/JuliaEnergy/Joulia.jl
@@ -2814,14 +2822,6 @@ landscape:
             project_org: https://github.com/VILLASframework
             logo: VILLASnode.svg
             crunchbase: https://www.crunchbase.com/organization/rwth-aachen-university
-          - item:
-            name: IRENA FlexTool
-            homepage_url: https://irena-flextool.github.io/flextool/
-            project: null
-            repo_url: https://github.com/irena-flextool/flextool
-            project_org: https://github.com/irena-flextool
-            logo: irena-flextool.svg
-            crunchbase: https://www.crunchbase.com/organization/irena-2
       - subcategory:
         name: Monitoring and Control
         items:
@@ -2888,6 +2888,7 @@ landscape:
             project: incubation
             repo_url: https://github.com/openeemeter/eemeter
             project_org: https://github.com/openeemeter
+            url_for_bestpractices: https://github.com/openeemeter/eemeter/tree/master
             logo: openeemeter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
@@ -2901,7 +2902,6 @@ landscape:
               contribution_guidelines: https://github.com/openeemeter/eemeter/blob/master/CONTRIBUTING.md
               leads: Carmen Best
               topics: energy,efficiency,energy-data,energy-efficiency,building-energy,weather,weather-data,weather-station
-            url_for_bestpractices: https://github.com/openeemeter/eemeter/tree/master
           - item:
             name: OpenEMS
             second_path:
@@ -13989,12 +13989,6 @@ landscape:
             homepage_url: https://ge.com/
             logo: general_electric_company.svg
             crunchbase: https://www.crunchbase.com/organization/general-electric
-          - item:
-            name: Lutech Advanced Solutions S.p.A. (member)
-            homepage_url: https://lutech.group/
-            logo: lutech_advanced_solutions_spa.svg
-            twitter: https://twitter.com/LutechGroup
-            crunchbase: https://www.crunchbase.com/organization/lutech-s-p-a
           - item:
             name: M-RETS, Inc. (member)
             homepage_url: https://mrets.org/
