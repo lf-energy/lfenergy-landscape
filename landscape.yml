@@ -213,32 +213,7 @@ landscape:
             homepage_url: https://github.com/NREL/Marmot
       - subcategory:
         name: Grid load and demand models
-        items:
-          - item:
-            name: dsgrid
-            logo: dsgrid.svg
-            repo_url: https://github.com/dsgrid/dsgrid
-            project_org: https://github.com/dsgrid
-            homepage_url: https://www.nrel.gov/analysis/dsgrid.html
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: REopt
-            logo: REopt.svg
-            repo_url: https://github.com/NREL/REopt.jl
-            homepage_url: https://github.com/NREL/REopt.jl
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: rex
-            logo: rex.svg
-            repo_url: https://github.com/NREL/rex
-            homepage_url: https://github.com/NREL/rex
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: MAGMA
-            logo: MAGMA.svg
-            repo_url: https://github.com/NREL/MAGMA
-            homepage_url: https://github.com/NREL/MAGMA
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+        items: []
       - subcategory:
         name: Other
         items:
@@ -378,8 +353,7 @@ landscape:
               name: Materials Design Group
           - item:
             name: dGen
-            second_path:
-              - WETOStack / Grid load and demand models
+            second_path: WETOStack / Grid load and demand models
             description: >-
               Forecast PV adoption based on user specified configurations like electricity rate prices, electricity load growth, solar resource factors, and
               much more.
@@ -1786,6 +1760,13 @@ landscape:
       - subcategory:
         name: Modeling and Optimization
         items:
+          - item:
+            name: MAGMA
+            logo: MAGMA.svg
+            repo_url: https://github.com/NREL/MAGMA
+            homepage_url: https://github.com/NREL/MAGMA
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Grid load and demand models
           - item:
             name: ANDES
             description: Power system transient dynamics simulation with symbolic modeling and numerical analysis.
@@ -3301,6 +3282,28 @@ landscape:
       - subcategory:
         name: Distribution and Grids
         items:
+          - item:
+            name: dsgrid
+            logo: dsgrid.svg
+            repo_url: https://github.com/dsgrid/dsgrid
+            project_org: https://github.com/dsgrid
+            homepage_url: https://www.nrel.gov/analysis/dsgrid.html
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Grid load and demand models
+          - item:
+            name: REopt
+            logo: REopt.svg
+            repo_url: https://github.com/NREL/REopt.jl
+            homepage_url: https://github.com/NREL/REopt.jl
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Grid load and demand models
+          - item:
+            name: rex
+            logo: rex.svg
+            repo_url: https://github.com/NREL/rex
+            homepage_url: https://github.com/NREL/rex
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Grid load and demand models
           - item:
             name: APIS
             description: Build a microgrid that utilizes variable renewable energy as the main power source and enhances the resilience of the power system.
