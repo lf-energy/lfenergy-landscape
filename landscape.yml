@@ -16,67 +16,13 @@ landscape:
         items: []
       - subcategory:
         name: Design and optimization
-        items:
-          - item:
-            name: G2Aero
-            logo: G2Aero.svg
-            repo_url: https://github.com/NREL/G2Aero
-            homepage_url: https://github.com/NREL/G2Aero
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: Gear-SCouP
-            logo: Gear-SCouP.svg
-            repo_url: https://github.com/NREL/GEAR-SCouP
-            homepage_url: https://github.com/NREL/GEAR-SCouP
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: WISDEM dakota_driver
-            logo: WISDEM dakota_driver.svg
-            repo_url: https://github.com/WISDEM/dakota_driver
-            homepage_url: https://github.com/WISDEM/dakota_driver
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: WPGNN and PLayGen
-            logo: WPGNN and PLayGen.svg
-            repo_url: https://github.com/NREL/WPGNN
-            homepage_url: https://github.com/NREL/WPGNN
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+        items: []
       - subcategory:
         name: Controls development
-        items:
-          - item:
-            name: FLORIS
-            logo: floris.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/nrel/floris
-            homepage_url: https://github.com/nrel/floris
-          - item:
-            name: FLASC
-            logo: FLASC.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/nrel/flasc
-            homepage_url: https://github.com/nrel/flasc
-          - item:
-            name: hercules
-            logo: hercules.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/nrel/hercules
-            homepage_url: https://github.com/nrel/hercules
-          - item:
-            name: moa_python
-            logo: moa_python.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/nrel/moa_python
-            homepage_url: https://github.com/nrel/moa_python
+        items: []
       - subcategory:
         name: Resources assessment
-        items:
-          - item:
-            name: DW TAP
-            logo: DW TAP.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/NREL/dw-tap-app
-            homepage_url: https://github.com/NREL/dw-tap-app
+        items: []
       - subcategory:
         name: Cost models
         items:
@@ -685,6 +631,34 @@ landscape:
       - subcategory:
         name: Wind Energy
         items:
+          - item:
+            name: G2Aero
+            logo: G2Aero.svg
+            repo_url: https://github.com/NREL/G2Aero
+            homepage_url: https://github.com/NREL/G2Aero
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / High fidelity models
+          - item:
+            name: FLORIS
+            logo: floris.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/nrel/floris
+            homepage_url: https://github.com/nrel/floris
+            second_path: WETOStack / Design and optimization
+          - item:
+            name: FLASC
+            logo: FLASC.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/nrel/flasc
+            homepage_url: https://github.com/nrel/flasc
+            second_path: WETOStack / Design and optimization
+          - item:
+            name: DW TAP
+            logo: DW TAP.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/NREL/dw-tap-app
+            homepage_url: https://github.com/NREL/dw-tap-app
+            second_path: WETOStack / Controls development
           - item:
             name: FAST.Farm
             logo: FAST.Farm.svg
@@ -1763,6 +1737,27 @@ landscape:
       - subcategory:
         name: Modeling and Optimization
         items:
+          - item:
+            name: Gear-SCouP
+            logo: Gear-SCouP.svg
+            repo_url: https://github.com/NREL/GEAR-SCouP
+            homepage_url: https://github.com/NREL/GEAR-SCouP
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Design and optimization
+          - item:
+            name: WISDEM dakota_driver
+            logo: WISDEM dakota_driver.svg
+            repo_url: https://github.com/WISDEM/dakota_driver
+            homepage_url: https://github.com/WISDEM/dakota_driver
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Design and optimization
+          - item:
+            name: WPGNN and PLayGen
+            logo: WPGNN and PLayGen.svg
+            repo_url: https://github.com/NREL/WPGNN
+            homepage_url: https://github.com/NREL/WPGNN
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Design and optimization
           - item:
             name: MAFRIT
             logo: MAFRIT.svg
@@ -3164,6 +3159,20 @@ landscape:
       - subcategory:
         name: Monitoring and Control
         items:
+          - item:
+            name: hercules
+            logo: hercules.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/nrel/hercules
+            homepage_url: https://github.com/nrel/hercules
+            second_path: WETOStack / Controls development
+          - item:
+            name: moa_python
+            logo: moa_python.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/nrel/moa_python
+            homepage_url: https://github.com/nrel/moa_python
+            second_path: WETOStack / Controls development
           - item:
             name: Emoncms
             second_path:
