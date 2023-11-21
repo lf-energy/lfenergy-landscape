@@ -4,120 +4,19 @@ landscape:
     subcategories:
       - subcategory:
         name: Engineering-fidelity physics models
-        items:
-          - item:
-            name: FAST.Farm
-            logo: FAST.Farm.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/openfast/openfast
-            homepage_url: https://github.com/openfast/openfast
-          - item:
-            name: MoorPy
-            logo: MoorPy.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/nrel/moorpy
-            homepage_url: https://github.com/nrel/moorpy
-          - item:
-            name: wtDigiTwin
-            logo: wtDigiTwin.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/ebranlard/wtDigiTwin
-            homepage_url: https://github.com/ebranlard/wtDigiTwin
-          - item:
-            name: RAFT
-            logo: RAFT.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/WISDEM/RAFT
-            homepage_url: https://github.com/WISDEM/RAFT
-          - item:
-            name: ANBA4
-            logo: ANBA4.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/ANBA4/anba4
-            homepage_url: https://github.com/ANBA4/anba4
+        items: []
       - subcategory:
         name: Numerical weather prediction
         items: []
       - subcategory:
         name: Turbine and component models
-        items:
-          - item:
-            name: CCBlade
-            logo: CCBlade.svg
-            repo_url: https://github.com/WISDEM/CCBlade
-            homepage_url: https://github.com/WISDEM/CCBlade
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: KiteFAST
-            logo: KiteFAST.svg
-            repo_url: https://github.com/openfast/kitefast
-            homepage_url: https://kitefast.readthedocs.io
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: MAFRIT
-            logo: MAFRIT.svg
-            repo_url: https://github.com/NREL/MAFRIT
-            homepage_url: https://github.com/NREL/MAFRIT
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: pBEAM
-            logo: pBEAM.svg
-            repo_url: https://github.com/WISDEM/pBEAM
-            homepage_url: https://github.com/WISDEM/pBEAM
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: PyFrame3DD
-            logo: PyFrame3DD.svg
-            repo_url: https://github.com/WISDEM/pyFrame3DD
-            homepage_url: https://github.com/WISDEM/pyFrame3DD
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: MOST (Matlab for Offshore wind turbine Simulation Tool)
-            homepage_url: http://www.morenergylab.polito.it/most/
-            repo_url: https://github.com/MOREnergylab/MOST
-            logo: most.svg
-            crunchbase: https://www.crunchbase.com/organization/politecnico-di-torino
-          - item:
-            name: OWENS
-            logo: OWENS.svg
-            homepage_url: https://www.nrel.gov/docs/fy23osti/83748.pdf
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+        items: []
       - subcategory:
         name: High fidelity models
-        items:
-          - item:
-            name: OpenTurbine
-            logo: OpenTurbine.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/exawind/openturbine
-            homepage_url: https://github.com/exawind/openturbine
-          - item:
-            name: ERF
-            logo: ERF.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/erf-model/ERF
-            homepage_url: https://github.com/erf-model/ERF
-          - item:
-            name: NUMAD
-            logo: NUMAD.svg
-            repo_url: https://github.com/sandialabs/NuMAD
-            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
-            homepage_url: https://numad.readthedocs.io/
-          - item:
-            name: pyNuMAD
-            logo: pyNuMAD.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/sandialabs/pyNuMAD
-            homepage_url: https://github.com/sandialabs/pyNuMAD
+        items: []
       - subcategory:
         name: Design and optimization
         items:
-          - item:
-            name: HOPP
-            logo: HOPP.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/NREL/HOPP
-            homepage_url: https://github.com/NREL/HOPP
           - item:
             name: SONATA
             logo: SONATA.svg
@@ -793,6 +692,89 @@ landscape:
         name: Wind Energy
         items:
           - item:
+            name: FAST.Farm
+            logo: FAST.Farm.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/openfast/openfast
+            homepage_url: https://github.com/openfast/openfast
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: wtDigiTwin
+            logo: wtDigiTwin.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/ebranlard/wtDigiTwin
+            homepage_url: https://github.com/ebranlard/wtDigiTwin
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: RAFT
+            logo: RAFT.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/WISDEM/RAFT
+            homepage_url: https://github.com/WISDEM/RAFT
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: ANBA4
+            logo: ANBA4.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/ANBA4/anba4
+            homepage_url: https://github.com/ANBA4/anba4
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: CCBlade
+            logo: CCBlade.svg
+            repo_url: https://github.com/WISDEM/CCBlade
+            homepage_url: https://github.com/WISDEM/CCBlade
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: KiteFAST
+            logo: KiteFAST.svg
+            repo_url: https://github.com/openfast/kitefast
+            homepage_url: https://kitefast.readthedocs.io
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: pBEAM
+            logo: pBEAM.svg
+            repo_url: https://github.com/WISDEM/pBEAM
+            homepage_url: https://github.com/WISDEM/pBEAM
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: PyFrame3DD
+            logo: PyFrame3DD.svg
+            repo_url: https://github.com/WISDEM/pyFrame3DD
+            homepage_url: https://github.com/WISDEM/pyFrame3DD
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: MOST (Matlab for Offshore wind turbine Simulation Tool)
+            homepage_url: http://www.morenergylab.polito.it/most/
+            repo_url: https://github.com/MOREnergylab/MOST
+            logo: most.svg
+            crunchbase: https://www.crunchbase.com/organization/politecnico-di-torino
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: OWENS
+            logo: OWENS.svg
+            homepage_url: https://www.nrel.gov/docs/fy23osti/83748.pdf
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: OpenTurbine
+            logo: OpenTurbine.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/exawind/openturbine
+            homepage_url: https://github.com/exawind/openturbine
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: HOPP
+            logo: HOPP.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/NREL/HOPP
+            homepage_url: https://github.com/NREL/HOPP
+            second_path: WETOStack / High fidelity models
+          - item:
             name: AirfoilPreppy
             description: A Python module for pre-processing and evaluating aerodynamic airfoil data, primarily for wind turbine applications.
             homepage_url: http://wisdem.github.io/AirfoilPreppy/
@@ -933,8 +915,7 @@ landscape:
               refs: ',https://zenodo.org/badge/latestdoi/319377095\n\n,https://doi.org/10.5281/zenodo.4705961.\n\nIf,https://doi.org/10.2172/1324526'
           - item:
             name: OpenFAST
-            second_path:
-              - WETOStack / Engineering-fidelity physics models
+            second_path: WETOStack / Engineering-fidelity physics models
             description: A multi-physics, multi-fidelity tool for simulating the coupled dynamic response of wind turbines and wind farms.
             homepage_url: http://openfast.readthedocs.io
             repo_url: https://github.com/OpenFAST/openfast
@@ -1162,6 +1143,27 @@ landscape:
       - subcategory:
         name: Hydro Energy
         items:
+          - item:
+            name: MoorPy
+            logo: MoorPy.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/nrel/moorpy
+            homepage_url: https://github.com/nrel/moorpy
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: NUMAD
+            logo: NUMAD.svg
+            repo_url: https://github.com/sandialabs/NuMAD
+            crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
+            homepage_url: https://numad.readthedocs.io/
+            second_path: WETOStack / High fidelity models
+          - item:
+            name: pyNuMAD
+            logo: pyNuMAD.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/sandialabs/pyNuMAD
+            homepage_url: https://github.com/sandialabs/pyNuMAD
+            second_path: WETOStack / High fidelity models
           - item:
             name: BEMRosetta
             description: Used to model hydrodynamic forces in offshore devices like ships, offshore wind platforms and wave energy converters.
@@ -1760,6 +1762,20 @@ landscape:
       - subcategory:
         name: Modeling and Optimization
         items:
+          - item:
+            name: MAFRIT
+            logo: MAFRIT.svg
+            repo_url: https://github.com/NREL/MAFRIT
+            homepage_url: https://github.com/NREL/MAFRIT
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Engineering-fidelity physics models
+          - item:
+            name: ERF
+            logo: ERF.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/erf-model/ERF
+            homepage_url: https://github.com/erf-model/ERF
+            second_path: WETOStack / High fidelity models
           - item:
             name: MAGMA
             logo: MAGMA.svg
