@@ -31,67 +31,13 @@ landscape:
         items: []
       - subcategory:
         name: Other
-        items:
-          - item:
-            name: CEWAM
-            logo: CEWAM.svg
-            repo_url: https://github.com/NREL/CEWAM
-            homepage_url: https://github.com/NREL/CEWAM
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: GDX-pandas
-            logo: GDX-pandas.svg
-            repo_url: https://github.com/NREL/gdx-pandas
-            homepage_url: https://github.com/NREL/gdx-pandas
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: L-TERRA
-            logo: L-TERRA.svg
-            repo_url: https://github.com/NREL/L-TERRA
-            homepage_url: https://github.com/NREL/L-TERRA
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: NaTGenPD
-            logo: NaTGenPD.svg
-            repo_url: https://github.com/NREL/NaTGenPD
-            homepage_url: https://github.com/NREL/NaTGenPD
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: OSOS
-            logo: OSOS.svg
-            repo_url: https://github.com/NREL/osos
-            homepage_url: https://github.com/NREL/osos
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: R2PD
-            logo: R2PD.svg
-            repo_url: https://github.com/Smart-DS/R2PD
-            homepage_url: https://github.com/Smart-DS/R2PD
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: Reegle Tagging API (CKAN Extension)
-            logo: ckanext-climate-tagger.svg
-            repo_url: https://github.com/REEEP/ckanext-climate-tagger
-            homepage_url: https://github.com/REEEP/ckanext-climate-tagger
-            crunchbase: https://www.crunchbase.com/organization/reeep
-          - item:
-            name: WindView
-            logo: WindView.svg
-            repo_url: https://github.com/windview/client
-            homepage_url: https://github.com/windview/client
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+        items: []
       - subcategory:
         name: Operation and Maintenance
         items: []
       - subcategory:
         name: Wildlife Impact
-        items:
-          - item:
-            name: SSRS
-            logo: SSRS.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/NREL/SSRS
-            homepage_url: https://github.com/NREL/SSRS
+        items: []
   - category:
     name: Renewable Energy
     subcategories:
@@ -601,6 +547,20 @@ landscape:
       - subcategory:
         name: Wind Energy
         items:
+          - item:
+            name: CEWAM
+            logo: CEWAM.svg
+            repo_url: https://github.com/NREL/CEWAM
+            homepage_url: https://github.com/NREL/CEWAM
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
+          - item:
+            name: WindView
+            logo: WindView.svg
+            repo_url: https://github.com/windview/client
+            homepage_url: https://github.com/windview/client
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
           - item:
             name: G2Aero
             logo: G2Aero.svg
@@ -1714,6 +1674,13 @@ landscape:
       - subcategory:
         name: Modeling and Optimization
         items:
+          - item:
+            name: R2PD
+            logo: R2PD.svg
+            repo_url: https://github.com/Smart-DS/R2PD
+            homepage_url: https://github.com/Smart-DS/R2PD
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
           - item:
             name: Gear-SCouP
             logo: Gear-SCouP.svg
@@ -3813,6 +3780,27 @@ landscape:
         name: Datasets on Energy Systems
         items:
           - item:
+            name: GDX-pandas
+            logo: GDX-pandas.svg
+            repo_url: https://github.com/NREL/gdx-pandas
+            homepage_url: https://github.com/NREL/gdx-pandas
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
+          - item:
+            name: L-TERRA
+            logo: L-TERRA.svg
+            repo_url: https://github.com/NREL/L-TERRA
+            homepage_url: https://github.com/NREL/L-TERRA
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
+          - item:
+            name: NaTGenPD
+            logo: NaTGenPD.svg
+            repo_url: https://github.com/NREL/NaTGenPD
+            homepage_url: https://github.com/NREL/NaTGenPD
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
+          - item:
             name: atlite
             description: Light-weight version of Aarhus RE Atlas for converting weather data to power systems data.
             homepage_url: https://atlite.readthedocs.io
@@ -5438,6 +5426,13 @@ landscape:
         name: Computation and Communication
         items:
           - item:
+            name: OSOS
+            logo: OSOS.svg
+            repo_url: https://github.com/NREL/osos
+            homepage_url: https://github.com/NREL/osos
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
+          - item:
             name: argos
             description: >-
               A tool to measure consumption of a given Docker command and see its performance evolution. Argos is able to measure CPU, memory and network usage
@@ -6726,6 +6721,13 @@ landscape:
       - subcategory:
         name: Biosphere
         items:
+          - item:
+            name: SSRS
+            logo: SSRS.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/NREL/SSRS
+            homepage_url: https://github.com/NREL/SSRS
+            second_path: WETOStack / Wildlife Impact
           - item:
             name: ALA4R
             description: >-
@@ -9909,6 +9911,13 @@ landscape:
       - subcategory:
         name: Climate Data Processing and Access
         items:
+          - item:
+            name: Reegle Tagging API (CKAN Extension)
+            logo: ckanext-climate-tagger.svg
+            repo_url: https://github.com/REEEP/ckanext-climate-tagger
+            homepage_url: https://github.com/REEEP/ckanext-climate-tagger
+            crunchbase: https://www.crunchbase.com/organization/reeep
+            second_path: WETOStack / Other
           - item:
             name: aospy
             description: A Python package for automated analysis and management of gridded climate data.
