@@ -25,43 +25,13 @@ landscape:
         items: []
       - subcategory:
         name: Cost models
-        items:
-          - item:
-            name: HybridBOSSE
-            logo: HybridBOSSE.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/NREL/HybridBOSSE
-            homepage_url: https://github.com/NREL/HybridBOSSE
-          - item:
-            name: CORAL
-            logo: CORAL.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            repo_url: https://github.com/NREL/CORAL
-            homepage_url: https://github.com/NREL/CORAL
-          - item:
-            name: FUSED-Wind
-            logo: FUSED-Wind.svg
-            repo_url: https://github.com/FUSED-Wind/fusedwind
-            homepage_url: https://github.com/FUSED-Wind/fusedwind
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: Marmot
-            logo: Marmot.svg
-            repo_url: https://github.com/NREL/Marmot
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            homepage_url: https://github.com/NREL/Marmot
+        items: []
       - subcategory:
         name: Grid load and demand models
         items: []
       - subcategory:
         name: Other
         items:
-          - item:
-            name: CELAVI
-            logo: CELAVI.svg
-            repo_url: https://github.com/NREL/celavi
-            homepage_url: https://github.com/NREL/celavi
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
             name: CEWAM
             logo: CEWAM.svg
@@ -659,6 +629,13 @@ landscape:
             repo_url: https://github.com/NREL/dw-tap-app
             homepage_url: https://github.com/NREL/dw-tap-app
             second_path: WETOStack / Controls development
+          - item:
+            name: FUSED-Wind
+            logo: FUSED-Wind.svg
+            repo_url: https://github.com/FUSED-Wind/fusedwind
+            homepage_url: https://github.com/FUSED-Wind/fusedwind
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Cost models
           - item:
             name: FAST.Farm
             logo: FAST.Farm.svg
@@ -1758,6 +1735,27 @@ landscape:
             homepage_url: https://github.com/NREL/WPGNN
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             second_path: WETOStack / Design and optimization
+          - item:
+            name: HybridBOSSE
+            logo: HybridBOSSE.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/NREL/HybridBOSSE
+            homepage_url: https://github.com/NREL/HybridBOSSE
+            second_path: WETOStack / Cost models
+          - item:
+            name: CORAL
+            logo: CORAL.svg
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            repo_url: https://github.com/NREL/CORAL
+            homepage_url: https://github.com/NREL/CORAL
+            second_path: WETOStack / Cost models
+          - item:
+            name: Marmot
+            logo: Marmot.svg
+            repo_url: https://github.com/NREL/Marmot
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            homepage_url: https://github.com/NREL/Marmot
+            second_path: WETOStack / Cost models
           - item:
             name: MAFRIT
             logo: MAFRIT.svg
@@ -10506,6 +10504,13 @@ landscape:
       - subcategory:
         name: Integrated Assessment
         items:
+          - item:
+            name: CELAVI
+            logo: CELAVI.svg
+            repo_url: https://github.com/NREL/celavi
+            homepage_url: https://github.com/NREL/celavi
+            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            second_path: WETOStack / Other
           - item:
             name: DICE.jl
             description: >-
