@@ -315,7 +315,8 @@ landscape:
               topics: solar-energy,renewable-energy,python,bifacial
           - item:
             name: pvlib-python
-            second_path: Asset Management / Analytics
+            second_path:
+              - Asset Management / Analytics
             description: A set of documented functions for simulating the performance of photovoltaic energy systems.
             homepage_url: https://pvlib-python.readthedocs.io
             repo_url: https://github.com/pvlib/pvlib-python
@@ -756,15 +757,14 @@ landscape:
             logo: floris.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
-            name: GreenGuard
+            name: Draco
             description: A collection of end-to-end solutions for machine learning problems commonly found in monitoring wind energy production system.
             homepage_url: https://sintel-dev.github.io/Draco
             repo_url: https://github.com/sintel-dev/Draco
-            logo: GreenGuard.svg
+            logo: Draco.svg
             extra:
               topics: classification,machine-learning,time-series
-            organization:
-              name: The Signal Intelligence Project
+            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
           - item:
             name: HAMS
             description: An open-source computer program for the analysis of wave diffraction and radiation of three-dimensional floating or submerged structures.
@@ -845,8 +845,7 @@ landscape:
             logo: OpenMDAO.svg
             extra:
               topics: nasa,open-source,framework,openmdao,optimization
-            organization:
-              name: OpenMDAO
+            crunchbase: https://www.crunchbase.com/organization/nasa
           - item:
             name: OpenOA
             second_path:
@@ -2579,7 +2578,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/federal-ministry-for-economic-affairs-and-energy
           - item:
             name: OSeMOSYS
-            second_path: Asset Management / Asset Investment Planning
+            second_path:
+              - Asset Management / Asset Investment Planning
             description: >-
               An open source modeling system for long-run integrated assessment and energy planning. It has been employed to develop energy systems models from
               the scale of continents (African Power Pools, South America, EU28+2) down to the scale of countries, regions and villages.
@@ -2629,13 +2629,13 @@ landscape:
             logo: powergridmodel.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              mailing_list_url: none
+              mailing_list_url: null
               slack_channel: '#powergridmodel'
-              LFX_insights_url: none
-              wiki_page: none
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: none
+              LFX_insights_url: null
+              wiki_page: null
+              SBOM: null
+              TSC_meeting_notes: null
+              calendar: null
               contribution_guidelines: https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md
               leads: Tony Xiang
           - item:
@@ -3757,7 +3757,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/australian-national-university
           - item:
             name: The Energy Web Chain
-            second_path: Customer and Market / Customer Response
+            second_path:
+              - Customer and Market / Customer Response
             description: >-
               The Energy Web Chain is a public, enterprise-grade blockchain platform designed for the energy sector’s regulatory, operational, and market needs.
               Launched in mid-2019, it has become the industry’s leading choice as the foundational digital infrastructure on which to build and run
@@ -14377,6 +14378,12 @@ landscape:
             homepage_url: https://ge.com/
             logo: general_electric_company.svg
             crunchbase: https://www.crunchbase.com/organization/general-electric
+          - item:
+            name: Lutech Advanced Solutions S.p.A. (member)
+            homepage_url: https://lutech.group/
+            logo: lutech_advanced_solutions_spa.svg
+            twitter: https://twitter.com/LutechGroup
+            crunchbase: https://www.crunchbase.com/organization/lutech-s-p-a
           - item:
             name: M-RETS, Inc. (member)
             homepage_url: https://mrets.org/
