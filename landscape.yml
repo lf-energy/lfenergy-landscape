@@ -570,21 +570,21 @@ landscape:
             organization:
               name: IEA Wind Digitalization (Task 43)
           - item:
+            name: Draco
+            description: A collection of end-to-end solutions for machine learning problems commonly found in monitoring wind energy production system.
+            homepage_url: https://sintel-dev.github.io/Draco
+            repo_url: https://github.com/sintel-dev/Draco
+            logo: Draco.svg
+            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
+            extra:
+              topics: classification,machine-learning,time-series
+          - item:
             name: floris
             description: A controls-oriented engineering wake modeling framework for evaluating the impact of wind farm controls on AEP and wind farm design.
             homepage_url: http://nrel.github.io/floris
             repo_url: https://github.com/NREL/floris
             logo: floris.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: Draco
-            description: A collection of end-to-end solutions for machine learning problems commonly found in monitoring wind energy production system.
-            homepage_url: https://sintel-dev.github.io/Draco
-            repo_url: https://github.com/sintel-dev/Draco
-            logo: Draco.svg
-            extra:
-              topics: classification,machine-learning,time-series
-            crunchbase: https://www.crunchbase.com/organization/massachusetts-institute-of-technology-mit
           - item:
             name: HAMS
             description: An open-source computer program for the analysis of wave diffraction and radiation of three-dimensional floating or submerged structures.
@@ -657,9 +657,9 @@ landscape:
             repo_url: https://github.com/OpenMDAO/OpenMDAO
             project_org: https://github.com/OpenMDAO
             logo: OpenMDAO.svg
+            crunchbase: https://www.crunchbase.com/organization/nasa
             extra:
               topics: nasa,open-source,framework,openmdao,optimization
-            crunchbase: https://www.crunchbase.com/organization/nasa
           - item:
             name: OpenOA
             description: This library provides a framework for working with large time series data from wind plants, such as SCADA.
