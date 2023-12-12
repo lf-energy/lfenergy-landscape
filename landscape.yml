@@ -108,7 +108,8 @@ landscape:
               name: Materials Design Group
           - item:
             name: dGen
-            second_path: WETOStack / Grid load and demand models
+            second_path:
+              - WETOStack / Grid load and demand models
             description: >-
               Forecast PV adoption based on user specified configurations like electricity rate prices, electricity load growth, solar resource factors, and
               much more.
@@ -554,139 +555,159 @@ landscape:
             repo_url: https://github.com/NREL/CEWAM
             homepage_url: https://github.com/NREL/CEWAM
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: WindView
             logo: WindView.svg
             repo_url: https://github.com/windview/client
             homepage_url: https://github.com/windview/client
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: G2Aero
             logo: G2Aero.svg
             repo_url: https://github.com/NREL/G2Aero
             homepage_url: https://github.com/NREL/G2Aero
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / High fidelity models
+            second_path:
+              - WETOStack / High fidelity models
           - item:
             name: FLORIS
             logo: floris.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/nrel/floris
             homepage_url: https://github.com/nrel/floris
-            second_path: WETOStack / Design and optimization
+            second_path:
+              - WETOStack / Design and optimization
           - item:
             name: FLASC
             logo: FLASC.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/nrel/flasc
             homepage_url: https://github.com/nrel/flasc
-            second_path: WETOStack / Design and optimization
+            second_path:
+              - WETOStack / Design and optimization
           - item:
             name: DW TAP
             logo: DW TAP.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/NREL/dw-tap-app
             homepage_url: https://github.com/NREL/dw-tap-app
-            second_path: WETOStack / Controls development
+            second_path:
+              - WETOStack / Controls development
           - item:
             name: FUSED-Wind
             logo: FUSED-Wind.svg
             repo_url: https://github.com/FUSED-Wind/fusedwind
             homepage_url: https://github.com/FUSED-Wind/fusedwind
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Cost models
+            second_path:
+              - WETOStack / Cost models
           - item:
             name: FAST.Farm
             logo: FAST.Farm.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/openfast/openfast
             homepage_url: https://github.com/openfast/openfast
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: wtDigiTwin
             logo: wtDigiTwin.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/ebranlard/wtDigiTwin
             homepage_url: https://github.com/ebranlard/wtDigiTwin
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: RAFT
             logo: RAFT.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/WISDEM/RAFT
             homepage_url: https://github.com/WISDEM/RAFT
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: ANBA4
             logo: ANBA4.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/ANBA4/anba4
             homepage_url: https://github.com/ANBA4/anba4
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: CCBlade
             logo: CCBlade.svg
             repo_url: https://github.com/WISDEM/CCBlade
             homepage_url: https://github.com/WISDEM/CCBlade
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: KiteFAST
             logo: KiteFAST.svg
             repo_url: https://github.com/openfast/kitefast
             homepage_url: https://kitefast.readthedocs.io
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: pBEAM
             logo: pBEAM.svg
             repo_url: https://github.com/WISDEM/pBEAM
             homepage_url: https://github.com/WISDEM/pBEAM
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: PyFrame3DD
             logo: PyFrame3DD.svg
             repo_url: https://github.com/WISDEM/pyFrame3DD
             homepage_url: https://github.com/WISDEM/pyFrame3DD
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: MOST (Matlab for Offshore wind turbine Simulation Tool)
             homepage_url: http://www.morenergylab.polito.it/most/
             repo_url: https://github.com/MOREnergylab/MOST
             logo: most.svg
             crunchbase: https://www.crunchbase.com/organization/politecnico-di-torino
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: OWENS
             logo: OWENS.svg
             homepage_url: https://www.nrel.gov/docs/fy23osti/83748.pdf
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: OpenTurbine
             logo: OpenTurbine.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/exawind/openturbine
             homepage_url: https://github.com/exawind/openturbine
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: HOPP
             logo: HOPP.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/NREL/HOPP
             homepage_url: https://github.com/NREL/HOPP
-            second_path: WETOStack / High fidelity models
+            second_path:
+              - WETOStack / High fidelity models
           - item:
             name: SONATA
             logo: SONATA.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/ptrbortolotti/SONATA
             homepage_url: https://github.com/ptrbortolotti/SONATA
-            second_path: WETOStack / High fidelity models
+            second_path:
+              - WETOStack / High fidelity models
           - item:
             name: AirfoilPreppy
             description: A Python module for pre-processing and evaluating aerodynamic airfoil data, primarily for wind turbine applications.
@@ -827,7 +848,8 @@ landscape:
               refs: ',https://zenodo.org/badge/latestdoi/319377095\n\n,https://doi.org/10.5281/zenodo.4705961.\n\nIf,https://doi.org/10.2172/1324526'
           - item:
             name: OpenFAST
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
             description: A multi-physics, multi-fidelity tool for simulating the coupled dynamic response of wind turbines and wind farms.
             homepage_url: http://openfast.readthedocs.io
             repo_url: https://github.com/OpenFAST/openfast
@@ -1060,21 +1082,24 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/nrel/moorpy
             homepage_url: https://github.com/nrel/moorpy
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: NUMAD
             logo: NUMAD.svg
             repo_url: https://github.com/sandialabs/NuMAD
             crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
             homepage_url: https://numad.readthedocs.io/
-            second_path: WETOStack / High fidelity models
+            second_path:
+              - WETOStack / High fidelity models
           - item:
             name: pyNuMAD
             logo: pyNuMAD.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/sandialabs/pyNuMAD
             homepage_url: https://github.com/sandialabs/pyNuMAD
-            second_path: WETOStack / High fidelity models
+            second_path:
+              - WETOStack / High fidelity models
           - item:
             name: BEMRosetta
             description: Used to model hydrodynamic forces in offshore devices like ships, offshore wind platforms and wave energy converters.
@@ -1679,70 +1704,80 @@ landscape:
             repo_url: https://github.com/Smart-DS/R2PD
             homepage_url: https://github.com/Smart-DS/R2PD
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: Gear-SCouP
             logo: Gear-SCouP.svg
             repo_url: https://github.com/NREL/GEAR-SCouP
             homepage_url: https://github.com/NREL/GEAR-SCouP
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Design and optimization
+            second_path:
+              - WETOStack / Design and optimization
           - item:
             name: WISDEM dakota_driver
             logo: WISDEM dakota_driver.svg
             repo_url: https://github.com/WISDEM/dakota_driver
             homepage_url: https://github.com/WISDEM/dakota_driver
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Design and optimization
+            second_path:
+              - WETOStack / Design and optimization
           - item:
             name: WPGNN and PLayGen
             logo: WPGNN and PLayGen.svg
             repo_url: https://github.com/NREL/WPGNN
             homepage_url: https://github.com/NREL/WPGNN
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Design and optimization
+            second_path:
+              - WETOStack / Design and optimization
           - item:
             name: HybridBOSSE
             logo: HybridBOSSE.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/NREL/HybridBOSSE
             homepage_url: https://github.com/NREL/HybridBOSSE
-            second_path: WETOStack / Cost models
+            second_path:
+              - WETOStack / Cost models
           - item:
             name: CORAL
             logo: CORAL.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/NREL/CORAL
             homepage_url: https://github.com/NREL/CORAL
-            second_path: WETOStack / Cost models
+            second_path:
+              - WETOStack / Cost models
           - item:
             name: Marmot
             logo: Marmot.svg
             repo_url: https://github.com/NREL/Marmot
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             homepage_url: https://github.com/NREL/Marmot
-            second_path: WETOStack / Cost models
+            second_path:
+              - WETOStack / Cost models
           - item:
             name: MAFRIT
             logo: MAFRIT.svg
             repo_url: https://github.com/NREL/MAFRIT
             homepage_url: https://github.com/NREL/MAFRIT
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Engineering-fidelity physics models
+            second_path:
+              - WETOStack / Engineering-fidelity physics models
           - item:
             name: ERF
             logo: ERF.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/erf-model/ERF
             homepage_url: https://github.com/erf-model/ERF
-            second_path: WETOStack / High fidelity models
+            second_path:
+              - WETOStack / High fidelity models
           - item:
             name: MAGMA
             logo: MAGMA.svg
             repo_url: https://github.com/NREL/MAGMA
             homepage_url: https://github.com/NREL/MAGMA
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Grid load and demand models
+            second_path:
+              - WETOStack / Grid load and demand models
           - item:
             name: ANDES
             description: Power system transient dynamics simulation with symbolic modeling and numerical analysis.
@@ -3130,14 +3165,16 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/nrel/hercules
             homepage_url: https://github.com/nrel/hercules
-            second_path: WETOStack / Controls development
+            second_path:
+              - WETOStack / Controls development
           - item:
             name: moa_python
             logo: moa_python.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/nrel/moa_python
             homepage_url: https://github.com/nrel/moa_python
-            second_path: WETOStack / Controls development
+            second_path:
+              - WETOStack / Controls development
           - item:
             name: Emoncms
             second_path:
@@ -3280,21 +3317,24 @@ landscape:
             project_org: https://github.com/dsgrid
             homepage_url: https://www.nrel.gov/analysis/dsgrid.html
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Grid load and demand models
+            second_path:
+              - WETOStack / Grid load and demand models
           - item:
             name: REopt
             logo: REopt.svg
             repo_url: https://github.com/NREL/REopt.jl
             homepage_url: https://github.com/NREL/REopt.jl
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Grid load and demand models
+            second_path:
+              - WETOStack / Grid load and demand models
           - item:
             name: rex
             logo: rex.svg
             repo_url: https://github.com/NREL/rex
             homepage_url: https://github.com/NREL/rex
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Grid load and demand models
+            second_path:
+              - WETOStack / Grid load and demand models
           - item:
             name: APIS
             description: Build a microgrid that utilizes variable renewable energy as the main power source and enhances the resilience of the power system.
@@ -3786,21 +3826,24 @@ landscape:
             repo_url: https://github.com/NREL/gdx-pandas
             homepage_url: https://github.com/NREL/gdx-pandas
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: L-TERRA
             logo: L-TERRA.svg
             repo_url: https://github.com/NREL/L-TERRA
             homepage_url: https://github.com/NREL/L-TERRA
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: NaTGenPD
             logo: NaTGenPD.svg
             repo_url: https://github.com/NREL/NaTGenPD
             homepage_url: https://github.com/NREL/NaTGenPD
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: atlite
             description: Light-weight version of Aarhus RE Atlas for converting weather data to power systems data.
@@ -5432,7 +5475,8 @@ landscape:
             repo_url: https://github.com/NREL/osos
             homepage_url: https://github.com/NREL/osos
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: argos
             description: >-
@@ -6728,7 +6772,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             repo_url: https://github.com/NREL/SSRS
             homepage_url: https://github.com/NREL/SSRS
-            second_path: WETOStack / Wildlife Impact
+            second_path:
+              - WETOStack / Wildlife Impact
           - item:
             name: ALA4R
             description: >-
@@ -9918,7 +9963,8 @@ landscape:
             repo_url: https://github.com/REEEP/ckanext-climate-tagger
             homepage_url: https://github.com/REEEP/ckanext-climate-tagger
             crunchbase: https://www.crunchbase.com/organization/reeep
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: aospy
             description: A Python package for automated analysis and management of gridded climate data.
@@ -10520,7 +10566,8 @@ landscape:
             repo_url: https://github.com/NREL/celavi
             homepage_url: https://github.com/NREL/celavi
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-            second_path: WETOStack / Other
+            second_path:
+              - WETOStack / Other
           - item:
             name: DICE.jl
             description: >-
