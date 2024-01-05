@@ -851,6 +851,23 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/university-college-cork
             extra:
               topics: wind-turbine,wind-energy,fault-detection,machine-learning,scada
+          - item:
+            name: The Energy Coalition (member)
+            homepage_url: https://energycoalition.org/
+            logo: the_energy_coalition.svg
+            twitter: https://twitter.com/_TECTweets
+            crunchbase: https://www.crunchbase.com/organization/nw-energy-coalition
+          - item:
+            name: AirGradient
+            description: Affordable and open-hardware air quality monitors for indoor and outdoor use.
+            homepage_url: https://www.airgradient.com/
+            repo_url: https://github.com/airgradienthq/arduino
+            additional_repos:
+              - repo_url: https://github.com/airgradienthq/arduino-ng
+              - repo_url: https://github.com/airgradienthq/map
+            logo: airgradient.svg
+            organization:
+              name: AirGradient
       - subcategory:
         name: Hydro Energy
         items:
@@ -14229,12 +14246,6 @@ landscape:
             homepage_url: https://turing.ac.uk/
             logo: the_alan_turing_institute.svg
             crunchbase: https://www.crunchbase.com/organization/alan-turing-institute
-          - item:
-            name: The Energy Coalition (member)
-            homepage_url: https://energycoalition.org/
-            logo: the_energy_coalition.svg
-            twitter: https://twitter.com/_TECTweets
-            crunchbase: https://www.crunchbase.com/organization/nw-energy-coalition
           - item:
             name: Trusted Computing Group (member)
             homepage_url: https://trustedcomputinggroup.org/
