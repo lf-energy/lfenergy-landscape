@@ -851,17 +851,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/university-college-cork
             extra:
               topics: wind-turbine,wind-energy,fault-detection,machine-learning,scada
-          - item:
-            name: AirGradient
-            description: Affordable and open-hardware air quality monitors for indoor and outdoor use.
-            homepage_url: https://www.airgradient.com/
-            repo_url: https://github.com/airgradienthq/arduino
-            additional_repos:
-              - repo_url: https://github.com/airgradienthq/arduino-ng
-              - repo_url: https://github.com/airgradienthq/map
-            logo: airgradient.svg
-            organization:
-              name: AirGradient
       - subcategory:
         name: Hydro Energy
         items:
@@ -10249,6 +10238,17 @@ landscape:
       - subcategory:
         name: Air Quality
         items:
+          - item:
+            name: AirGradient
+            description: Affordable and open-hardware air quality monitors for indoor and outdoor use.
+            homepage_url: https://www.airgradient.com/
+            repo_url: https://github.com/airgradienthq/arduino
+            additional_repos:
+              - repo_url: https://github.com/airgradienthq/arduino-ng
+              - repo_url: https://github.com/airgradienthq/map
+            logo: airgradient.svg
+            organization:
+              name: AirGradient
           - item:
             name: Air-Trends-Report
             description: Source code for EPA's annual air trends report on air quality, emissions and visibility trends.
