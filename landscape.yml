@@ -2263,7 +2263,7 @@ landscape:
               connections are realistic to give a better connection experience with fewer surprises for both grid owner (DSO/TSO), grid customers and other
               stakeholders.
             homepage_url: https://github.com/gridcapacitymap
-            project: incubation
+            project: sandbox
             repo_url: https://github.com/gridcapacitymap/tsc
             project_org: https://github.com/gridcapacitymap
             logo: grid-capacity-map.svg
@@ -3516,6 +3516,7 @@ landscape:
             description: A flexible Smart Grid co-simulation framework.
             homepage_url: https://mosaik.readthedocs.io/
             repo_url: https://gitlab.com/mosaik/mosaik
+            license: GNU Lesser General Public License v2.1
             logo: mosaik.svg
             crunchbase: https://www.crunchbase.com/organization/offis
           - item:
@@ -4790,6 +4791,24 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/graphdefined-gmbh
             extra:
               topics: transparency,eichrecht,electron,chargy,smartmetering,evroamingdeluxe,premiumeichrecht,evroaming,e-mobility
+          - item:
+            name: CitrineOS
+            homepage_url: https://citrineos.energy
+            project: sandbox
+            repo_url: https://github.com/citrineos/citrineos
+            project_org: https://github.com/citrineos
+            logo: citrineos.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
+              slack_channel: '#citrineos'
+              LFX_insights_url: none
+              wiki_page: https://wiki.lfenergy.org/display/CIT
+              SBOM: none
+              TSC_meeting_notes: none
+              calendar: none
+              contribution_guidelines: none
+              leads: none
           - item:
             name: CityFlow
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
@@ -10690,6 +10709,17 @@ landscape:
             logo: AirCasting.svg
             crunchbase: https://www.crunchbase.com/organization/aircasting
           - item:
+            name: AirGradient
+            description: Affordable and open-hardware air quality monitors for indoor and outdoor use.
+            homepage_url: https://www.airgradient.com/
+            repo_url: https://github.com/airgradienthq/arduino
+            additional_repos:
+              - repo_url: https://github.com/airgradienthq/arduino-ng
+              - repo_url: https://github.com/airgradienthq/map
+            logo: airgradient.svg
+            organization:
+              name: AirGradient
+          - item:
             name: Airqmon
             description: A macOS menu bar application that displays live air quality data from the nearest sensor station.
             homepage_url: https://airqmon.app
@@ -14398,22 +14428,11 @@ landscape:
             twitter: https://twitter.com/dfineblockchain
             crunchbase: https://www.crunchbase.com/organization/d-fine
           - item:
-            name: Electricity Maps (member)
-            homepage_url: https://electricitymap.org/
-            logo: electricity_maps.svg
-            twitter: https://twitter.com/ElectricityMaps
-            crunchbase: https://www.crunchbase.com/organization/electricitymap
-          - item:
             name: Energinet (member)
             homepage_url: https://energinet.dk/
             logo: energinet.svg
             twitter: https://twitter.com/EnerginetDK
             crunchbase: https://www.crunchbase.com/organization/energinet-dk
-          - item:
-            name: FlexiDAO (member)
-            homepage_url: https://flexidao.com/
-            logo: flexidao.svg
-            crunchbase: https://www.crunchbase.com/organization/flexidao
           - item:
             name: Futurewei Technologies, Inc. (member)
             homepage_url: https://futurewei.com/
@@ -14431,12 +14450,6 @@ landscape:
             logo: lutech_advanced_solutions_spa.svg
             twitter: https://twitter.com/LutechGroup
             crunchbase: https://www.crunchbase.com/organization/lutech-s-p-a
-          - item:
-            name: M-RETS, Inc. (member)
-            homepage_url: https://mrets.org/
-            logo: m-rets_inc.svg
-            twitter: https://twitter.com/TrackEnergy
-            crunchbase: https://www.crunchbase.com/organization/m-rets
           - item:
             name: Pionix GmbH (member)
             homepage_url: https://pionix.de/
@@ -14498,13 +14511,6 @@ landscape:
             twitter: https://twitter.com/wattcarbon
             organization:
               name: WattCarbon
-          - item:
-            name: ZEDEDA, Inc. (member)
-            homepage_url: https://zededa.com/
-            logo: zededa_inc.svg
-            twitter: https://twitter.com/ZededaEdge
-            crunchbase: https://www.crunchbase.com/organization/zededa
-            joined: '2021-06-01'
       - subcategory:
         name: Associate
         items:
