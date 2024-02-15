@@ -1383,6 +1383,14 @@ landscape:
             logo: Battery Archive.svg
             crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
           - item:
+            name: Battery Data Alliance
+            homepage_url: https://batterydataalliance.energy
+            project: sandbox
+            repo_url: https://github.com/BatteryDataAlliance/battery-data-interface
+            project_org: https://github.com/BatteryDataAlliance
+            logo: batterydataalliance.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+          - item:
             name: BatterySense
             description: >-
               A simple Arduino library to monitor battery consumption of your battery powered projects, being LiPo, LiIon, NiCd or any other battery type,
@@ -1596,14 +1604,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dalhousie-university
             extra:
               topics: lithium-ion,universal-battery-database,lithium-ion-cells,tensorflow,ml,deep-learning
-          - item:
-            name: Battery Data Alliance
-            homepage_url: https://batterydataalliance.energy
-            project: sandbox
-            repo_url: https://github.com/BatteryDataAlliance/battery-data-interface
-            project_org: https://github.com/BatteryDataAlliance
-            logo: batterydataalliance.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
       - subcategory:
         name: Hydrogen
         items:
@@ -3483,6 +3483,14 @@ landscape:
             organization:
               name: Advanced Grid Insight
           - item:
+            name: GRIP (Grid Resilience and Intelligence Platform)
+            homepage_url: https://grip-project.energy
+            project: sandbox
+            repo_url: https://github.com/gripenergy/grip-integration
+            project_org: https://github.com/gripenergy
+            logo: grip.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+          - item:
             name: Gym-ANM
             description: Design Reinforcement Learning environments that model Active Network Management tasks in electricity distribution networks.
             homepage_url: https://gym-anm.readthedocs.io/en/latest/
@@ -3833,14 +3841,6 @@ landscape:
             repo_url: https://github.com/trolie/spec
             project_org: https://github.com/trolie
             logo: trolie.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-          - item:
-            name: GRIP (Grid Resilience and Intelligence Platform)
-            homepage_url: https://grip-project.energy
-            project: sandbox
-            repo_url: https://github.com/gripenergy/grip-integration
-            project_org: https://github.com/gripenergy
-            logo: grip.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
       - subcategory:
         name: Datasets on Energy Systems
