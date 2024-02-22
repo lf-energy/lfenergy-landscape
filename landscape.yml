@@ -2648,13 +2648,11 @@ landscape:
             logo: powergridmodel.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              mailing_list_url: 'null'
-              slack_channel: '#powergridmodel'
-              LFX_insights_url: 'null'
-              wiki_page: 'null'
-              SBOM: 'null'
-              TSC_meeting_notes: 'null'
-              calendar: 'null'
+              mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
+              slack_channel: #powergridmodel
+              LFX_insights_url: https://insights-v2.lfx.linuxfoundation.org/powergridmodel/trends
+              wiki_page: https://wiki.lfenergy.org/display/PGM/Power+Grid+Model+Home
+              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/PowerGridModel
               contribution_guidelines: https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md
               leads: Tony Xiang
           - item:
