@@ -1390,6 +1390,8 @@ landscape:
             project_org: https://github.com/BatteryDataAlliance
             logo: batterydataalliance.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              artwork: https://artwork.lfenergy.org/projects/BatteryDataAlliance/
           - item:
             name: BatterySense
             description: >-
@@ -1897,6 +1899,7 @@ landscape:
             logo: LFE_CoMPAS.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/compas/
               mailing_list_url: https://lists.lfenergy.org/g/CoMPAS
               slack_channel: '#compas'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fcompas
@@ -1989,6 +1992,7 @@ landscape:
             logo: dynawo.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/dynawo/
               mailing_list_url: https://lists.lfenergy.org/g/dynawo
               slack_channel: '#dynawo'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fdynawo
@@ -2126,6 +2130,7 @@ landscape:
             logo: fledge-power.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/fledgepower/
               mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
               slack_channel: '#fledgepower'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
@@ -2221,6 +2226,7 @@ landscape:
             logo: grid-capacity-map.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/gridcapacitymap/
               mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
               slack_channel: none
               LFX_insights_url: none
@@ -2276,6 +2282,7 @@ landscape:
             logo: hyphae.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/hyphae/
               mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
               slack_channel: '#hyphae'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fhyphae
@@ -2288,14 +2295,12 @@ landscape:
           - item:
             name: Interactive Power Flow (IPF)
             homepage_url: https://bpa-ipf.readthedocs.io
-            project: null
             repo_url: https://github.com/mbheinen/bpa-ipf-tsp
             logo: ipf.svg
             crunchbase: https://www.crunchbase.com/organization/bonneville-power-administration
           - item:
             name: IRENA FlexTool
             homepage_url: https://irena-flextool.github.io/flextool/
-            project: null
             repo_url: https://github.com/irena-flextool/flextool
             project_org: https://github.com/irena-flextool
             logo: irena-flextool.svg
@@ -2535,6 +2540,7 @@ landscape:
             logo: opengeh.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/opengeh/
               leads: Nicolas Bernhardi
           - item:
             name: OpenIPSL
@@ -2566,6 +2572,7 @@ landscape:
             logo: openstef.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/openstef/
               mailing_list_url: https://lists.lfenergy.org/g/openstef
               slack_channel: '#openstef'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenstf
@@ -2589,7 +2596,6 @@ landscape:
           - item:
             name: open_plan
             homepage_url: https://open-plan-tool.org/
-            project: null
             repo_url: https://github.com/open-plan-tool/gui
             license: MIT License
             project_org: https://github.com/open-plan-tool
@@ -2648,6 +2654,7 @@ landscape:
             logo: powergridmodel.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/PowerGridModel/
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
               slack_channel: #powergridmodel
               LFX_insights_url: https://insights-v2.lfx.linuxfoundation.org/powergridmodel/trends
@@ -2749,6 +2756,7 @@ landscape:
             logo: powsybl.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/powsysbl/
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
               slack_channel: none
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fpowsybl
@@ -2970,6 +2978,7 @@ landscape:
             logo: shapeshifter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/shapeshifter/
               mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
               slack_channel: '#shapeshifter'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
@@ -2994,6 +3003,7 @@ landscape:
             logo: sogno.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/sogno/
               mailing_list_url: https://lists.lfenergy.org/g/sogno-discussion
               slack_channel: '#sogno'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fsogno
@@ -3206,6 +3216,7 @@ landscape:
             logo: flexmeasures.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/flexmeasures/
               mailing_list_url: https://lists.lfenergy.org/g/flexmeasures
               slack_channel: '#flexmeasures'
               LFX_insights_url: none
@@ -3248,6 +3259,7 @@ landscape:
             logo: openeemeter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/openeemeter/
               mailing_list_url: https://lists.lfenergy.org/g/openeemeter
               slack_channel: '#openeemeter'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
@@ -3303,6 +3315,7 @@ landscape:
             logo: operatorfabric.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/operatorfabric/
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_channel: '#operator-fabric'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Foperator-fabric
@@ -3341,6 +3354,7 @@ landscape:
             logo: arras.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/arras/
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
               slack_channel: null
               LFX_insights_url: none
@@ -3421,6 +3435,7 @@ landscape:
             logo: gxf.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/grid-exchange-fabric/
               mailing_list_url: https://lists.lfenergy.org/g/gxf
               slack_channel: '#gxf'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fgrid-exchange-fabric
@@ -3488,6 +3503,12 @@ landscape:
             project_org: https://github.com/gripenergy
             logo: grip.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/grip-discussion
+              slack_channel: '#grip'
+              wiki_page: https://wiki.lfenergy.org/display/GRIP
+              artwork: https://artwork.lfenergy.org/projects/GRIP/
+              leads: Aliou Diate
           - item:
             name: Gym-ANM
             description: Design Reinforcement Learning environments that model Active Network Management tasks in electricity distribution networks.
@@ -3560,6 +3581,7 @@ landscape:
             logo: open-leadr.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/openleadr/
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
               slack_channel: '#openleadr'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
@@ -3708,6 +3730,7 @@ landscape:
             logo: rtdip.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/rtdip/
               mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
               slack_channel: '#rtdip'
               LFX_insights_url: none
@@ -3771,6 +3794,7 @@ landscape:
             logo: seapath.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/seapath/
               mailing_list_url: https://lists.lfenergy.org/g/SEAPATH
               slack_channel: '#seapath'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fseapath
@@ -3840,6 +3864,8 @@ landscape:
             project_org: https://github.com/trolie
             logo: trolie.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              artwork: https://artwork.lfenergy.org/projects/TROLIE/
       - subcategory:
         name: Datasets on Energy Systems
         items:
@@ -4822,15 +4848,10 @@ landscape:
             logo: citrineos.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/CitrineOS/
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_channel: '#citrineos'
-              LFX_insights_url: none
               wiki_page: https://wiki.lfenergy.org/display/CIT
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: none
-              leads: none
           - item:
             name: CityFlow
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
@@ -4952,6 +4973,7 @@ landscape:
             logo: everest.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfenergy.org/projects/everest/
               mailing_list_url: https://lists.lfenergy.org/g/everest
               slack_channel: '#everest'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Feverest
@@ -5354,6 +5376,7 @@ landscape:
             logo: sam.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfess.energy/projects/superadvancedmeter
               mailing_list_url: https://lists.lfenergy.org/g/sam-steering-committee
               slack_channel: '#sam-general'
               LFX_insights_url: none
@@ -5857,6 +5880,7 @@ landscape:
             logo: carbon-data-specification.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
+              artwork: https://artwork.lfess.energy/projects/cdsc/
               mailing_list_url: https://lists.lfenergy.org/g/cdsc-tsc
               slack_channel: '#cdsc'
               LFX_insights_url: none
