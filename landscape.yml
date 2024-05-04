@@ -1709,6 +1709,14 @@ landscape:
         name: Modeling and Optimization
         items:
           - item:
+            name: AMIRIS
+            homepage_url: https://dlr-ve.gitlab.io/esy/amiris/home/
+            project: null
+            repo_url: https://gitlab.com/dlr-ve/esy/amiris/amiris
+            license: Apache License 2.0
+            logo: amiris.svg
+            crunchbase: https://www.crunchbase.com/organization/dlr
+          - item:
             name: ANDES
             description: Power system transient dynamics simulation with symbolic modeling and numerical analysis.
             homepage_url: https://ltb.curent.org/andes/
@@ -3187,14 +3195,6 @@ landscape:
             repo_url: https://github.com/NREL/WPGNN
             logo: WPGNN and PLayGen.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: AMIRIS
-            license: Apache License 2.0
-            homepage_url: https://dlr-ve.gitlab.io/esy/amiris/home/
-            project: null
-            repo_url: https://gitlab.com/dlr-ve/esy/amiris/amiris
-            logo: amiris.svg
-            crunchbase: https://www.crunchbase.com/organization/dlr
       - subcategory:
         name: Monitoring and Control
         items:
