@@ -1249,15 +1249,18 @@ landscape:
               refs: ',https://doi.org/10.1186/s40517-021-00199-8.\n\n###'
           - item:
             name: GHEtool
-            description: GHEtool is an open source Python package that contains all the functionalities needed to deal with borefield design.
-            homepage_url: https://ghetool.readthedocs.io/
+            homepage_url: https://ghetool.eu
             repo_url: https://github.com/wouterpeere/GHEtool
             logo: GHEtool.svg
-            crunchbase: https://www.crunchbase.com/organization/university-of-leuven
             extra:
               topics: geothermal-energy,borefields,sizing,energy,storage,geothermal
               refs: >-
                 ,https://doi.org/10.21105/joss.04406,https://doi.org/10.21105/joss.04406\n\n##,https://doi.org/10.21105/joss.04406\n\nPeere,https://doi.org/10.26868/25222708.2021.30180\n\nPeere
+            organization:
+              name: GHEtool
+              city: Waregem
+              country: Belgium
+              linkedin: https://linkedin.com/company/ghetool
           - item:
             name: multiphysics
             description: Interactive (Heat Transfer) Simulations for Everyone.
