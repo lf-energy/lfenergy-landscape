@@ -677,13 +677,6 @@ landscape:
             logo: floris.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
-            name: floris
-            description: A controls-oriented engineering wake modeling framework for evaluating the impact of wind farm controls on AEP and wind farm design.
-            homepage_url: http://nrel.github.io/floris
-            repo_url: https://github.com/NREL/floris
-            logo: floris.svg
-            crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
             name: FUSED-Wind
             second_path:
               - WETOStack / Cost models
@@ -1906,7 +1899,6 @@ landscape:
             project: incubation
             repo_url: https://github.com/com-pas/.github
             project_org: https://github.com/com-pas
-            url_for_bestpractices: https://github.com/com-pas/contributing.git
             logo: LFE_CoMPAS.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
@@ -1920,6 +1912,7 @@ landscape:
               calendar: https://lists.lfenergy.org/g/compas/calendar
               contribution_guidelines: https://com-pas.github.io/contributing/
               leads: Pascal Wilbrink
+            url_for_bestpractices: https://github.com/com-pas/compas-core
           - item:
             name: CORAL
             second_path:
@@ -2978,6 +2971,23 @@ landscape:
               TSC_meeting_notes: none
               calendar: none
               contribution_guidelines: none
+          - item:
+            name: RiseClipse
+            description: >-
+              RiseClipse is an umbrella name for tools based on MDE technologies and dedicated to IEC standards. Open source RiseClipse components are availble
+              under the EPL version 2.0.
+
+              The main use of RiseClipse is to validate IEC CIM files and IEC 61850 SCL configuration files : data described in these files are loaded in a way
+              to become conformant with an UML model (either the CIM UML model or the SCL one), and OCL (Object Constraint Language) is used for validation.
+              Therefore, the validation is not only done at the syntactic level but also at the semantic level.
+            homepage_url: https://riseclipse.github.io/
+            project: null
+            repo_url: https://github.com/riseclipse/riseclipse-validator-scl2003
+            project_org: https://github.com/riseclipse
+            logo: riseclipse.svg
+            crunchbase: https://www.crunchbase.com/organization/edf-group
+            extra:
+              docker_url: https://hub.docker.com/u/riseclipse
           - item:
             name: rl-testbed-for-energyplus
             description: Reinforcement Learning Testbed for Power Consumption Optimization using EnergyPlus.
@@ -14524,12 +14534,6 @@ landscape:
             twitter: https://twitter.com/LutechGroup
             crunchbase: https://www.crunchbase.com/organization/lutech-s-p-a
           - item:
-            name: M-RETS, Inc. (member)
-            homepage_url: https://mrets.org/
-            logo: m-rets_inc.svg
-            twitter: https://twitter.com/TrackEnergy
-            crunchbase: https://www.crunchbase.com/organization/m-rets
-          - item:
             name: Pionix GmbH (member)
             homepage_url: https://pionix.de/
             logo: pionix_gmbh.svg
@@ -14710,6 +14714,12 @@ landscape:
             homepage_url: https://hslu.ch/
             logo: lucerne_university_of_applied_sciences.svg
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
+          - item:
+            name: M-RETS, Inc. (member)
+            homepage_url: https://mrets.org/
+            logo: m-rets_inc.svg
+            twitter: https://twitter.com/TrackEnergy
+            crunchbase: https://www.crunchbase.com/organization/m-rets
           - item:
             name: National Renewable Energy Laboratory (NREL) (member)
             homepage_url: https://nrel.gov/
