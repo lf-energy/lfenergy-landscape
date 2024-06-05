@@ -3522,7 +3522,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/gridapps-d
           - item:
             name: GridCal
-            description: Aims to be a complete platform for power systems research and simulation.
+            description: >-
+              GridCal, a cross-platform power systems software written in Python with user interface, used in academia and industry.
+
+
+              GridCal does all sort of static analysis of power systems with or without time series (power flow, short circuit, linear and non linear
+              optimization, ..., you name it)
             homepage_url: https://www.advancedgridinsights.com/gridcal
             repo_url: https://github.com/SanPen/GridCal
             logo: GridCal.svg
