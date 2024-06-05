@@ -3208,6 +3208,22 @@ landscape:
             repo_url: https://github.com/NREL/WPGNN
             logo: WPGNN and PLayGen.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+          - item:
+            name: GridCal
+            description: >-
+              GridCal, a cross-platform power systems software written in Python with user interface, used in academia and industry.
+
+
+              GridCal does all sort of static analysis of power systems with or without time series (power flow, short circuit, linear and non linear
+              optimization, ..., you name it)
+            homepage_url: https://github.com/SanPen/GridCal
+            repo_url: https://github.com/SanPen/GridCal
+            logo: GridCal.svg
+            extra:
+              topics: >-
+                python,powerflow,electrical-engineering,electrical,helm,newton-raphson,latin-hypercube,monte-carlo-simulation,cim,comon-information-model,stochastic-power-flow,multi-terminal,acdc,optimization,power-systems
+            organization:
+              name: Advanced Grid Insight
       - subcategory:
         name: Monitoring and Control
         items:
@@ -3520,17 +3536,6 @@ landscape:
             project_org: https://github.com/GRIDAPPSD
             logo: gridappsd-text.svg
             crunchbase: https://www.crunchbase.com/organization/gridapps-d
-          - item:
-            name: GridCal
-            description: Aims to be a complete platform for power systems research and simulation.
-            homepage_url: https://www.advancedgridinsights.com/gridcal
-            repo_url: https://github.com/SanPen/GridCal
-            logo: GridCal.svg
-            extra:
-              topics: >-
-                python,powerflow,electrical-engineering,electrical,helm,newton-raphson,latin-hypercube,monte-carlo-simulation,cim,comon-information-model,stochastic-power-flow,multi-terminal,acdc,optimization,power-systems
-            organization:
-              name: Advanced Grid Insight
           - item:
             name: GRIP (Grid Resilience and Intelligence Platform)
             homepage_url: https://grip-project.energy
