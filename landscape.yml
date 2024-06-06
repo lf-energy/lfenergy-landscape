@@ -2249,6 +2249,22 @@ landscape:
               contribution_guidelines: none
               leads: Harald Klomp
           - item:
+            name: GridCal
+            description: >-
+              GridCal, a cross-platform power systems software written in Python with user interface, used in academia and industry.
+
+
+              GridCal does all sort of static analysis of power systems with or without time series (power flow, short circuit, linear and non linear
+              optimization, ..., you name it)
+            homepage_url: https://github.com/SanPen/GridCal
+            repo_url: https://github.com/SanPen/GridCal
+            logo: GridCal.svg
+            extra:
+              topics: >-
+                python,powerflow,electrical-engineering,electrical,helm,newton-raphson,latin-hypercube,monte-carlo-simulation,cim,comon-information-model,stochastic-power-flow,multi-terminal,acdc,optimization,power-systems
+            organization:
+              name: Advanced Grid Insight
+          - item:
             name: GridPath
             description: A versatile simulation and optimization platform for power-system planning and operations.
             homepage_url: https://www.gridpath.io
@@ -3208,22 +3224,6 @@ landscape:
             repo_url: https://github.com/NREL/WPGNN
             logo: WPGNN and PLayGen.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
-          - item:
-            name: GridCal
-            description: >-
-              GridCal, a cross-platform power systems software written in Python with user interface, used in academia and industry.
-
-
-              GridCal does all sort of static analysis of power systems with or without time series (power flow, short circuit, linear and non linear
-              optimization, ..., you name it)
-            homepage_url: https://github.com/SanPen/GridCal
-            repo_url: https://github.com/SanPen/GridCal
-            logo: GridCal.svg
-            extra:
-              topics: >-
-                python,powerflow,electrical-engineering,electrical,helm,newton-raphson,latin-hypercube,monte-carlo-simulation,cim,comon-information-model,stochastic-power-flow,multi-terminal,acdc,optimization,power-systems
-            organization:
-              name: Advanced Grid Insight
       - subcategory:
         name: Monitoring and Control
         items:
@@ -9989,6 +9989,14 @@ landscape:
               refs: ',https://doi.org/10.3390/su12010394"\n\nLaTeX/BibTeX'
               topics: climate,climate-data,meteorological-data,meteorology,ogimet,imgw,sounding,r,noaa-data,r-package
           - item:
+            name: covXtreme
+            homepage_url: https://covxtreme.energy
+            project: sandbox
+            repo_url: https://github.com/covxtreme/.github
+            project_org: https://github.com/covxtreme
+            logo: covxtreme.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+          - item:
             name: MetPy
             description: A collection of tools in Python for reading, visualizing and performing calculations with weather data.
             homepage_url: https://unidata.github.io/MetPy
@@ -10060,14 +10068,6 @@ landscape:
                 deutscher-wetterdienst,germany,open-source,open-data,historical-data,time-series,dwd,radar,weather,weatherservice,weather-forecast,weather-api,weather-station,eccc,canada,data,united-states,uk,hydrology,meteorology
             organization:
               name: earthobservations
-          - item:
-            name: covXtreme
-            homepage_url: https://covxtreme.energy
-            project: sandbox
-            repo_url: https://github.com/covxtreme/.github
-            project_org: https://github.com/covxtreme
-            logo: covxtreme.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
       - subcategory:
         name: Climate Data Processing and Access
         items:
@@ -13534,6 +13534,14 @@ landscape:
             logo: openEO.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-m-nster
           - item:
+            name: OpenSynth
+            homepage_url: https://opensynth.energy
+            project: sandbox
+            repo_url: https://github.com/opensynth-energy/.github
+            project_org: https://github.com/opensynth-energy
+            logo: opensynth.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+          - item:
             name: owid-catalog
             description: A Pythonic API for working with Our World in Data catalog.
             homepage_url: https://github.com/owid/owid-catalog-py
@@ -13687,14 +13695,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/worldpop
             extra:
               topics: bayesian-methods,r-package,shiny-apps,population-model
-          - item:
-            name: OpenSynth
-            homepage_url: https://opensynth.energy
-            project: sandbox
-            logo: opensynth.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            project_org: https://github.com/opensynth-energy
-            repo_url: https://github.com/opensynth-energy/.github
       - subcategory:
         name: Curated Lists
         items:
