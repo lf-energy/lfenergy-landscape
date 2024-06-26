@@ -4893,6 +4893,7 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_channel: '#citrineos'
               wiki_page: https://wiki.lfenergy.org/display/CIT
+            second_path: SIG / EV Charging
           - item:
             name: CityFlow
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
@@ -14849,3 +14850,21 @@ landscape:
             twitter: https://twitter.com/wattTime
             organization:
               name: WattTime Corporation
+  - category:
+    name: SIG
+    subcategories:
+      - subcategory:
+        name: Digital Substations Automation Systems (DSAS)
+        items: []
+      - subcategory:
+        name: EV Charging
+        items: []
+      - subcategory:
+        name: Grid Operations
+        items: []
+      - subcategory:
+        name: Grid Simulation and Modeling
+        items: []
+      - subcategory:
+        name: Data Standards and Tooling
+        items: []
