@@ -1388,6 +1388,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               artwork: https://artwork.lfenergy.org/projects/BatteryDataAlliance/
+            second_path:
+              - LF Energy Project / Sandbox
+              - SIG / Data Standards and Tooling
           - item:
             name: BatterySense
             description: >-
@@ -1891,6 +1894,8 @@ landscape:
               - Transmission / Station
               - Acquisition and Control / Substation Node
               - Project Stack / Central Supporting Services
+              - SIG / Digital Substations Automation Systems (DSAS)
+              - LF Energy Project / Incubation
             description: >-
               Configuration Modules for Power industry Automation Systems. The CoMPAS project was formed to develop open source software components related to
               IEC 61850 model implementation (profile management) and configuration of a power industry Protection Automation and Control System (PACS). CoMPAS
@@ -1989,6 +1994,8 @@ landscape:
             second_path:
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
+              - LF Energy Project / Incubation
+              - SIG / Grid Simulation and Modeling
             homepage_url: https://dynawo.energy
             project: incubation
             repo_url: https://github.com/dynawo/dynawo
@@ -2134,6 +2141,9 @@ landscape:
               - Transmission / Station
               - Acquisition and Control / Communication Infrastructure
               - Project Stack / Edge & Distributed Intelligence
+              - SIG / Grid Operations
+              - LF Energy Project / Incubation
+              - SIG / Digital Substations Automation Systems (DSAS)
             homepage_url: https://www.lfenergy.org/projects/fledgepower/
             project: incubation
             repo_url: https://github.com/fledge-power/contributing
@@ -2226,6 +2236,8 @@ landscape:
               - Distribution / Station
               - Transmission / Field
               - Distribution / Field
+              - LF Energy Project / Sandbox
+              - SIG / Grid Simulation and Modeling
             description: >-
               A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
               to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
@@ -2590,6 +2602,9 @@ landscape:
             project_org: https://github.com/openscd
             logo: openscd.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            second_path:
+              - SIG / Digital Substations Automation Systems (DSAS)
+              - LF Energy Project / Sandbox
           - item:
             name: OpenSTEF
             second_path:
@@ -2600,6 +2615,8 @@ landscape:
               - Customer Premises / Enterprise
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
+              - LF Energy Project / Incubation
+              - SIG / Grid Simulation and Modeling
             homepage_url: https://openstef.energy
             project: incubation
             repo_url: https://github.com/OpenSTEF/openstef
@@ -2683,6 +2700,8 @@ landscape:
               - DER / Enterprise
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
+              - LF Energy Project / Incubation
+              - SIG / Grid Simulation and Modeling
             homepage_url: https://powergridmodel.energy
             project: incubation
             repo_url: https://github.com/PowerGridModel/power-grid-model
@@ -2692,7 +2711,7 @@ landscape:
             extra:
               artwork: https://artwork.lfenergy.org/projects/PowerGridModel/
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
-              slack_channel: null
+              slack_channel: '#powergridmodel'
               LFX_insights_url: https://insights-v2.lfx.linuxfoundation.org/powergridmodel/trends
               wiki_page: https://wiki.lfenergy.org/display/PGM/Power+Grid+Model+Home
               SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/PowerGridModel
@@ -2781,6 +2800,8 @@ landscape:
             second_path:
               - System Management / Power System Calculation
               - Project Stack / Business Intelligence
+              - LF Energy Project / Early Adoption
+              - SIG / Grid Simulation and Modeling
             description: >-
               A High-Performance Computing Framework For Grid Simulation and Planning. PowSyBl provides the code building blocks for the simulations and
               analyses of power systems, for horizons from real-time operation to investment planning.
@@ -3022,6 +3043,8 @@ landscape:
               - Customer Premises / Market
               - Customer and Market / Market Platform Gateway
               - Project Stack / Business Intelligence
+              - SIG / Grid Operations
+              - LF Energy Project / Incubation
             homepage_url: https://github.com/shapeshifter
             project: incubation
             repo_url: https://github.com/shapeshifter/shapeshifter-specification
@@ -3048,6 +3071,8 @@ landscape:
               - Distribution / Station
               - System Management / System Control
               - Project Stack / Business Intelligence
+              - SIG / Grid Operations
+              - LF Energy Project / Early Adoption
             homepage_url: https://www.lfenergy.org/projects/sogno/
             project: earlyadoption
             repo_url: https://github.com/sogno-platform/dpsim
@@ -3357,6 +3382,8 @@ landscape:
               - Customer Premises / Enterprise
               - Shared / Unified Operator's UX Components and Framework
               - Project Stack / Business Intelligence
+              - SIG / Grid Operations
+              - LF Energy Project / Early Adoption
             description: >-
               A Smart Assistant For System Operators. OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for use in
               electricity, water, and other utility operations.
@@ -3398,6 +3425,8 @@ landscape:
               - Distribution / Operation
               - DER / Operation
               - Customer Premises / Operation
+              - LF Energy Project / Sandbox
+              - SIG / Grid Simulation and Modeling
             description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
             homepage_url: https://arras.energy/
             project: sandbox
@@ -3408,7 +3437,7 @@ landscape:
             extra:
               artwork: https://artwork.lfenergy.org/projects/arras/
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
-              slack_channel: 'null'
+              slack_channel: '#arras'
               LFX_insights_url: none
               wiki_page: https://wiki.lfenergy.org/display/FLEX
               SBOM: none
@@ -3466,7 +3495,7 @@ landscape:
             organization:
               name: Quintel
           - item:
-            name: Grid eXchange Fabric
+            name: Grid eXchange Fabric (GXF)
             second_path:
               - Generation / Operation
               - Transmission / Operation
@@ -3475,6 +3504,8 @@ landscape:
               - Customer Premises / Operation
               - Acquisition and Control / Infrastructure Management
               - Project Stack / Central Supporting Services
+              - SIG / Grid Operations
+              - LF Energy Project / Early Adoption
             description: >-
               Control and Monitor Smart Devices. Grid eXchange Fabric (GXF) allows you to monitor and control hardware in the public space. With several
               (generic) functions ready to use, the main benefits of GXF are scalability & high availability, high security, its generic design, and no vendor
@@ -3537,7 +3568,7 @@ landscape:
             logo: gridappsd-text.svg
             crunchbase: https://www.crunchbase.com/organization/gridapps-d
           - item:
-            name: GRIP (Grid Resilience and Intelligence Platform)
+            name: Grid Resilience and Intelligence Platform (GRIP)
             homepage_url: https://grip-project.energy
             project: sandbox
             repo_url: https://github.com/gripenergy/grip-integration
@@ -3550,6 +3581,9 @@ landscape:
               wiki_page: https://wiki.lfenergy.org/display/GRIP
               artwork: https://artwork.lfenergy.org/projects/GRIP/
               leads: Aliou Diate
+            second_path:
+              - LF Energy Project / Sandbox
+              - SIG / Grid Simulation and Modeling
           - item:
             name: Gym-ANM
             description: Design Reinforcement Learning environments that model Active Network Management tasks in electricity distribution networks.
@@ -3764,6 +3798,8 @@ landscape:
               - Distribution / Enterprise
               - DER / Enterprise
               - Customer Premises / Enterprise
+              - SIG / Grid Operations
+              - LF Energy Project / Sandbox
             homepage_url: https://rtdip.io
             project: sandbox
             repo_url: https://github.com/rtdip/core
@@ -3823,6 +3859,8 @@ landscape:
               - Distribution / Field
               - Acquisition and Control / Substation Node
               - Project Stack / Edge & Distributed Intelligence
+              - SIG / Digital Substations Automation Systems (DSAS)
+              - LF Energy Project / Early Adoption
             description: >-
               SEAPATH, Software Enabled Automation Platform and Artifacts (THerein), aims at developing a “reference design” and “industrial grade” open source
               real-time platform that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially
@@ -3907,6 +3945,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               artwork: https://artwork.lfenergy.org/projects/TROLIE/
+            second_path:
+              - LF Energy Project / Standards
+              - SIG / Data Standards and Tooling
       - subcategory:
         name: Datasets on Energy Systems
         items:
@@ -4893,6 +4934,9 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_channel: '#citrineos'
               wiki_page: https://wiki.lfenergy.org/display/CIT
+            second_path:
+              - SIG / EV Charging
+              - LF Energy Project / Sandbox
           - item:
             name: CityFlow
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
@@ -5007,6 +5051,8 @@ landscape:
               - DER / Field
               - Acquisition and Control / Infrastructure Management
               - Project Stack / Edge & Distributed Intelligence
+              - SIG / EV Charging
+              - LF Energy Project / Early Adoption
             homepage_url: https://www.lfenergy.org/projects/everest/
             project: earlyadoption
             repo_url: https://github.com/EVerest/EVerest
@@ -5914,6 +5960,8 @@ landscape:
             second_path:
               - Project Stack / Central Supporting Services
               - Asset Management / Data Management
+              - LF Energy Project / Standards
+              - SIG / Data Standards and Tooling
             homepage_url: https://carbondataspec.org/
             project: lfess
             repo_url: https://github.com/carbon-data-specification/Steering_Committee
@@ -9996,6 +10044,9 @@ landscape:
             project_org: https://github.com/covxtreme
             logo: covxtreme.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            second_path:
+              - LF Energy Project / Sandbox
+              - SIG / Grid Simulation and Modeling
           - item:
             name: MetPy
             description: A collection of tools in Python for reading, visualizing and performing calculations with weather data.
@@ -14849,3 +14900,42 @@ landscape:
             twitter: https://twitter.com/wattTime
             organization:
               name: WattTime Corporation
+  - category:
+    name: SIG
+    subcategories:
+      - subcategory:
+        name: Digital Substations Automation Systems (DSAS)
+        items: []
+      - subcategory:
+        name: EV Charging
+        items: []
+      - subcategory:
+        name: Grid Operations
+        items: []
+      - subcategory:
+        name: Grid Simulation and Modeling
+        items: []
+      - subcategory:
+        name: Data Standards and Tooling
+        items: []
+  - category:
+    name: LF Energy Project
+    subcategories:
+      - subcategory:
+        name: Sandbox
+        items: []
+      - subcategory:
+        name: Incubation
+        items: []
+      - subcategory:
+        name: Early Adoption
+        items: []
+      - subcategory:
+        name: Graduated
+        items: []
+      - subcategory:
+        name: Emeritus
+        items: []
+      - subcategory:
+        name: Standards
+        items: []

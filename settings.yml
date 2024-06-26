@@ -138,9 +138,9 @@ home:
     here</a> to update an existing landscape entry</h2> <p>We would like to thank <a href="https://opensustain.tech/">Open Sustainable Technology</a> for it's
     work in curating the list of projects in this landscape.</p>
 ads:
-  - url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/?utm_source=lfenergy_landscape&utm_medium=web&utm_campaign=kccncna19
+  - url: https://events.linuxfoundation.org/lfenergysummit/
     image: /images/info1.jpg
-    title: Kubecon + CloudNativeCon Europe 2020
+    title: LF Energy Summit 2024
 presets:
   - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
     label: Open source cards by age
@@ -372,14 +372,62 @@ big_picture:
         color: '#003764'
         is_large: false
     category: Project Stack
+  sigs:
+    tab_index: 3
+    name: SIGs
+    url: sigs
+    title: SIGs
+    category: SIG
+    elements:
+      - type: VerticalCategory
+        is_large: true
+        category: Digital Substations Automation Systems (DSAS)
+        width: 300
+        height: 200
+        top: 0
+        left: 0
+        color: '#003764'
+      - type: VerticalCategory
+        is_large: true
+        category: EV Charging
+        width: 300
+        height: 200
+        top: 0
+        left: 320
+        color: '#003764'
+      - type: VerticalCategory
+        is_large: true
+        category: Grid Operations
+        width: 300
+        height: 200
+        top: 220
+        left: 0
+        color: '#003764'
+      - type: VerticalCategory
+        is_large: true
+        category: Grid Simulation and Modeling
+        width: 300
+        height: 400
+        top: 220
+        left: 320
+        color: '#003764'
+      - type: VerticalCategory
+        is_large: true
+        category: Data Standards and Tooling
+        width: 300
+        height: 200
+        top: 440
+        left: 0
+        color: '#003764'
 test:
   header: LF Energy Interactive Landscape
   section: LF Energy Members
   logo: operator-fabric.svg
 prerender:
   members: /card-mode?category=lf-energy-member&grouping=category&embed=yes&style=borderless
-  hosted-projects-notgrouped: /card-mode?grouping=no&project=graduated,earlyadoption,incubation,sandbox,active,working-group&style=borderless&embed=yes
-  hosted-projects: card-mode?project=graduated,earlyadoption,incubation,sandbox,active,working-group&style=borderless&embed=yes
+  hosted-projects-notgrouped: /card-mode?grouping=no&project=graduated,earlyadoption,incubation,sandbox,lfess&style=borderless&embed=yes
+  hosted-projects: card-mode?project=graduated,earlyadoption,incubation,sandbox,lfess&style=borderless&embed=yes
+  hosted-projects-bysig: /card-mode?category=sig&grouping=category&embed=yes&style=borderless
   lfess: card-mode?project=lfess&style=borderless&embed=yes
   opensustaintech: >-
     /card-mode?category=renewable-energy,energy-storage,energy-systems,consumption-of-energy-and-resources,emissions,industrial-ecology,earth-systems,climate-and-earth-science,natural-resources,sustainable-development&grouping=category
