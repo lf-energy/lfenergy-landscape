@@ -4893,7 +4893,9 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_channel: '#citrineos'
               wiki_page: https://wiki.lfenergy.org/display/CIT
-            second_path: '- SIG / EV Charging'
+            second_path:
+              - SIG / EV Charging
+              - LF Energy Project / Sandbox
           - item:
             name: CityFlow
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
@@ -14867,4 +14869,25 @@ landscape:
         items: []
       - subcategory:
         name: Data Standards and Tooling
+        items: []
+  - category:
+    name: LF Energy Projects
+    subcategories:
+      - subcategory:
+        name: Sandbox
+        items: []
+      - subcategory:
+        name: Incubating
+        items: []
+      - subcategory:
+        name: Early Adoption
+        items: []
+      - subcategory:
+        name: Graduated
+        items: []
+      - subcategory:
+        name: Emertius
+        items: []
+      - subcategory:
+        name: Standards
         items: []
