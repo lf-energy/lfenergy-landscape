@@ -379,8 +379,20 @@ big_picture:
     title: SIGs
     category: SIGs
     elements:
-      - type: HorizontalCategory
-        is_large: false
+      - type: VerticalCategory
+        is_large: true
+        category: Digital Substations Automation Systems (DSAS)
+        width: 300
+        height: 200
+        top: 0
+        left: 0
+      - type: VerticalCategory
+        is_large: true
+        category: EV Charging
+        width: 300
+        height: 200
+        top: 0
+        left: 320
 test:
   header: LF Energy Interactive Landscape
   section: LF Energy Members
