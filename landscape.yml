@@ -1380,6 +1380,9 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sandia-national-laboratories
           - item:
             name: Battery Data Alliance
+            second_path:
+              - LF Energy Project / Sandbox
+              - SIG / Data Standards and Tooling
             homepage_url: https://batterydataalliance.energy
             project: sandbox
             repo_url: https://github.com/BatteryDataAlliance/battery-data-interface
@@ -1388,9 +1391,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               artwork: https://artwork.lfenergy.org/projects/BatteryDataAlliance/
-            second_path:
-              - LF Energy Project / Sandbox
-              - SIG / Data Standards and Tooling
           - item:
             name: BatterySense
             description: >-
@@ -2596,15 +2596,15 @@ landscape:
               name: OpenIPSL
           - item:
             name: OpenSCD
+            second_path:
+              - SIG / Digital Substations Automation Systems (DSAS)
+              - LF Energy Project / Sandbox
             homepage_url: https://openscd.energy
             project: sandbox
             repo_url: https://github.com/openscd/open-scd
             project_org: https://github.com/openscd
             logo: openscd.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
-            second_path:
-              - SIG / Digital Substations Automation Systems (DSAS)
-              - LF Energy Project / Sandbox
           - item:
             name: OpenSTEF
             second_path:
@@ -3538,6 +3538,23 @@ landscape:
             logo: gridprotectionalliance.svg
             crunchbase: https://www.crunchbase.com/organization/grid-protection-alliance
           - item:
+            name: Grid Resilience and Intelligence Platform (GRIP)
+            second_path:
+              - LF Energy Project / Sandbox
+              - SIG / Grid Simulation and Modeling
+            homepage_url: https://grip-project.energy
+            project: sandbox
+            repo_url: https://github.com/gripenergy/grip-integration
+            project_org: https://github.com/gripenergy
+            logo: grip.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              mailing_list_url: https://lists.lfenergy.org/g/grip-discussion
+              slack_channel: '#grip'
+              wiki_page: https://wiki.lfenergy.org/display/GRIP
+              artwork: https://artwork.lfenergy.org/projects/GRIP/
+              leads: Aliou Diate
+          - item:
             name: Grid Singularity Energy Exchange Engine (D3A)
             description: An interface to download and deploy interconnected, grid-aware energy marketplaces.
             homepage_url: https://github.com/gridsingularity/gsy-e
@@ -3567,23 +3584,6 @@ landscape:
             project_org: https://github.com/GRIDAPPSD
             logo: gridappsd-text.svg
             crunchbase: https://www.crunchbase.com/organization/gridapps-d
-          - item:
-            name: Grid Resilience and Intelligence Platform (GRIP)
-            homepage_url: https://grip-project.energy
-            project: sandbox
-            repo_url: https://github.com/gripenergy/grip-integration
-            project_org: https://github.com/gripenergy
-            logo: grip.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/grip-discussion
-              slack_channel: '#grip'
-              wiki_page: https://wiki.lfenergy.org/display/GRIP
-              artwork: https://artwork.lfenergy.org/projects/GRIP/
-              leads: Aliou Diate
-            second_path:
-              - LF Energy Project / Sandbox
-              - SIG / Grid Simulation and Modeling
           - item:
             name: Gym-ANM
             description: Design Reinforcement Learning environments that model Active Network Management tasks in electricity distribution networks.
@@ -3937,6 +3937,9 @@ landscape:
               name: 'iTEM: International Transport Energy Modeling'
           - item:
             name: TROLIE
+            second_path:
+              - LF Energy Project / Standards
+              - SIG / Data Standards and Tooling
             homepage_url: https://trolie.energy/
             project: lfess
             repo_url: https://github.com/trolie/spec
@@ -3945,9 +3948,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               artwork: https://artwork.lfenergy.org/projects/TROLIE/
-            second_path:
-              - LF Energy Project / Standards
-              - SIG / Data Standards and Tooling
       - subcategory:
         name: Datasets on Energy Systems
         items:
@@ -4923,6 +4923,9 @@ landscape:
               topics: transparency,eichrecht,electron,chargy,smartmetering,evroamingdeluxe,premiumeichrecht,evroaming,e-mobility
           - item:
             name: CitrineOS
+            second_path:
+              - SIG / EV Charging
+              - LF Energy Project / Sandbox
             homepage_url: https://citrineos.energy
             project: sandbox
             repo_url: https://github.com/citrineos/citrineos
@@ -4934,9 +4937,6 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_channel: '#citrineos'
               wiki_page: https://wiki.lfenergy.org/display/CIT
-            second_path:
-              - SIG / EV Charging
-              - LF Energy Project / Sandbox
           - item:
             name: CityFlow
             description: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario.
@@ -10038,15 +10038,15 @@ landscape:
               topics: climate,climate-data,meteorological-data,meteorology,ogimet,imgw,sounding,r,noaa-data,r-package
           - item:
             name: covXtreme
+            second_path:
+              - LF Energy Project / Sandbox
+              - SIG / Grid Simulation and Modeling
             homepage_url: https://covxtreme.energy
             project: sandbox
             repo_url: https://github.com/covxtreme/.github
             project_org: https://github.com/covxtreme
             logo: covxtreme.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
-            second_path:
-              - LF Energy Project / Sandbox
-              - SIG / Grid Simulation and Modeling
           - item:
             name: MetPy
             description: A collection of tools in Python for reading, visualizing and performing calculations with weather data.
