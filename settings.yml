@@ -383,7 +383,7 @@ big_picture:
         is_large: true
         category: Digital Substations Automation Systems (DSAS)
         width: 300
-        height: 200
+        height: 180
         top: 0
         left: 0
         color: '#003764'
@@ -391,32 +391,32 @@ big_picture:
         is_large: true
         category: EV Charging
         width: 300
-        height: 200
-        top: 0
-        left: 320
+        height: 180
+        top: 200
+        left: 0
         color: '#003764'
       - type: VerticalCategory
         is_large: true
         category: Grid Operations
         width: 300
-        height: 200
-        top: 220
-        left: 0
+        height: 300
+        left: 320
         color: '#003764'
+        top: 0
       - type: VerticalCategory
         is_large: true
         category: Grid Simulation and Modeling
         width: 300
-        height: 400
-        top: 220
+        height: 300
+        top: 320
         left: 320
         color: '#003764'
       - type: VerticalCategory
         is_large: true
         category: Data Standards and Tooling
         width: 300
-        height: 200
-        top: 440
+        height: 180
+        top: 400
         left: 0
         color: '#003764'
 test:

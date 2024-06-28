@@ -3285,6 +3285,8 @@ landscape:
               - DER / Market
               - Asset Management / Data Management
               - Project Stack / Business Intelligence
+              - LF Energy Project / Incubation
+              - SIG / Grid Operations
             description: A platform for building energy flexibility services with forecasting and scheduling, written in Python & offering a USEF-conform API.
             homepage_url: https://flexmeasures.io
             project: incubation
@@ -3325,6 +3327,8 @@ landscape:
             second_path:
               - Customer and Market / Customer Relationship and Communication
               - Project Stack / Business Intelligence
+              - LF Energy Project / Incubation
+              - SIG / Data Standards and Tooling
             description: >-
               Consistent treatment of energy meter data for demand flexibility. Generates consistent and replicable results by always using the same methods to
               determine changes in energy consumption-there are no discretionary independent variables that change from calculation to calculation.
@@ -3648,6 +3652,8 @@ landscape:
               - DER / Station
               - Acquisition and Control / Edge Node Control
               - Project Stack / Edge & Distributed Intelligence
+              - LF Energy Project / Incubation
+              - SIG / Grid Operations
             description: A friendly and compliant OpenADR implementation for Python 3
             homepage_url: https://www.lfenergy.org/projects/openleadr/
             project: incubation
@@ -5455,6 +5461,8 @@ landscape:
               - DER / Field
               - Customer and Market / Customer Relationship and Communication
               - Project Stack / Central Supporting Services
+              - LF Energy Project / Standards
+              - SIG / Data Standards and Tooling
             description: LF Energy project focused on enabling advanced smart meter solutions.
             homepage_url: https://superadvancedmeter.energy
             project: lfess
@@ -13592,6 +13600,9 @@ landscape:
             project_org: https://github.com/opensynth-energy
             logo: opensynth.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            second_path:
+              - LF Energy Project / Sandbox
+              - SIG / Data Standards and Tooling
           - item:
             name: owid-catalog
             description: A Pythonic API for working with Our World in Data catalog.
