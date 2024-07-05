@@ -13823,6 +13823,7 @@ landscape:
             logo: artelys.svg
             organization:
               name: ARTELYS
+              linkedin: https://www.linkedin.com/company/artelys
           - item:
             name: Aspen Technology, Inc. (member)
             homepage_url: https://aspentech.com/
@@ -13998,18 +13999,18 @@ landscape:
             twitter: https://twitter.com/EnAccessFdn
             crunchbase: https://www.crunchbase.com/organization/enaccess-foundation
           - item:
-            name: Energy Foundation (member)
-            homepage_url: https://ef.org/
-            logo: energy_foundation.svg
-            twitter: https://twitter.com/EnergyFdn
-            crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
-          - item:
             name: EnergyAi (member)
             homepage_url: https://energyai.berlin/
             logo: energyai.svg
             organization:
               name: EnergyAi
               linkedin: null
+          - item:
+            name: Energy Foundation (member)
+            homepage_url: https://ef.org/
+            logo: energy_foundation.svg
+            twitter: https://twitter.com/EnergyFdn
+            crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
           - item:
             name: EnergyTag (member)
             homepage_url: https://energytag.org/
@@ -14076,6 +14077,12 @@ landscape:
             twitter: https://twitter.com/NREL
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
+            name: OpenADR Alliance (member)
+            homepage_url: https://openadr.org/
+            logo: openadr_alliance.svg
+            twitter: https://twitter.com/OpenADRAlliance
+            crunchbase: https://www.crunchbase.com/organization/openadr-alliance
+          - item:
             name: Open Climate Fix (member)
             homepage_url: https://openclimatefix.org/
             logo: open_climate_fix.svg
@@ -14088,12 +14095,6 @@ landscape:
             homepage_url: https://openearth.org/
             logo: open_earth_foundation.svg
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
-          - item:
-            name: OpenADR Alliance (member)
-            homepage_url: https://openadr.org/
-            logo: openadr_alliance.svg
-            twitter: https://twitter.com/OpenADRAlliance
-            crunchbase: https://www.crunchbase.com/organization/openadr-alliance
           - item:
             name: OpenUK (member)
             homepage_url: https://openuk.uk/
@@ -14214,7 +14215,9 @@ landscape:
               - Customer Premises / Operation
               - Energy Systems / Distribution and Grids
               - SIG / Grid Simulation and Modeling
-            description: Arras is an open-source simulation and analysis tool that models emerging smart grid energy technologies.
+            description: >-
+              The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with
+              special attention to electric energy delivery systems.
             homepage_url: https://arras.energy/
             project: sandbox
             repo_url: https://github.com/arras-energy/tsc
@@ -14222,7 +14225,7 @@ landscape:
             logo: arras.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/arras/
+              artwork_url: https://artwork.lfenergy.org/projects/arras/
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
               slack_channel: '#arras'
               LFX_insights_url: none
@@ -14233,6 +14236,8 @@ landscape:
               contribution_guidelines: https://github.com/arras-energy/tsc/blob/main/CONTRIBUTING.md
               leads: David Chassin
               topics: energy,platform,collaboration,linux-foundation,hypervision,alerting
+              accepted: '2023-01-03'
+              slug: gridlabd
           - item:
             name: Battery Data Alliance
             second_path:
@@ -14242,10 +14247,12 @@ landscape:
             project: sandbox
             repo_url: https://github.com/BatteryDataAlliance/battery-data-interface
             project_org: https://github.com/BatteryDataAlliance
-            logo: batterydataalliance.svg
+            logo: battery_data_alliance.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/BatteryDataAlliance/
+              artwork_url: https://artwork.lfenergy.org/projects/BatteryDataAlliance/
+              accepted: '2024-02-28'
+              slug: battery-data-alliance
           - item:
             name: Carbon Data Specification Consortium (CDSC)
             second_path:
@@ -14260,7 +14267,7 @@ landscape:
             logo: carbon-data-specification.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfess.energy/projects/cdsc/
+              artwork_url: https://artwork.lfess.energy/projects/cdsc/
               mailing_list_url: https://lists.lfenergy.org/g/cdsc-tsc
               slack_channel: '#cdsc'
               LFX_insights_url: none
@@ -14283,7 +14290,7 @@ landscape:
             logo: citrineos.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/CitrineOS/
+              artwork_url: https://artwork.lfenergy.org/projects/CitrineOS/
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_channel: '#citrineos'
               wiki_page: https://wiki.lfenergy.org/display/CIT
@@ -14299,18 +14306,23 @@ landscape:
               - SIG / Digital Substations Automation Systems (DSAS)
               - Energy Systems / Modeling and Optimization
             description: >-
-              Configuration Modules for Power industry Automation Systems. The CoMPAS project was formed to develop open source software components related to
-              IEC 61850 model implementation (profile management) and configuration of a power industry Protection Automation and Control System (PACS). CoMPAS
-              is part of the Digital Substation (DSAS) Initiative.
+              The CoMPAS project was formed as the first project in LF Energy’s Digital Substation Automation Systems (DSAS) initiative. The primary goal of the
+              CoMPAS project is to develop open source software components related to IEC 61850 model implementation, specifically for profile management and
+              configuration of a power industry Protection Automation and Control System (PACS).
+
+
+              CoMPAS (Configuration Modules for Power industry Automation Systems is being developed using several guiding principles, including the use of
+              cross-platform Docker-based microservices along with a lightweight browser client, multiple language support for the user interface, scriptable
+              controls, and the ability to integrate third-party tools.
             homepage_url: https://www.lfenergy.org/projects/compas/
             project: incubation
-            repo_url: https://github.com/com-pas/.github
+            repo_url: https://github.com/com-pas/compas-core
             project_org: https://github.com/com-pas
             url_for_bestpractices: https://github.com/com-pas/compas-core
-            logo: LFE_CoMPAS.svg
+            logo: compas.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/compas/
+              artwork_url: https://artwork.lfenergy.org/projects/compas/
               mailing_list_url: https://lists.lfenergy.org/g/CoMPAS
               slack_channel: '#compas'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fcompas
@@ -14320,6 +14332,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/compas/calendar
               contribution_guidelines: https://com-pas.github.io/contributing/
               leads: Pascal Wilbrink
+              accepted: '2020-07-06'
+              slug: compas
           - item:
             name: covXtreme
             second_path:
@@ -14331,6 +14345,9 @@ landscape:
             project_org: https://github.com/covxtreme
             logo: covxtreme.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-06-04'
+              slug: covxtreme
           - item:
             name: Dynaωo
             second_path:
@@ -14342,10 +14359,10 @@ landscape:
             project: incubation
             repo_url: https://github.com/dynawo/dynawo
             project_org: https://github.com/dynawo
-            logo: dynawo.svg
+            logo: dynaoo.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/dynawo/
+              artwork_url: https://artwork.lfenergy.org/projects/dynawo/
               mailing_list_url: https://lists.lfenergy.org/g/dynawo
               slack_channel: '#dynawo'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fdynawo
@@ -14355,6 +14372,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/dynawo/calendar
               contribution_guidelines: https://github.com/dynawo/.github/blob/master/CONTRIBUTING.md
               leads: Marco Chiaramello
+              accepted: '2023-11-30'
+              slug: dynawo
           - item:
             name: EVerest
             second_path:
@@ -14371,7 +14390,7 @@ landscape:
             logo: everest.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/everest/
+              artwork_url: https://artwork.lfenergy.org/projects/everest/
               mailing_list_url: https://lists.lfenergy.org/g/everest
               slack_channel: '#everest'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Feverest
@@ -14381,8 +14400,10 @@ landscape:
               calendar: https://lists.lfenergy.org/g/everest/calendar
               contribution_guidelines: https://github.com/EVerest/everest/blob/main/CONTRIBUTING.md
               leads: Marco Möller
+              accepted: '2022-02-09'
+              slug: everest
           - item:
-            name: FledgePOWER
+            name: FledgePower
             second_path:
               - Generation / Operation
               - Generation / Station
@@ -14400,10 +14421,10 @@ landscape:
             repo_url: https://github.com/fledge-power/contributing
             project_org: https://github.com/fledge-power
             url_for_bestpractices: https://github.com/fledge-power
-            logo: fledge-power.svg
+            logo: fledgepower.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/fledgepower/
+              artwork_url: https://artwork.lfenergy.org/projects/fledgepower/
               mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
               slack_channel: '#fledgepower'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
@@ -14413,6 +14434,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/fledgepower-tsc/calendar
               contribution_guidelines: https://github.com/fledge-power/contributing/blob/main/CONTRIBUTING.md
               leads: Akli Rahmoun, RTE
+              accepted: '2021-02-16'
+              slug: fledgepower
           - item:
             name: FlexMeasures
             second_path:
@@ -14426,15 +14449,17 @@ landscape:
               - Project Stack / Business Intelligence
               - Energy Systems / Monitoring and Control
               - SIG / Grid Operations
-            description: A platform for building energy flexibility services with forecasting and scheduling, written in Python & offering a USEF-conform API.
-            homepage_url: https://flexmeasures.io
+            description: |-
+              The FlexMeasures Platform is a tool for building real-time energy flexibility services,
+              rapidly and scalable
+            homepage_url: https://flexmeasures.io/
             project: incubation
-            repo_url: https://github.com/FlexMeasures/flexmeasures
+            repo_url: https://github.com/SeitaBV/flexmeasures
             project_org: https://github.com/flexmeasures
             logo: flexmeasures.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/flexmeasures/
+              artwork_url: https://artwork.lfenergy.org/projects/flexmeasures/
               mailing_list_url: https://lists.lfenergy.org/g/flexmeasures
               slack_channel: '#flexmeasures'
               LFX_insights_url: none
@@ -14445,6 +14470,8 @@ landscape:
               contribution_guidelines: https://github.com/FlexMeasures/tsc/blob/main/CONTRIBUTING.md
               leads: Nicolas Höning
               topics: energy,energy-data,energy-flexibility,backend,machine-learning
+              accepted: '2022-01-05'
+              slug: flexmeasures
           - item:
             name: Grid Capacity Map
             second_path:
@@ -14457,18 +14484,18 @@ landscape:
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             description: >-
-              A map that gives customers and stakeholders public information about grid capacity and grid connection cost in different locations. The purpose is
-              to give early indication to customers that want to connect to the grid. The aim is to ensure customer and stakeholders expectations on grid
-              connections are realistic to give a better connection experience with fewer surprises for both grid owner (DSO/TSO), grid customers and other
-              stakeholders.
+              Grid Capacity Map is a project that aims to give customers and stakeholders public information about grid capacity and grid connection costs in
+              different locations. The purpose is to give an early indication to customers that want to connect to the grid and to ensure customer and
+              stakeholders expectations on-grid connections are realistic to give a better connection experience with fewer surprises for both grid owner
+              (DSO/TSO),  grid customers, and other stakeholders.
             homepage_url: https://github.com/gridcapacitymap
             project: sandbox
             repo_url: https://github.com/gridcapacitymap/tsc
             project_org: https://github.com/gridcapacitymap
-            logo: grid-capacity-map.svg
+            logo: grid_capacity_map.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/gridcapacitymap/
+              artwork_url: https://artwork.lfenergy.org/projects/gridcapacitymap/
               mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
               slack_channel: none
               LFX_insights_url: none
@@ -14478,6 +14505,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/gridcapacitymap-tsc/calendar
               contribution_guidelines: none
               leads: Harald Klomp
+              accepted: '2022-02-28'
+              slug: grid-capacity-map
           - item:
             name: Grid eXchange Fabric (GXF)
             second_path:
@@ -14491,18 +14520,24 @@ landscape:
               - SIG / Grid Operations
               - Energy Systems / Distribution and Grids
             description: >-
-              Control and Monitor Smart Devices. Grid eXchange Fabric (GXF) allows you to monitor and control hardware in the public space. With several
-              (generic) functions ready to use, the main benefits of GXF are scalability & high availability, high security, its generic design, and no vendor
-              lock-in.
-            homepage_url: https://www.lfenergy.org/projects/gxf
+              Grid eXchange Fabric (GXF) is a software platform that enables hardware monitoring and control in the public space. GXF provides several functions
+              out of the box and provides scalability & high availability, high security, a generic design, and no vendor lock-in. GXF is currently deployed in
+              several public use cases, including microgrids, smart metering, public lighting, and distribution automation.
+
+
+              GXF is open, independent, and driven by its community, developed using open source best practices and designed to use open standards. This enables
+              third parties to develop new and innovative solutions. The trade-off is flexibility and freedom. Unlike closed proprietary software, open source
+              software can be altered and extended by any developer familiar with the source code. This grants organizations freedom from “vendor lock-in,”
+              assures long-term viability, and creates industry opportunities for support, consulting, and training.
+            homepage_url: https://www.lfenergy.org/projects/gxf/
             project: earlyadoption
-            repo_url: https://github.com/OSGP/open-smart-grid-platform
-            project_org: https://github.com/OSGP
+            repo_url: https://github.com/OSGP/Shared
+            project_org: https://github.com/osgp
             url_for_bestpractices: https://github.com/osgp
-            logo: gxf.svg
+            logo: grid_exchange_fabric_gxf.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/grid-exchange-fabric/
+              artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-fabric/
               mailing_list_url: https://lists.lfenergy.org/g/gxf
               slack_channel: '#gxf'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fgrid-exchange-fabric
@@ -14512,6 +14547,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/gxf/calendar
               contribution_guidelines: https://documentation.gxf.lfenergy.org/opensourcecommunity/governance.html
               leads: Maarten Mulder
+              accepted: '2020-02-04'
+              slug: grid-exchange-frabric
           - item:
             name: Grid Resilience and Intelligence Platform (GRIP)
             second_path:
@@ -14527,7 +14564,7 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/grip-discussion
               slack_channel: '#grip'
               wiki_page: https://wiki.lfenergy.org/display/GRIP
-              artwork: https://artwork.lfenergy.org/projects/GRIP/
+              artwork_url: https://artwork.lfenergy.org/projects/GRIP/
               leads: Aliou Diate
           - item:
             name: Hyphae
@@ -14545,7 +14582,7 @@ landscape:
             logo: hyphae.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/hyphae/
+              artwork_url: https://artwork.lfenergy.org/projects/hyphae/
               mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
               slack_channel: '#hyphae'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fhyphae
@@ -14555,17 +14592,23 @@ landscape:
               calendar: https://lists.lfenergy.org/g/hyphae-tsc/calendar
               contribution_guidelines: none
               leads: Arila Barnes
+              accepted: '2021-02-16'
+              slug: hyphae
           - item:
-            name: OpenEEmeter
+            name: OpenEEMeter
             second_path:
               - Customer and Market / Customer Relationship and Communication
               - Project Stack / Business Intelligence
               - Energy Systems / Monitoring and Control
               - SIG / Data Standards and Tooling
             description: >-
-              Consistent treatment of energy meter data for demand flexibility. Generates consistent and replicable results by always using the same methods to
-              determine changes in energy consumption-there are no discretionary independent variables that change from calculation to calculation.
-            homepage_url: http://eemeter.openee.io/
+              OpenEEmeter is an open source toolkit for implementing and developing standard methods for calculating normalized metered energy consumption
+              (NMEC) and avoided energy use. The OpenEEmeter library contains routines for estimating energy efficiency savings at the meter.
+
+
+              OpenEEmeter includes the reference implementation of the CalTRACK methods for estimating normalized metered energy savings. CalTRACK is a working
+              group under the Energy Market Methods Consortium (EM2).
+            homepage_url: https://www.lfenergy.org/projects/openeemeter/
             project: incubation
             repo_url: https://github.com/openeemeter/eemeter
             project_org: https://github.com/openeemeter
@@ -14573,7 +14616,7 @@ landscape:
             logo: openeemeter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/openeemeter/
+              artwork_url: https://artwork.lfenergy.org/projects/openeemeter/
               mailing_list_url: https://lists.lfenergy.org/g/openeemeter
               slack_channel: '#openeemeter'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
@@ -14584,22 +14627,26 @@ landscape:
               contribution_guidelines: https://github.com/openeemeter/eemeter/blob/master/CONTRIBUTING.md
               leads: Travis Sikes
               topics: energy,efficiency,energy-data,energy-efficiency,building-energy,weather,weather-data,weather-station
+              slug: openeemeter
+              accepted: '2019-06-04'
           - item:
             name: OpenGEH
             second_path:
               - Shared / Data Management
               - Energy Systems / Modeling and Optimization
               - Project Stack / Business Intelligence
-            homepage_url: https://opengeh.energy
+            homepage_url: https://opengeh.energy/
             project: sandbox
             repo_url: https://github.com/opengeh/.github
             project_org: https://github.com/opengeh
             logo: opengeh.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/opengeh/
+              artwork_url: https://artwork.lfenergy.org/projects/opengeh/
+              accepted: '2022-03-15'
+              slug: green-energy-hub
           - item:
-            name: openLEADR
+            name: OpenLEADR
             second_path:
               - Customer Premises / Field
               - Customer Premises / Operation
@@ -14611,15 +14658,17 @@ landscape:
               - Project Stack / Edge & Distributed Intelligence
               - Energy Systems / Distribution and Grids
               - SIG / Grid Operations
-            description: A friendly and compliant OpenADR implementation for Python 3
+            description: >-
+              This mission of the OpenLEADR project is to develop an OpenADR open source project to accelerate adoption and integration of distributed energy
+              resources into the electric grid.
             homepage_url: https://www.lfenergy.org/projects/openleadr/
             project: incubation
             repo_url: https://github.com/OpenLEADR/openleadr-python
             project_org: https://github.com/OpenLEADR
-            logo: open-leadr.svg
+            logo: openleadr.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/openleadr/
+              artwork_url: https://artwork.lfenergy.org/projects/openleadr/
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
               slack_channel: '#openleadr'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
@@ -14629,6 +14678,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/openLEADR-TSC/calendar
               contribution_guidelines: https://github.com/OpenLEADR/openleadr-tsc/blob/master/CONTRIBUTING.md
               leads: Stan Janssen
+              accepted: '2021-08-03'
+              slug: openleadr
           - item:
             name: OpenSCD
             second_path:
@@ -14660,7 +14711,7 @@ landscape:
             logo: openstef.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/openstef/
+              artwork_url: https://artwork.lfenergy.org/projects/openstef/
               mailing_list_url: https://lists.lfenergy.org/g/openstef
               slack_channel: '#openstef'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenstf
@@ -14671,6 +14722,8 @@ landscape:
               contribution_guidelines: https://github.com/OpenSTEF/.github/blob/main/CONTRIBUTING.md
               leads: Frank Kreuwel
               topics: forecasting,energy,python,data-science,machine-learning,time-series
+              accepted: '2022-02-28'
+              slug: openstf
           - item:
             name: OpenSynth
             second_path:
@@ -14695,16 +14748,32 @@ landscape:
               - SIG / Grid Operations
               - Energy Systems / Monitoring and Control
             description: >-
-              A Smart Assistant For System Operators. OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for use in
-              electricity, water, and other utility operations.
-            homepage_url: https://opfab.github.io/
+              OperatorFabric is a modular, extensible, industrial-strength, and field-tested platform for systems operators. OperatorFabric includes several
+              features essential for electricity, water, and other utility operations.
+
+
+              System visualization and console integration
+
+              Precise alerting
+
+              Workflow scheduling
+
+              Remedial action manager
+
+              Historian
+
+              Scripting (ex: Python, JavaScript)
+
+
+              OperatorFabric has a robust reference implementation called Let’s Coordinate.
+            homepage_url: https://www.lfenergy.org/projects/operatorfabric/
             project: earlyadoption
             repo_url: https://github.com/opfab/operatorfabric-core
             project_org: https://github.com/opfab
             logo: operatorfabric.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/operatorfabric/
+              artwork_url: https://artwork.lfenergy.org/projects/operatorfabric/
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_channel: '#operator-fabric'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Foperator-fabric
@@ -14714,6 +14783,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/opfab-tsc/calendar
               contribution_guidelines: https://opfab.github.io/documentation/current/community/
               leads: Frederic Didier
+              accepted: '2019-04-30'
+              slug: operator-fabric
           - item:
             name: Power Grid Model
             second_path:
@@ -14729,10 +14800,10 @@ landscape:
             project: incubation
             repo_url: https://github.com/PowerGridModel/power-grid-model
             project_org: https://github.com/PowerGridModel
-            logo: powergridmodel.svg
+            logo: power_grid_model.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/PowerGridModel/
+              artwork_url: https://artwork.lfenergy.org/projects/PowerGridModel/
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
               slack_channel: '#powergridmodel'
               LFX_insights_url: https://insights-v2.lfx.linuxfoundation.org/powergridmodel/trends
@@ -14740,6 +14811,8 @@ landscape:
               SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/PowerGridModel
               contribution_guidelines: https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md
               leads: Tony Xiang
+              accepted: '2023-09-21'
+              slug: powergridmodel
           - item:
             name: PowSyBl
             second_path:
@@ -14748,16 +14821,25 @@ landscape:
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             description: >-
-              A High-Performance Computing Framework For Grid Simulation and Planning. PowSyBl provides the code building blocks for the simulations and
-              analyses of power systems, for horizons from real-time operation to investment planning.
-            homepage_url: https://www.powsybl.org
+              PowSyBl (Power System Blocks) is an open source library dedicated to electrical grid modeling and simulation. PowSyBl is written in Java and
+              licensed under the Mozilla Public License 2.0.
+
+
+              PowSyBl may be scripted for a quick solution, but it can also be used as a library to write complex software for power system simulation and
+              analysis. Using PowSyBl, developers can create applications able to perform dynamic power flow simulations and security analyses on the network,
+              handle a variety of formats including CGMES for European data exchanges, and many other tasks.
+
+
+              PowSyBl has a completely modular design, enabling developers to extend or customize its features by providing their own plugins. Modularity is a
+              key value of PowSyBl’s open source design.
+            homepage_url: https://www.lfenergy.org/projects/powsybl/
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
             project_org: https://github.com/powsybl
             logo: powsybl.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/powsysbl/
+              artwork_url: https://artwork.lfenergy.org/projects/powsysbl/
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
               slack_channel: none
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fpowsybl
@@ -14767,6 +14849,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/powsybl-tsc/calendar
               contribution_guidelines: https://www.powsybl.org/pages/contributing/
               leads: Anne Tilloy
+              accepted: '2019-04-30'
+              slug: powsybl
           - item:
             name: Real Time Data Ingestion Platform (RTDIP)
             second_path:
@@ -14788,10 +14872,10 @@ landscape:
             project: sandbox
             repo_url: https://github.com/rtdip/core
             project_org: https://github.com/rtdip
-            logo: rtdip.svg
+            logo: real_time_data_ingestion_platform_rtdip.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/rtdip/
+              artwork_url: https://artwork.lfenergy.org/projects/rtdip/
               mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
               slack_channel: '#rtdip'
               LFX_insights_url: none
@@ -14801,6 +14885,8 @@ landscape:
               calendar: none
               contribution_guidelines: none
               leads: Bryce Bartmann
+              accepted: '2024-06-04'
+              slug: rtdip
           - item:
             name: RIAPS
             second_path:
@@ -14840,13 +14926,13 @@ landscape:
               beyond). This platform is intended to host multi-provider applications.
             homepage_url: https://www.lfenergy.org/projects/seapath/
             project: earlyadoption
-            repo_url: https://github.com/seapath/seapath-architecture
+            repo_url: https://github.com/seapath/.github
             project_org: https://github.com/seapath
             url_for_bestpractices: https://github.com/seapath
             logo: seapath.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/seapath/
+              artwork_url: https://artwork.lfenergy.org/projects/seapath/
               mailing_list_url: https://lists.lfenergy.org/g/SEAPATH
               slack_channel: '#seapath'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fseapath
@@ -14856,6 +14942,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/seapath-TSC/calendar
               contribution_guidelines: https://github.com/seapath/contributing/blob/master/CONTRIBUTING.md
               leads: Eloi Bail
+              accepted: '2021-01-07'
+              slug: seapath
           - item:
             name: Shapeshifter
             second_path:
@@ -14868,15 +14956,15 @@ landscape:
               - Project Stack / Business Intelligence
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
-            homepage_url: https://github.com/shapeshifter
+            homepage_url: https://github.com/shapeshifter-project
             project: incubation
             repo_url: https://github.com/shapeshifter/shapeshifter-specification
-            project_org: https://github.com/shapeshifter
+            project_org: https://github.com/shapeshifter-project
             url_for_bestpractices: https://github.com/shapeshifter/shapeshifter-library
             logo: shapeshifter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/shapeshifter/
+              artwork_url: https://artwork.lfenergy.org/projects/shapeshifter/
               mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
               slack_channel: '#shapeshifter'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
@@ -14886,6 +14974,8 @@ landscape:
               calendar: https://lists.lfenergy.org/g/shapeshifter-discussion/calendar
               contribution_guidelines: https://github.com/shapeshifter/tsc/blob/main/CONTRIBUTING.md
               leads: Robben Riksen
+              accepted: '2021-10-04'
+              slug: uftp
           - item:
             name: SOGNO
             second_path:
@@ -14903,7 +14993,7 @@ landscape:
             logo: sogno.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/sogno/
+              artwork_url: https://artwork.lfenergy.org/projects/sogno/
               mailing_list_url: https://lists.lfenergy.org/g/sogno-discussion
               slack_channel: '#sogno'
               LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fsogno
@@ -14914,6 +15004,8 @@ landscape:
               contribution_guidelines: https://github.com/sogno-platform/tsc/blob/master/CONTRIBUTING.md
               leads: Antonello Monti
               topics: simulation,real-time,dynamic-phasors,powerflow,electromagnetic-transient,power-systems,emt,quasi-stationary
+              accepted: '2021-03-11'
+              slug: sogno
           - item:
             name: Super Advanced Meter (SAM)
             second_path:
@@ -14931,7 +15023,7 @@ landscape:
             logo: sam.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfess.energy/projects/superadvancedmeter
+              artwork_url: https://artwork.lfess.energy/projects/superadvancedmeter
               mailing_list_url: https://lists.lfenergy.org/g/sam-steering-committee
               slack_channel: '#sam-general'
               LFX_insights_url: none
@@ -14953,4 +15045,15 @@ landscape:
             logo: trolie.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork: https://artwork.lfenergy.org/projects/TROLIE/
+              artwork_url: https://artwork.lfenergy.org/projects/TROLIE/
+              accepted: '2023-12-01'
+              slug: trolie
+          - item:
+            name: LF Energy Standards and Specifications (LFESS)
+            homepage_url: https://www.lfenergy.org/
+            logo: lf_energy_standards_and_specifications_lfess.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            description: LFESS supports the development of open standards and specifications in the energy space.
+            extra:
+              slug: lf-energy-standards-and-specifications
+              accepted: '2022-10-13'
