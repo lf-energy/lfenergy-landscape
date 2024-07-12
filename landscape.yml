@@ -13818,35 +13818,21 @@ landscape:
         name: General
         items:
           - item:
-            name: Fluence Energy (LFESS)
-            homepage_url: https://fluenceenergy.com/
-            logo: fluence_energy.svg
-            crunchbase: https://www.crunchbase.com/organization/fluence-417f
-          - item:
-            name: WattTime Corporation (LFESS)
-            homepage_url: https://watttime.org/
-            logo: watttime_corporation.svg
-            twitter: https://twitter.com/wattTime
-            organization:
-              name: WattTime Corporation
-          - item:
             name: Electricity Maps (LFESS)
             homepage_url: https://electricitymap.org/
             logo: electricity_maps.svg
             twitter: https://twitter.com/ElectricityMaps
             crunchbase: https://www.crunchbase.com/organization/electricitymap
           - item:
-            name: WattCarbon (LFESS)
-            homepage_url: https://wattcarbon.com/
-            logo: wattcarbon.svg
-            twitter: https://twitter.com/wattcarbon
-            organization:
-              name: WattCarbon
-          - item:
             name: FlexiDAO (LFESS)
             homepage_url: https://flexidao.com/
             logo: flexidao.svg
             crunchbase: https://www.crunchbase.com/organization/flexidao
+          - item:
+            name: Fluence Energy (LFESS)
+            homepage_url: https://fluenceenergy.com/
+            logo: fluence_energy.svg
+            crunchbase: https://www.crunchbase.com/organization/fluence-417f
           - item:
             name: Midcontinent Independent System Operator, Inc. (LFESS)
             homepage_url: https://www.misoenergy.org/
@@ -13858,6 +13844,20 @@ landscape:
             logo: pierrevf_consulting.svg
             organization:
               name: PierreVF Consulting
+          - item:
+            name: WattCarbon (LFESS)
+            homepage_url: https://wattcarbon.com/
+            logo: wattcarbon.svg
+            twitter: https://twitter.com/wattcarbon
+            organization:
+              name: WattCarbon
+          - item:
+            name: WattTime Corporation (LFESS)
+            homepage_url: https://watttime.org/
+            logo: watttime_corporation.svg
+            twitter: https://twitter.com/wattTime
+            organization:
+              name: WattTime Corporation
   - category:
     name: LF Energy Member
     subcategories:
@@ -14068,17 +14068,17 @@ landscape:
             twitter: https://twitter.com/EnAccessFdn
             crunchbase: https://www.crunchbase.com/organization/enaccess-foundation
           - item:
-            name: EnergyAi (member)
-            homepage_url: https://energyai.berlin/
-            logo: energyai.svg
-            organization:
-              name: EnergyAi
-          - item:
             name: Energy Foundation (member)
             homepage_url: https://ef.org/
             logo: energy_foundation.svg
             twitter: https://twitter.com/EnergyFdn
             crunchbase: https://www.crunchbase.com/organization/the-energy-foundation
+          - item:
+            name: EnergyAi (member)
+            homepage_url: https://energyai.berlin/
+            logo: energyai.svg
+            organization:
+              name: EnergyAi
           - item:
             name: EnergyTag (member)
             homepage_url: https://energytag.org/
@@ -14142,12 +14142,6 @@ landscape:
             twitter: https://twitter.com/NREL
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
-            name: OpenADR Alliance (member)
-            homepage_url: https://openadr.org/
-            logo: openadr_alliance.svg
-            twitter: https://twitter.com/OpenADRAlliance
-            crunchbase: https://www.crunchbase.com/organization/openadr-alliance
-          - item:
             name: Open Climate Fix (member)
             homepage_url: https://openclimatefix.org/
             logo: open_climate_fix.svg
@@ -14159,6 +14153,12 @@ landscape:
             homepage_url: https://openearth.org/
             logo: open_earth_foundation.svg
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
+          - item:
+            name: OpenADR Alliance (member)
+            homepage_url: https://openadr.org/
+            logo: openadr_alliance.svg
+            twitter: https://twitter.com/OpenADRAlliance
+            crunchbase: https://www.crunchbase.com/organization/openadr-alliance
           - item:
             name: OpenUK (member)
             description: Where the UK’s Open communities meet and collaborate
@@ -14656,6 +14656,15 @@ landscape:
               accepted: '2021-02-16'
               slug: hyphae
           - item:
+            name: LF Energy Standards and Specifications (LFESS)
+            description: LFESS supports the development of open standards and specifications in the energy space.
+            homepage_url: https://www.lfenergy.org/
+            logo: lf_energy_standards_and_specifications_lfess.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              slug: lf-energy-standards-and-specifications
+              accepted: '2022-10-13'
+          - item:
             name: OpenEEMeter
             second_path:
               - Customer and Market / Customer Relationship and Communication
@@ -15109,12 +15118,3 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/TROLIE/
               accepted: '2023-12-01'
               slug: trolie
-          - item:
-            name: LF Energy Standards and Specifications (LFESS)
-            homepage_url: https://www.lfenergy.org/
-            logo: lf_energy_standards_and_specifications_lfess.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            description: LFESS supports the development of open standards and specifications in the energy space.
-            extra:
-              slug: lf-energy-standards-and-specifications
-              accepted: '2022-10-13'
