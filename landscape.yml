@@ -14286,19 +14286,20 @@ landscape:
             logo: arras.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/arras/
+              artwork_url: https://artwork.lfenergy.org/projects/gridlabd
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
-              slack_channel: '#arras'
-              LFX_insights_url: none
-              wiki_page: https://wiki.lfenergy.org/display/FLEX
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/arras-discussion/calendar
-              contribution_guidelines: https://github.com/arras-energy/tsc/blob/main/CONTRIBUTING.md
-              leads: David Chassin
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#arras'
               topics: energy,platform,collaboration,linux-foundation,hypervision,alerting
               accepted: '2023-01-03'
               slug: gridlabd
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=gridlabd
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gridlabd
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmTQAV
+              annual_review_date: '2023-07-25'
+              annual_review_url: https://github.com/lf-energy/tac/issues/104
+              next_annual_review_date: '2024-07-16'
+              chair: David Chassin
           - item:
             name: Battery Data Alliance
             second_path:
@@ -14311,9 +14312,13 @@ landscape:
             logo: battery_data_alliance.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/BatteryDataAlliance/
+              artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
               accepted: '2024-02-28'
               slug: battery-data-alliance
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=battery-data-alliance
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/battery-data-alliance
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfomTQpTLl3A7cDHjh
+            description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
           - item:
             name: Carbon Data Specification Consortium (CDSC)
             second_path:
@@ -14330,14 +14335,8 @@ landscape:
             extra:
               artwork_url: https://artwork.lfess.energy/projects/cdsc/
               mailing_list_url: https://lists.lfenergy.org/g/cdsc-tsc
-              slack_channel: '#cdsc'
-              LFX_insights_url: none
-              wiki_page: none
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: >-
-                https://open-web-calendar.herokuapp.com/calendar.html?specification_url=https://raw.githubusercontent.com/carbon-data-specification/.github/main/CDSC-Community-Calendar.json
-              contribution_guidelines: none
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#cdsc'
               leads: none
           - item:
             name: CitrineOS
@@ -14353,8 +14352,11 @@ landscape:
             extra:
               artwork_url: https://artwork.lfenergy.org/projects/CitrineOS/
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
-              slack_channel: '#citrineos'
-              wiki_page: https://wiki.lfenergy.org/display/CIT
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#citrineos'
+              annual_review_url: https://github.com/lf-energy/tac/issues/59
+              next_annual_review_date: '2024-11-26'
+              chair: Thana Paris
           - item:
             name: CoMPAS
             second_path:
@@ -14383,18 +14385,15 @@ landscape:
             logo: compas.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/compas/
+              artwork_url: https://artwork.lfenergy.org/projects/compas
               mailing_list_url: https://lists.lfenergy.org/g/CoMPAS
-              slack_channel: '#compas'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fcompas
-              wiki_page: https://wiki.lfenergy.org/display/SHP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/compas
-              TSC_meeting_notes: https://lists.lfenergy.org/g/CoMPAS-tsc/files/Monthly%20Compas%20TSC%20Meeting
-              calendar: https://lists.lfenergy.org/g/compas/calendar
-              contribution_guidelines: https://com-pas.github.io/contributing/
-              leads: Pascal Wilbrink
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#compas'
               accepted: '2020-07-06'
               slug: compas
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=compas
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/compas
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkJTLQA3
           - item:
             name: covXtreme
             second_path:
@@ -14409,6 +14408,14 @@ landscape:
             extra:
               accepted: '2024-06-04'
               slug: covxtreme
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=covxtreme
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/covxtreme
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwTZTl5McN9ojiuC7
+              artwork_url: https://artwork.lfenergy.org/projects/covxtreme
+              annual_review_url: https://github.com/lf-energy/tac/issues/66
+              next_annual_review_date: '2024-12-10'
+            description: The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the characterization of extreme
+              events, their associated uncertainties, and risk analysis.
           - item:
             name: Dynaωo
             second_path:
@@ -14423,18 +14430,16 @@ landscape:
             logo: dynaoo.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/dynawo/
+              artwork_url: https://artwork.lfenergy.org/projects/dynawo
               mailing_list_url: https://lists.lfenergy.org/g/dynawo
-              slack_channel: '#dynawo'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fdynawo
-              wiki_page: https://wiki.lfenergy.org/display/DYN
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/dynawo
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/dynawo/calendar
-              contribution_guidelines: https://github.com/dynawo/.github/blob/master/CONTRIBUTING.md
-              leads: Marco Chiaramello
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#dynawo'
               accepted: '2023-11-30'
               slug: dynawo
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=dynawo
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dynawo
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPZQA5
+            description: The mission of the Project is to develop a hybrid C++/Modelica open source suite of simulation tools for power systems.
           - item:
             name: EVerest
             second_path:
@@ -14451,18 +14456,21 @@ landscape:
             logo: everest.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/everest/
+              artwork_url: https://artwork.lfenergy.org/projects/everest
               mailing_list_url: https://lists.lfenergy.org/g/everest
-              slack_channel: '#everest'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Feverest
-              wiki_page: https://wiki.lfenergy.org/display/EV
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/everest/calendar
-              contribution_guidelines: https://github.com/EVerest/everest/blob/main/CONTRIBUTING.md
-              leads: Marco Möller
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#everest'
               accepted: '2022-02-09'
               slug: everest
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=everest
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/everest
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkEVlQAN
+              annual_review_date: '2024-01-09'
+              annual_review_url: https://github.com/lf-energy/tac/issues/28
+              next_annual_review_date: '2025-01-21'
+              chair: Marco Möller
+            description: EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and covers all possible
+              current applications.
           - item:
             name: FledgePower
             second_path:
@@ -14485,18 +14493,18 @@ landscape:
             logo: fledgepower.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/fledgepower/
+              artwork_url: https://artwork.lfenergy.org/projects/fledgepower
               mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
-              slack_channel: '#fledgepower'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%fledgepower
-              wiki_page: https://wiki.lfenergy.org/display/FLED
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/fledgepower-tsc/calendar
-              contribution_guidelines: https://github.com/fledge-power/contributing/blob/main/CONTRIBUTING.md
-              leads: Akli Rahmoun, RTE
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#fledgepower'
               accepted: '2021-02-16'
               slug: fledgepower
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=fledgepower
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fledgepower
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUTQA1
+            description: The mission of the Project is to coordinate, configure, test and prepare contributions to the Fledge open source project that meet requirements of the energy
+              industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code that must be maintained outside the
+              Fledge open source project.
           - item:
             name: FlexMeasures
             second_path:
@@ -14520,19 +14528,16 @@ landscape:
             logo: flexmeasures.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/flexmeasures/
+              artwork_url: https://artwork.lfenergy.org/projects/flexmeasures
               mailing_list_url: https://lists.lfenergy.org/g/flexmeasures
-              slack_channel: '#flexmeasures'
-              LFX_insights_url: none
-              wiki_page: https://wiki.lfenergy.org/display/FLEX
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/flexmeasures
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/flexmeasures/calendar
-              contribution_guidelines: https://github.com/FlexMeasures/tsc/blob/main/CONTRIBUTING.md
-              leads: Nicolas Höning
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#flexmeasures'
               topics: energy,energy-data,energy-flexibility,backend,machine-learning
               accepted: '2022-01-05'
               slug: flexmeasures
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=flexmeasures
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/flexmeasures
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkH4sQAF
           - item:
             name: Grid Capacity Map
             second_path:
@@ -14556,18 +14561,15 @@ landscape:
             logo: grid_capacity_map.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/gridcapacitymap/
+              artwork_url: https://artwork.lfenergy.org/projects/grid-capacity-map
               mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
-              slack_channel: none
-              LFX_insights_url: none
-              wiki_page: https://wiki.lfenergy.org/display/GCM
-              SBOM: none
-              TSC_meeting_notes: https://github.com/gridcapacitymap/tsc/tree/main/tsc/meetings
-              calendar: https://lists.lfenergy.org/g/gridcapacitymap-tsc/calendar
-              contribution_guidelines: none
-              leads: Harald Klomp
+              slack_url: https://slack.lfenergy.org
+              chat_channel: none
               accepted: '2022-02-28'
               slug: grid-capacity-map
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid-capacity-map
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid-capacity-map
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWoQgQAL
           - item:
             name: Grid eXchange Fabric (GXF)
             second_path:
@@ -14598,18 +14600,15 @@ landscape:
             logo: grid_exchange_fabric_gxf.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-fabric/
+              artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-frabric
               mailing_list_url: https://lists.lfenergy.org/g/gxf
-              slack_channel: '#gxf'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fgrid-exchange-fabric
-              wiki_page: https://wiki.lfenergy.org/display/GEF
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/gxf
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/gxf/calendar
-              contribution_guidelines: https://documentation.gxf.lfenergy.org/opensourcecommunity/governance.html
-              leads: Maarten Mulder
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#gxf'
               accepted: '2020-02-04'
               slug: grid-exchange-frabric
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid-exchange-frabric
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid-exchange-frabric
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001JWs7KQAT
           - item:
             name: Grid Resilience and Intelligence Platform (GRIP)
             second_path:
@@ -14623,8 +14622,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               mailing_list_url: https://lists.lfenergy.org/g/grip-discussion
-              slack_channel: '#grip'
-              wiki_page: https://wiki.lfenergy.org/display/GRIP
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#grip'
               artwork_url: https://artwork.lfenergy.org/projects/GRIP/
               leads: Aliou Diate
           - item:
@@ -14643,18 +14642,21 @@ landscape:
             logo: hyphae.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/hyphae/
+              artwork_url: https://artwork.lfenergy.org/projects/hyphae
               mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
-              slack_channel: '#hyphae'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fhyphae
-              wiki_page: https://wiki.lfenergy.org/display/HYP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/hyphae
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/hyphae-tsc/calendar
-              contribution_guidelines: none
-              leads: Arila Barnes
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#hyphae'
               accepted: '2021-02-16'
               slug: hyphae
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=hyphae
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/hyphae
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUOQA1
+              annual_review_date: '2024-02-20'
+              annual_review_url: https://github.com/lf-energy/tac/issues/74
+              next_annual_review_date: '2025-02-11'
+              chair: Arila Barnes
+            description: Open source software to realize Microgrid which is one of the key elements to promote further renewable energy installation in the existing energy system which
+              is one the biggest source for carbon emission in the world.
           - item:
             name: LF Energy Standards and Specifications (LFESS)
             description: LFESS supports the development of open standards and specifications in the energy space.
@@ -14664,6 +14666,10 @@ landscape:
             extra:
               slug: lf-energy-standards-and-specifications
               accepted: '2022-10-13'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=lf-energy-standards-and-specifications
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lf-energy-standards-and-specifications
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVDPsQAP
+              artwork_url: https://artwork.lfenergy.org/projects/lf-energy-standards-and-specifications
           - item:
             name: OpenEEMeter
             second_path:
@@ -14686,19 +14692,16 @@ landscape:
             logo: openeemeter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/openeemeter/
+              artwork_url: https://artwork.lfenergy.org/projects/openeemeter
               mailing_list_url: https://lists.lfenergy.org/g/openeemeter
-              slack_channel: '#openeemeter'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopeneemeter
-              wiki_page: https://wiki.lfenergy.org/display/OP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/openeemeter
-              TSC_meeting_notes: https://lists.lfenergy.org/g/openeemeter/wiki/Technical-Steering-Committee-%28TSC%29-Meetings
-              calendar: https://lists.lfenergy.org/g/openeemeter/calendar
-              contribution_guidelines: https://github.com/openeemeter/eemeter/blob/master/CONTRIBUTING.md
-              leads: Travis Sikes
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#openeemeter'
               topics: energy,efficiency,energy-data,energy-efficiency,building-energy,weather,weather-data,weather-station
               slug: openeemeter
               accepted: '2019-06-04'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=openeemeter
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openeemeter
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IkQAL
           - item:
             name: OpenGEH
             second_path:
@@ -14712,9 +14715,16 @@ landscape:
             logo: opengeh.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/opengeh/
+              artwork_url: https://artwork.lfenergy.org/projects/green-energy-hub
               accepted: '2022-03-15'
               slug: green-energy-hub
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=green-energy-hub
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/green-energy-hub
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkEVqQAN
+              annual_review_date: '2024-06-04'
+              annual_review_url: https://github.com/lf-energy/tac/issues/23
+              next_annual_review_date: '2025-05-27'
+            description: The focus of the Green Energy Hub is to accelerate the transition to green energy.
           - item:
             name: OpenLEADR
             second_path:
@@ -14738,29 +14748,18 @@ landscape:
             logo: openleadr.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/openleadr/
+              artwork_url: https://artwork.lfenergy.org/projects/openleadr
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
-              slack_channel: '#openleadr'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenleadr
-              wiki_page: https://wiki.lfenergy.org/display/OL
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/openleadr
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/openLEADR-TSC/calendar
-              contribution_guidelines: https://github.com/OpenLEADR/openleadr-tsc/blob/master/CONTRIBUTING.md
-              leads: Stan Janssen
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#openleadr'
               accepted: '2021-08-03'
               slug: openleadr
-          - item:
-            name: OpenSCD
-            second_path:
-              - SIG / Digital Substations Automation Systems (DSAS)
-              - Energy Systems / Modeling and Optimization
-            homepage_url: https://openscd.energy
-            project: sandbox
-            repo_url: https://github.com/openscd/open-scd
-            project_org: https://github.com/openscd
-            logo: openscd.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=openleadr
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openleadr
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IuQAL
+              annual_review_date: '2021-11-23'
+              annual_review_url: https://github.com/lf-energy/tac/issues/24
+              chair: Arila Barnes
           - item:
             name: OpenSTEF
             second_path:
@@ -14781,21 +14780,23 @@ landscape:
             logo: openstef.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/openstef/
+              artwork_url: https://artwork.lfenergy.org/projects/openstf
               mailing_list_url: https://lists.lfenergy.org/g/openstef
-              slack_channel: '#openstef'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fopenstf
-              wiki_page: https://wiki.lfenergy.org/display/OS
-              SBOM: none
-              TSC_meeting_notes: https://wiki.lfenergy.org/display/OS/Meeting+notes+-+overview
-              calendar: https://lists.lfenergy.org/g/openstef/calendar
-              contribution_guidelines: https://github.com/OpenSTEF/.github/blob/main/CONTRIBUTING.md
-              leads: Frank Kreuwel
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#openstef'
               topics: forecasting,energy,python,data-science,machine-learning,time-series
               accepted: '2022-02-28'
               slug: openstf
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=openstf
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openstf
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkC68QAF
+              annual_review_date: '2023-11-07'
+              annual_review_url: https://github.com/lf-energy/tac/issues/25
+              next_annual_review_date: '2024-10-29'
+              chair: Frank Kreuwel
+            description: OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days.
           - item:
-            name: OpenSynth
+            name: OpenSynth (Synthetic Energy Data)
             second_path:
               - Sustainable Development / Data Catalogs and Interfaces
               - SIG / Data Standards and Tooling
@@ -14805,6 +14806,10 @@ landscape:
             project_org: https://github.com/opensynth-energy
             logo: opensynth.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              annual_review_date: '2024-01-09'
+              annual_review_url: https://github.com/lf-energy/tac/issues/68
+              next_annual_review_date: '2025-01-21'
           - item:
             name: OperatorFabric
             second_path:
@@ -14843,18 +14848,19 @@ landscape:
             logo: operatorfabric.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/operatorfabric/
+              artwork_url: https://artwork.lfenergy.org/projects/operator-fabric
               mailing_list_url: https://lists.lfenergy.org/g/opfab
-              slack_channel: '#operator-fabric'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Foperator-fabric
-              wiki_page: https://wiki.lfenergy.org/display/OF
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/operatorfabric
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/opfab-tsc/calendar
-              contribution_guidelines: https://opfab.github.io/documentation/current/community/
-              leads: Frederic Didier
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#operator-fabric'
               accepted: '2019-04-30'
               slug: operator-fabric
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=operator-fabric
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/operator-fabric
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If869QAB
+              annual_review_date: '2023-07-25'
+              annual_review_url: https://github.com/lf-energy/tac/issues/71
+              next_annual_review_date: '2024-07-16'
+              chair: Frédéric Didier
           - item:
             name: Power Grid Model
             second_path:
@@ -14873,16 +14879,20 @@ landscape:
             logo: power_grid_model.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/PowerGridModel/
+              artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
-              slack_channel: '#powergridmodel'
-              LFX_insights_url: https://insights-v2.lfx.linuxfoundation.org/powergridmodel/trends
-              wiki_page: https://wiki.lfenergy.org/display/PGM/Power+Grid+Model+Home
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/PowerGridModel
-              contribution_guidelines: https://github.com/PowerGridModel/.github/blob/main/CONTRIBUTING.md
-              leads: Tony Xiang
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#powergridmodel'
               accepted: '2023-09-21'
               slug: powergridmodel
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powergridmodel
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powergridmodel
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPLQA5
+              annual_review_date: '2024-02-20'
+              annual_review_url: https://github.com/lf-energy/tac/issues/81
+              next_annual_review_date: '2025-02-11'
+              chair: Tony Xiang
+            description: The mission of the Project is to develop a Python library for steady-state distribution power system analysis.
           - item:
             name: PowSyBl
             second_path:
@@ -14909,18 +14919,18 @@ landscape:
             logo: powsybl.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/powsysbl/
+              artwork_url: https://artwork.lfenergy.org/projects/powsybl
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
-              slack_channel: none
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fpowsybl
-              wiki_page: https://wiki.lfenergy.org/display/POW
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/powsybl
-              TSC_meeting_notes: none
-              calendar: https://lists.lfenergy.org/g/powsybl-tsc/calendar
-              contribution_guidelines: https://www.powsybl.org/pages/contributing/
-              leads: Anne Tilloy
+              slack_url: https://slack.lfenergy.org
+              chat_channel: none
               accepted: '2019-04-30'
               slug: powsybl
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If864QAB
+              annual_review_date: '2023-11-28'
+              annual_review_url: https://github.com/lf-energy/tac/issues/22
+              next_annual_review_date: '2024-11-26'
           - item:
             name: Real Time Data Ingestion Platform (RTDIP)
             second_path:
@@ -14945,42 +14955,19 @@ landscape:
             logo: real_time_data_ingestion_platform_rtdip.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/rtdip/
+              artwork_url: https://artwork.lfenergy.org/projects/rtdip
               mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
-              slack_channel: '#rtdip'
-              LFX_insights_url: none
-              wiki_page: https://wiki.lfenergy.org/display/RTDIP/Real+Time+Data+Ingestion+Platform+Home
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: none
-              leads: Bryce Bartmann
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#rtdip'
               accepted: '2024-06-04'
               slug: rtdip
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=rtdip
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rtdip
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmxQAF
+            description: The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers, and data scientists
+              wherever they are.
           - item:
-            name: RIAPS
-            second_path:
-              - Acquisition and Control / Edge Node Control
-              - Energy Systems / Modeling and Optimization
-            description: An Effective Distributed Software Platform for Smart Grid Apps
-            homepage_url: https://www.lfenergy.org/projects/riaps/
-            project: emeritus
-            repo_url: https://github.com/RIAPS/riaps-core
-            project_org: https://github.com/RIAPS
-            logo: riaps.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              mailing_list_url: https://lists.lfenergy.org/g/riaps
-              slack_channel: '#riaps'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Friaps
-              wiki_page: https://wiki.lfenergy.org/display/RIAP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/riaps
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: none
-              topics: powsybl,klu,power-systems,power-system-simulation,energy-system,modular,extensible,java,groovy,load-flow,cim,power-flow,loadflow,powerflow
-          - item:
-            name: SEAPATH
+            name: 'SEAPATH '
             second_path:
               - Transmission / Station
               - Distribution / Station
@@ -15002,18 +14989,19 @@ landscape:
             logo: seapath.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/seapath/
+              artwork_url: https://artwork.lfenergy.org/projects/seapath
               mailing_list_url: https://lists.lfenergy.org/g/SEAPATH
-              slack_channel: '#seapath'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fseapath
-              wiki_page: https://wiki.lfenergy.org/display/SEAP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/seapath
-              TSC_meeting_notes: https://github.com/seapath/TSC
-              calendar: https://lists.lfenergy.org/g/seapath-TSC/calendar
-              contribution_guidelines: https://github.com/seapath/contributing/blob/master/CONTRIBUTING.md
-              leads: Eloi Bail
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#seapath'
               accepted: '2021-01-07'
               slug: seapath
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=seapath
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/seapath
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWmNQAV
+              annual_review_date: '2023-12-19'
+              annual_review_url: https://github.com/lf-energy/tac/issues/73
+              next_annual_review_date: '2024-12-10'
+              chair: Eloi Bail
           - item:
             name: Shapeshifter
             second_path:
@@ -15028,24 +15016,29 @@ landscape:
               - Energy Systems / Modeling and Optimization
             homepage_url: https://github.com/shapeshifter-project
             project: incubation
-            repo_url: https://github.com/shapeshifter/shapeshifter-specification
+            repo_url: https://github.com/shapeshifter-project
             project_org: https://github.com/shapeshifter-project
             url_for_bestpractices: https://github.com/shapeshifter/shapeshifter-library
             logo: shapeshifter.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/shapeshifter/
+              artwork_url: https://artwork.lfenergy.org/projects/uftp
               mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
-              slack_channel: '#shapeshifter'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fshapeshifter
-              wiki_page: https://wiki.lfenergy.org/display/SHAP
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/shapeshifter
-              TSC_meeting_notes: https://github.com/shapeshifter/tsc/tree/main/tsc/meetings
-              calendar: https://lists.lfenergy.org/g/shapeshifter-discussion/calendar
-              contribution_guidelines: https://github.com/shapeshifter/tsc/blob/main/CONTRIBUTING.md
-              leads: Robben Riksen
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#shapeshifter'
               accepted: '2021-10-04'
               slug: uftp
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=uftp
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/uftp
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWtA7QAL
+              annual_review_date: '2024-05-14'
+              annual_review_url: https://github.com/lf-energy/tac/issues/136
+              next_annual_review_date: '2025-05-06'
+              chair: Robben Riksen
+            description: Focused specifically on the exchange of flexibility between Aggregators (AGRs), DSOs, and TSOs, Shapeshifter describes the corresponding market interactions
+              between them to resolve grid constraints by applying congestion management or grid-capacity management. Shapeshifter can be used as a stand-alone protocol for flexibility
+              forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility markets for grid-congestion issues and standardize the setup
+              and operation of these markets across different DSOs, TSO’s and different countries.
           - item:
             name: SOGNO
             second_path:
@@ -15063,19 +15056,23 @@ landscape:
             logo: sogno.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/sogno/
+              artwork_url: https://artwork.lfenergy.org/projects/sogno
               mailing_list_url: https://lists.lfenergy.org/g/sogno-discussion
-              slack_channel: '#sogno'
-              LFX_insights_url: https://insights.lfx.linuxfoundation.org/projects/lfenergy%2Fsogno
-              wiki_page: https://wiki.lfenergy.org/display/SOG
-              SBOM: https://github.com/lfscanning/spdx-lfenergy/tree/main/sogno
-              TSC_meeting_notes: https://github.com/sogno-platform/tsc/tree/master/tsc/meetings
-              calendar: https://lists.lfenergy.org/g/sogno-tsc/calendar
-              contribution_guidelines: https://github.com/sogno-platform/tsc/blob/master/CONTRIBUTING.md
-              leads: Antonello Monti
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#sogno'
               topics: simulation,real-time,dynamic-phasors,powerflow,electromagnetic-transient,power-systems,emt,quasi-stationary
               accepted: '2021-03-11'
               slug: sogno
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=sogno
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/sogno
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkV6jQAF
+              annual_review_date: '2024-04-23'
+              annual_review_url: https://github.com/lf-energy/tac/issues/75
+              next_annual_review_date: '2025-04-15'
+            description: SOGNO aims at facilitating the transition to a modular microservices based control center software solution. This allows operators to adapt faster because components
+              can be updated more independently from each other. It provides system operators and automation software developers with an open source framework that exposes open APIs
+              to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to integrate today’s SCADA systems with SOGNO and gradually move
+              functionalities into microservices.
           - item:
             name: Super Advanced Meter (SAM)
             second_path:
@@ -15095,14 +15092,8 @@ landscape:
             extra:
               artwork_url: https://artwork.lfess.energy/projects/superadvancedmeter
               mailing_list_url: https://lists.lfenergy.org/g/sam-steering-committee
-              slack_channel: '#sam-general'
-              LFX_insights_url: none
-              wiki_page: none
-              SBOM: none
-              TSC_meeting_notes: none
-              calendar: none
-              contribution_guidelines: none
-              leads: Mark Nigge-Uricher
+              slack_url: https://slack.lfenergy.org
+              chat_channel: '#sam-general'
           - item:
             name: TROLIE
             second_path:
@@ -15115,6 +15106,16 @@ landscape:
             logo: trolie.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/TROLIE/
+              artwork_url: https://artwork.lfenergy.org/projects/trolie
               accepted: '2023-12-01'
               slug: trolie
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=trolie
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/trolie
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
+              annual_review_url: https://github.com/lf-energy/tac/issues/79
+              next_annual_review_date: '2024-08-27'
+            description: |-
+              The mission of the Project is to establish an open conformance standard and
+              cultivate a software ecosystem that accelerates the implementation of reliable,
+              secure, and interoperable systems for the exchange of transmission facility ratings
+              and related information.
