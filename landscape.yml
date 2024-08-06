@@ -14305,6 +14305,7 @@ landscape:
             second_path:
               - Energy Storage / Battery
               - SIG / Data Standards and Tooling
+            description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
             homepage_url: https://batterydataalliance.energy
             project: sandbox
             repo_url: https://github.com/BatteryDataAlliance/battery-data-interface
@@ -14318,7 +14319,6 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=battery-data-alliance
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/battery-data-alliance
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfomTQpTLl3A7cDHjh
-            description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
           - item:
             name: Carbon Data Specification Consortium (CDSC)
             second_path:
@@ -14399,6 +14399,9 @@ landscape:
             second_path:
               - Climate and Earth Science / Meteorological Observation and Forecast
               - SIG / Grid Simulation and Modeling
+            description: >-
+              The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the
+              characterization of extreme events, their associated uncertainties, and risk analysis.
             homepage_url: https://covxtreme.energy
             project: sandbox
             repo_url: https://github.com/covxtreme/.github
@@ -14414,8 +14417,6 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               next_annual_review_date: '2024-12-10'
-            description: The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the characterization of extreme
-              events, their associated uncertainties, and risk analysis.
           - item:
             name: Dynaωo
             second_path:
@@ -14423,6 +14424,7 @@ landscape:
               - Project Stack / Business Intelligence
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
+            description: The mission of the Project is to develop a hybrid C++/Modelica open source suite of simulation tools for power systems.
             homepage_url: https://dynawo.energy
             project: incubation
             repo_url: https://github.com/dynawo/dynawo
@@ -14439,7 +14441,6 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=dynawo
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dynawo
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPZQA5
-            description: The mission of the Project is to develop a hybrid C++/Modelica open source suite of simulation tools for power systems.
           - item:
             name: EVerest
             second_path:
@@ -14449,6 +14450,9 @@ landscape:
               - Project Stack / Edge & Distributed Intelligence
               - SIG / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
+            description: >-
+              EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and
+              covers all possible current applications.
             homepage_url: https://www.lfenergy.org/projects/everest/
             project: earlyadoption
             repo_url: https://github.com/EVerest/EVerest
@@ -14469,8 +14473,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/28
               next_annual_review_date: '2025-01-21'
               chair: Marco Möller
-            description: EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and covers all possible
-              current applications.
           - item:
             name: FledgePower
             second_path:
@@ -14485,6 +14487,10 @@ landscape:
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
               - SIG / Digital Substations Automation Systems (DSAS)
+            description: >-
+              The mission of the Project is to coordinate, configure, test and prepare contributions to the Fledge open source project that meet requirements of
+              the energy industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code
+              that must be maintained outside the Fledge open source project.
             homepage_url: https://www.lfenergy.org/projects/fledgepower/
             project: incubation
             repo_url: https://github.com/fledge-power/contributing
@@ -14502,9 +14508,6 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=fledgepower
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fledgepower
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUTQA1
-            description: The mission of the Project is to coordinate, configure, test and prepare contributions to the Fledge open source project that meet requirements of the energy
-              industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code that must be maintained outside the
-              Fledge open source project.
           - item:
             name: FlexMeasures
             second_path:
@@ -14635,6 +14638,9 @@ landscape:
               - DER / Station
               - Project Stack / Edge & Distributed Intelligence
               - Acquisition and Control / Edge Node Control
+            description: >-
+              Open source software to realize Microgrid which is one of the key elements to promote further renewable energy installation in the existing energy
+              system which is one the biggest source for carbon emission in the world.
             homepage_url: https://www.lfenergy.org/projects/hyphae/
             project: incubation
             repo_url: https://github.com/hyphae/apis-common
@@ -14655,8 +14661,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/74
               next_annual_review_date: '2025-02-11'
               chair: Arila Barnes
-            description: Open source software to realize Microgrid which is one of the key elements to promote further renewable energy installation in the existing energy system which
-              is one the biggest source for carbon emission in the world.
           - item:
             name: LF Energy Standards and Specifications (LFESS)
             description: LFESS supports the development of open standards and specifications in the energy space.
@@ -14708,6 +14712,7 @@ landscape:
               - Shared / Data Management
               - Energy Systems / Modeling and Optimization
               - Project Stack / Business Intelligence
+            description: The focus of the Green Energy Hub is to accelerate the transition to green energy.
             homepage_url: https://opengeh.energy/
             project: sandbox
             repo_url: https://github.com/opengeh/.github
@@ -14724,7 +14729,6 @@ landscape:
               annual_review_date: '2024-06-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/23
               next_annual_review_date: '2025-05-27'
-            description: The focus of the Green Energy Hub is to accelerate the transition to green energy.
           - item:
             name: OpenLEADR
             second_path:
@@ -14772,6 +14776,7 @@ landscape:
               - Project Stack / Business Intelligence
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
+            description: OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days.
             homepage_url: https://openstef.energy
             project: incubation
             repo_url: https://github.com/OpenSTEF/openstef
@@ -14794,7 +14799,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/25
               next_annual_review_date: '2024-10-29'
               chair: Frank Kreuwel
-            description: OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days.
           - item:
             name: OpenSynth (Synthetic Energy Data)
             second_path:
@@ -14872,6 +14876,7 @@ landscape:
               - Project Stack / Business Intelligence
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
+            description: The mission of the Project is to develop a Python library for steady-state distribution power system analysis.
             homepage_url: https://powergridmodel.energy
             project: incubation
             repo_url: https://github.com/PowerGridModel/power-grid-model
@@ -14892,7 +14897,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/81
               next_annual_review_date: '2025-02-11'
               chair: Tony Xiang
-            description: The mission of the Project is to develop a Python library for steady-state distribution power system analysis.
           - item:
             name: PowSyBl
             second_path:
@@ -14948,6 +14952,9 @@ landscape:
               - Customer Premises / Enterprise
               - SIG / Grid Operations
               - Energy Systems / Distribution and Grids
+            description: >-
+              The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers,
+              and data scientists wherever they are.
             homepage_url: https://rtdip.io
             project: sandbox
             repo_url: https://github.com/rtdip/core
@@ -14964,8 +14971,6 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=rtdip
               calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rtdip
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmxQAF
-            description: The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers, and data scientists
-              wherever they are.
           - item:
             name: 'SEAPATH '
             second_path:
@@ -15014,6 +15019,11 @@ landscape:
               - Project Stack / Business Intelligence
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
+            description: >-
+              Focused specifically on the exchange of flexibility between Aggregators (AGRs), DSOs, and TSOs, Shapeshifter describes the corresponding market
+              interactions between them to resolve grid constraints by applying congestion management or grid-capacity management. Shapeshifter can be used as a
+              stand-alone protocol for flexibility forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility
+              markets for grid-congestion issues and standardize the setup and operation of these markets across different DSOs, TSO’s and different countries.
             homepage_url: https://shapeshifter.energy
             project: incubation
             repo_url: https://github.com/shapeshifter/shapeshifter-specification
@@ -15035,10 +15045,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/136
               next_annual_review_date: '2025-05-06'
               chair: Robben Riksen
-            description: Focused specifically on the exchange of flexibility between Aggregators (AGRs), DSOs, and TSOs, Shapeshifter describes the corresponding market interactions
-              between them to resolve grid constraints by applying congestion management or grid-capacity management. Shapeshifter can be used as a stand-alone protocol for flexibility
-              forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility markets for grid-congestion issues and standardize the setup
-              and operation of these markets across different DSOs, TSO’s and different countries.
           - item:
             name: SOGNO
             second_path:
@@ -15049,6 +15055,11 @@ landscape:
               - Project Stack / Business Intelligence
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
+            description: >-
+              SOGNO aims at facilitating the transition to a modular microservices based control center software solution. This allows operators to adapt faster
+              because components can be updated more independently from each other. It provides system operators and automation software developers with an open
+              source framework that exposes open APIs to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to
+              integrate today’s SCADA systems with SOGNO and gradually move functionalities into microservices.
             homepage_url: https://www.lfenergy.org/projects/sogno/
             project: earlyadoption
             repo_url: https://github.com/sogno-platform/dpsim
@@ -15069,10 +15080,6 @@ landscape:
               annual_review_date: '2024-04-23'
               annual_review_url: https://github.com/lf-energy/tac/issues/75
               next_annual_review_date: '2025-04-15'
-            description: SOGNO aims at facilitating the transition to a modular microservices based control center software solution. This allows operators to adapt faster because components
-              can be updated more independently from each other. It provides system operators and automation software developers with an open source framework that exposes open APIs
-              to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to integrate today’s SCADA systems with SOGNO and gradually move
-              functionalities into microservices.
           - item:
             name: Super Advanced Meter (SAM)
             second_path:
@@ -15099,6 +15106,11 @@ landscape:
             second_path:
               - Energy Systems / Distribution and Grids
               - SIG / Data Standards and Tooling
+            description: |-
+              The mission of the Project is to establish an open conformance standard and
+              cultivate a software ecosystem that accelerates the implementation of reliable,
+              secure, and interoperable systems for the exchange of transmission facility ratings
+              and related information.
             homepage_url: https://trolie.energy/
             project: lfess
             repo_url: https://github.com/trolie/spec
@@ -15114,8 +15126,3 @@ landscape:
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
               annual_review_url: https://github.com/lf-energy/tac/issues/79
               next_annual_review_date: '2024-08-27'
-            description: |-
-              The mission of the Project is to establish an open conformance standard and
-              cultivate a software ecosystem that accelerates the implementation of reliable,
-              secure, and interoperable systems for the exchange of transmission facility ratings
-              and related information.
