@@ -14350,13 +14350,19 @@ landscape:
             logo: citrineos.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              artwork_url: https://artwork.lfenergy.org/projects/CitrineOS/
+              artwork_url: https://artwork.lfenergy.org/projects/citrineos
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_url: https://slack.lfenergy.org
               chat_channel: '#citrineos'
               annual_review_url: https://github.com/lf-energy/tac/issues/59
               next_annual_review_date: '2024-11-26'
               chair: Thana Paris
+              slug: citrineos
+              accepted: '2024-07-02'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=citrineos
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/citrineos
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfggfffNJIAO3ySYf9
+            description: The mission of the Project is to develop EV charging station management software.
           - item:
             name: CoMPAS
             second_path:
@@ -14595,7 +14601,7 @@ landscape:
             homepage_url: https://www.lfenergy.org/projects/gxf/
             project: earlyadoption
             repo_url: https://github.com/OSGP/Shared
-            project_org: https://github.com/osgp
+            project_org: https://github.com/OSGP
             url_for_bestpractices: https://github.com/osgp
             logo: grid_exchange_fabric_gxf.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -14810,6 +14816,13 @@ landscape:
               annual_review_date: '2024-01-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/68
               next_annual_review_date: '2025-01-21'
+              slug: synthetic-energy-data
+              accepted: '2024-07-29'
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=synthetic-energy-data
+              calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/synthetic-energy-data
+              ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfKqhzuw4MXzjV5tBN
+              artwork_url: https://artwork.lfenergy.org/projects/synthetic-energy-data
+            description: The mission of the Project is to unlock access to synthetic data to accelerate the decarbonization of global energy systems.
           - item:
             name: OperatorFabric
             second_path:
@@ -15014,9 +15027,9 @@ landscape:
               - Project Stack / Business Intelligence
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
-            homepage_url: https://shapeshifter.energy
+            homepage_url: https://shapeshifter.energy/
             project: incubation
-            repo_url: https://github.com/shapeshifter/shapeshifter-specification
+            repo_url: https://github.com/shapeshifter/shapeshifter-library-java
             project_org: https://github.com/shapeshifter
             url_for_bestpractices: https://github.com/shapeshifter/shapeshifter-library
             logo: shapeshifter.svg
