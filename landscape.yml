@@ -14693,25 +14693,34 @@ landscape:
               ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVDPsQAP
               artwork_url: https://artwork.lfenergy.org/projects/lf-energy-standards-and-specifications
           - item:
-            name: OpenEEMeter
+            name: OpenDSM
             second_path:
               - Customer and Market / Customer Relationship and Communication
               - Project Stack / Business Intelligence
               - Energy Systems / Monitoring and Control
               - SIG / Data Standards and Tooling
             description: >-
-              OpenEEmeter is an open source toolkit for implementing and developing standard methods for calculating normalized metered energy consumption
-              (NMEC) and avoided energy use. The OpenEEmeter library contains routines for estimating energy efficiency savings at the meter.
+              The mission of the Project is to develop an open source project with the following goals:
 
 
-              OpenEEmeter includes the reference implementation of the CalTRACK methods for estimating normalized metered energy savings. CalTRACK is a working
-              group under the Energy Market Methods Consortium (EM2).
+              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate
+              data;  
+
+              - Maintain a production-ready library to act as a measurement system for distributed energy resources that can be replicated by all parties in
+              markets and expand capabilities over time;
+
+              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets; 
+
+              - Provide reusable components with documented APIs and consistent security practices; and
+
+              - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define
+              common transactional units for distributed energy resources in the market.
             homepage_url: https://www.lfenergy.org/projects/openeemeter/
             project: incubation
             repo_url: https://github.com/openeemeter/eemeter
             project_org: https://github.com/openeemeter
             url_for_bestpractices: https://github.com/openeemeter/eemeter/tree/master
-            logo: openeemeter.svg
+            logo: opendsm.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               artwork_url: https://artwork.lfenergy.org/projects/openeemeter
