@@ -13,17 +13,27 @@ slug: lfenergy
 landscapeMemberCategory: LF Energy Member
 landscapeProjectsCategory: LF Energy Projects
 landscapeProjectsSubcategories:
-  - name: All
-    category: All
+  - name: Graduated
+    category: Graduated
+  - name: Early Adoption
+    category: Early Adoption
+  - name: Incubating
+    category: Incubating
+  - name: Sandbox
+    category: Sandbox
+  - name: SIG
+    category: SIG
 landscapeProjectsLevels:
   - level: graduated
     name: Graduated
   - level: earlyadoption
     name: Early Adoption
-  - level: incubation
-    name: Incubation
+  - level: incubating
+    name: Incubating
   - level: sandbox
     name: Sandbox
+  - level: sig
+    name: SIG
 landscapefile: landscape.yml
 projectsDefaultCrunchbase: https://www.crunchbase.com/organization/lf-energy
 memberSuffix: ' (member)'
