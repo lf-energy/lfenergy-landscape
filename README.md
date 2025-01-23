@@ -1,108 +1,48 @@
-# Linux Foundation Energy Landscape
+# LF Energy Landscape
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57bcc258-c6d6-4b74-ada3-f829c842e847/deploy-status)](https://app.netlify.com/sites/lfenergy/deploys)
+![LF Energy Landscape Logo](https://landscape.lfenergy.org/images/left-logo.svg)
 
-![Landscape Template Logo]
+This landscape is intended as a map to explore open source projects and working groups hosted by LF Energy, open source projects in the energy and sustainability ecosystems, and also shows the LF Energy member companies. It is modeled after the Cloud Native Computing Foundation (CNCF) [landscape](https://landscape.cncf.io) and based on the same open-source code.
 
--   [Current Version]
--   [Interactive Version]
--   [New Entries]
--   [Corrections]
--   [Non-Updated Items]
--   [License]
--   [Formats]
--   [Installation]
--   [Vulnerability reporting]
-
-<!-- Change to the description of your landscape -->
-This landscape is intended as a map to explore the open source projects in the energy sector, and also shows the member companies of the LF Energy Foundation. 
-
-It is modelled after the [Cloud Native Computing Foundation (CNCF) landscape] and based on the same open source code.
-
-## Current Version
-
-[![Landscape Template][PNG]][PNG]
-
-## Interactive Version
-
-Please see [landscape.lfenergy.org].
+This repository contains the data files and images required to generate the [LF Energy landscape](https://landscape.lfenergy.org). The software that generates it can be found at the [cncf/landscape2](https://github.com/cncf/landscape2) repository. Please see its [README file](https://github.com/cncf/landscape2#landscape2) for more information about how it works.
 
 ## New Entries
 
--   Projects must be open source and hosted on or mirrored to GitHub.
--   Projects with at least 300 GitHub stars that clearly fit in an existing category are generally included. Put the project in the single category where it best fits.
--   We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
--   Your project or company needs a logo and the logo needs to include the name.
--   Crunchbase organization should be the company or organization that controls the software. That is normally the owner of the trademark, whether or not a trademark has been formally filed.
--   The logo must adhere to the [landscape logo guidelines]
+The requirements for adding new entries for open source projects in the energy and sustainability ecosystems is as follows:
 
-If you think your project should be included, please open a pull request to add it to [landscape.yml]. For the logo, please upload an SVG to the `hosted_logos` directory.
+* Projects must be open source and hosted on or mirrored to GitHub.
+* Projects must be directly used in the energy industry or in support of sustainability initiatives.
+* Projects that clearly fit in an existing category are generally included. Put the project in the single category where it best fits. We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
+* Projects a logo and the logo needs to include the name.
 
-Netlify will generate a staging server for you to preview your updates. Please check that the logo and information appear correctly and then add `LGTM` to the pull request confirming your review and requesting a merge.
+If you think your project should be included, please open a pull request to add it to [landscape.yml](landscape.yml). For the logo, upload an SVG to the `hosted_logos` directory.
 
 ## Corrections
 
-Please open a pull request with edits to [landscape.yml]. The file [processed_landscape.yml] is generated and so should never be edited directly.
+Please open a pull request with edits to [landscape.yml](landscape.yml).
 
-If the error is with data from [Crunchbase] you should open an account there and edit the data. If you don't like a project description, edit it in GitHub. If your project isn't showing the license correctly, you may need to paste the unmodified text of the license into a LICENSE file at the root of your project in GitHub, in order for GitHub to serve the license information correctly.
+If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub. If your project isn't showing the license correctly, you may need to paste the unmodified text of the license into a LICENSE file at the root of your project in GitHub, in order for GitHub to serve the license information correctly.
 
-More about leveraged external data sources is at https://github.com/cncf/landscapeapp\#external-data.
+### Updating LF Energy Members and Projects
 
-## Non-Updated Items
+LF Energy Member and Project data in this repository ( which in the [landscape.yml](landscape.yml) file are under categories `LFESS Member`, `LFESS Working Groups`, `LF Energy Member`, and `LF Energy Projects` ) are built nightly using the [LFX Landscape Tools](https://github.com/jmertic/lfx-landscape-tools). Any changes made directly in the data files in this repository for the above-referenced categories will be overwritten.
 
-We generally remove open source projects that have not had a commit in over 3 months. Note that for projects not hosted on GitHub, we need them to mirror to GitHub to fetch updates, and we try to work with projects when their mirrors are broken. Here is view of [projects sorted by last update].
+- For `LFESS Member` and `LF Energy Member` entries, you can make these changes in [LFX Organization Dashboard](https://docs.linuxfoundation.org/lfx/organization-dashboard/organization-profile).
+- For `LFESS Working Groups` and `LF Energy Projects` entries, those changes can be made in [LFX Project Control Center (PCC)](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/operations/project-definition).
 
-Items that have been removed can apply to be re-added using the regular New Entries criteria above.
+If you cannot access the above resources, please [create a helpdesk ticket](https://members.lfenergy.org) to request those changes.
+
+## Local Build and Install
+
+You can build the landscape locally on your machine using the [landscape2](https://github.com/cncf/landscape2) tool. Once [installed](https://github.com/cncf/landscape2?tab=readme-ov-file#installation), you can use the commands below to build the landscape and serve it locally.
+
+```shell
+landscape2 build --data-file landscape.yml --settings-url https://raw.githubusercontent.com/cncf/landscape2-sites/refs/heads/main/lfenergy/settings.yml --logos-path hosted_logos --output-dir build
+landscape2 serve --landscape-dir build
+```
 
 ## License
 
-This repository contains data received from [Crunchbase]. This data is not licensed pursuant to the Apache License. It is subject to Crunchbase's Data Access Terms, available at <https://data.crunchbase.com/v3.1/docs/terms>, and is only permitted to be used with this Landscape Project which is hosted by the Linux Foundation.
+The generated landscape contains data received from [Crunchbase](http://www.crunchbase.com). This data is not licensed pursuant to the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt). It is subject to Crunchbase’s Data Access Terms, available at [https://data.crunchbase.com/docs/terms](https://data.crunchbase.com/docs/terms), and is only permitted to be used with Academy Software Foundation landscape projects.
 
-Everything else is under the Apache License, Version 2.0, except for project and product logos, which are generally copyrighted by the company that created them, and are simply cached here for reliability. The trail map, static landscape, serverless landscape, and [landscape.yml] file are alternatively available under the [Creative Commons Attribution 4.0 license].
-
-## Formats
-
-The Landscape Template is available in these formats:
-
-- [PNG]
-- [PDF]
-
-## Installation
-
-You can install and run locally with the [install directions]. It's not necessary to install locally if you just want to edit [landscape.yml]. You can do so via the GitHub web interface.
-
-## Vulnerability reporting
-
-Please open an [issue] or, for sensitive information, email info\@cncf.io.
-
-<!--- Update urls and references in this section -->
-[Dependency Status]: https://img.shields.io/david/jmertic/landscape-template.svg?style=flat-square
-[1]: https://david-dm.org/jmertic/landscape-template``
-[Netlify Status]: https://api.netlify.com/api/v1/badges/9fe8d885-037d-48ce-8bf9-3bfa54152945/deploy-status
-[2]: https://app.netlify.com/sites/graphql-landscape/deploys
-[landscape.lfenergy.org]: https://landscape.lfenergy.org
-[PDF]: https://landscape.lfenergy.org/images/landscape.pdf
-[PNG]: https://landscape.lfenergy.org/images/landscape.png
-[issue]: https://github.com/jmertic/landscape-template/issues/new
-[projects sorted by last update]: https://landscape.lfenergy.org/format=card-mode&grouping=no&license=open-source&sort=latest-commit
-<!--- These shouldn't need updated -->
-[Landscape Template Logo]: images/left-logo.svg
-[Current Version]: #current-version
-[Interactive Version]: #interactive-version
-[New Entries]: #new-entries
-[Corrections]: #corrections
-[Non-Updated Items]: #non-updated-items
-[License]: #license
-[Formats]: #formats
-[Installation]: #installation
-[Vulnerability reporting]: #vulnerability-reporting
-[Cloud Native Computing Foundation (CNCF) landscape]: https://landscape.cncf.io
-[landscape logo guidelines]: https://github.com/cncf/landscapeapp#images
-[landscape.yml]: landscape.yml
-[processed_landscape.yml]: processed_landscape.yml
-[Crunchbase]: https://www.crunchbase.com/
-[Creative Commons Attribution 4.0 license]: https://creativecommons.org/licenses/by/4.0/
-[install directions]: INSTALL.md
-
- 
-
+Everything else is under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt), except for projects and products logos, which are generally copyrighted by the company that created them, and are simply cached here for reliability. The generated landscape and the [landscape.yml](landscape.yml) file are alternatively available under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/).
