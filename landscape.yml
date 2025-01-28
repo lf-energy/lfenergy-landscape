@@ -14679,7 +14679,7 @@ landscape:
             description: >-
               EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and
               covers all possible current applications.
-            homepage_url: https://www.lfenergy.org/projects/everest/
+            homepage_url: https://lfenergy.org/projects/everest/
             project: earlyadoption
             repo_url: https://github.com/EVerest/EVerest
             additional_repos:
@@ -15117,7 +15117,7 @@ landscape:
               integrate today’s SCADA systems with SOGNO and gradually move functionalities into microservices.
             homepage_url: https://www.lfenergy.org/projects/sogno/
             project: earlyadoption
-            repo_url: https://github.com/sogno-platform/dpsim
+            repo_url: https://github.com/sogno-platform/cimpy
             additional_repos:
               - repo_url: https://github.com/sogno-platform/.github
               - repo_url: https://github.com/sogno-platform/cim-service
@@ -15167,6 +15167,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=sogno
               mailing_list_url: https://lists.lfenergy.org/g/sogno-discussion
               slack_url: https://slack.lfenergy.org
+            project_org: https://github.com/sogno-platform
       - subcategory:
         name: Incubating
         items:
@@ -15257,7 +15258,7 @@ landscape:
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             description: The mission of the Project is to develop a hybrid C++/Modelica open source suite of simulation tools for power systems.
-            homepage_url: https://dynawo.energy/
+            homepage_url: https://dynawo.github.io/
             project: incubating
             repo_url: https://github.com/dynawo/dynawo
             additional_repos:
@@ -15415,7 +15416,7 @@ landscape:
               system which is one the biggest source for carbon emission in the world.
             homepage_url: https://www.lfenergy.org/projects/hyphae/
             project: incubating
-            repo_url: https://github.com/hyphae/apis-common
+            repo_url: https://github.com/hyphae/APIS
             additional_repos:
               - repo_url: https://github.com/hyphae/APIS
               - repo_url: https://github.com/hyphae/adrc-converter-controller
@@ -15448,6 +15449,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=hyphae
               mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
               slack_url: https://slack.lfenergy.org
+            project_org: https://github.com/hyphae
           - item:
             name: OpenDSM
             second_path:
@@ -15540,6 +15542,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=openleadr
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
               slack_url: https://slack.lfenergy.org
+            project_org: https://github.com/OpenLEADR
           - item:
             name: OpenSTEF
             second_path:
@@ -15553,7 +15556,7 @@ landscape:
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             description: OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days.
-            homepage_url: https://openstef.energy/
+            homepage_url: https://openstef.github.io/openstef/index.html
             project: incubating
             repo_url: https://github.com/OpenSTEF/openstef
             url_for_bestpractices: https://github.com/OpenSTEF
@@ -15581,6 +15584,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=openstef
               mailing_list_url: https://lists.lfenergy.org/g/openstef
               slack_url: https://slack.lfenergy.org
+            project_org: https://github.com/OpenSTEF
           - item:
             name: Power Grid Model
             second_path:
@@ -15593,9 +15597,9 @@ landscape:
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             description: The mission of the Project is to develop a Python library for steady-state distribution power system analysis.
-            homepage_url: https://powergridmodel.energy/
+            homepage_url: https://github.com/PowerGridModel
             project: incubating
-            repo_url: https://github.com/PowerGridModel/power-grid-model
+            repo_url: https://github.com/PowerGridModel/power-grid-model-benchmark
             additional_repos:
               - repo_url: https://github.com/PowerGridModel/.github
               - repo_url: https://github.com/PowerGridModel/IEC-CIM-conversion-services-beta
@@ -15628,6 +15632,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powergridmodel
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
               slack_url: https://slack.lfenergy.org
+            project_org: https://github.com/PowerGridModel
           - item:
             name: Shapeshifter
             second_path:
@@ -15693,7 +15698,7 @@ landscape:
             description: >-
               The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with
               special attention to electric energy delivery systems.
-            homepage_url: https://arras.energy/
+            homepage_url: https://github.com/arras-energy
             project: sandbox
             repo_url: https://github.com/arras-energy/tsc
             additional_repos:
@@ -15734,9 +15739,9 @@ landscape:
               - Energy Storage / Battery
               - SIG / Data Standards and Tooling
             description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
-            homepage_url: https://batterydataalliance.energy/
+            homepage_url: https://lfenergy.org/projects/battery-data-alliance/
             project: sandbox
-            repo_url: https://github.com/BatteryDataAlliance/battery-data-interface
+            repo_url: https://github.com/BatteryDataAlliance/pymacnet
             additional_repos:
               - repo_url: https://github.com/BatteryDataAlliance/BDAOntology
               - repo_url: https://github.com/BatteryDataAlliance/BatteryDataInterface
@@ -15763,7 +15768,7 @@ landscape:
               - SIG / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
             description: The mission of the Project is to develop EV charging station management software.
-            homepage_url: https://citrineos.energy/
+            homepage_url: https://citrineos.github.io/latest/
             project: sandbox
             repo_url: https://github.com/citrineos/citrineos
             additional_repos:
@@ -15796,9 +15801,9 @@ landscape:
             description: >-
               The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the
               characterization of extreme events, their associated uncertainties, and risk analysis.
-            homepage_url: https://covxtreme.energy/
+            homepage_url: https://lfenergy.org/projects/covxtreme/
             project: sandbox
-            repo_url: https://github.com/covxtreme/.github
+            repo_url: https://github.com/covXtreme/covXtreme
             additional_repos:
               - repo_url: https://github.com/covXtreme/.github
               - repo_url: https://github.com/covXtreme/covXtreme
@@ -15858,6 +15863,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid-capacity-map
               mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
               slack_url: https://slack.lfenergy.org
+            project_org: https://github.com/gridcapacitymap
           - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
             description: >-
@@ -15918,6 +15924,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid2op
+            project_org: https://github.com/Grid2op
           - item:
             name: GridFM
             description: >-
@@ -16015,9 +16022,9 @@ landscape:
               - Sustainable Development / Data Catalogs and Interfaces
               - SIG / Data Standards and Tooling
             description: The mission of the Project is to unlock access to synthetic data to accelerate the decarbonization of global energy systems.
-            homepage_url: https://opensynth.energy/
+            homepage_url: https://github.com/OpenSynth-energy/OpenSynth
             project: sandbox
-            repo_url: https://github.com/opensynth-energy/.github
+            repo_url: https://github.com/OpenSynth-energy/OpenSynth
             additional_repos:
               - repo_url: https://github.com/OpenSynth-energy/.github
               - repo_url: https://github.com/OpenSynth-energy/OpenSynth
@@ -16054,7 +16061,7 @@ landscape:
             description: >-
               The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers,
               and data scientists wherever they are.
-            homepage_url: https://rtdip.io/
+            homepage_url: https://www.rtdip.io/
             project: sandbox
             repo_url: https://github.com/rtdip/core
             additional_repos:
@@ -16075,6 +16082,7 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=rtdip
               mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
               slack_url: https://slack.lfenergy.org
+            project_org: https://github.com/rtdip
           - item:
             name: SC Decarbonisation Hub
             description: >-
