@@ -13785,90 +13785,10 @@ landscape:
     subcategories:
       - subcategory:
         name: Steering
-        items:
-          - item:
-            name: Alliander (LFESS)
-            homepage_url: https://alliander.com/
-            logo: alliander.svg
-            twitter: https://twitter.com/Alliander
-            crunchbase: https://www.crunchbase.com/organization/alliander
-          - item:
-            name: Google LLC (LFESS)
-            homepage_url: https://google.com/
-            logo: google_llc.svg
-            twitter: https://twitter.com/Google
-            crunchbase: https://www.crunchbase.com/organization/google
-          - item:
-            name: Microsoft Corporation (LFESS)
-            homepage_url: https://microsoft.com/
-            logo: microsoft_corporation.svg
-            crunchbase: https://www.crunchbase.com/organization/microsoft
-          - item:
-            name: RTE (Reseau de Transport dElectricite) (LFESS)
-            homepage_url: https://rte-france.com/
-            logo: rte_reseau_de_transport_delectricite.svg
-            crunchbase: https://www.crunchbase.com/organization/rte-france
-          - item:
-            name: UtilityAPI (LFESS)
-            homepage_url: https://utilityapi.com/
-            logo: utilityapi.svg
-            twitter: https://twitter.com/UtilityAPI
-            crunchbase: https://www.crunchbase.com/organization/utilityapi
+        items: []
       - subcategory:
         name: General
-        items:
-          - item:
-            name: Electricity Maps (LFESS)
-            homepage_url: https://electricitymap.org/
-            logo: electricity_maps.svg
-            twitter: https://twitter.com/ElectricityMaps
-            crunchbase: https://www.crunchbase.com/organization/electricitymap
-          - item:
-            name: FlexiDAO (LFESS)
-            homepage_url: https://flexidao.com/
-            logo: flexidao.svg
-            crunchbase: https://www.crunchbase.com/organization/flexidao
-          - item:
-            name: Fluence Energy (LFESS)
-            homepage_url: https://fluenceenergy.com/
-            logo: fluence_energy.svg
-            crunchbase: https://www.crunchbase.com/organization/fluence-417f
-          - item:
-            name: GE Vernova
-            homepage_url: https://www.gevernova.com/
-            logo: ge-vernova.svg
-            crunchbase: https://www.crunchbase.com/organization/ge-vernova
-          - item:
-            name: Midcontinent Independent System Operator, Inc. (LFESS)
-            homepage_url: https://www.misoenergy.org/
-            logo: miso.svg
-            crunchbase: https://www.crunchbase.com/organization/miso-c364
-          - item:
-            name: PierreVF Consulting (LFESS)
-            homepage_url: https://www.pierrevf.consulting/
-            logo: pierrevf_consulting.svg
-            organization:
-              name: PierreVF Consulting
-          - item:
-            name: Venehsoftw
-            homepage_url: https://www.venehsoftw.xyz/
-            logo: Venehsoftw.svg
-            organization:
-              name: Venehsoftw
-          - item:
-            name: WattCarbon (LFESS)
-            homepage_url: https://wattcarbon.com/
-            logo: wattcarbon.svg
-            twitter: https://twitter.com/wattcarbon
-            organization:
-              name: WattCarbon
-          - item:
-            name: WattTime Corporation (LFESS)
-            homepage_url: https://watttime.org/
-            logo: watttime_corporation.svg
-            twitter: https://twitter.com/wattTime
-            organization:
-              name: WattTime Corporation
+        items: []
   - category:
     name: LF Energy Member
     subcategories:
@@ -16132,13 +16052,12 @@ landscape:
         items:
           - item:
             name: CDSC Connectivity WG (WG3)
-            description: >-
-              The Carbon Data Specification (CDS) is a data dictionary for raw data and a standard for data requirements that enable energy data access for
-              measuring, quantifying, and tracking carbon emissions.
             homepage_url: https://connectivity.carbondataspec.org/
+            logo: cdsc_connectivity_wg_wg3.svg
+            description: The Carbon Data Specification (CDS) is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying,
+              and tracking carbon emissions.
             project: working-group
             repo_url: https://github.com/carbon-data-specification/Connectivity
-            logo: cdsc_connectivity_wg_wg3.svg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-06-26'
@@ -16150,12 +16069,12 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc-connectivity-wg
           - item:
             name: CDSC Customer Data WG (WG1)
-            description: >-
-              This working group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon
-              emissions calculations and decarbonization efforts.
             homepage_url: https://customerdata.carbondataspec.org/
-            repo_url: https://github.com/carbon-data-specification/Customer-Data
             logo: cdsc_customer_data_wg_wg1.svg
+            description: This working group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon emissions calculations
+              and decarbonization efforts.
+            project: working-group
+            repo_url: https://github.com/carbon-data-specification/Customer-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
@@ -16167,10 +16086,11 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc1
           - item:
             name: CDSC Power System Data WG (WG2)
-            description: An open specification for raw electric power system data to facilitate a systematic and more accurate approach to report grid emissions.
             homepage_url: https://powersystemsdata.carbondataspec.org/
-            repo_url: https://github.com/carbon-data-specification/Power-Systems-Data
             logo: cdsc_power_system_data_wg_wg2.svg
+            description: An open specification for raw electric power system data to facilitate a systematic and more accurate approach to report grid emissions.
+            project: working-group
+            repo_url: https://github.com/carbon-data-specification/Power-Systems-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
@@ -16180,3 +16100,55 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt4QAH
               artwork_url: https://artwork.lfenergy.org/projects/cdsc2
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc2
+          - item:
+            name: SAM WG Architecture
+            homepage_url: https://github.com/super-advanced-meter/WG-Architecture
+            logo: sam_wg_architecture.svg
+            description: Super Advanced Smart Meter
+            project: working-group
+            repo_url: https://github.com/super-advanced-meter/WG-Architecture
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2022-10-13'
+              annotations:
+                slug: samwga
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/samwga
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt8QAH
+              artwork_url: https://artwork.lfenergy.org/projects/samwga
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=samwga
+          - item:
+            name: SAM WG Use Cases
+            homepage_url: https://github.com/super-advanced-meter/WG-UseCases
+            logo: sam_wg_use_cases.svg
+            description: Super Advanced Smart Meter Use Cases
+            project: working-group
+            repo_url: https://github.com/super-advanced-meter/WG-UseCases
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2022-10-13'
+              annotations:
+                slug: samwguc
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/samwguc
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQtDQAX
+              artwork_url: https://artwork.lfenergy.org/projects/samwguc
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=samwguc
+          - item:
+            name: TROLIE
+            homepage_url: https://trolie.energy/
+            logo: trolie.svg
+            description: |-
+              The mission of the Project is to establish an open conformance standard and
+              cultivate a software ecosystem that accelerates the implementation of reliable,
+              secure, and interoperable systems for the exchange of transmission facility ratings
+              and related information.
+            project: working-group
+            repo_url: https://github.com/trolie/spec
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2023-12-01'
+              annotations:
+                slug: trolie
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/trolie
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
+              artwork_url: https://artwork.lfenergy.org/projects/trolie
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=trolie
