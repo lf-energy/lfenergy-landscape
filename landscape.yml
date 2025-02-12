@@ -14594,10 +14594,7 @@ landscape:
             description: EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and covers all possible
               current applications.
             second_path:
-              - Customer Premises / Field
-              - DER / Field
-              - Acquisition and Control / Infrastructure Management
-              - Project Stack / Edge & Distributed Intelligence
+              - Behind-the-Meter / EV Charging
               - SIG / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
             project: earlyadoption
@@ -14658,13 +14655,9 @@ landscape:
 
               GXF is open, independent, and driven by its community, developed using open source best practices and designed to use open standards. This enables third parties to develop new and innovative solutions. The trade-off is flexibility and freedom. Unlike closed proprietary software, open source software can be altered and extended by any developer familiar with the source code. This grants organizations freedom from “vendor lock-in,” assures long-term viability, and creates industry opportunities for support, consulting, and training.
             second_path:
-              - Generation / Operation
-              - Transmission / Operation
-              - Distribution / Operation
-              - DER / Operation
-              - Customer Premises / Operation
-              - Acquisition and Control / Infrastructure Management
-              - Project Stack / Central Supporting Services
+              - Transmission / Data & IoT
+              - Distribution / Data & IoT
+              - Behind-the-Meter / Data & IoT
               - SIG / Grid Operations
               - Energy Systems / Distribution and Grids
             project: earlyadoption
@@ -14727,13 +14720,9 @@ landscape:
 
               OperatorFabric has a robust reference implementation called Let’s Coordinate.
             second_path:
-              - Generation / Enterprise
-              - Transmission / Enterprise
-              - Distribution / Enterprise
-              - DER / Enterprise
-              - Customer Premises / Enterprise
+              - Transmission / Operations
+              - Distribution / Operations
               - Shared / Unified Operator's UX Components and Framework
-              - Project Stack / Business Intelligence
               - SIG / Grid Operations
               - Energy Systems / Monitoring and Control
             project: earlyadoption
@@ -14784,8 +14773,8 @@ landscape:
 
               PowSyBl has a completely modular design, enabling developers to extend or customize its features by providing their own plugins. Modularity is a key value of PowSyBl’s open source design.
             second_path:
+              - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
-              - Project Stack / Business Intelligence
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             project: earlyadoption
@@ -14913,12 +14902,9 @@ landscape:
               that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially beyond). This platform is intended to host
               multi-provider applications.
             second_path:
-              - Transmission / Station
-              - Distribution / Station
-              - Transmission / Field
-              - Distribution / Field
+              - Transmission / Grid Automation
+              - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
-              - Project Stack / Edge & Distributed Intelligence
               - SIG / Digital Substations
               - Energy Systems / Distribution and Grids
             project: earlyadoption
@@ -15004,11 +14990,8 @@ landscape:
               to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to integrate today’s SCADA systems with SOGNO and gradually move
               functionalities into microservices.
             second_path:
-              - Distribution / Field
-              - Distribution / Operation
-              - Distribution / Station
+              - Distribution / Operations
               - System Management / System Control
-              - Project Stack / Business Intelligence
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
@@ -15103,12 +15086,9 @@ landscape:
 
               CoMPAS (Configuration Modules for Power industry Automation Systems is being developed using several guiding principles, including the use of cross-platform Docker-based microservices along with a lightweight browser client, multiple language support for the user interface, scriptable controls, and the ability to integrate third-party tools.
             second_path:
-              - Distribution / Operation
-              - Distribution / Station
-              - Transmission / Operation
-              - Transmission / Station
+              - Transmission / Grid Automation
+              - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
-              - Project Stack / Central Supporting Services
               - SIG / Digital Substations
               - Energy Systems / Modeling and Optimization
             project: incubating
@@ -15173,8 +15153,8 @@ landscape:
             logo: dynaoo.svg
             description: The mission of the Project is to develop a hybrid C++/Modelica open source suite of simulation tools for power systems.
             second_path:
+              - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
-              - Project Stack / Business Intelligence
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             project: incubating
@@ -15215,14 +15195,10 @@ landscape:
               industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code that must be maintained outside the
               Fledge open source project.
             second_path:
-              - Generation / Operation
-              - Generation / Station
-              - Distribution / Operation
-              - Distribution / Station
-              - Transmission / Operation
-              - Transmission / Station
+              - Transmission / Data & IoT
+              - Distribution / Data & IoT
+              - Behind-the-Meter / Data & IoT
               - Acquisition and Control / Communication Infrastructure
-              - Project Stack / Edge & Distributed Intelligence
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
               - SIG / Digital Substations
@@ -15279,14 +15255,8 @@ landscape:
               The FlexMeasures Platform is a tool for building real-time energy flexibility services,
               rapidly and scalable
             second_path:
-              - Customer Premises / Operation
-              - Customer Premises / Enterprise
-              - Customer Premises / Market
-              - DER / Operation
-              - DER / Enterprise
-              - DER / Market
+              - Behind-the-Meter / Flexibility
               - Asset Management / Data Management
-              - Project Stack / Business Intelligence
               - Energy Systems / Monitoring and Control
               - SIG / Grid Operations
             project: incubating
@@ -15326,10 +15296,6 @@ landscape:
               is one the biggest source for carbon emission in the world.
             second_path:
               - Energy Systems / Modeling and Optimization
-              - DER / Field
-              - DER / Operation
-              - DER / Station
-              - Project Stack / Edge & Distributed Intelligence
               - Acquisition and Control / Edge Node Control
             project: incubating
             repo_url: https://github.com/hyphae/APIS
@@ -15391,8 +15357,8 @@ landscape:
               - Provide reusable components with documented APIs and consistent security practices; and
               - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define common transactional units for distributed energy resources in the market.
             second_path:
+              - Distribution / Grid Edge
               - Customer and Market / Customer Relationship and Communication
-              - Project Stack / Business Intelligence
               - Energy Systems / Monitoring and Control
               - SIG / Data Standards and Tooling
             project: incubating
@@ -15427,14 +15393,9 @@ landscape:
             description: This mission of the OpenLEADR project is to develop an OpenADR open source project to accelerate adoption and integration of distributed energy resources into
               the electric grid.
             second_path:
-              - Customer Premises / Field
-              - Customer Premises / Operation
-              - Customer Premises / Station
-              - DER / Field
-              - DER / Operation
-              - DER / Station
+              - Distribution / Operations
+              - Behind-the-Meter / Flexibility
               - Acquisition and Control / Edge Node Control
-              - Project Stack / Edge & Distributed Intelligence
               - Energy Systems / Distribution and Grids
               - SIG / Grid Operations
             project: incubating
@@ -15471,13 +15432,8 @@ landscape:
             logo: openstef.svg
             description: OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days.
             second_path:
-              - Generation / Enterprise
-              - Transmission / Enterprise
-              - Distribution / Enterprise
-              - DER / Enterprise
-              - Customer Premises / Enterprise
+              - Distribution / Modeling and Simulation
               - System Management / Power System Calculation
-              - Project Stack / Business Intelligence
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             project: incubating
@@ -15517,12 +15473,9 @@ landscape:
             logo: power_grid_model.svg
             description: The mission of the Project is to develop a Python library for steady-state distribution power system analysis.
             second_path:
-              - Distribution / Operation
-              - Distribution / Enterprise
-              - DER / Operation
-              - DER / Enterprise
+              - Distribution / Modeling and Simulation
+              - Distribution / Operations
               - System Management / Power System Calculation
-              - Project Stack / Business Intelligence
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             project: incubating
@@ -15580,13 +15533,9 @@ landscape:
               forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility markets for grid-congestion issues and standardize the setup
               and operation of these markets across different DSOs, TSO’s and different countries.
             second_path:
-              - Generation / Market
-              - Transmission / Market
-              - Distribution / Market
-              - DER / Market
-              - Customer Premises / Market
+              - Distribution / Operations
+              - Transmission / Operations
               - Customer and Market / Market Platform Gateway
-              - Project Stack / Business Intelligence
               - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
             project: incubating
@@ -15627,12 +15576,8 @@ landscape:
             description: The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with special attention
               to electric energy delivery systems.
             second_path:
+              - Distribution / Modeling and Simulation
               - System Management / Power System Calculation
-              - Project Stack / Central Supporting Services
-              - Transmission / Operation
-              - Distribution / Operation
-              - DER / Operation
-              - Customer Premises / Operation
               - Energy Systems / Distribution and Grids
               - SIG / Grid Simulation and Modeling
             project: sandbox
@@ -15674,6 +15619,7 @@ landscape:
             logo: battery_data_alliance.svg
             description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
             second_path:
+              - Behind-the-Meter / Batteries
               - Energy Storage / Battery
               - SIG / Data Standards and Tooling
             project: sandbox
@@ -15703,6 +15649,7 @@ landscape:
             logo: citrineos.svg
             description: The mission of the Project is to develop EV charging station management software.
             second_path:
+              - Behind-the-Meter / EV Charging
               - SIG / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
             project: sandbox
@@ -15735,6 +15682,7 @@ landscape:
             description: The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the characterization of extreme
               events, their associated uncertainties, and risk analysis.
             second_path:
+              - Behind-the-Meter / Risk Analysis
               - Climate and Earth Science / Meteorological Observation and Forecast
               - SIG / Grid Simulation and Modeling
             project: sandbox
@@ -15761,12 +15709,8 @@ landscape:
               The purpose is to give an early indication to customers that want to connect to the grid and to ensure customer and stakeholders expectations on-grid connections are realistic
               to give a better connection experience with fewer surprises for both grid owner (DSO/TSO),  grid customers, and other stakeholders.
             second_path:
+              - Distribution / Modeling and Simulation
               - System Management / Power System Calculation
-              - Project Stack / Business Intelligence
-              - Transmission / Station
-              - Distribution / Station
-              - Transmission / Field
-              - Distribution / Field
               - Energy Systems / Modeling and Optimization
               - SIG / Grid Simulation and Modeling
             project: sandbox
@@ -15797,6 +15741,11 @@ landscape:
               slack_url: https://slack.lfenergy.org
           - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
+            second_path:
+              - Distribution / Grid Edge
+              - Customer and Market / Customer Relationship and Communication
+              - Energy Systems / Monitoring and Control
+              - SIG / Data Standards and Tooling
             homepage_url: https://lfenergy.org/projects/geisa/
             logo: grid_edge_interoperability_security_alliance_geisa.svg
             description: GEISA creates the secure, interoperable ecosystem to streamline the cybersecurity, deployment, scaling and operation of next-generation grid edge computing and
@@ -15816,6 +15765,11 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=geisa
           - item:
             name: GridFM
+            second_path:
+              - Distribution / Modeling and Simulation
+              - Transmission / Modeling and Simulation
+              - Energy Systems / Modeling and Optimization
+              - SIG / Grid Simulation and Modeling
             homepage_url: https://lfenergy.org/projects/gridfm/
             logo: gridfm.svg
             description: This project aims at developing foundation models for electrical grids (GridFMs). Foundation Models (FMs), pre-trained on large data sets and adapted to a broad
@@ -15869,6 +15823,7 @@ landscape:
             logo: opensynth.svg
             description: The mission of the Project is to unlock access to synthetic data to accelerate the decarbonization of global energy systems.
             second_path:
+              - Distribution / Grid Edge
               - Sustainable Development / Data Catalogs and Interfaces
               - SIG / Data Standards and Tooling
             project: sandbox
@@ -15895,18 +15850,10 @@ landscape:
             description: The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers, and data scientists
               wherever they are.
             second_path:
+              - Distribution / Data & IoT
+              - Transmission / Data & IoT
+              - Behind-the-Meter / Data & IoT
               - System Management / Data Management
-              - Project Stack / Edge & Distributed Intelligence
-              - Generation / Operation
-              - Transmission / Operation
-              - Distribution / Operation
-              - DER / Operation
-              - Customer Premises / Operation
-              - Generation / Enterprise
-              - Transmission / Enterprise
-              - Distribution / Enterprise
-              - DER / Enterprise
-              - Customer Premises / Enterprise
               - SIG / Grid Operations
               - Energy Systems / Distribution and Grids
             project: sandbox
@@ -15931,6 +15878,10 @@ landscape:
               slack_url: https://slack.lfenergy.org
           - item:
             name: SC Decarbonisation Hub
+            second_path:
+              - Behind-the-Meter / Carbon Accounting
+              - Emissions / Carbon Intensity and Accounting
+              - SIG / Data Standards and Tooling
             homepage_url: https://lfenergy.org/projects/sc-decarbonisation-hub/
             logo: sc_decarbonisation_hub.svg
             description: Oil and Gas companies face extreme pressure to address GHG emissions. Proactively addressing scope 3 emissions for suppliers and other cases could help improve
@@ -16056,6 +16007,8 @@ landscape:
             logo: cdsc_connectivity_wg_wg3.svg
             description: The Carbon Data Specification (CDS) is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying,
               and tracking carbon emissions.
+            second_path:
+              - Distribution / Grid Edge
             project: working-group
             repo_url: https://github.com/carbon-data-specification/Connectivity
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16073,6 +16026,8 @@ landscape:
             logo: cdsc_customer_data_wg_wg1.svg
             description: This working group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon emissions calculations
               and decarbonization efforts.
+            second_path:
+              - Distribution / Grid Edge
             project: working-group
             repo_url: https://github.com/carbon-data-specification/Customer-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16089,6 +16044,8 @@ landscape:
             homepage_url: https://powersystemsdata.carbondataspec.org/
             logo: cdsc_power_system_data_wg_wg2.svg
             description: An open specification for raw electric power system data to facilitate a systematic and more accurate approach to report grid emissions.
+            second_path:
+              - Transmission / Operations
             project: working-group
             repo_url: https://github.com/carbon-data-specification/Power-Systems-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16105,6 +16062,10 @@ landscape:
             homepage_url: https://github.com/super-advanced-meter/WG-Architecture
             logo: sam_wg_architecture.svg
             description: Super Advanced Smart Meter
+            second_path:
+              - Distribution / Grid Edge
+              - System Management / Power System Calculation
+              - SIG / Grid Operations
             project: working-group
             repo_url: https://github.com/super-advanced-meter/WG-Architecture
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16119,6 +16080,10 @@ landscape:
           - item:
             name: SAM WG Use Cases
             homepage_url: https://github.com/super-advanced-meter/WG-UseCases
+            second_path:
+              - Distribution / Grid Edge
+              - System Management / Power System Calculation
+              - SIG / Grid Operations
             logo: sam_wg_use_cases.svg
             description: Super Advanced Smart Meter Use Cases
             project: working-group
@@ -16134,6 +16099,10 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=samwguc
           - item:
             name: TROLIE
+            second_path:
+              - Transmission / Operations
+              - Energy Systems / Distribution and Grids
+              - SIG / Data Standards and Tooling
             homepage_url: https://trolie.energy/
             logo: trolie.svg
             description: |-
@@ -16143,6 +16112,9 @@ landscape:
               and related information.
             project: working-group
             repo_url: https://github.com/trolie/spec
+            additional_repos:
+              - repo_url: https://github.com/trolie/conformance
+              - repo_url: https://github.com/trolie/java-client-sdk
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-12-01'
@@ -16150,5 +16122,6 @@ landscape:
                 slug: trolie
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/trolie
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
+                next_annual_review_date: '2024-08-27'
               artwork_url: https://artwork.lfenergy.org/projects/trolie
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=trolie
