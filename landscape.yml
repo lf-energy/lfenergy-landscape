@@ -16080,12 +16080,12 @@ landscape:
           - item:
             name: SAM WG Use Cases
             homepage_url: https://github.com/super-advanced-meter/WG-UseCases
+            logo: sam_wg_use_cases.svg
+            description: Super Advanced Smart Meter Use Cases
             second_path:
               - Distribution / Grid Edge
               - System Management / Power System Calculation
               - SIG / Grid Operations
-            logo: sam_wg_use_cases.svg
-            description: Super Advanced Smart Meter Use Cases
             project: working-group
             repo_url: https://github.com/super-advanced-meter/WG-UseCases
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16099,10 +16099,6 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=samwguc
           - item:
             name: TROLIE
-            second_path:
-              - Transmission / Operations
-              - Energy Systems / Distribution and Grids
-              - SIG / Data Standards and Tooling
             homepage_url: https://trolie.energy/
             logo: trolie.svg
             description: |-
@@ -16110,6 +16106,10 @@ landscape:
               cultivate a software ecosystem that accelerates the implementation of reliable,
               secure, and interoperable systems for the exchange of transmission facility ratings
               and related information.
+            second_path:
+              - Transmission / Operations
+              - Energy Systems / Distribution and Grids
+              - SIG / Data Standards and Tooling
             project: working-group
             repo_url: https://github.com/trolie/spec
             additional_repos:
