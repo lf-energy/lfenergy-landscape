@@ -15080,7 +15080,7 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opendsm
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IkQAL
                 topics: energy,efficiency,energy-data,energy-efficiency,building-energy,weather,weather-data,weather-station
-                next_annual_review_date: '2025-07-08'
+                next_annual_review_date: '2025-06-10'
                 chair: Travis Sikes
               annual_review_date: '2024-09-17'
               annual_review_url: https://github.com/lf-energy/tac/issues/7
@@ -15452,7 +15452,8 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/260
               artwork_url: https://artwork.lfenergy.org/projects/gridfm
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=gridfm
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/gridfm-energy/gridfm-lab
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
