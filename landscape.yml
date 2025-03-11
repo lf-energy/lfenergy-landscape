@@ -15439,6 +15439,10 @@ landscape:
               - SIG / Grid Simulation and Modeling
             project: sandbox
             repo_url: https://github.com/gridfm-energy/gridfm-data-zoo
+            additional_repos:
+              - repo_url: https://github.com/gridfm-energy/gridfm-federated
+              - repo_url: https://github.com/gridfm-energy/gridfm-lab
+              - repo_url: https://github.com/gridfm-energy/gridfm-lab
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-11-11'
@@ -15452,8 +15456,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/260
               artwork_url: https://artwork.lfenergy.org/projects/gridfm
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=gridfm
-            additional_repos:
-              - repo_url: https://github.com/gridfm-energy/gridfm-lab
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
