@@ -15366,6 +15366,27 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=covxtreme
           - item:
+            name: Grid2Op
+            homepage_url: https://github.com/Grid2op
+            logo: grid2op.svg
+            description: Grid2op presents a valuable platform for researchers, utilities, and other stakeholders in the power grid domain. Its modularity, customizability, and open-source
+              nature make it a powerful tool for advancing power grid management.
+            project: sandbox
+            repo_url: https://github.com/Grid2op/grid2op
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-12-17'
+              annotations:
+                slug: grid2op
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
+              artwork_url: https://artwork.lfenergy.org/projects/grid2op
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid2op
+            additional_repos:
+              - repo_url: https://github.com/Grid2op/.github
+              - repo_url: https://github.com/Grid2op/LearningToAlert
+              - repo_url: https://github.com/Grid2op/chronix2grid
+          - item:
             name: Grid Capacity Map
             homepage_url: https://github.com/gridcapacitymap
             logo: grid_capacity_map.svg
@@ -15514,9 +15535,9 @@ landscape:
                 slug: opensynth
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opensynth
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfKqhzuw4MXzjV5tBN
-                next_annual_review_date: '2025-03-11'
+                next_annual_review_date: '2026-03-10'
                 chair: Gus Chadney
-              annual_review_date: '2024-01-09'
+              annual_review_date: '2025-03-11'
               annual_review_url: https://github.com/lf-energy/tac/issues/68
               artwork_url: https://artwork.lfenergy.org/projects/opensynth
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=opensynth
