@@ -15356,6 +15356,29 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=covxtreme
           - item:
+            name: CUPID (Controllable Unit Protocol Interface for DER)
+            homepage_url: https://github.com/Horizont-Europe-Interstore
+            logo: cupid_controllable_unit_protocol_interface_for_der.svg
+            description: The original IEEE 2030.5 standard from 2018 and recently updated by the 2023 version, is a widely used communication protocol designed to manage distributed
+              resources, already adopted in California and Australia. The original standard is an interoperability dictionary-based protocol. In our project we’ve upgraded the current
+              version of the IEEE2030.5 software/firmware package by using a NATS messaging, added JSON structure support and moreover, we’ve developed a protocol converter to bridge
+              the gap to other protocols (MQTT and ModBUS) and standardization procedures of existing equipment and systems.
+            project: sandbox
+            repo_url: https://github.com/Horizont-Europe-Interstore/Hybrid-Storage-Sizing-Model
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-03-19'
+              annotations:
+                slug: cupid
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cupid
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
+              artwork_url: https://artwork.lfenergy.org/projects/cupid
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=cupid
+            additional_repos:
+              - repo_url: https://github.com/Horizont-Europe-Interstore/Client-Server
+              - repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector
+              - repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
+          - item:
             name: Grid2Op
             homepage_url: https://github.com/Grid2op
             logo: grid2op.svg
