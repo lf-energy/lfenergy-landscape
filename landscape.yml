@@ -14710,14 +14710,14 @@ landscape:
                 next_annual_review_date: '2025-04-08'
                 chair: Frédéric Didier
                 TAC_representative: Clément Bouvier
-              annual_review_date: '2024-07-16'
-              annual_review_url: https://github.com/lf-energy/tac/issues/71
-              artwork_url: https://artwork.lfenergy.org/projects/operator-fabric
               audits:
-                - date: "2024-05-22"
+                - date: '2024-05-22'
                   type: audit
                   vendor: Quarkslab
                   url: https://ostif.org/wp-content/uploads/2024/08/24-06-1685-REP_OSTIF-OperatorFabric-2.pdf
+              annual_review_date: '2024-07-16'
+              annual_review_url: https://github.com/lf-energy/tac/issues/71
+              artwork_url: https://artwork.lfenergy.org/projects/operator-fabric
               chat_channel: '#operator-fabric'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=operator-fabric
               mailing_list_url: https://lists.lfenergy.org/g/opfab
@@ -14788,14 +14788,14 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWmNQAV
                 next_annual_review_date: '2025-01-14'
                 chair: Eloi Bail
-              annual_review_date: '2023-12-19'
-              annual_review_url: https://github.com/lf-energy/tac/issues/73
-              artwork_url: https://artwork.lfenergy.org/projects/seapath
               audits:
-                - date: "2024-07-23"
+                - date: '2024-07-23'
                   type: audit
                   vendor: Ada Logics
                   url: https://ostif.org/wp-content/uploads/2024/08/SEAPATH-audit-report-23-july-2024.pdf
+              annual_review_date: '2023-12-19'
+              annual_review_url: https://github.com/lf-energy/tac/issues/73
+              artwork_url: https://artwork.lfenergy.org/projects/seapath
               chat_channel: '#seapath'
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=seapath
               mailing_list_url: https://lists.lfenergy.org/g/SEAPATH
@@ -15375,6 +15375,10 @@ landscape:
               the gap to other protocols (MQTT and ModBUS) and standardization procedures of existing equipment and systems.
             project: sandbox
             repo_url: https://github.com/Horizont-Europe-Interstore/Hybrid-Storage-Sizing-Model
+            additional_repos:
+              - repo_url: https://github.com/Horizont-Europe-Interstore/Client-Server
+              - repo_url: https://github.com/Horizont-Europe-Interstore/Client-Server
+              - repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-03-19'
@@ -15384,10 +15388,6 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
               artwork_url: https://artwork.lfenergy.org/projects/cupid
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=cupid
-            additional_repos:
-              - repo_url: https://github.com/Horizont-Europe-Interstore/Client-Server
-              - repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector
-              - repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
           - item:
             name: Grid2Op
             homepage_url: https://github.com/Grid2op
@@ -15409,40 +15409,6 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid2op
-          - item:
-            name: Grid Capacity Map
-            homepage_url: https://github.com/gridcapacitymap
-            logo: grid_capacity_map.svg
-            description: Grid Capacity Map is a project that aims to give customers and stakeholders public information about grid capacity and grid connection costs in different locations.
-              The purpose is to give an early indication to customers that want to connect to the grid and to ensure customer and stakeholders expectations on-grid connections are realistic
-              to give a better connection experience with fewer surprises for both grid owner (DSO/TSO),  grid customers, and other stakeholders.
-            second_path:
-              - Distribution / Modeling and Simulation
-              - System Management / Power System Calculation
-              - Energy Systems / Modeling and Optimization
-              - SIG / Grid Simulation and Modeling
-            project: sandbox
-            repo_url: https://github.com/gridcapacitymap/tsc
-            additional_repos:
-              - repo_url: https://github.com/gridcapacitymap/gridcapacity
-              - repo_url: https://github.com/gridcapacitymap/gridcapacity
-              - repo_url: https://github.com/gridcapacitymap/gridcapacitymap
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2022-02-28'
-              annotations:
-                slug: grid-capacity-map
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid-capacity-map
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWoQgQAL
-                next_annual_review_date: '2025-03-11'
-                chair: Harald Klomp
-              annual_review_date: '2023-10-17'
-              annual_review_url: https://github.com/lf-energy/tac/issues/6
-              artwork_url: https://artwork.lfenergy.org/projects/grid-capacity-map
-              chat_channel: none
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid-capacity-map
-              mailing_list_url: https://lists.lfenergy.org/g/gridcapacitymap-general
-              slack_url: https://slack.lfenergy.org
           - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
             homepage_url: https://lfenergy.org/projects/geisa/
@@ -15648,22 +15614,6 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/lf-energy-ai-sig
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=lf-energy-ai-sig
           - item:
-            name: Data Standards and Tooling SIG
-            homepage_url: https://lf-energy.atlassian.net/wiki/spaces/DST/overview
-            logo: data_standards_and_tooling_sig.svg
-            description: The LF Energy Data Standards and Tooling SIG will focus on collaboration amongst several projects in LF Energy that focus on data standards and the associated
-              tooling by helping promote interoperability and identifying gaps for new collaborations and projects
-            project: sig
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2024-08-19'
-              annotations:
-                slug: lfenergy-data-standards-and-tooling-sig
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy-data-standards-and-tooling-sig
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf9EjIlnSWX5QdNSIu
-              artwork_url: https://artwork.lfenergy.org/projects/lfenergy-data-standards-and-tooling-sig
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=lfenergy-data-standards-and-tooling-sig
-          - item:
             name: Digital Substations SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/DSS/overview
             logo: digital_substations_sig.svg
@@ -15700,21 +15650,6 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/ev-charging-sig
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=ev-charging-sig
           - item:
-            name: Grid Operations SIG
-            homepage_url: https://lf-energy.atlassian.net/wiki/spaces/GOS/overview
-            logo: grid_operations_sig.svg
-            description: SIG for collaboration and coordination for LF Energy Projects in the Grid Operations space.
-            project: sig
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2024-08-21'
-              annotations:
-                slug: lfenergy-grid-operations-sig
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy-grid-operations-sig
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfHSTXSSKqOtcsC1HF
-              artwork_url: https://artwork.lfenergy.org/projects/lfenergy-grid-operations-sig
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=lfenergy-grid-operations-sig
-          - item:
             name: Grid Simulation and Modeling SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/GSMS/overview
             logo: grid_simulation_and_modeling_sig.svg
@@ -15727,7 +15662,7 @@ landscape:
                 slug: lfenergy-grid-simulation-and-modeling-sig
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy-grid-simulation-and-modeling-sig
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfeQFSWBGgyaXAeg4r
-                chair: Joshua Main, Thomas Van Dijk
+                chair: Thomas Van Dijk
               annual_review_url: https://github.com/lf-energy/tac/issues/459
               artwork_url: https://artwork.lfenergy.org/projects/lfenergy-grid-simulation-and-modeling-sig
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=lfenergy-grid-simulation-and-modeling-sig
