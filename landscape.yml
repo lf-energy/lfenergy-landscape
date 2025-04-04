@@ -15288,7 +15288,7 @@ landscape:
               slack_url: https://slack.lfenergy.org
           - item:
             name: Battery Data Alliance
-            homepage_url: https://lfenergy.org/projects/battery-data-alliance/
+            homepage_url: https://batterydataalliance.energy/
             logo: battery_data_alliance.svg
             description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
             second_path:
@@ -15296,13 +15296,11 @@ landscape:
               - Energy Storage / Battery
               - SIG / Data Standards and Tooling
             project: sandbox
-            repo_url: https://github.com/BatteryDataAlliance/pymacnet
+            repo_url: https://github.com/battery-data-alliance/ampcloud-service
             additional_repos:
               - repo_url: https://github.com/BatteryDataAlliance/BDAOntology
               - repo_url: https://github.com/BatteryDataAlliance/BatteryDataInterface
               - repo_url: https://github.com/BatteryDataAlliance/pyadmiral
-              - repo_url: https://github.com/BatteryDataAlliance/pyctiarbin
-              - repo_url: https://github.com/BatteryDataAlliance/pymacnet
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-02-28'
