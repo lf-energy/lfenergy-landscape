@@ -15539,6 +15539,25 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/opensynth
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=opensynth
           - item:
+            name: ORES (Open Renewal Energy Systems)
+            homepage_url: https://ores.energy/
+            logo: ores_open_renewal_energy_systems.svg
+            description: ORES aims to address these challenges by developing a set of easy-to-follow open standard specifications on system architecture, APIs, and communication protocols
+              that empower device manufacturers, hardware and software developers, and DIYers to
+            project: sandbox
+            repo_url: https://github.com/open-renewable-energy-systems/ores
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-04-15'
+              annotations:
+                slug: ores-open-renewal-energy-systems
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ores-open-renewal-energy-systems
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfn16C1T8IdKmEtdUv
+              artwork_url: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systems
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=ores-open-renewal-energy-systems
+            additional_repos:
+              - repo_url: https://github.com/open-renewable-energy-systems/.github
+          - item:
             name: Real Time Data Ingestion Platform (RTDIP)
             homepage_url: https://www.rtdip.io/
             logo: real_time_data_ingestion_platform_rtdip.svg
