@@ -15546,6 +15546,9 @@ landscape:
               that empower device manufacturers, hardware and software developers, and DIYers to
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
+            additional_repos:
+              - repo_url: https://github.com/open-renewable-energy-systems/.github
+              - repo_url: https://github.com/open-renewable-energy-systems/.github
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-04-15'
@@ -15555,8 +15558,6 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfn16C1T8IdKmEtdUv
               artwork_url: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systems
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=ores-open-renewal-energy-systems
-            additional_repos:
-              - repo_url: https://github.com/open-renewable-energy-systems/.github
           - item:
             name: Real Time Data Ingestion Platform (RTDIP)
             homepage_url: https://www.rtdip.io/
