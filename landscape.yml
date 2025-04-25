@@ -13821,9 +13821,7 @@ landscape:
             homepage_url: https://aetheros.com/
             logo: aetheros.svg
             description: Aetheros Inc specializes in massive machine type communications networking with a focus on open source and security compliance.
-            organization:
-              name: Aetheros
-              linkedin: https://www.linkedin.com/company/aetheros-inc
+            crunchbase: https://www.crunchbase.com/organization/aetheros
             extra:
               linkedin_url: https://www.linkedin.com/company/aetheros-inc
           - item:
@@ -14570,8 +14568,8 @@ landscape:
             description: EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and covers all possible
               current applications.
             second_path:
-              - Behind-the-Meter / EV Charging
               - SIG / EV Charging
+              - Behind-the-Meter / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
             project: earlyadoption
             repo_url: https://github.com/EVerest/EVerest
@@ -14631,10 +14629,10 @@ landscape:
 
               GXF is open, independent, and driven by its community, developed using open source best practices and designed to use open standards. This enables third parties to develop new and innovative solutions. The trade-off is flexibility and freedom. Unlike closed proprietary software, open source software can be altered and extended by any developer familiar with the source code. This grants organizations freedom from “vendor lock-in,” assures long-term viability, and creates industry opportunities for support, consulting, and training.
             second_path:
+              - SIG / No SIG
               - Transmission / Data & IoT
               - Distribution / Data & IoT
               - Behind-the-Meter / Data & IoT
-              - SIG / Grid Operations
               - Energy Systems / Distribution and Grids
             project: earlyadoption
             repo_url: https://github.com/OSGP/Config
@@ -14652,6 +14650,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001JWs7KQAT
                 next_annual_review_date: '2025-06-10'
                 chair: Maarten Mulder
+                project_org: https://github.com/OSGP
               annual_review_date: '2024-09-18'
               annual_review_url: https://github.com/lf-energy/tac/issues/8
               artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-fabric
@@ -14675,10 +14674,10 @@ landscape:
 
               OperatorFabric has a robust reference implementation called Let’s Coordinate.
             second_path:
+              - SIG / No SIG
               - Transmission / Operations
               - Distribution / Operations
               - Shared / Unified Operator's UX Components and Framework
-              - SIG / Grid Operations
               - Energy Systems / Monitoring and Control
             project: earlyadoption
             repo_url: https://github.com/opfab/operatorfabric-core
@@ -14696,6 +14695,7 @@ landscape:
                 next_annual_review_date: '2025-09-02'
                 chair: Frédéric Didier
                 TAC_representative: Clément Bouvier
+                project_org: https://github.com/opfab
               audits:
                 - date: '2024-05-22'
                   type: audit
@@ -14719,10 +14719,10 @@ landscape:
 
               PowSyBl has a completely modular design, enabling developers to extend or customize its features by providing their own plugins. Modularity is a key value of PowSyBl’s open source design.
             second_path:
+              - SIG / Grid Simulation and Modeling
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
-              - SIG / Grid Simulation and Modeling
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
             additional_repos:
@@ -14738,6 +14738,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If864QAB
                 next_annual_review_date: '2025-12-03'
                 chair: Sophie Frasnedo
+                project_org: https://github.com/powsybl
               annual_review_date: '2024-12-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/22
               artwork_url: https://artwork.lfenergy.org/projects/powsybl
@@ -14753,10 +14754,10 @@ landscape:
               that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially beyond). This platform is intended to host
               multi-provider applications.
             second_path:
+              - SIG / Digital Substations
               - Transmission / Grid Automation
               - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
-              - SIG / Digital Substations
               - Energy Systems / Distribution and Grids
             project: earlyadoption
             repo_url: https://github.com/seapath/.github
@@ -14774,6 +14775,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWmNQAV
                 next_annual_review_date: '2025-01-14'
                 chair: Eloi Bail
+                project_org: https://github.com/seapath
               audits:
                 - date: '2024-07-23'
                   type: audit
@@ -14795,9 +14797,9 @@ landscape:
               to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to integrate today’s SCADA systems with SOGNO and gradually move
               functionalities into microservices.
             second_path:
+              - SIG / No SIG
               - Distribution / Operations
               - System Management / System Control
-              - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
             repo_url: https://github.com/sogno-platform/cimpy
@@ -14815,6 +14817,7 @@ landscape:
                 topics: simulation,real-time,dynamic-phasors,powerflow,electromagnetic-transient,power-systems,emt,quasi-stationary
                 next_annual_review_date: '2025-05-13'
                 chair: Antonello Monti
+                project_org: https://github.com/sogno-platform
               annual_review_date: '2024-04-23'
               annual_review_url: https://github.com/lf-energy/tac/issues/75
               artwork_url: https://artwork.lfenergy.org/projects/sogno
@@ -14834,10 +14837,10 @@ landscape:
 
               CoMPAS (Configuration Modules for Power industry Automation Systems is being developed using several guiding principles, including the use of cross-platform Docker-based microservices along with a lightweight browser client, multiple language support for the user interface, scriptable controls, and the ability to integrate third-party tools.
             second_path:
+              - SIG / Digital Substations
               - Transmission / Grid Automation
               - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
-              - SIG / Digital Substations
               - Energy Systems / Modeling and Optimization
             project: incubating
             repo_url: https://github.com/com-pas/compas-core
@@ -14855,6 +14858,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkJTLQA3
                 next_annual_review_date: '2025-06-10'
                 chair: Sander Jansen
+                project_org: https://github.com/com-pas
               annual_review_date: '2024-06-25'
               annual_review_url: https://github.com/lf-energy/tac/issues/72
               artwork_url: https://artwork.lfenergy.org/projects/compas
@@ -14868,10 +14872,10 @@ landscape:
             logo: dynaoo.svg
             description: The mission of the Project is to develop a hybrid C++/Modelica open source suite of simulation tools for power systems.
             second_path:
+              - SIG / Grid Simulation and Modeling
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
-              - SIG / Grid Simulation and Modeling
             project: incubating
             repo_url: https://github.com/dynawo/dynawo
             additional_repos:
@@ -14910,13 +14914,12 @@ landscape:
               industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code that must be maintained outside the
               Fledge open source project.
             second_path:
+              - SIG / Digital Substations
               - Transmission / Data & IoT
               - Distribution / Data & IoT
               - Behind-the-Meter / Data & IoT
               - Acquisition and Control / Communication Infrastructure
-              - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
-              - SIG / Digital Substations
             project: incubating
             repo_url: https://github.com/fledge-power/contributing
             additional_repos:
@@ -14970,10 +14973,10 @@ landscape:
               The FlexMeasures Platform is a tool for building real-time energy flexibility services,
               rapidly and scalable
             second_path:
+              - SIG / No SIG
               - Behind-the-Meter / Flexibility
               - Asset Management / Data Management
               - Energy Systems / Monitoring and Control
-              - SIG / Grid Operations
             project: incubating
             repo_url: https://github.com/SeitaBV/flexmeasures
             additional_repos:
@@ -15010,6 +15013,7 @@ landscape:
             description: Open source software to realize Microgrid which is one of the key elements to promote further renewable energy installation in the existing energy system which
               is one the biggest source for carbon emission in the world.
             second_path:
+              - SIG / No SIG
               - Energy Systems / Modeling and Optimization
               - Acquisition and Control / Edge Node Control
             project: incubating
@@ -15027,6 +15031,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUOQA1
                 next_annual_review_date: '2026-02-10'
                 chair: Arila Barnes
+                project_org: https://github.com/hyphae
               annual_review_date: '2025-02-11'
               annual_review_url: https://github.com/lf-energy/tac/issues/74
               artwork_url: https://artwork.lfenergy.org/projects/hyphae
@@ -15041,16 +15046,16 @@ landscape:
             description: |-
               The mission of the Project is to develop an open source project with the following goals:
 
-              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;
+              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;  
               - Maintain a production-ready library to act as a measurement system for distributed energy resources that can be replicated by all parties in markets and expand capabilities over time;
-              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets;
+              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets; 
               - Provide reusable components with documented APIs and consistent security practices; and
               - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define common transactional units for distributed energy resources in the market.
             second_path:
+              - SIG / No SIG
               - Distribution / Grid Edge
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
-              - SIG / Data Standards and Tooling
             project: incubating
             repo_url: https://github.com/opendsm/opendsm
             additional_repos:
@@ -15068,6 +15073,7 @@ landscape:
                 topics: energy,efficiency,energy-data,energy-efficiency,building-energy,weather,weather-data,weather-station
                 next_annual_review_date: '2025-06-10'
                 chair: Travis Sikes
+                project_org: https://github.com/opendsm
               annual_review_date: '2024-09-17'
               annual_review_url: https://github.com/lf-energy/tac/issues/7
               artwork_url: https://artwork.lfenergy.org/projects/opendsm
@@ -15082,11 +15088,11 @@ landscape:
             description: This mission of the OpenLEADR project is to develop an OpenADR open source project to accelerate adoption and integration of distributed energy resources into
               the electric grid.
             second_path:
+              - SIG / No SIG
               - Distribution / Operations
               - Behind-the-Meter / Flexibility
               - Acquisition and Control / Edge Node Control
               - Energy Systems / Distribution and Grids
-              - SIG / Grid Operations
             project: incubating
             repo_url: https://github.com/OpenLEADR/openleadr-python
             additional_repos:
@@ -15102,6 +15108,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IuQAL
                 chair: Arila Barnes, Hugo Van De Pol, Stan Janssen
                 next_annual_review_date: '2025-07-08'
+                project_org: https://github.com/OpenLEADR
               annual_review_date: '2021-11-23'
               annual_review_url: https://github.com/lf-energy/tac/issues/24
               artwork_url: https://artwork.lfenergy.org/projects/openleadr
@@ -15115,11 +15122,11 @@ landscape:
             logo: openstef.svg
             description: OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days.
             second_path:
+              - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
-              - SIG / Grid Simulation and Modeling
             project: incubating
             repo_url: https://github.com/OpenSTEF/openstef
             additional_repos:
@@ -15137,6 +15144,7 @@ landscape:
                 topics: forecasting,energy,python,data-science,machine-learning,time-series
                 next_annual_review_date: '2026-02-04'
                 chair: Daan Van Es
+                project_org: https://github.com/OpenSTEF
               annual_review_date: '2025-02-05'
               annual_review_url: https://github.com/lf-energy/tac/issues/25
               artwork_url: https://artwork.lfenergy.org/projects/openstef
@@ -15150,11 +15158,11 @@ landscape:
             logo: power_grid_model.svg
             description: The mission of the Project is to develop a Python library for steady-state distribution power system analysis.
             second_path:
+              - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
               - Distribution / Operations
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
-              - SIG / Grid Simulation and Modeling
             project: incubating
             repo_url: https://github.com/PowerGridModel/power-grid-model-benchmark
             additional_repos:
@@ -15171,6 +15179,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPLQA5
                 next_annual_review_date: '2026-02-04'
                 chair: Tony Xiang
+                project_org: https://github.com/PowerGridModel
               annual_review_date: '2025-02-05'
               annual_review_url: https://github.com/lf-energy/tac/issues/81
               artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
@@ -15187,10 +15196,10 @@ landscape:
               forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility markets for grid-congestion issues and standardize the setup
               and operation of these markets across different DSOs, TSO’s and different countries.
             second_path:
+              - SIG / No SIG
               - Distribution / Operations
               - Transmission / Operations
               - Customer and Market / Market Platform Gateway
-              - SIG / Grid Operations
               - Energy Systems / Modeling and Optimization
             project: incubating
             repo_url: https://github.com/shapeshifter/shapeshifter-library-java
@@ -15208,6 +15217,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWtA7QAL
                 next_annual_review_date: '2026-04-14'
                 chair: Robben Riksen
+                project_org: https://github.com/shapeshifter
               annual_review_date: '2025-04-08'
               annual_review_url: https://github.com/lf-energy/tac/issues/136
               artwork_url: https://artwork.lfenergy.org/projects/shapeshifter
@@ -15225,10 +15235,10 @@ landscape:
             description: The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with special attention
               to electric energy delivery systems.
             second_path:
+              - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Distribution and Grids
-              - SIG / Grid Simulation and Modeling
             project: sandbox
             repo_url: https://github.com/arras-energy/tsc
             additional_repos:
@@ -15268,9 +15278,9 @@ landscape:
             logo: battery_data_alliance.svg
             description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
             second_path:
+              - SIG / No SIG
               - Other / Batteries
               - Energy Storage / Battery
-              - SIG / Data Standards and Tooling
             project: sandbox
             repo_url: https://github.com/battery-data-alliance/schema-management-service
             additional_repos:
@@ -15286,6 +15296,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfomTQpTLl3A7cDHjh
                 next_annual_review_date: '2025-05-13'
                 chair: Gabe Hege
+                project_org: https://github.com/battery-data-alliance
               annual_review_date: '2024-08-27'
               annual_review_url: https://github.com/lf-energy/tac/issues/57
               artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
@@ -15296,8 +15307,8 @@ landscape:
             logo: citrineos.svg
             description: The mission of the Project is to develop EV charging station management software.
             second_path:
-              - Behind-the-Meter / EV Charging
               - SIG / EV Charging
+              - Behind-the-Meter / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
             project: sandbox
             repo_url: https://github.com/citrineos/citrineos
@@ -15330,9 +15341,9 @@ landscape:
             description: The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the characterization of extreme
               events, their associated uncertainties, and risk analysis.
             second_path:
+              - SIG / Grid Simulation and Modeling
               - Other / Risk Analysis
               - Climate and Earth Science / Meteorological Observation and Forecast
-              - SIG / Grid Simulation and Modeling
             project: sandbox
             repo_url: https://github.com/covXtreme/covXtreme
             additional_repos:
@@ -15369,6 +15380,7 @@ landscape:
                 slug: grid2op
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
+                project_org: https://github.com/Grid2op
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid2op
           - item:
@@ -15381,10 +15393,10 @@ landscape:
               for their needs, and continue delivering reliable, safe, cost-effective power while meeting rapidly evolving grid modernization challenges. Vendors embrace the open ecosystem
               to accelerate innovation, increase security, and improve competitiveness around value-add services of analytics, AI, and grid optimization.
             second_path:
+              - SIG / No SIG
               - Distribution / Grid Edge
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
-              - SIG / Data Standards and Tooling
             project: sandbox
             repo_url: https://github.com/geisa/specification
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -15396,10 +15408,12 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf9JyPreYpr2H4waXR
                 next_annual_review_date: '2025-10-14'
                 chair: Michael Stuber, Richard Lam
+                project_org: https://github.com/geisa
               annual_review_url: https://github.com/lf-energy/tac/issues/230
               artwork_url: https://artwork.lfenergy.org/projects/geisa
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=geisa
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/geisa/conformance
           - item:
             name: GridFM
             homepage_url: https://lfenergy.org/projects/gridfm/
@@ -15407,10 +15421,10 @@ landscape:
             description: This project aims at developing foundation models for electrical grids (GridFMs). Foundation Models (FMs), pre-trained on large data sets and adapted to a broad
               set of applications, are revolutionizing the field of Artificial Intelligence (AI).
             second_path:
+              - SIG / No SIG
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
-              - SIG / Grid Simulation and Modeling
             project: sandbox
             repo_url: https://github.com/gridfm-energy/gridfm-data-zoo
             additional_repos:
@@ -15448,6 +15462,8 @@ landscape:
 
               The Foundation for Impact:
               NODE Collective's data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
+            second_path:
+              - SIG / No SIG
             project: sandbox
             repo_url: https://github.com/NODE-Collective/.github
             additional_repos:
@@ -15462,6 +15478,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfteqdawq12KhVQ5JD
                 next_annual_review_date: '2025-07-08'
                 chair: Deandrea Salvador
+                project_org: https://github.com/NODE-Collective
               annual_review_date: '2024-04-02'
               annual_review_url: https://github.com/lf-energy/tac/issues/108
               artwork_url: https://artwork.lfenergy.org/projects/node-collective
@@ -15472,9 +15489,9 @@ landscape:
             logo: opensynth.svg
             description: The mission of the Project is to unlock access to synthetic data to accelerate the decarbonization of global energy systems.
             second_path:
+              - SIG / No SIG
               - Distribution / Grid Edge
               - Sustainable Development / Data Catalogs and Interfaces
-              - SIG / Data Standards and Tooling
             project: sandbox
             repo_url: https://github.com/OpenSynth-energy/OpenSynth
             additional_repos:
@@ -15499,6 +15516,8 @@ landscape:
             logo: ores_open_renewal_energy_systems.svg
             description: ORES aims to address these challenges by developing a set of easy-to-follow open standard specifications on system architecture, APIs, and communication protocols
               that empower device manufacturers, hardware and software developers, and DIYers to
+            second_path:
+              - SIG / No SIG
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
             additional_repos:
@@ -15506,11 +15525,16 @@ landscape:
               - repo_url: https://github.com/open-renewable-energy-systems/.github
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2025-04-15'
+              accepted: '2024-03-12'
               annotations:
                 slug: ores-open-renewal-energy-systems
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ores-open-renewal-energy-systems
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfn16C1T8IdKmEtdUv
+                next_annual_review_date: '2026-04-14'
+                chair: Chris Xie
+                project_org: https://github.com/open-renewable-energy-systems
+              annual_review_date: '2025-04-08'
+              annual_review_url: https://github.com/lf-energy/tac/issues/107
               artwork_url: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systems
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=ores-open-renewal-energy-systems
           - item:
@@ -15520,11 +15544,11 @@ landscape:
             description: The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers, and data scientists
               wherever they are.
             second_path:
+              - SIG / No SIG
               - Distribution / Data & IoT
               - Transmission / Data & IoT
               - Behind-the-Meter / Data & IoT
               - System Management / Data Management
-              - SIG / Grid Operations
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/rtdip/core
@@ -15540,6 +15564,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmxQAF
                 next_annual_review_date: '2025-07-08'
                 chair: Bryce Bartmann
+                project_org: https://github.com/rtdip
               annual_review_date: '2024-01-30'
               annual_review_url: https://github.com/lf-energy/tac/issues/26
               artwork_url: https://artwork.lfenergy.org/projects/rtdip
@@ -15554,9 +15579,9 @@ landscape:
             description: Oil and Gas companies face extreme pressure to address GHG emissions. Proactively addressing scope 3 emissions for suppliers and other cases could help improve
               scope 3 accountability. Such data and insights can help an organization to come up with a mitigation plan.
             second_path:
+              - SIG / No SIG
               - Other / Carbon Accounting
               - Emissions / Carbon Intensity and Accounting
-              - SIG / Data Standards and Tooling
             project: sandbox
             repo_url: https://github.com/sc-decarbonization-hub/SCDH
             additional_repos:
@@ -15571,6 +15596,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfLxmTMlwn9Fj9aCbx
                 next_annual_review_date: '2025-06-10'
                 chair: Sachin Bhakar
+                project_org: https://github.com/sc-decarbonization-hub
               annual_review_url: https://github.com/lf-energy/tac/issues/171
               artwork_url: https://artwork.lfenergy.org/projects/sc-decarbonisation-hub
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=sc-decarbonisation-hub
