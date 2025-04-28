@@ -15700,17 +15700,20 @@ landscape:
             description: The Carbon Data Specification (CDS) is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying,
               and tracking carbon emissions.
             second_path:
+              - SIG / No SIG
               - Distribution / Grid Edge
               - Emissions / Carbon Intensity and Accounting
             project: working-group
             repo_url: https://github.com/carbon-data-specification/Connectivity
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-06-26'
+              accepted: '2024-07-01'
               annotations:
                 slug: cdsc-connectivity-wg
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc-connectivity-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
+                chair: Daniel Roesler
+              annual_review_url: https://github.com/lf-energy/tac/issues/511
               artwork_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wg
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc-connectivity-wg
           - item:
@@ -15720,6 +15723,7 @@ landscape:
             description: This working group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon emissions calculations
               and decarbonization efforts.
             second_path:
+              - SIG / No SIG
               - Distribution / Grid Edge
               - Emissions / Carbon Intensity and Accounting
             project: working-group
@@ -15731,6 +15735,8 @@ landscape:
                 slug: cdsc1
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc1
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt3QAH
+                chair: Daniel Roesler
+              annual_review_url: https://github.com/lf-energy/tac/issues/512
               artwork_url: https://artwork.lfenergy.org/projects/cdsc1
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc1
           - item:
@@ -15739,6 +15745,7 @@ landscape:
             logo: cdsc_power_system_data_wg_wg2.svg
             description: An open specification for raw electric power system data to facilitate a systematic and more accurate approach to report grid emissions.
             second_path:
+              - SIG / No SIG
               - Transmission / Operations
               - Emissions / Carbon Intensity and Accounting
             project: working-group
@@ -15750,6 +15757,8 @@ landscape:
                 slug: cdsc2
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc2
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt4QAH
+                chair: Stephen Suffian
+              annual_review_url: https://github.com/lf-energy/tac/issues/513
               artwork_url: https://artwork.lfenergy.org/projects/cdsc2
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc2
           - item:
