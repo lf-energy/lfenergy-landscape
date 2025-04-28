@@ -14863,6 +14863,21 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=compas
               mailing_list_url: https://lists.lfenergy.org/g/CoMPAS
               slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=CAMYMdUwrVg
+              summary_business_use_case: |
+                - [LF Energy CoMPAS Cleans Up IEC 61850 Data Model](https://lfenergy.org/lf-energy-compas-cleans-up-iec-61850-data-model/)
+                - [How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid](https://lfenergy.org/how-rte-and-alliander-embraced-open-source-to-speed-modernization-of-the-grid/)
+              summary_use_case: |
+                CoMPAS offers common software blocks for IEC 61850 profile configuration, using an open source shared development model, accelerating conformity to IEC 61850 interoperability requirements through software implementation.
+
+                Primary use cases:
+                Tools for IEC 61850 profile management and configuration are needed at various business processes of the power grid industry
+                The planning process for grid infrastructure components facilitates the design of power system adaptations and the engineering of substation PACS to be installed or upgraded
+                Specifying requirements and performing multi-vendor system integration and commissioning during the PACS procurement and delivery phase
+                Adapting to changes in operational conditions and performing system configuration updates during the operational life of PACS
+                Managing assets in order to perform maintenance actions and PACS upgrades
+                Improving the interlinkage between grid planning and PACS engineering processes
+                Improving the interlinkage between the configuration of PACS and the configuration of central systems, including SCADA and asset management
           - item:
             name: Dynaωo
             homepage_url: https://dynawo.github.io/
@@ -15270,10 +15285,10 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=UyNhH6OkR1w
-              summary_use_case: |
+              summary_use_case: > 
                 Arras delivers an open and developer-friendly framework for addressing important use-cases identified by key industry stakeholders. These use-cases include (1) distributed energy resource hosting capacity, (2) tariff design, (3) end-use load electrification, (4) extreme weather resilience, (5) wildfire safety and protection, (6) peer-to-peer energy, (7) advanced load modeling and forecasting, and (8) high-performance scenario planning at scale to better plan for increasing uncertainty with DER integration.
 
-Arras addresses the needs of key stakeholders such as power system researchers, planners, operators, policy-makers and regulators. Specifically, this software provides an open source advanced power system simulation engine capable of performing very large scale simulations of distribution systems that include a large fraction of so-called smart grid technology and distributed energy resources that the key stakeholders cannot obtain and/or afford to license from existing software vendors. The goal is for these open source tools to continue to gain ongoing support to possibly open the idea of replacing legacy license tools.
+                Arras addresses the needs of key stakeholders such as power system researchers, planners, operators, policy-makers and regulators. Specifically, this software provides an open source advanced power system simulation engine capable of performing very large scale simulations of distribution systems that include a large fraction of so-called smart grid technology and distributed energy resources that the key stakeholders cannot obtain and/or afford to license from existing software vendors. The goal is for these open source tools to continue to gain ongoing support to possibly open the idea of replacing legacy license tools.
           - item:
             name: Battery Data Alliance
             homepage_url: https://batterydataalliance.energy/
