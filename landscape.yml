@@ -15364,6 +15364,8 @@ landscape:
             logo: grid2op.svg
             description: Grid2op presents a valuable platform for researchers, utilities, and other stakeholders in the power grid domain. Its modularity, customizability, and open-source
               nature make it a powerful tool for advancing power grid management.
+            second_path:
+              - SIG / No SIG
             project: sandbox
             repo_url: https://github.com/Grid2op/grid2op
             additional_repos:
@@ -15372,12 +15374,16 @@ landscape:
               - repo_url: https://github.com/Grid2op/LearningToAlert
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-12-17'
+              accepted: '2025-02-11'
               annotations:
                 slug: grid2op
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
                 project_org: https://github.com/Grid2op
+                next_annual_review_date: '2026-02-10'
+                chair: ''
+              annual_review_date: '2025-02-11'
+              annual_review_url: https://github.com/lf-energy/tac/issues/287
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid2op
           - item:
@@ -15626,10 +15632,10 @@ landscape:
             name: Digital Substations SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/DSS/overview
             logo: digital_substations_sig.svg
-            second_path:
-              - Energy Systems / Distribution and Grids
             description: The Digital Substation Automation Systems (DSAS) initiative seeks to optimize digital substations through open-source technology and provides a collaboration
               platform for projects working on digital substations.
+            second_path:
+              - Energy Systems / Distribution and Grids
             project: sig
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
@@ -15665,10 +15671,10 @@ landscape:
           - item:
             name: Grid Simulation and Modeling SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/GSMS/overview
-            second_path:
-              - Energy Systems / Modeling and Optimization
             logo: grid_simulation_and_modeling_sig.svg
             description: SIG for LF Energy project collaboration in the area of Grid Simulation and Modeling
+            second_path:
+              - Energy Systems / Modeling and Optimization
             project: sig
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
