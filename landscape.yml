@@ -15448,6 +15448,33 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/gridfm
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=gridfm
           - item:
+            name: Grid Vantage
+            homepage_url: https://gridvantage.energy/
+            logo: grid_vantage.svg
+            description: The mission of the Project is to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events.
+            second_path:
+              - SIG / Grid Simulation and Modeling
+            project: sandbox
+            repo_url: https://github.com/grid-vantage/grip-integration
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2023-09-26'
+              annotations:
+                slug: gridvantage
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gridvantage
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYw7SMxNrSMczS0vr
+                next_annual_review_date: '2025-06-04'
+                chair: Alyona Teyber
+                project_org: https://github.com/grid-vantage
+              annual_review_date: '2023-09-26'
+              annual_review_url: https://github.com/lf-energy/tac/issues/52
+              artwork_url: https://artwork.lfenergy.org/projects/gridvantage
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=gridvantage
+            additional_repos:
+              - repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
+              - repo_url: https://github.com/grid-vantage/grip-anticipation-pipeline
+              - repo_url: https://github.com/grid-vantage/grip-recovery-pipeline
+          - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
             logo: node_collective.svg
