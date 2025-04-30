@@ -15462,6 +15462,10 @@ landscape:
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/grid-vantage/grip-integration
+            additional_repos:
+              - repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
+              - repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
+              - repo_url: https://github.com/grid-vantage/grip-anticipation-pipeline
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-09-26'
@@ -15476,10 +15480,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/52
               artwork_url: https://artwork.lfenergy.org/projects/gridvantage
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=gridvantage
-            additional_repos:
-              - repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
-              - repo_url: https://github.com/grid-vantage/grip-anticipation-pipeline
-              - repo_url: https://github.com/grid-vantage/grip-recovery-pipeline
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
