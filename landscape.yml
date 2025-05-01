@@ -13784,6 +13784,20 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
+            name: Hydro-Québec (member)
+            homepage_url: https://hydroquebec.com/
+            logo: hydro_quebec.svg
+            description: |-
+              Hydro-Québec
+
+              --- Merged Data:
+
+              Hydro-Qubec generates, transmits, and distributes electricity using mainly renewable generating options.
+            crunchbase: https://www.crunchbase.com/organization/hydro-quebec
+            twitter: https://twitter.com/hydroquebec
+            extra:
+              linkedin_url: https://www.linkedin.com/company/hydro-quebec
+          - item:
             name: Microsoft Corporation (member)
             homepage_url: https://microsoft.com/
             logo: microsoft_corporation.svg
@@ -13895,20 +13909,6 @@ landscape:
             twitter: https://twitter.com/generalelectric
             extra:
               linkedin_url: https://www.linkedin.com/company/ge-digital
-          - item:
-            name: Hydro-Québec (member)
-            homepage_url: https://hydroquebec.com/
-            logo: hydro_quebec.svg
-            description: |-
-              Hydro-Québec
-
-              --- Merged Data:
-
-              Hydro-Qubec generates, transmits, and distributes electricity using mainly renewable generating options.
-            crunchbase: https://www.crunchbase.com/organization/hydro-quebec
-            twitter: https://twitter.com/hydroquebec
-            extra:
-              linkedin_url: https://www.linkedin.com/company/hydro-quebec
           - item:
             name: Lutech Advanced Solutions S.p.A. (member)
             homepage_url: https://lutech.group/
@@ -14770,7 +14770,7 @@ landscape:
                 slug: seapath
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/seapath
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWmNQAV
-                next_annual_review_date: '2025-01-14'
+                next_annual_review_date: '2026-01-13'
                 chair: Eloi Bail
                 project_org: https://github.com/seapath
               audits:
@@ -14778,7 +14778,7 @@ landscape:
                   type: audit
                   vendor: Ada Logics
                   url: https://ostif.org/wp-content/uploads/2024/08/SEAPATH-audit-report-23-july-2024.pdf
-              annual_review_date: '2023-12-19'
+              annual_review_date: '2025-01-14'
               annual_review_url: https://github.com/lf-energy/tac/issues/73
               artwork_url: https://artwork.lfenergy.org/projects/seapath
               chat_channel: '#seapath'
@@ -15227,7 +15227,7 @@ landscape:
         items:
           - item:
             name: Arras
-            homepage_url: https://github.com/arras-energy
+            homepage_url: https://arras.energy/
             logo: arras.svg
             description: The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with special attention
               to electric energy delivery systems.
@@ -15237,21 +15237,11 @@ landscape:
               - System Management / Power System Calculation
               - Energy Systems / Distribution and Grids
             project: sandbox
-            repo_url: https://github.com/arras-energy/tsc
+            repo_url: https://github.com/arras-energy/gridlabd-weather
             additional_repos:
               - repo_url: https://github.com/arras-energy/.github
-              - repo_url: https://github.com/arras-energy/arras-energy.github.io
-              - repo_url: https://github.com/arras-energy/gridlabd
-              - repo_url: https://github.com/arras-energy/gridlabd-converters
-              - repo_url: https://github.com/arras-energy/gridlabd-examples
-              - repo_url: https://github.com/arras-energy/gridlabd-library
-              - repo_url: https://github.com/arras-energy/gridlabd-models
-              - repo_url: https://github.com/arras-energy/gridlabd-old
-              - repo_url: https://github.com/arras-energy/gridlabd-template
-              - repo_url: https://github.com/arras-energy/gridlabd-weather
-              - repo_url: https://github.com/arras-energy/marimo
-              - repo_url: https://github.com/arras-energy/module_template
-              - repo_url: https://github.com/arras-energy/static-website
+              - repo_url: https://github.com/arras-energy/.github
+              - repo_url: https://github.com/arras-energy/arras
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-01-03'
@@ -15262,6 +15252,7 @@ landscape:
                 topics: energy,platform,collaboration,linux-foundation,hypervision,alerting
                 next_annual_review_date: '2025-09-03'
                 chair: David Chassin
+                project_org: https://github.com/arras-energy
               annual_review_date: '2024-07-16'
               annual_review_url: https://github.com/lf-energy/tac/issues/104
               artwork_url: https://artwork.lfenergy.org/projects/arras
@@ -15353,11 +15344,41 @@ landscape:
                 slug: covxtreme
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/covxtreme
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwTZTl5McN9ojiuC7
-                next_annual_review_date: '2025-04-02'
+                next_annual_review_date: '2026-04-01'
                 chair: Sachin Bhakar
+              annual_review_date: '2025-04-02'
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=covxtreme
+          - item:
+            name: FIDOPower
+            homepage_url: https://fidopower.energy/
+            logo: fidopower.svg
+            description: |-
+              The mission of the Project is to enable and support the use of DOE's GridLAB-D
+              technology by utilities, researchers, and vendors of smart grid, renewable energy, and climate-change mitigation technology with special attention to electric energy delivery systems.
+            second_path:
+              - SIG / Grid Simulation and Modeling
+            project: sandbox
+            repo_url: https://github.com/fidopower/tsc
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-01-03'
+              annotations:
+                slug: fidopower
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fidopower
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPUQA5
+                next_annual_review_date: '2025-06-04'
+                chair: David Chassin
+                project_org: https://github.com/fidopower
+              annual_review_date: '2024-01-30'
+              annual_review_url: https://github.com/lf-energy/tac/issues/82
+              artwork_url: https://artwork.lfenergy.org/projects/fidopower
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=fidopower
+            additional_repos:
+              - repo_url: https://github.com/fidopower/.github
+              - repo_url: https://github.com/fidopower/model_viewer
+              - repo_url: https://github.com/fidopower/optimal_sizing_placement
           - item:
             name: Grid2Op
             homepage_url: https://grid2op.energy/
