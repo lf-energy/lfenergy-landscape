@@ -15361,6 +15361,10 @@ landscape:
               - SIG / Grid Simulation and Modeling
             project: sandbox
             repo_url: https://github.com/fidopower/tsc
+            additional_repos:
+              - repo_url: https://github.com/fidopower/.github
+              - repo_url: https://github.com/fidopower/.github
+              - repo_url: https://github.com/fidopower/model_viewer
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-01-03'
@@ -15375,10 +15379,6 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/82
               artwork_url: https://artwork.lfenergy.org/projects/fidopower
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=fidopower
-            additional_repos:
-              - repo_url: https://github.com/fidopower/.github
-              - repo_url: https://github.com/fidopower/model_viewer
-              - repo_url: https://github.com/fidopower/optimal_sizing_placement
           - item:
             name: Grid2Op
             homepage_url: https://grid2op.energy/
