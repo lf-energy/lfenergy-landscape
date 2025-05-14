@@ -14243,13 +14243,12 @@ landscape:
               linkedin_url: https://www.linkedin.com/company/fiware
           - item:
             name: Fraunhofer Gesellschaft IIS (member)
-            homepage_url: https://iis.fraunhofer.de/
+            homepage_url: https://fraunhofer.de/
             logo: fraunhofer_gesellschaft_iis.svg
             description: |-
-              Attn: Norbert Schuhmann
-              Munich, Germany c/o Fraunhofer IIS
-
-              --- Merged Data:
+              Attn: 
+              Norbert Schuhmann, Erlangen, Germany c/o Fraunhofer IIS
+              Alexander Noack, Dresden, Germany c/o Fraunhofer IPMS
 
               The Fraunhofer Society is a German research organization with 72 institutes spread throughout Germany, each focusing on different fields of applied science.
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
@@ -14706,43 +14705,27 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_url: https://slack.lfenergy.org
           - item:
-            name: PowSyBl
-            homepage_url: https://www.lfenergy.org/projects/powsybl/
+            name: PowSyBL
+            homepage_url: https://powsybl.org/
             logo: powsybl.svg
-            description: |-
-              PowSyBl (Power System Blocks) is an open source library dedicated to electrical grid modeling and simulation. PowSyBl is written in Java and licensed under the Mozilla Public License 2.0.
-
-              PowSyBl may be scripted for a quick solution, but it can also be used as a library to write complex software for power system simulation and analysis. Using PowSyBl, developers can create applications able to perform dynamic power flow simulations and security analyses on the network, handle a variety of formats including CGMES for European data exchanges, and many other tasks.
-
-              PowSyBl has a completely modular design, enabling developers to extend or customize its features by providing their own plugins. Modularity is a key value of PowSyBl’s open source design.
-            second_path:
-              - SIG / Grid Simulation and Modeling
-              - Transmission / Modeling and Simulation
-              - System Management / Power System Calculation
-              - Energy Systems / Modeling and Optimization
+            description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics of
+              power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
-            additional_repos:
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/github-ci
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2019-04-30'
+              accepted: '2025-05-14'
               annotations:
-                slug: powsybl
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If864QAB
-                next_annual_review_date: '2025-12-03'
-                chair: Sophie Frasnedo
+                slug: powsybl-lf-europe
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl-lf-europe
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDVCEHOD7BbGCdYoI
                 project_org: https://github.com/powsybl
-              annual_review_date: '2024-12-04'
-              annual_review_url: https://github.com/lf-energy/tac/issues/22
-              artwork_url: https://artwork.lfenergy.org/projects/powsybl
-              chat_channel: none
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl
-              mailing_list_url: https://lists.lfenergy.org/g/powsybl
-              slack_url: https://slack.lfenergy.org
+              artwork_url: https://artwork.lfenergy.org/projects/powsybl-lf-europe
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl-lf-europe
+            additional_repos:
+              - repo_url: https://github.com/powsybl/.github
+              - repo_url: https://github.com/powsybl/github-ci
+              - repo_url: https://github.com/powsybl/java-docker
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
