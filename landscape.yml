@@ -14707,6 +14707,11 @@ landscape:
           - item:
             name: PowSyBL
             homepage_url: https://powsybl.org/
+            second_path:
+              - SIG / Grid Simulation and Modeling
+              - Transmission / Modeling and Simulation
+              - System Management / Power System Calculation
+              - Energy Systems / Modeling and Optimization
             logo: powsybl.svg
             description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics of
               power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
@@ -14726,6 +14731,9 @@ landscape:
                 project_org: https://github.com/powsybl
               artwork_url: https://artwork.lfenergy.org/projects/powsybl-lf-europe
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl-lf-europe
+              chat_channel: none
+              mailing_list_url: https://lists.lfenergy.org/g/powsybl
+              slack_url: https://slack.lfenergy.org
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
