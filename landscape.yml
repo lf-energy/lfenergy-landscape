@@ -14697,8 +14697,7 @@ landscape:
             name: PowSyBL
             homepage_url: https://powsybl.org/
             logo: powsybl.svg
-            description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics of
-              power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
+            description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics of power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
             second_path:
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
@@ -14706,22 +14705,27 @@ landscape:
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
             additional_repos:
+              - repo_url: https://github.com/powsybl/powsybl-open-loadflow
+              - repo_url: https://github.com/powsybl/powsybl-diagram
+              - repo_url: https://github.com/powsybl/powsybl-open-rao
+              - repo_url: https://github.com/powsybl/powsybl-entsoe
+              - repo_url: https://github.com/powsybl/powsybl-dynawo
+              - repo_url: https://github.com/powsybl/pypowsybl
+              - repo_url: https://github.com/powsybl/powsybl.jl
               - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/github-ci
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2025-05-14'
+              accepted: '2018-07-12'
               annotations:
                 slug: powsybl-lf-europe
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl-lf-europe
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDVCEHOD7BbGCdYoI
                 project_org: https://github.com/powsybl
-              artwork_url: https://artwork.lfenergy.org/projects/powsybl-lf-europe
+              artwork_url: https://artwork.lfenergy.org/projects/powsybl
               chat_channel: none
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl-lf-europe
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
-              slack_url: https://slack.lfenergy.org
+              slack_url: https://powsybl.slack.com
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
