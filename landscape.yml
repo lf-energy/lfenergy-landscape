@@ -15743,40 +15743,19 @@ landscape:
         name: Working Group
         items:
           - item:
-            name: CDSC Connectivity WG (WG3)
-            homepage_url: https://connectivity.carbondataspec.org/
-            logo: cdsc_connectivity_wg_wg3.svg
-            description: The Carbon Data Specification (CDS) is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying,
-              and tracking carbon emissions.
+            name: Connected Data Specification - Customer Data Working Group (CDS WG1)
+            homepage_url: https://cds-customerdata.lfenergy.org/
+            logo: connected_data_specification_customer_data_working_group_cds_wg1.svg
+            description: 'The Connected Data Specification (CDS) is a set of specifications for secure and standardized access and sharing of energy and energy-related data. This working
+              group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon emissions calculations and decarbonization
+              efforts, including, but not limited to: 1) Metering consumption and production data, 2) Account and bill data needed for project analysis, 3) Authorization and consent
+              processes.'
             second_path:
               - SIG / No SIG
               - Distribution / Grid Edge
               - Emissions / Carbon Intensity and Accounting
             project: working-group
-            repo_url: https://github.com/carbon-data-specification/Connectivity
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2024-07-01'
-              annotations:
-                slug: cdsc-connectivity-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc-connectivity-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
-                chair: Daniel Roesler
-              annual_review_url: https://github.com/lf-energy/tac/issues/511
-              artwork_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wg
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc-connectivity-wg
-          - item:
-            name: CDSC Customer Data WG (WG1)
-            homepage_url: https://customerdata.carbondataspec.org/
-            logo: cdsc_customer_data_wg_wg1.svg
-            description: This working group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon emissions calculations
-              and decarbonization efforts.
-            second_path:
-              - SIG / No SIG
-              - Distribution / Grid Edge
-              - Emissions / Carbon Intensity and Accounting
-            project: working-group
-            repo_url: https://github.com/carbon-data-specification/Customer-Data
+            repo_url: https://github.com/lfe-cds/CDS-Customer-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
@@ -15789,16 +15768,19 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/cdsc1
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc1
           - item:
-            name: CDSC Power System Data WG (WG2)
-            homepage_url: https://powersystemsdata.carbondataspec.org/
-            logo: cdsc_power_system_data_wg_wg2.svg
-            description: An open specification for raw electric power system data to facilitate a systematic and more accurate approach to report grid emissions.
+            name: Connected Data Specification - Power Systems Data Working Group (CDS WG2)
+            homepage_url: https://cds-powersystemdata.lfenergy.org/
+            logo: connected_data_specification_power_systems_data_working_group_cds_wg2.svg
+            description: 'The Connected Data Specification (CDS) is a set of specifications for secure and standardized access and sharing of energy and energy-related data. This working
+              group focuses on writing free, open specifications for raw / measured energy and emissions source data, including recommendations for temporal scale, locational scale,
+              timely acquisition, and quality assurance. This Working Group focuses on Power systems data. This may include, but is not limited to: 1) Power generation emissions; 2)
+              Delivery capacities and/or constraints; 3) Generation mix; 4) Power imports and exports; 5) Power market data; 6) Contractual data.'
             second_path:
               - SIG / No SIG
               - Transmission / Operations
               - Emissions / Carbon Intensity and Accounting
             project: working-group
-            repo_url: https://github.com/carbon-data-specification/Power-Systems-Data
+            repo_url: https://github.com/lfe-cds/CDS-Power-Systems-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
@@ -15810,6 +15792,32 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/513
               artwork_url: https://artwork.lfenergy.org/projects/cdsc2
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc2
+          - item:
+            name: Connected Data Specification - Registration Working Group (CDS WG3)
+            homepage_url: https://cds-registration.lfenergy.org/
+            logo: connected_data_specification_registration_working_group_cds_wg3.svg
+            description: The Connected Data Specification (CDS) is a set of specifications for secure and standardized access and sharing of energy and energy-related data. This working
+              group focuses on writing free, open specifications for utilities and other central entities ("Servers") to provide discovery, registration, connectivity, and profile management
+              abilities to third party entities ("Clients"). By providing standardized protocols for these abilities, utilities and other central entities can significantly scale and
+              streamline adoption and integration of carbon tracking platforms, energy management service providers, energy flexibility providers, and other entities that can accelerate
+              the energy transition.
+            second_path:
+              - SIG / No SIG
+              - Distribution / Grid Edge
+              - Emissions / Carbon Intensity and Accounting
+            project: working-group
+            repo_url: https://github.com/lfe-cds/CDS-Registration
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-07-01'
+              annotations:
+                slug: cdsc-connectivity-wg
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc-connectivity-wg
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
+                chair: Daniel Roesler
+              annual_review_url: https://github.com/lf-energy/tac/issues/511
+              artwork_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wg
+              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc-connectivity-wg
           - item:
             name: TROLIE
             homepage_url: https://trolie.energy/
