@@ -14734,6 +14734,10 @@ landscape:
               power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
+            additional_repos:
+              - repo_url: https://github.com/powsybl/.github
+              - repo_url: https://github.com/powsybl/.github
+              - repo_url: https://github.com/powsybl/github-ci
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-05-14'
@@ -14744,10 +14748,6 @@ landscape:
                 project_org: https://github.com/powsybl
               artwork_url: https://artwork.lfenergy.org/projects/powsybl
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl
-            additional_repos:
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/github-ci
-              - repo_url: https://github.com/powsybl/java-docker
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
