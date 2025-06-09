@@ -2554,17 +2554,6 @@ landscape:
               topics: >-
                 power-system-analysis,unit-commitment,economic-dispatch,transmission,dc-flow,n-1-criterion,water-energy-nexus,python,dispatchable-units,renewable-resources,electricity-supply,substations
           - item:
-            name: PowSyBl Open Load Flow
-            description: >-
-              An open source implementation of the load flow API that can be found in PowSyBl Core. It supports AC Newtow-Raphson and linear DC calculation
-              methods.
-            homepage_url: https://github.com/powsybl/powsybl-open-loadflow
-            repo_url: https://github.com/powsybl/powsybl-open-loadflow
-            logo: PowSyBl Open Load Flow.svg
-            extra: null
-            organization:
-              name: powsybl
-          - item:
             name: PSP-UFU
             description: Open-Source Software with advanced GUI features and CAD tools for electrical power system studies.
             homepage_url: https://thales1330.github.io/PSP/
@@ -14733,27 +14722,42 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_url: https://slack.lfenergy.org
           - item:
-            name: PowSyBL
+            name: PowSyBl
             homepage_url: https://powsybl.org/
             logo: powsybl.svg
+            second_path:
+              - Transmission / Modeling and Simulation
+              - System Management / Power System Calculation
+              - Energy Systems / Modeling and Optimization
             description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics
               of power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
             additional_repos:
+              - repo_url: https://github.com/powsybl/powsybl-open-loadflow
+              - repo_url: https://github.com/powsybl/powsybl-diagram
+              - repo_url: https://github.com/powsybl/powsybl-open-rao
+              - repo_url: https://github.com/powsybl/powsybl-entsoe
+              - repo_url: https://github.com/powsybl/powsybl-dynawo
+              - repo_url: https://github.com/powsybl/pypowsybl
+              - repo_url: https://github.com/powsybl/powsybl.jl
               - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/github-ci
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2025-05-14'
+              accepted: '2018-07-12'
               annotations:
                 slug: powsybl
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDVCEHOD7BbGCdYoI
+                next_annual_review_date: '2025-12-03'
+                chair: Sophie Frasnedo
                 project_org: https://github.com/powsybl
+              annual_review_date: '2024-12-04'
               artwork_url: https://artwork.lfenergy.org/projects/powsybl
+              chat_channel: none
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl
+              mailing_list_url: https://lists.lfenergy.org/g/powsybl
+              slack_url: https://powsybl.slack.com
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
