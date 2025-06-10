@@ -14183,6 +14183,7 @@ landscape:
             name: EnergyAi (member)
             homepage_url: https://energyai.berlin/
             logo: energyai.svg
+            description: EnergyAI Berlin bridges the gap between advances in Data and AI and their application in the energy industry.
             organization:
               name: EnergyAi
           - item:
@@ -14722,29 +14723,24 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_url: https://slack.lfenergy.org
           - item:
-            name: PowSyBl
+            name: PowSyBL
             homepage_url: https://powsybl.org/
             logo: powsybl.svg
+            description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics
+              of power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
             second_path:
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
-            description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics
-              of power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
             additional_repos:
-              - repo_url: https://github.com/powsybl/powsybl-open-loadflow
-              - repo_url: https://github.com/powsybl/powsybl-diagram
-              - repo_url: https://github.com/powsybl/powsybl-open-rao
-              - repo_url: https://github.com/powsybl/powsybl-entsoe
-              - repo_url: https://github.com/powsybl/powsybl-dynawo
-              - repo_url: https://github.com/powsybl/pypowsybl
-              - repo_url: https://github.com/powsybl/powsybl.jl
               - repo_url: https://github.com/powsybl/.github
+              - repo_url: https://github.com/powsybl/.github
+              - repo_url: https://github.com/powsybl/github-ci
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2018-07-12'
+              accepted: '2025-05-14'
               annotations:
                 slug: powsybl
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl
