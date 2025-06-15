@@ -14650,11 +14650,10 @@ landscape:
               - Behind-the-Meter / Data & IoT
               - Energy Systems / Distribution and Grids
             project: earlyadoption
-            repo_url: https://github.com/OSGP/Config
+            repo_url: https://github.com/OSGP/Documentation
             additional_repos:
-              - repo_url: https://github.com/OSGP/.github
-              - repo_url: https://github.com/OSGP/.github
-              - repo_url: https://github.com/OSGP/Documentation
+              - repo_url: https://github.com/OSGP/open-smart-grid-platform
+              - repo_url: https://github.com/OSGP/Config
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/osgp
             extra:
@@ -14698,9 +14697,7 @@ landscape:
             project: earlyadoption
             repo_url: https://github.com/opfab/operatorfabric-core
             additional_repos:
-              - repo_url: https://github.com/opfab/keycloak-perf
-              - repo_url: https://github.com/opfab/keycloak-perf
-              - repo_url: https://github.com/opfab/letscoordinate
+              - repo_url: https://github.com/opfab/operatorfabric-getting-started
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2019-04-30'
@@ -14736,11 +14733,13 @@ landscape:
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
-            repo_url: https://github.com/powsybl/powsybl-core
+            repo_url: https://github.com/powsybl/powsybl-starter
             additional_repos:
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/github-ci
+              - repo_url: https://github.com/powsybl/powsybl-core
+              - repo_url: https://github.com/powsybl/powsybl-open-loadflow
+              - repo_url: https://github.com/powsybl/powsybl-diagram
+              - repo_url: https://github.com/powsybl/pypowsybl
+              - repo_url: https://github.com/powsybl/powsybl-open-rao
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-05-14'
@@ -14772,11 +14771,11 @@ landscape:
               - Acquisition and Control / Substation Node
               - Energy Systems / Distribution and Grids
             project: earlyadoption
-            repo_url: https://github.com/seapath/.github
+            repo_url: https://github.com/seapath/TSC
             additional_repos:
-              - repo_url: https://github.com/seapath/TSC
-              - repo_url: https://github.com/seapath/TSC
               - repo_url: https://github.com/seapath/ansible
+              - repo_url: https://github.com/seapath/build_debian_iso
+              - repo_url: https://github.com/seapath/yocto-bsp
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/seapath
             extra:
@@ -14815,11 +14814,11 @@ landscape:
               - System Management / System Control
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
-            repo_url: https://github.com/sogno-platform/cimpy
+            repo_url: https://github.com/sogno-platform/dpsim
             additional_repos:
-              - repo_url: https://github.com/sogno-platform/.github
-              - repo_url: https://github.com/sogno-platform/.github
-              - repo_url: https://github.com/sogno-platform/cim-service
+              - repo_url: https://github.com/sogno-platform/cimgen
+              - repo_url: https://github.com/sogno-platform/cimpy
+              - repo_url: https://github.com/sogno-platform/libcimpp
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-03-11'
@@ -14857,11 +14856,13 @@ landscape:
               - Acquisition and Control / Substation Node
               - Energy Systems / Modeling and Optimization
             project: incubating
-            repo_url: https://github.com/com-pas/compas-core
+            repo_url: https://github.com/com-pas/compas-open-scd
             additional_repos:
-              - repo_url: https://github.com/com-pas/.allstar
-              - repo_url: https://github.com/com-pas/.allstar
-              - repo_url: https://github.com/com-pas/.github
+              - repo_url: https://github.com/com-pas/compas-cim-mapping
+              - repo_url: https://github.com/com-pas/compas-sct
+              - repo_url: https://github.com/com-pas/compas-scl-data-service
+              - repo_url: https://github.com/com-pas/compas-scl-auto-alignment
+              - repo_url: https://github.com/com-pas/compas-scl-validator
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/com-pas/compas-core
             extra:
@@ -15036,10 +15037,7 @@ landscape:
               - Acquisition and Control / Edge Node Control
             project: incubating
             repo_url: https://github.com/hyphae/APIS
-            additional_repos:
-              - repo_url: https://github.com/hyphae/APIS
-              - repo_url: https://github.com/hyphae/adrc-converter-controller
-              - repo_url: https://github.com/hyphae/adrc-converter-controller
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-02-16'
@@ -15078,9 +15076,8 @@ landscape:
             project: incubating
             repo_url: https://github.com/opendsm/opendsm
             additional_repos:
-              - repo_url: https://github.com/opendsm/caltrack
-              - repo_url: https://github.com/opendsm/caltrack
               - repo_url: https://github.com/opendsm/eeweather
+              - repo_url: https://github.com/opendsm/caltrack
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/openeemeter/eemeter/tree/master
             extra:
@@ -15114,11 +15111,9 @@ landscape:
               - Acquisition and Control / Edge Node Control
               - Energy Systems / Distribution and Grids
             project: incubating
-            repo_url: https://github.com/OpenLEADR/openleadr-python
+            repo_url: https://github.com/OpenLEADR/openleadr-rs
             additional_repos:
-              - repo_url: https://github.com/OpenLEADR/openleadr-example-ven
-              - repo_url: https://github.com/OpenLEADR/openleadr-example-ven
-              - repo_url: https://github.com/OpenLEADR/openleadr-example-vtn
+              - repo_url: https://github.com/OpenLEADR/openleadr-python
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-08-03'
@@ -15151,9 +15146,8 @@ landscape:
             project: incubating
             repo_url: https://github.com/OpenSTEF/openstef
             additional_repos:
-              - repo_url: https://github.com/OpenSTEF/.github
-              - repo_url: https://github.com/OpenSTEF/.github
-              - repo_url: https://github.com/OpenSTEF/openstef-dbc
+              - repo_url: https://github.com/OpenSTEF/openstef-reference
+              - repo_url: https://github.com/OpenSTEF/openstef-offline-example
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/OpenSTEF
             extra:
@@ -15186,11 +15180,10 @@ landscape:
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: incubating
-            repo_url: https://github.com/PowerGridModel/power-grid-model-benchmark
+            repo_url: https://github.com/PowerGridModel/power-grid-model
             additional_repos:
-              - repo_url: https://github.com/PowerGridModel/.github
-              - repo_url: https://github.com/PowerGridModel/.github
-              - repo_url: https://github.com/PowerGridModel/IEC-CIM-conversion-services-beta
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-io
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             twitter: https://twitter.com/nil
             extra:
@@ -15227,9 +15220,7 @@ landscape:
             project: incubating
             repo_url: https://github.com/shapeshifter/shapeshifter-library-java
             additional_repos:
-              - repo_url: https://github.com/shapeshifter/.github
-              - repo_url: https://github.com/shapeshifter/.github
-              - repo_url: https://github.com/shapeshifter/shapeshifter-library-python
+              - repo_url: https://github.com/shapeshifter/shapeshifter-specification
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/shapeshifter/shapeshifter-library
             extra:
@@ -15264,11 +15255,9 @@ landscape:
               - System Management / Power System Calculation
               - Energy Systems / Distribution and Grids
             project: sandbox
-            repo_url: https://github.com/arras-energy/gridlabd-weather
+            repo_url: https://github.com/arras-energy/tsc
             additional_repos:
-              - repo_url: https://github.com/arras-energy/.github
-              - repo_url: https://github.com/arras-energy/.github
-              - repo_url: https://github.com/arras-energy/arras
+              - repo_url: https://github.com/arras-energy/gridlabd
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-01-03'
@@ -15298,11 +15287,10 @@ landscape:
               - Other / Batteries
               - Energy Storage / Battery
             project: sandbox
-            repo_url: https://github.com/battery-data-alliance/schema-management-service
+            repo_url: https://github.com/battery-data-alliance/pymacnet
             additional_repos:
-              - repo_url: https://github.com/BatteryDataAlliance/BDAOntology
-              - repo_url: https://github.com/BatteryDataAlliance/BatteryDataInterface
-              - repo_url: https://github.com/BatteryDataAlliance/pyadmiral
+              - repo_url: https://github.com/battery-data-alliance/pyctiarbin
+              - repo_url: https://github.com/battery-data-alliance/battery-data-format-ontology
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-02-28'
@@ -15391,11 +15379,8 @@ landscape:
             second_path:
               - SIG / Grid Simulation and Modeling
             project: sandbox
-            repo_url: https://github.com/fidopower/tsc
-            additional_repos:
-              - repo_url: https://github.com/fidopower/.github
-              - repo_url: https://github.com/fidopower/.github
-              - repo_url: https://github.com/fidopower/model_viewer
+            repo_url: https://github.com/fidopower/.github
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-01-03'
@@ -15425,9 +15410,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/Grid2op/grid2op
             additional_repos:
-              - repo_url: https://github.com/Grid2op/.github
-              - repo_url: https://github.com/Grid2op/.github
-              - repo_url: https://github.com/Grid2op/LearningToAlert
+              - repo_url: https://github.com/Grid2op/lightsim2grid
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-02-11'
@@ -15459,11 +15442,8 @@ landscape:
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
             project: sandbox
-            repo_url: https://github.com/geisa/specification
-            additional_repos:
-              - repo_url: https://github.com/geisa/application-isolation-security-systemd-demo
-              - repo_url: https://github.com/geisa/application-isolation-security-systemd-demo
-              - repo_url: https://github.com/geisa/conformance
+            repo_url: https://github.com/geisa/conformance
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-11-05'
@@ -15519,11 +15499,8 @@ landscape:
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
             project: sandbox
-            repo_url: https://github.com/grid-vantage/grip-integration
-            additional_repos:
-              - repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
-              - repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
-              - repo_url: https://github.com/grid-vantage/grip-anticipation-pipeline
+            repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-09-26'
@@ -15563,10 +15540,8 @@ landscape:
               - Behind-the-Meter / Market Data
               - Customer and Market / Market Platform Gateway
             project: sandbox
-            repo_url: https://github.com/NODE-Collective/.github
-            additional_repos:
-              - repo_url: https://github.com/NODE-Collective/specification
-              - repo_url: https://github.com/NODE-Collective/specification
+            repo_url: https://github.com/NODE-Collective/specification
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-04-02'
@@ -15622,9 +15597,7 @@ landscape:
               - Shared / Systems Governance
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
-            additional_repos:
-              - repo_url: https://github.com/open-renewable-energy-systems/.github
-              - repo_url: https://github.com/open-renewable-energy-systems/.github
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-03-12'
@@ -15655,9 +15628,7 @@ landscape:
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/rtdip/core
-            additional_repos:
-              - repo_url: https://github.com/rtdip/samples
-              - repo_url: https://github.com/rtdip/samples
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-06-04'
@@ -15687,10 +15658,8 @@ landscape:
               - Other / Carbon Accounting
               - Emissions / Carbon Intensity and Accounting
             project: sandbox
-            repo_url: https://github.com/sc-decarbonization-hub/SCDH
-            additional_repos:
-              - repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
-              - repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
+            repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-09-17'
