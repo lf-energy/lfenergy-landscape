@@ -14676,16 +14676,9 @@ landscape:
             homepage_url: https://www.lfenergy.org/projects/operatorfabric/
             logo: operatorfabric.svg
             description: |-
-              OperatorFabric is a modular, extensible, industrial-strength, and field-tested platform for systems operators. OperatorFabric includes several features essential for electricity, water, and other utility operations.
-
-              System visualization and console integration
-              Precise alerting
-              Workflow scheduling
-              Remedial action manager
-              Historian
-              Scripting (ex: Python, JavaScript)
-
-              OperatorFabric has a robust reference implementation called Let’s Coordinate.
+              OperatorFabric is a modular, extensible, industrial-strength platform for use in electricity, water, and other utility operations. It aims to facilitate operational activities for utilities in two ways:
+              - Centralize real time business events in a single place to avoid having multiple screens/software.
+              - Facilitate interactions between operational control centers.
             second_path:
               - SIG / No SIG
               - Transmission / Operations
@@ -14703,7 +14696,7 @@ landscape:
                 slug: operator-fabric
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/operator-fabric
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If869QAB
-                charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/operatorfabric-charter.pdf
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/operator-fabric_charter.pdf
                 next_annual_review_date: '2025-09-02'
                 chair: Frédéric Didier
                 TAC_representative: Clément Bouvier
@@ -15367,6 +15360,28 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               dev_stats_url: https://insights.linuxfoundation.org/project/covxtreme
+          - item:
+            name: CUPID (Controllable Unit Protocol Interface for DER)
+            homepage_url: https://github.com/Horizont-Europe-Interstore
+            logo: cupid_controllable_unit_protocol_interface_for_der.svg
+            description: The original IEEE 2030.5 standard from 2018 and recently updated by the 2023 version, is a widely used communication protocol designed to manage 
+              distributed resources, already adopted in California and Australia. The original standard is an interoperability dictionary-based protocol. In our project we’ve 
+              upgraded the current version of the IEEE2030.5 software/firmware package by using a NATS messaging, added JSON structure support and moreover, we’ve developed a 
+              protocol converter to bridge the gap to other protocols (MQTT and ModBUS) and standardization procedures of existing equipment and systems.
+            project: sandbox
+            repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-03-19'
+              annotations:
+                slug: cupid
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cupid
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
+                charter_url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cupid/cupid_Charter.pdf?v=1747610679443
+                project_org: https://github.com/Horizont-Europe-Interstore
+              artwork_url: https://artwork.lfenergy.org/projects/cupid
+              dev_stats_url: https://insights.linuxfoundation.org/project/cupid
+            additional_repos: []
           - item:
             name: FIDOPower
             homepage_url: https://fidopower.energy/
