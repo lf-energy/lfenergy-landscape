@@ -11,13 +11,13 @@ jobs:
     steps:
       - uses: jmertic/lfx-landscape-tools@main
         env:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
       - uses: jmertic/lfx-landscape-tools@main
         with:
           configfile: config-lfess.yml
         env:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
