@@ -12,7 +12,7 @@ jobs:
       - uses: jmertic/lfx-landscape-tools@main
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
-          ghid_token: $${{ secrets.PAT }}
+          ghid_token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
       - uses: jmertic/lfx-landscape-tools@main
