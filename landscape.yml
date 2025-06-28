@@ -14580,7 +14580,6 @@ landscape:
             description: EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and covers all
               possible current applications.
             second_path:
-              - SIG / EV Charging
               - Behind-the-Meter / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
             project: earlyadoption
@@ -14642,7 +14641,6 @@ landscape:
 
               GXF is open, independent, and driven by its community, developed using open source best practices and designed to use open standards. This enables third parties to develop new and innovative solutions. The trade-off is flexibility and freedom. Unlike closed proprietary software, open source software can be altered and extended by any developer familiar with the source code. This grants organizations freedom from “vendor lock-in,” assures long-term viability, and creates industry opportunities for support, consulting, and training.
             second_path:
-              - SIG / No SIG
               - Transmission / Data & IoT
               - Distribution / Data & IoT
               - Behind-the-Meter / Data & IoT
@@ -14680,7 +14678,6 @@ landscape:
               - Centralize real time business events in a single place to avoid having multiple screens/software.
               - Facilitate interactions between operational control centers.
             second_path:
-              - SIG / No SIG
               - Transmission / Operations
               - Distribution / Operations
               - Shared / Unified Operator's UX Components and Framework
@@ -14756,7 +14753,6 @@ landscape:
               platform that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially beyond). This platform is 
               intended to host multi-provider applications.
             second_path:
-              - SIG / Digital Substations
               - Transmission / Grid Automation
               - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
@@ -14800,7 +14796,6 @@ landscape:
               exposes open APIs to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to integrate today’s SCADA systems with 
               SOGNO and gradually move functionalities into microservices.
             second_path:
-              - SIG / No SIG
               - Distribution / Operations
               - System Management / System Control
               - Energy Systems / Modeling and Optimization
@@ -14841,7 +14836,6 @@ landscape:
 
               CoMPAS (Configuration Modules for Power industry Automation Systems is being developed using several guiding principles, including the use of cross-platform Docker-based microservices along with a lightweight browser client, multiple language support for the user interface, scriptable controls, and the ability to integrate third-party tools.
             second_path:
-              - SIG / Digital Substations
               - Transmission / Grid Automation
               - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
@@ -14879,7 +14873,6 @@ landscape:
             logo: dynaoo.svg
             description: The mission of the Project is to develop a hybrid C++/Modelica open source suite of simulation tools for power systems.
             second_path:
-              - SIG / Grid Simulation and Modeling
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
@@ -14922,7 +14915,6 @@ landscape:
               energy industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code that must be maintained 
               outside the Fledge open source project.
             second_path:
-              - SIG / Digital Substations
               - Transmission / Data & IoT
               - Distribution / Data & IoT
               - Behind-the-Meter / Data & IoT
@@ -14982,7 +14974,6 @@ landscape:
               The FlexMeasures Platform is a tool for building real-time energy flexibility services,
               rapidly and scalable
             second_path:
-              - SIG / No SIG
               - Behind-the-Meter / Flexibility
               - Asset Management / Data Management
               - Energy Systems / Monitoring and Control
@@ -15023,7 +15014,6 @@ landscape:
             description: Open source software to realize Microgrid which is one of the key elements to promote further renewable energy installation in the existing energy system 
               which is one the biggest source for carbon emission in the world.
             second_path:
-              - SIG / No SIG
               - Energy Systems / Modeling and Optimization
               - Acquisition and Control / Edge Node Control
             project: incubating
@@ -15060,7 +15050,6 @@ landscape:
               - Provide reusable components with documented APIs and consistent security practices; and
               - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define common transactional units for distributed energy resources in the market.
             second_path:
-              - SIG / No SIG
               - Distribution / Grid Edge
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
@@ -15096,7 +15085,6 @@ landscape:
             description: This mission of the OpenLEADR project is to develop an OpenADR open source project to accelerate adoption and integration of distributed energy resources 
               into the electric grid.
             second_path:
-              - SIG / EV Charging
               - Distribution / Operations
               - Behind-the-Meter / Flexibility
               - Acquisition and Control / Edge Node Control
@@ -15129,7 +15117,6 @@ landscape:
             logo: openstef.svg
             description: OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days.
             second_path:
-              - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
@@ -15165,7 +15152,6 @@ landscape:
             logo: power_grid_model.svg
             description: The mission of the Project is to develop a Python library for steady-state distribution power system analysis.
             second_path:
-              - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
               - Distribution / Operations
               - System Management / Power System Calculation
@@ -15203,7 +15189,6 @@ landscape:
               protocol for flexibility forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility markets for grid-congestion 
               issues and standardize the setup and operation of these markets across different DSOs, TSO’s and different countries.
             second_path:
-              - SIG / No SIG
               - Distribution / Operations
               - Transmission / Operations
               - Customer and Market / Market Platform Gateway
@@ -15241,7 +15226,6 @@ landscape:
             description: The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with special 
               attention to electric energy delivery systems.
             second_path:
-              - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Distribution and Grids
@@ -15274,7 +15258,6 @@ landscape:
             logo: battery_data_alliance.svg
             description: The mission of the Battery Data Alliance is to build sustainable open source software and best practices for the battery industry.
             second_path:
-              - SIG / No SIG
               - Other / Batteries
               - Energy Storage / Battery
             project: sandbox
@@ -15303,7 +15286,6 @@ landscape:
             logo: citrineos.svg
             description: The mission of the Project is to develop EV charging station management software.
             second_path:
-              - SIG / EV Charging
               - Behind-the-Meter / EV Charging
               - Consumption of Energy and Resources / Mobility and Transportation
             project: sandbox
@@ -15338,7 +15320,6 @@ landscape:
             description: The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the characterization of 
               extreme events, their associated uncertainties, and risk analysis.
             second_path:
-              - SIG / Grid Simulation and Modeling
               - Other / Risk Analysis
               - Climate and Earth Science / Meteorological Observation and Forecast
             project: sandbox
@@ -15389,8 +15370,6 @@ landscape:
             description: |-
               The mission of the Project is to enable and support the use of DOE's GridLAB-D
               technology by utilities, researchers, and vendors of smart grid, renewable energy, and climate-change mitigation technology with special attention to electric energy delivery systems.
-            second_path:
-              - SIG / Grid Simulation and Modeling
             project: sandbox
             repo_url: https://github.com/fidopower/.github
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -15416,7 +15395,6 @@ landscape:
             description: Grid2op presents a valuable platform for researchers, utilities, and other stakeholders in the power grid domain. Its modularity, customizability, and 
               open-source nature make it a powerful tool for advancing power grid management.
             second_path:
-              - SIG / No SIG
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
@@ -15426,7 +15404,7 @@ landscape:
               - repo_url: https://github.com/Grid2op/lightsim2grid
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2025-02-11'
+              accepted: '2024-12-17'
               annotations:
                 slug: grid2op
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
@@ -15450,7 +15428,6 @@ landscape:
               Vendors embrace the open ecosystem to accelerate innovation, increase security, and improve competitiveness around value-add services of analytics, AI, and grid 
               optimization.
             second_path:
-              - SIG / No SIG
               - Distribution / Grid Edge
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
@@ -15478,7 +15455,6 @@ landscape:
             description: This project aims at developing foundation models for electrical grids (GridFMs). Foundation Models (FMs), pre-trained on large data sets and adapted to a 
               broad set of applications, are revolutionizing the field of Artificial Intelligence (AI).
             second_path:
-              - SIG / No SIG
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
@@ -15507,7 +15483,6 @@ landscape:
             logo: grid_vantage.svg
             description: The mission of the Project is to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events.
             second_path:
-              - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
@@ -15515,7 +15490,7 @@ landscape:
             repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2023-09-26'
+              accepted: '2025-04-15'
               annotations:
                 slug: gridvantage
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gridvantage
@@ -15549,14 +15524,13 @@ landscape:
               The Foundation for Impact:
               NODE Collective's data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
             second_path:
-              - SIG / No SIG
               - Behind-the-Meter / Market Data
               - Customer and Market / Market Platform Gateway
             project: sandbox
             repo_url: https://github.com/NODE-Collective/specification
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-04-02'
+              accepted: '2024-11-11'
               annotations:
                 slug: node-collective
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/node-collective
@@ -15576,7 +15550,6 @@ landscape:
             logo: opensynth.svg
             description: The mission of the Project is to unlock access to synthetic data to accelerate the decarbonization of global energy systems.
             second_path:
-              - SIG / No SIG
               - Distribution / Grid Edge
               - Sustainable Development / Data Catalogs and Interfaces
             project: sandbox
@@ -15605,14 +15578,13 @@ landscape:
             description: ORES aims to address these challenges by developing a set of easy-to-follow open standard specifications on system architecture, APIs, and communication 
               protocols that empower device manufacturers, hardware and software developers, and DIYers to
             second_path:
-              - SIG / No SIG
               - Behind-the-Meter / Flexibility
               - Shared / Systems Governance
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-03-12'
+              accepted: '2025-04-15'
               annotations:
                 slug: ores-open-renewal-energy-systems
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ores-open-renewal-energy-systems
@@ -15633,7 +15605,6 @@ landscape:
             description: The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers, and data 
               scientists wherever they are.
             second_path:
-              - SIG / No SIG
               - Distribution / Data & IoT
               - Transmission / Data & IoT
               - Behind-the-Meter / Data & IoT
@@ -15667,14 +15638,13 @@ landscape:
             description: Oil and Gas companies face extreme pressure to address GHG emissions. Proactively addressing scope 3 emissions for suppliers and other cases could help 
               improve scope 3 accountability. Such data and insights can help an organization to come up with a mitigation plan.
             second_path:
-              - SIG / No SIG
               - Other / Carbon Accounting
               - Emissions / Carbon Intensity and Accounting
             project: sandbox
             repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-09-17'
+              accepted: '2024-09-26'
               annotations:
                 slug: sc-decarbonisation-hub
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/sc-decarbonisation-hub
