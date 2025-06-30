@@ -18,6 +18,7 @@ jobs:
       - uses: jmertic/lfx-landscape-tools@main
         with:
           configfile: config-lfess.yml
+          logfile: debug-lfess.yml
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
           ghid_token: ${{ secrets.PAT }}
