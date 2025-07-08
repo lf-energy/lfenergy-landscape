@@ -14945,12 +14945,12 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/dynawo
               slack_url: https://slack.lfenergy.org
               summary_intro_video: https://www.youtube.com/watch?v=s7UoF_4G3dQ
-              summary_use_case: >
+              summary_use_case: |
                 Dynaωo is an hybrid C++/Modelica open source suite of simulation tools for power systems. It aims at providing power system stakeholders with a transparent, flexible, interoperable and robust suite of simulation tools that can ease collaboration and cooperation in the power system community.
 
                 To achieve this goal, Dynaωo is based on two mains principles: the use of a high-level modelling language Modelica and a strict separation between modeling and solutions.
                 
-                Dynaωo ‘s primary focus has been on long-term and short-term stability studies but the very encouraging results obtained and the flexibility of the approach led to an extension of the initiative. Dynaωo is now evolving towards a complete and coherent suite of simulation tools, sharing the same philosophy:
+                Dynaωo‘s primary focus has been on long-term and short-term stability studies but the very encouraging results obtained and the flexibility of the approach led to an extension of the initiative. Dynaωo is now evolving towards a complete and coherent suite of simulation tools, sharing the same philosophy:
                 - DynaFlow for steady-state calculations
                 - DySym for short-circuit calculations
                 - DynaWaltz for long-term stability simulations
@@ -15314,7 +15314,7 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=UyNhH6OkR1w
-              summary_use_case: > 
+              summary_use_case: | 
                 Arras delivers an open and developer-friendly framework for addressing important use-cases identified by key industry stakeholders. These use-cases include (1) distributed energy resource hosting capacity, (2) tariff design, (3) end-use load electrification, (4) extreme weather resilience, (5) wildfire safety and protection, (6) peer-to-peer energy, (7) advanced load modeling and forecasting, and (8) high-performance scenario planning at scale to better plan for increasing uncertainty with DER integration.
 
                 Arras addresses the needs of key stakeholders such as power system researchers, planners, operators, policy-makers and regulators. Specifically, this software provides an open source advanced power system simulation engine capable of performing very large scale simulations of distribution systems that include a large fraction of so-called smart grid technology and distributed energy resources that the key stakeholders cannot obtain and/or afford to license from existing software vendors. The goal is for these open source tools to continue to gain ongoing support to possibly open the idea of replacing legacy license tools.
@@ -15347,7 +15347,7 @@ landscape:
               annual_review_date: '2024-08-27'
               annual_review_url: https://github.com/lf-energy/tac/issues/57
               artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
-              summary_use_case: >
+              summary_use_case: |
                 The LF Energy Battery Data Alliance (BDA) was created to bring battery companies together to work jointly to unify how batteries are handled in terms of software. Battery data is core to creating a decarbonized economy and power systems, yet companies waste tremendous amounts of time implementing battery data schemas, integrations/conversions, typical calculations, etc. BDA believes that an open source tool should exist to enable researchers and engineers to focus on bringing more innovative solutions to market rather than each organization duplicating the same work.
 
                 Based on experience and discussions within the industry, BDA is focusing on four key areas:
@@ -15392,7 +15392,7 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=d9KOEMLZS64
-              summary_use_case: >
+              summary_use_case: |
                 The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. CitrineOS is developed with modularity and extensibility in mind. It consists of logically separated modules, each encapsulating a subset of functionality pertaining to the definitions of OCPP 2.0.1 – the standard protocol for communication between charging stations and charge management software. All modules handle and emit all necessary OCPP messages and are loosely coupled by a message broker interface connecting them to a central component that relays the messages to the charging station and vice versa.
 
                 With CitrineOS, you can:
@@ -15433,7 +15433,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               dev_stats_url: https://insights.linuxfoundation.org/project/covxtreme
-              summary_use_case: >
+              summary_use_case: |
                 Hazard risk analysis often involves modelling extreme events, for example of natural phenomena such as rainfall, temperature and ocean waves, or of man-made systems such as industrial processes and stock-markets. We seek to understand the characteristics of the most exceptional (largest or most rare) events we have seen historically, and potentially might see if we look harder.
 
                 covXtreme was developed for oceanographic applications, but it has been used more widely. You will probably find covXtreme interesting, if:
@@ -15882,7 +15882,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/512
               artwork_url: https://artwork.lfenergy.org/projects/cds-customerdata-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-customerdata-wg
-              summary_use_case: >
+              summary_use_case: |
                 The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: Connected Data Specification - Power Systems Data Working Group (CDS WG2)
@@ -15911,7 +15911,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/513
               artwork_url: https://artwork.lfenergy.org/projects/cds-powersystemsdata-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-powersystemsdata-wg
-              summary_use_case: >
+              summary_use_case: |
                 The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: Connected Data Specification - Registration Working Group (CDS WG3)
@@ -15941,7 +15941,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/511
               artwork_url: https://artwork.lfenergy.org/projects/cds-registration-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-registration-wg
-              summary_use_case: >
+              summary_use_case: |
                 The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: TROLIE
