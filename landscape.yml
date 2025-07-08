@@ -14637,6 +14637,7 @@ landscape:
                 charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/everest_charter.pdf
                 next_annual_review_date: '2026-01-28'
                 chair: Marco Möller
+                contributed_by: PIONIX, chargebyte, qwello, JOET, Accenture
               annual_review_date: '2025-01-22'
               annual_review_url: https://github.com/lf-energy/tac/issues/28
               artwork_url: https://artwork.lfenergy.org/projects/everest
@@ -14644,6 +14645,21 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/everest
               mailing_list_url: https://lists.lfenergy.org/g/everest
               slack_url: https://slack.lfenergy.org
+              documentation_url: https://docs.everest-project.org
+              summary_intro_url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
+              summary_business_use_case: |
+                - Seeed Studio Develops Open Source EV Charging Product Thanks to Zephyr RTOS and LF Energy EVerest - https://lfenergy.org/seeed-studio-develops-open-source-ev-charging-product-thanks-to-zephyr-rtos-and-lf-energy-everest/
+              summary_use_case: |
+                EVerest provides a software stack for EV chargers with implementations of:
+                - communication protocols
+                - software modules for representations of hardware devices (chargers, cars, etc.)
+                - tools for simulating the charging process
+                
+                By digitally abstracting the complexity of multiple standards and use cases, EVerest runs on any device, from unmanaged AC home chargers to complex multi-EVSE satellite public DC charging stations with battery and solar support.
+                
+                EVerest supports all protocols needed to facilitate frictionless and reliable charging regardless of the car, charger, cloud provider, and payment platform.
+
+                Architecture Overview: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
           - item:
             name: Grid eXchange Fabric (GXF)
             homepage_url: https://www.lfenergy.org/projects/gxf/
@@ -14672,16 +14688,26 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid-exchange-fabric
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001JWs7KQAT
                 charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid-exchange-frabric_charter.pdf
+                wiki_url: https://lf-energy.atlassian.net/wiki/spaces/GEF
                 next_annual_review_date: '2025-07-08'
                 chair: Maarten Mulder
                 project_org: https://github.com/OSGP
+                contributed_by: Alliander
               annual_review_date: '2024-09-18'
               annual_review_url: https://github.com/lf-energy/tac/issues/8
               artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-fabric
               chat_channel: '#gxf'
+              documentation_url: https://grid-exchange-fabric.gitbook.io/
               dev_stats_url: https://insights.linuxfoundation.org/project/grid-exchange-fabric
               mailing_list_url: https://lists.lfenergy.org/g/gxf
               slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=FZ2tnLDXM6Q
+              summary_use_case: >
+                Grid eXchange Fabric (GXF) is an industrial IoT backend that enables hardware monitoring and control in the public space. GXF provides several functions out of the box and provides scalability, high availability, high security, a generic design, and no vendor lock-in. GXF is currently deployed in several public use cases, including microgrids, smart metering, public lighting, and distribution automation.    
+
+                GXF can be deployed to multiple servers or distributed over multiple data centers in an active-active setup so that even if one data center fails, no data or functionality is lost. In a cloud-hosted setup, it is possible to use auto scaling to automatically add or remove servers on any of the platform layers to scale the platform to the current load and use. Servers can automatically be scaled up and down when necessary, thereby reducing hardware costs. This setup can also be used to minimize the costs during the phased rollout of smart devices.
+
+                Architecture Overview: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/gxf-diagram.png
           - item:
             name: OperatorFabric
             homepage_url: https://www.lfenergy.org/projects/operatorfabric/
@@ -14936,6 +14962,7 @@ landscape:
                 charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/dynawo_charter.pdf
                 next_annual_review_date: '2025-08-06'
                 chair: Marco Chiaramello
+                documentation_url: https://dynawo.github.io/docs/
                 contributed_by: RTE
               annual_review_date: '2024-01-30'
               annual_review_url: https://github.com/lf-energy/tac/issues/29
@@ -15011,6 +15038,7 @@ landscape:
                 charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/fledgepower_charter.pdf
                 next_annual_review_date: '2025-05-13'
                 chair: Romain Lebrun Thauront
+                contributed_by: RTE, Dianomics, AVEVA
               annual_review_date: '2024-06-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/137
               artwork_url: https://artwork.lfenergy.org/projects/fledgepower
@@ -15018,6 +15046,18 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/fledgepower
               mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
               slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=WVOCXx6Cdn8
+              summary_use_case: >
+                FledgePOWER is a flexible, lightweight, industrial-grade, open source gateway that embeds Fledge (LF EDGE). Additionally, FledgePOWER provides a toolbox for simulation, data configuration, and checking focused uniquely on power systems’ protocols translation and power systems’ use cases.
+
+                Features: lightweight, extensible, modular, flexible, scalable, secured, interoperable
+
+                Use cases:
+                - Improving the availability of an IEC 104 substation by deploying FledgePower with multi-centre IEC 104 redundancy.
+                - Securing an old generation substation in HNZ protocol, by deploying FledgePower with IEC 104 over TLS.
+                - Power grid simulation, using FledgePower to integrate with the substation in IEC 104 on the one hand and the simulation system in OPCUA on the other.
+              summary_business_use_case: >
+                - How French Transmission System Operator, RTE, Leverages LF Energy and LF Edge to Build Next-Gen Substation Monitoring and Controls - https://lfenergy.org/how-french-transmission-system-operator-rte-leverages-lf-energy-and-lf-edge-to-build-next-gen-substation-monitoring-and-controls/
           - item:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io/
@@ -15053,6 +15093,7 @@ landscape:
                 topics: energy,energy-data,energy-flexibility,backend,machine-learning
                 next_annual_review_date: '2025-11-11'
                 chair: Nicolas Höning
+                contributed_by: Seita
               annual_review_date: '2024-11-20'
               annual_review_url: https://github.com/lf-energy/tac/issues/27
               artwork_url: https://artwork.lfenergy.org/projects/flexmeasures
@@ -15060,6 +15101,19 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/flexmeasures
               mailing_list_url: https://lists.lfenergy.org/g/flexmeasures
               slack_url: https://slack.lfenergy.org
+              documentation_url: https://flexmeasures.readthedocs.io/stable/
+              summary_use_case: >
+                FlexMeasures provides applications and services around energy flexibility is expensive work. It is designed to be developer-friendly, which helps you to go to market quickly, while keeping the costs of software development at bay. 
+                
+                FlexMeasures supports:
+                - Real-time data integration and intelligence
+                - Model data well ― units, time resolution and uncertainty (of forecasts)
+                - Faster app-building (API/UI/CLI, plugin and multi-tenancy support)
+                
+                As for use cases, examples of what FlexMeasures can help with include:
+                - E-mobility (smart EV charging, V2G, V2H)
+                - Heating (heat pump control)
+                - Industry (best running times for processes with buffering capacity)
           - item:
             name: Hyphae
             homepage_url: https://www.lfenergy.org/projects/hyphae/
@@ -15090,6 +15144,14 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/hyphae
               mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
               slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=QaPbyuTPuFs
+              summary_use_case: >
+                Hyphae aims to make the grid more resilient and flexible with microgrids. By providing an Autonomous Power Interchange System (APIS), Hyphae automatically and efficiently distributes locally-produced renewable energy over a DC grid to interconnect with AC Grids. With resilient, physical peer-to-peer microgrid energy trading, even the most remote communities will be able to store and distribute energy autonomously without connecting to large-scale power stations or electrical distribution networks.
+
+                Key features include:
+                - Flexible grid expansion: Because power interchange is autonomous, the microgrid can be expanded flexibly, without having to redesign the system from the ground up.
+                - Effective use of renewables: Because the physical peer-to-peer power interchange balances supply and demand between decentralized power generators and decentralized power storage equipment, it is possible to use renewable energy effectively despite fluctuations in the amount of power generated.
+                - Resilience: Because of these characteristics, it is possible to build a power system with high resilience."
             additional_repos: []
           - item:
             name: OpenDSM
@@ -15126,13 +15188,22 @@ landscape:
                 next_annual_review_date: '2026-05-12'
                 chair: Travis Sikes
                 project_org: https://github.com/opendsm
+                contributed_by: Recurve
               annual_review_date: '2025-05-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/7
               artwork_url: https://artwork.lfenergy.org/projects/opendsm
               chat_channel: '#openeemeter'
               dev_stats_url: https://insights.linuxfoundation.org/project/opendsm
               mailing_list_url: https://lists.lfenergy.org/g/openeemeter
+              documentation_url: https://eemeter.openee.io/
               slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=dV_cU6bUv6M
+              summary_use_case: >
+                OpenDSM is an open source toolkit for implementing and developing standard methods for calculating normalized metered energy consumption (NMEC) and avoided energy use. The OpenDSM library contains routines for estimating energy efficiency savings at the meter.
+
+                OpenDSM, as implemented in the eemeter package and sister eeweather package, contains the most complete open source implementation of the CalTRACK Methods, which specify a family of ways to calculate and aggregate estimates of avoided energy use at a single power meter particularly suitable for use in pay-for-performance (P4P) programs.
+                
+                The eemeter package contains a toolkit written in the python langage which may help in implementing a CalTRACK compliant analysis. It contains a modular set of of functions, parameters, and classes which can be configured to run the CalTRACK methods and close variants.
           - item:
             name: OpenLEADR
             homepage_url: https://www.lfenergy.org/projects/openleadr/
@@ -15165,8 +15236,17 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/openleadr
               chat_channel: '#openleadr'
               dev_stats_url: https://insights.linuxfoundation.org/project/openleadr
+              documentation_url: https://openleadr.org/docs/
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
               slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=fb5vGsNo9Uc
+              summary_use_case: >
+                openLEADR is an implementation of OpenADR, an open and interoperable information exchange model and emerging Smart Grid standard. OpenADR standardizes the message format used for Auto-DR so that dynamic price and reliability signals can be delivered in a uniform and interoperable fashion among utilities, ISOs, and energy management and control systems. While previously deployed Auto-DR systems are automated, they are not standardized or interoperable.
+
+                Key features of openLEADR include:
+                - Fully compliant OpenADR 2.0b implementation for both servers (Virtual Top Node) and clients (Virtual End Node)
+                - Fully asyncio: you set up the coroutines that can handle certain events, and they get called when needed.
+                - Fully pythonic: all messages are represented as simple Python dictionaries. All XML parsing and generation is done for you."
           - item:
             name: OpenSTEF
             homepage_url: https://openstef.github.io/openstef/index.html
@@ -15203,6 +15283,20 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/openstef
               mailing_list_url: https://lists.lfenergy.org/g/openstef
               slack_url: https://slack.lfenergy.org
+              other_links:
+                - name: Use Case: OpenSTEF Delivers Operational Forecasts at Hundreds of Grid Locations for Alliander 
+                  url: https://lfenergy.org/openstef-delivers-operational-forecasts-at-hundreds-of-grid-locations-for-alliander/
+                - name: Use Case: How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid 
+                  url: https://lfenergy.org/how-rte-and-alliander-embraced-open-source-to-speed-modernization-of-the-grid/
+                - name: Architecture Overview
+                  url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/image.png
+                - name: Project Wiki
+                  url: https://lf-energy.atlassian.net/wiki/spaces/OS
+              summary_intro_url: https://www.youtube.com/watch?v=e-kneLMKIaY
+              summary_use_case: >
+                OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days. Given a timeseries of measured (net) load or generation, a fully automated machine learning pipeline is executed, which delivers a probabilistic forecast of future load. This works for energy consumption, (renewable) generation, or a combination of both. OpenSTEF performs validation on the input data, combines measurements with external predictors such as weather data and market prices, trains any scikit-learn compatible machine learning model, and delivers the forecast via both an API and an (expert) graphical user interface. The stack is based on open-source technology and standards and is organized in a microservice architecture optimized for cloud deployment.
+
+                The Dutch DSO Alliander started the Short-Term-Forecasting project to anticipate congestion in the distribution grid, to allow for grid safety analysis in the transmission grid and to enable smart grid innovations to locally balance supply and demand within the constraints of the grid. By opensourcing the stack, the ambition is to provide an industry standard for generating and evaluating forecasts in the operational time-domain, as well as allow for structured collaboration."
           - item:
             name: Power Grid Model
             homepage_url: https://github.com/PowerGridModel
@@ -15389,6 +15483,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/citrineos
               chat_channel: '#citrineos'
               dev_stats_url: https://insights.linuxfoundation.org/project/citrineos
+              documentation_url: https://citrineos.github.io/
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=d9KOEMLZS64
@@ -15603,10 +15698,15 @@ landscape:
                 next_annual_review_date: '2025-06-04'
                 chair: Alyona Teyber
                 project_org: https://github.com/grid-vantage
+                contributed_by: SLAC
               annual_review_date: '2023-09-26'
               annual_review_url: https://github.com/lf-energy/tac/issues/52
               artwork_url: https://artwork.lfenergy.org/projects/gridvantage
               dev_stats_url: https://insights.linuxfoundation.org/project/gridvantage
+              summary_use_case: >
+                Grid Vantage is a cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events. By combining state-of-the-art agent-based grid modeling tools with grid resilience metrics, Grid Vantage can quantify the state of the grid assets before extreme events, and provide grid operators with actionable insights, such as staging maintenance crew locations, proactive pole hardening or grid topology reconfiguration, to help minimize equipment damage and revenue loss due to power outages.
+
+                Grid Vantage uses telemetry data to identify infrastructure most at risk from severe weather. One of the key strengths of Grid Vantage is its threat-agnostic grid modeling capabilities. Regardless of the type of extreme weather event, if telemetry data is available regarding the failed asset, Grid Vantage’s system modeling capabilities can provide actionable insights to the grid operator. The project has been deployed with one of the largest California investor-owned utilities (IOUs), Southern California Edison (SCE).
             additional_repos: []
           - item:
             name: NODE Collective
