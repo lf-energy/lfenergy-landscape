@@ -14647,8 +14647,6 @@ landscape:
               slack_url: https://slack.lfenergy.org
               documentation_url: https://docs.everest-project.org
               summary_intro_url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
-              summary_business_use_case: |
-                - Seeed Studio Develops Open Source EV Charging Product Thanks to Zephyr RTOS and LF Energy EVerest - https://lfenergy.org/seeed-studio-develops-open-source-ev-charging-product-thanks-to-zephyr-rtos-and-lf-energy-everest/
               summary_use_case: |
                 EVerest provides a software stack for EV chargers with implementations of:
                 - communication protocols
@@ -14658,8 +14656,11 @@ landscape:
                 By digitally abstracting the complexity of multiple standards and use cases, EVerest runs on any device, from unmanaged AC home chargers to complex multi-EVSE satellite public DC charging stations with battery and solar support.
                 
                 EVerest supports all protocols needed to facilitate frictionless and reliable charging regardless of the car, charger, cloud provider, and payment platform.
-
-                Architecture Overview: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
+              other_links:
+                - name: Use Case - Seeed Studio Develops Open Source EV Charging Product Thanks to Zephyr RTOS and LF Energy EVerest
+                  url: https://lfenergy.org/seeed-studio-develops-open-source-ev-charging-product-thanks-to-zephyr-rtos-and-lf-energy-everest/
+                - name: Architecture Overview
+                  url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
           - item:
             name: Grid eXchange Fabric (GXF)
             homepage_url: https://www.lfenergy.org/projects/gxf/
@@ -14706,8 +14707,9 @@ landscape:
                 Grid eXchange Fabric (GXF) is an industrial IoT backend that enables hardware monitoring and control in the public space. GXF provides several functions out of the box and provides scalability, high availability, high security, a generic design, and no vendor lock-in. GXF is currently deployed in several public use cases, including microgrids, smart metering, public lighting, and distribution automation.    
 
                 GXF can be deployed to multiple servers or distributed over multiple data centers in an active-active setup so that even if one data center fails, no data or functionality is lost. In a cloud-hosted setup, it is possible to use auto scaling to automatically add or remove servers on any of the platform layers to scale the platform to the current load and use. Servers can automatically be scaled up and down when necessary, thereby reducing hardware costs. This setup can also be used to minimize the costs during the phased rollout of smart devices.
-
-                Architecture Overview: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/gxf-diagram.png
+              other_links:
+                - name: Architecture Overview
+                  url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/gxf-diagram.png
           - item:
             name: OperatorFabric
             homepage_url: https://www.lfenergy.org/projects/operatorfabric/
@@ -14750,6 +14752,20 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/operator-fabric
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_url: https://slack.lfenergy.org
+              other_links:
+                - name: Architecture Overview
+                  url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/feed_screenshot.png
+              summary_intro_url: https://www.youtube.com/watch?v=QemhzfYQpaw
+              summary_use_case: >
+                OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for systems operators. To perform their duties, an operator must interact with multiple applications (perform actions, watch for alerts, etc.), which can prove difficult if there are too many of them. The idea behind OperatorFabric is to aggregate all the notifications from these applications into a single screen, and to allow the operator to act on them if needed.
+
+                OperatorFabric includes several features essential for electricity, water, and other utility operations:
+                - System visualization and console integration
+                - Precise alerting
+                - Workflow scheduling
+                - Remedial action manager
+                - Historian
+                - Scripting (ex: Python, JavaScript)
           - item:
             name: PowSyBL
             homepage_url: https://powsybl.org/
@@ -14912,9 +14928,13 @@ landscape:
               mailing_list_url: https://lists.lfenergy.org/g/CoMPAS
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=CAMYMdUwrVg
-              summary_business_use_case: |
-                - LF Energy CoMPAS Cleans Up IEC 61850 Data Model (https://lfenergy.org/lf-energy-compas-cleans-up-iec-61850-data-model/)
-                - How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid (https://lfenergy.org/how-rte-and-alliander-embraced-open-source-to-speed-modernization-of-the-grid/)
+              other_links:
+                - name: Use Case - LF Energy CoMPAS Cleans Up IEC 61850 Data Model 
+                  url: https://lfenergy.org/lf-energy-compas-cleans-up-iec-61850-data-model/
+                - name: Use Case - How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid 
+                  url: https://lfenergy.org/how-rte-and-alliander-embraced-open-source-to-speed-modernization-of-the-grid/
+                - name: Architecture Diagram
+                  url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/CoMPAS-architecture-overview-202320230912.png
               summary_use_case: |
                 CoMPAS offers common software blocks for IEC 61850 profile configuration, using an open source shared development model, accelerating conformity to IEC 61850 interoperability requirements through software implementation.
 
@@ -14926,8 +14946,6 @@ landscape:
                 - Managing assets in order to perform maintenance actions and PACS upgrades
                 - Improving the interlinkage between grid planning and PACS engineering processes
                 - Improving the interlinkage between the configuration of PACS and the configuration of central systems, including SCADA and asset management
-
-                Architecture Diagram: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/CoMPAS-architecture-overview-202320230912.png
           - item:
             name: Dynaωo
             homepage_url: https://dynawo.github.io/
@@ -14982,9 +15000,10 @@ landscape:
                 - DySym for short-circuit calculations
                 - DynaWaltz for long-term stability simulations
                 - DynaSwing for short-term stability studies
-                - DynaWave for stability studies and system design with a high-penetration of power-electronics based components (quasi-EMT)
-
-                Architecture Overview: https://dynawo.github.io/assets/images/DynawoModelSolverLight.png
+                - DynaWave for stability studies and system design with a high penetration of power-electronics-based components (quasi-EMT)
+              other_links:
+                name: Architecture Overview 
+                url: https://dynawo.github.io/assets/images/DynawoModelSolverLight.png
           - item:
             name: FledgePower
             homepage_url: https://www.lfenergy.org/projects/fledgepower/
@@ -15056,8 +15075,9 @@ landscape:
                 - Improving the availability of an IEC 104 substation by deploying FledgePower with multi-centre IEC 104 redundancy.
                 - Securing an old generation substation in HNZ protocol, by deploying FledgePower with IEC 104 over TLS.
                 - Power grid simulation, using FledgePower to integrate with the substation in IEC 104 on the one hand and the simulation system in OPCUA on the other.
-              summary_business_use_case: >
-                - How French Transmission System Operator, RTE, Leverages LF Energy and LF Edge to Build Next-Gen Substation Monitoring and Controls - https://lfenergy.org/how-french-transmission-system-operator-rte-leverages-lf-energy-and-lf-edge-to-build-next-gen-substation-monitoring-and-controls/
+              other_links:
+                - name: Use Case - How French Transmission System Operator, RTE, Leverages LF Energy and LF Edge to Build Next-Gen Substation Monitoring and Controls 
+                  url: https://lfenergy.org/how-french-transmission-system-operator-rte-leverages-lf-energy-and-lf-edge-to-build-next-gen-substation-monitoring-and-controls/
           - item:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io/
@@ -15332,6 +15352,19 @@ landscape:
               dev_stats_url: https://insights.linuxfoundation.org/project/powergridmodel
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
               slack_url: https://slack.lfenergy.org
+              other_links:
+                - name: Use Case - Alliander’s Delvi Project Leverages LF Energy Power Grid Model to Direct Overhaul of Low Voltage Grid
+                  url: https://lfenergy.org/power-grid-model-delvi/
+              summary_intro_url: https://www.youtube.com/watch?v=lkNj2EzxelA
+              summary_use_case: >
+                Power Grid Model offers a standards-based foundation enabling real-time power systems analysis, simulations of electrical power grids, and sophisticated what-if analysis. In addition, it enables in-depth studies and analysis of the electrical power grid’s behavior and performance. This comprehensive model incorporates essential factors such as power generation capacity, electrical losses, voltage levels, power flows, and system stability.
+
+                The global energy transition is placing new and unprecedented demands on Distribution System Operators (DSOs) and grid providers. Alongside upgrades to grid capacity, processes such as digitization, capacity optimization, and congestion management are becoming vital for delivering reliable services. To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
+
+                Power Grid Model matches the demand by providing with following strengths:
+                - Optimized algorithms for the characteristics of the distribution grid.
+                - Full support of three-phase asymmetric calculation.
+                - Efficient C++ implementation with native parallel computing support."
           - item:
             name: Shapeshifter
             homepage_url: https://shapeshifter.energy/
@@ -15496,8 +15529,9 @@ landscape:
                 - Remotely Control Charging Equipment: Take charge of your charging infrastructure from anywhere, ensuring optimal performance.
                 - Monitor Charger Equipment Uptime, Power Levels, and Degradation: Keep a close eye on the health and efficiency of your charging stations.
                 - Manage Energy Consumption and Throughput: Optimize energy use and throughput, reducing environmental impact.
-
-                Architecture Overview: https://citrineos.github.io/core-concepts/architecture/
+              other_links:
+                - name: Architecture Overview 
+                  url: https://citrineos.github.io/core-concepts/architecture/
           - item:
             name: covXtreme
             homepage_url: https://lfenergy.org/projects/covxtreme/
@@ -15777,6 +15811,13 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/68
               artwork_url: https://artwork.lfenergy.org/projects/opensynth
               dev_stats_url: https://insights.linuxfoundation.org/project/opensynth
+              summary_use_case: >
+                OpenSynth is building a community for holders of raw smart meter (i.e. demand) data to generate and share synthetic data and models that can be used by researchers, industry innovators and policy-makers.
+
+                The initial focus for the community includes:
+                - Defining what comprises ‘good’ synthetic data (to include how synthetic data in energy might be evaluated for common concepts such as privacy, fidelity and utility)
+                - Developing an open repository for synthetic smart meter data and algorithms
+                - Encouraging community members to contribute data by using our initial algorithms
           - item:
             name: ORES (Open Renewal Energy Systems)
             homepage_url: https://ores.energy/
