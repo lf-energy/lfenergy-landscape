@@ -14856,6 +14856,7 @@ landscape:
                 next_annual_review_date: '2025-06-10'
                 chair: Sander Jansen
                 project_org: https://github.com/com-pas
+                contributed_by: RTE, Alliander
               annual_review_date: '2024-06-25'
               annual_review_url: https://github.com/lf-energy/tac/issues/72
               artwork_url: https://artwork.lfenergy.org/projects/compas
@@ -14913,6 +14914,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPZQA5
                 next_annual_review_date: '2025-06-25'
                 chair: Marco Chiaramello
+                contributed_by: RTE
               annual_review_date: '2024-01-30'
               annual_review_url: https://github.com/lf-energy/tac/issues/29
               artwork_url: https://artwork.lfenergy.org/projects/dynawo
@@ -14920,6 +14922,20 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=dynawo
               mailing_list_url: https://lists.lfenergy.org/g/dynawo
               slack_url: https://slack.lfenergy.org
+              summary_intro_video: https://www.youtube.com/watch?v=s7UoF_4G3dQ
+              summary_use_case: >
+                Dynaωo is an hybrid C++/Modelica open source suite of simulation tools for power systems. It aims at providing power system stakeholders with a transparent, flexible, interoperable and robust suite of simulation tools that can ease collaboration and cooperation in the power system community.
+
+                To achieve this goal, Dynaωo is based on two mains principles: the use of a high-level modelling language Modelica and a strict separation between modeling and solutions.
+                
+                Dynaωo ‘s primary focus has been on long-term and short-term stability studies but the very encouraging results obtained and the flexibility of the approach led to an extension of the initiative. Dynaωo is now evolving towards a complete and coherent suite of simulation tools, sharing the same philosophy:
+                - DynaFlow for steady-state calculations
+                - DySym for short-circuit calculations
+                - DynaWaltz for long-term stability simulations
+                - DynaSwing for short-term stability studies
+                - DynaWave for stability studies and system design with a high-penetration of power-electronics based components (quasi-EMT)
+
+                Architecture Overview: https://dynawo.github.io/assets/images/DynawoModelSolverLight.png
           - item:
             name: FledgePower
             homepage_url: https://www.lfenergy.org/projects/fledgepower/
@@ -15279,6 +15295,7 @@ landscape:
                 topics: energy,platform,collaboration,linux-foundation,hypervision,alerting
                 next_annual_review_date: '2025-09-03'
                 chair: David Chassin
+                contributed_by: SLAC, PNNL, Amazon, SCE, CEC, Hitachi
               annual_review_date: '2024-07-16'
               annual_review_url: https://github.com/lf-energy/tac/issues/104
               artwork_url: https://artwork.lfenergy.org/projects/arras
@@ -15316,10 +15333,20 @@ landscape:
                 next_annual_review_date: '2025-05-13'
                 chair: Gabe Hege
                 project_org: https://github.com/battery-data-alliance
+                contributed_by: AmpLabs, BattGenie, ionworks
               annual_review_date: '2024-08-27'
               annual_review_url: https://github.com/lf-energy/tac/issues/57
               artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=battery-data-alliance
+              summary_use_case: >
+                The LF Energy Battery Data Alliance (BDA) was created to bring battery companies together to work jointly to unify how batteries are handled in terms of software. Battery data is core to creating a decarbonized economy and power systems, yet companies waste tremendous amounts of time implementing battery data schemas, integrations/conversions, typical calculations, etc. BDA believes that an open source tool should exist to enable researchers and engineers to focus on bringing more innovative solutions to market rather than each organization duplicating the same work.
+
+                Based on experience and discussions within the industry, BDA is focusing on four key areas:
+                
+                - Design: One key challenge arises from the lack of open source battery data and a standardized method to access existing datasets. As a result, companies often find themselves engaged in redundant efforts concerning data collection and conversion.
+                - Testing: Many companies manually configure their testing equipment. There is a gap in the market between available testing standards and the actual execution of tests.
+                - Manufacturing: Variations in battery data structures across manufacturers lead to unnecessary complexities in schema design and data conversion leading to inefficiencies and barriers for collaboration.
+                - Telemetry: The area of battery telemetry remains largely unexplored from an open source perspective. There is untapped potential for development and growth in this area.
           - item:
             name: CitrineOS
             homepage_url: https://citrineos.github.io/latest/
@@ -15346,6 +15373,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfggfffNJIAO3ySYf9
                 next_annual_review_date: '2025-11-26'
                 chair: Thana Paris
+                contributed_by: S44
               annual_review_date: '2024-11-27'
               annual_review_url: https://github.com/lf-energy/tac/issues/59
               artwork_url: https://artwork.lfenergy.org/projects/citrineos
@@ -15353,6 +15381,18 @@ landscape:
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=citrineos
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=d9KOEMLZS64
+              summary_use_case: >
+                The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. CitrineOS is developed with modularity and extensibility in mind. It consists of logically separated modules, each encapsulating a subset of functionality pertaining to the definitions of OCPP 2.0.1 – the standard protocol for communication between charging stations and charge management software. All modules handle and emit all necessary OCPP messages and are loosely coupled by a message broker interface connecting them to a central component that relays the messages to the charging station and vice versa.
+
+                With CitrineOS, you can:
+                - Provision New Charging Equipment: Seamlessly set up new charging stations, ensuring they’re ready for action.
+                - Complete Charging Transactions: Enable secure and efficient EV charging experiences for users.
+                - Remotely Control Charging Equipment: Take charge of your charging infrastructure from anywhere, ensuring optimal performance.
+                - Monitor Charger Equipment Uptime, Power Levels, and Degradation: Keep a close eye on the health and efficiency of your charging stations.
+                - Manage Energy Consumption and Throughput: Optimize energy use and throughput, reducing environmental impact.
+
+                Architecture Overview: https://citrineos.github.io/core-concepts/architecture/
           - item:
             name: covXtreme
             homepage_url: https://lfenergy.org/projects/covxtreme/
@@ -15377,9 +15417,18 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwTZTl5McN9ojiuC7
                 next_annual_review_date: '2025-04-02'
                 chair: Sachin Bhakar
+                contributed_by: Shell
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=covxtreme
+              summary_use_case: >
+                Hazard risk analysis often involves modelling extreme events, for example of natural phenomena such as rainfall, temperature and ocean waves, or of man-made systems such as industrial processes and stock-markets. We seek to understand the characteristics of the most exceptional (largest or most rare) events we have seen historically, and potentially might see if we look harder.
+
+                covXtreme was developed for oceanographic applications, but it has been used more widely. You will probably find covXtreme interesting, if:
+                - You are interested in quantifying extremes using statistical analysis of a data set, and might want to estimate extreme quantiles or “return levels”,
+                - The characteristics of your data are not steady; that is, they vary with covariates which you know about,
+                - You may be interested in quantifying extremes of multiple variables at the same time, and
+                - You want to quantify how confident you can be in your modelling.
           - item:
             name: Grid2Op
             homepage_url: https://grid2op.energy/
@@ -15727,8 +15776,11 @@ landscape:
                 slug: cdsc-connectivity-wg
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc-connectivity-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
+                contributed_by: Google, Microsoft, UtilityAPI, WattTime
               artwork_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wg
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc-connectivity-wg
+              summary_use_case: >
+                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: CDSC Customer Data WG (WG1)
             homepage_url: https://customerdata.carbondataspec.org/
@@ -15747,8 +15799,11 @@ landscape:
                 slug: cdsc1
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc1
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt3QAH
+                contributed_by: Google, Microsoft, UtilityAPI, WattTime
               artwork_url: https://artwork.lfenergy.org/projects/cdsc1
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc1
+              summary_use_case: >
+                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: CDSC Power System Data WG (WG2)
             homepage_url: https://powersystemsdata.carbondataspec.org/
@@ -15766,8 +15821,11 @@ landscape:
                 slug: cdsc2
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc2
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt4QAH
+                contributed_by: Google, Microsoft, UtilityAPI, WattTime
               artwork_url: https://artwork.lfenergy.org/projects/cdsc2
               dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc2
+              summary_use_case: >
+                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: TROLIE
             homepage_url: https://trolie.energy/
