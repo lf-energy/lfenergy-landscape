@@ -2554,17 +2554,6 @@ landscape:
               topics: >-
                 power-system-analysis,unit-commitment,economic-dispatch,transmission,dc-flow,n-1-criterion,water-energy-nexus,python,dispatchable-units,renewable-resources,electricity-supply,substations
           - item:
-            name: PowSyBl Open Load Flow
-            description: >-
-              An open source implementation of the load flow API that can be found in PowSyBl Core. It supports AC Newtow-Raphson and linear DC calculation
-              methods.
-            homepage_url: https://github.com/powsybl/powsybl-open-loadflow
-            repo_url: https://github.com/powsybl/powsybl-open-loadflow
-            logo: PowSyBl Open Load Flow.svg
-            extra: null
-            organization:
-              name: powsybl
-          - item:
             name: PSP-UFU
             description: Open-Source Software with advanced GUI features and CAD tools for electrical power system studies.
             homepage_url: https://thales1330.github.io/PSP/
@@ -13765,10 +13754,11 @@ landscape:
             name: Alliander (member)
             homepage_url: https://alliander.com/
             logo: alliander.svg
-            description: Alliander is an energy network company. We transport gas and electricity to more than three million consumers and businesses in the Netherlands each day, and
-              are committed to providing a reliable, affordable, accessible and sustainable energy supply, both now and in the future. Alliander consists of a group of companies employing
-              over 7,000 people in total. Together, we stand for high-quality knowledge of energy grids, energy technology and technical innovation. Our shareholders are Dutch provinces
-              and municipalities. Together with them and our partners, we discuss our plans for the future and offer solutions to complex energy infrastructure issues.
+            description: Alliander is an energy network company. We transport gas and electricity to more than three million consumers and businesses in the Netherlands each day, 
+              and are committed to providing a reliable, affordable, accessible and sustainable energy supply, both now and in the future. Alliander consists of a group of 
+              companies employing over 7,000 people in total. Together, we stand for high-quality knowledge of energy grids, energy technology and technical innovation. Our 
+              shareholders are Dutch provinces and municipalities. Together with them and our partners, we discuss our plans for the future and offer solutions to complex energy 
+              infrastructure issues.
             crunchbase: https://www.crunchbase.com/organization/alliander
             twitter: https://twitter.com/Alliander
             extra:
@@ -13777,19 +13767,33 @@ landscape:
             name: Google LLC (member)
             homepage_url: https://google.com/
             logo: google_llc.svg
-            description: Founded in 1998, Google, Inc. is a multinational corporation that provides Internet-related services and products, including an internet search engine, software,
-              cloud computing, and advertising technologies.
+            description: Founded in 1998, Google, Inc. is a multinational corporation that provides Internet-related services and products, including an internet search engine, 
+              software, cloud computing, and advertising technologies.
             crunchbase: https://www.crunchbase.com/organization/google
             twitter: https://twitter.com/Google
             extra:
               linkedin_url: https://www.linkedin.com/company/google
           - item:
+            name: Hydro-Québec (member)
+            homepage_url: https://hydroquebec.com/
+            logo: hydro_quebec.svg
+            description: |-
+              Hydro-Québec
+
+              --- Merged Data:
+
+              Hydro-Qubec generates, transmits, and distributes electricity using mainly renewable generating options.
+            crunchbase: https://www.crunchbase.com/organization/hydro-quebec
+            twitter: https://twitter.com/hydroquebec
+            extra:
+              linkedin_url: https://www.linkedin.com/company/hydro-quebec
+          - item:
             name: Microsoft Corporation (member)
             homepage_url: https://microsoft.com/
             logo: microsoft_corporation.svg
-            description: The Microsoft Corporation is a publicly owned American software corporation headquartered in Redmond, Washington. Founded in 1975, the company develops, manufactures,
-              licenses and supports a variety of computing products used by consumers and businesses. Some of their popular products include Windows, Xbox, Microsoft HoloLens, Microsoft
-              Lumia, Outlook, Skype, OneDrive and Microsoft Band.
+            description: The Microsoft Corporation is a publicly owned American software corporation headquartered in Redmond, Washington. Founded in 1975, the company develops, 
+              manufactures, licenses and supports a variety of computing products used by consumers and businesses. Some of their popular products include Windows, Xbox, Microsoft 
+              HoloLens, Microsoft Lumia, Outlook, Skype, OneDrive and Microsoft Band.
             crunchbase: https://www.crunchbase.com/organization/microsoft
             twitter: https://twitter.com/Microsoft
             extra:
@@ -13798,8 +13802,8 @@ landscape:
             name: RTE (Reseau de Transport dElectricite) (member)
             homepage_url: https://rte-france.com/
             logo: rte_reseau_de_transport_delectricite.svg
-            description: RTE, Reseau de transport d'electricite owns, develops, operates, and maintains an electricity transmission network. It manages power flows and transmission infrastructure,
-              and guarantees access to the transmission network. The company was formed in 2000 and is headquartered in Paris, France.
+            description: RTE, Reseau de transport d'electricite owns, develops, operates, and maintains an electricity transmission network. It manages power flows and transmission
+              infrastructure, and guarantees access to the transmission network. The company was formed in 2000 and is headquartered in Paris, France.
             crunchbase: https://www.crunchbase.com/organization/rte-france
             twitter: https://twitter.com/rte_france
             extra:
@@ -13828,8 +13832,8 @@ landscape:
             name: ARTELYS (member)
             homepage_url: https://artelys.com/
             logo: artelys.svg
-            description: Artelys specializes in optimization, modeling, and data science, providing a decision support software suite designed to enhance efficiency through mathematical
-              programming and artificial intelligence.
+            description: Artelys specializes in optimization, modeling, and data science, providing a decision support software suite designed to enhance efficiency through 
+              mathematical programming and artificial intelligence.
             crunchbase: https://www.crunchbase.com/organization/artelys
             extra:
               linkedin_url: https://www.linkedin.com/company/artelys
@@ -13862,6 +13866,16 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/chargebyte-gmbh
           - item:
+            name: EcoFlow (member)
+            homepage_url: https://ecoflow.com/
+            logo: ecoflow.svg
+            description: EcoFlow specializes in providing portable power stations and solar panels designed to ensure readiness for power outages and facilitate off-grid living.
+            organization:
+              name: EcoFlow
+              linkedin: https://www.linkedin.com/company/ecoflowtech
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ecoflowtech
+          - item:
             name: Energinet (member)
             homepage_url: https://energinet.dk/
             logo: energinet.svg
@@ -13874,10 +13888,10 @@ landscape:
             name: Futurewei Technologies, Inc. (member)
             homepage_url: https://futurewei.com/
             logo: futurewei_technologies_inc.svg
-            description: FutureWei, based in Plano, Texas, is the North American subsidiary of Huawei Technologies Co. Ltd., a leading global vendor of telecommunications systems and
-              network solutions based in Shenzhen, China. Huawei posted US$5.58 billion in sales in 2004 and has products deployed in over 90 countries. With a strong focus on network
-              infrastructure, FutureWei Technologies, Inc. designs, markets and supports a wide range of advanced telecommunication products for service providers and enterprise network
-              solutions.
+            description: FutureWei, based in Plano, Texas, is the North American subsidiary of Huawei Technologies Co. Ltd., a leading global vendor of telecommunications systems 
+              and network solutions based in Shenzhen, China. Huawei posted US$5.58 billion in sales in 2004 and has products deployed in over 90 countries. With a strong focus on 
+              network infrastructure, FutureWei Technologies, Inc. designs, markets and supports a wide range of advanced telecommunication products for service providers and 
+              enterprise network solutions.
             crunchbase: https://www.crunchbase.com/organization/futurewei-technologies
             extra:
               linkedin_url: https://www.linkedin.com/company/futureweitechnologiesinc
@@ -13896,19 +13910,16 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ge-digital
           - item:
-            name: Hydro-Québec (member)
-            homepage_url: https://hydroquebec.com/
-            logo: hydro_quebec.svg
-            description: |-
-              Hydro-Québec
-
-              --- Merged Data:
-
-              Hydro-Qubec generates, transmits, and distributes electricity using mainly renewable generating options.
-            crunchbase: https://www.crunchbase.com/organization/hydro-quebec
-            twitter: https://twitter.com/hydroquebec
+            name: Hitachi, Ltd. (member)
+            homepage_url: https://hitachi.com/
+            logo: hitachi_ltd.svg
+            description: Founded in 1910, Hitachi provides information and telecommunication systems, social infrastructure and industrial systems, electronic systems and 
+              equipment, construction machinery, high functional materials and components, automotive systems, smart life and eco-friendly systems, other products, and financial 
+              services in Japan and internationally. The company is headquartered in Tokyo, Japan.
+            crunchbase: https://www.crunchbase.com/organization/hitachi
+            twitter: https://twitter.com/HitachiGlobal
             extra:
-              linkedin_url: https://www.linkedin.com/company/hydro-quebec
+              linkedin_url: https://www.linkedin.com/company/hitachi-data-systems
           - item:
             name: Lutech Advanced Solutions S.p.A. (member)
             homepage_url: https://lutech.group/
@@ -13931,9 +13942,9 @@ landscape:
             name: MISO (member)
             homepage_url: https://misoenergy.org/
             logo: miso.svg
-            description: The Midwest ISO ensures reliable operation of, and equal access to power lines in 13 U.S. states and the Canadian province of Manitoba. The Midwest ISO manages
-              a large energy market. The non-profit 501(C)(4) organization is governed by an independent Board of Directors, and is headquartered in Carmel, Indiana, with operations
-              centers in Carmel and St. Paul, Minnesota.
+            description: The Midwest ISO ensures reliable operation of, and equal access to power lines in 13 U.S. states and the Canadian province of Manitoba. The Midwest ISO 
+              manages a large energy market. The non-profit 501(C)(4) organization is governed by an independent Board of Directors, and is headquartered in Carmel, Indiana, with 
+              operations centers in Carmel and St. Paul, Minnesota.
             crunchbase: https://www.crunchbase.com/organization/miso-c364
             twitter: https://twitter.com/MISO_energy
             extra:
@@ -13951,17 +13962,30 @@ landscape:
             name: Recurve (member)
             homepage_url: https://recurve.com/
             logo: recurve.svg
-            description: We're connecting the dots between efficiency, electrification, renewable energy, and DERs to enable demand flexibility to become a market-based procurable resource.
+            description: We're connecting the dots between efficiency, electrification, renewable energy, and DERs to enable demand flexibility to become a market-based procurable 
+              resource.
             crunchbase: https://www.crunchbase.com/organization/recurve
             twitter: https://twitter.com/Recurve_Energy
             extra:
               linkedin_url: https://www.linkedin.com/company/recurve-ee
           - item:
+            name: Red Hat, Inc. (member)
+            homepage_url: https://redhat.com/
+            logo: red_hat_inc.svg
+            description: Red Hat was established in 1993 and is headquartered in Raleigh, North Carolina. Red Hat is the provider of open source software solutions, using a 
+              community-powered approach to provide reliable and high-performing cloud, Linux, middleware, storage, and virtualization technologies. Red Hat also offers support, 
+              training, and consulting services. As the connective hub in a global network of enterprises, partners, and open source communities, Red Hat helps create relevant, 
+              innovative technologies that liberate resources for growth and prepare customers for the future of IT.
+            crunchbase: https://www.crunchbase.com/organization/red-hat
+            twitter: https://twitter.com/RedHat
+            extra:
+              linkedin_url: https://www.linkedin.com/company/red-hat
+          - item:
             name: Savoir-faire Linux (member)
             homepage_url: https://savoirfairelinux.com/
             logo: savoir_faire_linux.svg
-            description: Since 1999, Savoir-faire Linux is a leading provider of training, consulting, development and support services on open technologies with more than 50 consultants
-              in Montreal (QC) and Rennes (France).
+            description: Since 1999, Savoir-faire Linux is a leading provider of training, consulting, development and support services on open technologies with more than 50 
+              consultants in Montreal (QC) and Rennes (France).
             crunchbase: https://www.crunchbase.com/organization/savoir-faire-linux
             twitter: https://twitter.com/SFLinux
             extra:
@@ -13997,8 +14021,8 @@ landscape:
             name: TenneT (member)
             homepage_url: https://tennet.eu/
             logo: tennet.svg
-            description: TenneT is an electricity transmission system operator in the Netherlands, controlled and owned by the Dutch government.  The company is responsible for the operation
-              of the 380 and 220 kV high voltage grid throughout the Netherlands and neighboring countries.
+            description: TenneT is an electricity transmission system operator in the Netherlands, controlled and owned by the Dutch government.  The company is responsible for the
+              operation of the 380 and 220 kV high voltage grid throughout the Netherlands and neighboring countries.
             crunchbase: https://www.crunchbase.com/organization/tennet
             twitter: https://twitter.com/TenneTTSO
             extra:
@@ -14036,8 +14060,8 @@ landscape:
             name: Welotec (member)
             homepage_url: https://welotec.com/
             logo: welotec.svg
-            description: Welotec is a pioneering system provider specializing in automation, digitalization, and precision farming. They focus on core sectors like Smart Energy and collaborate
-              with industry leaders for innovative solutions.
+            description: Welotec is a pioneering system provider specializing in automation, digitalization, and precision farming. They focus on core sectors like Smart Energy and
+              collaborate with industry leaders for innovative solutions.
             organization:
               name: Welotec
               linkedin: https://www.linkedin.com/company/welotec-gmbh
@@ -14050,8 +14074,8 @@ landscape:
             name: Carbon Co-op (member)
             homepage_url: https://carbon.coop/
             logo: carbon_co_op.svg
-            description: Carbon Co-op is an energy services and advocacy co-operative that helps people and communities to make the radical reductions in home carbon emissions necessary
-              to avoid runaway climate change.
+            description: Carbon Co-op is an energy services and advocacy co-operative that helps people and communities to make the radical reductions in home carbon emissions 
+              necessary to avoid runaway climate change.
             twitter: https://twitter.com/CarbonCoop
             organization:
               name: Carbon Co-op
@@ -14062,8 +14086,8 @@ landscape:
             name: Center Denmark (member)
             homepage_url: https://centerdenmark.com/
             logo: center_denmark.svg
-            description: Center Denmark is a research and development center focused on data-intelligent and integrated energy systems, as well as physical and virtual storage. Their
-              main goal is to establish national frameworks for promoting research, development, testing, an...
+            description: Center Denmark is a research and development center focused on data-intelligent and integrated energy systems, as well as physical and virtual storage. 
+              Their main goal is to establish national frameworks for promoting research, development, testing, an...
             organization:
               name: Center Denmark
               linkedin: https://www.linkedin.com/company/center-denmark
@@ -14088,8 +14112,8 @@ landscape:
             name: EDSN (member)
             homepage_url: https://edsn.nl/
             logo: edsn.svg
-            description: EDSN is a company that works with regional network operators, TenneT, and GTS to develop a reliable and innovative ICT infrastructure for the energy market of
-              the future, supporting the energy transition and sustainability in the Netherlands.
+            description: EDSN is a company that works with regional network operators, TenneT, and GTS to develop a reliable and innovative ICT infrastructure for the energy market
+              of the future, supporting the energy transition and sustainability in the Netherlands.
             crunchbase: https://www.crunchbase.com/organization/edsn
             extra:
               linkedin_url: https://www.linkedin.com/company/edsn-b-v-
@@ -14170,6 +14194,7 @@ landscape:
             name: EnergyAi (member)
             homepage_url: https://energyai.berlin/
             logo: energyai.svg
+            description: EnergyAI Berlin bridges the gap between advances in Data and AI and their application in the energy industry.
             organization:
               name: EnergyAi
           - item:
@@ -14217,7 +14242,8 @@ landscape:
             name: ENTSO-E (European Network of Transmission System Operators) (member)
             homepage_url: https://entsoe.eu/
             logo: entso_e_european_network_of_transmission_system_operators.svg
-            description: We foster cooperation among those who keep Europe's lights on. We work for an innovative, secure, green EU internal electricity market now and in the future.
+            description: We foster cooperation among those who keep Europe's lights on. We work for an innovative, secure, green EU internal electricity market now and in the 
+              future.
             crunchbase: https://www.crunchbase.com/organization/entso-e
             twitter: https://twitter.com/ENTSO_E
             extra:
@@ -14235,21 +14261,20 @@ landscape:
             name: FIWARE Foundation e. V. (member)
             homepage_url: https://fiware.org/
             logo: fiware_foundation_e_v.svg
-            description: FIWARE is a curated framework of Open Source platform components to accelerate the development of Smart Cities, Smart Industry, Smart Agrifood, Smart Water and
-              Smart Energy.
+            description: FIWARE is a curated framework of Open Source platform components to accelerate the development of Smart Cities, Smart Industry, Smart Agrifood, Smart Water
+              and Smart Energy.
             crunchbase: https://www.crunchbase.com/organization/fi-ware
             twitter: https://twitter.com/FIWARE
             extra:
               linkedin_url: https://www.linkedin.com/company/fiware
           - item:
-            name: Fraunhofer Gesellschaft IIS (member)
-            homepage_url: https://iis.fraunhofer.de/
-            logo: fraunhofer_gesellschaft_iis.svg
+            name: Fraunhofer Gesellschaft (member)
+            homepage_url: https://fraunhofer.de/
+            logo: fraunhofer_gesellschaft.svg
             description: |-
-              Attn: Norbert Schuhmann
-              Munich, Germany c/o Fraunhofer IIS
-
-              --- Merged Data:
+              Attn: 
+              Norbert Schuhmann, Erlangen, Germany c/o Fraunhofer IIS
+              Alexander Noack, Dresden, Germany c/o Fraunhofer IPMS
 
               The Fraunhofer Society is a German research organization with 72 institutes spread throughout Germany, each focusing on different fields of applied science.
             crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
@@ -14288,8 +14313,6 @@ landscape:
             description: Lucerne University of Applied Sciences and Arts is one of seven regional, public-funded universities of applied sciences founded in 1997.
             crunchbase: https://www.crunchbase.com/organization/lucerne-university-of-applied-sciences-and-arts
             twitter: https://twitter.com/hslu
-            extra:
-              linkedin_url: https://www.linkedin.com/company/hochschule-luzern
           - item:
             name: M-RETS, Inc. (member)
             homepage_url: https://mrets.org/
@@ -14323,8 +14346,8 @@ landscape:
             name: OpenADR Alliance (member)
             homepage_url: https://openadr.org/
             logo: openadr_alliance.svg
-            description: Demand Response plays a vital role in grid stabilization during hot Summers, easing severely constrained electrical grids from coast-to-coast.  Future energy
-              crises caused by electricity demand exceeding system capacity can be postponed or even averted...
+            description: Demand Response plays a vital role in grid stabilization during hot Summers, easing severely constrained electrical grids from coast-to-coast.  Future 
+              energy crises caused by electricity demand exceeding system capacity can be postponed or even averted...
             crunchbase: https://www.crunchbase.com/organization/openadr-alliance
             twitter: https://twitter.com/OpenADRAlliance
             extra:
@@ -14333,8 +14356,8 @@ landscape:
             name: Open Climate Fix (member)
             homepage_url: https://openclimatefix.org/
             logo: open_climate_fix.svg
-            description: Open Climate Fix is a new non-profit research and development lab, totally focused on reducing greenhouse gas emissions as rapidly as possible. Every part of
-              the organisation is designed to maximise climate impact, such as our open and collaborative ap...
+            description: Open Climate Fix is a new non-profit research and development lab, totally focused on reducing greenhouse gas emissions as rapidly as possible. Every part 
+              of the organisation is designed to maximise climate impact, such as our open and collaborative ap...
             twitter: https://twitter.com/OpenClimateFix
             organization:
               name: Open Climate Fix
@@ -14345,7 +14368,8 @@ landscape:
             name: Open Earth Foundation (member)
             homepage_url: https://openearth.org/
             logo: open_earth_foundation.svg
-            description: A not for profit harnessing emerging digital technologies &  radical collaboration to innovate, deploy & scale concrete systemic solutions at a planetary level
+            description: A not for profit harnessing emerging digital technologies &  radical collaboration to innovate, deploy & scale concrete systemic solutions at a planetary 
+              level
             crunchbase: https://www.crunchbase.com/organization/open-earth-foundation
             twitter: https://twitter.com/Open__Earth
             extra:
@@ -14369,8 +14393,8 @@ landscape:
             name: OwnTech (member)
             homepage_url: https://owntech.org/
             logo: owntech.svg
-            description: OwnTech is a company that provides open source smart switched mode power supplies, solar home systems, battery chargers, laboratory power supplies, and motor
-              drivers. They aim to decarbonize and electrify the economy by making this technology accessibl...
+            description: OwnTech is a company that provides open source smart switched mode power supplies, solar home systems, battery chargers, laboratory power supplies, and 
+              motor drivers. They aim to decarbonize and electrify the economy by making this technology accessibl...
             organization:
               name: OwnTech
               linkedin: https://www.linkedin.com/company/owntech-foundation
@@ -14441,8 +14465,9 @@ landscape:
             name: Stanford University (member)
             homepage_url: https://stanford.edu/
             logo: stanford_university.svg
-            description: Founded in 1885, Stanford University enrolls approximately 6,800 undergraduate and 8,300 graduate students from the United States and around the world. The university
-              is divided into a number of schools, including the Stanford Graduate School of Business, Stanford Law School, Stanford School of Medicine, and Stanford School of Engineering.
+            description: Founded in 1885, Stanford University enrolls approximately 6,800 undergraduate and 8,300 graduate students from the United States and around the world. The
+              university is divided into a number of schools, including the Stanford Graduate School of Business, Stanford Law School, Stanford School of Medicine, and Stanford 
+              School of Engineering.
             crunchbase: https://www.crunchbase.com/organization/stanford-university
             twitter: https://twitter.com/Stanford
             extra:
@@ -14469,7 +14494,8 @@ landscape:
             name: Trusted Computing Group (member)
             homepage_url: https://trustedcomputinggroup.org/
             logo: trusted_computing_group.svg
-            description: The Trusted Computing Group is a group formed by AMD, Hewlett-Packard, IBM, Intel and Microsoft to implement Trusted Computing concepts across personal computers.
+            description: The Trusted Computing Group is a group formed by AMD, Hewlett-Packard, IBM, Intel and Microsoft to implement Trusted Computing concepts across personal 
+              computers.
             crunchbase: https://www.crunchbase.com/organization/trusted-computing-group
             twitter: https://twitter.com/TrustedComputin
             extra:
@@ -14495,13 +14521,13 @@ landscape:
             name: Vanderbilt University (member)
             homepage_url: https://vanderbilt.edu/
             logo: vanderbilt_university.svg
-            description: Vanderbilt University is a private research university in Nashville, Tennessee. Founded in 1873. It was named in honor of shipping and rail magnate Cornelius
-              Vanderbilt, who provided the school its initial $1 million endowment despite having never been to the South. Vanderbilt hoped that his gift and the greater work of the
-              university would help to heal the sectional wounds inflicted by the Civil War. Today, Vanderbilt enrolls approximately 12,000 students from all 50 U.S. states and over
-              90 foreign countries in four undergraduate and six graduate and professional schools. Several research centers and institutes are affiliated with the university, including
-              the Vanderbilt Institute for Public Policy Studies, Freedom Forum First Amendment Center, Dyer Observatory, and Vanderbilt University Medical Center, the only Level I trauma
-              center in Middle Tennessee. With the exception of the off-campus observatory and satellite medical clinics, all of the university's facilities are situated on its 330-acre
-              (1.3 km2) campus in the heart of Nashville, 1.5 miles (2.4 km) from downtown
+            description: Vanderbilt University is a private research university in Nashville, Tennessee. Founded in 1873. It was named in honor of shipping and rail magnate 
+              Cornelius Vanderbilt, who provided the school its initial $1 million endowment despite having never been to the South. Vanderbilt hoped that his gift and the greater 
+              work of the university would help to heal the sectional wounds inflicted by the Civil War. Today, Vanderbilt enrolls approximately 12,000 students from all 50 U.S. 
+              states and over 90 foreign countries in four undergraduate and six graduate and professional schools. Several research centers and institutes are affiliated with the 
+              university, including the Vanderbilt Institute for Public Policy Studies, Freedom Forum First Amendment Center, Dyer Observatory, and Vanderbilt University Medical 
+              Center, the only Level I trauma center in Middle Tennessee. With the exception of the off-campus observatory and satellite medical clinics, all of the university's 
+              facilities are situated on its 330-acre (1.3 km2) campus in the heart of Nashville, 1.5 miles (2.4 km) from downtown
             crunchbase: https://www.crunchbase.com/organization/vanderbilt-university
             twitter: https://twitter.com/VanderbiltU
             extra:
@@ -14518,8 +14544,8 @@ landscape:
             name: Washington State University (member)
             homepage_url: https://wsu.edu/
             logo: washington_state_university.svg
-            description: Washington State University (WSU) is a public research university based in Pullman, Washington. Founded in 1890, WSU is the state's original and largest land-grant
-              university and confers bachelor's, master's, professional and doctoral degrees, and offers more than 200 fields of study.
+            description: Washington State University (WSU) is a public research university based in Pullman, Washington. Founded in 1890, WSU is the state's original and largest 
+              land-grant university and confers bachelor's, master's, professional and doctoral degrees, and offers more than 200 fields of study.
             crunchbase: https://www.crunchbase.com/organization/washington-state-university-pullman
             twitter: https://twitter.com/nsbe_wazzu
             extra:
@@ -14528,8 +14554,8 @@ landscape:
             name: WattTime Corporation (member)
             homepage_url: https://watttime.org/
             logo: watttime_corporation.svg
-            description: WattTime enables you to automatically prioritize the use of clean energy.   By using smart devices and electric vehicles paired with our software, you can now
-              support cleaner and more efficient power plants!   Through our expertise in energy markets, s...
+            description: WattTime enables you to automatically prioritize the use of clean energy.   By using smart devices and electric vehicles paired with our software, you can 
+              now support cleaner and more efficient power plants!   Through our expertise in energy markets, s...
             crunchbase: https://www.crunchbase.com/organization/watt-time
             twitter: https://twitter.com/wattTime
             extra:
@@ -14562,8 +14588,8 @@ landscape:
             name: EVerest
             homepage_url: https://lfenergy.org/projects/everest/
             logo: everest.svg
-            description: EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and covers all possible
-              current applications.
+            description: EVerest is intended to have an extremely customizable/configurable software stack that runs on an electric vehicle charging point (AC or DC) and covers all
+              possible current applications.
             second_path:
               - SIG / EV Charging
               - Behind-the-Meter / EV Charging
@@ -14608,13 +14634,14 @@ landscape:
                 slug: everest
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/everest
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkEVlQAN
-                next_annual_review_date: '2025-01-22'
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/everest_charter.pdf
+                next_annual_review_date: '2026-01-28'
                 chair: Marco Möller
-              annual_review_date: '2024-01-09'
+              annual_review_date: '2025-01-22'
               annual_review_url: https://github.com/lf-energy/tac/issues/28
               artwork_url: https://artwork.lfenergy.org/projects/everest
               chat_channel: '#everest'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=everest
+              dev_stats_url: https://insights.linuxfoundation.org/project/everest
               mailing_list_url: https://lists.lfenergy.org/g/everest
               slack_url: https://slack.lfenergy.org
           - item:
@@ -14632,11 +14659,10 @@ landscape:
               - Behind-the-Meter / Data & IoT
               - Energy Systems / Distribution and Grids
             project: earlyadoption
-            repo_url: https://github.com/OSGP/Config
+            repo_url: https://github.com/OSGP/Documentation
             additional_repos:
-              - repo_url: https://github.com/OSGP/.github
-              - repo_url: https://github.com/OSGP/.github
-              - repo_url: https://github.com/OSGP/Documentation
+              - repo_url: https://github.com/OSGP/open-smart-grid-platform
+              - repo_url: https://github.com/OSGP/Config
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/osgp
             extra:
@@ -14645,14 +14671,15 @@ landscape:
                 slug: grid-exchange-fabric
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid-exchange-fabric
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001JWs7KQAT
-                next_annual_review_date: '2025-06-10'
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid-exchange-frabric_charter.pdf
+                next_annual_review_date: '2025-07-08'
                 chair: Maarten Mulder
                 project_org: https://github.com/OSGP
               annual_review_date: '2024-09-18'
               annual_review_url: https://github.com/lf-energy/tac/issues/8
               artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-fabric
               chat_channel: '#gxf'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid-exchange-fabric
+              dev_stats_url: https://insights.linuxfoundation.org/project/grid-exchange-fabric
               mailing_list_url: https://lists.lfenergy.org/g/gxf
               slack_url: https://slack.lfenergy.org
           - item:
@@ -14660,16 +14687,9 @@ landscape:
             homepage_url: https://www.lfenergy.org/projects/operatorfabric/
             logo: operatorfabric.svg
             description: |-
-              OperatorFabric is a modular, extensible, industrial-strength, and field-tested platform for systems operators. OperatorFabric includes several features essential for electricity, water, and other utility operations.
-
-              System visualization and console integration
-              Precise alerting
-              Workflow scheduling
-              Remedial action manager
-              Historian
-              Scripting (ex: Python, JavaScript)
-
-              OperatorFabric has a robust reference implementation called Let’s Coordinate.
+              OperatorFabric is a modular, extensible, industrial-strength platform for use in electricity, water, and other utility operations. It aims to facilitate operational activities for utilities in two ways:
+              - Centralize real time business events in a single place to avoid having multiple screens/software.
+              - Facilitate interactions between operational control centers.
             second_path:
               - SIG / No SIG
               - Transmission / Operations
@@ -14679,9 +14699,7 @@ landscape:
             project: earlyadoption
             repo_url: https://github.com/opfab/operatorfabric-core
             additional_repos:
-              - repo_url: https://github.com/opfab/keycloak-perf
-              - repo_url: https://github.com/opfab/keycloak-perf
-              - repo_url: https://github.com/opfab/letscoordinate
+              - repo_url: https://github.com/opfab/operatorfabric-getting-started
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2019-04-30'
@@ -14689,6 +14707,7 @@ landscape:
                 slug: operator-fabric
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/operator-fabric
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If869QAB
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/operator-fabric_charter.pdf
                 next_annual_review_date: '2025-09-02'
                 chair: Frédéric Didier
                 TAC_representative: Clément Bouvier
@@ -14702,54 +14721,51 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/71
               artwork_url: https://artwork.lfenergy.org/projects/operator-fabric
               chat_channel: '#operator-fabric'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=operator-fabric
+              dev_stats_url: https://insights.linuxfoundation.org/project/operator-fabric
               mailing_list_url: https://lists.lfenergy.org/g/opfab
               slack_url: https://slack.lfenergy.org
           - item:
-            name: PowSyBl
-            homepage_url: https://www.lfenergy.org/projects/powsybl/
+            name: PowSyBL
+            homepage_url: https://powsybl.org/
             logo: powsybl.svg
-            description: |-
-              PowSyBl (Power System Blocks) is an open source library dedicated to electrical grid modeling and simulation. PowSyBl is written in Java and licensed under the Mozilla Public License 2.0.
-
-              PowSyBl may be scripted for a quick solution, but it can also be used as a library to write complex software for power system simulation and analysis. Using PowSyBl, developers can create applications able to perform dynamic power flow simulations and security analyses on the network, handle a variety of formats including CGMES for European data exchanges, and many other tasks.
-
-              PowSyBl has a completely modular design, enabling developers to extend or customize its features by providing their own plugins. Modularity is a key value of PowSyBl’s open source design.
+            description: The mission of the Project is to develop a modular, high performance, and industrial grade open source framework for the modeling, simulation and analytics
+              of power systems (the "Framework"), leveraging reusable components, common APIs and a secure architecture.
             second_path:
-              - SIG / Grid Simulation and Modeling
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
-            repo_url: https://github.com/powsybl/powsybl-core
+            repo_url: https://github.com/powsybl/powsybl-starter
             additional_repos:
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/.github
-              - repo_url: https://github.com/powsybl/github-ci
+              - repo_url: https://github.com/powsybl/powsybl-core
+              - repo_url: https://github.com/powsybl/powsybl-open-loadflow
+              - repo_url: https://github.com/powsybl/powsybl-diagram
+              - repo_url: https://github.com/powsybl/pypowsybl
+              - repo_url: https://github.com/powsybl/powsybl-open-rao
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2019-04-30'
+              accepted: '2025-05-14'
               annotations:
                 slug: powsybl
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If864QAB
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDVCEHOD7BbGCdYoI
+                charter_url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/powsybl-lf-europe/powsybl-lf-europe_Charter.pdf?v=1747249821217
                 next_annual_review_date: '2025-12-03'
                 chair: Sophie Frasnedo
                 project_org: https://github.com/powsybl
               annual_review_date: '2024-12-04'
-              annual_review_url: https://github.com/lf-energy/tac/issues/22
               artwork_url: https://artwork.lfenergy.org/projects/powsybl
               chat_channel: none
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powsybl
+              dev_stats_url: https://insights.linuxfoundation.org/project/powsybl
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
-              slack_url: https://slack.lfenergy.org
+              slack_url: https://powsybl.slack.com
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
             logo: seapath.svg
-            description: SEAPATH, Software Enabled Automation Platform and Artifacts (THerein), aims at developing a “reference design” and “industrial grade” open source real-time platform
-              that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially beyond). This platform is intended to host
-              multi-provider applications.
+            description: SEAPATH, Software Enabled Automation Platform and Artifacts (THerein), aims at developing a “reference design” and “industrial grade” open source real-time
+              platform that can run virtualized automation and protection applications (for the power grid industry in the first place and potentially beyond). This platform is 
+              intended to host multi-provider applications.
             second_path:
               - SIG / Digital Substations
               - Transmission / Grid Automation
@@ -14757,11 +14773,11 @@ landscape:
               - Acquisition and Control / Substation Node
               - Energy Systems / Distribution and Grids
             project: earlyadoption
-            repo_url: https://github.com/seapath/.github
+            repo_url: https://github.com/seapath/TSC
             additional_repos:
-              - repo_url: https://github.com/seapath/TSC
-              - repo_url: https://github.com/seapath/TSC
               - repo_url: https://github.com/seapath/ansible
+              - repo_url: https://github.com/seapath/build_debian_iso
+              - repo_url: https://github.com/seapath/yocto-bsp
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/seapath
             extra:
@@ -14770,7 +14786,8 @@ landscape:
                 slug: seapath
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/seapath
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWmNQAV
-                next_annual_review_date: '2025-01-14'
+                charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/seapath_charter.pdf
+                next_annual_review_date: '2026-01-13'
                 chair: Eloi Bail
                 project_org: https://github.com/seapath
               audits:
@@ -14778,32 +14795,32 @@ landscape:
                   type: audit
                   vendor: Ada Logics
                   url: https://ostif.org/wp-content/uploads/2024/08/SEAPATH-audit-report-23-july-2024.pdf
-              annual_review_date: '2023-12-19'
+              annual_review_date: '2025-01-14'
               annual_review_url: https://github.com/lf-energy/tac/issues/73
               artwork_url: https://artwork.lfenergy.org/projects/seapath
               chat_channel: '#seapath'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=seapath
+              dev_stats_url: https://insights.linuxfoundation.org/project/seapath
               mailing_list_url: https://lists.lfenergy.org/g/SEAPATH
               slack_url: https://slack.lfenergy.org
           - item:
             name: SOGNO
             homepage_url: https://www.lfenergy.org/projects/sogno/
             logo: sogno.svg
-            description: SOGNO aims at facilitating the transition to a modular microservices based control center software solution. This allows operators to adapt faster because components
-              can be updated more independently from each other. It provides system operators and automation software developers with an open source framework that exposes open APIs
-              to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to integrate today’s SCADA systems with SOGNO and gradually move
-              functionalities into microservices.
+            description: SOGNO aims at facilitating the transition to a modular microservices based control center software solution. This allows operators to adapt faster because 
+              components can be updated more independently from each other. It provides system operators and automation software developers with an open source framework that 
+              exposes open APIs to plug in new automation functions and supports industry standards such as CIM IEC61970. The vision is to integrate today’s SCADA systems with 
+              SOGNO and gradually move functionalities into microservices.
             second_path:
               - SIG / No SIG
               - Distribution / Operations
               - System Management / System Control
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
-            repo_url: https://github.com/sogno-platform/cimpy
+            repo_url: https://github.com/sogno-platform/dpsim
             additional_repos:
-              - repo_url: https://github.com/sogno-platform/.github
-              - repo_url: https://github.com/sogno-platform/.github
-              - repo_url: https://github.com/sogno-platform/cim-service
+              - repo_url: https://github.com/sogno-platform/cimgen
+              - repo_url: https://github.com/sogno-platform/cimpy
+              - repo_url: https://github.com/sogno-platform/libcimpp
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-03-11'
@@ -14811,15 +14828,16 @@ landscape:
                 slug: sogno
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/sogno
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkV6jQAF
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/sogno-charter.pdf
                 topics: simulation,real-time,dynamic-phasors,powerflow,electromagnetic-transient,power-systems,emt,quasi-stationary
-                next_annual_review_date: '2025-05-13'
+                next_annual_review_date: '2026-05-12'
                 chair: Antonello Monti
                 project_org: https://github.com/sogno-platform
-              annual_review_date: '2024-04-23'
+              annual_review_date: '2025-05-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/75
               artwork_url: https://artwork.lfenergy.org/projects/sogno
               chat_channel: '#sogno'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=sogno
+              dev_stats_url: https://insights.linuxfoundation.org/project/sogno
               mailing_list_url: https://lists.lfenergy.org/g/sogno-discussion
               slack_url: https://slack.lfenergy.org
       - subcategory:
@@ -14840,11 +14858,13 @@ landscape:
               - Acquisition and Control / Substation Node
               - Energy Systems / Modeling and Optimization
             project: incubating
-            repo_url: https://github.com/com-pas/compas-core
+            repo_url: https://github.com/com-pas/compas-open-scd
             additional_repos:
-              - repo_url: https://github.com/com-pas/.allstar
-              - repo_url: https://github.com/com-pas/.allstar
-              - repo_url: https://github.com/com-pas/.github
+              - repo_url: https://github.com/com-pas/compas-cim-mapping
+              - repo_url: https://github.com/com-pas/compas-sct
+              - repo_url: https://github.com/com-pas/compas-scl-data-service
+              - repo_url: https://github.com/com-pas/compas-scl-auto-alignment
+              - repo_url: https://github.com/com-pas/compas-scl-validator
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/com-pas/compas-core
             extra:
@@ -14853,6 +14873,7 @@ landscape:
                 slug: compas
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/compas
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkJTLQA3
+                charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/compas-charter.pdf
                 next_annual_review_date: '2025-06-10'
                 chair: Sander Jansen
                 project_org: https://github.com/com-pas
@@ -14861,7 +14882,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/72
               artwork_url: https://artwork.lfenergy.org/projects/compas
               chat_channel: '#compas'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=compas
+              dev_stats_url: https://insights.linuxfoundation.org/project/compas
               mailing_list_url: https://lists.lfenergy.org/g/CoMPAS
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=CAMYMdUwrVg
@@ -14912,14 +14933,15 @@ landscape:
                 slug: dynawo
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dynawo
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPZQA5
-                next_annual_review_date: '2025-06-25'
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/dynawo_charter.pdf
+                next_annual_review_date: '2025-08-06'
                 chair: Marco Chiaramello
                 contributed_by: RTE
               annual_review_date: '2024-01-30'
               annual_review_url: https://github.com/lf-energy/tac/issues/29
               artwork_url: https://artwork.lfenergy.org/projects/dynawo
               chat_channel: '#dynawo'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=dynawo
+              dev_stats_url: https://insights.linuxfoundation.org/project/dynawo
               mailing_list_url: https://lists.lfenergy.org/g/dynawo
               slack_url: https://slack.lfenergy.org
               summary_intro_video: https://www.youtube.com/watch?v=s7UoF_4G3dQ
@@ -14940,9 +14962,9 @@ landscape:
             name: FledgePower
             homepage_url: https://www.lfenergy.org/projects/fledgepower/
             logo: fledgepower.svg
-            description: The mission of the Project is to coordinate, configure, test and prepare contributions to the Fledge open source project that meet requirements of the energy
-              industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code that must be maintained outside the
-              Fledge open source project.
+            description: The mission of the Project is to coordinate, configure, test and prepare contributions to the Fledge open source project that meet requirements of the 
+              energy industry and develop open source projects that support Fledge such as simulators, configuration tools, test scripts, and source code that must be maintained 
+              outside the Fledge open source project.
             second_path:
               - SIG / Digital Substations
               - Transmission / Data & IoT
@@ -14986,13 +15008,14 @@ landscape:
                 slug: fledgepower
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fledgepower
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUTQA1
+                charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/fledgepower_charter.pdf
                 next_annual_review_date: '2025-05-13'
-                chair: Akli Rahmoun
+                chair: Romain Lebrun Thauront
               annual_review_date: '2024-06-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/137
               artwork_url: https://artwork.lfenergy.org/projects/fledgepower
               chat_channel: '#fledgepower'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=fledgepower
+              dev_stats_url: https://insights.linuxfoundation.org/project/fledgepower
               mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
               slack_url: https://slack.lfenergy.org
           - item:
@@ -15026,6 +15049,7 @@ landscape:
                 slug: flexmeasures
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/flexmeasures
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkH4sQAF
+                charter_url: https://github.com/lf-energy/foundation/raw/main/project_charters/flexmeasures_charter.pdf
                 topics: energy,energy-data,energy-flexibility,backend,machine-learning
                 next_annual_review_date: '2025-11-11'
                 chair: Nicolas Höning
@@ -15033,25 +15057,21 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/27
               artwork_url: https://artwork.lfenergy.org/projects/flexmeasures
               chat_channel: '#flexmeasures'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=flexmeasures
+              dev_stats_url: https://insights.linuxfoundation.org/project/flexmeasures
               mailing_list_url: https://lists.lfenergy.org/g/flexmeasures
               slack_url: https://slack.lfenergy.org
           - item:
             name: Hyphae
             homepage_url: https://www.lfenergy.org/projects/hyphae/
             logo: hyphae.svg
-            description: Open source software to realize Microgrid which is one of the key elements to promote further renewable energy installation in the existing energy system which
-              is one the biggest source for carbon emission in the world.
+            description: Open source software to realize Microgrid which is one of the key elements to promote further renewable energy installation in the existing energy system 
+              which is one the biggest source for carbon emission in the world.
             second_path:
               - SIG / No SIG
               - Energy Systems / Modeling and Optimization
               - Acquisition and Control / Edge Node Control
             project: incubating
             repo_url: https://github.com/hyphae/APIS
-            additional_repos:
-              - repo_url: https://github.com/hyphae/APIS
-              - repo_url: https://github.com/hyphae/adrc-converter-controller
-              - repo_url: https://github.com/hyphae/adrc-converter-controller
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-02-16'
@@ -15059,6 +15079,7 @@ landscape:
                 slug: hyphae
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/hyphae
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUOQA1
+                charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/hyphae_charter.pdf
                 next_annual_review_date: '2026-02-10'
                 chair: Arila Barnes
                 project_org: https://github.com/hyphae
@@ -15066,9 +15087,10 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/74
               artwork_url: https://artwork.lfenergy.org/projects/hyphae
               chat_channel: '#hyphae'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=hyphae
+              dev_stats_url: https://insights.linuxfoundation.org/project/hyphae
               mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
               slack_url: https://slack.lfenergy.org
+            additional_repos: []
           - item:
             name: OpenDSM
             homepage_url: https://lfenergy.org/projects/opendsm/
@@ -15089,9 +15111,8 @@ landscape:
             project: incubating
             repo_url: https://github.com/opendsm/opendsm
             additional_repos:
-              - repo_url: https://github.com/opendsm/caltrack
-              - repo_url: https://github.com/opendsm/caltrack
               - repo_url: https://github.com/opendsm/eeweather
+              - repo_url: https://github.com/opendsm/caltrack
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/openeemeter/eemeter/tree/master
             extra:
@@ -15100,35 +15121,34 @@ landscape:
                 slug: opendsm
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opendsm
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IkQAL
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/openeemeter-charter.pdf
                 topics: energy,efficiency,energy-data,energy-efficiency,building-energy,weather,weather-data,weather-station
-                next_annual_review_date: '2025-06-10'
+                next_annual_review_date: '2026-05-12'
                 chair: Travis Sikes
                 project_org: https://github.com/opendsm
-              annual_review_date: '2024-09-17'
+              annual_review_date: '2025-05-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/7
               artwork_url: https://artwork.lfenergy.org/projects/opendsm
               chat_channel: '#openeemeter'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=opendsm
+              dev_stats_url: https://insights.linuxfoundation.org/project/opendsm
               mailing_list_url: https://lists.lfenergy.org/g/openeemeter
               slack_url: https://slack.lfenergy.org
           - item:
             name: OpenLEADR
             homepage_url: https://www.lfenergy.org/projects/openleadr/
             logo: openleadr.svg
-            description: This mission of the OpenLEADR project is to develop an OpenADR open source project to accelerate adoption and integration of distributed energy resources into
-              the electric grid.
+            description: This mission of the OpenLEADR project is to develop an OpenADR open source project to accelerate adoption and integration of distributed energy resources 
+              into the electric grid.
             second_path:
-              - SIG / No SIG
+              - SIG / EV Charging
               - Distribution / Operations
               - Behind-the-Meter / Flexibility
               - Acquisition and Control / Edge Node Control
               - Energy Systems / Distribution and Grids
             project: incubating
-            repo_url: https://github.com/OpenLEADR/openleadr-python
+            repo_url: https://github.com/OpenLEADR/openleadr-rs
             additional_repos:
-              - repo_url: https://github.com/OpenLEADR/openleadr-example-ven
-              - repo_url: https://github.com/OpenLEADR/openleadr-example-ven
-              - repo_url: https://github.com/OpenLEADR/openleadr-example-vtn
+              - repo_url: https://github.com/OpenLEADR/openleadr-python
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-08-03'
@@ -15136,14 +15156,15 @@ landscape:
                 slug: openleadr
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openleadr
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IuQAL
-                chair: Arila Barnes, Hugo Van De Pol, Stan Janssen
-                next_annual_review_date: '2025-07-08'
+                charter_url: https://github.com/lf-energy/foundation/raw/main/project_charters/openleader_charter.pdf
+                chair: Arila Barnes, Stan Janssen, Hugo Van De Pol
+                next_annual_review_date: '2026-06-24'
                 project_org: https://github.com/OpenLEADR
-              annual_review_date: '2021-11-23'
+              annual_review_date: '2025-06-10'
               annual_review_url: https://github.com/lf-energy/tac/issues/24
               artwork_url: https://artwork.lfenergy.org/projects/openleadr
               chat_channel: '#openleadr'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=openleadr
+              dev_stats_url: https://insights.linuxfoundation.org/project/openleadr
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
               slack_url: https://slack.lfenergy.org
           - item:
@@ -15160,9 +15181,8 @@ landscape:
             project: incubating
             repo_url: https://github.com/OpenSTEF/openstef
             additional_repos:
-              - repo_url: https://github.com/OpenSTEF/.github
-              - repo_url: https://github.com/OpenSTEF/.github
-              - repo_url: https://github.com/OpenSTEF/openstef-dbc
+              - repo_url: https://github.com/OpenSTEF/openstef-reference
+              - repo_url: https://github.com/OpenSTEF/openstef-offline-example
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/OpenSTEF
             extra:
@@ -15171,6 +15191,7 @@ landscape:
                 slug: openstef
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/openstef
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkC68QAF
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/openstef_charter.pdf
                 topics: forecasting,energy,python,data-science,machine-learning,time-series
                 next_annual_review_date: '2026-02-04'
                 chair: Daan Van Es
@@ -15179,7 +15200,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/25
               artwork_url: https://artwork.lfenergy.org/projects/openstef
               chat_channel: '#openstef'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=openstef
+              dev_stats_url: https://insights.linuxfoundation.org/project/openstef
               mailing_list_url: https://lists.lfenergy.org/g/openstef
               slack_url: https://slack.lfenergy.org
           - item:
@@ -15194,11 +15215,10 @@ landscape:
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: incubating
-            repo_url: https://github.com/PowerGridModel/power-grid-model-benchmark
+            repo_url: https://github.com/PowerGridModel/power-grid-model
             additional_repos:
-              - repo_url: https://github.com/PowerGridModel/.github
-              - repo_url: https://github.com/PowerGridModel/.github
-              - repo_url: https://github.com/PowerGridModel/IEC-CIM-conversion-services-beta
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-io
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             twitter: https://twitter.com/nil
             extra:
@@ -15207,24 +15227,25 @@ landscape:
                 slug: powergridmodel
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powergridmodel
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPLQA5
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/powergridmodel_charter.pdf
                 next_annual_review_date: '2026-02-04'
-                chair: Tony Xiang
+                chair: Peter Salemink
                 project_org: https://github.com/PowerGridModel
               annual_review_date: '2025-02-05'
               annual_review_url: https://github.com/lf-energy/tac/issues/81
               artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
               chat_channel: '#powergridmodel'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=powergridmodel
+              dev_stats_url: https://insights.linuxfoundation.org/project/powergridmodel
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
               slack_url: https://slack.lfenergy.org
           - item:
             name: Shapeshifter
             homepage_url: https://shapeshifter.energy/
             logo: shapeshifter.svg
-            description: Focused specifically on the exchange of flexibility between Aggregators (AGRs), DSOs, and TSOs, Shapeshifter describes the corresponding market interactions
-              between them to resolve grid constraints by applying congestion management or grid-capacity management. Shapeshifter can be used as a stand-alone protocol for flexibility
-              forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility markets for grid-congestion issues and standardize the setup
-              and operation of these markets across different DSOs, TSO’s and different countries.
+            description: Focused specifically on the exchange of flexibility between Aggregators (AGRs), DSOs, and TSOs, Shapeshifter describes the corresponding market 
+              interactions between them to resolve grid constraints by applying congestion management or grid-capacity management. Shapeshifter can be used as a stand-alone 
+              protocol for flexibility forecasting, offering, ordering, and settlement processes. Its purpose is to support the use of flexibility markets for grid-congestion 
+              issues and standardize the setup and operation of these markets across different DSOs, TSO’s and different countries.
             second_path:
               - SIG / No SIG
               - Distribution / Operations
@@ -15234,9 +15255,7 @@ landscape:
             project: incubating
             repo_url: https://github.com/shapeshifter/shapeshifter-library-java
             additional_repos:
-              - repo_url: https://github.com/shapeshifter/.github
-              - repo_url: https://github.com/shapeshifter/.github
-              - repo_url: https://github.com/shapeshifter/shapeshifter-library-python
+              - repo_url: https://github.com/shapeshifter/shapeshifter-specification
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/shapeshifter/shapeshifter-library
             extra:
@@ -15245,6 +15264,7 @@ landscape:
                 slug: shapeshifter
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/shapeshifter
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWtA7QAL
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/shapeshifter_charter.pdf
                 next_annual_review_date: '2026-04-14'
                 chair: Robben Riksen
                 project_org: https://github.com/shapeshifter
@@ -15252,7 +15272,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/136
               artwork_url: https://artwork.lfenergy.org/projects/shapeshifter
               chat_channel: '#shapeshifter'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=shapeshifter
+              dev_stats_url: https://insights.linuxfoundation.org/project/shapeshifter
               mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
               slack_url: https://slack.lfenergy.org
       - subcategory:
@@ -15260,10 +15280,10 @@ landscape:
         items:
           - item:
             name: Arras
-            homepage_url: https://github.com/arras-energy
+            homepage_url: https://arras.energy/
             logo: arras.svg
-            description: The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with special attention
-              to electric energy delivery systems.
+            description: The mission of the Arras project is to enable and support the use of DOE's GridLAB-D technology by utilities, researchers, and vendors with special 
+              attention to electric energy delivery systems.
             second_path:
               - SIG / Grid Simulation and Modeling
               - Distribution / Modeling and Simulation
@@ -15272,19 +15292,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/arras-energy/tsc
             additional_repos:
-              - repo_url: https://github.com/arras-energy/.github
-              - repo_url: https://github.com/arras-energy/arras-energy.github.io
               - repo_url: https://github.com/arras-energy/gridlabd
-              - repo_url: https://github.com/arras-energy/gridlabd-converters
-              - repo_url: https://github.com/arras-energy/gridlabd-examples
-              - repo_url: https://github.com/arras-energy/gridlabd-library
-              - repo_url: https://github.com/arras-energy/gridlabd-models
-              - repo_url: https://github.com/arras-energy/gridlabd-old
-              - repo_url: https://github.com/arras-energy/gridlabd-template
-              - repo_url: https://github.com/arras-energy/gridlabd-weather
-              - repo_url: https://github.com/arras-energy/marimo
-              - repo_url: https://github.com/arras-energy/module_template
-              - repo_url: https://github.com/arras-energy/static-website
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-01-03'
@@ -15292,15 +15300,17 @@ landscape:
                 slug: arras
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/arras
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmTQAV
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf
                 topics: energy,platform,collaboration,linux-foundation,hypervision,alerting
-                next_annual_review_date: '2025-09-03'
+                next_annual_review_date: '2025-10-01'
                 chair: David Chassin
                 contributed_by: SLAC, PNNL, Amazon, SCE, CEC, Hitachi
+                project_org: https://github.com/arras-energy
               annual_review_date: '2024-07-16'
               annual_review_url: https://github.com/lf-energy/tac/issues/104
               artwork_url: https://artwork.lfenergy.org/projects/arras
               chat_channel: '#arras'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=arras
+              dev_stats_url: https://insights.linuxfoundation.org/project/arras
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=UyNhH6OkR1w
@@ -15318,11 +15328,10 @@ landscape:
               - Other / Batteries
               - Energy Storage / Battery
             project: sandbox
-            repo_url: https://github.com/battery-data-alliance/schema-management-service
+            repo_url: https://github.com/battery-data-alliance/pymacnet
             additional_repos:
-              - repo_url: https://github.com/BatteryDataAlliance/BDAOntology
-              - repo_url: https://github.com/BatteryDataAlliance/BatteryDataInterface
-              - repo_url: https://github.com/BatteryDataAlliance/pyadmiral
+              - repo_url: https://github.com/battery-data-alliance/pyctiarbin
+              - repo_url: https://github.com/battery-data-alliance/battery-data-format-ontology
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-02-28'
@@ -15330,14 +15339,14 @@ landscape:
                 slug: battery-data-alliance
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/battery-data-alliance
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfomTQpTLl3A7cDHjh
-                next_annual_review_date: '2025-05-13'
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/battery-data-alliance_charter.pdf
+                next_annual_review_date: '2025-09-02'
                 chair: Gabe Hege
                 project_org: https://github.com/battery-data-alliance
                 contributed_by: AmpLabs, BattGenie, ionworks
               annual_review_date: '2024-08-27'
               annual_review_url: https://github.com/lf-energy/tac/issues/57
               artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=battery-data-alliance
               summary_use_case: >
                 The LF Energy Battery Data Alliance (BDA) was created to bring battery companies together to work jointly to unify how batteries are handled in terms of software. Battery data is core to creating a decarbonized economy and power systems, yet companies waste tremendous amounts of time implementing battery data schemas, integrations/conversions, typical calculations, etc. BDA believes that an open source tool should exist to enable researchers and engineers to focus on bringing more innovative solutions to market rather than each organization duplicating the same work.
 
@@ -15347,6 +15356,7 @@ landscape:
                 - Testing: Many companies manually configure their testing equipment. There is a gap in the market between available testing standards and the actual execution of tests.
                 - Manufacturing: Variations in battery data structures across manufacturers lead to unnecessary complexities in schema design and data conversion leading to inefficiencies and barriers for collaboration.
                 - Telemetry: The area of battery telemetry remains largely unexplored from an open source perspective. There is untapped potential for development and growth in this area.
+              dev_stats_url: https://insights.linuxfoundation.org/project/battery-data-alliance
           - item:
             name: CitrineOS
             homepage_url: https://citrineos.github.io/latest/
@@ -15378,7 +15388,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/59
               artwork_url: https://artwork.lfenergy.org/projects/citrineos
               chat_channel: '#citrineos'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=citrineos
+              dev_stats_url: https://insights.linuxfoundation.org/project/citrineos
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=d9KOEMLZS64
@@ -15397,8 +15407,8 @@ landscape:
             name: covXtreme
             homepage_url: https://lfenergy.org/projects/covxtreme/
             logo: covxtreme.svg
-            description: The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the characterization of extreme
-              events, their associated uncertainties, and risk analysis.
+            description: The project's mission is to develop pragmatic but statistically sound non- stationary, multivariate extreme value analysis for the characterization of 
+              extreme events, their associated uncertainties, and risk analysis.
             second_path:
               - SIG / Grid Simulation and Modeling
               - Other / Risk Analysis
@@ -15415,12 +15425,14 @@ landscape:
                 slug: covxtreme
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/covxtreme
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwTZTl5McN9ojiuC7
-                next_annual_review_date: '2025-04-02'
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/covxtreme_charter.pdf
+                next_annual_review_date: '2026-04-01'
                 chair: Sachin Bhakar
                 contributed_by: Shell
+              annual_review_date: '2025-04-02'
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=covxtreme
+              dev_stats_url: https://insights.linuxfoundation.org/project/covxtreme
               summary_use_case: >
                 Hazard risk analysis often involves modelling extreme events, for example of natural phenomena such as rainfall, temperature and ocean waves, or of man-made systems such as industrial processes and stock-markets. We seek to understand the characteristics of the most exceptional (largest or most rare) events we have seen historically, and potentially might see if we look harder.
 
@@ -15429,47 +15441,106 @@ landscape:
                 - The characteristics of your data are not steady; that is, they vary with covariates which you know about,
                 - You may be interested in quantifying extremes of multiple variables at the same time, and
                 - You want to quantify how confident you can be in your modelling.
+              annual_review_date: '2025-04-02'
+              annual_review_url: https://github.com/lf-energy/tac/issues/66
+              artwork_url: https://artwork.lfenergy.org/projects/covxtreme
+              dev_stats_url: https://insights.linuxfoundation.org/project/covxtreme
+          - item:
+            name: CUPID (Controllable Unit Protocol Interface for DER)
+            homepage_url: https://github.com/Horizont-Europe-Interstore
+            logo: cupid_controllable_unit_protocol_interface_for_der.svg
+            description: The original IEEE 2030.5 standard from 2018 and recently updated by the 2023 version, is a widely used communication protocol designed to manage 
+              distributed resources, already adopted in California and Australia. The original standard is an interoperability dictionary-based protocol. In our project we’ve 
+              upgraded the current version of the IEEE2030.5 software/firmware package by using a NATS messaging, added JSON structure support and moreover, we’ve developed a 
+              protocol converter to bridge the gap to other protocols (MQTT and ModBUS) and standardization procedures of existing equipment and systems.
+            project: sandbox
+            repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-03-19'
+              annotations:
+                slug: cupid
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cupid
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
+                charter_url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cupid/cupid_Charter.pdf?v=1747610679443
+                project_org: https://github.com/Horizont-Europe-Interstore
+            
+            artwork_url: https://artwork.lfenergy.org/projects/cupid
+              dev_stats_url: https://insights.linuxfoundation.org/project/cupid
+            additional_repos: []
+          - item:
+            name: FIDOPower
+            homepage_url: https://fidopower.energy/
+            logo: fidopower.svg
+            description: |-
+              The mission of the Project is to enable and support the use of DOE's GridLAB-D
+              technology by utilities, researchers, and vendors of smart grid, renewable energy, and climate-change mitigation technology with special attention to electric energy delivery systems.
+            second_path:
+              - SIG / Grid Simulation and Modeling
+            project: sandbox
+            repo_url: https://github.com/fidopower/.github
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-01-03'
+              annotations:
+                slug: fidopower
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fidopower
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPUQA5
+                next_annual_review_date: '2026-06-03'
+                chair: David Chassin
+                project_org: https://github.com/fidopower
+              annual_review_date: '2025-06-04'
+              annual_review_url: https://github.com/lf-energy/tac/issues/82
+              artwork_url: https://artwork.lfenergy.org/projects/fidopower
+              dev_stats_url: https://insights.linuxfoundation.org/project/fidopower
+            additional_repos: []
           - item:
             name: Grid2Op
             homepage_url: https://grid2op.energy/
             logo: grid2op.svg
-            description: Grid2op presents a valuable platform for researchers, utilities, and other stakeholders in the power grid domain. Its modularity, customizability, and open-source
-              nature make it a powerful tool for advancing power grid management.
+            description: Grid2op presents a valuable platform for researchers, utilities, and other stakeholders in the power grid domain. Its modularity, customizability, and 
+              open-source nature make it a powerful tool for advancing power grid management.
+            second_path:
+              - SIG / No SIG
+              - Distribution / Modeling and Simulation
+              - Transmission / Modeling and Simulation
+              - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/Grid2op/grid2op
             additional_repos:
-              - repo_url: https://github.com/Grid2op/.github
-              - repo_url: https://github.com/Grid2op/.github
-              - repo_url: https://github.com/Grid2op/LearningToAlert
+              - repo_url: https://github.com/Grid2op/lightsim2grid
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-12-17'
+              accepted: '2025-02-11'
               annotations:
                 slug: grid2op
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid2op_charter.pdf
                 project_org: https://github.com/Grid2op
+                next_annual_review_date: '2026-02-10'
+                chair: Benjamin Donnot
+              annual_review_date: '2025-02-11'
+              annual_review_url: https://github.com/lf-energy/tac/issues/287
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=grid2op
+              dev_stats_url: https://insights.linuxfoundation.org/project/grid2op
           - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
             homepage_url: https://lfenergy.org/projects/geisa/
             logo: grid_edge_interoperability_security_alliance_geisa.svg
-            description: GEISA creates the secure, interoperable ecosystem to streamline the cybersecurity, deployment, scaling and operation of next-generation grid edge computing and
-              applications. This computing and application ecosystem focuses on capabilities around grid operations, DER orchestration, AI, and other advanced functionality, with standard
-              metering and billing out of scope. Security and interoperability driven by open technology and compliance testing ensure utilities can confidently create the best solution
-              for their needs, and continue delivering reliable, safe, cost-effective power while meeting rapidly evolving grid modernization challenges. Vendors embrace the open ecosystem
-              to accelerate innovation, increase security, and improve competitiveness around value-add services of analytics, AI, and grid optimization.
+            description: GEISA creates the secure, interoperable ecosystem to streamline the cybersecurity, deployment, scaling and operation of next-generation grid edge computing
+              and applications. This computing and application ecosystem focuses on capabilities around grid operations, DER orchestration, AI, and other advanced functionality, 
+              with standard metering and billing out of scope. Security and interoperability driven by open technology and compliance testing ensure utilities can confidently 
+              create the best solution for their needs, and continue delivering reliable, safe, cost-effective power while meeting rapidly evolving grid modernization challenges. 
+              Vendors embrace the open ecosystem to accelerate innovation, increase security, and improve competitiveness around value-add services of analytics, AI, and grid 
+              optimization.
             second_path:
               - SIG / No SIG
               - Distribution / Grid Edge
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
             project: sandbox
-            repo_url: https://github.com/geisa/specification
-            additional_repos:
-              - repo_url: https://github.com/geisa/conformance
-              - repo_url: https://github.com/geisa/conformance
+            repo_url: https://github.com/geisa/perf-eval-zeromq
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-11-05'
@@ -15477,18 +15548,20 @@ landscape:
                 slug: geisa
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/geisa
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf9JyPreYpr2H4waXR
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/geisa_charter.pdf
                 next_annual_review_date: '2025-10-14'
                 chair: Michael Stuber, Richard Lam
                 project_org: https://github.com/geisa
               annual_review_url: https://github.com/lf-energy/tac/issues/230
               artwork_url: https://artwork.lfenergy.org/projects/geisa
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=geisa
+              dev_stats_url: https://insights.linuxfoundation.org/project/geisa
+            additional_repos: []
           - item:
             name: GridFM
             homepage_url: https://lfenergy.org/projects/gridfm/
             logo: gridfm.svg
-            description: This project aims at developing foundation models for electrical grids (GridFMs). Foundation Models (FMs), pre-trained on large data sets and adapted to a broad
-              set of applications, are revolutionizing the field of Artificial Intelligence (AI).
+            description: This project aims at developing foundation models for electrical grids (GridFMs). Foundation Models (FMs), pre-trained on large data sets and adapted to a 
+              broad set of applications, are revolutionizing the field of Artificial Intelligence (AI).
             second_path:
               - SIG / No SIG
               - Distribution / Modeling and Simulation
@@ -15511,7 +15584,35 @@ landscape:
               annual_review_date: '2024-10-29'
               annual_review_url: https://github.com/lf-energy/tac/issues/260
               artwork_url: https://artwork.lfenergy.org/projects/gridfm
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=gridfm
+              dev_stats_url: https://insights.linuxfoundation.org/project/gridfm
+          - item:
+            name: Grid Vantage
+            homepage_url: https://gridvantage.energy/
+            logo: grid_vantage.svg
+            description: The mission of the Project is to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events.
+            second_path:
+              - SIG / Grid Simulation and Modeling
+              - Distribution / Modeling and Simulation
+              - Transmission / Modeling and Simulation
+              - Energy Systems / Modeling and Optimization
+            project: sandbox
+            repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2023-09-26'
+              annotations:
+                slug: gridvantage
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gridvantage
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYw7SMxNrSMczS0vr
+                charter_url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/grip/grip_Charter.pdf?v=1744750999660
+                next_annual_review_date: '2025-06-04'
+                chair: Alyona Teyber
+                project_org: https://github.com/grid-vantage
+              annual_review_date: '2023-09-26'
+              annual_review_url: https://github.com/lf-energy/tac/issues/52
+              artwork_url: https://artwork.lfenergy.org/projects/gridvantage
+              dev_stats_url: https://insights.linuxfoundation.org/project/gridvantage
+            additional_repos: []
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
@@ -15533,25 +15634,26 @@ landscape:
               NODE Collective's data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
             second_path:
               - SIG / No SIG
+              - Behind-the-Meter / Market Data
+              - Customer and Market / Market Platform Gateway
             project: sandbox
-            repo_url: https://github.com/NODE-Collective/.github
-            additional_repos:
-              - repo_url: https://github.com/NODE-Collective/specification
-              - repo_url: https://github.com/NODE-Collective/specification
+            repo_url: https://github.com/NODE-Collective/specification
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-11-11'
+              accepted: '2024-04-02'
               annotations:
                 slug: node-collective
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/node-collective
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfteqdawq12KhVQ5JD
-                next_annual_review_date: '2025-07-08'
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/node-collective_charter.pdf
+                next_annual_review_date: '2025-09-02'
                 chair: Deandrea Salvador
                 project_org: https://github.com/NODE-Collective
               annual_review_date: '2024-04-02'
               annual_review_url: https://github.com/lf-energy/tac/issues/108
               artwork_url: https://artwork.lfenergy.org/projects/node-collective
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=node-collective
+              dev_stats_url: https://insights.linuxfoundation.org/project/node-collective
+            additional_repos: []
           - item:
             name: OpenSynth
             homepage_url: https://github.com/OpenSynth-energy/OpenSynth
@@ -15573,25 +15675,25 @@ landscape:
                 slug: opensynth
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opensynth
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfKqhzuw4MXzjV5tBN
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/opensynth_charter.pdf
                 next_annual_review_date: '2026-03-10'
                 chair: Gus Chadney
               annual_review_date: '2025-03-11'
               annual_review_url: https://github.com/lf-energy/tac/issues/68
               artwork_url: https://artwork.lfenergy.org/projects/opensynth
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=opensynth
+              dev_stats_url: https://insights.linuxfoundation.org/project/opensynth
           - item:
             name: ORES (Open Renewal Energy Systems)
             homepage_url: https://ores.energy/
             logo: ores_open_renewal_energy_systems.svg
-            description: ORES aims to address these challenges by developing a set of easy-to-follow open standard specifications on system architecture, APIs, and communication protocols
-              that empower device manufacturers, hardware and software developers, and DIYers to
+            description: ORES aims to address these challenges by developing a set of easy-to-follow open standard specifications on system architecture, APIs, and communication 
+              protocols that empower device manufacturers, hardware and software developers, and DIYers to
             second_path:
               - SIG / No SIG
+              - Behind-the-Meter / Flexibility
+              - Shared / Systems Governance
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
-            additional_repos:
-              - repo_url: https://github.com/open-renewable-energy-systems/.github
-              - repo_url: https://github.com/open-renewable-energy-systems/.github
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-03-12'
@@ -15605,13 +15707,14 @@ landscape:
               annual_review_date: '2025-04-08'
               annual_review_url: https://github.com/lf-energy/tac/issues/107
               artwork_url: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systems
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=ores-open-renewal-energy-systems
+              dev_stats_url: https://insights.linuxfoundation.org/project/ores-open-renewal-energy-systems
+            additional_repos: []
           - item:
             name: Real Time Data Ingestion Platform (RTDIP)
             homepage_url: https://www.rtdip.io/
             logo: real_time_data_ingestion_platform_rtdip.svg
-            description: The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers, and data scientists
-              wherever they are.
+            description: The mission of the Project is to enable easy access to high volume, historical and real time process data for analytics applications, engineers, and data 
+              scientists wherever they are.
             second_path:
               - SIG / No SIG
               - Distribution / Data & IoT
@@ -15621,9 +15724,6 @@ landscape:
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/rtdip/core
-            additional_repos:
-              - repo_url: https://github.com/rtdip/samples
-              - repo_url: https://github.com/rtdip/samples
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-06-04'
@@ -15638,37 +15738,37 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/26
               artwork_url: https://artwork.lfenergy.org/projects/rtdip
               chat_channel: '#rtdip'
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=rtdip
+              dev_stats_url: https://insights.linuxfoundation.org/project/rtdip
               mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
               slack_url: https://slack.lfenergy.org
+            additional_repos: []
           - item:
             name: SC Decarbonisation Hub
             homepage_url: https://lfenergy.org/projects/sc-decarbonisation-hub/
             logo: sc_decarbonisation_hub.svg
-            description: Oil and Gas companies face extreme pressure to address GHG emissions. Proactively addressing scope 3 emissions for suppliers and other cases could help improve
-              scope 3 accountability. Such data and insights can help an organization to come up with a mitigation plan.
+            description: Oil and Gas companies face extreme pressure to address GHG emissions. Proactively addressing scope 3 emissions for suppliers and other cases could help 
+              improve scope 3 accountability. Such data and insights can help an organization to come up with a mitigation plan.
             second_path:
               - SIG / No SIG
               - Other / Carbon Accounting
               - Emissions / Carbon Intensity and Accounting
             project: sandbox
-            repo_url: https://github.com/sc-decarbonization-hub/SCDH
-            additional_repos:
-              - repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
-              - repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
+            repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-09-26'
+              accepted: '2024-09-17'
               annotations:
                 slug: sc-decarbonisation-hub
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/sc-decarbonisation-hub
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfLxmTMlwn9Fj9aCbx
-                next_annual_review_date: '2025-06-10'
+                charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/sc-decarbonisation-hub_charter.pdf
+                next_annual_review_date: '2025-11-11'
                 chair: Sachin Bhakar
                 project_org: https://github.com/sc-decarbonization-hub
               annual_review_url: https://github.com/lf-energy/tac/issues/171
               artwork_url: https://artwork.lfenergy.org/projects/sc-decarbonisation-hub
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=sc-decarbonisation-hub
+              dev_stats_url: https://insights.linuxfoundation.org/project/sc-decarbonisation-hub
+            additional_repos: []
       - subcategory:
         name: SIG
         items:
@@ -15692,15 +15792,15 @@ landscape:
               annual_review_date: '2024-10-29'
               annual_review_url: https://github.com/lf-energy/tac/issues/53
               artwork_url: https://artwork.lfenergy.org/projects/lf-energy-ai-sig
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=lf-energy-ai-sig
+              dev_stats_url: https://insights.linuxfoundation.org/project/lf-energy-ai-sig
           - item:
             name: Digital Substations SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/DSS/overview
             logo: digital_substations_sig.svg
+            description: The Digital Substation Automation Systems (DSAS) initiative seeks to optimize digital substations through open-source technology and provides a 
+              collaboration platform for projects working on digital substations.
             second_path:
               - Energy Systems / Distribution and Grids
-            description: The Digital Substation Automation Systems (DSAS) initiative seeks to optimize digital substations through open-source technology and provides a collaboration
-              platform for projects working on digital substations.
             project: sig
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
@@ -15713,7 +15813,7 @@ landscape:
                 chair: Jos Zenner, Maxime Pelletier
               annual_review_url: https://github.com/lf-energy/tac/issues/89
               artwork_url: https://artwork.lfenergy.org/projects/dsas-working-group
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=dsas-working-group
+              dev_stats_url: https://insights.linuxfoundation.org/project/dsas-working-group
           - item:
             name: EV Charging SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/ECS/overview
@@ -15729,17 +15829,18 @@ landscape:
                 slug: ev-charging-sig
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ev-charging-sig
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf4h91oxXEK4GQJnaj
-                chair: Robert Leeuw, Thana Paris
+                chair: Robert De Leeuw, Thana Paris
+                next_annual_review_date: '2026-01-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/458
               artwork_url: https://artwork.lfenergy.org/projects/ev-charging-sig
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=ev-charging-sig
+              dev_stats_url: https://insights.linuxfoundation.org/project/ev-charging-sig
           - item:
             name: Grid Simulation and Modeling SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/GSMS/overview
-            second_path:
-              - Energy Systems / Modeling and Optimization
             logo: grid_simulation_and_modeling_sig.svg
             description: SIG for LF Energy project collaboration in the area of Grid Simulation and Modeling
+            second_path:
+              - Energy Systems / Modeling and Optimization
             project: sig
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
@@ -15749,9 +15850,10 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy-grid-simulation-and-modeling-sig
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfeQFSWBGgyaXAeg4r
                 chair: Thomas Van Dijk
+                next_annual_review_date: '2026-01-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/459
               artwork_url: https://artwork.lfenergy.org/projects/lfenergy-grid-simulation-and-modeling-sig
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lfenergy/overview?project=lfenergy-grid-simulation-and-modeling-sig
+              dev_stats_url: https://insights.linuxfoundation.org/project/lfenergy-grid-simulation-and-modeling-sig
   - category:
     name: LFESS Working Groups
     subcategories:
@@ -15759,71 +15861,91 @@ landscape:
         name: Working Group
         items:
           - item:
-            name: CDSC Connectivity WG (WG3)
-            homepage_url: https://connectivity.carbondataspec.org/
-            logo: cdsc_connectivity_wg_wg3.svg
-            description: The Carbon Data Specification (CDS) is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying,
-              and tracking carbon emissions.
+            name: Connected Data Specification - Customer Data Working Group (CDS WG1)
+            homepage_url: https://cds-customerdata.lfenergy.org/
+            logo: connected_data_specification_customer_data_working_group_cds_wg1.svg
+            description: 'The Connected Data Specification (CDS) is a set of specifications for secure and standardized access and sharing of energy and energy-related data. This working
+              group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon emissions calculations and decarbonization
+              efforts, including, but not limited to: 1) Metering consumption and production data, 2) Account and bill data needed for project analysis, 3) Authorization and consent
+              processes.'
             second_path:
+              - SIG / No SIG
               - Distribution / Grid Edge
               - Emissions / Carbon Intensity and Accounting
             project: working-group
-            repo_url: https://github.com/carbon-data-specification/Connectivity
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2024-06-26'
-              annotations:
-                slug: cdsc-connectivity-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc-connectivity-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
-                contributed_by: Google, Microsoft, UtilityAPI, WattTime
-              artwork_url: https://artwork.lfenergy.org/projects/cdsc-connectivity-wg
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc-connectivity-wg
-              summary_use_case: >
-                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
-          - item:
-            name: CDSC Customer Data WG (WG1)
-            homepage_url: https://customerdata.carbondataspec.org/
-            logo: cdsc_customer_data_wg_wg1.svg
-            description: This working group focuses on writing free, open specifications for providing utility customer data access, in order to facilitate carbon emissions calculations
-              and decarbonization efforts.
-            second_path:
-              - Distribution / Grid Edge
-              - Emissions / Carbon Intensity and Accounting
-            project: working-group
-            repo_url: https://github.com/carbon-data-specification/Customer-Data
+            repo_url: https://github.com/lfe-cds/CDS-Customer-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
               annotations:
-                slug: cdsc1
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc1
+                slug: cds-customerdata-wg
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-customerdata-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt3QAH
+                next_annual_review_date: '2025-12-09'
+                chair: Daniel Roesler
                 contributed_by: Google, Microsoft, UtilityAPI, WattTime
-              artwork_url: https://artwork.lfenergy.org/projects/cdsc1
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc1
+              annual_review_url: https://github.com/lf-energy/tac/issues/512
+              artwork_url: https://artwork.lfenergy.org/projects/cds-customerdata-wg
+              dev_stats_url: https://insights.linuxfoundation.org/project/cds-customerdata-wg
               summary_use_case: >
                 The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
-            name: CDSC Power System Data WG (WG2)
-            homepage_url: https://powersystemsdata.carbondataspec.org/
-            logo: cdsc_power_system_data_wg_wg2.svg
-            description: An open specification for raw electric power system data to facilitate a systematic and more accurate approach to report grid emissions.
+            name: Connected Data Specification - Power Systems Data Working Group (CDS WG2)
+            homepage_url: https://cds-powersystemdata.lfenergy.org/
+            logo: connected_data_specification_power_systems_data_working_group_cds_wg2.svg
+            description: 'The Connected Data Specification (CDS) is a set of specifications for secure and standardized access and sharing of energy and energy-related data. This working
+              group focuses on writing free, open specifications for raw / measured energy and emissions source data, including recommendations for temporal scale, locational scale,
+              timely acquisition, and quality assurance. This Working Group focuses on Power systems data. This may include, but is not limited to: 1) Power generation emissions; 2)
+              Delivery capacities and/or constraints; 3) Generation mix; 4) Power imports and exports; 5) Power market data; 6) Contractual data.'
             second_path:
+              - SIG / No SIG
               - Transmission / Operations
               - Emissions / Carbon Intensity and Accounting
             project: working-group
-            repo_url: https://github.com/carbon-data-specification/Power-Systems-Data
+            repo_url: https://github.com/lfe-cds/CDS-Power-Systems-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
               annotations:
-                slug: cdsc2
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cdsc2
+                slug: cds-powersystemsdata-wg
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-powersystemsdata-wg
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt4QAH
+                next_annual_review_date: '2025-12-09'
+                chair: Stephen Suffian
                 contributed_by: Google, Microsoft, UtilityAPI, WattTime
-              artwork_url: https://artwork.lfenergy.org/projects/cdsc2
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=cdsc2
+              annual_review_url: https://github.com/lf-energy/tac/issues/513
+              artwork_url: https://artwork.lfenergy.org/projects/cds-powersystemsdata-wg
+              dev_stats_url: https://insights.linuxfoundation.org/project/cds-powersystemsdata-wg
+              summary_use_case: >
+                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
+          - item:
+            name: Connected Data Specification - Registration Working Group (CDS WG3)
+            homepage_url: https://cds-registration.lfenergy.org/
+            logo: connected_data_specification_registration_working_group_cds_wg3.svg
+            description: The Connected Data Specification (CDS) is a set of specifications for secure and standardized access and sharing of energy and energy-related data. This 
+              working group focuses on writing free, open specifications for utilities and other central entities ("Servers") to provide discovery, registration, connectivity, and 
+              profile management abilities to third party entities ("Clients"). By providing standardized protocols for these abilities, utilities and other central entities can 
+              significantly scale and streamline adoption and integration of carbon tracking platforms, energy management service providers, energy flexibility providers, and other
+              entities that can accelerate the energy transition.
+            second_path:
+              - SIG / No SIG
+              - Distribution / Grid Edge
+              - Emissions / Carbon Intensity and Accounting
+            project: working-group
+            repo_url: https://github.com/lfe-cds/CDS-Registration
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-07-01'
+              annotations:
+                slug: cds-registration-wg
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-registration-wg
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
+                next_annual_review_date: '2025-12-09'
+                chair: Daniel Roesler
+                contributed_by: Google, Microsoft, UtilityAPI, WattTime
+              annual_review_url: https://github.com/lf-energy/tac/issues/511
+              artwork_url: https://artwork.lfenergy.org/projects/cds-registration-wg
+              dev_stats_url: https://insights.linuxfoundation.org/project/cds-registration-wg
               summary_use_case: >
                 The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
@@ -15846,13 +15968,14 @@ landscape:
               - repo_url: https://github.com/trolie/java-client-sdk
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2023-12-01'
+              accepted: '2023-09-06'
               annotations:
                 slug: trolie
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/trolie
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
                 next_annual_review_date: '2025-12-09'
                 chair: Christopher Atkins
+              annual_review_date: '2023-09-06'
               annual_review_url: https://github.com/lf-energy/tac/issues/79
               artwork_url: https://artwork.lfenergy.org/projects/trolie
-              dev_stats_url: https://insights.lfx.linuxfoundation.org/foundation/lf-energy-standards-and-specifications/overview?project=trolie
+              dev_stats_url: https://insights.linuxfoundation.org/project/trolie
