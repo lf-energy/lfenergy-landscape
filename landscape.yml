@@ -15044,7 +15044,7 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dynawo
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPZQA5
                 charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/dynawo_charter.pdf
-                next_annual_review_date: '2025-08-06'
+                next_annual_review_date: '2025-10-01'
                 chair: Marco Chiaramello
                 documentation_url: https://dynawo.github.io/docs/
                 contributed_by: RTE
@@ -15859,6 +15859,29 @@ landscape:
                 can provide actionable insights to the grid operator. The project has been deployed with one of the largest California investor-owned utilities (IOUs), Southern California
                 Edison (SCE).
             additional_repos: []
+          - item:
+            name: LF Energy Semantic Energy Framework (LFE-SEF)v
+            homepage_url: https://gitlab.inesctec.pt/groups/interconnect-public/-/wikis/home#interconnect-interoperability-framework
+            logo: lf_energy_semantic_energy_framework_lfe_sef_v.svg
+            description: The mission of the Project is to enable semantic interoperability without a centralized facilitator in cross domain challenges related to grids and smart 
+              homes/buildings.
+            second_path:
+              - SIG / No SIG
+            project: sandbox
+            repo_url: https://gitlab.inesctec.pt/groups/interconnect-public/-/wikis/home#interconnect-interoperability-framework
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-06-30'
+              annotations:
+                slug: interconnect-sif
+                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/interconnect-sif
+                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf3FcUytWThvGvfPAw
+                charter_url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/interconnect-sif/interconnect-sif_Charter.pdf?v=1752086606016
+                chair: ''
+              annual_review_date: '2024-04-23'
+              annual_review_url: https://github.com/lf-energy/tac/issues/132
+              artwork_url: https://artwork.lfenergy.org/projects/interconnect-sif
+              dev_stats_url: https://insights.linuxfoundation.org/project/interconnect-sif
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
