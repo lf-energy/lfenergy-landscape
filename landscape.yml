@@ -14614,7 +14614,7 @@ landscape:
                   url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
-              summary_use_case: |+
+              summary_use_case: |
                 EVerest provides a software stack for EV chargers with implementations of:
                 - communication protocols
                 - software modules for representations of hardware devices (chargers, cars, etc.)
@@ -14674,7 +14674,7 @@ landscape:
                   url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/gxf-diagram.png
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=FZ2tnLDXM6Q
-              summary_use_case: |+
+              summary_use_case: |
                 Grid eXchange Fabric (GXF) is an industrial IoT backend that enables hardware monitoring and control in the public space. GXF provides several functions out of the box and provides scalability, high availability, high security, a generic design, and no vendor lock-in. GXF is currently deployed in several public use cases, including microgrids, smart metering, public lighting, and distribution automation.
 
                 GXF can be deployed to multiple servers or distributed over multiple data centers in an active-active setup so that even if one data center fails, no data or functionality is lost. In a cloud-hosted setup, it is possible to use auto scaling to automatically add or remove servers on any of the platform layers to scale the platform to the current load and use. Servers can automatically be scaled up and down when necessary, thereby reducing hardware costs. This setup can also be used to minimize the costs during the phased rollout of smart devices.
@@ -14727,7 +14727,7 @@ landscape:
                   url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/feed_screenshot.png
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=QemhzfYQpaw
-              summary_use_case: |+
+              summary_use_case: |
                 OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for systems operators. To perform their duties, an operator must interact with multiple applications (perform actions, watch for alerts, etc.), which can prove difficult if there are too many of them. The idea behind OperatorFabric is to aggregate all the notifications from these applications into a single screen, and to allow the operator to act on them if needed.
 
                 OperatorFabric includes several features essential for electricity, water, and other utility operations:
@@ -14782,7 +14782,7 @@ landscape:
                   url: https://www.powsybl.org/pages/overview/img/index/nodeBreakerTopology.svg
               slack_url: https://powsybl.slack.com
               summary_intro_url: https://www.youtube.com/watch?v=rAvfO6Lu4cc
-              summary_use_case: |+
+              summary_use_case: |
                 PowSyBl enables developers to create applications able to perform dynamic power flow simulations and security analyses on the network, handle a variety of formats including CGMES for European data exchanges, and many other tasks.
 
                 The power system blocks may be used through Python scripts for a quick implementation (or prototyping), but also be assembled to build state-of-the-art applications. One major aim of the project is to make it easy to write complex software for power system simulation and analysis. For example, using PowSyBl one can create applicationsable to:
@@ -14848,7 +14848,7 @@ landscape:
                   url: https://lf-energy.atlassian.net/wiki/spaces/SEAP
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=qm_nQef5_BM
-              summary_use_case: |+
+              summary_use_case: |
                 SEAPATH, Software Enabled Automation Platform and Artifacts (THerein), aims at developing a reference design and industrial grade open source real-time platform that can run virtualized automation and protection applications (for the power grid industry initially, and potentially beyond). This platform is intended to host multi-provider applications.
 
                 SEAPATH meets the high requirements of substation reliability, performance and availability.
@@ -14907,7 +14907,7 @@ landscape:
                   url: http://lfenergy.dev-lfprojects3.linuxfoundation.org/wp-content/uploads/sites/18/2023/01/sogno-arch.svg
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=A1Ncij_LOUc
-              summary_use_case: |+
+              summary_use_case: |
                 The project Service-based Open-source Grid automation platform for Network Operation of the future (SOGNO) is creating plug-and-play, cloud-native, micro-services to implement our next generation of data-driven monitoring and control systems. It will simplify the life of distribution utilities by enabling them to optimize their network operations through open source to deliver cost-effectively, and seamless, secure power supply for their customers. SOGNO introduces the idea of grid automation as a modular system in which components can be added through time. This is in opposition to classical monolithic solutions.
 
                 SOGNO facilitates network operators in the transition to a modular microservices-based control center software solution. The goal is to integrate today’s SCADA systems with SOGNO and then to gradually move functionalities into microservices. As a result, SOGNO is not in opposition to classical solutions but it can be seen as an add-on that supports a flexible growth of the automation architecture. This allows operators to adapt faster with components that can be updated independently from each other while recognizing the “brown field” that most utilities continue to operate in. SOGNO provides system operators and automation software developers a pathway to the future through an open source framework that exposes open APIs that plug-in new automation functions, while supporting industry standards such as CIM IEC61970."
@@ -14970,7 +14970,7 @@ landscape:
                   url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/CoMPAS-architecture-overview-202320230912.png
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=CAMYMdUwrVg
-              summary_use_case: |+
+              summary_use_case: |
                 CoMPAS offers common software blocks for IEC 61850 profile configuration, using an open source shared development model, accelerating conformity to IEC 61850 interoperability requirements through software implementation.
 
                 Primary use cases:
@@ -15034,7 +15034,7 @@ landscape:
                 - name: Architecture Overview
                   url: https://dynawo.github.io/assets/images/DynawoModelSolverLight.png
               slack_url: https://slack.lfenergy.org
-              summary_use_case: |+
+              summary_use_case: |
                 Dynaωo is an hybrid C++/Modelica open source suite of simulation tools for power systems. It aims at providing power system stakeholders with a transparent, flexible, interoperable and robust suite of simulation tools that can ease collaboration and cooperation in the power system community.
 
                 To achieve this goal, Dynaωo is based on two mains principles: the use of a high-level modelling language Modelica and a strict separation between modeling and solutions.
@@ -15114,7 +15114,7 @@ landscape:
                   url: https://lfenergy.org/how-french-transmission-system-operator-rte-leverages-lf-energy-and-lf-edge-to-build-next-gen-substation-monitoring-and-controls/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=WVOCXx6Cdn8
-              summary_use_case: |+
+              summary_use_case: |
                 FledgePOWER is a flexible, lightweight, industrial-grade, open source gateway that embeds Fledge (LF EDGE). Additionally, FledgePOWER provides a toolbox for simulation, data configuration, and checking focused uniquely on power systems’ protocols translation and power systems’ use cases.
 
                 Features: lightweight, extensible, modular, flexible, scalable, secured, interoperable
@@ -15174,7 +15174,7 @@ landscape:
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/raw/main/project_charters/flexmeasures_charter.pdf
               slack_url: https://slack.lfenergy.org
-              summary_use_case: |+
+              summary_use_case: |
                 FlexMeasures provides applications and services around energy flexibility is expensive work. It is designed to be developer-friendly, which helps you to go to market quickly, while keeping the costs of software development at bay.
 
                 FlexMeasures supports:
@@ -15223,7 +15223,7 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/master/project_charters/hyphae_charter.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=QaPbyuTPuFs
-              summary_use_case: |+
+              summary_use_case: |
                 Hyphae aims to make the grid more resilient and flexible with microgrids. By providing an Autonomous Power Interchange System (APIS), Hyphae automatically and efficiently distributes locally-produced renewable energy over a DC grid to interconnect with AC Grids. With resilient, physical peer-to-peer microgrid energy trading, even the most remote communities will be able to store and distribute energy autonomously without connecting to large-scale power stations or electrical distribution networks.
 
                 Key features include:
@@ -15283,7 +15283,7 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/openeemeter-charter.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=dV_cU6bUv6M
-              summary_use_case: |+
+              summary_use_case: |
                 OpenDSM is an open source toolkit for implementing and developing standard methods for calculating normalized metered energy consumption (NMEC) and avoided energy use. The OpenDSM library contains routines for estimating energy efficiency savings at the meter.
 
                 OpenDSM, as implemented in the eemeter package and sister eeweather package, contains the most complete open source implementation of the CalTRACK Methods, which specify a family of ways to calculate and aggregate estimates of avoided energy use at a single power meter particularly suitable for use in pay-for-performance (P4P) programs.
@@ -15331,7 +15331,7 @@ landscape:
                   url: https://github.com/lf-energy/foundation/raw/main/project_charters/openleader_charter.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=fb5vGsNo9Uc
-              summary_use_case: |+
+              summary_use_case: |
                 openLEADR is an implementation of OpenADR, an open and interoperable information exchange model and emerging Smart Grid standard. OpenADR standardizes the message format used for Auto-DR so that dynamic price and reliability signals can be delivered in a uniform and interoperable fashion among utilities, ISOs, and energy management and control systems. While previously deployed Auto-DR systems are automated, they are not standardized or interoperable.
 
                 Key features of openLEADR include:
@@ -15390,7 +15390,7 @@ landscape:
                   url: https://lf-energy.atlassian.net/wiki/spaces/OS
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=e-kneLMKIaY
-              summary_use_case: |+
+              summary_use_case: |
                 OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days. Given a timeseries of measured (net) load or generation, a fully automated machine learning pipeline is executed, which delivers a probabilistic forecast of future load. This works for energy consumption, (renewable) generation, or a combination of both. OpenSTEF performs validation on the input data, combines measurements with external predictors such as weather data and market prices, trains any scikit-learn compatible machine learning model, and delivers the forecast via both an API and an (expert) graphical user interface. The stack is based on open-source technology and standards and is organized in a microservice architecture optimized for cloud deployment.
 
                 The Dutch DSO Alliander started the Short-Term-Forecasting project to anticipate congestion in the distribution grid, to allow for grid safety analysis in the transmission grid and to enable smart grid innovations to locally balance supply and demand within the constraints of the grid. By opensourcing the stack, the ambition is to provide an industry standard for generating and evaluating forecasts in the operational time-domain, as well as allow for structured collaboration.
@@ -15439,7 +15439,7 @@ landscape:
                   url: https://lfenergy.org/power-grid-model-delvi/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=lkNj2EzxelA
-              summary_use_case: |+
+              summary_use_case: |
                 Power Grid Model offers a standards-based foundation enabling real-time power systems analysis, simulations of electrical power grids, and sophisticated what-if analysis. In addition, it enables in-depth studies and analysis of the electrical power grid’s behavior and performance. This comprehensive model incorporates essential factors such as power generation capacity, electrical losses, voltage levels, power flows, and system stability.
 
                 The global energy transition is placing new and unprecedented demands on Distribution System Operators (DSOs) and grid providers. Alongside upgrades to grid capacity, processes such as digitization, capacity optimization, and congestion management are becoming vital for delivering reliable services. To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
@@ -15493,7 +15493,7 @@ landscape:
                   url: https://lf-energy.atlassian.net/wiki/spaces/Shap
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=YtNDs1k80hQ
-              summary_use_case: |+
+              summary_use_case: |
                 Shapeshifter enables the fastest, fairest, and lowest cost route to a smart energy future by delivering one common approach to efficiently connect smart energy projects and technologies. Its market structure, roles, rules and tools for the commoditization and trading of flexible energy usage work with existing and evolving energy markets.
 
                 Shapeshifter focuses specifically on the exchange of flexibility between aggregators (AGRs) and distribution system operators (DSOs) or between aggregators and transmission system operations (TSOs). It describes the corresponding market interactions between them to resolve grid constraints by applying congestion management or grid capacity management.
@@ -15549,7 +15549,7 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=UyNhH6OkR1w
-              summary_use_case: |+
+              summary_use_case: |
                 Arras delivers an open and developer-friendly framework for addressing important use-cases identified by key industry stakeholders. These use-cases include (1) distributed energy resource hosting capacity, (2) tariff design, (3) end-use load electrification, (4) extreme weather resilience, (5) wildfire safety and protection, (6) peer-to-peer energy, (7) advanced load modeling and forecasting, and (8) high-performance scenario planning at scale to better plan for increasing uncertainty with DER integration.
 
                 Arras addresses the needs of key stakeholders such as power system researchers, planners, operators, policy-makers and regulators. Specifically, this software provides an open source advanced power system simulation engine capable of performing very large scale simulations of distribution systems that include a large fraction of so-called smart grid technology and distributed energy resources that the key stakeholders cannot obtain and/or afford to license from existing software vendors. The goal is for these open source tools to continue to gain ongoing support to possibly open the idea of replacing legacy license tools.
@@ -15642,7 +15642,7 @@ landscape:
                   url: https://citrineos.github.io/core-concepts/architecture/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=d9KOEMLZS64
-              summary_use_case: |+
+              summary_use_case: |
                 The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. CitrineOS is developed with modularity and extensibility in mind. It consists of logically separated modules, each encapsulating a subset of functionality pertaining to the definitions of OCPP 2.0.1 – the standard protocol for communication between charging stations and charge management software. All modules handle and emit all necessary OCPP messages and are loosely coupled by a message broker interface connecting them to a central component that relays the messages to the charging station and vice versa.
 
                 With CitrineOS, you can:
@@ -15890,11 +15890,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfYw7SMxNrSMczS0vr
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/grip/grip_Charter.pdf?v=1744750999660
-              summary_use_case: >
-                Grid Vantage is a cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather
-                events. By combining state-of-the-art agent-based grid modeling tools with grid resilience metrics, Grid Vantage can quantify the state of the grid assets before extreme
-                events, and provide grid operators with actionable insights, such as staging maintenance crew locations, proactive pole hardening or grid topology reconfiguration, to
-                help minimize equipment damage and revenue loss due to power outages.
+              summary_use_case: |
+                Grid Vantage is a cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events. By combining state-of-the-art agent-based grid modeling tools with grid resilience metrics, Grid Vantage can quantify the state of the grid assets before extreme events, and provide grid operators with actionable insights, such as staging maintenance crew locations, proactive pole hardening or grid topology reconfiguration, to help minimize equipment damage and revenue loss due to power outages.
 
                 Grid Vantage uses telemetry data to identify infrastructure most at risk from severe weather. One of the key strengths of Grid Vantage is its threat-agnostic grid modeling capabilities. Regardless of the type of extreme weather event, if telemetry data is available regarding the failed asset, Grid Vantage’s system modeling capabilities can provide actionable insights to the grid operator. The project has been deployed with one of the largest California investor-owned utilities (IOUs), Southern CaliforniaEdison (SCE).
             additional_repos: []
@@ -16010,9 +16007,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfKqhzuw4MXzjV5tBN
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/opensynth_charter.pdf
-              summary_use_case: >
-                OpenSynth is building a community for holders of raw smart meter (i.e. demand) data to generate and share synthetic data and models that can be used by researchers, industry
-                innovators and policy-makers.
+              summary_use_case: |
+                OpenSynth is building a community for holders of raw smart meter (i.e. demand) data to generate and share synthetic data and models that can be used by researchers, industry innovators and policy-makers.
 
                 The initial focus for the community includes:
                 - Defining what comprises ‘good’ synthetic data (to include how synthetic data in energy might be evaluated for common concepts such as privacy, fidelity and utility)
@@ -16086,7 +16082,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmxQAF
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=OKegDi9MdZI
-              summary_use_case: |+
+              summary_use_case: |
                 Real Time Data Ingestion Platform (RTDIP) is the solution of choice leveraging PaaS (Platform as a Service) services along with some custom components to provide Data Ingestion, Data Transformation, and Data Sharing as a platform. RTDIP can interface with several data sources to ingest many different data types which include time series, alarms, video, photos and audio being provided from sources such as Historians, OPC Servers and Rest APIs, as well as data being sent from hardware such as IoT Sensors, Robots and Drones.
 
                 RTDIP enables users to consume Real Time Data at scale, including historical and real time streaming data. RTDIP has proven to be capable of ingesting over 3 million sensors in a production environment across every geographical location in the world.
@@ -16364,7 +16360,7 @@ landscape:
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
               summary_intro_url: https://www.youtube.com/watch?v=RRXwD8nyokc
-              summary_use_case: |+
+              summary_use_case: |
                 TROLIE is an open conformance standard and cultivating a software ecosystem to accelerate the implementation of reliable, secure, and interoperable systems for the exchange of transmission facility ratings and related information. Most organizations involved in the operation of the transmission system in North America now need to exchange ratings and related information in an automated, frequent manner. This project will help accelerate their implementation and simplify interoperability.
 
                 The project’s specific aims are:
