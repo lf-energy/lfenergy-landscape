@@ -14670,7 +14670,6 @@ landscape:
             logo: grid_exchange_fabric_gxf.svg
             description: |-
               Open source, scalable, and technology-agnostic industrial Internet of Things (IoT) platform that enables grid operators to securely collect data, monitor, control, and manage smart devices across the power grid
-
               GXF is open, independent, and driven by its community, developed using open source best practices and designed to use open standards. This enables third parties to develop new and innovative solutions. The trade-off is flexibility and freedom. Unlike closed proprietary software, open source software can be altered and extended by any developer familiar with the source code. This grants organizations freedom from “vendor lock-in,” assures long-term viability, and creates industry opportunities for support, consulting, and training.
             second_path:
               - SIG / No SIG
@@ -14965,7 +14964,6 @@ landscape:
             logo: compas.svg
             description: |-
               Open source profile configuration and management for IEC 61850 substation protection, automation, and control systems
-
               CoMPAS (Configuration Modules for Power industry Automation Systems is being developed using several guiding principles, including the use of cross-platform Docker-based microservices along with a lightweight browser client, multiple language support for the user interface, scriptable controls, and the ability to integrate third-party tools.
             second_path:
               - SIG / Digital Substations
@@ -15284,7 +15282,6 @@ landscape:
             logo: opendsm.svg
             description: |-
               Open source library that measures the impacts of demand-side energy programs (like energy efficiency and demand response) by modeling historical energy usage to predict counterfactuals and compare them to actual post-intervention consumption
-
               - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;  
               - Maintain a production-ready library to act as a measurement system for distributed energy resources that can be replicated by all parties in markets and expand capabilities over time;
               - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets; 
@@ -15709,8 +15706,7 @@ landscape:
             name: covXtreme
             homepage_url: https://lfenergy.org/projects/covxtreme/
             logo: covxtreme.svg
-            description: |
-              Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
+            description: Model and software for hazard risk analysis of extreme events
             second_path:
               - SIG / Grid Simulation and Modeling
               - Other / Risk Analysis
@@ -15754,7 +15750,7 @@ landscape:
             name: CUPID (Controllable Unit Protocol Interface for DER)
             homepage_url: https://github.com/Horizont-Europe-Interstore
             logo: cupid_controllable_unit_protocol_interface_for_der.svg
-            description: The original IEEE 2030.5 standard from 2018 and recently updated by the 2023 version, is a widely used communication protocol designed to manage distributed resources, already adopted in California and Australia. The original standard is an interoperability dictionary-based protocol. In our project we’ve upgraded the current version of the IEEE2030.5 software/firmware package by using a NATS messaging, added JSON structure support and moreover, we’ve developed a protocol converter to bridge the gap to other protocols (MQTT and ModBUS) and standardization procedures of existing equipment and systems.
+            description: Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
             project: sandbox
             repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -15986,7 +15982,6 @@ landscape:
             logo: node_collective.svg
             description: |-
               National Open Data for Electrification (NODE) is an open data initiative dedicated to collaboratively sourcing, structuring, and maintaining a comprehensive and standardized dataset of every residential electrification incentive program in the US to accelerate clean energy adoption
-
               The Challenge: Fragmented and outdated electrification incentive data are major barriers to progress in the electrification
 
               Our Solution: NODE Collective introduces a vibrant, evolving data repository, a cornerstone of reliable and up-to-date electrification information, energized by:
