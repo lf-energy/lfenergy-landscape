@@ -14956,7 +14956,7 @@ landscape:
               summary_use_case: |
                 The project Service-based Open-source Grid automation platform for Network Operation of the future (SOGNO) is creating plug-and-play, cloud-native, micro-services to implement our next generation of data-driven monitoring and control systems. It will simplify the life of distribution utilities by enabling them to optimize their network operations through open source to deliver cost-effectively, and seamless, secure power supply for their customers. SOGNO introduces the idea of grid automation as a modular system in which components can be added through time. This is in opposition to classical monolithic solutions.
 
-                SOGNO facilitates network operators in the transition to a modular microservices-based control center software solution. The goal is to integrate today’s SCADA systems with SOGNO and then to gradually move functionalities into microservices. As a result, SOGNO is not in opposition to classical solutions but it can be seen as an add-on that supports a flexible growth of the automation architecture. This allows operators to adapt faster with components that can be updated independently from each other while recognizing the “brown field” that most utilities continue to operate in. SOGNO provides system operators and automation software developers a pathway to the future through an open source framework that exposes open APIs that plug-in new automation functions, while supporting industry standards such as CIM IEC61970."
+                SOGNO facilitates network operators in the transition to a modular microservices-based control center software solution. The goal is to integrate today’s SCADA systems with SOGNO and then to gradually move functionalities into microservices. As a result, SOGNO is not in opposition to classical solutions but it can be seen as an add-on that supports a flexible growth of the automation architecture. This allows operators to adapt faster with components that can be updated independently from each other while recognizing the “brown field” that most utilities continue to operate in. SOGNO provides system operators and automation software developers a pathway to the future through an open source framework that exposes open APIs that plug-in new automation functions, while supporting industry standards such as CIM IEC61970.
       - subcategory:
         name: Incubating
         items:
@@ -15280,7 +15280,7 @@ landscape:
                 Key features include:
                 - Flexible grid expansion: Because power interchange is autonomous, the microgrid can be expanded flexibly, without having to redesign the system from the ground up.
                 - Effective use of renewables: Because the physical peer-to-peer power interchange balances supply and demand between decentralized power generators and decentralized power storage equipment, it is possible to use renewable energy effectively despite fluctuations in the amount of power generated.
-                - Resilience: Because of these characteristics, it is possible to build a power system with high resilience."
+                - Resilience: Because of these characteristics, it is possible to build a power system with high resilience.
             additional_repos: []
           - item:
             name: OpenDSM
@@ -15390,7 +15390,7 @@ landscape:
                 Key features of openLEADR include:
                 - Fully compliant OpenADR 2.0b implementation for both servers (Virtual Top Node) and clients (Virtual End Node)
                 - Fully asyncio: you set up the coroutines that can handle certain events, and they get called when needed.
-                - Fully pythonic: all messages are represented as simple Python dictionaries. All XML parsing and generation is done for you."
+                - Fully pythonic: all messages are represented as simple Python dictionaries. All XML parsing and generation is done for you.
           - item:
             name: OpenSTEF
             homepage_url: https://openstef.github.io/openstef/index.html
@@ -15504,7 +15504,7 @@ landscape:
                 Power Grid Model matches the demand by providing with following strengths:
                 - Optimized algorithms for the characteristics of the distribution grid.
                 - Full support of three-phase asymmetric calculation.
-                - Efficient C++ implementation with native parallel computing support."
+                - Efficient C++ implementation with native parallel computing support.
           - item:
             name: Shapeshifter
             homepage_url: https://shapeshifter.energy/
@@ -15783,6 +15783,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cupid/cupid_Charter.pdf?v=1747610679443
+              summary_use_case: |
+                Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
             additional_repos: []
           - item:
             name: FIDOPower
@@ -15813,7 +15815,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fidopower
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPUQA5
-            additional_repos: []
+              summary_use_case: |
+                An open framework for inter-organizational data exchange, data and model synthesis, and system performance analysis across multiple power systems tools
           - item:
             name: Grid2Op
             homepage_url: https://grid2op.energy/
@@ -15851,6 +15854,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid2op_charter.pdf
+              summary_use_case: |
+                An open source Python framework designed for modeling and simulating sequential decision-making processes in power systems, primarily used for developing and evaluating intelligent control agents (e.g., using reinforcement learning) to manage and optimize grid operations
           - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
             homepage_url: https://lfenergy.org/projects/geisa/
@@ -15885,7 +15890,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf9JyPreYpr2H4waXR
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/geisa_charter.pdf
-            additional_repos: []
+              summary_use_case: |
+                The secure, interoperable ecosystem to streamline the cybersecurity, deployment, scaling and operation of next-generation grid edge computing and applications
           - item:
             name: GridFM
             homepage_url: https://lfenergy.org/projects/gridfm/
@@ -15920,6 +15926,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gridfm
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGFeSdSUJqLdBHTBZ
+              summary_use_case: |
+                An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
           - item:
             name: Grid Vantage
             homepage_url: https://gridvantage.energy/
@@ -15959,7 +15967,7 @@ landscape:
               summary_use_case: |
                 Grid Vantage is a cutting-edge software platform designed to help electric grid operators anticipate, mitigate against, and recover from the effects of extreme weather events. By combining state-of-the-art agent-based grid modeling tools with grid resilience metrics, Grid Vantage can quantify the state of the grid assets before extreme events, and provide grid operators with actionable insights, such as staging maintenance crew locations, proactive pole hardening or grid topology reconfiguration, to help minimize equipment damage and revenue loss due to power outages.
 
-                Grid Vantage uses telemetry data to identify infrastructure most at risk from severe weather. One of the key strengths of Grid Vantage is its threat-agnostic grid modeling capabilities. Regardless of the type of extreme weather event, if telemetry data is available regarding the failed asset, Grid Vantage’s system modeling capabilities can provide actionable insights to the grid operator. The project has been deployed with one of the largest California investor-owned utilities (IOUs), Southern CaliforniaEdison (SCE).
+                Grid Vantage uses telemetry data to identify infrastructure most at risk from severe weather. One of the key strengths of Grid Vantage is its threat-agnostic grid modeling capabilities. Regardless of the type of extreme weather event, if telemetry data is available regarding the failed asset, Grid Vantage’s system modeling capabilities can provide actionable insights to the grid operator. The project has been deployed with one of the largest California investor-owned utilities (IOUs), Southern California Edison (SCE).
             additional_repos: []
           - item:
             name: LF Energy Semantic Energy Framework (LFE-SEF)
@@ -15988,6 +15996,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf3FcUytWThvGvfPAw
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/interconnect-sif/interconnect-sif_Charter.pdf?v=1752086606016
+              summary_use_case: |
+                Open source initiative dedicated to establishing and promoting semantic interoperability within the energy sector, enabling cross-domain data exchange and knowledge sharing through standardized ontologies
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
@@ -16005,7 +16015,7 @@ landscape:
               Standardization of Incentive Data: By creating clear formats and guidelines, NODE Collective eliminates inconsistencies, facilitating streamlined data exchange.
 
               The Foundation for Impact:
-              NODE Collective's data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
+              NODE Collective’s data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
             second_path:
               - SIG / No SIG
               - Behind-the-Meter / Market Data
@@ -16034,7 +16044,20 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfteqdawq12KhVQ5JD
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/node-collective_charter.pdf
-            additional_repos: []
+              summary_use_case: |
+                National Open Data for Electrification (NODE) is an open data initiative dedicated to collaboratively sourcing, structuring, and maintaining a comprehensive and standardized dataset of every residential electrification incentive program in the US to accelerate clean energy adoption
+                The Challenge: Fragmented and outdated electrification incentive data are major barriers to progress in the electrification
+
+                Our Solution: NODE Collective introduces a vibrant, evolving data repository, a cornerstone of reliable and up-to-date electrification information, energized by:
+
+                Proactive Data Collection: dedicated submission channels enable us to actively gather up-to-date and precise incentive data.
+
+                Collaborative Updates: A network of stakeholders collaborating to maintain data accuracy and consistency, underpinned by structured protocols and expert review.
+
+                Standardization of Incentive Data: By creating clear formats and guidelines, NODE Collective eliminates inconsistencies, facilitating streamlined data exchange.
+
+                The Foundation for Impact:
+                NODE Collective’s data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
           - item:
             name: OpenSynth
             homepage_url: https://github.com/OpenSynth-energy/OpenSynth
@@ -16109,7 +16132,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ores-open-renewal-energy-systems
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfn16C1T8IdKmEtdUv
-            additional_repos: []
+              summary_use_case: |
+                Open standard architecture, APIs, and communication protocols for distributed renewable energy systems and microgrids, enabling plug-and-play integration of clean energy assets and guiding community-driven energy solutions
           - item:
             name: Real Time Data Ingestion Platform (RTDIP)
             homepage_url: https://www.rtdip.io/
@@ -16186,7 +16210,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfLxmTMlwn9Fj9aCbx
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/sc-decarbonisation-hub_charter.pdf
-            additional_repos: []
+              summary_use_case: |
+                An open source platform that provides visibility into, and enables the management of, suppliers' Scope 3 greenhouse gas emissions to help companies develop strategies and take action towards net-zero targets
       - subcategory:
         name: SIG
         items:
@@ -16195,7 +16220,7 @@ landscape:
             homepage_url: https://lfenergy.org/working-groups/lf-energy-artificial-intelligence-ai/
             logo: ai_sig.svg
             description: |
-              LF Energy Special Interest Group (SIG) focused on Aritificial Intelligence (AI)
+              LF Energy Special Interest Group (SIG) focused on Artificial Intelligence (AI)
             second_path:
               - Shared / Systems Governance
             project: sig
@@ -16217,6 +16242,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lf-energy-ai-sig
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfJZDTtwe7PzYugoTH
+              summary_use_case: |
+                LF Energy Special Interest Group (SIG) focused on Artificial Intelligence (AI)
           - item:
             name: Digital Substations SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/DSS/overview
@@ -16243,6 +16270,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/dsas-working-group
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfpCA15JFR1zaCoga4
+              summary_use_case: |
+                LF Energy Special Interest Group (SIG) focused on substation digitalization and virtualization
           - item:
             name: EV Charging SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/ECS/overview
@@ -16269,6 +16298,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ev-charging-sig
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf4h91oxXEK4GQJnaj
+              summary_use_case: |
+                LF Energy Special Interest Group (SIG) focused on electric vehicle (EV) charging
           - item:
             name: Grid Simulation and Modeling SIG
             homepage_url: https://lf-energy.atlassian.net/wiki/spaces/GSMS/overview
@@ -16295,6 +16326,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfenergy-grid-simulation-and-modeling-sig
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfeQFSWBGgyaXAeg4r
+              summary_use_case: |
+                LF Energy Special Interest Group (SIG) focused on grid simulation and modeling
   - category:
     name: LFESS Working Groups
     subcategories:
@@ -16434,6 +16467,5 @@ landscape:
 
                 The project’s specific aims are:
                 - Define API specification for the exchange of ratings and ratings-related information to support organizations working to comply with FERC Order 881.
-                - A conformance program that emulates that Zowe Conformance Program or the Certified Kubernetes Conformance Program insofar as they give vendors a means to demonstrate
-                their conformance to the above specification and signal their commitment to maintaining their conformance over time.
+                - A conformance program that emulates that Zowe Conformance Program or the Certified Kubernetes Conformance Program insofar as they give vendors a means to demonstrate their conformance to the above specification and signal their commitment to maintaining their conformance over time.
                 - An open commons for the development of clients of the API specification.
