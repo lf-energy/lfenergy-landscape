@@ -15398,12 +15398,19 @@ landscape:
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=fb5vGsNo9Uc
               summary_use_case: |
-                openLEADR is an implementation of OpenADR, an open and interoperable information exchange model and emerging Smart Grid standard. OpenADR standardizes the message format used for Auto-DR so that dynamic price and reliability signals can be delivered in a uniform and interoperable fashion among utilities, ISOs, and energy management and control systems. While previously deployed Auto-DR systems are automated, they are not standardized or interoperable.
+                OpenLEADR is an LF Energy project providing free and open source implementations of the Open Automated Demand Response (OpenADR) protocol – an industry standard for enabling energy flexibility across grids, devices, and services. With the release of a new Rust-based implementation of OpenADR 3.0, OpenLEADR now supports both legacy and next-generation OpenADR deployments through two maintained versions:
 
-                Key features of openLEADR include:
-                - Fully compliant OpenADR 2.0b implementation for both servers (Virtual Top Node) and clients (Virtual End Node)
-                - Fully asyncio: you set up the coroutines that can handle certain events, and they get called when needed.
-                - Fully Pythonic: all messages are represented as simple Python dictionaries. All XML parsing and generation is done for you.
+                - OpenLEADR 2.0 – Python-based implementation of OpenADR 2.0b (IEC 62746-10-1 ED1)
+                - OpenLEADR 3.0 – Rust-based implementation of OpenADR 3.0 (currently in pre-standardization)
+
+                OpenADR is a widely adopted protocol for automated, standards-based demand response. It enables grid operators and utilities to communicate signals such as pricing, events, and capacity limits to energy-consuming devices and systems in real-time.
+
+                OpenADR is used globally to:
+                
+                - Reduce grid strain and balance load
+                - Enable customer participation in energy markets
+                - Integrate flexible, distributed energy resources
+                - Support regulatory compliance for demand response programs.
           - item:
             name: OpenSTEF
             homepage_url: https://openstef.github.io/openstef/index.html
