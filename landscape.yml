@@ -14792,7 +14792,7 @@ landscape:
             homepage_url: https://powsybl.org/
             logo: powsybl.svg
             description: |
-              Open source, modular Java library with Python bindings designed for comprehensive electrical grid modeling, simulation, and visualization, enabling complex power flow, security, and dynamic analyses
+              Open source, modular Java library with Python & Julia bindings designed for comprehensive electrical grid modeling, simulation, and visualization, enabling complex power flow, security, and dynamic analyses.
             second_path:
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
@@ -14805,6 +14805,14 @@ landscape:
               - repo_url: https://github.com/powsybl/powsybl-diagram
               - repo_url: https://github.com/powsybl/pypowsybl
               - repo_url: https://github.com/powsybl/powsybl-open-rao
+              - repo_url: https://github.com/powsybl/powsybl-dependencies
+              - repo_url: https://github.com/powsybl/powsybl-dynawo
+              - repo_url: https://github.com/powsybl/powsybl-entsoe
+              - repo_url: https://github.com/powsybl/powsybl-network-store
+              - repo_url: https://github.com/powsybl/powsybl-metrix
+              - repo_url: https://github.com/powsybl/powsybl-afs
+              - repo_url: https://github.com/powsybl/powsybl-hpc
+              - repo_url: https://github.com/powsybl/powsybl-distribution
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-05-14'
@@ -14841,7 +14849,7 @@ landscape:
               summary_use_case: |
                 PowSyBl enables developers to create applications able to perform dynamic power flow simulations and security analyses on the network, handle a variety of formats, including CGMES for European data exchanges, and perform many other tasks.
 
-                The power system blocks may be used through Python scripts for a quick implementation (or prototyping), but can also be assembled to build state-of-the-art applications. One major aim of the project is to make it easy to write complex software for power system simulation and analysis. For example, using PowSyBl, one can create applications able to:
+                The power system blocks may be used through Python or Julia scripts for a quick implementation (or prototyping), but can also be assembled to build state-of-the-art applications. One major aim of the project is to make it easy to write complex software for power system simulation and analysis. For example, using PowSyBl, one can create applications able to:
                 - handle a variety of formats, such as CIM-CGMES for European data exchanges
                 - perform power flow simulations, security analyses, and sensitivity analyses on the network
                 - perform dynamic simulations on the network
