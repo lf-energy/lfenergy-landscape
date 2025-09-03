@@ -14793,20 +14793,21 @@ landscape:
             logo: powsybl.svg
             description: Open source, modular Java library with Python & Julia bindings designed for comprehensive electrical grid modeling, simulation, and visualization, enabling complex power flow, security, and dynamic analyses.
             second_path:
+              - SIG / Grid Simulation and Modeling
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
-            repo_url: https://github.com/powsybl/powsybl-starter
+            repo_url: https://github.com/powsybl/powsybl-core
             additional_repos:
-              - repo_url: https://github.com/powsybl/powsybl-core
               - repo_url: https://github.com/powsybl/powsybl-open-loadflow
               - repo_url: https://github.com/powsybl/powsybl-diagram
               - repo_url: https://github.com/powsybl/pypowsybl
               - repo_url: https://github.com/powsybl/powsybl-open-rao
+              - repo_url: https://github.com/powsybl/powsybl-starter
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2025-05-14'
+              accepted: '2019-04-30'
               annotations:
                 slug: powsybl
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl
@@ -14822,9 +14823,11 @@ landscape:
                   vendor: Ada Logics
                   url: https://ostif.org/wp-content/uploads/2025/07/Ada_Logics_PowSyBl-security-audit-2025.pdf
               annual_review_date: '2024-12-04'
+              annual_review_url: https://github.com/lf-energy/tac/issues/22
               artwork_url: https://artwork.lfenergy.org/projects/powsybl
               chat_channel: none
               dev_stats_url: https://insights.linuxfoundation.org/project/powsybl
+              incubating: '2019-04-30'
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
               other_links:
                 - name: Calendar
@@ -14840,7 +14843,7 @@ landscape:
               summary_use_case: |
                 PowSyBl enables developers to create applications able to perform dynamic power flow simulations and security analyses on the network, handle a variety of formats, including CGMES for European data exchanges, and perform many other tasks.
 
-                The power system blocks may be used through Python scripts for a quick implementation (or prototyping), but can also be assembled to build state-of-the-art applications. One major aim of the project is to make it easy to write complex software for power system simulation and analysis. For example, using PowSyBl, one can create applications able to:
+                The power system blocks may be used through Python or Julia scripts for a quick implementation (or prototyping), but can also be assembled to build state-of-the-art applications. One major aim of the project is to make it easy to write complex software for power system simulation and analysis. For example, using PowSyBl, one can create applications able to:
                 - handle a variety of formats, such as CIM-CGMES for European data exchanges
                 - perform power flow simulations, security analyses, and sensitivity analyses on the network
                 - perform dynamic simulations on the network
