@@ -13756,10 +13756,105 @@ landscape:
     subcategories:
       - subcategory:
         name: Steering
-        items: []
+        items:
+          - item:
+            name: Alliander (LFESS)
+            homepage_url: https://alliander.com/
+            logo: alliander.svg
+            twitter: https://twitter.com/Alliander
+            crunchbase: https://www.crunchbase.com/organization/alliander
+          - item:
+            name: Google LLC (LFESS)
+            homepage_url: https://google.com/
+            logo: google_llc.svg
+            twitter: https://twitter.com/Google
+            crunchbase: https://www.crunchbase.com/organization/google
+          - item:
+            name: Microsoft Corporation (LFESS)
+            homepage_url: https://microsoft.com/
+            logo: microsoft_corporation.svg
+            crunchbase: https://www.crunchbase.com/organization/microsoft
+          - item:
+            name: RTE (Reseau de Transport dElectricite) (LFESS)
+            homepage_url: https://rte-france.com/
+            logo: rte_reseau_de_transport_delectricite.svg
+            crunchbase: https://www.crunchbase.com/organization/rte-france
+          - item:
+            name: UtilityAPI (LFESS)
+            homepage_url: https://utilityapi.com/
+            logo: utilityapi.svg
+            twitter: https://twitter.com/UtilityAPI
+            crunchbase: https://www.crunchbase.com/organization/utilityapi
+          - item:
+            name: Hydro-Québec (LFESS)
+            homepage_url: https://hydroquebec.com/
+            logo: hydro_quebec.svg
+            description: Hydro-Qubec generates, transmits, and distributes electricity using mainly renewable generating options.
+            crunchbase: https://www.crunchbase.com/organization/hydro-quebec
+            twitter: https://twitter.com/hydroquebec
+            extra:
+              linkedin_url: https://www.linkedin.com/company/hydro-quebec
       - subcategory:
         name: General
-        items: []
+        items:
+          - item:
+            name: Daniel Roesler LLC (LFESS)
+            homepage_url: https://danielroesler.com/
+            logo: daniel_roesler_llc.svg
+            organization:
+              name: Daniel Roesler LLC
+          - item:
+            name: Electricity Maps (LFESS)
+            homepage_url: https://electricitymap.org/
+            logo: electricity_maps.svg
+            twitter: https://twitter.com/ElectricityMaps
+            crunchbase: https://www.crunchbase.com/organization/electricitymap
+          - item:
+            name: FlexiDAO (LFESS)
+            homepage_url: https://flexidao.com/
+            logo: flexidao.svg
+            crunchbase: https://www.crunchbase.com/organization/flexidao
+          - item:
+            name: Fluence Energy (LFESS)
+            homepage_url: https://fluenceenergy.com/
+            logo: fluence_energy.svg
+            crunchbase: https://www.crunchbase.com/organization/fluence-417f
+          - item:
+            name: GE Vernova
+            homepage_url: https://www.gevernova.com/
+            logo: ge-vernova.svg
+            crunchbase: https://www.crunchbase.com/organization/ge-vernova
+          - item:
+            name: Midcontinent Independent System Operator, Inc. (LFESS)
+            homepage_url: https://www.misoenergy.org/
+            logo: miso.svg
+            crunchbase: https://www.crunchbase.com/organization/miso-c364
+          - item:
+            name: PierreVF Consulting (LFESS)
+            homepage_url: https://www.pierrevf.consulting/
+            logo: pierrevf_consulting.svg
+            organization:
+              name: PierreVF Consulting
+          - item:
+            name: Venehsoftw
+            homepage_url: https://www.venehsoftw.xyz/
+            logo: Venehsoftw.svg
+            organization:
+              name: Venehsoftw
+          - item:
+            name: WattCarbon (LFESS)
+            homepage_url: https://wattcarbon.com/
+            logo: wattcarbon.svg
+            twitter: https://twitter.com/wattcarbon
+            organization:
+              name: WattCarbon
+          - item:
+            name: WattTime Corporation (LFESS)
+            homepage_url: https://watttime.org/
+            logo: watttime_corporation.svg
+            twitter: https://twitter.com/wattTime
+            organization:
+              name: WattTime Corporation
   - category:
     name: LF Energy Member
     subcategories:
@@ -14266,7 +14361,7 @@ landscape:
             homepage_url: https://fraunhofer.de/
             logo: fraunhofer_gesellschaft.svg
             description: |-
-              Attn: 
+              Attn:
               Norbert Schuhmann, Erlangen, Germany c/o Fraunhofer IIS
               Alexander Noack, Dresden, Germany c/o Fraunhofer IPMS
 
@@ -14300,13 +14395,13 @@ landscape:
 
               INESC TEC invests in Scientific Research and Technological Development, as well as in Advanced Training and Consulting, Technology Transfer and supports the Establishment of new Technology-based Companies.
 
-              INESC TEC brings together more than 800 researchers, of which around 300 have PhDs (250 integrated PhDs in 600 researchers), forming a robust cluster with complementary skills and with notable international presence. 
+              INESC TEC brings together more than 800 researchers, of which around 300 have PhDs (250 integrated PhDs in 600 researchers), forming a robust cluster with complementary skills and with notable international presence.
 
               INESC TEC was created to act as an interface between the academic world, the world of industry and services and the public administration in Information Technologies, Telecommunications and Electronics (ITT&E).
 
-              At INESC TEC, the knowledge and results generated as part of fundamental research are typically applied in technology transfer projects, always guaranteeing added and immediate social relevance. 
+              At INESC TEC, the knowledge and results generated as part of fundamental research are typically applied in technology transfer projects, always guaranteeing added and immediate social relevance.
 
-              With the launching of INESC P&D BRASIL (in São Paulo, Brazil), INESC TEC has strengthened its presence worldwide, always associating Portugal to international scientific excellence. 
+              With the launching of INESC P&D BRASIL (in São Paulo, Brazil), INESC TEC has strengthened its presence worldwide, always associating Portugal to international scientific excellence.
 
               In Portugal, INESC TEC’s capacity for technological innovation has made it possible to modernise national sectors and to launch new exporting companies.
 
@@ -15317,9 +15412,9 @@ landscape:
             logo: opendsm.svg
             description: |-
               Open source library that measures the impacts of demand-side energy programs (like energy efficiency and demand response) by modeling historical energy usage to predict counterfactuals and compare them to actual post-intervention consumption
-              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;  
+              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;
               - Maintain a production-ready library to act as a measurement system for distributed energy resources that can be replicated by all parties in markets and expand capabilities over time;
-              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets; 
+              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets;
               - Provide reusable components with documented APIs and consistent security practices; and
               - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define common transactional units for distributed energy resources in the market.
             second_path:
