@@ -16312,6 +16312,27 @@ landscape:
                 RTDIP enables users to consume real-time data at scale, including historical and real-time streaming data. RTDIP has proven to be capable of ingesting over 3 million sensors in a production environment across every geographical location in the world.
             additional_repos: []
           - item:
+            name: RTC-Tools
+            homepage_url: https://github.com/Deltares/rtc-tools
+            logo: rtc_tools.svg
+            description: RTC-Tools is an open-source Python package for simulation and operational optimization of assets. Models can be specified in Python or in the Modelica modelling language, making it generically applicable to a broad class of assets. It can be used for model-predictive control and operational decision making of water and energy systems.
+            project: sandbox
+            repo_url: https://github.com/Deltares/rtc-tools
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-07-22'
+              annotations:
+                slug: rtc-tools
+              artwork_url: https://artwork.lfenergy.org/projects/rtc-tools
+              dev_stats_url: https://insights.linuxfoundation.org/project/rtc-tools
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rtc-tools
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFMWLlIxeAyyEMxlU
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rtc-tools/rtc-tools_Charter.pdf?v=1753825022390
+          - item:
             name: SC Decarbonisation Hub
             homepage_url: https://lfenergy.org/projects/sc-decarbonisation-hub/
             logo: sc_decarbonisation_hub.svg
