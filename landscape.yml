@@ -2093,11 +2093,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
           - item:
             name: GENeSYS-MOD
-            description: An open-source energy system model, originally based on the Open-Source Energy Modeling System (OSeMOSYS) framework, with various additions.
-            homepage_url: https://git.tu-berlin.de/genesysmod/genesys-mod-public
-            repo_url: https://git.tu-berlin.de/genesysmod/genesys-mod-public
+            description: An open-source energy system model, originally based on the Open-Source Energy Modeling System (OSeMOSYS) framework, with various additions. The framework is available in both GAMS and Julia and has been in active development since 2017. The focus of GENeSYS-MOD is the computation of long-term pathways for the sector-coupled energy system, usually including the end-use sectors of buildings, industry, and transport, and covering a multitude of energy carriers, including electricity, (district, space, or process) heat, hydrogen, other fossil and renewable gases, etc.
+            homepage_url: https://github.com/GENeSYS-MOD
+            repo_url: https://github.com/GENeSYS-MOD/GENeSYS_MOD.jl
+            additional_repos:
+              - repo_url: https://github.com/GENeSYS-MOD/GENeSYS_MOD.gms
+              - repo_url: https://github.com/GENeSYS-MOD/GENeSYS_MOD.data
+              - repo_url: https://github.com/GENeSYS-MOD/GENeSYS_MOD.tools
+              - repo_url: https://github.com/GENeSYS-MOD/GENeSYS_MOD.readthedocs
+              - repo_url: https://github.com/GENeSYS-MOD/.github
             logo: GENeSYS-MOD.svg
             crunchbase: https://www.crunchbase.com/organization/cfe-tu-berlin
+            extra:
+              documentation_url: https://genesysmod.readthedocs.io
           - item:
             name: GenX
             description: >-
