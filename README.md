@@ -13,7 +13,7 @@ The requirements for adding new entries for open source projects in the energy a
 * Projects must be open source and hosted on or mirrored to GitHub.
 * Projects must be directly used in the energy industry or in support of sustainability initiatives.
 * Projects that clearly fit in an existing category are generally included. Put the project in the single category where it best fits. We are unlikely to create a new category for projects as we'd rather find the best home with the current options.
-* Projects a logo and the logo needs to include the name.
+* Projects must have a logo, and the logo needs to include the name. All logos must be pure SVG files ( meaning no embedded images or text elements ).
 
 If you think your project should be included, please open a pull request to add it to [landscape.yml](landscape.yml). For the logo, upload an SVG to the `hosted_logos` directory.
 
