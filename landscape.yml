@@ -2667,7 +2667,8 @@ landscape:
             extra:
               documentation_url: https://dlr-ve.gitlab.io/esy/remix/framework/
             logo: remix.svg
-            crunchbase: https://www.crunchbase.com/organization/german-aerospace-center-careers-dlr
+            organization:
+              name: DLR
           - item:
             name: Renewcast
             description: Forecasting renewable energy generation in EU countries with machine learning algorithms, based on Streamlit and sktime.
@@ -4851,7 +4852,8 @@ landscape:
             extra:
               documentation_url: https://dlr-ve.gitlab.io/esy/vencopy/vencopy/
             logo: venco.svg
-            crunchbase: https://www.crunchbase.com/organization/german-aerospace-center-careers-dlr
+            organization:
+              name: DLR
           - item:
             name: Vehicle Energy Dataset
             description: A large-scale dataset for vehicle energy consumption research.
