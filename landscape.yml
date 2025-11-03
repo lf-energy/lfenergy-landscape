@@ -1121,10 +1121,12 @@ landscape:
           - item:
             name: HydroPowerSimulations.jl
             description: Contains extensions on PowerSystems.jl and PowerSimulations.jl to enable enhanced hydropower representations.
-            homepage_url: https://github.com/NREL-SIIP/HydroPowerSimulations.jl
-            repo_url: https://github.com/NREL-SIIP/HydroPowerSimulations.jl
-            logo: HydroPowerSimulations.jl.svg
+            homepage_url: https://nrel-sienna.github.io/Sienna/
+            repo_url: https://github.com/NREL-Sienna/HydroPowerSimulations.jl
+            logo: Sienna-logo.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
+            extra:
+              topics: julia,nrel,Sienna
           - item:
             name: MHKiT
             description: >-
@@ -2528,15 +2530,15 @@ landscape:
             logo: powermatcher-txt.svg
             crunchbase: https://www.crunchbase.com/organization/powermatcher
           - item:
-            name: PowerSimulations.jl
-            description: A Julia package for power system modeling and simulation of Power Systems operations.
-            homepage_url: https://www.nrel.gov/analysis/siip.html
-            repo_url: https://github.com/NREL-SIIP/PowerSimulations.jl
-            logo: PowerSimulations.jl.svg
+            name: Sienna\Ops
+            description: Applications for power systems scheduling and optimization
+            homepage_url: https://nrel-sienna.github.io/Sienna/pages/applications/sienna_ops.html
+            repo_url: https://github.com/NREL-Sienna/PowerSimulations.jl
+            logo: Sienna-Ops-logo.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/109443246'
-              topics: julia,powersystems,optimization,energy,electricity,analysis,simulations
+              topics: julia,powersystems,optimization,energy,electricity,analysis,simulations,Sienna,nrel
           - item:
             name: PowerSystemDataModel
             description: Provides an extensive data model capable of modeling energy systems with high granularity e.g. for bottom-up simulations.
@@ -2548,15 +2550,15 @@ landscape:
             organization:
               name: Institute of Energy Systems, Energy Efficiency and Energy Economics - ie3
           - item:
-            name: PowerSystems.jl
+            name: Sienna\Data
             description: Provides a rigorous data model using Julia structures to enable power systems analysis and modeling.
-            homepage_url: https://www.nrel.gov/analysis/siip.html
-            repo_url: https://github.com/NREL-SIIP/PowerSystems.jl
-            logo: PowerSystems.jl.svg
+            homepage_url: https://nrel-sienna.github.io/Sienna/pages/applications/sienna_data.html
+            repo_url: https://github.com/NREL-Sienna/PowerSystems.jl
+            logo: Sienna-Data-logo.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/114039584,https://doi.org/10.1016/j.softx.2021.100747'
-              topics: julia,powersystems,energy-system,electrical,siip,nrel
+              topics: julia,powersystems,energy-system,electrical,Sienna,nrel
           - item:
             name: PowNet
             description: A least-cost optimization model for simulating the Unit Commitment and Economic Dispatch of large-scale (regional to country) power systems.
@@ -3092,15 +3094,15 @@ landscape:
                 ,https://doi.org/10.1016/j.egyai.2021.100092,https://doi.org/10.1016/j.simpa.2021.100092,https://doi.org/10.1016/j.egyai.2021.100092,https://doi.org/10.1016/j.simpa.2021.100092
               topics: reinforcement-learning,electricity-networks,gym-environments
           - item:
-            name: InfrastructureSystems.jl
-            description: Provides utilities to support data models for infrastructure modeling in NREL-SIIP.
-            homepage_url: https://github.com/NREL-SIIP/InfrastructureSystems.jl
-            repo_url: https://github.com/NREL-SIIP/InfrastructureSystems.jl
-            logo: InfrastructureSystems.jl.svg
+            name: Sienna\Dyn
+            description: An application for simulating power systems dynamic response to disturbances and constingencies, including support for electromagnetic transient (EMT) analysis.
+            homepage_url: https://nrel-sienna.github.io/Sienna/pages/applications/sienna_dyn.html
+            repo_url: https://github.com/NREL-Sienna/PowerSimulationsDynamics.jl
+            logo: Sienna-Dyn-logo.svg
             crunchbase: https://www.crunchbase.com/organization/national-renewable-energy-laboratory
             extra:
               refs: ',https://zenodo.org/badge/latestdoi/202787784'
-              topics: julia,nrel,siip
+              topics: julia,nrel,Sienna,EMT
           - item:
             name: mosaik
             description: A flexible Smart Grid co-simulation framework.
