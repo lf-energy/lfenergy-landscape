@@ -14958,7 +14958,7 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powsybl
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDVCEHOD7BbGCdYoI
                 charter_url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/powsybl-lf-europe/powsybl-lf-europe_Charter.pdf?v=1747249821217
-                next_annual_review_date: '2025-12-03'
+                next_annual_review_date: '2026-12-02'
                 chair: Peter Mitri
                 project_org: https://github.com/powsybl
                 contributed_by: RTE, Artelys
@@ -14967,7 +14967,7 @@ landscape:
                   type: audit
                   vendor: Ada Logics
                   url: https://ostif.org/wp-content/uploads/2025/07/Ada_Logics_PowSyBl-security-audit-2025.pdf
-              annual_review_date: '2024-12-04'
+              annual_review_date: '2025-12-03'
               annual_review_url: https://github.com/lf-energy/tac/issues/22
               artwork_url: https://artwork.lfenergy.org/projects/powsybl
               chat_channel: none
@@ -16046,7 +16046,7 @@ landscape:
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf9JyPreYpr2H4waXR
                 charter_url: https://github.com/lf-energy/foundation/blob/main/project_charters/geisa_charter.pdf
                 next_annual_review_date: '2026-10-13'
-                chair: Michael Stuber
+                chair: Michael Stuber, Richard Lam
                 project_org: https://github.com/geisa
               annual_review_date: '2025-10-14'
               annual_review_url: https://github.com/lf-energy/tac/issues/230
@@ -16354,18 +16354,23 @@ landscape:
             additional_repos: []
           - item:
             name: RTC-Tools
-            homepage_url: https://github.com/Deltares/rtc-tools
-            second_path:
-              - Natural Resources / Water Supply and Quality
+            homepage_url: https://rtctools.energy/
             logo: rtc_tools.svg
             description: RTC-Tools is an open-source Python package for simulation and operational optimization of assets. Models can be specified in Python or in the Modelica modelling language, making it generically applicable to a broad class of assets. It can be used for model-predictive control and operational decision making of water and energy systems.
+            second_path:
+              - SIG / No SIG
+              - Natural Resources / Water Supply and Quality
             project: sandbox
-            repo_url: https://github.com/Deltares/rtc-tools
+            repo_url: https://github.com/rtc-tools/rtc-tools
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2025-07-22'
+              accepted: '2025-10-01'
               annotations:
                 slug: rtc-tools
+                next_annual_review_date: '2026-09-08'
+                chair: Jesús Andrés Rodríguez Sarasty
+                project_org: https://github.com/rtc-tools
+              annual_review_url: https://github.com/lf-energy/tac/issues/344
               artwork_url: https://artwork.lfenergy.org/projects/rtc-tools
               dev_stats_url: https://insights.linuxfoundation.org/project/rtc-tools
               documentation_url: https://docs.rtctools.energy
@@ -16376,6 +16381,7 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFMWLlIxeAyyEMxlU
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rtc-tools/rtc-tools_Charter.pdf?v=1753825022390
+            additional_repos: []
           - item:
             name: SC Decarbonisation Hub
             homepage_url: https://lfenergy.org/projects/sc-decarbonisation-hub/
