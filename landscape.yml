@@ -198,7 +198,7 @@ landscape:
           - item:
             name: nasapower
             description: >-
-              Aims to make it quick and easy to automate downloadinASA-POWER global meteorology, surface solar energy and climatology data in your R session as
+              Aims to make it quick and easy to automate downloading ASA-POWER global meteorology, surface solar energy and climatology data in your R session as
               a tidy data frame tibble object for analysis and use in modeling or other purposes.
             homepage_url: https://docs.ropensci.org/nasapower
             repo_url: https://github.com/ropensci/nasapower
@@ -10917,14 +10917,6 @@ landscape:
             extra:
               topics: river,river-networks,mapping,automated-river-analysis
           - item:
-            name: RTC-Tools
-            description: A toolbox for control and optimization of water systems.
-            homepage_url: https://gitlab.com/deltares/rtc-tools
-            repo_url: https://gitlab.com/deltares/rtc-tools
-            license: GNU Lesser General Public License v3.0
-            logo: RTC-Tools.svg
-            crunchbase: https://www.crunchbase.com/organization/deltares
-          - item:
             name: SELEN
             description: >-
               An open source Fortran code for the numerical solution of the Sea Level Equation for a spherical, layered, rotating earth with viscoelastic
@@ -16363,6 +16355,8 @@ landscape:
           - item:
             name: RTC-Tools
             homepage_url: https://github.com/Deltares/rtc-tools
+            second_path:
+              - Natural Resources / Water Supply and Quality
             logo: rtc_tools.svg
             description: RTC-Tools is an open-source Python package for simulation and operational optimization of assets. Models can be specified in Python or in the Modelica modelling language, making it generically applicable to a broad class of assets. It can be used for model-predictive control and operational decision making of water and energy systems.
             project: sandbox
@@ -16374,6 +16368,7 @@ landscape:
                 slug: rtc-tools
               artwork_url: https://artwork.lfenergy.org/projects/rtc-tools
               dev_stats_url: https://insights.linuxfoundation.org/project/rtc-tools
+              documentation_url: https://docs.rtctools.energy
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rtc-tools
