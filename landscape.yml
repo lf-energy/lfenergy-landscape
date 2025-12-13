@@ -16317,6 +16317,29 @@ landscape:
                 Open standard architecture, APIs, and communication protocols for distributed renewable energy systems and microgrids, enabling plug-and-play integration of clean energy assets and guiding community-driven energy solutions
             additional_repos: []
           - item:
+            name: Power Stability Wide Area Monitoring Protection (p-SWAMP)
+            homepage_url: https://pswamp.energy/
+            logo: power_stability_wide_area_monitoring_protection_p_swamp.svg
+            description: The Power Stability Wide Area Monitoring Protection (p-SWAMP) project provides an open, extensible Research & Development environment for future WAMS innovation. By offering a modular, microservices-based architecture and advanced simulation capabilities, p-SWAMP serves as a testbench for developing, validating, and deploying new technologies for monitoring grid stability, voltage performance, oscillatory behavior, and real-time system operations.
+            project: sandbox
+            repo_url: https://github.com/p-swamp/P-SWAMP
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-08-26'
+              annotations:
+                slug: swamp
+                project_org: https://github.com/p-swamp
+              artwork_url: https://artwork.lfenergy.org/projects/swamp
+              dev_stats_url: https://insights.linuxfoundation.org/project/swamp
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/swamp
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfryrBxQdUeK7djCSB
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/swamp/swamp_Charter.pdf?v=1756309590007
+            additional_repos: []
+          - item:
             name: Real Time Data Ingestion Platform (RTDIP)
             homepage_url: https://www.rtdip.io/
             logo: real_time_data_ingestion_platform_rtdip.svg
