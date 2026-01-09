@@ -14996,7 +14996,7 @@ landscape:
             description: |
               High availability real-time hypervisor for hosting digital substation virtualized protection and control applications (vPAC)
             second_path:
-              - SIG / Digital Substations
+              - SIG / No SIG
               - Transmission / Grid Automation
               - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
@@ -15016,7 +15016,7 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/seapath
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWmNQAV
                 charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/seapath_charter.pdf
-                next_annual_review_date: '2026-01-13'
+                next_annual_review_date: '2026-03-10'
                 chair: Eloi Bail
                 project_org: https://github.com/seapath
                 contributed_by: RTE, GE, Savoir-faire Linux, Welotec
@@ -15122,7 +15122,7 @@ landscape:
               Open source profile configuration and management for IEC 61850 substation protection, automation, and control systems
               CoMPAS (Configuration Modules for Power industry Automation Systems is being developed using several guiding principles, including the use of cross-platform Docker-based microservices along with a lightweight browser client, multiple language support for the user interface, scriptable controls, and the ability to integrate third-party tools.
             second_path:
-              - SIG / Digital Substations
+              - SIG / No SIG
               - Transmission / Grid Automation
               - Distribution / Grid Automation
               - Acquisition and Control / Substation Node
@@ -15144,7 +15144,7 @@ landscape:
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/compas
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkJTLQA3
                 charter_url: https://github.com/lf-energy/foundation/blob/master/project_charters/compas-charter.pdf
-                next_annual_review_date: '2026-06-02'
+                next_annual_review_date: '2026-06-09'
                 chair: Sander Jansen
                 project_org: https://github.com/com-pas
                 contributed_by: RTE, Alliander
@@ -15253,7 +15253,7 @@ landscape:
             description: |
               Open source, multi-protocol translation gateway for power systems built upon the industrial IoT LF Edge Fledge project, designed to enable seamless communication between diverse legacy and modern grid equipment at the edge
             second_path:
-              - SIG / Digital Substations
+              - SIG / No SIG
               - Transmission / Data & IoT
               - Distribution / Data & IoT
               - Behind-the-Meter / Data & IoT
@@ -15924,17 +15924,23 @@ landscape:
             homepage_url: https://github.com/Horizont-Europe-Interstore
             logo: cupid_controllable_unit_protocol_interface_for_der.svg
             description: Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
+            second_path:
+              - SIG / No SIG
             project: sandbox
             repo_url: https://github.com/Horizont-Europe-Interstore/Data-Space-Connector-Fiware-Data-App
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2025-03-19'
+              accepted: '2025-05-13'
               annotations:
                 slug: cupid
                 calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cupid
                 ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
                 charter_url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cupid/cupid_Charter.pdf?v=1747610679443
                 project_org: https://github.com/Horizont-Europe-Interstore
+                next_annual_review_date: '2026-05-12'
+                chair: ''
+              annual_review_date: '2025-05-13'
+              annual_review_url: https://github.com/lf-energy/tac/issues/383
               artwork_url: https://artwork.lfenergy.org/projects/cupid
               dev_stats_url: https://insights.linuxfoundation.org/project/cupid
               other_links:
@@ -16308,6 +16314,8 @@ landscape:
             homepage_url: https://pswamp.energy/
             logo: power_stability_wide_area_monitoring_protection_p_swamp.svg
             description: The Power Stability Wide Area Monitoring Protection (p-SWAMP) project provides an open, extensible Research & Development environment for future WAMS innovation. By offering a modular, microservices-based architecture and advanced simulation capabilities, p-SWAMP serves as a testbench for developing, validating, and deploying new technologies for monitoring grid stability, voltage performance, oscillatory behavior, and real-time system operations.
+            second_path:
+              - SIG / No SIG
             project: sandbox
             repo_url: https://github.com/p-swamp/p-SWAMP
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16316,6 +16324,9 @@ landscape:
               annotations:
                 slug: swamp
                 project_org: https://github.com/p-swamp
+                next_annual_review_date: '2026-09-08'
+                chair: ''
+              annual_review_url: https://github.com/lf-energy/tac/issues/585
               artwork_url: https://artwork.lfenergy.org/projects/swamp
               dev_stats_url: https://insights.linuxfoundation.org/project/swamp
               other_links:
