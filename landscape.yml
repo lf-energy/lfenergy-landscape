@@ -15896,31 +15896,24 @@ landscape:
             description: Secure, standardized access and sharing of customer energy data, including metering, billing, authorization and consent
             second_path:
               - SIG / No SIG
-              - Distribution / Grid Edge
-              - Emissions / Carbon Intensity and Accounting
             project: working-group
             repo_url: https://github.com/lfe-cds/CDS-Customer-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
               annotations:
-                slug: cds-customerdata-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-customerdata-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt3QAH
                 next_annual_review_date: '2026-12-08'
                 chair: Daniel Roesler
-                contributed_by: Google, Microsoft, UtilityAPI, WattTime
               annual_review_date: '2025-12-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/512
               artwork_url: https://artwork.lfenergy.org/projects/cds-customerdata-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-customerdata-wg
+              lfx_slug: cds-customerdata-wg
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-customerdata-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt3QAH
-              summary_use_case: |
-                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: Connected Data Specification - Power Systems Data Working Group (CDS WG2)
             homepage_url: https://cds-powersystemdata.lfenergy.org/
@@ -15929,31 +15922,24 @@ landscape:
               Secure, standardized access and sharing of power systems data, including delivery capacities and constraints, generation mix, carbon emissions, imports and exports, and market data
             second_path:
               - SIG / No SIG
-              - Transmission / Operations
-              - Emissions / Carbon Intensity and Accounting
             project: working-group
             repo_url: https://github.com/lfe-cds/CDS-Power-Systems-Data
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-10-13'
               annotations:
-                slug: cds-powersystemsdata-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-powersystemsdata-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt4QAH
                 next_annual_review_date: '2026-12-08'
                 chair: Stephen Suffian
-                contributed_by: Google, Microsoft, UtilityAPI, WattTime
               annual_review_date: '2025-12-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/513
               artwork_url: https://artwork.lfenergy.org/projects/cds-powersystemsdata-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-powersystemsdata-wg
+              lfx_slug: cds-powersystemsdata-wg
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-powersystemsdata-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt4QAH
-              summary_use_case: |
-                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: Connected Data Specification - Registration Working Group (CDS WG1)
             homepage_url: https://cds-registration.lfenergy.org/
@@ -15961,8 +15947,6 @@ landscape:
             description: Standardizes and simplifies secure discovery and connectivity between energy data holders and data users
             second_path:
               - SIG / No SIG
-              - Distribution / Grid Edge
-              - Emissions / Carbon Intensity and Accounting
             project: working-group
             repo_url: https://github.com/lfe-cds/CDS-Registration
             license: Other
@@ -15970,23 +15954,18 @@ landscape:
             extra:
               accepted: '2024-07-01'
               annotations:
-                slug: cds-registration-wg
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-registration-wg
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
                 next_annual_review_date: '2026-12-08'
                 chair: Daniel Roesler
-                contributed_by: Google, Microsoft, UtilityAPI, WattTime
               annual_review_date: '2025-12-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/511
               artwork_url: https://artwork.lfenergy.org/projects/cds-registration-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-registration-wg
+              lfx_slug: cds-registration-wg
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-registration-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
-              summary_use_case: |
-                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: TROLIE
             homepage_url: https://trolie.energy/
@@ -15995,40 +15974,25 @@ landscape:
               Standardizes the exchange of transmission facility ratings and operating limits to enhance grid interoperability and comply with FERC Order 881
             second_path:
               - SIG / No SIG
-              - Transmission / Operations
-              - Energy Systems / Distribution and Grids
             project: working-group
             repo_url: https://github.com/trolie/spec
             license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/trolie/conformance
-              - repo_url: https://github.com/trolie/java-client-sdk
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-09-06'
               annotations:
-                slug: trolie
-                calendar_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/trolie
-                ical_url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
                 next_annual_review_date: '2027-01-12'
                 chair: Christopher Atkins
               annual_review_date: '2026-01-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/79
               artwork_url: https://artwork.lfenergy.org/projects/trolie
               dev_stats_url: https://insights.linuxfoundation.org/project/trolie
+              lfx_slug: trolie
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/trolie
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
-              summary_intro_url: https://www.youtube.com/watch?v=RRXwD8nyokc
-              summary_use_case: |
-                TROLIE is an open conformance standard and cultivates a software ecosystem to accelerate the implementation of reliable, secure, and interoperable systems for the exchange of transmission facility ratings and related information. Most organizations involved in the operation of the transmission system in North America now need to exchange ratings and related information in an automated, frequent manner. This project will help accelerate their implementation and simplify interoperability.
-
-                The project’s specific aims are:
-                - Define API specification for the exchange of ratings and ratings-related information to support organizations working to comply with FERC Order 881.
-                - A conformance program that emulates the Zowe Conformance Program or the Certified Kubernetes Conformance Program insofar as they give vendors a means to demonstrate their conformance to the above specification and signal their commitment to maintaining their conformance over time.
-                - An open commons for the development of clients of the API specification.
   - category:
     name: Not LFESS Member
     subcategories:
