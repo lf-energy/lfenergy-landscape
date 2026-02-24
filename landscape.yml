@@ -16606,6 +16606,33 @@ landscape:
                 - Define API specification for the exchange of ratings and ratings-related information to support organizations working to comply with FERC Order 881.
                 - A conformance program that emulates the Zowe Conformance Program or the Certified Kubernetes Conformance Program insofar as they give vendors a means to demonstrate their conformance to the above specification and signal their commitment to maintaining their conformance over time.
                 - An open commons for the development of clients of the API specification.
+          - item:
+            name: Utility Rate Plan Exchange
+            homepage_url: https://urpx.org/
+            logo: utility_rate_plan_exchange.svg
+            description: Utility Rate Plan Exchange (URPX) aims to develop a comprehensive, standardized method for representing and exchanging utility rate plan data in machine-accessible format. URPX will provide a solid yet versatile foundation that governments, utilities, vendors, and technology companies can leverage to improve transparency in energy pricing and clean energy procurement. The project builds upon an existing collaboration between NREL and Flux Tailor and aims to address the fragmented approach currently used by vendors who handle rate plan calculations in silos using custom logic and rules-based systems.
+            second_path:
+              - SIG / No SIG
+            project: working-group
+            repo_url: https://github.com/urpx-org/urpx
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-11-05'
+              annotations:
+                next_annual_review_date: '2026-10-13'
+                chair: ''
+                project_org: https://github.com/urpx-org
+              annual_review_url: https://github.com/lf-energy/tac/issues/600
+              artwork_url: https://artwork.lfenergy.org/projects/utility-rate-plan-exchange
+              dev_stats_url: https://insights.linuxfoundation.org/project/utility-rate-plan-exchange
+              lfx_slug: utility-rate-plan-exchange
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/utility-rate-plan-exchange
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfISx1cI6KYboQfjad
+            additional_repos: []
   - category:
     name: Not LFESS Member
     subcategories:
