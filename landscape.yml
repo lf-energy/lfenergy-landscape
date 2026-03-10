@@ -14936,6 +14936,59 @@ landscape:
                 - Historian
                 - Scripting (ex: Python, JavaScript)
           - item:
+            name: Power Grid Model
+            homepage_url: https://github.com/PowerGridModel
+            logo: power_grid_model.svg
+            description: Open source C++/Python library that provides a high-performance calculation engine for real-time steady-state distribution power system analysis, including power flow, state estimation, and short-circuit studies
+            second_path:
+              - SIG / Grid Simulation and Modeling SIG
+              - Distribution / Modeling and Simulation
+              - Distribution / Operations
+              - System Management / Power System Calculation
+              - Energy Systems / Modeling and Optimization
+            project: earlyadoption
+            repo_url: https://github.com/PowerGridModel/power-grid-model
+            license: Other
+            additional_repos:
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-io
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            twitter: https://twitter.com/nil
+            extra:
+              accepted: '2023-02-07'
+              annotations:
+                next_annual_review_date: '2027-02-03'
+                chair: Peter Salemink
+                project_org: https://github.com/PowerGridModel
+              annual_review_date: '2026-02-04'
+              annual_review_url: https://github.com/lf-energy/tac/issues/81
+              artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
+              chat_channel: '#powergridmodel'
+              dev_stats_url: https://insights.linuxfoundation.org/project/powergridmodel
+              incubating: '2024-02-22'
+              lfx_slug: powergridmodel
+              mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powergridmodel
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPLQA5
+                - name: Charter
+                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/powergridmodel_charter.pdf
+                - name: Use Case - Alliander’s Delvi Project Leverages LF Energy Power Grid Model to Direct Overhaul of Low Voltage Grid
+                  url: https://lfenergy.org/power-grid-model-delvi/
+              slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=lkNj2EzxelA
+              summary_use_case: |
+                Power Grid Model offers a standards-based foundation enabling real-time power systems analysis, simulations of electrical power grids, and sophisticated what-if analysis. In addition, it enables in-depth studies and analysis of the electrical power grid’s behavior and performance. This comprehensive model incorporates essential factors such as power generation capacity, electrical losses, voltage levels, power flows, and system stability.
+
+                The global energy transition is placing new and unprecedented demands on Distribution System Operators (DSOs) and grid providers. Alongside upgrades to grid capacity, processes such as digitization, capacity optimization, and congestion management are becoming vital for delivering reliable services. To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
+
+                Power Grid Model matches the demand by providing with following strengths:
+                - Optimized algorithms for the characteristics of the distribution grid.
+                - Full support of three-phase asymmetric calculation.
+                - Efficient C++ implementation with native parallel computing support.
+          - item:
             name: PowSyBL
             homepage_url: https://powsybl.org/
             logo: powsybl.svg
@@ -15596,60 +15649,6 @@ landscape:
                 OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days. Given a timeseries of measured (net) load or generation, a fully automated machine learning pipeline is executed, which delivers a probabilistic forecast of future load. This works for energy consumption, (renewable) generation, or a combination of both. OpenSTEF performs validation on the input data, combines measurements with external predictors such as weather data and market prices, trains any scikit-learn compatible machine learning model, and delivers the forecast via both an API and an (expert) graphical user interface. The stack is based on open-source technology and standards and is organized in a microservice architecture optimized for cloud deployment.
 
                 The Dutch DSO Alliander started the Short-Term-Forecasting project to anticipate congestion in the distribution grid, to allow for grid safety analysis in the transmission grid, and to enable smart grid innovations to locally balance supply and demand within the constraints of the grid. By open-sourcing the stack, the ambition is to provide an industry standard for generating and evaluating forecasts in the operational time domain, as well as allow for structured collaboration.
-          - item:
-            name: Power Grid Model
-            homepage_url: https://github.com/PowerGridModel
-            logo: power_grid_model.svg
-            description: |
-              Open source C++/Python library that provides a high-performance calculation engine for real-time steady-state distribution power system analysis, including power flow, state estimation, and short-circuit studies
-            second_path:
-              - SIG / Grid Simulation and Modeling SIG
-              - Distribution / Modeling and Simulation
-              - Distribution / Operations
-              - System Management / Power System Calculation
-              - Energy Systems / Modeling and Optimization
-            project: incubating
-            repo_url: https://github.com/PowerGridModel/power-grid-model
-            license: Other
-            additional_repos:
-              - repo_url: https://github.com/PowerGridModel/power-grid-model-io
-              - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            twitter: https://twitter.com/nil
-            extra:
-              accepted: '2023-02-07'
-              annotations:
-                next_annual_review_date: '2027-02-03'
-                chair: Peter Salemink
-                project_org: https://github.com/PowerGridModel
-              annual_review_date: '2026-02-04'
-              annual_review_url: https://github.com/lf-energy/tac/issues/81
-              artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
-              chat_channel: '#powergridmodel'
-              dev_stats_url: https://insights.linuxfoundation.org/project/powergridmodel
-              incubating: '2024-02-22'
-              lfx_slug: powergridmodel
-              mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powergridmodel
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPLQA5
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/powergridmodel_charter.pdf
-                - name: Use Case - Alliander’s Delvi Project Leverages LF Energy Power Grid Model to Direct Overhaul of Low Voltage Grid
-                  url: https://lfenergy.org/power-grid-model-delvi/
-              slack_url: https://slack.lfenergy.org
-              summary_intro_url: https://www.youtube.com/watch?v=lkNj2EzxelA
-              summary_use_case: |
-                Power Grid Model offers a standards-based foundation enabling real-time power systems analysis, simulations of electrical power grids, and sophisticated what-if analysis. In addition, it enables in-depth studies and analysis of the electrical power grid’s behavior and performance. This comprehensive model incorporates essential factors such as power generation capacity, electrical losses, voltage levels, power flows, and system stability.
-
-                The global energy transition is placing new and unprecedented demands on Distribution System Operators (DSOs) and grid providers. Alongside upgrades to grid capacity, processes such as digitization, capacity optimization, and congestion management are becoming vital for delivering reliable services. To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
-
-                Power Grid Model matches the demand by providing with following strengths:
-                - Optimized algorithms for the characteristics of the distribution grid.
-                - Full support of three-phase asymmetric calculation.
-                - Efficient C++ implementation with native parallel computing support.
           - item:
             name: Shapeshifter
             homepage_url: https://shapeshifter.energy/
