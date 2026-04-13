@@ -9,13 +9,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: jmertic/lfx-landscape-tools@4a1b2a68b4110e5528b1df83bf41bdf9ac8413f1 # 20260330
+      - uses: jmertic/lfx-landscape-tools@3bb8e9399293d1c5ca59d247995d431064c043da # 20260413
         env:
           token: ${{ secrets.PAT }}
           ghid_token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
-      - uses: jmertic/lfx-landscape-tools@4a1b2a68b4110e5528b1df83bf41bdf9ac8413f1 # 20260330
+      - uses: jmertic/lfx-landscape-tools@3bb8e9399293d1c5ca59d247995d431064c043da # 20260413
         with:
           configfile: config-lfess.yml
           logfile: debug-lfess.yml
