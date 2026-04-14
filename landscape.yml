@@ -402,6 +402,17 @@ landscape:
               refs: >-
                 ,https://doi.org/10.5281/zenodo.1210316,https://doi.org/10.1109/JPHOTOV.2017.2779779,https://doi.org/10.1109/JPHOTOV.2017.2784682,https://doi.org/10.1109/PVSC45281.2020.9300635,https://doi.org/10.1109/PVSC43889.2021.9518733
           - item:
+            name: SoDeLe
+            description: >-
+              An easy-to-use tool to calculate solar yield profiles for photovoltaic systems with varying orientations,
+              PV modules and inverters, based on python-pvlib.
+            homepage_url: https://quasi-software.readthedocs.io/en/latest/
+            repo_url: https://github.com/QuaSi-Software/SoDeLe
+            logo: sodele.svg
+            organization:
+              name: siz energieplus
+              homepage: https://www.siz-energieplus.de
+          - item:
             name: solar
             description: allows for reproducible research both for photovoltaics systems performance and solar radiation.
             homepage_url: http://oscarperpinan.github.io/solar/
@@ -2704,6 +2715,18 @@ landscape:
             extra:
               topics: nrel,renewable-energy,optimization,reopt-lite-api
           - item:
+            name: ReSiE
+            description: >-
+              Simulation engine for the operational simulation and optimisation of energy systems on the scale of city
+              districts. Using a novel mathematical approach, it focuses on modelling the energy system in early
+              planning stages and allows for the simulation of complex non-linear operational strategies.
+            homepage_url: https://quasi-software.readthedocs.io/en/latest/
+            repo_url: https://github.com/QuaSi-Software/resie
+            logo: resie.svg
+            organization:
+              name: siz energieplus
+              homepage: https://www.siz-energieplus.de
+          - item:
             name: RESKit
             description: A toolkit to help generate renewable energy generation time series for energy systems analysis.
             homepage_url: https://github.com/FZJ-IEK3-VSA/RESKit
@@ -3880,6 +3903,17 @@ landscape:
             extra:
               refs: ',https://doi.org/10.1016/j.enbuild.2021.110757\n#'
               topics: energyplus,r,idf,idd,eplus,r6,parametric-simulation,epw,energyplus-models,simulation,energy-simulation
+          - item:
+            name: GenSim
+            description: >-
+              Thermal building simulation based EnergyPlus™ using simple but comprehensive information on geometry and
+              usage of the building to produce load profiles for heating, DHW, cooling, lighting and electric devices.
+            homepage_url: https://quasi-software.readthedocs.io/en/latest/
+            repo_url: https://github.com/QuaSi-Software/GenSim
+            logo: gensim.svg
+            organization:
+              name: siz energieplus
+              homepage: https://www.siz-energieplus.de
           - item:
             name: HiSim
             description: Simulation and analysis of household scenarios using modern components as alternative to fossil fuel based ones.
