@@ -14009,6 +14009,16 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/osisoft
           - item:
+            name: AZX, PBC (member)
+            homepage_url: https://azx.io/
+            logo: azx_pbc.svg
+            description: AZX is a PBC delivering AI strategy, implementation, and acceleration for utilities, energy, commercial real estate, and other critical industries through an open framework.
+            organization:
+              name: AZX, PBC
+              linkedin: https://www.linkedin.com/company/azxpbc
+            extra:
+              linkedin_url: https://www.linkedin.com/company/azxpbc
+          - item:
             name: chargebyte (member)
             homepage_url: https://chargebyte.com/
             logo: chargebyte.svg
@@ -14822,6 +14832,7 @@ landscape:
                 next_annual_review_date: '2027-01-27'
                 chair: Marco Möller
                 contributed_by: PIONIX, chargebyte, qwello, JOET, Accenture
+                submitted_date: '2023-08-23'
               annual_review_date: '2026-01-28'
               annual_review_url: https://github.com/lf-energy/tac/issues/28
               artwork_url: https://artwork.lfenergy.org/projects/everest
@@ -14881,6 +14892,7 @@ landscape:
                 chair: Maarten Mulder
                 project_org: https://github.com/OSGP
                 contributed_by: Alliander
+                submitted_date: '2023-08-09'
               annual_review_date: '2025-07-08'
               annual_review_url: https://github.com/lf-energy/tac/issues/8
               artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-fabric
@@ -14930,6 +14942,7 @@ landscape:
                 chair: Frédéric Didier
                 TAC_representative: Clément Bouvier
                 project_org: https://github.com/opfab
+                submitted_date: '2023-10-23'
               audits:
                 - date: '2024-05-22'
                   type: audit
@@ -14964,12 +14977,66 @@ landscape:
                 - Historian
                 - Scripting (ex: Python, JavaScript)
           - item:
+            name: Power Grid Model
+            homepage_url: https://github.com/PowerGridModel
+            logo: power_grid_model.svg
+            description: Open source C++/Python library that provides a high-performance calculation engine for real-time steady-state distribution power system analysis, including power flow, state estimation, and short-circuit studies
+            second_path:
+              - SIG / Grid Simulation and Modeling SIG
+              - Distribution / Modeling and Simulation
+              - Distribution / Operations
+              - System Management / Power System Calculation
+              - Energy Systems / Modeling and Optimization
+            project: earlyadoption
+            repo_url: https://github.com/PowerGridModel/power-grid-model
+            license: Other
+            additional_repos:
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-io
+              - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            twitter: https://twitter.com/nil
+            extra:
+              accepted: '2023-02-07'
+              annotations:
+                next_annual_review_date: '2027-02-03'
+                chair: Peter Salemink
+                project_org: https://github.com/PowerGridModel
+                submitted_date: '2023-11-07'
+              annual_review_date: '2026-02-04'
+              annual_review_url: https://github.com/lf-energy/tac/issues/81
+              artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
+              chat_channel: '#powergridmodel'
+              dev_stats_url: https://insights.linuxfoundation.org/project/powergridmodel
+              incubating: '2024-02-22'
+              lfx_slug: powergridmodel
+              mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powergridmodel
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPLQA5
+                - name: Charter
+                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/powergridmodel_charter.pdf
+                - name: Use Case - Alliander’s Delvi Project Leverages LF Energy Power Grid Model to Direct Overhaul of Low Voltage Grid
+                  url: https://lfenergy.org/power-grid-model-delvi/
+              slack_url: https://slack.lfenergy.org
+              summary_intro_url: https://www.youtube.com/watch?v=lkNj2EzxelA
+              summary_use_case: |
+                Power Grid Model offers a standards-based foundation enabling real-time power systems analysis, simulations of electrical power grids, and sophisticated what-if analysis. In addition, it enables in-depth studies and analysis of the electrical power grid’s behavior and performance. This comprehensive model incorporates essential factors such as power generation capacity, electrical losses, voltage levels, power flows, and system stability.
+
+                The global energy transition is placing new and unprecedented demands on Distribution System Operators (DSOs) and grid providers. Alongside upgrades to grid capacity, processes such as digitization, capacity optimization, and congestion management are becoming vital for delivering reliable services. To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
+
+                Power Grid Model matches the demand by providing with following strengths:
+                - Optimized algorithms for the characteristics of the distribution grid.
+                - Full support of three-phase asymmetric calculation.
+                - Efficient C++ implementation with native parallel computing support.
+          - item:
             name: PowSyBL
             homepage_url: https://powsybl.org/
             logo: powsybl.svg
             description: Open source, modular Java library with Python & Julia bindings designed for comprehensive electrical grid modeling, simulation, and visualization, enabling complex power flow, security, and dynamic analyses.
             second_path:
-              - SIG / Grid Simulation and Modeling
+              - SIG / Grid Simulation and Modeling SIG
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
@@ -14990,6 +15057,7 @@ landscape:
                 chair: Peter Mitri
                 project_org: https://github.com/powsybl
                 contributed_by: RTE, Artelys
+                submitted_date: '2023-08-23'
               audits:
                 - date: '2025-07-30'
                   type: audit
@@ -15052,6 +15120,7 @@ landscape:
                 chair: Eloi Bail
                 project_org: https://github.com/seapath
                 contributed_by: RTE, GE, Savoir-faire Linux, Welotec
+                submitted_date: '2023-10-23'
               audits:
                 - date: '2024-07-23'
                   type: audit
@@ -15119,6 +15188,7 @@ landscape:
                 chair: Antonello Monti
                 project_org: https://github.com/sogno-platform
                 contributed_by: RWTH Aachen University, PSI Software, Areti
+                submitted_date: '2023-10-23'
               annual_review_date: '2025-05-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/75
               artwork_url: https://artwork.lfenergy.org/projects/sogno
@@ -15176,6 +15246,7 @@ landscape:
                 chair: Sander Jansen
                 project_org: https://github.com/com-pas
                 contributed_by: RTE, Alliander
+                submitted_date: '2023-10-23'
               annual_review_date: '2025-06-10'
               annual_review_url: https://github.com/lf-energy/tac/issues/72
               artwork_url: https://artwork.lfenergy.org/projects/compas
@@ -15217,7 +15288,7 @@ landscape:
             description: |
               Open source suite of simulation tools designed for transparent, flexible, and robust analysis of power systems, including steady-state, short-circuit, and various stability studies
             second_path:
-              - SIG / Grid Simulation and Modeling
+              - SIG / Grid Simulation and Modeling SIG
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
@@ -15245,6 +15316,7 @@ landscape:
                 documentation_url: https://dynawo.github.io/docs/
                 contributed_by: RTE
                 summary_intro_video: https://www.youtube.com/watch?v=s7UoF_4G3dQ
+                submitted_date: '2023-08-23'
               annual_review_date: '2025-10-01'
               annual_review_url: https://github.com/lf-energy/tac/issues/29
               artwork_url: https://artwork.lfenergy.org/projects/dynawo
@@ -15382,6 +15454,7 @@ landscape:
                 next_annual_review_date: '2026-12-23'
                 chair: Nicolas Höning
                 contributed_by: Seita
+                submitted_date: '2023-08-23'
               annual_review_date: '2025-12-17'
               annual_review_url: https://github.com/lf-energy/tac/issues/27
               artwork_url: https://artwork.lfenergy.org/projects/flexmeasures
@@ -15431,6 +15504,7 @@ landscape:
                 next_annual_review_date: '2026-03-25'
                 chair: Arila Barnes
                 project_org: https://github.com/hyphae
+                submitted_date: '2023-10-23'
               annual_review_date: '2025-02-11'
               annual_review_url: https://github.com/lf-energy/tac/issues/74
               artwork_url: https://artwork.lfenergy.org/projects/hyphae
@@ -15488,6 +15562,7 @@ landscape:
                 chair: Travis Sikes
                 project_org: https://github.com/opendsm
                 contributed_by: Recurve
+                submitted_date: '2023-08-09'
               annual_review_date: '2025-05-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/7
               artwork_url: https://artwork.lfenergy.org/projects/opendsm
@@ -15536,6 +15611,7 @@ landscape:
                 chair: Arila Barnes, Stan Janssen, Hugo Van De Pol
                 next_annual_review_date: '2026-06-24'
                 project_org: https://github.com/OpenLEADR
+                submitted_date: '2023-08-23'
               annual_review_date: '2025-06-10'
               annual_review_url: https://github.com/lf-energy/tac/issues/24
               artwork_url: https://artwork.lfenergy.org/projects/openleadr
@@ -15575,7 +15651,7 @@ landscape:
             description: |
               Automated machine learning pipelines for accurate, self-correcting, and explainable short-term energy forecasting (up to 48 hours) of grid load, including consumption and renewable generation
             second_path:
-              - SIG / Grid Simulation and Modeling
+              - SIG / Grid Simulation and Modeling SIG
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - System Management / Power System Calculation
@@ -15595,6 +15671,7 @@ landscape:
                 next_annual_review_date: '2027-02-03'
                 chair: Daan Van Es
                 project_org: https://github.com/OpenSTEF
+                submitted_date: '2023-08-23'
               annual_review_date: '2026-02-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/25
               artwork_url: https://artwork.lfenergy.org/projects/openstef
@@ -15625,60 +15702,6 @@ landscape:
 
                 The Dutch DSO Alliander started the Short-Term-Forecasting project to anticipate congestion in the distribution grid, to allow for grid safety analysis in the transmission grid, and to enable smart grid innovations to locally balance supply and demand within the constraints of the grid. By open-sourcing the stack, the ambition is to provide an industry standard for generating and evaluating forecasts in the operational time domain, as well as allow for structured collaboration.
           - item:
-            name: Power Grid Model
-            homepage_url: https://github.com/PowerGridModel
-            logo: power_grid_model.svg
-            description: |
-              Open source C++/Python library that provides a high-performance calculation engine for real-time steady-state distribution power system analysis, including power flow, state estimation, and short-circuit studies
-            second_path:
-              - SIG / Grid Simulation and Modeling
-              - Distribution / Modeling and Simulation
-              - Distribution / Operations
-              - System Management / Power System Calculation
-              - Energy Systems / Modeling and Optimization
-            project: incubating
-            repo_url: https://github.com/PowerGridModel/power-grid-model
-            license: Other
-            additional_repos:
-              - repo_url: https://github.com/PowerGridModel/power-grid-model-io
-              - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            twitter: https://twitter.com/nil
-            extra:
-              accepted: '2023-02-07'
-              annotations:
-                next_annual_review_date: '2027-02-03'
-                chair: Peter Salemink
-                project_org: https://github.com/PowerGridModel
-              annual_review_date: '2026-02-04'
-              annual_review_url: https://github.com/lf-energy/tac/issues/81
-              artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
-              chat_channel: '#powergridmodel'
-              dev_stats_url: https://insights.linuxfoundation.org/project/powergridmodel
-              incubating: '2024-02-22'
-              lfx_slug: powergridmodel
-              mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/powergridmodel
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPLQA5
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/powergridmodel_charter.pdf
-                - name: Use Case - Alliander’s Delvi Project Leverages LF Energy Power Grid Model to Direct Overhaul of Low Voltage Grid
-                  url: https://lfenergy.org/power-grid-model-delvi/
-              slack_url: https://slack.lfenergy.org
-              summary_intro_url: https://www.youtube.com/watch?v=lkNj2EzxelA
-              summary_use_case: |
-                Power Grid Model offers a standards-based foundation enabling real-time power systems analysis, simulations of electrical power grids, and sophisticated what-if analysis. In addition, it enables in-depth studies and analysis of the electrical power grid’s behavior and performance. This comprehensive model incorporates essential factors such as power generation capacity, electrical losses, voltage levels, power flows, and system stability.
-
-                The global energy transition is placing new and unprecedented demands on Distribution System Operators (DSOs) and grid providers. Alongside upgrades to grid capacity, processes such as digitization, capacity optimization, and congestion management are becoming vital for delivering reliable services. To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
-
-                Power Grid Model matches the demand by providing with following strengths:
-                - Optimized algorithms for the characteristics of the distribution grid.
-                - Full support of three-phase asymmetric calculation.
-                - Efficient C++ implementation with native parallel computing support.
-          - item:
             name: Shapeshifter
             homepage_url: https://shapeshifter.energy/
             logo: shapeshifter.svg
@@ -15704,6 +15727,7 @@ landscape:
                 chair: Robben Riksen
                 project_org: https://github.com/shapeshifter
                 contributed_by: Alliander
+                submitted_date: '2024-04-02'
               annual_review_date: '2025-04-08'
               annual_review_url: https://github.com/lf-energy/tac/issues/136
               artwork_url: https://artwork.lfenergy.org/projects/shapeshifter
@@ -15744,7 +15768,7 @@ landscape:
             description: |
               Open source, high performance power grid simulation for distribution grids and distributed energy resources
             second_path:
-              - SIG / Grid Simulation and Modeling
+              - SIG / Grid Simulation and Modeling SIG
               - Distribution / Modeling and Simulation
               - System Management / Power System Calculation
               - Energy Systems / Distribution and Grids
@@ -15762,6 +15786,7 @@ landscape:
                 chair: Alyona Teyber
                 contributed_by: SLAC, PNNL, Amazon, SCE, CEC, Hitachi
                 project_org: https://github.com/arras-energy
+                submitted_date: '2024-01-05'
               annual_review_date: '2025-10-01'
               annual_review_url: https://github.com/lf-energy/tac/issues/104
               artwork_url: https://artwork.lfenergy.org/projects/arras
@@ -15806,6 +15831,7 @@ landscape:
                 chair: Gabe Hege
                 project_org: https://github.com/battery-data-alliance
                 contributed_by: AmpLabs, BattGenie, ionworks
+                submitted_date: '2023-10-04'
               annual_review_date: '2025-09-02'
               annual_review_url: https://github.com/lf-energy/tac/issues/57
               artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
@@ -15854,6 +15880,7 @@ landscape:
                 next_annual_review_date: '2026-12-23'
                 chair: Thana Paris
                 contributed_by: S44
+                submitted_date: '2023-10-06'
               annual_review_date: '2025-12-17'
               annual_review_url: https://github.com/lf-energy/tac/issues/59
               artwork_url: https://artwork.lfenergy.org/projects/citrineos
@@ -15888,7 +15915,7 @@ landscape:
             logo: covxtreme.svg
             description: Model and software for hazard risk analysis of extreme events
             second_path:
-              - SIG / Grid Simulation and Modeling
+              - SIG / Grid Simulation and Modeling SIG
               - Other / Risk Analysis
               - Climate and Earth Science / Meteorological Observation and Forecast
             project: sandbox
@@ -15904,6 +15931,7 @@ landscape:
                 next_annual_review_date: '2026-04-01'
                 chair: Sachin Bhakar
                 contributed_by: Shell
+                submitted_date: '2023-10-17'
               annual_review_date: '2025-04-02'
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
@@ -15941,6 +15969,7 @@ landscape:
                 project_org: https://github.com/Horizont-Europe-Interstore
                 next_annual_review_date: '2026-05-12'
                 chair: ''
+                submitted_date: '2025-01-30'
               annual_review_date: '2025-05-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/383
               artwork_url: https://artwork.lfenergy.org/projects/cupid
@@ -15957,13 +15986,38 @@ landscape:
                 Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
             additional_repos: []
           - item:
+            name: ' EnerGNN'
+            homepage_url: https://github.com/energnn
+            logo: energnn.svg
+            description: A Graph Neural Network library for real-life and full-scale energy networks.
+            project: sandbox
+            repo_url: https://github.com/energnn/energnn
+            license: MPL-2.0
+            additional_repos:
+              - repo_url: https://github.com/energnn/pypowsybl-to-energnn
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2026-03-30'
+              annotations:
+                project_org: https://github.com/energnn
+              artwork_url: https://artwork.lfenergy.org/projects/energnn
+              dev_stats_url: https://insights.linuxfoundation.org/project/energnn
+              lfx_slug: energnn
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/energnn
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf5aEYe6coFhjFY7X4
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/energnn/energnn_Charter.pdf?v=1774890498324
+          - item:
             name: FIDOPower
             homepage_url: https://fidopower.energy/
             logo: fidopower.svg
             description: |
               An open framework for inter-organizational data exchange, data and model synthesis, and system performance analysis across multiple power systems tools
             second_path:
-              - SIG / Grid Simulation and Modeling
+              - SIG / Grid Simulation and Modeling SIG
             project: sandbox
             repo_url: https://github.com/fidopower/.github
             license: BSD-3-Clause
@@ -15974,6 +16028,7 @@ landscape:
                 next_annual_review_date: '2026-06-03'
                 chair: Alyona Teyber
                 project_org: https://github.com/fidopower
+                submitted_date: '2023-11-07'
               annual_review_date: '2025-06-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/82
               artwork_url: https://artwork.lfenergy.org/projects/fidopower
@@ -16008,8 +16063,9 @@ landscape:
               accepted: '2025-02-11'
               annotations:
                 project_org: https://github.com/Grid2op
-                next_annual_review_date: '2026-06-02'
+                next_annual_review_date: '2026-06-09'
                 chair: Benjamin Donnot
+                submitted_date: '2024-11-12'
               annual_review_date: '2025-02-11'
               annual_review_url: https://github.com/lf-energy/tac/issues/287
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
@@ -16045,6 +16101,7 @@ landscape:
                 next_annual_review_date: '2026-10-13'
                 chair: Michael Stuber, Richard Lam
                 project_org: https://github.com/geisa
+                submitted_date: '2024-09-14'
               annual_review_date: '2025-10-14'
               annual_review_url: https://github.com/lf-energy/tac/issues/230
               artwork_url: https://artwork.lfenergy.org/projects/geisa
@@ -16067,7 +16124,7 @@ landscape:
             description: |
               An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
             second_path:
-              - SIG / AI
+              - SIG / AI SIG
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
@@ -16083,6 +16140,7 @@ landscape:
               annotations:
                 next_annual_review_date: '2026-11-18'
                 chair: François Mirallès
+                submitted_date: '2024-10-11'
               annual_review_date: '2025-11-19'
               annual_review_url: https://github.com/lf-energy/tac/issues/260
               artwork_url: https://artwork.lfenergy.org/projects/gridfm
@@ -16102,7 +16160,7 @@ landscape:
             description: |
               Software platform designed to help electric grid operators predict, prepare for, and recover from the impacts of extreme weather events by combining agent-based grid modeling with resilience metrics to provide actionable insights
             second_path:
-              - SIG / Grid Simulation and Modeling
+              - SIG / Grid Simulation and Modeling SIG
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
@@ -16117,6 +16175,7 @@ landscape:
                 chair: Alyona Teyber
                 project_org: https://github.com/grid-vantage
                 contributed_by: SLAC
+                submitted_date: '2023-09-27'
               annual_review_date: '2023-09-26'
               annual_review_url: https://github.com/lf-energy/tac/issues/52
               artwork_url: https://artwork.lfenergy.org/projects/gridvantage
@@ -16152,6 +16211,7 @@ landscape:
                 next_annual_review_date: '2026-04-14'
                 chair: Barry Nouwt
                 project_org: https://github.com/lfe-sef
+                submitted_date: '2024-03-29'
               annual_review_date: '2024-04-23'
               annual_review_url: https://github.com/lf-energy/tac/issues/132
               artwork_url: https://artwork.lfenergy.org/projects/lfe-sef
@@ -16199,6 +16259,7 @@ landscape:
                 next_annual_review_date: '2026-12-08'
                 chair: Deandrea Salvador
                 project_org: https://github.com/NODE-Collective
+                submitted_date: '2024-01-24'
               annual_review_date: '2025-12-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/108
               artwork_url: https://artwork.lfenergy.org/projects/node-collective
@@ -16233,7 +16294,7 @@ landscape:
             description: |
               Ecosystem for the creation, dissemination and evaluation of privacy-preserving synthetic grid data
             second_path:
-              - SIG / AI
+              - SIG / AI SIG
               - Distribution / Grid Edge
               - Sustainable Development / Data Catalogs and Interfaces
             project: sandbox
@@ -16248,6 +16309,7 @@ landscape:
               annotations:
                 next_annual_review_date: '2026-03-10'
                 chair: Gus Chadney
+                submitted_date: '2023-10-19'
               annual_review_date: '2025-03-11'
               annual_review_url: https://github.com/lf-energy/tac/issues/68
               artwork_url: https://artwork.lfenergy.org/projects/opensynth
@@ -16287,6 +16349,7 @@ landscape:
                 next_annual_review_date: '2026-04-22'
                 chair: Chris Xie
                 project_org: https://github.com/open-renewable-energy-systems
+                submitted_date: '2024-01-13'
               annual_review_date: '2025-04-08'
               annual_review_url: https://github.com/lf-energy/tac/issues/107
               artwork_url: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systems
@@ -16317,6 +16380,7 @@ landscape:
                 project_org: https://github.com/p-swamp
                 next_annual_review_date: '2026-09-08'
                 chair: ''
+                submitted_date: '2025-07-18'
               annual_review_url: https://github.com/lf-energy/tac/issues/585
               artwork_url: https://artwork.lfenergy.org/projects/swamp
               dev_stats_url: https://insights.linuxfoundation.org/project/swamp
@@ -16352,6 +16416,7 @@ landscape:
                 next_annual_review_date: '2026-07-14'
                 chair: Chloe Ching
                 project_org: https://github.com/rtdip
+                submitted_date: '2023-08-23'
               annual_review_date: '2025-07-08'
               annual_review_url: https://github.com/lf-energy/tac/issues/26
               artwork_url: https://artwork.lfenergy.org/projects/rtdip
@@ -16389,6 +16454,7 @@ landscape:
                 next_annual_review_date: '2026-09-08'
                 chair: Jesús Andrés Rodríguez Sarasty
                 project_org: https://github.com/rtc-tools
+                submitted_date: '2024-11-27'
               annual_review_url: https://github.com/lf-energy/tac/issues/344
               artwork_url: https://artwork.lfenergy.org/projects/rtc-tools
               dev_stats_url: https://insights.linuxfoundation.org/project/rtc-tools
@@ -16422,6 +16488,7 @@ landscape:
                 next_annual_review_date: '2025-11-11'
                 chair: Sachin Bhakar
                 project_org: https://github.com/sc-decarbonization-hub
+                submitted_date: '2024-06-10'
               annual_review_url: https://github.com/lf-energy/tac/issues/171
               artwork_url: https://artwork.lfenergy.org/projects/sc-decarbonisation-hub
               dev_stats_url: https://insights.linuxfoundation.org/project/sc-decarbonisation-hub
@@ -16455,6 +16522,7 @@ landscape:
               annotations:
                 next_annual_review_date: '2026-11-10'
                 chair: Alexandre Parisot
+                submitted_date: '2023-09-27'
               annual_review_date: '2025-11-11'
               annual_review_url: https://github.com/lf-energy/tac/issues/53
               artwork_url: https://artwork.lfenergy.org/projects/lf-energy-ai-sig
@@ -16480,6 +16548,7 @@ landscape:
               annotations:
                 next_annual_review_date: '2027-02-09'
                 chair: Robert De Leeuw, Thana Paris
+                submitted_date: '2025-03-08'
               annual_review_date: '2026-02-10'
               annual_review_url: https://github.com/lf-energy/tac/issues/458
               artwork_url: https://artwork.lfenergy.org/projects/edge-interop-flex-sig
@@ -16506,6 +16575,7 @@ landscape:
               annotations:
                 chair: Thomas Van Dijk
                 next_annual_review_date: '2027-02-09'
+                submitted_date: '2025-03-08'
               annual_review_date: '2026-02-10'
               annual_review_url: https://github.com/lf-energy/tac/issues/459
               artwork_url: https://artwork.lfenergy.org/projects/lfenergy-grid-simulation-and-modeling-sig
@@ -16542,6 +16612,7 @@ landscape:
                 next_annual_review_date: '2026-12-08'
                 chair: Daniel Roesler
                 contributed_by: Google, Microsoft, UtilityAPI, WattTime
+                submitted_date: '2025-04-28'
               annual_review_date: '2025-12-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/512
               artwork_url: https://artwork.lfenergy.org/projects/cds-customerdata-wg
@@ -16573,6 +16644,7 @@ landscape:
                 next_annual_review_date: '2026-12-08'
                 chair: Stephen Suffian
                 contributed_by: Google, Microsoft, UtilityAPI, WattTime
+                submitted_date: '2025-04-28'
               annual_review_date: '2025-12-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/513
               artwork_url: https://artwork.lfenergy.org/projects/cds-powersystemsdata-wg
@@ -16604,6 +16676,7 @@ landscape:
                 next_annual_review_date: '2026-12-08'
                 chair: Daniel Roesler
                 contributed_by: Google, Microsoft, UtilityAPI, WattTime
+                submitted_date: '2025-04-28'
               annual_review_date: '2025-12-09'
               annual_review_url: https://github.com/lf-energy/tac/issues/511
               artwork_url: https://artwork.lfenergy.org/projects/cds-registration-wg
@@ -16638,6 +16711,7 @@ landscape:
               annotations:
                 next_annual_review_date: '2027-01-12'
                 chair: Christopher Atkins
+                submitted_date: '2023-11-06'
               annual_review_date: '2026-01-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/79
               artwork_url: https://artwork.lfenergy.org/projects/trolie
@@ -16673,6 +16747,7 @@ landscape:
                 next_annual_review_date: '2026-10-13'
                 chair: ''
                 project_org: https://github.com/urpx-org
+                submitted_date: '2025-08-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/600
               artwork_url: https://artwork.lfenergy.org/projects/utility-rate-plan-exchange
               dev_stats_url: https://insights.linuxfoundation.org/project/utility-rate-plan-exchange
