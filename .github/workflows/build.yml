@@ -5,17 +5,25 @@ on:
   schedule:
   - cron: "0 20 * * *"
 
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: jmertic/lfx-landscape-tools@main
+      - uses: jmertic/lfx-landscape-tools@3bb8e9399293d1c5ca59d247995d431064c043da # 20260413
         env:
           token: ${{ secrets.PAT }}
           ghid_token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
-      - uses: jmertic/lfx-landscape-tools@main
+      - uses: jmertic/lfx-landscape-tools@3bb8e9399293d1c5ca59d247995d431064c043da # 20260413
         with:
           configfile: config-lfess.yml
           logfile: debug-lfess.yml
