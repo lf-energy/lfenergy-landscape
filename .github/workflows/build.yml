@@ -18,13 +18,13 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: jmertic/lfx-landscape-tools@1e618658f433f7ffd6320630fc528ad683ef9530 # 20260418
+      - uses: jmertic/lfx-landscape-tools@690d3a52ceb2092e17ab2b7f51040fddcfa87697 # 20260427
         env:
           token: ${{ secrets.PAT }}
           ghid_token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
-      - uses: jmertic/lfx-landscape-tools@1e618658f433f7ffd6320630fc528ad683ef9530 # 20260418
+      - uses: jmertic/lfx-landscape-tools@690d3a52ceb2092e17ab2b7f51040fddcfa87697 # 20260427
         with:
           configfile: config-lfess.yml
           logfile: debug-lfess.yml
