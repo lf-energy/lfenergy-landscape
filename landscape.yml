@@ -3025,6 +3025,31 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/openenergymonitor
             extra:
               topics: emonpi,hardware-designs,raspberry-pi,energy-monitor,arduino,emoncms
+          - item:
+            name: SolarNetwork
+            description: >-
+              SolarNetwork is an open-source platform providing stable, neutral data-wrangling infrastructure so you can build
+              modern energy apps, report on energy use and generation, and manage your energy assets. SolarNetwork's power
+              comes via the many OSGi plugins (think device drivers) which have been developed over time for the many Distributed
+              Energy Resource (DER) devices out there on the grid edge. These plugins standardize and normalize the data streams
+              coming from these devices into well known electrical engineering quantities and units (e.g. Wh, V, A, PowerFactor
+              etc). Additionally SolarNetwork provides standardized communications for control purposes.  Coupled with
+              conformance to existing standards (such as SunSpec Modbus, IEEE 1547-2018, OpenADR and others), this open
+              source plugin approach makes SolarNetwork arguably compatible with any DER on the grid.  SolarNetwork also
+              offers a cloud based data historian (accessible via APIs) that automatically derives and stores aggregates
+              from raw data streams allowing for efficient and easy development of front ends that can be used to leverage
+              and explore these large data sets.
+            homepage_url: https://solarnetwork.net/
+            logo: solarnetwork.svg
+            repo_url: https://github.com/SolarNetwork/solarnetwork
+            additional_repos:
+              - repo_url: https://github.com/SolarNetwork/solarnetwork-node
+              - repo_url: https://github.com/SolarNetwork/solarnetwork-central
+              - repo_url: https://github.com/SolarNetwork/sn-api-core-js
+            extra:
+              slack_url: https://join.slack.com/t/solarnetwork-f8n/shared_invite/zt-1qhses7cw-FhwcUlSiYh~3KYIDouOH4w
+              mailing_list_url: https://lists.sourceforge.net/lists/listinfo/solarnetwork-solarnodedevelopment
+              documentation_url: https://github.com/SolarNetwork/solarnetwork/wiki
       - subcategory:
         name: Distribution and Grids
         items:
@@ -10287,7 +10312,7 @@ landscape:
           - item:
             name: openair
             description: An R package developed for the purpose of analyzing air quality data — or more generally atmospheric composition data.
-            homepage_url: http://davidcarslaw.github.io/openair/
+            homepage_url: https://openair-project.github.io/openair/
             repo_url: https://github.com/davidcarslaw/openair
             logo: openair.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-york
@@ -11617,7 +11642,7 @@ landscape:
           - item:
             name: AgroMo
             description: An Integrated Assessment and Modelling software that integrates a crop, biogeochemical and a agro-economical model.
-            homepage_url: http://agromo.atk.hu/EN/index.html
+            homepage_url: https://atk.hun-ren.hu/agromo/EN/index.html
             repo_url: https://github.com/hollorol/AgroMo
             logo: AgroMo.svg
             extra:
@@ -16053,7 +16078,7 @@ landscape:
             description: |
               An open source Python framework designed for modeling and simulating sequential decision-making processes in power systems, primarily used for developing and evaluating intelligent control agents (e.g., using reinforcement learning) to manage and optimize grid operations
             second_path:
-              - SIG / No SIG
+              - SIG / AI SIG
               - Distribution / Modeling and Simulation
               - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
