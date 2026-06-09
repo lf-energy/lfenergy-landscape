@@ -47,11 +47,11 @@ landscape:
         name: Photovoltaics and Solar Energy
         items:
           - item:
-            name: A Global Inventory of Commerical-, Industrial-, and Utility-Scale Photovoltaic Solar Generating Units
-            description: Used to produce a global inventory of utility-scale solar photvoltaic generating station.
+            name: A Global Inventory of Commercial-, Industrial-, and Utility-Scale Photovoltaic Solar Generating Units
+            description: Used to produce a global inventory of utility-scale solar photovoltaic generating station.
             homepage_url: https://github.com/Lkruitwagen/solar-pv-global-inventory
             repo_url: https://github.com/Lkruitwagen/solar-pv-global-inventory
-            logo: A Global Inventory of Commerical-, Industrial-, and Utility-Scale Photovoltaic Solar Generating Units.svg
+            logo: A Global Inventory of Commercial-, Industrial-, and Utility-Scale Photovoltaic Solar Generating Units.svg
             extra:
               refs: ',https://zenodo.org/record/5005868,https://zenodo.org/record/5005868'
             organization:
@@ -10307,7 +10307,7 @@ landscape:
           - item:
             name: openair
             description: An R package developed for the purpose of analyzing air quality data — or more generally atmospheric composition data.
-            homepage_url: http://davidcarslaw.github.io/openair/
+            homepage_url: https://openair-project.github.io/openair/
             repo_url: https://github.com/davidcarslaw/openair
             logo: openair.svg
             crunchbase: https://www.crunchbase.com/organization/university-of-york
@@ -11637,7 +11637,7 @@ landscape:
           - item:
             name: AgroMo
             description: An Integrated Assessment and Modelling software that integrates a crop, biogeochemical and a agro-economical model.
-            homepage_url: http://agromo.atk.hu/EN/index.html
+            homepage_url: https://atk.hun-ren.hu/agromo/EN/index.html
             repo_url: https://github.com/hollorol/AgroMo
             logo: AgroMo.svg
             extra:
@@ -14052,6 +14052,11 @@ landscape:
             extra:
               linkedin_url: https://www.linkedin.com/company/ecoflowtech
           - item:
+            name: EcoPhi (member)
+            homepage_url: https://ecophi.com/
+            logo: ecophi.svg
+            description: EcoPhi empowers the digital power grid with smart hardware and AI-driven software for real-time monitoring, predictive insights, and grid optimization.
+          - item:
             name: Energinet (member)
             homepage_url: https://energinet.dk/
             logo: energinet.svg
@@ -14064,7 +14069,10 @@ landscape:
             name: Futurewei Technologies, Inc. (member)
             homepage_url: https://futurewei.com/
             logo: futurewei_technologies_inc.svg
-            description: FutureWei, based in Plano, Texas, is the North American subsidiary of Huawei Technologies Co. Ltd., a leading global vendor of telecommunications systems and network solutions based in Shenzhen, China. Huawei posted US$5.58 billion in sales in 2004 and has products deployed in over 90 countries. With a strong focus on network infrastructure, FutureWei Technologies, Inc. designs, markets and supports a wide range of advanced telecommunication products for service providers and enterprise network solutions.
+            description: |-
+              Founded in 2001, Futurewei Technologies is dedicated to pursuing openness in Research & Development (R&D) by embracing an Open Innovation model. We strive to share ideas and knowledge with technology communities to open new business opportunities.
+
+              We are actively engaged in open innovation through participation in open-source communities and cultivating an open ecosystem that drives shared success. Our efforts to promote and innovate within open ecosystems include developing open app platforms for ICT systems. These initiatives are part of our ongoing commitment to building a more open and collaborative ICT industry.
             crunchbase: https://www.crunchbase.com/organization/futurewei-technologies
             extra:
               linkedin_url: https://www.linkedin.com/company/futureweitechnologiesinc
@@ -15038,7 +15046,7 @@ landscape:
               accepted: '2019-04-30'
               annotations:
                 next_annual_review_date: '2026-12-02'
-                chair: Peter Mitri
+                chair: Sophie Frasnedo
                 project_org: https://github.com/powsybl
                 contributed_by: RTE, Artelys
                 submitted_date: '2023-08-23'
@@ -16017,7 +16025,7 @@ landscape:
               annotations:
                 project_org: https://github.com/cupid-project
                 next_annual_review_date: '2026-05-12'
-                chair: ''
+                chair: Alexandre Lucas
                 submitted_date: '2025-01-30'
               annual_review_date: '2025-05-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/383
@@ -16087,7 +16095,7 @@ landscape:
               accepted: '2025-02-11'
               annotations:
                 project_org: https://github.com/Grid2op
-                next_annual_review_date: '2026-06-09'
+                next_annual_review_date: '2026-06-18'
                 chair: Benjamin Donnot
                 submitted_date: '2024-11-12'
               annual_review_date: '2025-02-11'
@@ -16428,7 +16436,7 @@ landscape:
               annotations:
                 project_org: https://github.com/p-swamp
                 next_annual_review_date: '2026-09-08'
-                chair: ''
+                chair: Kjell Petter Myhren
                 submitted_date: '2025-07-18'
               annual_review_url: https://github.com/lf-energy/tac/issues/585
               artwork_url: https://artwork.lfenergy.org/projects/swamp
@@ -16794,7 +16802,7 @@ landscape:
               accepted: '2025-11-05'
               annotations:
                 next_annual_review_date: '2026-10-13'
-                chair: ''
+                chair: Klaartje De Schepper
                 project_org: https://github.com/urpx-org
                 submitted_date: '2025-08-04'
               annual_review_url: https://github.com/lf-energy/tac/issues/600
