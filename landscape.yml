@@ -2149,21 +2149,16 @@ landscape:
             organization:
               name: Niclas Mattsson
           - item:
-            name: GridCal
+            name: VeraGrid
             description: >-
-              GridCal, a cross-platform power systems software written in Python with user interface, used in academia and industry.
-
-
-              GridCal does all sort of static analysis of power systems with or without time series (power flow, short circuit, linear and non linear
-              optimization, ..., you name it)
-            homepage_url: https://github.com/SanPen/GridCal
-            repo_url: https://github.com/SanPen/GridCal
-            logo: GridCal.svg
+              VeraGrid is a energy and power systems planning and simulation software. As such it has all the static, timeseries and dynamic analysis studies that you can think of, plus linear and non-linear optimization functions.
+            homepage_url: https://github.com/SanPen/VeraGrid
+            repo_url: https://github.com/SanPen/VeraGrid
+            logo: veragrid.svg
             extra:
               topics: >-
                 python,powerflow,electrical-engineering,electrical,helm,newton-raphson,latin-hypercube,monte-carlo-simulation,cim,comon-information-model,stochastic-power-flow,multi-terminal,acdc,optimization,power-systems
-            organization:
-              name: Advanced Grid Insight
+            crunchbase: https://www.crunchbase.com/organization/eroots-analytics
           - item:
             name: GridPath
             description: A versatile simulation and optimization platform for power-system planning and operations.
