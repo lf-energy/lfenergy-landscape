@@ -15623,10 +15623,10 @@ landscape:
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=fb5vGsNo9Uc
               summary_use_case: |
-                OpenLEADR is an LF Energy project providing free and open source implementations of the Open Automated Demand Response (OpenADR) protocol – an industry standard for enabling energy flexibility across grids, devices, and services. With the release of a new Rust-based implementation of OpenADR 3.0, OpenLEADR now supports both legacy and next-generation OpenADR deployments through two maintained versions:
+                OpenLEADR is an LF Energy project providing free and open source implementations of the Open Automated Demand Response (OpenADR) protocol – an industry standard for enabling energy flexibility across grids, devices, and services. With the release of a new Rust-based implementation of OpenADR 3.1, OpenLEADR now supports both legacy and next-generation OpenADR deployments through two maintained versions:
 
-                - OpenLEADR 2.0 – Python-based implementation of OpenADR 2.0b (IEC 62746-10-1 ED1)
-                - OpenLEADR 3.0 – Rust-based implementation of OpenADR 3.0 (currently in pre-standardization)
+                - openleadr-python – Python-based implementation of OpenADR 2.0b (IEC 62746-10-1 ED1)
+                - openleadr-rs – Rust-based implementation of OpenADR 3.1 (OpenADR 3 currently in pre-standardization)
 
                 OpenADR is a widely adopted protocol for automated, standards-based demand response. It enables grid operators and utilities to communicate signals such as pricing, events, and capacity limits to energy-consuming devices and systems in real-time.
 
