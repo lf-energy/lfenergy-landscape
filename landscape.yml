@@ -14056,8 +14056,6 @@ landscape:
             homepage_url: https://ecophi.com/
             logo: ecophi.svg
             description: EcoPhi empowers the digital power grid with smart hardware and AI-driven software for real-time monitoring, predictive insights, and grid optimization.
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ecophi-ab/
           - item:
             name: Energinet (member)
             homepage_url: https://energinet.dk/
@@ -14179,7 +14177,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sense-reply
             twitter: https://twitter.com/Reply_UK
             extra:
-              linkedin_url: https://www.linkedin.com/company/sense-reply/
+              linkedin_url: https://www.linkedin.com/company/reply
           - item:
             name: Southern California Edison (member)
             homepage_url: https://sce.com/
@@ -16154,40 +16152,6 @@ landscape:
                 The secure, interoperable ecosystem to streamline the cybersecurity, deployment, scaling and operation of next-generation grid edge computing and applications
             additional_repos: []
           - item:
-            name: GridFM
-            homepage_url: https://gridfm.energy/
-            logo: gridfm.svg
-            description: An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
-            second_path:
-              - SIG / AI SIG
-              - Distribution / Modeling and Simulation
-              - Transmission / Modeling and Simulation
-              - Energy Systems / Modeling and Optimization
-            project: sandbox
-            repo_url: https://github.com/gridfm/gridfm-datakit
-            license: Other
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2024-10-29'
-              annotations:
-                next_annual_review_date: '2026-11-18'
-                chair: François Mirallès
-                submitted_date: '2024-10-11'
-                project_org: https://github.com/gridfm
-              annual_review_date: '2025-11-19'
-              annual_review_url: https://github.com/lf-energy/tac/issues/260
-              artwork_url: https://artwork.lfenergy.org/projects/gridfm
-              dev_stats_url: https://insights.linuxfoundation.org/project/gridfm
-              lfx_slug: gridfm
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gridfm
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGFeSdSUJqLdBHTBZ
-              summary_use_case: |
-                An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
-            additional_repos: []
-          - item:
             name: Grid Vantage
             homepage_url: https://gridvantage.energy/
             logo: grid_vantage.svg
@@ -16348,6 +16312,41 @@ landscape:
                 The Foundation for Impact:
                 NODE Collective’s data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
             additional_repos: []
+          - item:
+            name: OpenGridFM
+            homepage_url: https://opengridfm.energy/
+            logo: opengridfm.svg
+            description: An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
+            second_path:
+              - SIG / AI SIG
+              - Distribution / Modeling and Simulation
+              - Transmission / Modeling and Simulation
+              - Energy Systems / Modeling and Optimization
+            project: sandbox
+            repo_url: https://github.com/gridfm/gridfm-datakit
+            license: Other
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-10-29'
+              annotations:
+                next_annual_review_date: '2026-11-18'
+                chair: François Mirallès
+                submitted_date: '2024-10-11'
+                project_org: https://github.com/gridfm
+              annual_review_date: '2025-11-19'
+              annual_review_url: https://github.com/lf-energy/tac/issues/260
+              artwork_url: https://artwork.lfenergy.org/projects/gridfm
+              dev_stats_url: https://insights.linuxfoundation.org/project/gridfm
+              lfx_slug: gridfm
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gridfm
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGFeSdSUJqLdBHTBZ
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gridfm/gridfm_Charter.pdf?v=1781190510434
+              summary_use_case: |
+                An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
           - item:
             name: OpenSynth
             homepage_url: https://github.com/OpenSynth-energy/OpenSynth
