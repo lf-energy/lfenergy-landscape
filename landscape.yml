@@ -14987,7 +14987,7 @@ landscape:
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
             repo_url: https://github.com/PowerGridModel/power-grid-model
-            license: Other
+            license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/PowerGridModel/power-grid-model-io
               - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
@@ -15040,7 +15040,7 @@ landscape:
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
             repo_url: https://github.com/powsybl/powsybl-core
-            license: Apache-2.0
+            license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/powsybl/powsybl-open-loadflow
               - repo_url: https://github.com/powsybl/powsybl-diagram
@@ -15292,7 +15292,7 @@ landscape:
               - Energy Systems / Modeling and Optimization
             project: incubating
             repo_url: https://github.com/dynawo/dynawo
-            license: Other
+            license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/dynawo/.github
               - repo_url: https://github.com/dynawo/IEC-WECC-GenericModels-Comparison
@@ -15424,26 +15424,19 @@ landscape:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io/
             logo: flexmeasures.svg
-            description: |
-              An intelligent EMS (energy management system) to optimize behind-the-meter energy flexibility
+            description: An intelligent EMS (energy management system) to optimize behind-the-meter energy flexibility
             second_path:
               - SIG / Edge Interoperability and Flexibility SIG
               - Behind-the-Meter / Flexibility
               - Asset Management / Data Management
               - Energy Systems / Monitoring and Control
             project: incubating
-            repo_url: https://github.com/SeitaBV/flexmeasures
+            repo_url: https://github.com/FlexMeasures/flexmeasures
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/FlexMeasures/.github
-              - repo_url: https://github.com/FlexMeasures/flexmeasures
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-client
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-ha-integration
               - repo_url: https://github.com/FlexMeasures/flexmeasures-plugin-template
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-s2
-              - repo_url: https://github.com/FlexMeasures/screenshots
+              - repo_url: https://github.com/FlexMeasures/flexmeasures-client
               - repo_url: https://github.com/FlexMeasures/tsc
-              - repo_url: https://github.com/FlexMeasures/website
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-11-02'
@@ -15453,6 +15446,7 @@ landscape:
                 chair: Nicolas Höning
                 contributed_by: Seita
                 submitted_date: '2023-08-23'
+                project_org: https://github.com/FlexMeasures
               annual_review_date: '2025-12-17'
               annual_review_url: https://github.com/lf-energy/tac/issues/27
               artwork_url: https://artwork.lfenergy.org/projects/flexmeasures
@@ -16049,6 +16043,37 @@ landscape:
                 Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
             additional_repos: []
           - item:
+            name: EnerGNN
+            homepage_url: https://github.com/energnn
+            logo: energnn.svg
+            description: A Graph Neural Network library for real-life and full-scale energy networks.
+            second_path:
+              - SIG / No SIG
+            project: sandbox
+            repo_url: https://github.com/energnn/energnn
+            license: MPL-2.0
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2026-04-27'
+              annotations:
+                next_annual_review_date: '2027-04-13'
+                submitted_date: '2026-02-13'
+                chair: Balthazar Donon
+                project_org: https://github.com/energnn
+              annual_review_url: https://github.com/lf-energy/tac/issues/753
+              artwork_url: https://artwork.lfenergy.org/projects/energnn
+              dev_stats_url: https://insights.linuxfoundation.org/project/energnn
+              lfx_slug: energnn
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/energnn
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf5aEYe6coFhjFY7X4
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/energnn/energnn_Charter.pdf?v=1774890498324
+            additional_repos:
+              - repo_url: https://github.com/energnn/pypowsybl-to-energnn
+          - item:
             name: FIDOPower
             homepage_url: https://fidopower.energy/
             logo: fidopower.svg
@@ -16093,7 +16118,7 @@ landscape:
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/Grid2op/grid2op
-            license: Other
+            license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/Grid2op/lightsim2grid
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16560,6 +16585,27 @@ landscape:
               summary_use_case: |
                 An open source platform that provides visibility into, and enables the management of, suppliers' Scope 3 greenhouse gas emissions to help companies develop strategies and take action towards net-zero targets
             additional_repos: []
+          - item:
+            name: Smart HEMS Benchmark
+            homepage_url: https://github.com/ecoflow-ai/hems-benchmark
+            logo: smart_hems_benchmark.svg
+            description: This project aims to address the critical gap of standardized benchmarking scenarios in the rapid growth of residential Distributed Energy Resources (DERs). Through establishing a comprehensive open-source benchmarking platform, we provide an evaluation framework for the entire residential DER lifecycle.
+            project: sandbox
+            repo_url: https://github.com/ecoflow-ai/hems-benchmark
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2026-05-14'
+              artwork_url: https://artwork.lfenergy.org/projects/smart-hems-benchmark
+              dev_stats_url: https://insights.linuxfoundation.org/project/smart-hems-benchmark
+              lfx_slug: smart-hems-benchmark
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/smart-hems-benchmark
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfmCFnNe5hmZCBSF2C
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/smart-hems-benchmark/smart-hems-benchmark_Charter.pdf?v=1778864145915
       - subcategory:
         name: SIG
         items:
