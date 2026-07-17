@@ -15344,83 +15344,6 @@ landscape:
                 - DynaSwing for short-term stability studies
                 - DynaWave for stability studies and system design with a high penetration of power-electronics-based components (quasi-EMT)
           - item:
-            name: FledgePower
-            homepage_url: https://www.lfenergy.org/projects/fledgepower/
-            logo: fledgepower.svg
-            description: |
-              Open source, multi-protocol translation gateway for power systems built upon the industrial IoT LF Edge Fledge project, designed to enable seamless communication between diverse legacy and modern grid equipment at the edge
-            second_path:
-              - Transmission / Data & IoT
-              - Distribution / Data & IoT
-              - Behind-the-Meter / Data & IoT
-              - Acquisition and Control / Communication Infrastructure
-              - Energy Systems / Modeling and Optimization
-            project: incubating
-            repo_url: https://github.com/fledge-power/contributing
-            license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/fledge-power/.github
-              - repo_url: https://github.com/fledge-power/fledge-north-auditsnmp
-              - repo_url: https://github.com/fledge-power/fledge-north-hnz
-              - repo_url: https://github.com/fledge-power/fledge-north-s2opcua
-              - repo_url: https://github.com/fledge-power/fledge-north-sysinfosnmp
-              - repo_url: https://github.com/fledge-power/fledge-north-tase2
-              - repo_url: https://github.com/fledge-power/fledge-south-hnz
-              - repo_url: https://github.com/fledge-power/fledge-south-tase2
-              - repo_url: https://github.com/fledge-power/fledgepower-ci
-              - repo_url: https://github.com/fledge-power/fledgepower-deployment
-              - repo_url: https://github.com/fledge-power/fledgepower-der-scheduler
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-hnztopivot
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-iec104topivot
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-mvcyclingcheck
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-mvscale
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-opcuatopivot
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-spoperators
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-stamp
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-tase2topivot
-              - repo_url: https://github.com/fledge-power/fledgepower-filter-transientsp
-              - repo_url: https://github.com/fledge-power/fledgepower-notify-systemsp
-              - repo_url: https://github.com/fledge-power/fledgepower-perf-testing
-              - repo_url: https://github.com/fledge-power/fledgepower-pivot-model
-              - repo_url: https://github.com/fledge-power/fledgepower-rule-systemsp
-              - repo_url: https://github.com/fledge-power/libhnz
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            url_for_bestpractices: https://github.com/fledge-power
-            extra:
-              accepted: '2021-02-16'
-              annotations:
-                next_annual_review_date: '2026-06-02'
-                chair: Romain Lebrun Thauront
-                contributed_by: RTE, Dianomics, AVEVA
-              annual_review_date: '2025-06-10'
-              annual_review_url: https://github.com/lf-energy/tac/issues/137
-              artwork_url: https://artwork.lfenergy.org/projects/fledgepower
-              chat_channel: '#fledgepower'
-              dev_stats_url: https://insights.linuxfoundation.org/project/fledgepower
-              incubating: '2021-02-11'
-              lfx_slug: fledgepower
-              mailing_list_url: https://lists.lfenergy.org/g/Fledgepower-General
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fledgepower
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUTQA1
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/master/project_charters/fledgepower_charter.pdf
-                - name: Use Case - How French Transmission System Operator, RTE, Leverages LF Energy and LF Edge to Build Next-Gen Substation Monitoring and Controls
-                  url: https://lfenergy.org/how-french-transmission-system-operator-rte-leverages-lf-energy-and-lf-edge-to-build-next-gen-substation-monitoring-and-controls/
-              slack_url: https://slack.lfenergy.org
-              summary_intro_url: https://www.youtube.com/watch?v=WVOCXx6Cdn8
-              summary_use_case: |
-                FledgePOWER is a flexible, lightweight, industrial-grade, open source gateway that embeds Fledge (LF EDGE). Additionally, FledgePOWER provides a toolbox for simulation, data configuration, and checking, focused uniquely on power systems’ protocols translation and power systems’ use cases.
-
-                Features: lightweight, extensible, modular, flexible, scalable, secured, interoperable
-
-                Use cases:
-                - Improving the availability of an IEC 104 substation by deploying FledgePower with multi-centre IEC 104 redundancy.
-                - Securing an old generation substation in HNZ protocol, by deploying FledgePower with IEC 104 over TLS.
-                - Power grid simulation, using FledgePower to integrate with the substation in IEC 104 on the one hand and the simulation system in OPCUA on the other.
-          - item:
             name: FlexMeasures
             homepage_url: https://flexmeasures.io/
             logo: flexmeasures.svg
@@ -16052,6 +15975,8 @@ landscape:
             project: sandbox
             repo_url: https://github.com/energnn/energnn
             license: MPL-2.0
+            additional_repos:
+              - repo_url: https://github.com/energnn/pypowsybl-to-energnn
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2026-04-27'
@@ -16071,8 +15996,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf5aEYe6coFhjFY7X4
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/energnn/energnn_Charter.pdf?v=1774890498324
-            additional_repos:
-              - repo_url: https://github.com/energnn/pypowsybl-to-energnn
           - item:
             name: FIDOPower
             homepage_url: https://fidopower.energy/
@@ -16490,7 +16413,7 @@ landscape:
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/rtdip/core
-            license: Other
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-06-04'
@@ -16511,6 +16434,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rtdip
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmxQAF
+                - name: Charter
+                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/rtdip_charter.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=OKegDi9MdZI
               summary_use_case: |
