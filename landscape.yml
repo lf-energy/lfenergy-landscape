@@ -14869,7 +14869,6 @@ landscape:
               Open source, scalable, and technology-agnostic industrial Internet of Things (IoT) platform that enables grid operators to securely collect data, monitor, control, and manage smart devices across the power grid
               GXF is open, independent, and driven by its community, developed using open source best practices and designed to use open standards. This enables third parties to develop new and innovative solutions. The trade-off is flexibility and freedom. Unlike closed proprietary software, open source software can be altered and extended by any developer familiar with the source code. This grants organizations freedom from “vendor lock-in,” assures long-term viability, and creates industry opportunities for support, consulting, and training.
             second_path:
-              - SIG / No SIG
               - Transmission / Data & IoT
               - Distribution / Data & IoT
               - Behind-the-Meter / Data & IoT
@@ -15406,8 +15405,8 @@ landscape:
             description: |
               An open source microgrid community orchestrator designed to enhance grid resilience and flexibility by facilitating autonomous, peer-to-peer distribution of local renewable energy within decentralized energy networks
             second_path:
-              - Behind-the-Meter / Flexibility
               - SIG / Edge Interoperability and Flexibility SIG
+              - Behind-the-Meter / Flexibility
               - Energy Systems / Modeling and Optimization
               - Acquisition and Control / Edge Node Control
             project: incubating
@@ -16057,6 +16056,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/287
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
               dev_stats_url: https://insights.linuxfoundation.org/project/grid2op
+              incubating: '2026-07-29'
               lfx_slug: grid2op
               other_links:
                 - name: Calendar
@@ -16285,6 +16285,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/260
               artwork_url: https://artwork.lfenergy.org/projects/opengridfm
               dev_stats_url: https://insights.linuxfoundation.org/project/opengridfm
+              incubating: '2026-07-29'
               lfx_slug: opengridfm
               other_links:
                 - name: Calendar
@@ -16483,7 +16484,6 @@ landscape:
             description: |
               An open source platform that provides visibility into, and enables the management of, suppliers' Scope 3 greenhouse gas emissions to help companies develop strategies and take action towards net-zero targets
             second_path:
-              - SIG / No SIG
               - Other / Carbon Accounting
               - Emissions / Carbon Intensity and Accounting
             project: sandbox
@@ -16491,7 +16491,7 @@ landscape:
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2024-09-17'
+              accepted: '2024-09-26'
               annotations:
                 next_annual_review_date: '2025-11-11'
                 chair: Sachin Bhakar
