@@ -16103,7 +16103,10 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/geisa_charter.pdf
               summary_use_case: |
                 The secure, interoperable ecosystem to streamline the cybersecurity, deployment, scaling and operation of next-generation grid edge computing and applications
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/geisa/community
+              - repo_url: https://github.com/geisa/conformance
+              - repo_url: https://github.com/geisa/schemas
           - item:
             name: Grid Vantage
             homepage_url: https://gridvantage.energy/
