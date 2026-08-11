@@ -15401,6 +15401,44 @@ landscape:
                 - Heating (heat pump control)
                 - Industry (best running times for processes with buffering capacity)
           - item:
+            name: Grid2Op
+            homepage_url: https://grid2op.energy/
+            logo: grid2op.svg
+            description: An open source Python framework designed for modeling and simulating sequential decision-making processes in power systems, primarily used for developing and evaluating intelligent control agents (e.g., using reinforcement learning) to manage and optimize grid operations
+            second_path:
+              - SIG / AI SIG
+              - Distribution / Modeling and Simulation
+              - Transmission / Modeling and Simulation
+              - Energy Systems / Modeling and Optimization
+            project: incubating
+            repo_url: https://github.com/Grid2op/grid2op
+            license: MPL-2.0
+            additional_repos:
+              - repo_url: https://github.com/Grid2op/lightsim2grid
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2025-02-11'
+              annotations:
+                project_org: https://github.com/Grid2op
+                next_annual_review_date: '2027-06-17'
+                chair: Benjamin Donnot
+                submitted_date: '2024-11-12'
+              annual_review_date: '2026-06-18'
+              annual_review_url: https://github.com/lf-energy/tac/issues/287
+              artwork_url: https://artwork.lfenergy.org/projects/grid2op
+              dev_stats_url: https://insights.linuxfoundation.org/project/grid2op
+              incubating: '2026-07-29'
+              lfx_slug: grid2op
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
+                - name: Charter
+                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid2op_charter.pdf
+              summary_use_case: |
+                An open source Python framework designed for modeling and simulating sequential decision-making processes in power systems, primarily used for developing and evaluating intelligent control agents (e.g., using reinforcement learning) to manage and optimize grid operations
+          - item:
             name: Hyphae
             homepage_url: https://www.lfenergy.org/projects/hyphae/
             logo: hyphae.svg
@@ -15504,6 +15542,35 @@ landscape:
                 OpenDSM, as implemented in the eemeter package and sister eeweather package, contains the most complete open source implementation of the CalTRACK Methods, which specify a family of ways to calculate and aggregate estimates of avoided energy use at a single power meter, particularly suitable for use in pay-for-performance (P4P) programs.
 
                 The eemeter package contains a toolkit written in the Python language, which may help in implementing a CalTRACK-compliant analysis. It contains a modular set of functions, parameters, and classes that can be configured to run the CalTRACK methods and close variants.
+          - item:
+            name: OpenGridFM
+            homepage_url: https://opengridfm.energy/
+            logo: opengridfm.svg
+            description: An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
+            second_path:
+              - SIG / AI SIG
+            project: incubating
+            license: Other
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2024-10-29'
+              annotations:
+                next_annual_review_date: '2027-06-17'
+                submitted_date: '2024-10-11'
+                chair: François Mirallès
+              annual_review_date: '2026-06-18'
+              annual_review_url: https://github.com/lf-energy/tac/issues/260
+              artwork_url: https://artwork.lfenergy.org/projects/opengridfm
+              dev_stats_url: https://insights.linuxfoundation.org/project/opengridfm
+              incubating: '2026-07-29'
+              lfx_slug: opengridfm
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opengridfm
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGFeSdSUJqLdBHTBZ
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gridfm/gridfm_Charter.pdf?v=1781190510434
           - item:
             name: OpenLEADR
             homepage_url: https://www.lfenergy.org/projects/openleadr/
@@ -16031,45 +16098,6 @@ landscape:
                 An open framework for inter-organizational data exchange, data and model synthesis, and system performance analysis across multiple power systems tools
             additional_repos: []
           - item:
-            name: Grid2Op
-            homepage_url: https://grid2op.energy/
-            logo: grid2op.svg
-            description: |
-              An open source Python framework designed for modeling and simulating sequential decision-making processes in power systems, primarily used for developing and evaluating intelligent control agents (e.g., using reinforcement learning) to manage and optimize grid operations
-            second_path:
-              - SIG / AI SIG
-              - Distribution / Modeling and Simulation
-              - Transmission / Modeling and Simulation
-              - Energy Systems / Modeling and Optimization
-            project: sandbox
-            repo_url: https://github.com/Grid2op/grid2op
-            license: MPL-2.0
-            additional_repos:
-              - repo_url: https://github.com/Grid2op/lightsim2grid
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2025-02-11'
-              annotations:
-                project_org: https://github.com/Grid2op
-                next_annual_review_date: '2027-06-17'
-                chair: Benjamin Donnot
-                submitted_date: '2024-11-12'
-              annual_review_date: '2026-06-18'
-              annual_review_url: https://github.com/lf-energy/tac/issues/287
-              artwork_url: https://artwork.lfenergy.org/projects/grid2op
-              dev_stats_url: https://insights.linuxfoundation.org/project/grid2op
-              incubating: '2026-07-29'
-              lfx_slug: grid2op
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid2op_charter.pdf
-              summary_use_case: |
-                An open source Python framework designed for modeling and simulating sequential decision-making processes in power systems, primarily used for developing and evaluating intelligent control agents (e.g., using reinforcement learning) to manage and optimize grid operations
-          - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
             homepage_url: https://lfenergy.org/projects/geisa/
             logo: grid_edge_interoperability_security_alliance_geisa.svg
@@ -16270,35 +16298,6 @@ landscape:
                 The Foundation for Impact:
                 NODE Collective’s data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
             additional_repos: []
-          - item:
-            name: OpenGridFM
-            homepage_url: https://opengridfm.energy/
-            logo: opengridfm.svg
-            description: An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
-            second_path:
-              - SIG / AI SIG
-            project: sandbox
-            license: Other
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2024-10-29'
-              annotations:
-                next_annual_review_date: '2027-06-17'
-                submitted_date: '2024-10-11'
-                chair: François Mirallès
-              annual_review_date: '2026-06-18'
-              annual_review_url: https://github.com/lf-energy/tac/issues/260
-              artwork_url: https://artwork.lfenergy.org/projects/opengridfm
-              dev_stats_url: https://insights.linuxfoundation.org/project/opengridfm
-              incubating: '2026-07-29'
-              lfx_slug: opengridfm
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opengridfm
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGFeSdSUJqLdBHTBZ
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gridfm/gridfm_Charter.pdf?v=1781190510434
           - item:
             name: OpenSynth
             homepage_url: https://github.com/OpenSynth-energy/OpenSynth
