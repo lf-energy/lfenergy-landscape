@@ -14869,59 +14869,6 @@ landscape:
 
                 EVerest supports all protocols needed to facilitate frictionless and reliable charging regardless of the car, charger, cloud provider, and payment platform.
           - item:
-            name: Grid eXchange Fabric (GXF)
-            homepage_url: https://www.lfenergy.org/projects/gxf/
-            logo: grid_exchange_fabric_gxf.svg
-            description: |-
-              Open source, scalable, and technology-agnostic industrial Internet of Things (IoT) platform that enables grid operators to securely collect data, monitor, control, and manage smart devices across the power grid
-              GXF is open, independent, and driven by its community, developed using open source best practices and designed to use open standards. This enables third parties to develop new and innovative solutions. The trade-off is flexibility and freedom. Unlike closed proprietary software, open source software can be altered and extended by any developer familiar with the source code. This grants organizations freedom from “vendor lock-in,” assures long-term viability, and creates industry opportunities for support, consulting, and training.
-            second_path:
-              - Transmission / Data & IoT
-              - Distribution / Data & IoT
-              - Behind-the-Meter / Data & IoT
-              - Energy Systems / Distribution and Grids
-            project: earlyadoption
-            repo_url: https://github.com/OSGP/Documentation
-            license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/OSGP/open-smart-grid-platform
-              - repo_url: https://github.com/OSGP/Config
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            url_for_bestpractices: https://github.com/osgp
-            extra:
-              accepted: '2020-02-04'
-              annotations:
-                wiki_url: https://lf-energy.atlassian.net/wiki/spaces/GEF
-                next_annual_review_date: '2026-07-21'
-                chair: Maarten Mulder
-                project_org: https://github.com/OSGP
-                contributed_by: Alliander
-                submitted_date: '2023-08-09'
-              annual_review_date: '2025-07-08'
-              annual_review_url: https://github.com/lf-energy/tac/issues/8
-              artwork_url: https://artwork.lfenergy.org/projects/grid-exchange-fabric
-              chat_channel: '#gxf'
-              dev_stats_url: https://insights.linuxfoundation.org/project/grid-exchange-fabric
-              documentation_url: https://grid-exchange-fabric.gitbook.io/
-              incubating: '2020-02-04'
-              lfx_slug: grid-exchange-fabric
-              mailing_list_url: https://lists.lfenergy.org/g/gxf
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid-exchange-fabric
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001JWs7KQAT
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid-exchange-frabric_charter.pdf
-                - name: Architecture Overview
-                  url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/gxf-diagram.png
-              slack_url: https://slack.lfenergy.org
-              summary_intro_url: https://www.youtube.com/watch?v=FZ2tnLDXM6Q
-              summary_use_case: |
-                Grid eXchange Fabric (GXF) is an industrial IoT backend that enables hardware monitoring and control in the public space. GXF provides several functions out of the box and provides scalability, high availability, high security, a generic design, and no vendor lock-in. GXF is currently deployed in several public use cases, including microgrids, smart metering, public lighting, and distribution automation.
-
-                GXF can be deployed to multiple servers or distributed over multiple data centers in an active-active setup so that even if one data center fails, no data or functionality is lost. In a cloud-hosted setup, it is possible to use auto scaling to automatically add or remove servers on any of the platform layers to scale the platform to the current load and use. Servers can automatically be scaled up and down when necessary, thereby reducing hardware costs. This setup can also be used to minimize the costs during the phased rollout of smart devices.
-          - item:
             name: OperatorFabric
             homepage_url: https://www.lfenergy.org/projects/operatorfabric/
             logo: operatorfabric.svg
@@ -15120,7 +15067,7 @@ landscape:
             extra:
               accepted: '2020-10-06'
               annotations:
-                next_annual_review_date: '2026-07-21'
+                next_annual_review_date: '2027-07-13'
                 chair: Eloi Bail
                 project_org: https://github.com/seapath
                 contributed_by: RTE, GE, Savoir-faire Linux, Welotec
@@ -15130,7 +15077,7 @@ landscape:
                   type: audit
                   vendor: Ada Logics
                   url: https://ostif.org/wp-content/uploads/2024/08/SEAPATH-audit-report-23-july-2024.pdf
-              annual_review_date: '2025-01-14'
+              annual_review_date: '2026-07-21'
               annual_review_url: https://github.com/lf-energy/tac/issues/73
               artwork_url: https://artwork.lfenergy.org/projects/seapath
               chat_channel: '#seapath'
@@ -15178,7 +15125,7 @@ landscape:
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
             repo_url: https://github.com/sogno-platform/dpsim
-            license: Other
+            license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/sogno-platform/cimgen
               - repo_url: https://github.com/sogno-platform/cimpy
@@ -15206,6 +15153,8 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/sogno
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkV6jQAF
+                - name: Charter
+                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/sogno_charter.pdf
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/sogno-charter.pdf
                 - name: Architecture Overview
@@ -15806,7 +15755,7 @@ landscape:
               annotations:
                 topics: energy,platform,collaboration,linux-foundation,hypervision,alerting
                 next_annual_review_date: '2026-10-07'
-                chair: David Chassin
+                chair: Alyona Teyber
                 contributed_by: SLAC, PNNL, Amazon, SCE, CEC, Hitachi
                 project_org: https://github.com/arras-energy
                 submitted_date: '2024-01-05'
@@ -16086,7 +16035,7 @@ landscape:
               accepted: '2023-01-17'
               annotations:
                 next_annual_review_date: '2026-08-05'
-                chair: David Chassin
+                chair: Alyona Teyber
                 project_org: https://github.com/fidopower
                 submitted_date: '2023-11-07'
               annual_review_date: '2025-06-04'
