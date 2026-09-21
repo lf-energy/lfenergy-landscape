@@ -18,10 +18,15 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: jmertic/lfx-landscape-tools@9176c94eb7a966dc8af247efa69ef8c542e2129d # 20260826
         env:
-          token: ${{ secrets.PAT }}
-          ghid_token: ${{ secrets.PAT }}
+          token: ${{ steps.app-token.outputs.token }}
+          ghid_token: ${{ steps.app-token.outputs.token }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
       - uses: jmertic/lfx-landscape-tools@9176c94eb7a966dc8af247efa69ef8c542e2129d # 20260826
@@ -29,7 +34,7 @@ jobs:
           configfile: config-lfess.yml
           logfile: debug-lfess.log
         env:
-          token: ${{ secrets.PAT }}
-          ghid_token: ${{ secrets.PAT }}
+          token: ${{ steps.app-token.outputs.token }}
+          ghid_token: ${{ steps.app-token.outputs.token }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
