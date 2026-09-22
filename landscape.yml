@@ -15241,6 +15241,52 @@ landscape:
         name: Incubating
         items:
           - item:
+            name: Battery Data Alliance
+            homepage_url: https://batterydataalliance.energy/
+            logo: battery_data_alliance.svg
+            description: Sustainable open source software, best practices, and delivery standards for the battery industry
+            second_path:
+              - SIG / No SIG
+              - Other / Batteries
+              - Energy Storage / Battery
+            project: incubating
+            repo_url: https://github.com/battery-data-alliance/pymacnet
+            license: Apache-2.0
+            additional_repos:
+              - repo_url: https://github.com/battery-data-alliance/pyctiarbin
+              - repo_url: https://github.com/battery-data-alliance/battery-data-format-ontology
+            crunchbase: https://www.crunchbase.com/organization/lf-energy
+            extra:
+              accepted: '2023-09-05'
+              annotations:
+                next_annual_review_date: '2027-09-14'
+                chair: Gabe Hege
+                project_org: https://github.com/battery-data-alliance
+                contributed_by: AmpLabs, BattGenie, ionworks
+                submitted_date: '2023-10-04'
+              annual_review_date: '2026-09-08'
+              annual_review_url: https://github.com/lf-energy/tac/issues/57
+              artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
+              dev_stats_url: https://insights.linuxfoundation.org/project/battery-data-alliance
+              incubating: '2026-09-21'
+              lfx_slug: battery-data-alliance
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/battery-data-alliance
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfomTQpTLl3A7cDHjh
+                - name: Charter
+                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/battery-data-alliance_charter.pdf
+              summary_use_case: |
+                The LF Energy Battery Data Alliance (BDA) was created to bring battery companies together to work jointly to unify how batteries are handled in terms of software. Battery data is core to creating a decarbonized economy and power systems, yet companies waste tremendous amounts of time implementing battery data schemas, integrations/conversions, typical calculations, etc. BDA believes that an open source tool should exist to enable researchers and engineers to focus on bringing more innovative solutions to market rather than each organization duplicating the same work.
+
+                Based on experience and discussions within the industry, BDA is focusing on four key areas:
+
+                - Design: One key challenge arises from the lack of open source battery data and a standardized method to access existing datasets. As a result, companies often find themselves engaged in redundant efforts concerning data collection and conversion.
+                - Testing: Many companies manually configure their testing equipment. There is a gap in the market between available testing standards and the actual execution of tests.
+                - Manufacturing: Variations in battery data structures across manufacturers lead to unnecessary complexities in schema design and data conversion leading to inefficiencies and barriers for collaboration.
+                - Telemetry: The area of battery telemetry remains largely unexplored from an open source perspective. There is untapped potential for development and growth in this area.
+          - item:
             name: Dynaωo
             homepage_url: https://dynawo.github.io/
             logo: dynaoo.svg
@@ -15809,53 +15855,6 @@ landscape:
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/relife/relife_Charter.pdf?v=1788982011404
             additional_repos: []
-          - item:
-            name: Battery Data Alliance
-            homepage_url: https://batterydataalliance.energy/
-            logo: battery_data_alliance.svg
-            description: |
-              Sustainable open source software, best practices, and delivery standards for the battery industry
-            second_path:
-              - SIG / No SIG
-              - Other / Batteries
-              - Energy Storage / Battery
-            project: sandbox
-            repo_url: https://github.com/battery-data-alliance/pymacnet
-            license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/battery-data-alliance/pyctiarbin
-              - repo_url: https://github.com/battery-data-alliance/battery-data-format-ontology
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2023-09-05'
-              annotations:
-                next_annual_review_date: '2027-09-14'
-                chair: Gabe Hege
-                project_org: https://github.com/battery-data-alliance
-                contributed_by: AmpLabs, BattGenie, ionworks
-                submitted_date: '2023-10-04'
-              annual_review_date: '2026-09-08'
-              annual_review_url: https://github.com/lf-energy/tac/issues/57
-              artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
-              dev_stats_url: https://insights.linuxfoundation.org/project/battery-data-alliance
-              incubating: '2023-09-05'
-              lfx_slug: battery-data-alliance
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/battery-data-alliance
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfomTQpTLl3A7cDHjh
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/battery-data-alliance_charter.pdf
-              summary_use_case: |
-                The LF Energy Battery Data Alliance (BDA) was created to bring battery companies together to work jointly to unify how batteries are handled in terms of software. Battery data is core to creating a decarbonized economy and power systems, yet companies waste tremendous amounts of time implementing battery data schemas, integrations/conversions, typical calculations, etc. BDA believes that an open source tool should exist to enable researchers and engineers to focus on bringing more innovative solutions to market rather than each organization duplicating the same work.
-
-                Based on experience and discussions within the industry, BDA is focusing on four key areas:
-
-                - Design: One key challenge arises from the lack of open source battery data and a standardized method to access existing datasets. As a result, companies often find themselves engaged in redundant efforts concerning data collection and conversion.
-                - Testing: Many companies manually configure their testing equipment. There is a gap in the market between available testing standards and the actual execution of tests.
-                - Manufacturing: Variations in battery data structures across manufacturers lead to unnecessary complexities in schema design and data conversion leading to inefficiencies and barriers for collaboration.
-                - Telemetry: The area of battery telemetry remains largely unexplored from an open source perspective. There is untapped potential for development and growth in this area.
           - item:
             name: CitrineOS
             homepage_url: https://citrineos.github.io/latest/
