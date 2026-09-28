@@ -1882,14 +1882,6 @@ landscape:
             logo: cimtool-text.svg
             crunchbase: https://www.crunchbase.com/organization/langdale-consulting-and-technical-services
           - item:
-            name: CityLearn
-            description: Official reinforcement learning environment for demand response and load shaping.
-            homepage_url: https://github.com/intelligent-environments-lab/CityLearn
-            repo_url: https://github.com/intelligent-environments-lab/CityLearn
-            logo: CityLearn.svg
-            organization:
-              name: Intelligent Environments Laboratory
-          - item:
             name: CORAL
             second_path:
               - WETOStack / Cost models
@@ -14458,7 +14450,7 @@ landscape:
             homepage_url: https://fraunhofer.de/
             logo: fraunhofer_gesellschaft.svg
             description: |-
-              Attn: 
+              Attn:
               Norbert Schuhmann, Erlangen, Germany c/o Fraunhofer IIS
               Alexander Noack, Dresden, Germany c/o Fraunhofer IPMS
 
@@ -14492,13 +14484,13 @@ landscape:
 
               INESC TEC invests in Scientific Research and Technological Development, as well as in Advanced Training and Consulting, Technology Transfer and supports the Establishment of new Technology-based Companies.
 
-              INESC TEC brings together more than 800 researchers, of which around 300 have PhDs (250 integrated PhDs in 600 researchers), forming a robust cluster with complementary skills and with notable international presence. 
+              INESC TEC brings together more than 800 researchers, of which around 300 have PhDs (250 integrated PhDs in 600 researchers), forming a robust cluster with complementary skills and with notable international presence.
 
               INESC TEC was created to act as an interface between the academic world, the world of industry and services and the public administration in Information Technologies, Telecommunications and Electronics (ITT&E).
 
-              At INESC TEC, the knowledge and results generated as part of fundamental research are typically applied in technology transfer projects, always guaranteeing added and immediate social relevance. 
+              At INESC TEC, the knowledge and results generated as part of fundamental research are typically applied in technology transfer projects, always guaranteeing added and immediate social relevance.
 
-              With the launching of INESC P&D BRASIL (in São Paulo, Brazil), INESC TEC has strengthened its presence worldwide, always associating Portugal to international scientific excellence. 
+              With the launching of INESC P&D BRASIL (in São Paulo, Brazil), INESC TEC has strengthened its presence worldwide, always associating Portugal to international scientific excellence.
 
               In Portugal, INESC TEC’s capacity for technological innovation has made it possible to modernise national sectors and to launch new exporting companies.
 
@@ -15497,9 +15489,9 @@ landscape:
             logo: opendsm.svg
             description: |-
               Open source library that measures the impacts of demand-side energy programs (like energy efficiency and demand response) by modeling historical energy usage to predict counterfactuals and compare them to actual post-intervention consumption
-              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;  
+              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;
               - Maintain a production-ready library to act as a measurement system for distributed energy resources that can be replicated by all parties in markets and expand capabilities over time;
-              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets; 
+              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets;
               - Provide reusable components with documented APIs and consistent security practices; and
               - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define common transactional units for distributed energy resources in the market.
             second_path:
@@ -15555,6 +15547,7 @@ landscape:
             description: An open source framework dedicated to enabling the development and application of "foundation models" (large AI models pre-trained on vast datasets) specifically for power grids, aiming to accelerate computations and improve grid operations, planning, and control in the face of increasing complexity
             second_path:
               - SIG / AI SIG
+              - Energy Systems / Datasets on Energy Systems
             project: incubating
             license: Other
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -15756,12 +15749,13 @@ landscape:
             homepage_url: https://ainetus.energy/
             logo: ainetus.svg
             description: |-
-              AI algorithms mainly composed by supervised and reinforcement learning. Unifying the benefits of existing heuristics, physical modelling of these complex systems and learning methods, as well as a set of complementary techniques to enhance transparency, safety, explainability and human acceptance. 
+              AI algorithms mainly composed by supervised and reinforcement learning. Unifying the benefits of existing heuristics, physical modelling of these complex systems and learning methods, as well as a set of complementary techniques to enhance transparency, safety, explainability and human acceptance.
               Human-in-the-loop decision making for co-learning between AI and humans. Considering integration of model uncertainty, human cognitive load and trust.
               Autonomous AI systems relying on human supervision.
               Embedded with human domain knowledge and Safety rules.
             second_path:
               - SIG / No SIG
+              - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/ainetus/ExpertOp4Grid
             license: MPL-2.0
@@ -15835,6 +15829,8 @@ landscape:
             name: AssetLife
             homepage_url: https://github.com/assetlife-project
             logo: assetlife.svg
+            second_path:
+              - Energy Systems / Distribution and Grids
             description: ReLife is an open source Python library that implements survival analysis methods, renewal theory, and socioeconomic evaluation aimed at optimizing network asset renewal policies.
             project: sandbox
             repo_url: https://github.com/assetlife-project/assetlife
@@ -15917,6 +15913,7 @@ landscape:
             description: The mission of the Project is to enable the implementation and benchmarking of advanced controllers for demand side building energy coordination and demand
             second_path:
               - SIG / No SIG
+              - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/citylearn-project/CityLearn
             license: MIT
@@ -15991,6 +15988,7 @@ landscape:
             description: Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
             second_path:
               - SIG / No SIG
+              - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/cupid-project/Client-Server
             license: MIT
@@ -16024,6 +16022,7 @@ landscape:
             description: A Graph Neural Network library for real-life and full-scale energy networks.
             second_path:
               - SIG / No SIG
+              - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/energnn/energnn
             license: MPL-2.0
@@ -16056,6 +16055,9 @@ landscape:
               An open framework for inter-organizational data exchange, data and model synthesis, and system performance analysis across multiple power systems tools
             second_path:
               - SIG / Grid Simulation and Modeling SIG
+              - Distribution / Modeling and Simulation
+              - System Management / Power System Calculation
+              - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/fidopower/optimal_sizing_placement
             license: BSD-3-Clause
@@ -16167,6 +16169,7 @@ landscape:
             description: The Granular Registry exists to advance a decarbonized electricity system by providing an open-source, compliance-grade registry that issues, tracks, and retires timestamped Granular Certificates (GCs).
             second_path:
               - SIG / No SIG
+              - Energy Systems / Modeling and Optimization
             project: sandbox
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -16195,6 +16198,7 @@ landscape:
               Open source initiative dedicated to establishing and promoting semantic interoperability within the energy sector, enabling cross-domain data exchange and knowledge sharing through standardized ontologies
             second_path:
               - SIG / No SIG
+              - Energy Systems / Datasets on Energy Systems
             project: sandbox
             repo_url: https://github.com/lfe-sef/generic-adapter
             license: Apache-2.0
@@ -16364,6 +16368,7 @@ landscape:
             description: The Power Stability Wide Area Monitoring Protection (p-SWAMP) project provides an open, extensible Research & Development environment for future WAMS innovation. By offering a modular, microservices-based architecture and advanced simulation capabilities, p-SWAMP serves as a testbench for developing, validating, and deploying new technologies for monitoring grid stability, voltage performance, oscillatory behavior, and real-time system operations.
             second_path:
               - SIG / No SIG
+              - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/p-swamp/p-SWAMP
             license: Apache-2.0
@@ -16502,6 +16507,9 @@ landscape:
           - item:
             name: Smart HEMS Benchmark
             homepage_url: https://github.com/ecoflow-ai/hems-benchmark
+            second_path:
+              - SIG / No SIG
+              - Energy Systems / Modeling and Optimization
             logo: smart_hems_benchmark.svg
             description: This project aims to address the critical gap of standardized benchmarking scenarios in the rapid growth of residential Distributed Energy Resources (DERs). Through establishing a comprehensive open-source benchmarking platform, we provide an evaluation framework for the entire residential DER lifecycle.
             project: sandbox
@@ -16524,6 +16532,8 @@ landscape:
             name: VAREN
             homepage_url: https://github.com/varen-project
             logo: varen.svg
+            second_path:
+              - Asset Management / Asset Supervision
             description: VAREN is an open source library designed to extract actionable intelligence from LiDAR point clouds for the distribution networks.
             project: sandbox
             license: MPL-2.0
@@ -16774,6 +16784,7 @@ landscape:
             description: Utility Rate Plan Exchange (URPX) aims to develop a comprehensive, standardized method for representing and exchanging utility rate plan data in machine-accessible format. URPX will provide a solid yet versatile foundation that governments, utilities, vendors, and technology companies can leverage to improve transparency in energy pricing and clean energy procurement. The project builds upon an existing collaboration between NREL and Flux Tailor and aims to address the fragmented approach currently used by vendors who handle rate plan calculations in silos using custom logic and rules-based systems.
             second_path:
               - SIG / No SIG
+              - Sustainable Development / Data Catalogs and Interfaces
             project: working-group
             repo_url: https://github.com/urpx-org/urpx-wg
             license: Apache-2.0
