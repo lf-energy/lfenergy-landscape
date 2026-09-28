@@ -14450,7 +14450,7 @@ landscape:
             homepage_url: https://fraunhofer.de/
             logo: fraunhofer_gesellschaft.svg
             description: |-
-              Attn:
+              Attn: 
               Norbert Schuhmann, Erlangen, Germany c/o Fraunhofer IIS
               Alexander Noack, Dresden, Germany c/o Fraunhofer IPMS
 
@@ -14484,13 +14484,13 @@ landscape:
 
               INESC TEC invests in Scientific Research and Technological Development, as well as in Advanced Training and Consulting, Technology Transfer and supports the Establishment of new Technology-based Companies.
 
-              INESC TEC brings together more than 800 researchers, of which around 300 have PhDs (250 integrated PhDs in 600 researchers), forming a robust cluster with complementary skills and with notable international presence.
+              INESC TEC brings together more than 800 researchers, of which around 300 have PhDs (250 integrated PhDs in 600 researchers), forming a robust cluster with complementary skills and with notable international presence. 
 
               INESC TEC was created to act as an interface between the academic world, the world of industry and services and the public administration in Information Technologies, Telecommunications and Electronics (ITT&E).
 
-              At INESC TEC, the knowledge and results generated as part of fundamental research are typically applied in technology transfer projects, always guaranteeing added and immediate social relevance.
+              At INESC TEC, the knowledge and results generated as part of fundamental research are typically applied in technology transfer projects, always guaranteeing added and immediate social relevance. 
 
-              With the launching of INESC P&D BRASIL (in São Paulo, Brazil), INESC TEC has strengthened its presence worldwide, always associating Portugal to international scientific excellence.
+              With the launching of INESC P&D BRASIL (in São Paulo, Brazil), INESC TEC has strengthened its presence worldwide, always associating Portugal to international scientific excellence. 
 
               In Portugal, INESC TEC’s capacity for technological innovation has made it possible to modernise national sectors and to launch new exporting companies.
 
@@ -15489,9 +15489,9 @@ landscape:
             logo: opendsm.svg
             description: |-
               Open source library that measures the impacts of demand-side energy programs (like energy efficiency and demand response) by modeling historical energy usage to predict counterfactuals and compare them to actual post-intervention consumption
-              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;
+              - Build an open source library for predicting energy consumption of utility meters based on their historical usage and additional covariate data;  
               - Maintain a production-ready library to act as a measurement system for distributed energy resources that can be replicated by all parties in markets and expand capabilities over time;
-              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets;
+              - Ensure transparency and trust by providing open source code that enables reliable validation and mutual accountability in energy markets; 
               - Provide reusable components with documented APIs and consistent security practices; and
               - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define common transactional units for distributed energy resources in the market.
             second_path:
@@ -15749,7 +15749,7 @@ landscape:
             homepage_url: https://ainetus.energy/
             logo: ainetus.svg
             description: |-
-              AI algorithms mainly composed by supervised and reinforcement learning. Unifying the benefits of existing heuristics, physical modelling of these complex systems and learning methods, as well as a set of complementary techniques to enhance transparency, safety, explainability and human acceptance.
+              AI algorithms mainly composed by supervised and reinforcement learning. Unifying the benefits of existing heuristics, physical modelling of these complex systems and learning methods, as well as a set of complementary techniques to enhance transparency, safety, explainability and human acceptance. 
               Human-in-the-loop decision making for co-learning between AI and humans. Considering integration of model uncertainty, human cognitive load and trust.
               Autonomous AI systems relying on human supervision.
               Embedded with human domain knowledge and Safety rules.
@@ -15829,9 +15829,9 @@ landscape:
             name: AssetLife
             homepage_url: https://github.com/assetlife-project
             logo: assetlife.svg
+            description: ReLife is an open source Python library that implements survival analysis methods, renewal theory, and socioeconomic evaluation aimed at optimizing network asset renewal policies.
             second_path:
               - Energy Systems / Distribution and Grids
-            description: ReLife is an open source Python library that implements survival analysis methods, renewal theory, and socioeconomic evaluation aimed at optimizing network asset renewal policies.
             project: sandbox
             repo_url: https://github.com/assetlife-project/assetlife
             license: Apache-2.0
@@ -16471,47 +16471,12 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rtc-tools/rtc-tools_Charter.pdf?v=1753825022390
             additional_repos: []
           - item:
-            name: SC Decarbonisation Hub
-            homepage_url: https://lfenergy.org/projects/sc-decarbonisation-hub/
-            logo: sc_decarbonisation_hub.svg
-            description: |
-              An open source platform that provides visibility into, and enables the management of, suppliers' Scope 3 greenhouse gas emissions to help companies develop strategies and take action towards net-zero targets
-            second_path:
-              - Other / Carbon Accounting
-              - Emissions / Carbon Intensity and Accounting
-            project: sandbox
-            repo_url: https://github.com/sc-decarbonization-hub/SCDHApi
-            license: Apache-2.0
-            crunchbase: https://www.crunchbase.com/organization/lf-energy
-            extra:
-              accepted: '2024-09-26'
-              annotations:
-                next_annual_review_date: '2025-11-11'
-                chair: Sachin Bhakar
-                project_org: https://github.com/sc-decarbonization-hub
-                submitted_date: '2024-06-10'
-              annual_review_url: https://github.com/lf-energy/tac/issues/171
-              artwork_url: https://artwork.lfenergy.org/projects/sc-decarbonisation-hub
-              dev_stats_url: https://insights.linuxfoundation.org/project/sc-decarbonisation-hub
-              lfx_slug: sc-decarbonisation-hub
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/sc-decarbonisation-hub
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfLxmTMlwn9Fj9aCbx
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/sc-decarbonisation-hub_charter.pdf
-              summary_use_case: |
-                An open source platform that provides visibility into, and enables the management of, suppliers' Scope 3 greenhouse gas emissions to help companies develop strategies and take action towards net-zero targets
-            additional_repos: []
-          - item:
             name: Smart HEMS Benchmark
             homepage_url: https://github.com/ecoflow-ai/hems-benchmark
-            second_path:
-              - SIG / No SIG
-              - Energy Systems / Modeling and Optimization
             logo: smart_hems_benchmark.svg
             description: This project aims to address the critical gap of standardized benchmarking scenarios in the rapid growth of residential Distributed Energy Resources (DERs). Through establishing a comprehensive open-source benchmarking platform, we provide an evaluation framework for the entire residential DER lifecycle.
+            second_path:
+              - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/ecoflow-ai/hems-benchmark
             license: Apache-2.0
@@ -16532,14 +16497,20 @@ landscape:
             name: VAREN
             homepage_url: https://github.com/varen-project
             logo: varen.svg
-            second_path:
-              - Asset Management / Asset Supervision
             description: VAREN is an open source library designed to extract actionable intelligence from LiDAR point clouds for the distribution networks.
+            second_path:
+              - SIG / No SIG
+              - Asset Management / Asset Supervision
             project: sandbox
             license: MPL-2.0
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2026-09-22'
+              annotations:
+                next_annual_review_date: '2027-07-13'
+                submitted_date: '2026-03-03'
+                chair: ''
+              annual_review_url: https://github.com/lf-energy/tac/issues/764
               artwork_url: https://artwork.lfenergy.org/projects/varen
               dev_stats_url: https://insights.linuxfoundation.org/project/varen
               lfx_slug: varen
@@ -16555,7 +16526,7 @@ landscape:
         items:
           - item:
             name: AI SIG
-            homepage_url: https://lfenergy.org/working-groups/lf-energy-artificial-intelligence-ai/
+            homepage_url: https://lfenergy.org/groups/artificial-intelligence-sig/
             logo: ai_sig.svg
             description: |
               LF Energy Special Interest Group (SIG) focused on Aritificial Intelligence (AI)
@@ -16584,7 +16555,7 @@ landscape:
                 LF Energy Special Interest Group (SIG) focused on Artificial Intelligence (AI)
           - item:
             name: Edge Interoperability and Flexibility SIG
-            homepage_url: https://lf-energy.atlassian.net/wiki/spaces/ECS/overview
+            homepage_url: https://lfenergy.org/groups/edge-interoperability-flexibility-sig/
             logo: edge_interoperability_and_flexibility_sig.svg
             description: LF Energy Special Interest Group (SIG) focused on electric vehicle (EV) charging
             project: sig
