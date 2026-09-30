@@ -15831,15 +15831,20 @@ landscape:
             logo: assetlife.svg
             description: ReLife is an open source Python library that implements survival analysis methods, renewal theory, and socioeconomic evaluation aimed at optimizing network asset renewal policies.
             second_path:
+              - SIG / No SIG
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/assetlife-project/assetlife
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2026-05-08'
+              accepted: '2026-06-16'
               annotations:
                 project_org: https://github.com/assetlife-project
+                next_annual_review_date: '2027-06-08'
+                submitted_date: '2026-03-03'
+                chair: William Grison
+              annual_review_url: https://github.com/lf-energy/tac/issues/762
               artwork_url: https://artwork.lfenergy.org/projects/assetlife
               dev_stats_url: https://insights.linuxfoundation.org/project/assetlife
               lfx_slug: assetlife
@@ -16476,13 +16481,19 @@ landscape:
             logo: smart_hems_benchmark.svg
             description: This project aims to address the critical gap of standardized benchmarking scenarios in the rapid growth of residential Distributed Energy Resources (DERs). Through establishing a comprehensive open-source benchmarking platform, we provide an evaluation framework for the entire residential DER lifecycle.
             second_path:
+              - SIG / No SIG
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/ecoflow-ai/hems-benchmark
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
-              accepted: '2026-05-14'
+              accepted: '2026-06-16'
+              annotations:
+                next_annual_review_date: '2027-06-08'
+                submitted_date: '2025-11-05'
+                chair: Xiaoke Yang
+              annual_review_url: https://github.com/lf-energy/tac/issues/669
               artwork_url: https://artwork.lfenergy.org/projects/smart-hems-benchmark
               dev_stats_url: https://insights.linuxfoundation.org/project/smart-hems-benchmark
               lfx_slug: smart-hems-benchmark
