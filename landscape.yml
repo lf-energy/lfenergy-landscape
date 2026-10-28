@@ -13767,58 +13767,49 @@ landscape:
         name: Edge & Distributed Intelligence
         items: []
   - category:
-    name: Transmission
+    name: Generation
     subcategories:
       - subcategory:
         name: Operations
         items: []
+  - category:
+    name: Transmission
+    subcategories:
       - subcategory:
-        name: Data & IoT
+        name: Planning & Analysis
         items: []
       - subcategory:
-        name: Modeling and Simulation
-        items: []
-      - subcategory:
-        name: Grid Automation
-        items: []
-      - subcategory:
-        name: Grid Edge
+        name: Operations
         items: []
   - category:
     name: Distribution
     subcategories:
       - subcategory:
+        name: Planning & Analysis
+        items: []
+      - subcategory:
         name: Operations
         items: []
       - subcategory:
-        name: Data & IoT
-        items: []
-      - subcategory:
-        name: Modeling and Simulation
-        items: []
-      - subcategory:
-        name: Grid Automation
-        items: []
-      - subcategory:
-        name: Grid Edge
+        name: Markets & Programs
         items: []
   - category:
     name: Behind-the-Meter
     subcategories:
       - subcategory:
+        name: Planning & Analysis
+        items: []
+      - subcategory:
         name: Operations
         items: []
       - subcategory:
-        name: Data & IoT
+        name: Markets & Programs
         items: []
+  - category:
+    name: Cross-cutting
+    subcategories:
       - subcategory:
-        name: Modeling and Simulation
-        items: []
-      - subcategory:
-        name: Grid Automation
-        items: []
-      - subcategory:
-        name: Grid Edge
+        name: Planning & Analysis
         items: []
   - category:
     name: Other
@@ -14788,8 +14779,8 @@ landscape:
             description: Open source, browser-based toolset for IEC 61850 substation engineering, giving utilities one vendor-neutral place to specify and configure protection and control systems from multiple vendors.
             second_path:
               - SIG / No SIG
-              - Transmission / Grid Automation
-              - Distribution / Grid Automation
+              - Transmission / Operations
+              - Distribution / Operations
               - Acquisition and Control / Substation Node
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
@@ -14797,10 +14788,13 @@ landscape:
             license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/com-pas/compas-cim-mapping
-              - repo_url: https://github.com/com-pas/compas-sct
               - repo_url: https://github.com/com-pas/compas-scl-data-service
               - repo_url: https://github.com/com-pas/compas-scl-auto-alignment
-              - repo_url: https://github.com/com-pas/compas-scl-validator
+              - repo_url: https://github.com/com-pas/compas-transnetbw-plugins
+              - repo_url: https://github.com/com-pas/oscd-template-generator
+              - repo_url: https://github.com/com-pas/scl-bay-template
+              - repo_url: https://github.com/com-pas/compas-sitipe-service
+              - repo_url: https://github.com/com-pas/compas-deployment
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/com-pas/compas-core
             extra:
@@ -14816,6 +14810,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/compas
               chat_channel: '#compas'
               dev_stats_url: https://insights.linuxfoundation.org/project/compas
+              documentation_url: https://lf-energy.atlassian.net/wiki/spaces/SHP/overview
               incubating: '2020-05-05'
               lfx_slug: compas
               mailing_list_url: https://lists.lfenergy.org/g/CoMPAS
@@ -14830,21 +14825,24 @@ landscape:
                   url: https://lfenergy.org/lf-energy-compas-cleans-up-iec-61850-data-model/
                 - name: Use Case - How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid
                   url: https://lfenergy.org/how-rte-and-alliander-embraced-open-source-to-speed-modernization-of-the-grid/
-                - name: Architecture Diagram
-                  url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/CoMPAS-architecture-overview-202320230912.png
+                - name: Presentation - CoMPAS and Beyond - Simplifying IEC 61850 (LF Energy Summit 2024)
+                  url: https://lfenergysummit2024.sched.com/event/1ehIw/compas-and-beyond-simplifying-iec61850-pascal-wilbrink-openvalue-arnhem
+                - name: Presentation - CoMPAS Essentials - Key to Simplicity (LF Energy Summit 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/26Izm/compas-essentials-key-to-simplicity-david-monichi-stefan-baumgartner-bearingpoint
+                - name: Presentation - CoMPAS 2026 Annual Review to the LF Energy TAC
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/CoMPAS%20annual%20review-%20260609.pdf
+                - name: Presentation - CoMPAS in Practice (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMZ0/compas-in-practice-building-extending-and-ensuring-quality-in-scl-engineering-stefan-baumgartner-philomena-apitzsch-lorenz-horburger-david-monichi-bearingpoint-sander-jansen-alliander-nv
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=CAMYMdUwrVg
               summary_use_case: |
-                CoMPAS offers common software blocks for IEC 61850 profile configuration, using an open source shared development model, accelerating conformity to IEC 61850 interoperability requirements through software implementation.
+                CoMPAS is a browser-based toolset for engineering IEC 61850 protection, automation, and control (PAC) systems. Its editor, built on OpenSCD, edits Substation Configuration Language (SCL) files, which describe a substation and how its devices are configured and communicate. Backend services store and version those files and convert CIM substation models into SCL. An engineering wizard guides engineers through a company-defined workflow. It is built for transmission and distribution operators that want to specify and manage substation configurations themselves, and for device vendors that need a configuration tool without building one alone.
 
-                Primary use cases:
-                - Tools for IEC 61850 profile management and configuration are needed at various business processes of the power grid industry
-                - The planning process for grid infrastructure components facilitates the design of power system adaptations and the engineering of substation PACS to be installed or upgraded
-                - Specifying requirements and performing multi-vendor system integration and commissioning during the PACS procurement and delivery phase
-                - Adapting to changes in operational conditions and performing system configuration updates during the operational life of PACS
-                - Managing assets in order to perform maintenance actions and PACS upgrades
-                - Improving the interlinkage between grid planning and PACS engineering processes
-                - Improving the interlinkage between the configuration of PACS and the configuration of central systems, including SCADA and asset management
+                Use cases:
+                - Specify substation automation requirements as machine-readable SCL, such as logical node templates and bay typicals, for procurement
+                - Integrate protection, automation, and control devices from several vendors into one system configuration, during procurement, commissioning, and later updates
+                - Build a substation specification from the grid model by converting CIM substation data to SCL
+                - Validate and clean up IEC 61850 data models for signal interfaces between grid operators and grid-connected customers
           - item:
             name: EVerest
             homepage_url: https://lfenergy.org/projects/everest/
@@ -14852,42 +14850,19 @@ landscape:
             description: Open source firmware stack for EV charging stations, implementing the vehicle, back-office, and energy management protocols needed so any car can charge at any charger on any network.
             second_path:
               - SIG / Edge Interoperability and Flexibility SIG
-              - Behind-the-Meter / EV Charging
+              - Behind-the-Meter / Operations
               - Consumption of Energy and Resources / Mobility and Transportation
             project: earlyadoption
             repo_url: https://github.com/EVerest/EVerest
             license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/EVerest/cbexigen
-              - repo_url: https://github.com/EVerest/connector-container
-              - repo_url: https://github.com/EVerest/connector-serverless
-              - repo_url: https://github.com/EVerest/doc-preview
-              - repo_url: https://github.com/EVerest/everest-admin-panel
-              - repo_url: https://github.com/EVerest/everest-ci
-              - repo_url: https://github.com/EVerest/everest-cmake
-              - repo_url: https://github.com/EVerest/everest-core
-              - repo_url: https://github.com/EVerest/everest-demo
-              - repo_url: https://github.com/EVerest/everest-dev-environment
-              - repo_url: https://github.com/EVerest/everest-framework
-              - repo_url: https://github.com/EVerest/everest-template
-              - repo_url: https://github.com/EVerest/everest-utils
-              - repo_url: https://github.com/EVerest/everest.github.io
               - repo_url: https://github.com/EVerest/libcbv2g
-              - repo_url: https://github.com/EVerest/libevse-security
-              - repo_url: https://github.com/EVerest/libfsm
-              - repo_url: https://github.com/EVerest/libiso15118
-              - repo_url: https://github.com/EVerest/liblog
-              - repo_url: https://github.com/EVerest/libmodbus
-              - repo_url: https://github.com/EVerest/libocpp
-              - repo_url: https://github.com/EVerest/libslac
-              - repo_url: https://github.com/EVerest/libsunspec
-              - repo_url: https://github.com/EVerest/libtimer
-              - repo_url: https://github.com/EVerest/logfiles
-              - repo_url: https://github.com/EVerest/meta-everest
-              - repo_url: https://github.com/EVerest/ocpp-csms
-              - repo_url: https://github.com/EVerest/openv2g_parser
-              - repo_url: https://github.com/EVerest/repo-manifests
+              - repo_url: https://github.com/EVerest/ext-switchev-iso15118
               - repo_url: https://github.com/EVerest/zvt
+              - repo_url: https://github.com/EVerest/everest-admin-panel
+              - repo_url: https://github.com/EVerest/everest-demo
+              - repo_url: https://github.com/EVerest/Himalayas
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-10-12'
@@ -14922,17 +14897,31 @@ landscape:
                   url: https://lfenergy.org/seeed-studio-develops-open-source-ev-charging-product-thanks-to-zephyr-rtos-and-lf-energy-everest/
                 - name: Architecture Overview
                   url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
+                - name: Zulip
+                  url: https://lfenergy.zulipchat.com
+                - name: Roadmap
+                  url: https://everest.github.io/nightly/project/roadmap.html
+                - name: EVerest CPO Forum
+                  url: https://lfenergy.org/groups/everest-cpo-forum/
+                - name: Announcement - U.S. Joint Office of Energy and Transportation Partners With Linux Foundation Energy
+                  url: https://lfenergy.org/u-s-joint-office-of-energy-and-transportation-partners-with-linux-foundation-energy-to-improve-reliability-and-interoperability-of-ev-charging-nationally/
+                - name: Use Case - Park&Charge and Qwello Revitalize EV Chargers with LF Energy EVerest
+                  url: https://lfenergy.org/parkcharge-and-qwello-revitalize-ev-chargers-with-lf-energy-everest/
+                - name: Talk - Real World Interoperability in EV Charging (FOSDEM 2026)
+                  url: https://www.youtube.com/watch?v=0cjevmsFhAA
+                - name: Webinar - SunSpec & EVerest, Open Standards for EV Charging Infrastructure
+                  url: https://sunspec.org/sunspec-everest-webinar/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
               summary_use_case: |
-                EVerest provides a software stack for EV chargers with implementations of:
-                - communication protocols
-                - software modules for representations of hardware devices (chargers, cars, etc.)
-                - tools for simulating the charging process
+                EVerest is a firmware stack for EV charging stations that runs on the embedded Linux controller inside the charger. It manages the whole charging session: communication with the vehicle (IEC 61851, DIN 70121, ISO 15118 with Plug & Charge), with the charging station management system (OCPP 1.6, 2.0.1, and 2.1), and with local energy management, plus drivers for power supplies, meters, and payment terminals. Its modular design configures to anything from a single-port AC wallbox to a multi-port DC fast-charging site. It is built for charger manufacturers, component suppliers, and the charge point operators who run their equipment.
 
-                By digitally abstracting the complexity of multiple standards and use cases, EVerest runs on any device, from unmanaged AC home chargers to complex multi-EVSE satellite public DC charging stations with battery and solar support.
-
-                EVerest supports all protocols needed to facilitate frictionless and reliable charging regardless of the car, charger, cloud provider, and payment platform.
+                Use cases:
+                - Build AC wallboxes and DC fast chargers on a shared, tested protocol stack instead of maintaining in-house firmware
+                - Retrofit installed chargers whose manufacturer has ended support, avoiding stranded assets
+                - Run load management across multiple charging ports sharing one grid connection
+                - Apply smart charging limits set by the charging station management system or a local energy management system
+                - Test charging station management systems, chargers, and vehicles for interoperability against simulated EVerest chargers and EVs
           - item:
             name: OperatorFabric
             homepage_url: https://www.lfenergy.org/projects/operatorfabric/
@@ -14969,8 +14958,9 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/operator-fabric
               chat_channel: '#operator-fabric'
               dev_stats_url: https://insights.linuxfoundation.org/project/operator-fabric
+              documentation_url: https://opfab.github.io/documentation/current/getting_started/
               lfx_slug: operator-fabric
-              mailing_list_url: https://lists.lfenergy.org/g/opfab-tsc
+              mailing_list_url: https://lists.lfenergy.org/g/opfab-announce
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/operator-fabric
@@ -14978,20 +14968,25 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001If869QAB
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/operator-fabric_charter.pdf
+                - name: Project Website
+                  url: https://opfab.github.io/
                 - name: Architecture Overview
                   url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/feed_screenshot.png
+                - name: Security audit (2024) - LF Energy OperatorFabric Project Completes Security Audit and Threat Model
+                  url: https://lfenergy.org/lf-energy-operatorfabric-project-completes-security-audit-and-threat-model/
+                - name: Presentation - TSO-DSO Coordination Using OperatorFabric (LF Energy Summit 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/26Izv/tso-dso-coordination-using-operatorfabric-sascha-eschmann-rte-international
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=QemhzfYQpaw
               summary_use_case: |
-                OperatorFabric is a modular, extensible, industrial-strength and field-tested platform for systems operators. To perform their duties, an operator must interact with multiple applications (perform actions, watch for alerts, etc.), which can prove difficult if there are too many of them. The idea behind OperatorFabric is to aggregate all the notifications from these applications into a single screen, and to allow the operator to act on them if needed.
+                OperatorFabric is a notification and coordination platform for grid control rooms. Business applications publish real-time events to it as "cards", which it routes to the right operators by user group, organizational entity, and process. Operators see every card in one feed and timeline, filtered by severity, instead of watching each application separately. They can also send cards to each other, including questions other control centers must answer by a deadline, so processes between control centers follow a defined workflow and leave a record. It is built for system operators and the teams that build their control room applications.
 
-                OperatorFabric includes several features essential for electricity, water, and other utility operations:
-                - System visualization and console integration
-                - Precise alerting
-                - Workflow scheduling
-                - Remedial action manager
-                - Historian
-                - Scripting (ex: Python, JavaScript)
+                Use cases:
+                - Monitor alerts and events from many operational applications on one screen instead of switching between them
+                - Manage critical situations across control centers, such as a supply-demand crisis escalating to load shedding
+                - Share real-time information between TSOs and DSOs, from simple messages to exchanges automated by an external application
+                - Collect confirmation from every control center before an operational change, such as upgrading a critical control room tool
+                - Assign recurring tasks to the operator responsible for an activity area at the time, across shift changes
           - item:
             name: Power Grid Model
             homepage_url: https://lfenergy.org/projects/power-grid-model/
@@ -14999,8 +14994,7 @@ landscape:
             description: Open source, high-performance calculation library for distribution grid power flow, state estimation, and short circuit analysis, built to run large batches of scenarios for planning and operations.
             second_path:
               - SIG / Grid Simulation and Modeling SIG
-              - Distribution / Modeling and Simulation
-              - Distribution / Operations
+              - Distribution / Planning & Analysis
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
@@ -15009,6 +15003,7 @@ landscape:
             additional_repos:
               - repo_url: https://github.com/PowerGridModel/power-grid-model-io
               - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
+              - repo_url: https://github.com/PowerGridModel/libpower-grid-model-java
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             twitter: https://twitter.com/nil
             extra:
@@ -15028,6 +15023,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/powergridmodel
               chat_channel: '#powergridmodel'
               dev_stats_url: https://insights.linuxfoundation.org/project/powergridmodel
+              documentation_url: https://power-grid-model.readthedocs.io/en/stable/
               incubating: '2024-02-22'
               lfx_slug: powergridmodel
               mailing_list_url: https://lists.lfenergy.org/g/powergridmodel
@@ -15043,14 +15039,13 @@ landscape:
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=lkNj2EzxelA
               summary_use_case: |
-                Power Grid Model offers a standards-based foundation enabling real-time power systems analysis, simulations of electrical power grids, and sophisticated what-if analysis. In addition, it enables in-depth studies and analysis of the electrical power grid’s behavior and performance. This comprehensive model incorporates essential factors such as power generation capacity, electrical losses, voltage levels, power flows, and system stability.
+                Power Grid Model is a high-performance calculation library for steady-state distribution grid analysis: power flow, state estimation, and short circuit, for balanced or fully asymmetric (per-phase) grids. Its C++ core runs thousands of scenarios in one batch call with native multi-threading, so time-series, contingency, and hosting capacity studies can run inside data pipelines and cloud applications. It is designed for DSOs and the teams that build their planning and operations tools.
 
-                The global energy transition is placing new and unprecedented demands on Distribution System Operators (DSOs) and grid providers. Alongside upgrades to grid capacity, processes such as digitization, capacity optimization, and congestion management are becoming vital for delivering reliable services. To face the challenges of the energy transition, many statistical and machine learning methods are required for distribution power system analysis, which usually requires power system calculations (preferably in parallel) for a substantial number of simulation cases/scenarios.
-
-                Power Grid Model matches the demand by providing with following strengths:
-                - Optimized algorithms for the characteristics of the distribution grid.
-                - Full support of three-phase asymmetric calculation.
-                - Efficient C++ implementation with native parallel computing support.
+                Use cases:
+                - Daily operations: monitor MV grids in near real time with state estimation from limited measurements, and forecast congestion a day or two ahead to decide how much flexibility to activate and where
+                - Operational planning: plan maintenance and outages by simulating switching and restoration strategies
+                - Grid connection planning: assess new customer connections for feasibility and local network impact
+                - Strategic and investment planning: run thousands of load-flow scenarios for the adoption of EVs, heat pumps, and local generation to find future bottlenecks in LV and MV grids
           - item:
             name: PowSyBL
             homepage_url: https://lfenergy.org/projects/powsybl/
@@ -15058,7 +15053,7 @@ landscape:
             description: Modular, open source framework for grid modeling, analysis, and visualization, used to build and extend planning and operations tools.
             second_path:
               - SIG / Grid Simulation and Modeling SIG
-              - Transmission / Modeling and Simulation
+              - Transmission / Planning & Analysis
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: earlyadoption
@@ -15070,6 +15065,10 @@ landscape:
               - repo_url: https://github.com/powsybl/pypowsybl
               - repo_url: https://github.com/powsybl/powsybl-open-rao
               - repo_url: https://github.com/powsybl/powsybl-starter
+              - repo_url: https://github.com/powsybl/powsybl-dynawo
+              - repo_url: https://github.com/powsybl/powsybl-open-sc
+              - repo_url: https://github.com/powsybl/powsybl-metrix
+              - repo_url: https://github.com/powsybl/powsybl-entsoe
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2019-04-30'
@@ -15089,6 +15088,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/powsybl
               chat_channel: none
               dev_stats_url: https://insights.linuxfoundation.org/project/powsybl
+              documentation_url: https://powsybl.readthedocs.io/en/latest/
               incubating: '2019-04-30'
               lfx_slug: powsybl
               mailing_list_url: https://lists.lfenergy.org/g/powsybl
@@ -15099,20 +15099,29 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDVCEHOD7BbGCdYoI
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/powsybl-lf-europe/powsybl-lf-europe_Charter.pdf?v=1747249821217
+                - name: Project Website
+                  url: https://powsybl.org/
                 - name: Architecture Overview
                   url: https://www.powsybl.org/pages/overview/img/index/nodeBreakerTopology.svg
-              slack_url: https://powsybl.slack.com
+                - name: Case Study - Grid Security at Scale - How TenneT Built a 10× Faster Analysis Platform on PowSyBl
+                  url: https://lfenergy.org/grid-security-at-scale-tennet-powsybl/
+                - name: Case Study - Baltic RCC's use of open source technology to meet energy transition challenges
+                  url: https://lfenergy.org/baltic-rccs-use-of-open-source-technology-to-meet-energy-transition-challenges/
+                - name: Case Study - PowSyBl - A community-led open source project for European grid sovereignty
+                  url: https://lfenergy.org/powsybl-a-community-led-open-source-project-for-european-grid-sovereignty/
+                - name: Security audit (2025) - Audit of LF Energy PowSyBl ensures security of power systems tool
+                  url: https://lfenergy.org/audit-of-lf-energy-powsybl-ensures-security-of-power-systems-tool/
+              slack_url: https://slack.powsybl.org
               summary_intro_url: https://www.youtube.com/watch?v=rAvfO6Lu4cc
               summary_use_case: |
-                PowSyBl enables developers to create applications able to perform dynamic power flow simulations and security analyses on the network, handle a variety of formats, including CGMES for European data exchanges, and perform many other tasks.
+                PowSyBl ("Power System Blocks") is a modular framework for transmission grid analysis, visualization, and simulation. It provides the building blocks for planning studies and real-time operations: load flow, security and sensitivity analysis, remedial action optimization, and network diagrams. Because the code is open, grid operators can inspect every calculation and extend it for their own needs. It reads and writes CIM-CGMES, PSS®E, Matpower, and other common formats. Designed for teams that build their own tools, it offers Java and Python (PyPowSyBl) interfaces. Transmission system operators and regional coordination centers use it in production.
 
-                The power system blocks may be used through Python or Julia scripts for a quick implementation (or prototyping), but can also be assembled to build state-of-the-art applications. One major aim of the project is to make it easy to write complex software for power system simulation and analysis. For example, using PowSyBl, one can create applications able to:
-                - handle a variety of formats, such as CIM-CGMES for European data exchanges
-                - perform power flow simulations, security analyses, and sensitivity analyses on the network
-                - perform dynamic simulations on the network
-                - create visual representations of the network
-
-                Another key characteristic of PowSyBl is its modular design, at the core of the open source approach. It enables developers to extend or customize its features by providing their own plugins.
+                Use cases:
+                - Run N-1 security studies and manage congestion on transmission grids
+                - Plan grid reinforcements and new renewable connections with time-series scenario simulation
+                - Coordinate security across TSOs: optimize remedial actions and share their costs through a transparent, auditable method
+                - Calculate cross-zonal capacity with flow-based and NTC methods
+                - Merge national CGMES grid models into one pan-European model
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
@@ -15120,17 +15129,21 @@ landscape:
             description: Open source, real-time virtualization platform that runs protection, automation, and control applications from multiple vendors on shared substation servers.
             second_path:
               - SIG / No SIG
-              - Transmission / Grid Automation
-              - Distribution / Grid Automation
+              - Transmission / Operations
+              - Distribution / Operations
               - Acquisition and Control / Substation Node
               - Energy Systems / Distribution and Grids
             project: earlyadoption
             repo_url: https://github.com/seapath/ansible
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/seapath/ansible
               - repo_url: https://github.com/seapath/build_debian_iso
               - repo_url: https://github.com/seapath/yocto-bsp
+              - repo_url: https://github.com/seapath/meta-seapath
+              - repo_url: https://github.com/seapath/kiwi-descriptions
+              - repo_url: https://github.com/seapath/vm_manager
+              - repo_url: https://github.com/seapath/svtrace
+              - repo_url: https://github.com/seapath/TSC
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/seapath
             extra:
@@ -15161,26 +15174,33 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkWmNQAV
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/master/project_charters/seapath_charter.pdf
+                - name: Project Website
+                  url: https://seapath.energy/
                 - name: Use Case - How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid
                   url: https://lfenergy.org/how-rte-and-alliander-embraced-open-source-to-speed-modernization-of-the-grid/
                 - name: Architecture Diagram
                   url: https://lf-energy.atlassian.net/wiki/spaces/SEAP/overview#SEAPATH-architecture
                 - name: Project Wiki
                   url: https://lf-energy.atlassian.net/wiki/spaces/SEAP
+                - name: Case Study - RTE Deploys LF Energy SEAPATH for Virtual Protection Automation and Control
+                  url: https://lfenergy.org/rte-deploys-lf-energy-seapath-for-virtual-protection-automation-and-control/
+                - name: Case Study - National Grid Electricity Transmission and GE Vernova Collaborate on LF Energy SEAPATH
+                  url: https://lfenergy.org/national-grid-electricity-transmission-and-ge-vernova-collaborate-on-lf-energy-seapath-to-advance-virtualized-protection-and-control/
+                - name: Case Study - EcoPhi on SEAPATH - Virtualizing Substation Monitoring and Analytics
+                  url: https://lfenergy.org/ecophi-on-seapath-virtualizing-substation-monitoring-and-analytics-for-grid-efficiency-and-reliability/
+                - name: Security audit (2024) - LF Energy SEAPATH Project Completes Security Audit and Threat Model
+                  url: https://lfenergy.org/lf-energy-seapath-project-completes-security-audit-and-threat-model/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=qm_nQef5_BM
               summary_use_case: |
-                SEAPATH, Software Enabled Automation Platform and Artifacts (Therein), aims at developing a reference design and industrial-grade open source real-time platform that can run virtualized automation and protection applications (for the power grid industry initially, and potentially beyond). This platform is intended to host multi-provider applications.
+                SEAPATH is a real-time virtualization platform for IEC 61850 digital substations. It runs protection, automation, and control (PAC) applications, along with HMI, gateway, and monitoring functions, as virtual machines on a cluster of standard servers instead of on dedicated devices. If a server fails, its virtual machines automatically move to the surviving servers, and the whole platform is deployed and configured through infrastructure as code. It is built for transmission and distribution operators that want to run applications from several vendors on a platform they control, and for PAC vendors delivering their functions as software.
 
-                SEAPATH meets the high requirements of substation reliability, performance, and availability.
-
-                Key features include:
-                - Hosting of virtualization systems: a heterogeneous variety of virtual machines can be installed and managed on the platform.
-                - High availability and clustering: machines on the cluster are externally monitored in order to guarantee high availability in case of hardware or software failures.
-                - Distributed storage: data and disk images from the virtual machines are replicated and synchronized in order to guarantee their integrity and availability on the cluster.
-                - Intelligent virtual network: the virtualisation platform is capable of configuring and managing the network traffic at the data layer level.
-                - Administration: the system can be easily configured and managed from a remote machine connected to the network, as well as by an administrator on site.
-                - Automatic update: the virtualisation platform can be automatically updated from a remote server.
+                Use cases:
+                - Consolidate substation HMI, gateway, and automation functions from several suppliers onto one server cluster
+                - Add or update substation functions without installing new hardware
+                - Replace duplicated devices with cluster redundancy, where a failed server's functions move to the remaining servers
+                - Run virtualized protection relays (vIEDs) on shared substation servers
+                - Host substation monitoring and analytics applications alongside PAC functions
           - item:
             name: SOGNO
             homepage_url: https://www.lfenergy.org/projects/sogno/
@@ -15199,6 +15219,10 @@ landscape:
               - repo_url: https://github.com/sogno-platform/cimpy
               - repo_url: https://github.com/sogno-platform/libcimpp
               - repo_url: https://github.com/sogno-platform/cim4j
+              - repo_url: https://github.com/sogno-platform/proloaf
+              - repo_url: https://github.com/sogno-platform/pyvolt
+              - repo_url: https://github.com/sogno-platform/pymfm
+              - repo_url: https://github.com/sogno-platform/datafev
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2020-10-27'
@@ -15224,16 +15248,25 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IkV6jQAF
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/sogno_charter.pdf
-                - name: Charter
-                  url: https://github.com/lf-energy/foundation/blob/main/project_charters/sogno-charter.pdf
+                - name: Project Website
+                  url: https://sogno.energy/
                 - name: Architecture Overview
                   url: http://lfenergy.dev-lfprojects3.linuxfoundation.org/wp-content/uploads/sites/18/2023/01/sogno-arch.svg
+                - name: Presentation - RomeFlex - SOGNO Platform in Action (LF Energy Summit 2024)
+                  url: https://lfenergysummit2024.sched.com/event/1ehHe/romeflex-sogno-platform-in-action-antonello-monti-rwth-aachen-university
+                - name: Presentation - SOGNO 2025 Annual Review to the LF Energy TAC
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2025/2025-05-13/LFE-SOGNO-TAC-Review-2025.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=A1Ncij_LOUc
               summary_use_case: |
-                The project Service-based Open-source Grid automation platform for Network Operation of the future (SOGNO) is creating plug-and-play, cloud-native, micro-services to implement our next generation of data-driven monitoring and control systems. It will simplify the lives of distribution utilities by enabling them to optimize their network operations through open source, delivering a cost-effective, seamless, and secure power supply for their customers. SOGNO introduces the idea of grid automation as a modular system in which components can be added over time. This is in opposition to classical monolithic solutions.
+                SOGNO is a collection of modular libraries and services for distribution grid automation. Its largest component, DPsim, simulates power systems dynamically and in real time, so new control and automation functions can be tested against a virtual grid before they reach the field. CIM libraries read and write grid models in the CGMES format. Further components cover load and generation forecasting, state estimation, and flexibility management. It is built for DSOs that want grid automation as a modular system they can extend, rather than a single monolithic product.
 
-                SOGNO facilitates network operators in the transition to a modular microservices-based control center software solution. The goal is to integrate today’s SCADA systems with SOGNO and then to gradually move functionalities into microservices. As a result, SOGNO is not in opposition to classical solutions, but it can be seen as an add-on that supports the flexible growth of the automation architecture. This allows operators to adapt faster with components that can be updated independently from each other while recognizing the “brown field” that most utilities continue to operate in. SOGNO provides system operators and automation software developers a pathway to the future through an open source framework that exposes open APIs that plug in new automation functions, while supporting industry standards such as CIM IEC61970.
+                Use cases:
+                - Test new control and automation functions against a real-time simulation of the grid, including hardware-in-the-loop, before deploying them
+                - Exchange grid models between tools in CGMES format, building importers and exporters in Python, C++, or Java
+                - Improve observability of distribution grids with state estimation
+                - Forecast load and PV or wind generation, with uncertainty ranges, as input to grid operation
+                - Coordinate batteries and PV in energy communities to provide local flexibility
       - subcategory:
         name: Incubating
         items:
@@ -15250,8 +15283,10 @@ landscape:
             repo_url: https://github.com/battery-data-alliance/battery-data-format
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/battery-data-alliance/pyctiarbin
               - repo_url: https://github.com/battery-data-alliance/battery-data-format-ontology
+              - repo_url: https://github.com/battery-data-alliance/bdf-datastore
+              - repo_url: https://github.com/battery-data-alliance/pymacnet
+              - repo_url: https://github.com/battery-data-alliance/pyctiarbin
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-09-05'
@@ -15265,6 +15300,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/57
               artwork_url: https://artwork.lfenergy.org/projects/battery-data-alliance
               dev_stats_url: https://insights.linuxfoundation.org/project/battery-data-alliance
+              documentation_url: https://battery-data-alliance.github.io/battery-data-format/
               incubating: '2026-09-21'
               lfx_slug: battery-data-alliance
               other_links:
@@ -15274,15 +15310,23 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfomTQpTLl3A7cDHjh
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/battery-data-alliance_charter.pdf
+                - name: Project Website
+                  url: https://batterydataalliance.energy/
+                - name: Forum
+                  url: https://bda.discourse.group/
+                - name: Blog Post - LF Energy Battery Data Alliance Announces the Battery Data Format (BDF) (2025)
+                  url: https://lfenergy.org/lf-energy-battery-data-alliance-announces-the-battery-data-format-bdf/
+                - name: Presentation - Challenges and Opportunities Working with Battery Data (LF Energy Summit 2024)
+                  url: https://lfenergysummit2024.sched.com/event/1ehID/challenges-and-opportunities-working-with-battery-data-gabe-hege-amplabs
               summary_use_case: |
-                The LF Energy Battery Data Alliance (BDA) was created to bring battery companies together to work jointly to unify how batteries are handled in terms of software. Battery data is core to creating a decarbonized economy and power systems, yet companies waste tremendous amounts of time implementing battery data schemas, integrations/conversions, typical calculations, etc. BDA believes that an open source tool should exist to enable researchers and engineers to focus on bringing more innovative solutions to market rather than each organization duplicating the same work.
+                Battery Data Alliance develops the Battery Data Format (BDF), an open standard for battery test data, and the software around it. BDF fixes the columns, units, and file layout for cycling data, one cell per file. An ontology built on BattINFO defines each column, so software can read its meaning and unit. A Python package converts exports from a wide range of cycler brands to BDF and checks them for errors. A community datastore publishes open BDF datasets. It is built for battery labs, cell makers, and equipment and software vendors that want to share test data and run models on it without writing a new converter each time.
 
-                Based on experience and discussions within the industry, BDA is focusing on four key areas:
-
-                - Design: One key challenge arises from the lack of open source battery data and a standardized method to access existing datasets. As a result, companies often find themselves engaged in redundant efforts concerning data collection and conversion.
-                - Testing: Many companies manually configure their testing equipment. There is a gap in the market between available testing standards and the actual execution of tests.
-                - Manufacturing: Variations in battery data structures across manufacturers lead to unnecessary complexities in schema design and data conversion leading to inefficiencies and barriers for collaboration.
-                - Telemetry: The area of battery telemetry remains largely unexplored from an open source perspective. There is untapped potential for development and growth in this area.
+                Use cases:
+                - Compare results across labs and test equipment without reconciling each vendor's file layout and units
+                - Feed cycling data into battery models and analysis tools without writing a separate converter for each cycler
+                - Catch unit and timing errors in test data before they reach analysis
+                - Publish battery datasets with machine-readable metadata so other labs and machine learning teams can find and reuse them
+                - Automate cycler tests and log channel readings from Python, including closed-loop charging experiments that set the current in real time
           - item:
             name: Dynaωo
             homepage_url: https://lfenergy.org/projects/dyna%CF%89o/
@@ -15290,7 +15334,7 @@ landscape:
             description: Open source suite of dynamic simulation tools for grid stability and grid-code compliance studies, built on equipment models that grid operators and power producers can read and share.
             second_path:
               - SIG / Grid Simulation and Modeling SIG
-              - Transmission / Modeling and Simulation
+              - Transmission / Planning & Analysis
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: incubating
@@ -15305,7 +15349,6 @@ landscape:
               - repo_url: https://github.com/dynawo/dynawo-algorithms
               - repo_url: https://github.com/dynawo/dynawo-docker
               - repo_url: https://github.com/dynawo/dynawo-large-scale-validation
-              - repo_url: https://github.com/dynawo/dynawo-nightly
               - repo_url: https://github.com/dynawo/dynawo-replay-AIA
               - repo_url: https://github.com/dynawo/dynawo.github.io
             crunchbase: https://www.crunchbase.com/organization/lf-energy
@@ -15323,6 +15366,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/dynawo
               chat_channel: '#dynawo'
               dev_stats_url: https://insights.linuxfoundation.org/project/dynawo
+              documentation_url: https://dynawo.github.io/docs/
               lfx_slug: dynawo
               mailing_list_url: https://lists.lfenergy.org/g/dynawo
               other_links:
@@ -15332,20 +15376,30 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPZQA5
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/dynawo_charter.pdf
+                - name: Project Website
+                  url: https://dynawo.github.io/
                 - name: Architecture Overview
                   url: https://dynawo.github.io/assets/images/DynawoModelSolverLight.png
+                - name: Presentation - Dynaωo - A Hybrid C++/Modelica Open Source Suite of Simulation Tools for Power Systems (LF Energy Summit 2023)
+                  url: https://lfenergysummit2023.sched.com/event/1JYPR/dynaoo-a-hybrid-c++modelica-open-source-suite-of-simulation-tools-for-power-systems-marco-chiaramello-rte-reseau-de-transport-delectricite
+                - name: Use Case - ENTSO-E Expert Panel Final Report on the 28 April 2025 Iberian Blackout (voltage study built with Dynaωo)
+                  url: https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/
+                - name: Presentation - Dynaωo for Large-Scale Power System Event Analysis - the 2025 Iberian Blackout (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMab/dynaoo-for-large-scale-power-system-event-analysis-the-2025-iberian-blackout-marco-chiaramello-rte-reseau-de-transport-delectricite
+                - name: Presentation - Presenting DyCoV (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMan/presenting-dycov-streamlining-dynamic-model-validation-and-performance-verification-using-dynawo-jose-luis-marin-aia
+                - name: Presentation - Tools for Facilitating Dynaωo Usage (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMXk/tools-for-facilitating-dynawo-usage-jose-luis-marin-aia-marco-chiaramello-rte-reseau-de-transport-delectricite-clara-fernandez-castaner-aplicaciones-en-informatica-avanzada-guiu-oms-font-aia
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                Dynaωo is a hybrid C++/Modelica open source suite of simulation tools for power systems. It aims at providing power system stakeholders with a transparent, flexible, interoperable, and robust suite of simulation tools that can ease collaboration and cooperation in the power system community.
+                Dynaωo is a suite of dynamic simulation tools for power system stability studies. It runs time-domain simulations of long-term voltage stability and transient stability, and steady-state calculations that account for how controls interact over time. Its equipment models are written in Modelica, an equation-based language engineers can read, and are kept separate from the numerical solvers, so one model library serves every type of study. A companion tool checks new generation plants against grid-code requirements. It is built for transmission system operators and power producers that need stability results others can inspect and reproduce.
 
-                To achieve this goal, Dynaωo is based on two main principles: the use of a high-level modelling language, Modelica, and a strict separation between modeling and solutions.
-
-                Dynaωo‘s primary focus has been on long-term and short-term stability studies, but the very encouraging results obtained and the flexibility of the approach led to an extension of the initiative. Dynaωo is now evolving towards a complete and coherent suite of simulation tools, sharing the same philosophy:
-                - DynaFlow for steady-state calculations
-                - DySym for short-circuit calculations
-                - DynaWaltz for long-term stability simulations
-                - DynaSwing for short-term stability studies
-                - DynaWave for stability studies and system design with a high penetration of power-electronics-based components (quasi-EMT)
+                Use cases:
+                - Assess long-term voltage stability and voltage margins in operations planning
+                - Study transient stability after faults, including critical clearing times
+                - Verify that new generation and storage plants meet the grid code, with the TSO and the producer running the same tests
+                - Validate and calibrate generator models against PMU recordings
+                - Reconstruct major grid disturbances and test what-if scenarios
           - item:
             name: FlexMeasures
             homepage_url: https://lfenergy.org/projects/flexmeasures/
@@ -15353,16 +15407,18 @@ landscape:
             description: Open source optimization and forecasting engine that lets energy service companies and industrial sites run batteries, EVs, heat pumps, and processes at the lowest cost within grid limits.
             second_path:
               - SIG / Edge Interoperability and Flexibility SIG
-              - Behind-the-Meter / Flexibility
+              - Behind-the-Meter / Operations
               - Asset Management / Data Management
               - Energy Systems / Monitoring and Control
             project: incubating
             repo_url: https://github.com/FlexMeasures/flexmeasures
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-plugin-template
               - repo_url: https://github.com/FlexMeasures/flexmeasures-client
-              - repo_url: https://github.com/FlexMeasures/tsc
+              - repo_url: https://github.com/FlexMeasures/flexmeasures-plugin-template
+              - repo_url: https://github.com/FlexMeasures/flexmeasures-openadr3
+              - repo_url: https://github.com/FlexMeasures/flexmeasures-ha-integration
+              - repo_url: https://github.com/FlexMeasures/flexmeasures-weather
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-11-02'
@@ -15389,19 +15445,24 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkH4sQAF
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/raw/main/project_charters/flexmeasures_charter.pdf
+                - name: Project Website
+                  url: https://flexmeasures.io/
+                - name: Presentation - How Grid Operators Can Unlock Asset Flexibility - Integrating FlexMeasures + OpenLEADR via OpenADR (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMaq/how-grid-operators-can-unlock-asset-flexibility-integrating-flexmeasures-+-openleadr-via-openadr-nicolas-honing-seita-energy-flexibility-nick-van-der-burgt-elaadnl
+                - name: Presentation - Community Energy Management with FlexMeasures, Fully Scriptable (FOSDEM 2026)
+                  url: https://fosdem.org/2026/schedule/event/ACPYNR-community_energy_management_with_flexmeasures_fully_scriptable/
+                - name: Presentation - Using FlexMeasures to Build a Climate Tech Startup in 15 Minutes (FOSDEM 2024)
+                  url: https://fosdem.org/2024/schedule/event/fosdem-2024-2509-using-flexmeasures-to-build-a-climate-tech-startup-in-15-minutes/
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                FlexMeasures is an EMS for real-time energy flexibility behind the meter, which creates intelligent schedules for your flexible assets. Every organisation that builds an energy service around flexible assets like batteries, heat pumps, or shiftable machinery can build smart energy apps & services with FlexMeasures as a backend for real-time orchestration!
+                FlexMeasures is an optimization and forecasting engine for behind-the-meter energy management that works out the best times for flexible assets to consume, produce, or store energy. It schedules batteries, EV chargers, heat pumps with heat storage, and industrial processes against energy prices, peak charges, and grid connection limits, across electricity, gas, and heat. It forecasts its inputs or takes forecasts from other sources, and sends schedules over an API to the systems that control the devices. It is built for energy service companies and industrial sites that want to use their flexibility without building optimization software.
 
-                FlexMeasures supports:
-                - Real-time data integration and intelligence
-                - Model data well ― units, time resolution, and uncertainty (of forecasts)
-                - Faster app-building (API/UI/CLI, plugin, and multi-tenancy support)
-
-                As for use cases, examples of what FlexMeasures can help with include:
-                - E-mobility (smart EV charging, V2G, V2H)
-                - Heating (heat pump control)
-                - Industry (best running times for processes with buffering capacity)
+                Use cases:
+                - Charge EVs and run vehicle-to-grid at the cheapest hours, within the site's grid connection
+                - Run heat pumps with heat buffers so heating shifts to cheaper or lower-CO₂ hours without losing comfort
+                - Schedule industrial processes with buffering capacity around energy prices or CO₂ intensity
+                - Optimize homes, offices, and commercial and industrial sites that combine solar, storage, heating, and EV charging, stacking self-consumption, dynamic tariffs, and peak reduction
+                - Keep a site within import and export limits that a grid operator sends over OpenADR, while still optimizing cost
           - item:
             name: Grid2Op
             homepage_url: https://lfenergy.org/projects/grid2op/
@@ -15409,14 +15470,14 @@ landscape:
             description: Open source simulation environment where researchers and grid operators train automated grid control strategies and compare them on identical scenarios of load, generation, and outages.
             second_path:
               - SIG / AI SIG
-              - Distribution / Modeling and Simulation
-              - Transmission / Modeling and Simulation
+              - Transmission / Operations
               - Energy Systems / Modeling and Optimization
             project: incubating
             repo_url: https://github.com/Grid2op/grid2op
             license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/Grid2op/lightsim2grid
+              - repo_url: https://github.com/Grid2op/pypowsybl2grid
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-02-11'
@@ -15429,8 +15490,12 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/287
               artwork_url: https://artwork.lfenergy.org/projects/grid2op
               dev_stats_url: https://insights.linuxfoundation.org/project/grid2op
+              discord_url: https://discord.gg/cYsYrPT
+              documentation_url: https://grid2op.readthedocs.io/
+              github_discussions_url: https://github.com/Grid2op/grid2op/discussions
               incubating: '2026-07-29'
               lfx_slug: grid2op
+              mailing_list_url: https://lists.lfenergy.org/g/grid2op-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/grid2op
@@ -15438,8 +15503,23 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid2op_charter.pdf
+                - name: 'Research Paper - RL2Grid: Benchmarking Reinforcement Learning in Power Grid Operations (preprint, 2025)'
+                  url: https://arxiv.org/abs/2503.23101
+                - name: Presentation - Grid2Op proposal to the LF Energy TAC (2025)
+                  url: https://github.com/user-attachments/files/19248095/20250211_grid2op_mission_statement.pdf
+                - name: 'Research Paper - Learning to run a Power Network Challenge: a Retrospective Analysis (2021)'
+                  url: https://arxiv.org/abs/2103.03104
+                - name: Research Paper - Reinforcement Learning for Electricity Network Operation (preprint, 2020)
+                  url: https://arxiv.org/abs/2003.07339
               summary_use_case: |
-                An open source Python framework designed for modeling and simulating sequential decision-making processes in power systems, primarily used for developing and evaluating intelligent control agents (e.g., using reinforcement learning) to manage and optimize grid operations
+                Grid2Op is a simulation environment for testing how automated controllers operate a power grid over time. A controller, whether expert rules, an optimization model, or a reinforcement learning agent, observes the grid at each step and acts: changing substation topology, redispatching generators, curtailing renewables, or using storage. Grid2Op plays each action against scenarios of load, generation, maintenance, and unplanned outages, and trips lines that stay overloaded too long. Users choose the power flow solver. It is built for researchers and grid operators developing automated control and decision support for transmission grids.
+
+                Use cases:
+                - Develop and test controllers that manage congestion with topological remedial actions, redispatch, and curtailment
+                - Test how a control strategy copes with unplanned outages and maintenance
+                - Run open competitions and shared benchmarks for grid operation, as in the L2RPN series
+                - Compare power flow solvers on identical operating scenarios
+                - Generate datasets of grid states across varied generation, demand, and topology
           - item:
             name: Hyphae
             homepage_url: https://www.lfenergy.org/projects/hyphae/
@@ -15448,7 +15528,7 @@ landscape:
               An open source microgrid community orchestrator designed to enhance grid resilience and flexibility by facilitating autonomous, peer-to-peer distribution of local renewable energy within decentralized energy networks
             second_path:
               - SIG / Edge Interoperability and Flexibility SIG
-              - Behind-the-Meter / Flexibility
+              - Behind-the-Meter / Operations
               - Energy Systems / Modeling and Optimization
               - Acquisition and Control / Edge Node Control
             project: incubating
@@ -15467,6 +15547,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/hyphae
               chat_channel: '#hyphae'
               dev_stats_url: https://insights.linuxfoundation.org/project/hyphae
+              documentation_url: https://github.com/hyphae/apis-main/blob/master/doc/en/apis-main_specification_en.md
               incubating: '2020-12-08'
               lfx_slug: hyphae
               mailing_list_url: https://lists.lfenergy.org/g/hyphae-general
@@ -15477,16 +15558,28 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001KWhUOQA1
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/master/project_charters/hyphae_charter.pdf
+                - name: Wiki
+                  url: https://lf-energy.atlassian.net/wiki/spaces/HYP/overview
+                - name: Presentation - LF Energy Hyphae Demo (LF Energy Summit Europe 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/27vlM/demo-lf-energy-hyphae-demo-arila-barnes-energy-iot-open-source
+                - name: Presentation - How Open Source Can Enable Your Next Microgrid Community Project? (LF Energy Summit 2024)
+                  url: https://lfenergysummit2024.sched.com/event/1h5g1/how-open-source-can-enable-your-next-microgrid-community-project-arila-barnes-energy-iot-open-source
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=QaPbyuTPuFs
               summary_use_case: |
-                Hyphae aims to make the grid more resilient and flexible with microgrids. By providing an Autonomous Power Interchange System (APIS), Hyphae automatically and efficiently distributes locally-produced renewable energy over a DC grid to interconnect with AC Grids. With resilient, physical peer-to-peer microgrid energy trading, even the most remote communities will be able to store and distribute energy autonomously without connecting to large-scale power stations or electrical distribution networks.
+                Hyphae is control software for DC microgrids in which each home's battery connects to a shared DC line through a bidirectional DC/DC converter. The same software runs at every home. Each one compares its battery level with its own rules and agrees on energy transfers with its neighbors, optionally at a price. One node, chosen automatically, holds the line voltage while the others move the agreed amounts of energy. Because there is no permanent central controller, homes can join without redesigning the system. It is built for communities and microgrid developers that want participants to share local solar generation and battery storage.
 
-                Key features include:
-                - Flexible grid expansion: Because power interchange is autonomous, the microgrid can be expanded flexibly, without having to redesign the system from the ground up.
-                - Effective use of renewables: Because the physical peer-to-peer power interchange balances supply and demand between decentralized power generators and decentralized power storage equipment, it is possible to use renewable energy effectively despite fluctuations in the amount of power generated.
-                - Resilience: Because of these characteristics, it is possible to build a power system with high resilience.
-            additional_repos: []
+                Use cases:
+                - Share surplus solar between neighbors' batteries, instead of exporting it to the grid at low prices or letting a nearby battery run empty
+                - Supply remote or off-grid communities from local solar and storage, without a connection to a distribution network
+                - Run peer-to-peer energy trading in a community microgrid, with each participant setting its own price conditions
+                - Prototype and test a community microgrid's sharing rules in emulation before installing hardware
+            additional_repos:
+              - repo_url: https://github.com/hyphae/apis-main
+              - repo_url: https://github.com/hyphae/apis-service_center
+              - repo_url: https://github.com/hyphae/apis-dcdc_batt_comm
+              - repo_url: https://github.com/hyphae/apis-emulator
+              - repo_url: https://github.com/hyphae/apis-tester
           - item:
             name: OpenDSM
             homepage_url: https://lfenergy.org/projects/opendsm/
@@ -15500,7 +15593,8 @@ landscape:
               - Develop an ecosystem of developers, suppliers, OEMs, systems integrators, and customers all using this common platform as the basis to define common transactional units for distributed energy resources in the market.
             second_path:
               - SIG / No SIG
-              - Distribution / Grid Edge
+              - Behind-the-Meter / Planning & Analysis
+              - Behind-the-Meter / Markets & Programs
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
             project: incubating
@@ -15508,7 +15602,6 @@ landscape:
             license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/opendsm/eeweather
-              - repo_url: https://github.com/opendsm/caltrack
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/openeemeter/eemeter/tree/master
             extra:
@@ -15525,7 +15618,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/opendsm
               chat_channel: '#openeemeter'
               dev_stats_url: https://insights.linuxfoundation.org/project/opendsm
-              documentation_url: https://eemeter.openee.io/
+              documentation_url: https://opendsm.energy/documentation/
               incubating: '2019-06-04'
               lfx_slug: opendsm
               mailing_list_url: https://lists.lfenergy.org/g/opendsm-discussion
@@ -15536,14 +15629,27 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IkQAL
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/openeemeter-charter.pdf
+                - name: Project Website
+                  url: https://opendsm.energy/
+                - name: 'Webinar: Unveiling OpenEEmeter 4.0 (2024)'
+                  url: https://www.youtube.com/watch?v=dV_cU6bUv6M
+                - name: U.S. Department of Energy Validates Open Source Approach for IRA HOMES Programs (2025)
+                  url: https://lfenergy.org/us-department-of-energy-validates-open-source-approach-for-ira-homes-programs/
+                - name: LF Energy OpenDSM Completes Development of New Hourly Model (2025)
+                  url: https://lfenergy.org/lf-energy-opendsm-completes-development-of-new-hourly-model/
+                - name: 'Webinar: Reliably Measuring Demand-Side Interventions in a Solar PV World with OpenDSM (2025)'
+                  url: https://www.youtube.com/watch?v=3s3oMtDMlLI
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=dV_cU6bUv6M
               summary_use_case: |
-                OpenDSM is an open source toolkit for implementing and developing standard methods for calculating normalized metered energy consumption (NMEC) and avoided energy use. The OpenDSM library contains routines for estimating energy efficiency savings at the meter.
+                OpenDSM is a Python library that measures the energy impact of demand-side programs such as energy efficiency, demand response, electrification, and load shifting. It fits a model of each building's consumption to meter and weather data from before the intervention, predicts what the building would have used without it, and compares that prediction with actual use to calculate avoided energy use. With default settings, anyone running the same data gets the same result, and the models scale to millions of meters. It is built for utilities, program administrators, and implementers that pay for or report savings measured at the meter.
 
-                OpenDSM, as implemented in the eemeter package and sister eeweather package, contains the most complete open source implementation of the CalTRACK Methods, which specify a family of ways to calculate and aggregate estimates of avoided energy use at a single power meter, particularly suitable for use in pay-for-performance (P4P) programs.
-
-                The eemeter package contains a toolkit written in the Python language, which may help in implementing a CalTRACK-compliant analysis. It contains a modular set of functions, parameters, and classes that can be configured to run the CalTRACK methods and close variants.
+                Use cases:
+                - Calculate payable savings in pay-for-performance efficiency programs, where aggregators are paid for savings measured at the meter
+                - Estimate each building's demand response event impact from hourly meter data
+                - Measure how electrification and load-shifting programs change customers' consumption, including at buildings with solar PV
+                - Measure savings for population-level NMEC programs under California Public Utilities Commission rules
+                - Verify savings for the measured pathway of the U.S. Home Efficiency Rebates (HOMES) program ([LF Energy blog](https://lfenergy.org/us-department-of-energy-validates-open-source-approach-for-ira-homes-programs/))
           - item:
             name: OpenGridFM
             homepage_url: https://lfenergy.org/projects/opengridfm/
@@ -15551,6 +15657,8 @@ landscape:
             description: Open source toolkit for utilities and researchers to build AI models that solve power flow and related grid studies faster than conventional solvers.
             second_path:
               - SIG / AI SIG
+              - Transmission / Planning & Analysis
+              - Distribution / Planning & Analysis
               - Energy Systems / Datasets on Energy Systems
             project: incubating
             repo_url: https://github.com/gridfm/gridfm-datakit
@@ -15566,6 +15674,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/260
               artwork_url: https://artwork.lfenergy.org/projects/opengridfm
               dev_stats_url: https://insights.linuxfoundation.org/project/opengridfm
+              documentation_url: https://gridfm.github.io/gridfm-datakit/
               incubating: '2026-07-29'
               lfx_slug: opengridfm
               other_links:
@@ -15575,6 +15684,29 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGFeSdSUJqLdBHTBZ
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gridfm/gridfm_Charter.pdf?v=1781190510434
+                - name: Documentation - gridfm-graphkit
+                  url: https://gridfm.github.io/gridfm-graphkit/
+                - name: Pretrained models and datasets (Hugging Face)
+                  url: https://huggingface.co/gridfm
+                - name: Presentation - GridFM - Towards Foundation Models for the Electric Grid (LF Energy Summit 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/26IxS/gridfm-towards-foundation-models-for-the-electric-grid-thomas-brunschwiler-ibm-research-kibaek-kim-argonne-national-laboratory
+                - name: Paper - gridfm-datakit-v1 - A Python Library for Scalable and Realistic Power Flow and Optimal Power Flow Data Generation (2025)
+                  url: https://arxiv.org/abs/2512.14658
+                - name: Paper - GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis (2026)
+                  url: https://arxiv.org/abs/2608.09921
+                - name: Presentation - Towards Industrial Grid Foundation Models with PowSyBl and OpenGridFM (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMYo/towards-industrial-grid-foundation-models-with-powsybl-and-gridfm-nicolas-lair-artelys
+              slack_url: https://slack.lfenergy.org
+              summary_use_case: |
+                OpenGridFM is a toolkit for building foundation models for power grids: AI models pre-trained on many solved grid scenarios, then fine-tuned for tasks such as power flow, optimal power flow, and state estimation. It generates synthetic training data from standard test cases or a utility's own grid models, including dynamic data from time-domain simulation. It trains and fine-tunes models and benchmarks them against conventional solvers. GENCO, a reference model built with the toolkit, shows the approach; its pretrained versions and datasets are public. It is built for researchers and utility teams developing AI models for grid analysis.
+
+                Use cases:
+                - Generate realistic power flow and optimal power flow datasets to train and benchmark machine learning models
+                - Develop neural solvers and compare them with published models and conventional solvers on common benchmarks
+                - Fine-tune a pretrained model on a utility's own grid and operating data
+                - Build models for fast N-1 and N-k contingency screening, with flagged cases passed to a conventional AC solver
+            additional_repos:
+              - repo_url: https://github.com/gridfm/gridfm-graphkit
           - item:
             name: OpenLEADR
             homepage_url: https://www.lfenergy.org/projects/openleadr/
@@ -15583,8 +15715,7 @@ landscape:
               Open source implementations of OpenADR, an industry standard for enabling energy flexibility and communication between utilities, devices, and services across power grids
             second_path:
               - SIG / Edge Interoperability and Flexibility SIG
-              - Distribution / Operations
-              - Behind-the-Meter / Flexibility
+              - Distribution / Markets & Programs
               - Acquisition and Control / Edge Node Control
               - Energy Systems / Distribution and Grids
             project: incubating
@@ -15605,7 +15736,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/openleadr
               chat_channel: '#openleadr'
               dev_stats_url: https://insights.linuxfoundation.org/project/openleadr
-              documentation_url: https://openleadr.org/docs/
+              documentation_url: https://github.com/OpenLEADR/openleadr-rs#documentation
               incubating: '2020-09-15'
               lfx_slug: openleadr
               mailing_list_url: https://lists.lfenergy.org/g/openleadr
@@ -15616,22 +15747,25 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001IV4IuQAL
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/raw/main/project_charters/openleader_charter.pdf
+                - name: Project Website
+                  url: https://openleadr.org/
+                - name: Presentation - How Grid Operators Can Unlock Asset Flexibility - Integrating FlexMeasures + OpenLEADR via OpenADR (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMaq/how-grid-operators-can-unlock-asset-flexibility-integrating-flexmeasures-+-openleadr-via-openadr-nicolas-honing-seita-energy-flexibility-nick-van-der-burgt-elaadnl
+                - name: Presentation - Rust Meets the Grid - Building OpenLEADR-rs for Real-World Demand Response (FOSDEM 2026)
+                  url: https://fosdem.org/2026/schedule/event/XXYDHM-openleadr/
+                - name: Presentation - Rust Meets the Grid - Building openleadr-rs for Real-World Demand Response (LF Energy Summit 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/26Iyx/rust-meets-the-grid-building-openleadr-rs-for-real-world-demand-response-hugo-van-de-pol-tweede-golf-ton-smets-elaadnl
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=fb5vGsNo9Uc
               summary_use_case: |
-                OpenLEADR is an LF Energy project providing free and open source implementations of the Open Automated Demand Response (OpenADR) protocol – an industry standard for enabling energy flexibility across grids, devices, and services. With the release of a new Rust-based implementation of OpenADR 3.1, OpenLEADR now supports both legacy and next-generation OpenADR deployments through two maintained versions:
+                OpenLEADR implements OpenADR, the OpenADR Alliance's standard for automated demand response. Its main component is an OpenADR 3.1 server, the Virtual Top Node (VTN), through which a grid operator or aggregator publishes demand response programs and events, such as price signals or capacity limits for a grid area, and collects reports from participants. Charge point operators, aggregators, and energy management systems connect to it as Virtual End Nodes (VENs) with any OpenADR 3.1 client. It is built for DSOs and utilities that want to run demand response on an open standard, and for the service providers that answer those signals.
 
-                - openleadr-python – Python-based implementation of OpenADR 2.0b (IEC 62746-10-1 ED1)
-                - openleadr-rs – Rust-based implementation of OpenADR 3.1 (OpenADR 3 currently in pre-standardization)
-
-                OpenADR is a widely adopted protocol for automated, standards-based demand response. It enables grid operators and utilities to communicate signals such as pricing, events, and capacity limits to energy-consuming devices and systems in real-time.
-
-                OpenADR is used globally to:
-
-                - Reduce grid strain and balance load
-                - Enable customer participation in energy markets
-                - Integrate flexible, distributed energy resources
-                - Support regulatory compliance for demand response programs.
+                Use cases:
+                - Send day-ahead capacity limits for congested grid areas to charge point operators, as in the Dutch Grid Aware Charging profile
+                - Send dynamic price signals so aggregators and customer energy management systems shift flexible load out of peak hours
+                - Run demand response programs for peak shaving and load shedding
+                - Give aggregators and site energy management systems limits ahead of time, so they schedule flexible assets around them instead of the grid operator controlling devices directly
+                - Stand up a test VTN to develop and test VEN software against
           - item:
             name: OpenSTEF
             homepage_url: https://lfenergy.org/projects/openstef/
@@ -15639,8 +15773,7 @@ landscape:
             description: Open source Python framework for probabilistic forecasts of energy load and generation, minutes to days ahead, for grid operation and energy production planning.
             second_path:
               - SIG / Grid Simulation and Modeling SIG
-              - Distribution / Modeling and Simulation
-              - Transmission / Modeling and Simulation
+              - Distribution / Planning & Analysis
               - System Management / Power System Calculation
               - Energy Systems / Modeling and Optimization
             project: incubating
@@ -15663,6 +15796,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/openstef
               chat_channel: '#openstef'
               dev_stats_url: https://insights.linuxfoundation.org/project/openstef
+              documentation_url: https://openstef.github.io/openstef/
               incubating: '2021-09-21'
               lfx_slug: openstef
               mailing_list_url: https://lists.lfenergy.org/g/openstef
@@ -15673,6 +15807,8 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001LkC68QAF
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/openstef_charter.pdf
+                - name: Project Website
+                  url: https://openstef.energy/
                 - name: Use Case - OpenSTEF Delivers Operational Forecasts at Hundreds of Grid Locations for Alliander
                   url: https://lfenergy.org/openstef-delivers-operational-forecasts-at-hundreds-of-grid-locations-for-alliander/
                 - name: Use Case - How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid
@@ -15681,12 +15817,19 @@ landscape:
                   url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/image.png
                 - name: Project Wiki
                   url: https://lf-energy.atlassian.net/wiki/spaces/OS
+                - name: Case Study - Optimizing Nordic District Heating - How OpenSTEF Powers 40% of Sweden's Heat Production
+                  url: https://lfenergy.org/openstef-sigholm-nordic-heating-case-study/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=e-kneLMKIaY
               summary_use_case: |
-                OpenSTEF provides a complete software stack that forecasts the load on the electricity grid for the next hours to days. Given a timeseries of measured (net) load or generation, a fully automated machine learning pipeline is executed, which delivers a probabilistic forecast of future load. This works for energy consumption, (renewable) generation, or a combination of both. OpenSTEF performs validation on the input data, combines measurements with external predictors such as weather data and market prices, trains any scikit-learn compatible machine learning model, and delivers the forecast via both an API and an (expert) graphical user interface. The stack is based on open-source technology and standards and is organized in a microservice architecture optimized for cloud deployment.
+                OpenSTEF (Open Short-Term Energy Forecasting) is a Python framework for probabilistic forecasts of energy load and generation, minutes to days ahead. It covers the full pipeline: input validation, feature engineering from weather, calendar, and price data, model training, forecasting, and backtesting. Forecasts come with uncertainty bands, not just a single value. Designed for teams that build their own forecasting systems, it lets them choose trained models, ensembles, or pretrained foundation models, and swap any step of the pipeline. Its users include grid operators, energy companies, and district heating operators.
 
-                The Dutch DSO Alliander started the Short-Term-Forecasting project to anticipate congestion in the distribution grid, to allow for grid safety analysis in the transmission grid, and to enable smart grid innovations to locally balance supply and demand within the constraints of the grid. By open-sourcing the stack, the ambition is to provide an industry standard for generating and evaluating forecasts in the operational time domain, as well as allow for structured collaboration.
+                Use cases:
+                - Forecast congestion at substations, transformers, and MV routes a day or two ahead, so flexibility or redispatch can be activated in time
+                - Produce day-ahead transport forecasts for each DSO–TSO coupling point
+                - Forecast grid losses for day-ahead energy procurement
+                - Forecast free capacity to allocate unused headroom to flexible loads such as EV charging
+                - Forecast heat demand for district heating and combined heat and power production planning
           - item:
             name: Shapeshifter
             homepage_url: https://shapeshifter.energy/
@@ -15695,8 +15838,7 @@ landscape:
               Open source protocol that standardizes market communication for energy flexibility, enabling aggregators and grid operators to forecast, offer, order, and settle flexibility to manage grid congestion
             second_path:
               - SIG / No SIG
-              - Distribution / Operations
-              - Transmission / Operations
+              - Distribution / Markets & Programs
               - Customer and Market / Market Platform Gateway
               - Energy Systems / Modeling and Optimization
             project: incubating
@@ -15704,6 +15846,7 @@ landscape:
             license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/shapeshifter/shapeshifter-specification
+              - repo_url: https://github.com/shapeshifter/shapeshifter-library-python
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/shapeshifter/shapeshifter-library
             extra:
@@ -15719,6 +15862,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/shapeshifter
               chat_channel: '#shapeshifter'
               dev_stats_url: https://insights.linuxfoundation.org/project/shapeshifter
+              documentation_url: https://shapeshifter.github.io/shapeshifter-specification/
               incubating: '2021-04-06'
               lfx_slug: shapeshifter
               mailing_list_url: https://lists.lfenergy.org/g/shapeshifter-discussion
@@ -15731,19 +15875,19 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/shapeshifter_charter.pdf
                 - name: Project Wiki
                   url: https://lf-energy.atlassian.net/wiki/spaces/Shap
+                - name: FUSION Close Down Report (SP Energy Networks)
+                  url: https://www.spenergynetworks.co.uk/userfiles/file/FUSION_Close_Down_Report_CLEAN_020224.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=YtNDs1k80hQ
               summary_use_case: |
-                Shapeshifter enables the fastest, fairest, and lowest cost route to a smart energy future by delivering one common approach to efficiently connect smart energy projects and technologies. Its market structure, roles, rules and tools for the commoditization and trading of flexible energy usage work with existing and evolving energy markets.
+                Shapeshifter, formerly the USEF Flex Trading Protocol (UFTP), is a communication protocol for trading flexibility between grid operators and aggregators. It covers the whole exchange: which customer connections sit behind each congestion point, the aggregators' forecasts, the grid operator's request, the aggregators' offers, the order, and monthly settlement of what was delivered. Grid operators can trade with each aggregator directly or through a flexibility platform that stands in for either side. It is built for DSOs and TSOs that use flexibility to relieve congestion and defer grid reinforcement, and for the aggregators that supply it.
 
-                Shapeshifter focuses specifically on the exchange of flexibility between aggregators (AGRs) and distribution system operators (DSOs) or between aggregators and transmission system operators (TSOs). It describes the corresponding market interactions between them to resolve grid constraints by applying congestion management or grid capacity management.
-
-                Key features include:
-                1. Contract: AGR and DSO/TSO negotiate FlexOptions. This is flexibility that is reserved for DSO or TSO purposes and can be invoked by the DSO/TSO when needed. Typically, a contract includes availability remuneration and activation remuneration.
-                2. Plan: Information exchange between DSO/TSO and AGRs related to congestion points. This information exchange through the ‘Common Reference’ involves communication with the Common Reference Operator (CRO). The AGR carries out an initial portfolio optimization.
-                3. Validate: The DSO uses D-prognoses to validate whether the demand and supply of energy can be distributed safely without any limitations. If congestion occurs, the DSO or TSO can procure flexibility from AGRs to resolve grid capacity issues.
-                4. Operate: In the operate phase, the actual assets and appliances are dispatched, and the AGR adheres to its D-prognoses. When required, DSOs/TSOs can invoke additional flexibility from AGRs to resolve unexpected congestion.
-                5. Settle: In the settle phase, the flexibility that the AGR has sold to DSOs/TSOs is settled. For this purpose, the actual consumed and produced volumes are allocated to the responsible parties first. Any unresolved or disputed volumes are reconciled shortly afterwards.
+                Use cases:
+                - Relieve forecast congestion day-ahead: request flexibility from every aggregator active at a congestion point, compare their offers, and order what is needed
+                - Activate capacity limitation contracts, calling contracted customers or the congestion service providers that represent them to stay below an agreed power limit the next day
+                - Trade through a congestion management platform that matches grid operators' requests with aggregators' offers
+                - Contract flexibility at known congestion points to defer grid reinforcement or cover planned maintenance
+                - Connect an aggregator once and serve several grid operators with the same messages
       - subcategory:
         name: Sandbox
         items:
@@ -15754,6 +15898,7 @@ landscape:
             description: Open source AI decision support stack that recommends remedial actions for grid congestion, explains them, and leaves the decision to the control room operator.
             second_path:
               - SIG / No SIG
+              - Transmission / Operations
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/ainetus/ExpertOp4Grid
@@ -15770,6 +15915,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/ainetus
               dev_stats_url: https://insights.linuxfoundation.org/project/ainetus
               lfx_slug: ainetus
+              mailing_list_url: https://lists.lfenergy.org/g/ainetus-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ainetus
@@ -15777,7 +15923,29 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfeNXPuYxVK2CRNwbZ
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/ainetus/ainetus_Charter.pdf?v=1768513274785
-            additional_repos: []
+                - name: Project Website
+                  url: https://ainetus.com/
+              slack_url: https://slack.lfenergy.org
+              summary_use_case: |
+                AINETUS is a set of open components for AI decision support in grid control rooms. Its current focus is congestion: when a contingency overloads a line, agents built on expert rules or reinforcement learning propose remedial actions such as topology changes and redispatch. Explainability and uncertainty tools show why an agent chose an action and how far to trust it. Operator interfaces put the grid context and ranked recommendations on one screen, and the operator decides. It is built for transmission operators, and for the researchers and vendors developing AI assistants that leave each decision with a person.
+
+                Use cases:
+                - Find and rank remedial actions for line overloads after an N-1 contingency, with each action's effect on line loading
+                - Relieve congestion with topological remedial actions proposed by an expert system or a trained agent
+                - Judge whether to trust an AI recommendation from its explanation, uncertainty estimate, and failure forecast
+                - Review alerts and AI recommendations in one interface, with the final decision left to the operator
+                - Train and benchmark grid control agents on shared scenarios, including how they cope with conditions unlike their training data
+            additional_repos:
+              - repo_url: https://github.com/ainetus/InteractiveAI
+              - repo_url: https://github.com/ainetus/InteractiveAI-API
+              - repo_url: https://github.com/ainetus/Co-Study4Grid
+              - repo_url: https://github.com/ainetus/Expert_op4grid_recommender
+              - repo_url: https://github.com/ainetus/T2.1_deep_expert
+              - repo_url: https://github.com/ainetus/GridExplainer
+              - repo_url: https://github.com/ainetus/RL-agent-uncertainty-prediction-module
+              - repo_url: https://github.com/ainetus/RL_agent_failure_forecast
+              - repo_url: https://github.com/ainetus/grid2op-scenario
+              - repo_url: https://github.com/ainetus/agent-as-a-service-trace-rl
           - item:
             name: Arras
             homepage_url: https://arras.energy/
@@ -15786,14 +15954,18 @@ landscape:
               Open source, high performance power grid simulation for distribution grids and distributed energy resources
             second_path:
               - SIG / Grid Simulation and Modeling SIG
-              - Distribution / Modeling and Simulation
+              - Distribution / Planning & Analysis
               - System Management / Power System Calculation
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/arras-energy/tsc
             license: Other
             additional_repos:
-              - repo_url: https://github.com/arras-energy/gridlabd
+              - repo_url: https://github.com/arras-energy/arras
+              - repo_url: https://github.com/arras-energy/converters
+              - repo_url: https://github.com/arras-energy/tools
+              - repo_url: https://github.com/arras-energy/geodata
+              - repo_url: https://github.com/arras-energy/gridlabd-modules
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-07-12'
@@ -15809,6 +15981,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/arras
               chat_channel: '#arras'
               dev_stats_url: https://insights.linuxfoundation.org/project/arras
+              documentation_url: https://docs.arras.energy/
               lfx_slug: arras
               mailing_list_url: https://lists.lfenergy.org/g/arras-discussion
               other_links:
@@ -15818,12 +15991,25 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmTQAV
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf
+                - name: Project Website
+                  url: https://www.arras.energy/
+                - name: 'Video - LF Energy Summit Recap and Video: Update on Arras Energy (2024)'
+                  url: https://lfenergy.org/lf-energy-summit-recap-and-video-update-on-arras-energy/
+                - name: Presentation - Update on Arras Energy (LF Energy Summit 2024)
+                  url: https://lfenergysummit2024.sched.com/event/1ehJT/update-on-arras-energy-david-p-chassin-eudoxys-sciences-llc
+                - name: Blog Post - SLAC and its partners release a free, easy-to-use platform for understanding and managing electric grids (2023)
+                  url: https://www6.slac.stanford.edu/news/2023-12-18-slac-and-its-partners-release-free-easy-use-platform-understanding-and-managing
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=UyNhH6OkR1w
               summary_use_case: |
-                Arras delivers an open and developer-friendly framework for addressing important use cases identified by key industry stakeholders. These use-cases include (1) distributed energy resource hosting capacity, (2) tariff design, (3) end-use load electrification, (4) extreme weather resilience, (5) wildfire safety and protection, (6) peer-to-peer energy, (7) advanced load modeling and forecasting, and (8) high-performance scenario planning at scale to better plan for increasing uncertainty with DER integration.
+                Arras is a time-series simulator for electric distribution systems. Each load, generator, and piece of equipment is an agent that updates its own state as simulated time advances, and unbalanced three-phase power flow is solved at every step. Loads range from physics-based household appliances to building models fitted from AMI and SCADA data, and respond to weather and prices. Built-in analyses cover hosting capacity, electrification, tariff design, and pole failures in high winds. It is built for distribution planners, regulators, and researchers studying how solar, batteries, EVs, and electric heating will play out on their own feeders.
 
-                Arras addresses the needs of key stakeholders such as power system researchers, planners, operators, policy-makers, and regulators. Specifically, this software provides an open source advanced power system simulation engine capable of performing very large-scale simulations of distribution systems that include a large fraction of so-called smart grid technology and distributed energy resources that the key stakeholders cannot obtain and/or afford to license from existing software vendors. The goal is for these open source tools to continue to gain ongoing support to possibly open the idea of replacing legacy license tools.
+                Use cases:
+                - Run hosting capacity (integration capacity) analysis to find how much distributed generation, EV charging, and demand response each location on a feeder can take before voltage or current limits are violated
+                - Study building electrification by converting heating, water heating, cooking, and drying to electricity and producing feeder load shapes, including where home panels need upgrading
+                - Compare retail tariff designs by simulating customer bills under existing and new rates as DER adoption grows
+                - Assess extreme-weather resilience by simulating pole failures under high winds and the resulting outages on a feeder
+                - Build regional or statewide distribution models from utility CYME and AMI data to evaluate DER and electrification scenarios
           - item:
             name: AssetLife
             homepage_url: https://lfenergy.org/projects/assetlife/
@@ -15831,6 +16017,7 @@ landscape:
             description: Open source reliability library that helps grid and other infrastructure operators choose maintenance policies that minimize lifecycle cost and justify renewal investments.
             second_path:
               - SIG / No SIG
+              - Cross-cutting / Planning & Analysis
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/assetlife-project/assetlife
@@ -15846,6 +16033,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/762
               artwork_url: https://artwork.lfenergy.org/projects/assetlife
               dev_stats_url: https://insights.linuxfoundation.org/project/assetlife
+              documentation_url: https://docs.assetlife.org/
               lfx_slug: assetlife
               other_links:
                 - name: Calendar
@@ -15854,6 +16042,16 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa41EPKWxFl60ZGdB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/relife/relife_Charter.pdf?v=1788982011404
+                - name: 'Presentation - ReLife: open source Python library for risk-informed decision-making in reliability theory and asset management (LF Energy Summit Europe 2025)'
+                  url: https://lfenergysummiteu2025.sched.com/event/26Izj
+              summary_use_case: |
+                AssetLife is a Python library for asset management based on reliability theory. It fits lifetime models to an asset population's failure and service records, including assets still in service, and can relate failure rates to conditions such as location or corrosion. It compares maintenance policies, such as run-to-failure and replacement at a set age, by their expected discounted cost, and finds the replacement age that costs least. For the chosen policy, it projects how many replacements and failures to expect each year. It is built for asset managers at TSOs, DSOs, and other infrastructure operators who need to justify renewal investments.
+
+                Use cases:
+                - Decide when to replace equipment such as circuit breakers and power transformers, and compare age-based replacement with run-to-failure
+                - Forecast annual replacement volumes and budgets for an asset population, to plan capital spending and spare-parts stock
+                - Quantify how environmental conditions such as corrosion or air pollution shorten asset life
+                - Justify renewal investments on socio-economic value, with costs that can include societal costs such as a carbon price
             additional_repos: []
           - item:
             name: CitrineOS
@@ -15862,17 +16060,13 @@ landscape:
             description: Open source charging station management system (CSMS) that gives charge point operators and charging platform builders a shared, tested OCPP implementation instead of each building their own.
             second_path:
               - SIG / Edge Interoperability and Flexibility SIG
-              - Behind-the-Meter / EV Charging
+              - Behind-the-Meter / Operations
               - Consumption of Energy and Resources / Mobility and Transportation
             project: sandbox
             repo_url: https://github.com/citrineos/citrineos-core
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/citrineos/citrineos-core
-              - repo_url: https://github.com/citrineos/citrineos-ocpi
-              - repo_url: https://github.com/citrineos/citrineos-operator-ui
-              - repo_url: https://github.com/citrineos/citrineos-payment
-              - repo_url: https://github.com/citrineos/citrineos.github.io
+              - repo_url: https://github.com/citrineos/citrineos
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-11-28'
@@ -15898,17 +16092,19 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/citrineos/citrineos_Charter.pdf?v=1770075707079
                 - name: Architecture Overview
                   url: https://citrineos.github.io/core-concepts/architecture/
+                - name: Discord
+                  url: https://discord.gg/FhkRJknV3N
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=d9KOEMLZS64
               summary_use_case: |
-                The primary goal of CitrineOS is to develop and maintain an open source Charging Station Management System (CSMS) software stack. CitrineOS is developed with modularity and extensibility in mind. It consists of logically separated modules, each encapsulating a subset of functionality pertaining to the definitions of OCPP 2.0.1 – the standard protocol for communication between charging stations and charge management software. All modules handle and emit all necessary OCPP messages and are loosely coupled by a message broker interface connecting them to a central component that relays the messages to the charging station and vice versa.
+                CitrineOS is a charging station management system (CSMS): the back-end software a charge point operator uses to run a network of EV chargers. It connects to chargers over OCPP 1.6 and 2.0.1 and keeps chargers on either version in one data model. It handles station configuration, driver authorization, charging transactions, smart charging, monitoring, and firmware updates, and connects the network to roaming partners over OCPI. It is built for charge point operators and fleet operators that want to run their chargers on a back end they control, and for the companies that build charging platforms for them.
 
-                With CitrineOS, you can:
-                - Provision New Charging Equipment: Seamlessly set up new charging stations, ensuring they’re ready for action.
-                - Complete Charging Transactions: Enable secure and efficient EV charging experiences for users.
-                - Remotely Control Charging Equipment: Take charge of your charging infrastructure from anywhere, ensuring optimal performance.
-                - Monitor Charger Equipment Uptime, Power Levels, and Degradation: Keep a close eye on the health and efficiency of your charging stations.
-                - Manage Energy Consumption and Throughput: Optimize energy use and throughput, reducing environmental impact.
+                Use cases:
+                - Run a charge point operator's or fleet's charging network from one back end, mixing OCPP 1.6 chargers with newer OCPP 2.0.1 hardware
+                - Build a commercial charging management product on CitrineOS, connecting it to the operator's existing systems through its APIs
+                - Exchange locations, sessions, tariffs, and charge detail records with eMSPs and roaming hubs over OCPI
+                - Limit or schedule charging power at individual stations with OCPP charging profiles
+                - Test chargers and charger firmware against an OCPP back end, including simulated EVerest chargers
           - item:
             name: CityLearn
             homepage_url: https://lfenergy.org/projects/citylearn/
@@ -15916,6 +16112,7 @@ landscape:
             description: Open source simulation environment where researchers and developers test building and energy community control strategies on shared scenarios and metrics, so results are directly comparable.
             second_path:
               - SIG / No SIG
+              - Behind-the-Meter / Operations
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/citylearn-project/CityLearn
@@ -15932,7 +16129,9 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/506
               artwork_url: https://artwork.lfenergy.org/projects/citylearn
               dev_stats_url: https://insights.linuxfoundation.org/project/citylearn
+              documentation_url: https://www.citylearn.net/
               lfx_slug: citylearn
+              mailing_list_url: https://lists.lfenergy.org/g/citylearn-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/citylearn
@@ -15940,6 +16139,24 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfp8rrlK6FDsO9wk2q
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/citylearn/citylearn_Charter.pdf?v=1764754270554
+                - name: 'Research Paper - CityLearn v3: A Configurable Simulation and Evaluation Framework for Realistic Control Studies of Renewable Energy Communities (preprint, 2026)'
+                  url: https://arxiv.org/abs/2609.21570
+                - name: Video - CityLearn for Human-Centered Grid Flexibility (LF Energy Summit Europe 2026)
+                  url: https://www.youtube.com/watch?v=623_XOvoT6A
+                - name: 'Research Paper - CityLearn v2: energy-flexible, resilient, occupant-centric, and carbon-aware management of grid-interactive communities (2024)'
+                  url: https://doi.org/10.1080/19401493.2024.2418813
+                - name: Competition - The CityLearn Challenge 2023 (NeurIPS 2023)
+                  url: https://www.aicrowd.com/challenges/neurips-2023-citylearn-challenge
+              slack_url: https://slack.lfenergy.org
+              summary_use_case: |
+                CityLearn is a simulation environment for benchmarking control strategies for buildings and renewable energy communities. A controller decides each time step how heat pumps, thermal storage, batteries, EV chargers, and flexible appliances charge, discharge, or run. Scenarios can add connection limits, demand-response requests, local energy sharing, and changing members or failed equipment. Rule-based, model predictive, and reinforcement learning controllers are scored on the same cost, comfort, and service KPIs. It is built for researchers and developers of demand-side control, and for utilities and aggregators estimating the flexibility of building portfolios.
+
+                Use cases:
+                - Run open competitions, such as the CityLearn Challenge, where reinforcement learning, model predictive, and rule-based controllers compete on the same scenario
+                - Develop controllers that coordinate batteries, thermal storage, and heat pumps across a district to shift load and reduce peaks
+                - Test how a portfolio of buildings tracks a reference load profile bought by an aggregator
+                - Test how a renewable energy community answers DSO or TSO demand-response requests and shares energy locally, with each member's costs and savings settled
+                - Develop EV charging and vehicle-to-grid schedules that stay within building connection and phase limits
             additional_repos: []
           - item:
             name: covXtreme
@@ -15953,9 +16170,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/covXtreme/covXtreme
             license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/covXtreme/.github
-              - repo_url: https://github.com/covXtreme/covXtreme
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-01-05'
@@ -15968,6 +16183,7 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/66
               artwork_url: https://artwork.lfenergy.org/projects/covxtreme
               dev_stats_url: https://insights.linuxfoundation.org/project/covxtreme
+              documentation_url: https://github.com/covXtreme/covXtreme/blob/main/covXtreme_UserGuide.pdf
               lfx_slug: covxtreme
               other_links:
                 - name: Calendar
@@ -15976,14 +16192,18 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwTZTl5McN9ojiuC7
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/covxtreme_charter.pdf
+                - name: 'Research Paper - covXtreme: MATLAB software for non-stationary penalised piecewise constant marginal and conditional extreme value models (2024)'
+                  url: https://www.sciencedirect.com/science/article/pii/S1364815224000963
+                - name: Presentation - covXtreme project proposal to the LF Energy TAC (2023)
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2023/2023-12-19/covXtreme%20Project%20Proposal%20Presentation.pdf
               summary_use_case: |
-                Hazard risk analysis often involves modelling extreme events, for example, of natural phenomena such as rainfall, temperature, and ocean waves, or of man-made systems such as industrial processes and stock markets. We seek to understand the characteristics of the most exceptional (largest or rarest) events we have seen historically, and potentially might see if we look harder.
+                covXtreme is a statistical toolkit for estimating environmental extremes, such as storm wave heights, that vary with storm direction and season. It isolates storm peaks from time series, fits an extreme value model to each variable, and models how variables such as wave height, wave period, and wind speed behave together when one is extreme. From these models it estimates return values, such as the 100-year wave height, and environmental design contours, with uncertainty bands on each. It is built for metocean and structural engineers who must set design conditions for return periods far longer than their data records.
 
-                covXtreme was developed for oceanographic applications, but it has been used more widely. You will probably find covXtreme interesting if:
-                - You are interested in quantifying extremes using statistical analysis of a data set, and might want to estimate extreme quantiles or “return levels”,
-                - The characteristics of your data are not steady; that is, they vary with covariates which you know about,
-                - You may be interested in quantifying extremes of multiple variables at the same time, and
-                - You want to quantify how confident you can be in your modelling.
+                Use cases:
+                - Estimate 100-year and longer return values of storm wave height by storm direction for offshore structure design
+                - Derive environmental design contours of wave height and wave period, and pick sea states from them to test structural models
+                - Characterize the wave heights and wind speeds that accompany an extreme structural load, such as overturning moment on an offshore structure, by direction and season
+                - Estimate storm surge in extreme storms
           - item:
             name: CUPID (Controllable Unit Protocol Interface for DER)
             homepage_url: https://lfenergy.org/projects/cupid/
@@ -15991,6 +16211,8 @@ landscape:
             description: Open source toolkit that carries IEEE 2030.5 messages over a publish/subscribe bus and links Modbus and MQTT devices, so aggregators and grid operators can monitor and control DERs from many vendors.
             second_path:
               - SIG / No SIG
+              - Distribution / Operations
+              - Behind-the-Meter / Operations
               - Energy Systems / Distribution and Grids
             project: sandbox
             repo_url: https://github.com/cupid-project/Legacy-Protocol-Converter
@@ -16008,6 +16230,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/cupid
               dev_stats_url: https://insights.linuxfoundation.org/project/cupid
               lfx_slug: cupid
+              mailing_list_url: https://lists.lfenergy.org/g/cupid-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cupid
@@ -16015,8 +16238,23 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cupid/cupid_Charter.pdf?v=1747610679443
+                - name: 'Video - Building a Vision for DER Interoperability: The CUPID Project in LFE (LF Energy Summit Europe 2025)'
+                  url: https://www.youtube.com/watch?v=jKi9KnJTv4Y
+                - name: Presentation - CUPID proposal to the LF Energy TAC (2025)
+                  url: https://tac.lfenergy.org/meetings/2025/2025-05-13/CUPID.pdf
+                - name: White Paper - The Role of the IEEE 2030.5 Interoperability Standard in Distributed Energy Resources Integration (InterSTORE, 2025)
+                  url: https://interstore-project.eu/wp-content/uploads/2025/01/WhitePaper-InterSTORE-final-version.pdf
+              slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                Open source project that promotes interoperability and standardization for distributed energy system communication, primarily through the implementation of the IEEE 2030.5 standard
+                CUPID (Controllable Unit Protocol Interface for DERs) is a toolkit for exchanging IEEE 2030.5 messages between distributed energy resources and the platforms that monitor and dispatch them. It carries the messages, in XML or JSON, over NATS publish/subscribe messaging rather than the standard's HTTP transport, so many devices and platforms can share one server. A converter connects Modbus and MQTT devices, turning their data into IEEE 2030.5 messages and control messages into device commands. It is built for aggregators and grid operators that need to coordinate batteries, inverters, heat pumps, and other DERs from many manufacturers.
+
+                Use cases:
+                - Connect batteries, PV inverters, and heat pumps that speak Modbus or MQTT to an IEEE 2030.5 DER management platform
+                - Send real-time power set points from an aggregator's flexibility platform to the batteries and other DERs it bids into balancing and intraday markets
+                - Dispatch hybrid energy storage systems for fast peak shaving and frequency regulation
+            additional_repos:
+              - repo_url: https://github.com/cupid-project/Client-Server
+              - repo_url: https://github.com/cupid-project/interoperability-common
           - item:
             name: EnerGNN
             homepage_url: https://lfenergy.org/projects/energnn/
@@ -16024,12 +16262,15 @@ landscape:
             description: Open source graph neural network library for grid operators to train AI models that give approximate answers to grid studies faster than conventional solvers, on full-scale, changing grids.
             second_path:
               - SIG / No SIG
+              - Transmission / Planning & Analysis
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/energnn/energnn
             license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/energnn/pypowsybl-to-energnn
+              - repo_url: https://github.com/energnn/pandapower-to-energnn
+              - repo_url: https://github.com/energnn/energnn-feature-store
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2026-04-27'
@@ -16041,7 +16282,9 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/753
               artwork_url: https://artwork.lfenergy.org/projects/energnn
               dev_stats_url: https://insights.linuxfoundation.org/project/energnn
+              documentation_url: https://energnn.readthedocs.io/en/stable/
               lfx_slug: energnn
+              mailing_list_url: https://lists.lfenergy.org/g/energnn-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/energnn
@@ -16049,6 +16292,22 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf5aEYe6coFhjFY7X4
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/energnn/energnn_Charter.pdf?v=1774890498324
+                - name: 'Presentation - EnerGNN: A Graph Neural Network Library for Real-Life Complex Energy Systems (LF Energy Summit, 2026)'
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMZL/energnn-a-graph-neural-network-library-for-real-life-complex-energy-systems-balthazar-donon-rte-reseau-de-transport-delectricite
+                - name: Presentation - EnerGNN proposal to the LF Energy TAC (2026)
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-04-14/EnerGNN_LFE_TAC.pdf
+                - name: Research Paper - Self-Supervised Graph Neural Networks for Full-Scale Tertiary Voltage Control (preprint, 2026)
+                  url: https://arxiv.org/abs/2604.03087
+                - name: Presentation - Towards an AI Assistant for Tertiary Voltage Control (LF Energy Summit, 2025; as ARGO)
+                  url: https://lfenergysummiteu2025.sched.com/event/26IzF/towards-an-ai-assistant-for-tertiary-voltage-control-balthazar-donon-rte
+              summary_use_case: |
+                EnerGNN is a graph neural network library for real power grids. It represents a grid as it is actually wired: many equipment types, connections that join more than two elements, and equipment sharing a location. Its networks run on full-scale grid data without simplification and keep working through outages, new equipment, and renamed assets. Users define a problem once, with its inputs, decisions, and objective, and train a neural network on their own grid that gives fast, approximate answers to each new case. It is built for transmission operators and researchers who need fast answers to recurring grid decisions.
+
+                Use cases:
+                - Screen N-1 contingencies to find the outages likely to cause overloads, so only those need a full security simulation
+                - Recommend tertiary voltage control actions, such as switching lines and shunts or changing tap changer setpoints, that reduce voltage violations
+                - Find substation switching changes that raise transfer capacity between two grid areas, in milliseconds rather than minutes
+                - Develop new graph neural network methods for grid problems and carry them into industrial use cases
           - item:
             name: FIDOPower
             homepage_url: https://lfenergy.org/projects/fidopower/
@@ -16056,7 +16315,7 @@ landscape:
             description: Open source collection of interactive power system analysis notebooks, covering optimal power flow and equipment sizing, that grid planners and researchers can rerun and share.
             second_path:
               - SIG / Grid Simulation and Modeling SIG
-              - Distribution / Modeling and Simulation
+              - Distribution / Planning & Analysis
               - System Management / Power System Calculation
               - Energy Systems / Distribution and Grids
             project: sandbox
@@ -16075,14 +16334,22 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/fidopower
               dev_stats_url: https://insights.linuxfoundation.org/project/fidopower
               lfx_slug: fidopower
+              mailing_list_url: https://lists.lfenergy.org/g/fidopower
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/fidopower
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NYCPUQA5
               summary_use_case: |
-                An open framework for inter-organizational data exchange, data and model synthesis, and system performance analysis across multiple power systems tools
-            additional_repos: []
+                FIDOpower is a collection of power system analysis tools packaged as interactive notebooks. Each notebook loads a grid model, takes inputs through sliders and menus, and recalculates results when one changes. Its sizing tool solves a linearized optimal power flow, then finds the lowest-cost size and location for new generators, capacitors, and synchronous condensers that meet demand within voltage and line limits. A viewer shows a model's equipment in tables and on a map. Notebooks read Arras grid models, and the sizing tool's result models run in Arras. It is built for grid planners and researchers who want studies others can rerun.
+
+                Use cases:
+                - Find the least-cost size and location for capacitors, synchronous condensers, or generators so a grid model serves its demand within voltage and line limits
+                - Check whether existing generation can serve a grid model's demand without shedding load, and how much would be shed if not
+                - Review an Arras model's equipment, properties, and geographic layout before running studies on it
+                - Share a study as a notebook that colleagues or reviewers can rerun with their own cost and limit assumptions
+            additional_repos:
+              - repo_url: https://github.com/fidopower/model_viewer
           - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
             homepage_url: https://lfenergy.org/projects/geisa/
@@ -16090,16 +16357,15 @@ landscape:
             description: Open specification that lets utilities run isolated applications from many vendors on a mixed fleet of smart meters and grid devices, all managed from a single system.
             second_path:
               - SIG / No SIG
-              - Distribution / Grid Edge
+              - Distribution / Operations
               - Customer and Market / Customer Relationship and Communication
               - Energy Systems / Monitoring and Control
             project: sandbox
             repo_url: https://github.com/geisa/specification
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/geisa/community
               - repo_url: https://github.com/geisa/conformance
-              - repo_url: https://github.com/geisa/schemas
+              - repo_url: https://github.com/geisa/community
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-10-08'
@@ -16112,7 +16378,9 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/230
               artwork_url: https://artwork.lfenergy.org/projects/geisa
               dev_stats_url: https://insights.linuxfoundation.org/project/geisa
+              documentation_url: https://spec.geisa-energy.org/
               lfx_slug: geisa
+              mailing_list_url: https://lists.lfenergy.org/g/geisa-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/geisa
@@ -16120,8 +16388,20 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf9JyPreYpr2H4waXR
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/geisa_charter.pdf
+                - name: Project Website
+                  url: https://geisa.lfenergy.org/
+                - name: Project Wiki
+                  url: https://lf-energy.atlassian.net/wiki/spaces/GEISA/overview
+              slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                The secure, interoperable ecosystem to streamline the cybersecurity, deployment, scaling and operation of next-generation grid edge computing and applications
+                GEISA (Grid Edge Interoperability and Security Alliance) is a specification for running applications on smart meters and other distribution grid devices. It defines how a management system handles devices and their applications, a common interface to metering, waveform, sensor, and actuator data, and two runtime environments, one based on Linux containers and one virtual. Each application runs isolated, with only the resources and access its signed manifest grants. Open source conformance tests check implementations. It is built for utilities that want applications from several vendors on a mixed fleet of devices, and for the vendors that serve them.
+
+                Use cases:
+                - Manage meters from several manufacturers, and the applications on them, from one edge management system
+                - Detect incipient faults on primary distribution circuits, such as vegetation contact, downed wires, and high-impedance faults, from waveform data at the meter
+                - Capture time-synchronized waveform snippets when configured triggers occur, such as sags, swells, transients, or harmonic distortion
+                - Detect unauthorized behind-the-meter generation by comparing measured signatures with the customer's DER enrollment
+                - Connect customer DER that speak SunSpec Modbus to the utility's IEEE 2030.5 DERMS through a translation application on the meter
           - item:
             name: Grid Vantage
             homepage_url: https://gridvantage.energy/
@@ -16130,8 +16410,6 @@ landscape:
               Software platform designed to help electric grid operators predict, prepare for, and recover from the impacts of extreme weather events by combining agent-based grid modeling with resilience metrics to provide actionable insights
             second_path:
               - SIG / Grid Simulation and Modeling SIG
-              - Distribution / Modeling and Simulation
-              - Transmission / Modeling and Simulation
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/grid-vantage/grip-absorption-pipeline
@@ -16197,6 +16475,8 @@ landscape:
             description: Open source semantic interoperability framework that lets grid operators and aggregators exchange data with energy management systems and devices through a shared ontology, not one-off integrations.
             second_path:
               - SIG / No SIG
+              - Distribution / Operations
+              - Behind-the-Meter / Operations
               - Energy Systems / Datasets on Energy Systems
             project: sandbox
             repo_url: https://github.com/lfe-sef/generic-adapter
@@ -16214,6 +16494,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/lfe-sef
               dev_stats_url: https://insights.linuxfoundation.org/project/lfe-sef
               lfx_slug: lfe-sef
+              mailing_list_url: https://lists.lfenergy.org/g/lfe-sef-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/lfe-sef
@@ -16221,9 +16502,22 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf3FcUytWThvGvfPAw
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/interconnect-sif/interconnect-sif_Charter.pdf?v=1752086606016
+                - name: Presentation - Collaborative Analytics and Semantic Interoperability for the Energy Sector (LF Energy Summit 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/26WnS/sponsored-session-collaborative-analytics-and-semantic-interoperability-for-the-energy-sector-jose-ricardo-andrade-fabio-coelho-inesc-tec
+                - name: 'Presentation - InterConnect Semantic Interoperability Framework: TAC proposal (2024)'
+                  url: https://tac.lfenergy.org/meetings/2024/2024-04-23/InterConnect%20Semantic%20Interoperability%20Framework%20Proposal.pdf
+              slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                Open source initiative dedicated to establishing and promoting semantic interoperability within the energy sector, enabling cross-domain data exchange and knowledge sharing through standardized ontologies
-            additional_repos: []
+                Semantic Energy Framework (SEF) is middleware for exchanging data between energy platforms, devices, and services that use different data models. Each system connects through an adapter that maps its data to a shared ontology such as ETSI SAREF. The Knowledge Engine matches systems that need data with systems that provide it, and the data passes directly between them rather than through a central platform. Exchanges can be queries or publish/subscribe messages. It is built for grid operators, aggregators, and energy service providers coordinating energy management systems, appliances, and EV chargers from many vendors.
+
+                Use cases:
+                - Shift washers, dryers, and dishwashers from several manufacturers to cheaper or greener hours through a home energy management service
+                - Connect building energy management systems to an aggregator so building loads can provide flexibility
+                - Optimize home energy use against dynamic tariffs and residents' flexibility preferences
+                - Coordinate green and smart EV charging with home energy management
+                - Exchange flexibility requests and price signals between a DSO and home or building energy management systems
+            additional_repos:
+              - repo_url: https://github.com/lfe-sef/knowledge-engine
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
@@ -16244,7 +16538,6 @@ landscape:
               NODE Collective's data repository will set the gold standard for tracking electrification incentives, laying a solid foundation for informed decisions, innovative tools, and insightful policy development.
             second_path:
               - SIG / No SIG
-              - Behind-the-Meter / Market Data
               - Customer and Market / Market Platform Gateway
             project: sandbox
             repo_url: https://github.com/NODE-Collective/specification
@@ -16292,14 +16585,14 @@ landscape:
               Ecosystem for the creation, dissemination and evaluation of privacy-preserving synthetic grid data
             second_path:
               - SIG / AI SIG
-              - Distribution / Grid Edge
+              - Transmission / Planning & Analysis
+              - Distribution / Planning & Analysis
               - Sustainable Development / Data Catalogs and Interfaces
             project: sandbox
             repo_url: https://github.com/OpenSynth-energy/OpenSynth
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/OpenSynth-energy/.github
-              - repo_url: https://github.com/OpenSynth-energy/OpenSynth
+              - repo_url: https://github.com/OpenSynth-energy/D-GITT
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-01-09'
@@ -16312,6 +16605,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/opensynth
               dev_stats_url: https://insights.linuxfoundation.org/project/opensynth
               lfx_slug: opensynth
+              mailing_list_url: https://lists.lfenergy.org/g/opensynth-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opensynth
@@ -16319,13 +16613,28 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfKqhzuw4MXzjV5tBN
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/opensynth_charter.pdf
+                - name: Hugging Face
+                  url: https://huggingface.co/OpenSynth
+                - name: 'Presentation - OpenSynth Dataset Extension: 7K Challenge (LF Energy Summit, 2026)'
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMYr/opensynth-dataset-extension-7k-challenge-pierre-olivier-cayetanot-cresym-josh-cooney-mercadal-eroots-analytics
+                - name: Presentation - OpenSynth Expands with D-GITT & RTE7000 (LF Energy Summit, 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/26Iyu/opensynth-expands-with-d-gitt-rte7000-open-transmission-system-data-for-grid-aware-innovation-geethu-joseph-cresym-josep-fanals-batllori-eroots-analytics
+                - name: White Paper - Synthetic Data for Smart Energy (2025)
+                  url: https://cdn.sanity.io/files/lrxd4jqj/production/5e309155a488a8ef5d4e20660e1699440f197744.pdf
+                - name: "Research Paper - Defining 'Good': Evaluation Framework for Synthetic Smart Meter Data (preprint, 2024)"
+                  url: https://arxiv.org/abs/2407.11785
+                - name: 'Research Paper - Faraday: Synthetic Smart Meter Generator for the Smart Grid (2024)'
+                  url: https://arxiv.org/abs/2404.04314
+              slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                OpenSynth is building a community for holders of raw smart meter (i.e., demand) data to generate and share synthetic data and models that can be used by researchers, industry innovators, and policy-makers.
+                OpenSynth is an open data community for energy research. Its model repository holds generative AI models that a holder of smart meter data can train on its own data to create synthetic load profiles, with tests that check whether the output exposes real customers. Its data repository publishes the results, such as 10 million synthetic household profiles tagged by property type, energy rating, and low carbon technologies. It also hosts real grid topology published by RTE: five-minute snapshots of the French transmission network from 2021 to 2023, without power flows. It is built for researchers and grid operators who need realistic energy data that can be shared openly.
 
-                The initial focus for the community includes:
-                - Defining what comprises ‘good’ synthetic data (to include how synthetic data in energy might be evaluated for common concepts such as privacy, fidelity and utility)
-                - Developing an open repository for synthetic smart meter data and algorithms
-                - Encouraging community members to contribute data by using our initial algorithms
+                Use cases:
+                - Estimate substation and feeder loads under different heat pump, EV, and solar uptake scenarios for distribution planning
+                - Supply pseudo-measurements for low-voltage state estimation where grid measurements are sparse
+                - Release a synthetic version of a utility's or supplier's smart meter data for outside research, after testing it for privacy leaks
+                - Train and test AI models on realistic demand data before fine-tuning them on an organization's own data
+                - Develop and benchmark topology optimization, power flow, and injection reconstruction methods on a full-size real transmission network
           - item:
             name: ORES (Open Renewal Energy Systems)
             homepage_url: https://lfenergy.org/projects/ores-open-renewable-energy-systems/
@@ -16333,7 +16642,7 @@ landscape:
             description: Open source architecture and API specification for home solar panels, batteries, and controllers from different manufacturers to work together, so households can build and grow systems in modules.
             second_path:
               - SIG / Edge Interoperability and Flexibility SIG
-              - Behind-the-Meter / Flexibility
+              - Behind-the-Meter / Operations
               - Shared / Systems Governance
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
@@ -16350,15 +16659,35 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/107
               artwork_url: https://artwork.lfenergy.org/projects/ores-open-renewal-energy-systems
               dev_stats_url: https://insights.linuxfoundation.org/project/ores-open-renewal-energy-systems
+              documentation_url: https://github.com/open-renewable-energy-systems/ores/blob/Dev/Specification/ORES_Spec.md
               lfx_slug: ores-open-renewal-energy-systems
+              mailing_list_url: https://lists.lfenergy.org/g/ORES
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ores-open-renewal-energy-systems
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfn16C1T8IdKmEtdUv
+                - name: 'Presentation - AI-Audited: An Open Interface for Autonomous DER Agents on the Microgrid (LF Energy Summit Europe 2026)'
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMa1/ai-audited-an-open-interface-for-autonomous-der-agents-on-the-microgrid-chris-xie-futurewei-arila-barnes-energy-iot-open-source-tony-shannon-office-of-government-cio-holger-blasum-pvsmile-pierre-vogler-finck-pierrevf-ug
+                - name: 'Presentation - Introducing GAIFARE: Generative AI For Autonomous Renewable Energy (LF Energy Summit Europe 2025)'
+                  url: https://lfenergysummiteu2025.sched.com/event/26Ixz/lightning-talk-introducing-gaifare-generative-ai-for-autonomous-renewable-energy-arila-barnes-energy-iot-open-source-emilio-j-palacios-garcia-university-college-cork-pierre-volger-finck-pierrevf-consulting-chris-xie-futurewei-karl-xiofeng-yan
+                - name: 'Presentation - Empowering Sustainable Futures: Exploring ORES and Its Latest Innovations (FOSDEM 2025)'
+                  url: https://archive.fosdem.org/2025/schedule/event/fosdem-2025-4828-empowering-sustainable-futures-exploring-ores-open-renewable-energy-system-and-its-latest-innovations/
+                - name: 'Blog Post - LF Energy Summit Recap and Video: The Future of Energy with Open Renewable Energy Systems (ORES)'
+                  url: https://lfenergy.org/lf-energy-summit-recap-and-video-the-future-of-energy-with-open-renewable-energy-systems-ores/
+                - name: 'Blog Post - FOSDEM 2024 Recap: Unveiling the Open Renewable Energy Systems (ORES) Initiative'
+                  url: https://lfenergy.org/fosdem-2024-recap-unveiling-the-open-renewable-energy-systems-ores-initiative/
+              slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                Open standard architecture, APIs, and communication protocols for distributed renewable energy systems and microgrids, enabling plug-and-play integration of clean energy assets and guiding community-driven energy solutions
-            additional_repos: []
+                ORES (Open Renewable Energy Systems) is an LF Energy working group that specifies an open architecture for home renewable energy systems. Its specification splits a system into production modules, such as solar panels with microinverters, storage modules, and a central control unit, and outlines the APIs between them. Modules plug into standard household outlets and run alone or under the control unit. The group also builds reference prototypes and hosts GAIFARE, which explores AI agents for household and microgrid energy. It is built for device makers, developers, and DIY builders who want home solar and storage from more than one vendor.
+
+                Use cases:
+                - Build up a home system one module at a time, adding solar panels or batteries from different manufacturers as energy needs grow, without rewiring the electrical panel
+                - Charge home batteries from solar or off-peak power and discharge at peak times, coordinated by a central control unit
+                - Keep critical loads powered during grid outages by shedding others and running in island mode
+                - Check whether DER interface standards can limit and audit what an autonomous AI agent may do on a microgrid, before letting agents control batteries
+            additional_repos:
+              - repo_url: https://github.com/open-renewable-energy-systems/AI-audit-benchmark
           - item:
             name: Power Stability Wide Area Monitoring Protection (p-SWAMP)
             homepage_url: https://lfenergy.org/projects/p-swamp/
@@ -16366,6 +16695,7 @@ landscape:
             description: Open source research platform where transmission operators and researchers build and test wide-area monitoring applications on streamed or recorded PMU data before they reach the control room.
             second_path:
               - SIG / No SIG
+              - Transmission / Operations
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/p-swamp/p-SWAMP
@@ -16382,7 +16712,9 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/585
               artwork_url: https://artwork.lfenergy.org/projects/swamp
               dev_stats_url: https://insights.linuxfoundation.org/project/swamp
+              documentation_url: https://p-swamp.github.io/p-SWAMP/
               lfx_slug: swamp
+              mailing_list_url: https://lists.lfenergy.org/g/p-swamp-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/swamp
@@ -16390,6 +16722,26 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfryrBxQdUeK7djCSB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/swamp/swamp_Charter.pdf?v=1756309590007
+                - name: 'Presentation - P-SWAMP: Open R&D for WAMS (LF Energy Summit, 2026)'
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMaM/p-swamp-power-stability-wide-area-monitoring-protection-open-rd-for-wams-geir-harald-borse-unicus+auticon-hallvar-haugdal-sintef
+                - name: Presentation - p-SWAMP annual review to the LF Energy TAC (2026)
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-09-08/p-swamp%20annual%20review-TAC%208th%20Sept%202026.pdf
+                - name: 'Presentation - Wide Area Monitoring, Protection, and Control (WAMPAC): A necessity for secure monitoring operation (LF Energy Summit, 2025)'
+                  url: https://lfenergysummiteu2025.sched.com/event/26J0S/wide-area-monitoring-protection-and-control-wampac-a-necessity-for-secure-monitoring-operation-kjell-petter-myhren-statnett-geir-borse-unicus+auticon-norway
+                - name: Presentation - p-SWAMP proposal to the LF Energy TAC (2025)
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2025/2025-09-02/Statnett%20R%26D%20WAMPAC%20LF%20energy%20TAC%202%20sept%202025.pdf
+                - name: Research Paper - A Platform for Development and Testing of WAMPAC Applications based on Kafka Streaming (ISGT Europe, 2024)
+                  url: https://doi.org/10.1109/isgteurope62998.2024.10863035
+              slack_url: https://slack.lfenergy.org
+              summary_use_case: |
+                p-SWAMP is a research platform for wide-area monitoring, protection, and control (WAMPAC) of transmission grids. It takes synchrophasor data from phasor measurement units (PMUs), streamed from a phasor data concentrator or a real-time simulation, or played back from files. Monitoring applications run as separate processes that share data over a common message stream. Sample applications flag poorly damped oscillations, islanding, and line outages, raise alarms, and show results on geographic grid views. It is built for TSOs and research partners that test new monitoring methods on a shared platform before they reach control room tools.
+
+                Use cases:
+                - Switch lines in a real-time simulation of a test grid such as Nordic 44 and see how oscillation and islanding detection respond
+                - Prototype how wide-area alarms are presented to control room operators, such as islands marked on the single-line diagram with frequency and voltage angle plots
+                - Test how alarms for wide-area events are shared between neighboring TSOs
+                - Specify requirements for next-generation control room systems by demonstrating new monitoring functions with operators
+                - Carry results from one research project to the next on a shared platform instead of rebuilding infrastructure each time
             additional_repos: []
           - item:
             name: Real Time Data Ingestion Platform (RTDIP)
@@ -16398,9 +16750,7 @@ landscape:
             description: Open source time-series data platform that brings sensor, market, and weather data from many energy sites into one data lake, where engineers and analytics tools can query it.
             second_path:
               - SIG / No SIG
-              - Distribution / Data & IoT
-              - Transmission / Data & IoT
-              - Behind-the-Meter / Data & IoT
+              - Generation / Operations
               - System Management / Data Management
               - Energy Systems / Distribution and Grids
             project: sandbox
@@ -16419,6 +16769,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/rtdip
               chat_channel: '#rtdip'
               dev_stats_url: https://insights.linuxfoundation.org/project/rtdip
+              documentation_url: https://www.rtdip.io/sdk/overview/
               lfx_slug: rtdip
               mailing_list_url: https://lists.lfenergy.org/g/rtdip-discussion
               other_links:
@@ -16428,12 +16779,28 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001L1HmxQAF
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/rtdip_charter.pdf
+                - name: Project Website
+                  url: https://www.rtdip.io/
+                - name: Presentation - RTDIP 2025 Annual Review to the LF Energy TAC
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2025/2025-07-08/RTDIP%202025%20Annual%20Review.pdf
+                - name: "Blog Post - Energy Forecasting: Utilising the Power of Tomorrow's Data"
+                  url: https://www.rtdip.io/blog/2024/04/08/energy-forecasting-utilising-the-power-of-tomorrows-data/
+                - name: Blog Post - Beyond the Traditional Data Historian
+                  url: https://www.rtdip.io/blog/2023/11/27/beyond-the-traditional-data-historian/
+                - name: Presentation - Real Time Data Driving Innovation (LF Energy Summit 2023)
+                  url: https://lfenergysummit2023.sched.com/event/1JYOi/real-time-data-driving-innovation-bryce-bartmann-shell
+                - name: Blog Post - RTDIP Ingestion Pipeline Framework
+                  url: https://www.rtdip.io/blog/2023/02/24/rtdip-ingestion-pipelines/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=OKegDi9MdZI
               summary_use_case: |
-                Real Time Data Ingestion Platform (RTDIP) is the solution of choice, leveraging PaaS (Platform as a Service) services along with some custom components to provide Data Ingestion, Data Transformation, and Data Sharing as a platform. RTDIP can interface with several data sources to ingest many different data types, which include time series, alarms, video, photos, and audio being provided from sources such as Historians, OPC Servers, and Rest APIs, as well as data being sent from hardware such as IoT Sensors, Robots, and Drones.
+                RTDIP is a time-series data platform for high-volume operational data. Its streaming and batch pipelines ingest sensor readings and alarms from plant control systems, via OPC UA connectors and message brokers, plus market operators' load and price data and weather forecasts. It maps each source to common data models for process, meter, and weather data, stored in Delta Lake tables on Apache Spark. Engineers and applications query it with time-series functions such as resampling, interpolation, and time-weighted averages. It is built for operators of generation and industrial assets that need one store for operational data from many sites.
 
-                RTDIP enables users to consume real-time data at scale, including historical and real-time streaming data. RTDIP has proven to be capable of ingesting over 3 million sensors in a production environment across every geographical location in the world.
+                Use cases:
+                - Monitor production and plan maintenance across wind, solar, and industrial sites from one store of sensor data
+                - Supply regularly sampled plant data to predictive maintenance, process optimization, and digital twin applications
+                - Gather weather forecasts and market operators' load data as inputs to load and renewable generation forecasting
+                - Build dashboards and reports on site data in BI tools such as Power BI, and analyze it in data science notebooks
             additional_repos: []
           - item:
             name: RTC-Tools
@@ -16442,6 +16809,7 @@ landscape:
             description: Open source optimization framework that helps hydropower operators and energy traders get the most from reservoirs, batteries, and other assets within physical limits and under uncertain forecasts.
             second_path:
               - SIG / No SIG
+              - Generation / Operations
               - Natural Resources / Water Supply and Quality
             project: sandbox
             repo_url: https://github.com/rtc-tools/rtc-tools
@@ -16458,7 +16826,9 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/rtc-tools
               dev_stats_url: https://insights.linuxfoundation.org/project/rtc-tools
               documentation_url: https://docs.rtctools.energy
+              github_discussions_url: https://github.com/rtc-tools/rtc-tools/discussions
               lfx_slug: rtc-tools
+              mailing_list_url: https://lists.lfenergy.org/g/rtc-tools-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/rtc-tools
@@ -16466,7 +16836,24 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFMWLlIxeAyyEMxlU
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rtc-tools/rtc-tools_Charter.pdf?v=1753825022390
-            additional_repos: []
+                - name: 'Presentation - RTC-Tools Integration & Energy Trading Use Cases: Overview (LF Energy Summit 2025)'
+                  url: https://lfenergysummiteu2025.sched.com/event/26IzO/rtc-tools-integration-energy-trading-use-cases-overview-jorn-baayen-portfolioenergy
+                - name: 'Presentation - RTC-Tools Integration & Energy Trading Use Cases: Demo of Our Open-Source Release (LF Energy Summit 2025)'
+                  url: https://lfenergysummiteu2025.sched.com/event/26J01/lightning-talk-rtc-tools-integration-energy-trading-use-cases-demo-of-our-open-source-release-tjerk-vreeken-portfolioenergy
+                - name: 'Presentation - RTC-Tools Live Demo: Optimizing Decision Making and Control in Energy and Water Systems (LF Energy Summit 2025)'
+                  url: https://lfenergysummiteu2025.sched.com/event/26Iy5/rtc-tools-live-demo-optimizing-decision-making-and-control-in-energy-and-water-systems-jesus-andres-rodriguez-sarasty-deltares
+              slack_url: https://slack.lfenergy.org
+              summary_use_case: |
+                RTC-Tools is an optimization framework for scheduling assets such as reservoirs, hydropower plants, and batteries over hours to years. Engineers describe the system in Python or the Modelica modeling language, and RTC-Tools turns it into an optimization problem for open source or commercial solvers. Objectives can be ranked by priority, so that limits such as reservoir levels are met before revenue is maximized. With ensemble forecasts, its schedules hold up across a range of prices or inflows. It is built for hydropower operators, storage operators, energy traders, and water managers who want optimization models they can inspect and adapt.
+
+                Use cases:
+                - Schedule hydropower plants, pumped storage, and reservoirs against power prices while keeping water levels within their limits
+                - Schedule battery storage for day-ahead and continuous intraday energy trading
+                - Optimize asset-backed trading for portfolios that combine hydropower, batteries, thermal storage, or gas turbines
+                - Schedule pumps and gates in canals, polders, and reservoirs to keep water levels in range at lower energy cost
+                - Design district heating networks and multi-energy systems, sizing and placing their components
+            additional_repos:
+              - repo_url: https://github.com/rtc-tools/rtc-tools-casadi-plugins
           - item:
             name: Smart HEMS Benchmark
             homepage_url: https://lfenergy.org/projects/smart-hems-benchmark/
@@ -16474,6 +16861,7 @@ landscape:
             description: Open source benchmark that compares home energy management strategies and solar and battery sizing on shared scenarios and metrics, so vendors, researchers, and installers get comparable results.
             second_path:
               - SIG / No SIG
+              - Behind-the-Meter / Planning & Analysis
               - Energy Systems / Modeling and Optimization
             project: sandbox
             repo_url: https://github.com/SMART-HEMS-Benchmark/smart-hems-benchmark
@@ -16489,6 +16877,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/smart-hems-benchmark
               dev_stats_url: https://insights.linuxfoundation.org/project/smart-hems-benchmark
               lfx_slug: smart-hems-benchmark
+              mailing_list_url: https://lists.lfenergy.org/g/smart-hems-benchmark-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/smart-hems-benchmark
@@ -16496,6 +16885,21 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfmCFnNe5hmZCBSF2C
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/smart-hems-benchmark/smart-hems-benchmark_Charter.pdf?v=1778864145915
+                - name: 'Blog Post - Introducing the Smart HEMS Benchmark: An Open, Vendor-Neutral Standard for Residential Energy Systems (2026)'
+                  url: https://lfenergy.org/introducing-the-smart-hems-benchmark-an-open-vendor-neutral-standard-for-residential-energy-systems/
+                - name: Presentation - Smart HEMS Benchmark proposal to the LF Energy TAC (2026)
+                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/LF-Energy%20Smart%20HEMS-BenchMark.pdf
+                - name: Presentation - Accelerating Transparency in Home & Community Energy Management Through Benchmarking Platforms (LF Energy Summit, 2025)
+                  url: https://lfenergysummiteu2025.sched.com/event/26J0V/accelerating-transparency-in-home-community-energy-management-through-benchmarking-platforms-rui-li-ecoflow-inc-dr-anurag-mohapatra-technical-university-of-munich
+              summary_use_case: |
+                Smart HEMS Benchmark is a manufacturer-neutral benchmarking platform for home energy management systems (HEMS) and the rooftop solar and batteries they control. It simulates a year of household operation under each control strategy, from a grid-only baseline to cost-optimized time-of-use dispatch, and compares their annual costs. Sensitivity runs show how savings change with solar size, battery size, consumption, and grid export limit. Shared scenario definitions make results reproducible. It is built for HEMS vendors and researchers who need comparable results, and for installers sizing residential solar and storage.
+
+                Use cases:
+                - Measure how much time-of-use battery arbitrage saves over plain self-consumption for the same household, tariff, and year of data
+                - Size rooftop solar and home batteries for a location and tariff by testing how savings change with each
+                - Test how grid export limits change the value of household solar and storage
+                - Reproduce and compare published HEMS studies on shared scenarios and data
+                - Check the accuracy of solar and load forecasts before using them in a HEMS
           - item:
             name: VAREN
             homepage_url: https://github.com/varen-project
@@ -16503,6 +16907,7 @@ landscape:
             description: VAREN is an open source library designed to extract actionable intelligence from LiDAR point clouds for the distribution networks.
             second_path:
               - SIG / No SIG
+              - Distribution / Planning & Analysis
               - Asset Management / Asset Supervision
             project: sandbox
             repo_url: https://github.com/varen-project/varen
@@ -16519,6 +16924,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/varen
               dev_stats_url: https://insights.linuxfoundation.org/project/varen
               lfx_slug: varen
+              mailing_list_url: https://lists.lfenergy.org/g/varen-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/varen
@@ -16526,6 +16932,12 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfxOWgR2bjELnOxqrk
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/varen/varen_Charter.pdf?v=1790279137031
+              summary_use_case: |
+                VAREN (Vegetation and Asset Recognition of Electrical Network) is a Python library for interpreting mobile LiDAR scans of overhead distribution networks. Its first algorithm finds each medium-voltage conductor in a classified scan and models it as a curve along the span. Obstructions and sparse data often break a conductor into fragments; VAREN joins them back into one. The project plans to add point classification, pole and span extraction without GIS records, and detection of vegetation encroaching on each span. It is built for distribution utilities that want current asset records and vegetation risk from their LiDAR surveys.
+
+                Use cases:
+                - Extract medium-voltage conductor geometry from mobile LiDAR surveys, including spans where the scan is obstructed or sparse
+                - Measure how well conductor detection holds up on a utility's own surveys, against ground-truth conductors
             additional_repos: []
       - subcategory:
         name: SIG
@@ -16622,7 +17034,8 @@ landscape:
             description: Secure, standardized access and sharing of customer energy data, including metering, billing, authorization and consent
             second_path:
               - SIG / No SIG
-              - Distribution / Grid Edge
+              - Distribution / Markets & Programs
+              - Behind-the-Meter / Markets & Programs
               - Emissions / Carbon Intensity and Accounting
             project: working-group
             repo_url: https://github.com/lfe-cds/CDS-Customer-Data
@@ -16638,14 +17051,32 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/512
               artwork_url: https://artwork.lfenergy.org/projects/cds-customerdata-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-customerdata-wg
+              documentation_url: https://cds-customerdata.lfenergy.org/specs/cds-wg3-01/
               lfx_slug: cds-customerdata-wg
+              mailing_list_url: https://lists.lfenergy.org/g/cds-customer-data-wg
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-customerdata-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt3QAH
+                - name: Project Website
+                  url: https://cds-customerdata.lfenergy.org/
+                - name: Presentation - A Tour of LF Energy's Connected Data Specifications (CDS) (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMbB/a-tour-of-lf-energys-connected-data-specifications-cds-daniel-roesler-drx-gateway-inc
+                - name: Presentation - An Overview of the New Carbon Data Specification Consortium (CDSC) Discovery, Registration, and Customer Data Specification Drafts (LF Energy Summit 2024)
+                  url: https://lfenergysummit2024.sched.com/event/1ehIt/an-overview-of-the-new-carbon-data-specification-consortium-cdsc-discovery-registration-and-customer-data-specification-drafts-daniel-roesler-utilityapi-eloi-fabrega-ferrer-flexidao
+                - name: Presentation - Challenges and Solutions to Enable Customer Data Access in Europe and the United States (LF Energy Summit 2023)
+                  url: https://lfenergysummit2023.sched.com/event/1JYO5/challenges-and-solutions-to-enable-customer-data-access-in-europe-and-the-united-states-eloi-fabrega-ferrer-flexidao-daniel-roesler-utilityapi
+              slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
+                CDS Customer Data defines how utilities share customer data with customers and third parties they approve. It specifies APIs and data formats for accounts, meters, bills, usage, and program participation, and builds on CDS Registration for onboarding and credentials. Customers approve each third-party request on a standard form showing exactly what is asked for, and can revoke it at any time. Each third party gets only the fields, accounts, and dates it needs. Ready-made scenarios let regulators mandate common uses. It is built for utilities and regulators that want a common way to share customer data, and for service providers that need it.
+
+                Use cases:
+                - Let commercial customers pull their own interval usage and bills automatically into energy and cost tracking systems
+                - Share a customer's historical and ongoing meter data with an energy auditor, contractor, or ESCO once the customer approves
+                - Give building owners whole-building usage for municipal benchmarking reports
+                - Let demand response and rebate apps check which rate plan a customer is on and their program eligibility with the customer's consent
+                - Release aggregated usage, such as by postal code, to researchers and regulators
           - item:
             name: Connected Data Specification - Power Systems Data Working Group (CDS WG2)
             homepage_url: https://cds-powersystemdata.lfenergy.org/
@@ -16685,7 +17116,7 @@ landscape:
             description: Standardizes and simplifies secure discovery and connectivity between energy data holders and data users
             second_path:
               - SIG / No SIG
-              - Distribution / Grid Edge
+              - Distribution / Markets & Programs
               - Emissions / Carbon Intensity and Accounting
             project: working-group
             repo_url: https://github.com/lfe-cds/CDS-Registration
@@ -16702,14 +17133,30 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/511
               artwork_url: https://artwork.lfenergy.org/projects/cds-registration-wg
               dev_stats_url: https://insights.linuxfoundation.org/project/cds-registration-wg
+              documentation_url: https://cds-registration.lfenergy.org/specs/
               lfx_slug: cds-registration-wg
+              mailing_list_url: https://lists.lfenergy.org/g/cds-registration-wg
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cds-registration-wg
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
+                - name: Project Website
+                  url: https://cds-registration.lfenergy.org/
+                - name: Presentation - A Tour of LF Energy's Connected Data Specifications (CDS) (LF Energy Summit 2026)
+                  url: https://lfenergysummiteu2026.sched.com/event/2PMbB/a-tour-of-lf-energys-connected-data-specifications-cds-daniel-roesler-drx-gateway-inc
+                - name: Presentation - An Overview of the New Carbon Data Specification Consortium (CDSC) Discovery, Registration, and Customer Data Specification Drafts (LF Energy Summit 2024)
+                  url: https://lfenergysummit2024.sched.com/event/1ehIt/an-overview-of-the-new-carbon-data-specification-consortium-cdsc-discovery-registration-and-customer-data-specification-drafts-daniel-roesler-utilityapi-eloi-fabrega-ferrer-flexidao
+              slack_url: https://slack.lfenergy.org
               summary_use_case: |
-                The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
+                CDS Registration is a pair of specifications for how utilities and other central entities, such as grid operators and data hubs, connect with outside organizations. Server Metadata publishes, at a fixed web address, which data and digital services a utility makes available to third parties and the territories it covers. Client Registration builds on OAuth 2.0 so third parties can register, get credentials, and manage their access. Other specifications, starting with CDS Customer Data, add their own data and functions to it. It is built for utilities onboarding many energy service providers, and for the providers that connect to them.
+
+                Use cases:
+                - Onboard aggregators, energy service providers, and other vendors without exchanging credentials and settings by secure email
+                - Rotate client secrets and keep connection settings, such as endpoints and access scopes, current across many utilities
+                - Give other utility data and grid protocols a ready-made registration and authorization layer, as CDS Customer Data does for customer energy data
+                - Send registered third parties notices of changes and outages, and answer their support requests, in one tracked channel
+                - Find which utilities offer a given connection or data service, and where, without searching each utility's website
           - item:
             name: TROLIE
             homepage_url: https://lfenergy.org/projects/trolie/
@@ -16723,7 +17170,6 @@ landscape:
             repo_url: https://github.com/trolie/spec
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/trolie/conformance
               - repo_url: https://github.com/trolie/java-client-sdk
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
@@ -16736,20 +17182,36 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/79
               artwork_url: https://artwork.lfenergy.org/projects/trolie
               dev_stats_url: https://insights.linuxfoundation.org/project/trolie
+              documentation_url: https://trolie.energy/spec
               lfx_slug: trolie
+              mailing_list_url: https://lists.lfenergy.org/g/trolie-general
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/trolie
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
+                - name: Project Website
+                  url: https://trolie.energy/
+                - name: Adopters
+                  url: https://github.com/trolie/spec/blob/1.0/ADOPTERS.md
+                - name: Webinar - TROLIE "Ask Me Anything" with vendors and implementers (2025)
+                  url: https://www.youtube.com/watch?v=kxM9z5JLWJ4
+                - name: 'Article - Meeting the challenge of FERC Order 881: Why open source matters for AAR implementation (Utility Dive, 2025)'
+                  url: https://www.utilitydive.com/news/ferc-order-881-aar-ambient-adjusted-rating-trolie/750604/
+                - name: Webinar - A Lap Around TROLIE 1.0 (2024)
+                  url: https://www.youtube.com/watch?v=dk4s3tt1SEU
+                - name: 'Presentation - TROLIE: Establishing an Open Conformance Standard for the Exchange of Transmission Facility Ratings (LF Energy Summit, 2024)'
+                  url: https://www.youtube.com/watch?v=PdHwC3Ovm1w
               summary_intro_url: https://www.youtube.com/watch?v=RRXwD8nyokc
               summary_use_case: |
-                TROLIE is an open conformance standard and cultivates a software ecosystem to accelerate the implementation of reliable, secure, and interoperable systems for the exchange of transmission facility ratings and related information. Most organizations involved in the operation of the transmission system in North America now need to exchange ratings and related information in an automated, frequent manner. This project will help accelerate their implementation and simplify interoperability.
+                TROLIE (Transmission Ratings and Operating Limits Information Exchange) is an API specification for exchanging transmission ratings and operating limits under FERC Order 881. Transmission owners submit real-time, 240-hour forecast, and seasonal ratings to a clearinghouse, usually the ISO, RTO, or reliability coordinator. The clearinghouse returns the operating limits it will use and shows which inputs set each one. Neighboring reliability coordinators use the same interface to reconcile tie-line limits. It is built for transmission owners, ISOs, and RTOs exchanging ratings hourly, and for the vendors whose systems produce and use them.
 
-                The project’s specific aims are:
-                - Define API specification for the exchange of ratings and ratings-related information to support organizations working to comply with FERC Order 881.
-                - A conformance program that emulates the Zowe Conformance Program or the Certified Kubernetes Conformance Program insofar as they give vendors a means to demonstrate their conformance to the above specification and signal their commitment to maintaining their conformance over time.
-                - An open commons for the development of clients of the API specification.
+                Use cases:
+                - Submit hourly forecast and real-time ambient-adjusted ratings to the transmission provider to meet FERC Order 881 ratings obligations
+                - Check the in-use limits the transmission provider set against the ratings submitted, and see which input or override set each one
+                - Record temporary AAR exceptions when a facility's rating can't be ambient-adjusted for a period, such as during an outage or a derate
+                - Reconcile tie-line limits between neighboring reliability coordinators so both operate to the most limiting rating
+                - Confirm that both parties name and track the same facilities before ratings exchange goes live
           - item:
             name: Utility Rate Plan Exchange
             homepage_url: https://urpx.org/
@@ -16757,7 +17219,8 @@ landscape:
             description: Utility Rate Plan Exchange (URPX) aims to develop a comprehensive, standardized method for representing and exchanging utility rate plan data in machine-accessible format. URPX will provide a solid yet versatile foundation that governments, utilities, vendors, and technology companies can leverage to improve transparency in energy pricing and clean energy procurement. The project builds upon an existing collaboration between NREL and Flux Tailor and aims to address the fragmented approach currently used by vendors who handle rate plan calculations in silos using custom logic and rules-based systems.
             second_path:
               - SIG / No SIG
-              - Distribution / Grid Edge
+              - Distribution / Markets & Programs
+              - Behind-the-Meter / Markets & Programs
               - Sustainable Development / Data Catalogs and Interfaces
             project: working-group
             repo_url: https://github.com/urpx-org/urpx-wg
@@ -16774,12 +17237,36 @@ landscape:
               annual_review_url: https://github.com/lf-energy/tac/issues/600
               artwork_url: https://artwork.lfenergy.org/projects/utility-rate-plan-exchange
               dev_stats_url: https://insights.linuxfoundation.org/project/utility-rate-plan-exchange
+              documentation_url: https://urpx.org/docs/getting-started/overview
               lfx_slug: utility-rate-plan-exchange
+              mailing_list_url: https://lists.lfenergy.org/g/urpx-wg
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/utility-rate-plan-exchange
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfISx1cI6KYboQfjad
+                - name: Project Website
+                  url: https://urpx.org/
+                - name: 'Blog - URPX goes public: an open standard for machine-readable utility rate plans (LF Energy, 2026)'
+                  url: https://lfenergy.org/urpx-goes-public-an-open-standard-for-machine-readable-utility-rate-plans/
+                - name: Blog - LF Energy Welcomes New Members, Launches Three Projects, and Advances Open Source Grid Technology Across the Portfolio (2026)
+                  url: https://lfenergy.org/lf-energy-new-members-projects-and-portfolio-growth/
+                - name: Presentation - The v0.3.0 rate plan model, working group walkthrough (2026)
+                  url: https://github.com/urpx-org/urpx-wg/blob/main/meetings/2026-07-14_URPXWorkingGroup_012/URPX_WorkingGroupSession_012_2026-07-14.pdf
+                - name: Presentation - URPX proposal to the LF Energy TAC (2025)
+                  url: https://github.com/user-attachments/files/22788585/FluxTailor_URPX_LFEnergyPresentation_2025-10-09_Preview.pdf
+              slack_url: https://slack.lfenergy.org
+              summary_use_case: |
+                URPX (Utility Rate Plan Exchange) describes utility rate plans as machine-readable data. It covers a plan's charges, how they vary by time of use, season, and usage tier, and which customers qualify. Utilities spread a plan's prices across tariff books, statements, and price feeds, so URPX cites each price to its source and assembles them into one snapshot per period, stating whether it is complete. It is built for utilities and retail suppliers that publish rate plans, and for the DER vendors, regulators, consumer advocates, and researchers that compute costs from them.
+
+                Use cases:
+                - Publish each rate plan once, alongside the filed tariff, in a format every downstream tool and customer portal can read
+                - Build rate plan comparison and bill calculation tools that work the same way across utility territories
+                - Check which rate plans and add-ons a customer qualifies for from their customer and service point profile
+                - Schedule EVs, batteries, heat pumps, and other DERs against the customer's actual rate plan, such as by sending computed hourly prices to energy management systems over OpenADR 3
+                - Review rate cases and compare rate designs and their affordability across jurisdictions
+            additional_repos:
+              - repo_url: https://github.com/urpx-org/urpx-wg
   - category:
     name: Not LFESS Member
     subcategories:
