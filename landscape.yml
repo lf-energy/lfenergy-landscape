@@ -16712,10 +16712,9 @@ landscape:
                 The Carbon Data Specification is a data dictionary for raw data and a standard for data requirements that enable energy data access for measuring, quantifying, and tracking carbon emissions from energy production and consumption. These standards and requirements should boost confidence in data sources, increase data utilization, promote scalability, and enable data aggregation for centralized platforms, supporting and informing grid decarbonization pathways and decision-making.
           - item:
             name: TROLIE
-            homepage_url: https://trolie.energy/
+            homepage_url: https://lfenergy.org/projects/trolie/
             logo: trolie.svg
-            description: |
-              Standardizes the exchange of transmission facility ratings and operating limits to enhance grid interoperability and comply with FERC Order 881
+            description: Open specification for an API that lets transmission owners and ISOs exchange FERC Order 881 line ratings (real-time, forecast, and seasonal) and resulting limits between any vendors' systems.
             second_path:
               - SIG / No SIG
               - Transmission / Operations
