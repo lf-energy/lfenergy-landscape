@@ -16924,6 +16924,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/varen
               dev_stats_url: https://insights.linuxfoundation.org/project/varen
               lfx_slug: varen
+              mailing_list_url: https://lists.lfenergy.org/g/varen-discussion
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/varen
@@ -16931,6 +16932,12 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfxOWgR2bjELnOxqrk
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/varen/varen_Charter.pdf?v=1790279137031
+              summary_use_case: |
+                VAREN (Vegetation and Asset Recognition of Electrical Network) is a Python library for interpreting mobile LiDAR scans of overhead distribution networks. Its first algorithm finds each medium-voltage conductor in a classified scan and models it as a curve along the span. Obstructions and sparse data often break a conductor into fragments; VAREN joins them back into one. The project plans to add point classification, pole and span extraction without GIS records, and detection of vegetation encroaching on each span. It is built for distribution utilities that want current asset records and vegetation risk from their LiDAR surveys.
+
+                Use cases:
+                - Extract medium-voltage conductor geometry from mobile LiDAR surveys, including spans where the scan is obstructed or sparse
+                - Measure how well conductor detection holds up on a utility's own surveys, against ground-truth conductors
             additional_repos: []
       - subcategory:
         name: SIG
