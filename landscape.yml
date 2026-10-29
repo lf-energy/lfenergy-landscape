@@ -16498,11 +16498,11 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/smart-hems-benchmark/smart-hems-benchmark_Charter.pdf?v=1778864145915
           - item:
             name: VAREN
-            homepage_url: https://github.com/varen-project
+            homepage_url: https://lfenergy.org/projects/varen/
             logo: varen.svg
-            description: VAREN is an open source library designed to extract actionable intelligence from LiDAR point clouds for the distribution networks.
+            description: Open source Python library that turns vehicle LiDAR scans of overhead distribution lines into asset and vegetation data, so utilities don't have to interpret the scans by hand.
             second_path:
-              - SIG / No SIG
+              - SIG / AI SIG
               - Asset Management / Asset Supervision
             project: sandbox
             repo_url: https://github.com/varen-project/varen
@@ -16526,7 +16526,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfxOWgR2bjELnOxqrk
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/varen/varen_Charter.pdf?v=1790279137031
-            additional_repos: []
       - subcategory:
         name: SIG
         items:
