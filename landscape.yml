@@ -16902,12 +16902,12 @@ landscape:
                 - Check the accuracy of solar and load forecasts before using them in a HEMS
           - item:
             name: VAREN
-            homepage_url: https://github.com/varen-project
+            homepage_url: https://lfenergy.org/projects/varen/
             logo: varen.svg
-            description: VAREN is an open source library designed to extract actionable intelligence from LiDAR point clouds for the distribution networks.
+            description: Open source Python library that turns vehicle LiDAR scans of overhead distribution lines into asset and vegetation data, so utilities don't have to interpret the scans by hand.
             second_path:
-              - SIG / No SIG
               - Distribution / Planning & Analysis
+              - SIG / AI SIG
               - Asset Management / Asset Supervision
             project: sandbox
             repo_url: https://github.com/varen-project/varen
@@ -16938,7 +16938,6 @@ landscape:
                 Use cases:
                 - Extract medium-voltage conductor geometry from mobile LiDAR surveys, including spans where the scan is obstructed or sparse
                 - Measure how well conductor detection holds up on a utility's own surveys, against ground-truth conductors
-            additional_repos: []
       - subcategory:
         name: SIG
         items:
@@ -16956,7 +16955,7 @@ landscape:
             extra:
               accepted: '2023-09-26'
               annotations:
-                next_annual_review_date: '2026-11-10'
+                next_annual_review_date: '2026-12-08'
                 chair: Alex Thornton
                 submitted_date: '2023-09-27'
               annual_review_date: '2025-11-11'
