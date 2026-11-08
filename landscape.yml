@@ -16684,9 +16684,7 @@ landscape:
             project: working-group
             repo_url: https://github.com/trolie/spec
             license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/trolie/conformance
-              - repo_url: https://github.com/trolie/java-client-sdk
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-09-06'
@@ -16694,6 +16692,7 @@ landscape:
                 next_annual_review_date: '2027-01-12'
                 chair: Christopher Atkins
                 submitted_date: '2023-11-06'
+                project_org: https://github.com/trolie
               annual_review_date: '2026-01-13'
               annual_review_url: https://github.com/lf-energy/tac/issues/79
               artwork_url: https://artwork.lfenergy.org/projects/trolie
