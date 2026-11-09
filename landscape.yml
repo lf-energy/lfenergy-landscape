@@ -14825,14 +14825,6 @@ landscape:
                   url: https://lfenergy.org/lf-energy-compas-cleans-up-iec-61850-data-model/
                 - name: Use Case - How LF Energy’s Strategic Members RTE and Alliander Embraced Open Source to Speed Modernization of the Grid
                   url: https://lfenergy.org/how-rte-and-alliander-embraced-open-source-to-speed-modernization-of-the-grid/
-                - name: Presentation - CoMPAS and Beyond - Simplifying IEC 61850 (LF Energy Summit 2024)
-                  url: https://lfenergysummit2024.sched.com/event/1ehIw/compas-and-beyond-simplifying-iec61850-pascal-wilbrink-openvalue-arnhem
-                - name: Presentation - CoMPAS Essentials - Key to Simplicity (LF Energy Summit 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/26Izm/compas-essentials-key-to-simplicity-david-monichi-stefan-baumgartner-bearingpoint
-                - name: Presentation - CoMPAS 2026 Annual Review to the LF Energy TAC
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/CoMPAS%20annual%20review-%20260609.pdf
-                - name: Presentation - CoMPAS in Practice (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMZ0/compas-in-practice-building-extending-and-ensuring-quality-in-scl-engineering-stefan-baumgartner-philomena-apitzsch-lorenz-horburger-david-monichi-bearingpoint-sander-jansen-alliander-nv
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=CAMYMdUwrVg
               summary_use_case: |
@@ -14843,6 +14835,7 @@ landscape:
                 - Integrate protection, automation, and control devices from several vendors into one system configuration, during procurement, commissioning, and later updates
                 - Build a substation specification from the grid model by converting CIM substation data to SCL
                 - Validate and clean up IEC 61850 data models for signal interfaces between grid operators and grid-connected customers
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptzXdmaAZeV1WX8ONML3XwC
           - item:
             name: EVerest
             homepage_url: https://lfenergy.org/projects/everest/
@@ -14899,18 +14892,8 @@ landscape:
                   url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
                 - name: Zulip
                   url: https://lfenergy.zulipchat.com
-                - name: Roadmap
-                  url: https://everest.github.io/nightly/project/roadmap.html
                 - name: EVerest CPO Forum
                   url: https://lfenergy.org/groups/everest-cpo-forum/
-                - name: Announcement - U.S. Joint Office of Energy and Transportation Partners With Linux Foundation Energy
-                  url: https://lfenergy.org/u-s-joint-office-of-energy-and-transportation-partners-with-linux-foundation-energy-to-improve-reliability-and-interoperability-of-ev-charging-nationally/
-                - name: Use Case - Park&Charge and Qwello Revitalize EV Chargers with LF Energy EVerest
-                  url: https://lfenergy.org/parkcharge-and-qwello-revitalize-ev-chargers-with-lf-energy-everest/
-                - name: Talk - Real World Interoperability in EV Charging (FOSDEM 2026)
-                  url: https://www.youtube.com/watch?v=0cjevmsFhAA
-                - name: Webinar - SunSpec & EVerest, Open Standards for EV Charging Infrastructure
-                  url: https://sunspec.org/sunspec-everest-webinar/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://everest.github.io/nightly/_images/0-0-everest-top-level-diagram.png
               summary_use_case: |
@@ -14922,6 +14905,7 @@ landscape:
                 - Run load management across multiple charging ports sharing one grid connection
                 - Apply smart charging limits set by the charging station management system or a local energy management system
                 - Test charging station management systems, chargers, and vehicles for interoperability against simulated EVerest chargers and EVs
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpv_RJS98n8DbR2qVOmX6cls
           - item:
             name: OperatorFabric
             homepage_url: https://www.lfenergy.org/projects/operatorfabric/
@@ -14972,10 +14956,6 @@ landscape:
                   url: https://opfab.github.io/
                 - name: Architecture Overview
                   url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/feed_screenshot.png
-                - name: Security audit (2024) - LF Energy OperatorFabric Project Completes Security Audit and Threat Model
-                  url: https://lfenergy.org/lf-energy-operatorfabric-project-completes-security-audit-and-threat-model/
-                - name: Presentation - TSO-DSO Coordination Using OperatorFabric (LF Energy Summit 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/26Izv/tso-dso-coordination-using-operatorfabric-sascha-eschmann-rte-international
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=QemhzfYQpaw
               summary_use_case: |
@@ -14987,6 +14967,7 @@ landscape:
                 - Share real-time information between TSOs and DSOs, from simple messages to exchanges automated by an external application
                 - Collect confirmation from every control center before an operational change, such as upgrading a critical control room tool
                 - Assign recurring tasks to the operator responsible for an activity area at the time, across shift changes
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpt9eXWhMjaZbV6CjlzaRF6X
           - item:
             name: Power Grid Model
             homepage_url: https://lfenergy.org/projects/power-grid-model/
@@ -15046,6 +15027,7 @@ landscape:
                 - Operational planning: plan maintenance and outages by simulating switching and restoration strategies
                 - Grid connection planning: assess new customer connections for feasibility and local network impact
                 - Strategic and investment planning: run thousands of load-flow scenarios for the adoption of EVs, heat pumps, and local generation to find future bottlenecks in LV and MV grids
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpuSxPefgf0wMSVvL-B4q7u-
           - item:
             name: PowSyBL
             homepage_url: https://lfenergy.org/projects/powsybl/
@@ -15103,14 +15085,6 @@ landscape:
                   url: https://powsybl.org/
                 - name: Architecture Overview
                   url: https://www.powsybl.org/pages/overview/img/index/nodeBreakerTopology.svg
-                - name: Case Study - Grid Security at Scale - How TenneT Built a 10× Faster Analysis Platform on PowSyBl
-                  url: https://lfenergy.org/grid-security-at-scale-tennet-powsybl/
-                - name: Case Study - Baltic RCC's use of open source technology to meet energy transition challenges
-                  url: https://lfenergy.org/baltic-rccs-use-of-open-source-technology-to-meet-energy-transition-challenges/
-                - name: Case Study - PowSyBl - A community-led open source project for European grid sovereignty
-                  url: https://lfenergy.org/powsybl-a-community-led-open-source-project-for-european-grid-sovereignty/
-                - name: Security audit (2025) - Audit of LF Energy PowSyBl ensures security of power systems tool
-                  url: https://lfenergy.org/audit-of-lf-energy-powsybl-ensures-security-of-power-systems-tool/
               slack_url: https://slack.powsybl.org
               summary_intro_url: https://www.youtube.com/watch?v=rAvfO6Lu4cc
               summary_use_case: |
@@ -15122,6 +15096,7 @@ landscape:
                 - Coordinate security across TSOs: optimize remedial actions and share their costs through a transparent, auditable method
                 - Calculate cross-zonal capacity with flow-based and NTC methods
                 - Merge national CGMES grid models into one pan-European model
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptLvDzbiM8IkzVEOUizZ6iF
           - item:
             name: SEAPATH
             homepage_url: https://www.lfenergy.org/projects/seapath/
@@ -15182,14 +15157,6 @@ landscape:
                   url: https://lf-energy.atlassian.net/wiki/spaces/SEAP/overview#SEAPATH-architecture
                 - name: Project Wiki
                   url: https://lf-energy.atlassian.net/wiki/spaces/SEAP
-                - name: Case Study - RTE Deploys LF Energy SEAPATH for Virtual Protection Automation and Control
-                  url: https://lfenergy.org/rte-deploys-lf-energy-seapath-for-virtual-protection-automation-and-control/
-                - name: Case Study - National Grid Electricity Transmission and GE Vernova Collaborate on LF Energy SEAPATH
-                  url: https://lfenergy.org/national-grid-electricity-transmission-and-ge-vernova-collaborate-on-lf-energy-seapath-to-advance-virtualized-protection-and-control/
-                - name: Case Study - EcoPhi on SEAPATH - Virtualizing Substation Monitoring and Analytics
-                  url: https://lfenergy.org/ecophi-on-seapath-virtualizing-substation-monitoring-and-analytics-for-grid-efficiency-and-reliability/
-                - name: Security audit (2024) - LF Energy SEAPATH Project Completes Security Audit and Threat Model
-                  url: https://lfenergy.org/lf-energy-seapath-project-completes-security-audit-and-threat-model/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=qm_nQef5_BM
               summary_use_case: |
@@ -15201,6 +15168,7 @@ landscape:
                 - Replace duplicated devices with cluster redundancy, where a failed server's functions move to the remaining servers
                 - Run virtualized protection relays (vIEDs) on shared substation servers
                 - Host substation monitoring and analytics applications alongside PAC functions
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpvgy-yskKC0cJSUFwWjAdSf
           - item:
             name: SOGNO
             homepage_url: https://www.lfenergy.org/projects/sogno/
@@ -15252,10 +15220,6 @@ landscape:
                   url: https://sogno.energy/
                 - name: Architecture Overview
                   url: http://lfenergy.dev-lfprojects3.linuxfoundation.org/wp-content/uploads/sites/18/2023/01/sogno-arch.svg
-                - name: Presentation - RomeFlex - SOGNO Platform in Action (LF Energy Summit 2024)
-                  url: https://lfenergysummit2024.sched.com/event/1ehHe/romeflex-sogno-platform-in-action-antonello-monti-rwth-aachen-university
-                - name: Presentation - SOGNO 2025 Annual Review to the LF Energy TAC
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2025/2025-05-13/LFE-SOGNO-TAC-Review-2025.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=A1Ncij_LOUc
               summary_use_case: |
@@ -15267,6 +15231,7 @@ landscape:
                 - Improve observability of distribution grids with state estimation
                 - Forecast load and PV or wind generation, with uncertainty ranges, as input to grid operation
                 - Coordinate batteries and PV in energy communities to provide local flexibility
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpvkLRriGeeJrStbYWFSAYHV
       - subcategory:
         name: Incubating
         items:
@@ -15314,10 +15279,6 @@ landscape:
                   url: https://batterydataalliance.energy/
                 - name: Forum
                   url: https://bda.discourse.group/
-                - name: Blog Post - LF Energy Battery Data Alliance Announces the Battery Data Format (BDF) (2025)
-                  url: https://lfenergy.org/lf-energy-battery-data-alliance-announces-the-battery-data-format-bdf/
-                - name: Presentation - Challenges and Opportunities Working with Battery Data (LF Energy Summit 2024)
-                  url: https://lfenergysummit2024.sched.com/event/1ehID/challenges-and-opportunities-working-with-battery-data-gabe-hege-amplabs
               summary_use_case: |
                 Battery Data Alliance develops the Battery Data Format (BDF), an open standard for battery test data, and the software around it. BDF fixes the columns, units, and file layout for cycling data, one cell per file. An ontology built on BattINFO defines each column, so software can read its meaning and unit. A Python package converts exports from a wide range of cycler brands to BDF and checks them for errors. A community datastore publishes open BDF datasets. It is built for battery labs, cell makers, and equipment and software vendors that want to share test data and run models on it without writing a new converter each time.
 
@@ -15327,6 +15288,7 @@ landscape:
                 - Catch unit and timing errors in test data before they reach analysis
                 - Publish battery datasets with machine-readable metadata so other labs and machine learning teams can find and reuse them
                 - Automate cycler tests and log channel readings from Python, including closed-loop charging experiments that set the current in real time
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpu7mQ0NMozuTrcTbNEPeDNE
           - item:
             name: Dynaωo
             homepage_url: https://lfenergy.org/projects/dyna%CF%89o/
@@ -15380,16 +15342,6 @@ landscape:
                   url: https://dynawo.github.io/
                 - name: Architecture Overview
                   url: https://dynawo.github.io/assets/images/DynawoModelSolverLight.png
-                - name: Presentation - Dynaωo - A Hybrid C++/Modelica Open Source Suite of Simulation Tools for Power Systems (LF Energy Summit 2023)
-                  url: https://lfenergysummit2023.sched.com/event/1JYPR/dynaoo-a-hybrid-c++modelica-open-source-suite-of-simulation-tools-for-power-systems-marco-chiaramello-rte-reseau-de-transport-delectricite
-                - name: Use Case - ENTSO-E Expert Panel Final Report on the 28 April 2025 Iberian Blackout (voltage study built with Dynaωo)
-                  url: https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/
-                - name: Presentation - Dynaωo for Large-Scale Power System Event Analysis - the 2025 Iberian Blackout (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMab/dynaoo-for-large-scale-power-system-event-analysis-the-2025-iberian-blackout-marco-chiaramello-rte-reseau-de-transport-delectricite
-                - name: Presentation - Presenting DyCoV (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMan/presenting-dycov-streamlining-dynamic-model-validation-and-performance-verification-using-dynawo-jose-luis-marin-aia
-                - name: Presentation - Tools for Facilitating Dynaωo Usage (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMXk/tools-for-facilitating-dynawo-usage-jose-luis-marin-aia-marco-chiaramello-rte-reseau-de-transport-delectricite-clara-fernandez-castaner-aplicaciones-en-informatica-avanzada-guiu-oms-font-aia
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 Dynaωo is a suite of dynamic simulation tools for power system stability studies. It runs time-domain simulations of long-term voltage stability and transient stability, and steady-state calculations that account for how controls interact over time. Its equipment models are written in Modelica, an equation-based language engineers can read, and are kept separate from the numerical solvers, so one model library serves every type of study. A companion tool checks new generation plants against grid-code requirements. It is built for transmission system operators and power producers that need stability results others can inspect and reproduce.
@@ -15400,6 +15352,7 @@ landscape:
                 - Verify that new generation and storage plants meet the grid code, with the TSO and the producer running the same tests
                 - Validate and calibrate generator models against PMU recordings
                 - Reconstruct major grid disturbances and test what-if scenarios
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpulX2kaNwKRepSljljuDRtz
           - item:
             name: FlexMeasures
             homepage_url: https://lfenergy.org/projects/flexmeasures/
@@ -15447,12 +15400,6 @@ landscape:
                   url: https://github.com/lf-energy/foundation/raw/main/project_charters/flexmeasures_charter.pdf
                 - name: Project Website
                   url: https://flexmeasures.io/
-                - name: Presentation - How Grid Operators Can Unlock Asset Flexibility - Integrating FlexMeasures + OpenLEADR via OpenADR (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMaq/how-grid-operators-can-unlock-asset-flexibility-integrating-flexmeasures-+-openleadr-via-openadr-nicolas-honing-seita-energy-flexibility-nick-van-der-burgt-elaadnl
-                - name: Presentation - Community Energy Management with FlexMeasures, Fully Scriptable (FOSDEM 2026)
-                  url: https://fosdem.org/2026/schedule/event/ACPYNR-community_energy_management_with_flexmeasures_fully_scriptable/
-                - name: Presentation - Using FlexMeasures to Build a Climate Tech Startup in 15 Minutes (FOSDEM 2024)
-                  url: https://fosdem.org/2024/schedule/event/fosdem-2024-2509-using-flexmeasures-to-build-a-climate-tech-startup-in-15-minutes/
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 FlexMeasures is an optimization and forecasting engine for behind-the-meter energy management that works out the best times for flexible assets to consume, produce, or store energy. It schedules batteries, EV chargers, heat pumps with heat storage, and industrial processes against energy prices, peak charges, and grid connection limits, across electricity, gas, and heat. It forecasts its inputs or takes forecasts from other sources, and sends schedules over an API to the systems that control the devices. It is built for energy service companies and industrial sites that want to use their flexibility without building optimization software.
@@ -15463,6 +15410,7 @@ landscape:
                 - Schedule industrial processes with buffering capacity around energy prices or CO₂ intensity
                 - Optimize homes, offices, and commercial and industrial sites that combine solar, storage, heating, and EV charging, stacking self-consumption, dynamic tariffs, and peak reduction
                 - Keep a site within import and export limits that a grid operator sends over OpenADR, while still optimizing cost
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptsW-03gEQiQTi4sHFhCcr5
           - item:
             name: Grid2Op
             homepage_url: https://lfenergy.org/projects/grid2op/
@@ -15503,14 +15451,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa2ShNF11eLkCwHDn
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/grid2op_charter.pdf
-                - name: 'Research Paper - RL2Grid: Benchmarking Reinforcement Learning in Power Grid Operations (preprint, 2025)'
-                  url: https://arxiv.org/abs/2503.23101
-                - name: Presentation - Grid2Op proposal to the LF Energy TAC (2025)
-                  url: https://github.com/user-attachments/files/19248095/20250211_grid2op_mission_statement.pdf
-                - name: 'Research Paper - Learning to run a Power Network Challenge: a Retrospective Analysis (2021)'
-                  url: https://arxiv.org/abs/2103.03104
-                - name: Research Paper - Reinforcement Learning for Electricity Network Operation (preprint, 2020)
-                  url: https://arxiv.org/abs/2003.07339
               summary_use_case: |
                 Grid2Op is a simulation environment for testing how automated controllers operate a power grid over time. A controller, whether expert rules, an optimization model, or a reinforcement learning agent, observes the grid at each step and acts: changing substation topology, redispatching generators, curtailing renewables, or using storage. Grid2Op plays each action against scenarios of load, generation, maintenance, and unplanned outages, and trips lines that stay overloaded too long. Users choose the power flow solver. It is built for researchers and grid operators developing automated control and decision support for transmission grids.
 
@@ -15560,10 +15500,6 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/master/project_charters/hyphae_charter.pdf
                 - name: Wiki
                   url: https://lf-energy.atlassian.net/wiki/spaces/HYP/overview
-                - name: Presentation - LF Energy Hyphae Demo (LF Energy Summit Europe 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/27vlM/demo-lf-energy-hyphae-demo-arila-barnes-energy-iot-open-source
-                - name: Presentation - How Open Source Can Enable Your Next Microgrid Community Project? (LF Energy Summit 2024)
-                  url: https://lfenergysummit2024.sched.com/event/1h5g1/how-open-source-can-enable-your-next-microgrid-community-project-arila-barnes-energy-iot-open-source
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=QaPbyuTPuFs
               summary_use_case: |
@@ -15574,6 +15510,7 @@ landscape:
                 - Supply remote or off-grid communities from local solar and storage, without a connection to a distribution network
                 - Run peer-to-peer energy trading in a community microgrid, with each participant setting its own price conditions
                 - Prototype and test a community microgrid's sharing rules in emulation before installing hardware
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpvdwgo_9oBe4drxkrrbJaYE
             additional_repos:
               - repo_url: https://github.com/hyphae/apis-main
               - repo_url: https://github.com/hyphae/apis-service_center
@@ -15631,14 +15568,6 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/openeemeter-charter.pdf
                 - name: Project Website
                   url: https://opendsm.energy/
-                - name: 'Webinar: Unveiling OpenEEmeter 4.0 (2024)'
-                  url: https://www.youtube.com/watch?v=dV_cU6bUv6M
-                - name: U.S. Department of Energy Validates Open Source Approach for IRA HOMES Programs (2025)
-                  url: https://lfenergy.org/us-department-of-energy-validates-open-source-approach-for-ira-homes-programs/
-                - name: LF Energy OpenDSM Completes Development of New Hourly Model (2025)
-                  url: https://lfenergy.org/lf-energy-opendsm-completes-development-of-new-hourly-model/
-                - name: 'Webinar: Reliably Measuring Demand-Side Interventions in a Solar PV World with OpenDSM (2025)'
-                  url: https://www.youtube.com/watch?v=3s3oMtDMlLI
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=dV_cU6bUv6M
               summary_use_case: |
@@ -15650,6 +15579,7 @@ landscape:
                 - Measure how electrification and load-shifting programs change customers' consumption, including at buildings with solar PV
                 - Measure savings for population-level NMEC programs under California Public Utilities Commission rules
                 - Verify savings for the measured pathway of the U.S. Home Efficiency Rebates (HOMES) program ([LF Energy blog](https://lfenergy.org/us-department-of-energy-validates-open-source-approach-for-ira-homes-programs/))
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpuveDESOHQAcmVmP1_LQvZl
           - item:
             name: OpenGridFM
             homepage_url: https://lfenergy.org/projects/opengridfm/
@@ -15684,18 +15614,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfGFeSdSUJqLdBHTBZ
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gridfm/gridfm_Charter.pdf?v=1781190510434
-                - name: Documentation - gridfm-graphkit
-                  url: https://gridfm.github.io/gridfm-graphkit/
-                - name: Pretrained models and datasets (Hugging Face)
-                  url: https://huggingface.co/gridfm
-                - name: Presentation - GridFM - Towards Foundation Models for the Electric Grid (LF Energy Summit 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/26IxS/gridfm-towards-foundation-models-for-the-electric-grid-thomas-brunschwiler-ibm-research-kibaek-kim-argonne-national-laboratory
-                - name: Paper - gridfm-datakit-v1 - A Python Library for Scalable and Realistic Power Flow and Optimal Power Flow Data Generation (2025)
-                  url: https://arxiv.org/abs/2512.14658
-                - name: Paper - GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis (2026)
-                  url: https://arxiv.org/abs/2608.09921
-                - name: Presentation - Towards Industrial Grid Foundation Models with PowSyBl and OpenGridFM (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMYo/towards-industrial-grid-foundation-models-with-powsybl-and-gridfm-nicolas-lair-artelys
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 OpenGridFM is a toolkit for building foundation models for power grids: AI models pre-trained on many solved grid scenarios, then fine-tuned for tasks such as power flow, optimal power flow, and state estimation. It generates synthetic training data from standard test cases or a utility's own grid models, including dynamic data from time-domain simulation. It trains and fine-tunes models and benchmarks them against conventional solvers. GENCO, a reference model built with the toolkit, shows the approach; its pretrained versions and datasets are public. It is built for researchers and utility teams developing AI models for grid analysis.
@@ -15705,6 +15623,7 @@ landscape:
                 - Develop neural solvers and compare them with published models and conventional solvers on common benchmarks
                 - Fine-tune a pretrained model on a utility's own grid and operating data
                 - Build models for fast N-1 and N-k contingency screening, with flagged cases passed to a conventional AC solver
+              youtube_url: https://www.youtube.com/playlist?list=PLJmPvT6FAZr8
             additional_repos:
               - repo_url: https://github.com/gridfm/gridfm-graphkit
           - item:
@@ -15749,12 +15668,6 @@ landscape:
                   url: https://github.com/lf-energy/foundation/raw/main/project_charters/openleader_charter.pdf
                 - name: Project Website
                   url: https://openleadr.org/
-                - name: Presentation - How Grid Operators Can Unlock Asset Flexibility - Integrating FlexMeasures + OpenLEADR via OpenADR (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMaq/how-grid-operators-can-unlock-asset-flexibility-integrating-flexmeasures-+-openleadr-via-openadr-nicolas-honing-seita-energy-flexibility-nick-van-der-burgt-elaadnl
-                - name: Presentation - Rust Meets the Grid - Building OpenLEADR-rs for Real-World Demand Response (FOSDEM 2026)
-                  url: https://fosdem.org/2026/schedule/event/XXYDHM-openleadr/
-                - name: Presentation - Rust Meets the Grid - Building openleadr-rs for Real-World Demand Response (LF Energy Summit 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/26Iyx/rust-meets-the-grid-building-openleadr-rs-for-real-world-demand-response-hugo-van-de-pol-tweede-golf-ton-smets-elaadnl
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=fb5vGsNo9Uc
               summary_use_case: |
@@ -15766,6 +15679,7 @@ landscape:
                 - Run demand response programs for peak shaving and load shedding
                 - Give aggregators and site energy management systems limits ahead of time, so they schedule flexible assets around them instead of the grid operator controlling devices directly
                 - Stand up a test VTN to develop and test VEN software against
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptG3s8miP42pzmykqke71Du
           - item:
             name: OpenSTEF
             homepage_url: https://lfenergy.org/projects/openstef/
@@ -15817,8 +15731,6 @@ landscape:
                   url: https://lfenergy.org/wp-content/uploads/sites/18/2023/01/image.png
                 - name: Project Wiki
                   url: https://lf-energy.atlassian.net/wiki/spaces/OS
-                - name: Case Study - Optimizing Nordic District Heating - How OpenSTEF Powers 40% of Sweden's Heat Production
-                  url: https://lfenergy.org/openstef-sigholm-nordic-heating-case-study/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=e-kneLMKIaY
               summary_use_case: |
@@ -15830,6 +15742,7 @@ landscape:
                 - Forecast grid losses for day-ahead energy procurement
                 - Forecast free capacity to allocate unused headroom to flexible loads such as EV charging
                 - Forecast heat demand for district heating and combined heat and power production planning
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpsFznK-cdzLbbwvGmUetsBL
           - item:
             name: Shapeshifter
             homepage_url: https://shapeshifter.energy/
@@ -15875,8 +15788,6 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/shapeshifter_charter.pdf
                 - name: Project Wiki
                   url: https://lf-energy.atlassian.net/wiki/spaces/Shap
-                - name: FUSION Close Down Report (SP Energy Networks)
-                  url: https://www.spenergynetworks.co.uk/userfiles/file/FUSION_Close_Down_Report_CLEAN_020224.pdf
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=YtNDs1k80hQ
               summary_use_case: |
@@ -15888,6 +15799,7 @@ landscape:
                 - Trade through a congestion management platform that matches grid operators' requests with aggregators' offers
                 - Contract flexibility at known congestion points to defer grid reinforcement or cover planned maintenance
                 - Connect an aggregator once and serve several grid operators with the same messages
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpuf0mpjD5BWrjfvi7NvhMQ8
       - subcategory:
         name: Sandbox
         items:
@@ -15993,12 +15905,6 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf
                 - name: Project Website
                   url: https://www.arras.energy/
-                - name: 'Video - LF Energy Summit Recap and Video: Update on Arras Energy (2024)'
-                  url: https://lfenergy.org/lf-energy-summit-recap-and-video-update-on-arras-energy/
-                - name: Presentation - Update on Arras Energy (LF Energy Summit 2024)
-                  url: https://lfenergysummit2024.sched.com/event/1ehJT/update-on-arras-energy-david-p-chassin-eudoxys-sciences-llc
-                - name: Blog Post - SLAC and its partners release a free, easy-to-use platform for understanding and managing electric grids (2023)
-                  url: https://www6.slac.stanford.edu/news/2023-12-18-slac-and-its-partners-release-free-easy-use-platform-understanding-and-managing
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=UyNhH6OkR1w
               summary_use_case: |
@@ -16010,6 +15916,7 @@ landscape:
                 - Compare retail tariff designs by simulating customer bills under existing and new rates as DER adoption grows
                 - Assess extreme-weather resilience by simulating pole failures under high winds and the resulting outages on a feeder
                 - Build regional or statewide distribution models from utility CYME and AMI data to evaluate DER and electrification scenarios
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpsqOXJ3T-gYvpEXlNJxTjcw
           - item:
             name: AssetLife
             homepage_url: https://lfenergy.org/projects/assetlife/
@@ -16042,8 +15949,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfa41EPKWxFl60ZGdB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/relife/relife_Charter.pdf?v=1788982011404
-                - name: 'Presentation - ReLife: open source Python library for risk-informed decision-making in reliability theory and asset management (LF Energy Summit Europe 2025)'
-                  url: https://lfenergysummiteu2025.sched.com/event/26Izj
               summary_use_case: |
                 AssetLife is a Python library for asset management based on reliability theory. It fits lifetime models to an asset population's failure and service records, including assets still in service, and can relate failure rates to conditions such as location or corrosion. It compares maintenance policies, such as run-to-failure and replacement at a set age, by their expected discounted cost, and finds the replacement age that costs least. For the chosen policy, it projects how many replacements and failures to expect each year. It is built for asset managers at TSOs, DSOs, and other infrastructure operators who need to justify renewal investments.
 
@@ -16080,6 +15985,7 @@ landscape:
               artwork_url: https://artwork.lfenergy.org/projects/citrineos
               chat_channel: '#citrineos'
               dev_stats_url: https://insights.linuxfoundation.org/project/citrineos
+              discord_url: https://discord.gg/FhkRJknV3N
               documentation_url: https://citrineos.github.io/
               lfx_slug: citrineos
               mailing_list_url: https://lists.lfenergy.org/g/citrineos-discussion
@@ -16092,8 +15998,6 @@ landscape:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/citrineos/citrineos_Charter.pdf?v=1770075707079
                 - name: Architecture Overview
                   url: https://citrineos.github.io/core-concepts/architecture/
-                - name: Discord
-                  url: https://discord.gg/FhkRJknV3N
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=d9KOEMLZS64
               summary_use_case: |
@@ -16105,6 +16009,7 @@ landscape:
                 - Exchange locations, sessions, tariffs, and charge detail records with eMSPs and roaming hubs over OCPI
                 - Limit or schedule charging power at individual stations with OCPP charging profiles
                 - Test chargers and charger firmware against an OCPP back end, including simulated EVerest chargers
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptwbeV88R1NUsD71w6XVcvj
           - item:
             name: CityLearn
             homepage_url: https://lfenergy.org/projects/citylearn/
@@ -16139,14 +16044,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfp8rrlK6FDsO9wk2q
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/citylearn/citylearn_Charter.pdf?v=1764754270554
-                - name: 'Research Paper - CityLearn v3: A Configurable Simulation and Evaluation Framework for Realistic Control Studies of Renewable Energy Communities (preprint, 2026)'
-                  url: https://arxiv.org/abs/2609.21570
-                - name: Video - CityLearn for Human-Centered Grid Flexibility (LF Energy Summit Europe 2026)
-                  url: https://www.youtube.com/watch?v=623_XOvoT6A
-                - name: 'Research Paper - CityLearn v2: energy-flexible, resilient, occupant-centric, and carbon-aware management of grid-interactive communities (2024)'
-                  url: https://doi.org/10.1080/19401493.2024.2418813
-                - name: Competition - The CityLearn Challenge 2023 (NeurIPS 2023)
-                  url: https://www.aicrowd.com/challenges/neurips-2023-citylearn-challenge
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 CityLearn is a simulation environment for benchmarking control strategies for buildings and renewable energy communities. A controller decides each time step how heat pumps, thermal storage, batteries, EV chargers, and flexible appliances charge, discharge, or run. Scenarios can add connection limits, demand-response requests, local energy sharing, and changing members or failed equipment. Rule-based, model predictive, and reinforcement learning controllers are scored on the same cost, comfort, and service KPIs. It is built for researchers and developers of demand-side control, and for utilities and aggregators estimating the flexibility of building portfolios.
@@ -16192,10 +16089,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwTZTl5McN9ojiuC7
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/covxtreme_charter.pdf
-                - name: 'Research Paper - covXtreme: MATLAB software for non-stationary penalised piecewise constant marginal and conditional extreme value models (2024)'
-                  url: https://www.sciencedirect.com/science/article/pii/S1364815224000963
-                - name: Presentation - covXtreme project proposal to the LF Energy TAC (2023)
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2023/2023-12-19/covXtreme%20Project%20Proposal%20Presentation.pdf
               summary_use_case: |
                 covXtreme is a statistical toolkit for estimating environmental extremes, such as storm wave heights, that vary with storm direction and season. It isolates storm peaks from time series, fits an extreme value model to each variable, and models how variables such as wave height, wave period, and wind speed behave together when one is extreme. From these models it estimates return values, such as the 100-year wave height, and environmental design contours, with uncertainty bands on each. It is built for metocean and structural engineers who must set design conditions for return periods far longer than their data records.
 
@@ -16238,12 +16131,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfwN2bdbqmNgG2TtYc
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cupid/cupid_Charter.pdf?v=1747610679443
-                - name: 'Video - Building a Vision for DER Interoperability: The CUPID Project in LFE (LF Energy Summit Europe 2025)'
-                  url: https://www.youtube.com/watch?v=jKi9KnJTv4Y
-                - name: Presentation - CUPID proposal to the LF Energy TAC (2025)
-                  url: https://tac.lfenergy.org/meetings/2025/2025-05-13/CUPID.pdf
-                - name: White Paper - The Role of the IEEE 2030.5 Interoperability Standard in Distributed Energy Resources Integration (InterSTORE, 2025)
-                  url: https://interstore-project.eu/wp-content/uploads/2025/01/WhitePaper-InterSTORE-final-version.pdf
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 CUPID (Controllable Unit Protocol Interface for DERs) is a toolkit for exchanging IEEE 2030.5 messages between distributed energy resources and the platforms that monitor and dispatch them. It carries the messages, in XML or JSON, over NATS publish/subscribe messaging rather than the standard's HTTP transport, so many devices and platforms can share one server. A converter connects Modbus and MQTT devices, turning their data into IEEE 2030.5 messages and control messages into device commands. It is built for aggregators and grid operators that need to coordinate batteries, inverters, heat pumps, and other DERs from many manufacturers.
@@ -16252,6 +16139,7 @@ landscape:
                 - Connect batteries, PV inverters, and heat pumps that speak Modbus or MQTT to an IEEE 2030.5 DER management platform
                 - Send real-time power set points from an aggregator's flexibility platform to the batteries and other DERs it bids into balancing and intraday markets
                 - Dispatch hybrid energy storage systems for fast peak shaving and frequency regulation
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpuMbEm36AweGlVmYZA_4Vzl
             additional_repos:
               - repo_url: https://github.com/cupid-project/Client-Server
               - repo_url: https://github.com/cupid-project/interoperability-common
@@ -16292,14 +16180,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf5aEYe6coFhjFY7X4
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/energnn/energnn_Charter.pdf?v=1774890498324
-                - name: 'Presentation - EnerGNN: A Graph Neural Network Library for Real-Life Complex Energy Systems (LF Energy Summit, 2026)'
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMZL/energnn-a-graph-neural-network-library-for-real-life-complex-energy-systems-balthazar-donon-rte-reseau-de-transport-delectricite
-                - name: Presentation - EnerGNN proposal to the LF Energy TAC (2026)
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-04-14/EnerGNN_LFE_TAC.pdf
-                - name: Research Paper - Self-Supervised Graph Neural Networks for Full-Scale Tertiary Voltage Control (preprint, 2026)
-                  url: https://arxiv.org/abs/2604.03087
-                - name: Presentation - Towards an AI Assistant for Tertiary Voltage Control (LF Energy Summit, 2025; as ARGO)
-                  url: https://lfenergysummiteu2025.sched.com/event/26IzF/towards-an-ai-assistant-for-tertiary-voltage-control-balthazar-donon-rte
               summary_use_case: |
                 EnerGNN is a graph neural network library for real power grids. It represents a grid as it is actually wired: many equipment types, connections that join more than two elements, and equipment sharing a location. Its networks run on full-scale grid data without simplification and keep working through outages, new equipment, and renamed assets. Users define a problem once, with its inputs, decisions, and objective, and train a neural network on their own grid that gives fast, approximate answers to each new case. It is built for transmission operators and researchers who need fast answers to recurring grid decisions.
 
@@ -16402,6 +16282,7 @@ landscape:
                 - Capture time-synchronized waveform snippets when configured triggers occur, such as sags, swells, transients, or harmonic distortion
                 - Detect unauthorized behind-the-meter generation by comparing measured signatures with the customer's DER enrollment
                 - Connect customer DER that speak SunSpec Modbus to the utility's IEEE 2030.5 DERMS through a translation application on the meter
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpsGWUMPzaJrAz0YKYyYzjE2
           - item:
             name: Grid Vantage
             homepage_url: https://gridvantage.energy/
@@ -16502,10 +16383,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf3FcUytWThvGvfPAw
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/interconnect-sif/interconnect-sif_Charter.pdf?v=1752086606016
-                - name: Presentation - Collaborative Analytics and Semantic Interoperability for the Energy Sector (LF Energy Summit 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/26WnS/sponsored-session-collaborative-analytics-and-semantic-interoperability-for-the-energy-sector-jose-ricardo-andrade-fabio-coelho-inesc-tec
-                - name: 'Presentation - InterConnect Semantic Interoperability Framework: TAC proposal (2024)'
-                  url: https://tac.lfenergy.org/meetings/2024/2024-04-23/InterConnect%20Semantic%20Interoperability%20Framework%20Proposal.pdf
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 Semantic Energy Framework (SEF) is middleware for exchanging data between energy platforms, devices, and services that use different data models. Each system connects through an adapter that maps its data to a shared ontology such as ETSI SAREF. The Knowledge Engine matches systems that need data with systems that provide it, and the data passes directly between them rather than through a central platform. Exchanges can be queries or publish/subscribe messages. It is built for grid operators, aggregators, and energy service providers coordinating energy management systems, appliances, and EV chargers from many vendors.
@@ -16516,6 +16393,7 @@ landscape:
                 - Optimize home energy use against dynamic tariffs and residents' flexibility preferences
                 - Coordinate green and smart EV charging with home energy management
                 - Exchange flexibility requests and price signals between a DSO and home or building energy management systems
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpvZm8f-DtJ5YUf3fZyNT6Bh
             additional_repos:
               - repo_url: https://github.com/lfe-sef/knowledge-engine
           - item:
@@ -16613,18 +16491,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfKqhzuw4MXzjV5tBN
                 - name: Charter
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/opensynth_charter.pdf
-                - name: Hugging Face
-                  url: https://huggingface.co/OpenSynth
-                - name: 'Presentation - OpenSynth Dataset Extension: 7K Challenge (LF Energy Summit, 2026)'
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMYr/opensynth-dataset-extension-7k-challenge-pierre-olivier-cayetanot-cresym-josh-cooney-mercadal-eroots-analytics
-                - name: Presentation - OpenSynth Expands with D-GITT & RTE7000 (LF Energy Summit, 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/26Iyu/opensynth-expands-with-d-gitt-rte7000-open-transmission-system-data-for-grid-aware-innovation-geethu-joseph-cresym-josep-fanals-batllori-eroots-analytics
-                - name: White Paper - Synthetic Data for Smart Energy (2025)
-                  url: https://cdn.sanity.io/files/lrxd4jqj/production/5e309155a488a8ef5d4e20660e1699440f197744.pdf
-                - name: "Research Paper - Defining 'Good': Evaluation Framework for Synthetic Smart Meter Data (preprint, 2024)"
-                  url: https://arxiv.org/abs/2407.11785
-                - name: 'Research Paper - Faraday: Synthetic Smart Meter Generator for the Smart Grid (2024)'
-                  url: https://arxiv.org/abs/2404.04314
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 OpenSynth is an open data community for energy research. Its model repository holds generative AI models that a holder of smart meter data can train on its own data to create synthetic load profiles, with tests that check whether the output exposes real customers. Its data repository publishes the results, such as 10 million synthetic household profiles tagged by property type, energy rating, and low carbon technologies. It also hosts real grid topology published by RTE: five-minute snapshots of the French transmission network from 2021 to 2023, without power flows. It is built for researchers and grid operators who need realistic energy data that can be shared openly.
@@ -16635,6 +16501,7 @@ landscape:
                 - Release a synthetic version of a utility's or supplier's smart meter data for outside research, after testing it for privacy leaks
                 - Train and test AI models on realistic demand data before fine-tuning them on an organization's own data
                 - Develop and benchmark topology optimization, power flow, and injection reconstruction methods on a full-size real transmission network
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpsiAoi14NmdERoFpOi7Irlh
           - item:
             name: ORES (Open Renewal Energy Systems)
             homepage_url: https://lfenergy.org/projects/ores-open-renewable-energy-systems/
@@ -16667,16 +16534,6 @@ landscape:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ores-open-renewal-energy-systems
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfn16C1T8IdKmEtdUv
-                - name: 'Presentation - AI-Audited: An Open Interface for Autonomous DER Agents on the Microgrid (LF Energy Summit Europe 2026)'
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMa1/ai-audited-an-open-interface-for-autonomous-der-agents-on-the-microgrid-chris-xie-futurewei-arila-barnes-energy-iot-open-source-tony-shannon-office-of-government-cio-holger-blasum-pvsmile-pierre-vogler-finck-pierrevf-ug
-                - name: 'Presentation - Introducing GAIFARE: Generative AI For Autonomous Renewable Energy (LF Energy Summit Europe 2025)'
-                  url: https://lfenergysummiteu2025.sched.com/event/26Ixz/lightning-talk-introducing-gaifare-generative-ai-for-autonomous-renewable-energy-arila-barnes-energy-iot-open-source-emilio-j-palacios-garcia-university-college-cork-pierre-volger-finck-pierrevf-consulting-chris-xie-futurewei-karl-xiofeng-yan
-                - name: 'Presentation - Empowering Sustainable Futures: Exploring ORES and Its Latest Innovations (FOSDEM 2025)'
-                  url: https://archive.fosdem.org/2025/schedule/event/fosdem-2025-4828-empowering-sustainable-futures-exploring-ores-open-renewable-energy-system-and-its-latest-innovations/
-                - name: 'Blog Post - LF Energy Summit Recap and Video: The Future of Energy with Open Renewable Energy Systems (ORES)'
-                  url: https://lfenergy.org/lf-energy-summit-recap-and-video-the-future-of-energy-with-open-renewable-energy-systems-ores/
-                - name: 'Blog Post - FOSDEM 2024 Recap: Unveiling the Open Renewable Energy Systems (ORES) Initiative'
-                  url: https://lfenergy.org/fosdem-2024-recap-unveiling-the-open-renewable-energy-systems-ores-initiative/
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 ORES (Open Renewable Energy Systems) is an LF Energy working group that specifies an open architecture for home renewable energy systems. Its specification splits a system into production modules, such as solar panels with microinverters, storage modules, and a central control unit, and outlines the APIs between them. Modules plug into standard household outlets and run alone or under the control unit. The group also builds reference prototypes and hosts GAIFARE, which explores AI agents for household and microgrid energy. It is built for device makers, developers, and DIY builders who want home solar and storage from more than one vendor.
@@ -16686,6 +16543,7 @@ landscape:
                 - Charge home batteries from solar or off-peak power and discharge at peak times, coordinated by a central control unit
                 - Keep critical loads powered during grid outages by shedding others and running in island mode
                 - Check whether DER interface standards can limit and audit what an autonomous AI agent may do on a microgrid, before letting agents control batteries
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptZHTyanIHHxUOuo3GYQEfo
             additional_repos:
               - repo_url: https://github.com/open-renewable-energy-systems/AI-audit-benchmark
           - item:
@@ -16722,16 +16580,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfryrBxQdUeK7djCSB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/swamp/swamp_Charter.pdf?v=1756309590007
-                - name: 'Presentation - P-SWAMP: Open R&D for WAMS (LF Energy Summit, 2026)'
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMaM/p-swamp-power-stability-wide-area-monitoring-protection-open-rd-for-wams-geir-harald-borse-unicus+auticon-hallvar-haugdal-sintef
-                - name: Presentation - p-SWAMP annual review to the LF Energy TAC (2026)
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-09-08/p-swamp%20annual%20review-TAC%208th%20Sept%202026.pdf
-                - name: 'Presentation - Wide Area Monitoring, Protection, and Control (WAMPAC): A necessity for secure monitoring operation (LF Energy Summit, 2025)'
-                  url: https://lfenergysummiteu2025.sched.com/event/26J0S/wide-area-monitoring-protection-and-control-wampac-a-necessity-for-secure-monitoring-operation-kjell-petter-myhren-statnett-geir-borse-unicus+auticon-norway
-                - name: Presentation - p-SWAMP proposal to the LF Energy TAC (2025)
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2025/2025-09-02/Statnett%20R%26D%20WAMPAC%20LF%20energy%20TAC%202%20sept%202025.pdf
-                - name: Research Paper - A Platform for Development and Testing of WAMPAC Applications based on Kafka Streaming (ISGT Europe, 2024)
-                  url: https://doi.org/10.1109/isgteurope62998.2024.10863035
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 p-SWAMP is a research platform for wide-area monitoring, protection, and control (WAMPAC) of transmission grids. It takes synchrophasor data from phasor measurement units (PMUs), streamed from a phasor data concentrator or a real-time simulation, or played back from files. Monitoring applications run as separate processes that share data over a common message stream. Sample applications flag poorly damped oscillations, islanding, and line outages, raise alarms, and show results on geographic grid views. It is built for TSOs and research partners that test new monitoring methods on a shared platform before they reach control room tools.
@@ -16742,6 +16590,7 @@ landscape:
                 - Test how alarms for wide-area events are shared between neighboring TSOs
                 - Specify requirements for next-generation control room systems by demonstrating new monitoring functions with operators
                 - Carry results from one research project to the next on a shared platform instead of rebuilding infrastructure each time
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpt_QLV58H4jHOQ7pLiB--OH
             additional_repos: []
           - item:
             name: Real Time Data Ingestion Platform (RTDIP)
@@ -16781,16 +16630,6 @@ landscape:
                   url: https://github.com/lf-energy/foundation/blob/main/project_charters/rtdip_charter.pdf
                 - name: Project Website
                   url: https://www.rtdip.io/
-                - name: Presentation - RTDIP 2025 Annual Review to the LF Energy TAC
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2025/2025-07-08/RTDIP%202025%20Annual%20Review.pdf
-                - name: "Blog Post - Energy Forecasting: Utilising the Power of Tomorrow's Data"
-                  url: https://www.rtdip.io/blog/2024/04/08/energy-forecasting-utilising-the-power-of-tomorrows-data/
-                - name: Blog Post - Beyond the Traditional Data Historian
-                  url: https://www.rtdip.io/blog/2023/11/27/beyond-the-traditional-data-historian/
-                - name: Presentation - Real Time Data Driving Innovation (LF Energy Summit 2023)
-                  url: https://lfenergysummit2023.sched.com/event/1JYOi/real-time-data-driving-innovation-bryce-bartmann-shell
-                - name: Blog Post - RTDIP Ingestion Pipeline Framework
-                  url: https://www.rtdip.io/blog/2023/02/24/rtdip-ingestion-pipelines/
               slack_url: https://slack.lfenergy.org
               summary_intro_url: https://www.youtube.com/watch?v=OKegDi9MdZI
               summary_use_case: |
@@ -16801,6 +16640,7 @@ landscape:
                 - Supply regularly sampled plant data to predictive maintenance, process optimization, and digital twin applications
                 - Gather weather forecasts and market operators' load data as inputs to load and renewable generation forecasting
                 - Build dashboards and reports on site data in BI tools such as Power BI, and analyze it in data science notebooks
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpvDH5YUGQdJHkqR99fgFang
             additional_repos: []
           - item:
             name: RTC-Tools
@@ -16836,12 +16676,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfFMWLlIxeAyyEMxlU
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/rtc-tools/rtc-tools_Charter.pdf?v=1753825022390
-                - name: 'Presentation - RTC-Tools Integration & Energy Trading Use Cases: Overview (LF Energy Summit 2025)'
-                  url: https://lfenergysummiteu2025.sched.com/event/26IzO/rtc-tools-integration-energy-trading-use-cases-overview-jorn-baayen-portfolioenergy
-                - name: 'Presentation - RTC-Tools Integration & Energy Trading Use Cases: Demo of Our Open-Source Release (LF Energy Summit 2025)'
-                  url: https://lfenergysummiteu2025.sched.com/event/26J01/lightning-talk-rtc-tools-integration-energy-trading-use-cases-demo-of-our-open-source-release-tjerk-vreeken-portfolioenergy
-                - name: 'Presentation - RTC-Tools Live Demo: Optimizing Decision Making and Control in Energy and Water Systems (LF Energy Summit 2025)'
-                  url: https://lfenergysummiteu2025.sched.com/event/26Iy5/rtc-tools-live-demo-optimizing-decision-making-and-control-in-energy-and-water-systems-jesus-andres-rodriguez-sarasty-deltares
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 RTC-Tools is an optimization framework for scheduling assets such as reservoirs, hydropower plants, and batteries over hours to years. Engineers describe the system in Python or the Modelica modeling language, and RTC-Tools turns it into an optimization problem for open source or commercial solvers. Objectives can be ranked by priority, so that limits such as reservoir levels are met before revenue is maximized. With ensemble forecasts, its schedules hold up across a range of prices or inflows. It is built for hydropower operators, storage operators, energy traders, and water managers who want optimization models they can inspect and adapt.
@@ -16852,6 +16686,7 @@ landscape:
                 - Optimize asset-backed trading for portfolios that combine hydropower, batteries, thermal storage, or gas turbines
                 - Schedule pumps and gates in canals, polders, and reservoirs to keep water levels in range at lower energy cost
                 - Design district heating networks and multi-energy systems, sizing and placing their components
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpvv-xOv8bOIWgqOjOd3fYyL
             additional_repos:
               - repo_url: https://github.com/rtc-tools/rtc-tools-casadi-plugins
           - item:
@@ -16885,12 +16720,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfmCFnNe5hmZCBSF2C
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/smart-hems-benchmark/smart-hems-benchmark_Charter.pdf?v=1778864145915
-                - name: 'Blog Post - Introducing the Smart HEMS Benchmark: An Open, Vendor-Neutral Standard for Residential Energy Systems (2026)'
-                  url: https://lfenergy.org/introducing-the-smart-hems-benchmark-an-open-vendor-neutral-standard-for-residential-energy-systems/
-                - name: Presentation - Smart HEMS Benchmark proposal to the LF Energy TAC (2026)
-                  url: https://github.com/lf-energy/tac/blob/main/meetings/2026/2026-06-09/LF-Energy%20Smart%20HEMS-BenchMark.pdf
-                - name: Presentation - Accelerating Transparency in Home & Community Energy Management Through Benchmarking Platforms (LF Energy Summit, 2025)
-                  url: https://lfenergysummiteu2025.sched.com/event/26J0V/accelerating-transparency-in-home-community-energy-management-through-benchmarking-platforms-rui-li-ecoflow-inc-dr-anurag-mohapatra-technical-university-of-munich
               summary_use_case: |
                 Smart HEMS Benchmark is a manufacturer-neutral benchmarking platform for home energy management systems (HEMS) and the rooftop solar and batteries they control. It simulates a year of household operation under each control strategy, from a grid-only baseline to cost-optimized time-of-use dispatch, and compares their annual costs. Sensitivity runs show how savings change with solar size, battery size, consumption, and grid export limit. Shared scenario definitions make results reproducible. It is built for HEMS vendors and researchers who need comparable results, and for installers sizing residential solar and storage.
 
@@ -17060,12 +16889,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/a092M00001NVQt3QAH
                 - name: Project Website
                   url: https://cds-customerdata.lfenergy.org/
-                - name: Presentation - A Tour of LF Energy's Connected Data Specifications (CDS) (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMbB/a-tour-of-lf-energys-connected-data-specifications-cds-daniel-roesler-drx-gateway-inc
-                - name: Presentation - An Overview of the New Carbon Data Specification Consortium (CDSC) Discovery, Registration, and Customer Data Specification Drafts (LF Energy Summit 2024)
-                  url: https://lfenergysummit2024.sched.com/event/1ehIt/an-overview-of-the-new-carbon-data-specification-consortium-cdsc-discovery-registration-and-customer-data-specification-drafts-daniel-roesler-utilityapi-eloi-fabrega-ferrer-flexidao
-                - name: Presentation - Challenges and Solutions to Enable Customer Data Access in Europe and the United States (LF Energy Summit 2023)
-                  url: https://lfenergysummit2023.sched.com/event/1JYO5/challenges-and-solutions-to-enable-customer-data-access-in-europe-and-the-united-states-eloi-fabrega-ferrer-flexidao-daniel-roesler-utilityapi
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 CDS Customer Data defines how utilities share customer data with customers and third parties they approve. It specifies APIs and data formats for accounts, meters, bills, usage, and program participation, and builds on CDS Registration for onboarding and credentials. Customers approve each third-party request on a standard form showing exactly what is asked for, and can revoke it at any time. Each third party gets only the fields, accounts, and dates it needs. Ready-made scenarios let regulators mandate common uses. It is built for utilities and regulators that want a common way to share customer data, and for service providers that need it.
@@ -17076,6 +16899,7 @@ landscape:
                 - Give building owners whole-building usage for municipal benchmarking reports
                 - Let demand response and rebate apps check which rate plan a customer is on and their program eligibility with the customer's consent
                 - Release aggregated usage, such as by postal code, to researchers and regulators
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpsXCugl0K0IpuS56mg-vTSL
           - item:
             name: Connected Data Specification - Power Systems Data Working Group (CDS WG2)
             homepage_url: https://cds-powersystemdata.lfenergy.org/
@@ -17142,10 +16966,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lftcOCnS1t49JtW1Zj
                 - name: Project Website
                   url: https://cds-registration.lfenergy.org/
-                - name: Presentation - A Tour of LF Energy's Connected Data Specifications (CDS) (LF Energy Summit 2026)
-                  url: https://lfenergysummiteu2026.sched.com/event/2PMbB/a-tour-of-lf-energys-connected-data-specifications-cds-daniel-roesler-drx-gateway-inc
-                - name: Presentation - An Overview of the New Carbon Data Specification Consortium (CDSC) Discovery, Registration, and Customer Data Specification Drafts (LF Energy Summit 2024)
-                  url: https://lfenergysummit2024.sched.com/event/1ehIt/an-overview-of-the-new-carbon-data-specification-consortium-cdsc-discovery-registration-and-customer-data-specification-drafts-daniel-roesler-utilityapi-eloi-fabrega-ferrer-flexidao
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 CDS Registration is a pair of specifications for how utilities and other central entities, such as grid operators and data hubs, connect with outside organizations. Server Metadata publishes, at a fixed web address, which data and digital services a utility makes available to third parties and the territories it covers. Client Registration builds on OAuth 2.0 so third parties can register, get credentials, and manage their access. Other specifications, starting with CDS Customer Data, add their own data and functions to it. It is built for utilities onboarding many energy service providers, and for the providers that connect to them.
@@ -17156,6 +16976,7 @@ landscape:
                 - Give other utility data and grid protocols a ready-made registration and authorization layer, as CDS Customer Data does for customer energy data
                 - Send registered third parties notices of changes and outages, and answer their support requests, in one tracked channel
                 - Find which utilities offer a given connection or data service, and where, without searching each utility's website
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpsXCugl0K0IpuS56mg-vTSL
           - item:
             name: TROLIE
             homepage_url: https://lfenergy.org/projects/trolie/
@@ -17191,16 +17012,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfoG7KUacGvkymUJjO
                 - name: Project Website
                   url: https://trolie.energy/
-                - name: Adopters
-                  url: https://github.com/trolie/spec/blob/1.0/ADOPTERS.md
-                - name: Webinar - TROLIE "Ask Me Anything" with vendors and implementers (2025)
-                  url: https://www.youtube.com/watch?v=kxM9z5JLWJ4
-                - name: 'Article - Meeting the challenge of FERC Order 881: Why open source matters for AAR implementation (Utility Dive, 2025)'
-                  url: https://www.utilitydive.com/news/ferc-order-881-aar-ambient-adjusted-rating-trolie/750604/
-                - name: Webinar - A Lap Around TROLIE 1.0 (2024)
-                  url: https://www.youtube.com/watch?v=dk4s3tt1SEU
-                - name: 'Presentation - TROLIE: Establishing an Open Conformance Standard for the Exchange of Transmission Facility Ratings (LF Energy Summit, 2024)'
-                  url: https://www.youtube.com/watch?v=PdHwC3Ovm1w
               summary_intro_url: https://www.youtube.com/watch?v=RRXwD8nyokc
               summary_use_case: |
                 TROLIE (Transmission Ratings and Operating Limits Information Exchange) is an API specification for exchanging transmission ratings and operating limits under FERC Order 881. Transmission owners submit real-time, 240-hour forecast, and seasonal ratings to a clearinghouse, usually the ISO, RTO, or reliability coordinator. The clearinghouse returns the operating limits it will use and shows which inputs set each one. Neighboring reliability coordinators use the same interface to reconcile tie-line limits. It is built for transmission owners, ISOs, and RTOs exchanging ratings hourly, and for the vendors whose systems produce and use them.
@@ -17211,6 +17022,7 @@ landscape:
                 - Record temporary AAR exceptions when a facility's rating can't be ambient-adjusted for a period, such as during an outage or a derate
                 - Reconcile tie-line limits between neighboring reliability coordinators so both operate to the most limiting rating
                 - Confirm that both parties name and track the same facilities before ratings exchange goes live
+              youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptIJbt7gaGVV3QNMHacxi-b
           - item:
             name: Utility Rate Plan Exchange
             homepage_url: https://urpx.org/
@@ -17246,14 +17058,6 @@ landscape:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfISx1cI6KYboQfjad
                 - name: Project Website
                   url: https://urpx.org/
-                - name: 'Blog - URPX goes public: an open standard for machine-readable utility rate plans (LF Energy, 2026)'
-                  url: https://lfenergy.org/urpx-goes-public-an-open-standard-for-machine-readable-utility-rate-plans/
-                - name: Blog - LF Energy Welcomes New Members, Launches Three Projects, and Advances Open Source Grid Technology Across the Portfolio (2026)
-                  url: https://lfenergy.org/lf-energy-new-members-projects-and-portfolio-growth/
-                - name: Presentation - The v0.3.0 rate plan model, working group walkthrough (2026)
-                  url: https://github.com/urpx-org/urpx-wg/blob/main/meetings/2026-07-14_URPXWorkingGroup_012/URPX_WorkingGroupSession_012_2026-07-14.pdf
-                - name: Presentation - URPX proposal to the LF Energy TAC (2025)
-                  url: https://github.com/user-attachments/files/22788585/FluxTailor_URPX_LFEnergyPresentation_2025-10-09_Preview.pdf
               slack_url: https://slack.lfenergy.org
               summary_use_case: |
                 URPX (Utility Rate Plan Exchange) describes utility rate plans as machine-readable data. It covers a plan's charges, how they vary by time of use, season, and usage tier, and which customers qualify. Utilities spread a plan's prices across tariff books, statements, and price feeds, so URPX cites each price to its source and assembles them into one snapshot per period, stating whether it is complete. It is built for utilities and retail suppliers that publish rate plans, and for the DER vendors, regulators, consumer advocates, and researchers that compute costs from them.
