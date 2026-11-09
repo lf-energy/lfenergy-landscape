@@ -16684,7 +16684,6 @@ landscape:
             project: working-group
             repo_url: https://github.com/trolie/spec
             license: Apache-2.0
-            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-09-06'
@@ -16711,6 +16710,7 @@ landscape:
                 - Define API specification for the exchange of ratings and ratings-related information to support organizations working to comply with FERC Order 881.
                 - A conformance program that emulates the Zowe Conformance Program or the Certified Kubernetes Conformance Program insofar as they give vendors a means to demonstrate their conformance to the above specification and signal their commitment to maintaining their conformance over time.
                 - An open commons for the development of clients of the API specification.
+            additional_repos: []
           - item:
             name: Utility Rate Plan Exchange
             homepage_url: https://urpx.org/
