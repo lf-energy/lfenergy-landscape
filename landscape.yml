@@ -14788,13 +14788,10 @@ landscape:
             license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/com-pas/compas-cim-mapping
+              - repo_url: https://github.com/com-pas/compas-sct
               - repo_url: https://github.com/com-pas/compas-scl-data-service
               - repo_url: https://github.com/com-pas/compas-scl-auto-alignment
-              - repo_url: https://github.com/com-pas/compas-transnetbw-plugins
-              - repo_url: https://github.com/com-pas/oscd-template-generator
-              - repo_url: https://github.com/com-pas/scl-bay-template
-              - repo_url: https://github.com/com-pas/compas-sitipe-service
-              - repo_url: https://github.com/com-pas/compas-deployment
+              - repo_url: https://github.com/com-pas/compas-scl-validator
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/com-pas/compas-core
             extra:
@@ -14848,14 +14845,7 @@ landscape:
             project: earlyadoption
             repo_url: https://github.com/EVerest/EVerest
             license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/EVerest/cbexigen
-              - repo_url: https://github.com/EVerest/libcbv2g
-              - repo_url: https://github.com/EVerest/ext-switchev-iso15118
-              - repo_url: https://github.com/EVerest/zvt
-              - repo_url: https://github.com/EVerest/everest-admin-panel
-              - repo_url: https://github.com/EVerest/everest-demo
-              - repo_url: https://github.com/EVerest/Himalayas
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-10-12'
@@ -14985,7 +14975,6 @@ landscape:
             additional_repos:
               - repo_url: https://github.com/PowerGridModel/power-grid-model-io
               - repo_url: https://github.com/PowerGridModel/power-grid-model-ds
-              - repo_url: https://github.com/PowerGridModel/libpower-grid-model-java
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             twitter: https://twitter.com/nil
             extra:
@@ -15048,10 +15037,6 @@ landscape:
               - repo_url: https://github.com/powsybl/pypowsybl
               - repo_url: https://github.com/powsybl/powsybl-open-rao
               - repo_url: https://github.com/powsybl/powsybl-starter
-              - repo_url: https://github.com/powsybl/powsybl-dynawo
-              - repo_url: https://github.com/powsybl/powsybl-open-sc
-              - repo_url: https://github.com/powsybl/powsybl-metrix
-              - repo_url: https://github.com/powsybl/powsybl-entsoe
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2019-04-30'
@@ -15188,10 +15173,6 @@ landscape:
               - repo_url: https://github.com/sogno-platform/cimpy
               - repo_url: https://github.com/sogno-platform/libcimpp
               - repo_url: https://github.com/sogno-platform/cim4j
-              - repo_url: https://github.com/sogno-platform/proloaf
-              - repo_url: https://github.com/sogno-platform/pyvolt
-              - repo_url: https://github.com/sogno-platform/pymfm
-              - repo_url: https://github.com/sogno-platform/datafev
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2020-10-27'
@@ -15306,10 +15287,6 @@ landscape:
             additional_repos:
               - repo_url: https://github.com/dynawo/dynaflow-launcher
               - repo_url: https://github.com/dynawo/dynawo-algorithms
-              - repo_url: https://github.com/dynawo/dynawo-docker
-              - repo_url: https://github.com/dynawo/dynawo-large-scale-validation
-              - repo_url: https://github.com/dynawo/dynawo-replay-AIA
-              - repo_url: https://github.com/dynawo/dynawo.github.io
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-12-06'
@@ -15365,11 +15342,9 @@ landscape:
             repo_url: https://github.com/FlexMeasures/flexmeasures
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-client
               - repo_url: https://github.com/FlexMeasures/flexmeasures-plugin-template
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-openadr3
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-ha-integration
-              - repo_url: https://github.com/FlexMeasures/flexmeasures-weather
+              - repo_url: https://github.com/FlexMeasures/flexmeasures-client
+              - repo_url: https://github.com/FlexMeasures/tsc
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2021-11-02'
@@ -15423,7 +15398,6 @@ landscape:
             license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/Grid2op/lightsim2grid
-              - repo_url: https://github.com/Grid2op/pypowsybl2grid
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-02-11'
@@ -15472,6 +15446,7 @@ landscape:
             project: incubating
             repo_url: https://github.com/hyphae/APIS
             license: Apache-2.0
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2020-12-08'
@@ -15509,12 +15484,6 @@ landscape:
                 - Run peer-to-peer energy trading in a community microgrid, with each participant setting its own price conditions
                 - Prototype and test a community microgrid's sharing rules in emulation before installing hardware
               youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpvdwgo_9oBe4drxkrrbJaYE
-            additional_repos:
-              - repo_url: https://github.com/hyphae/apis-main
-              - repo_url: https://github.com/hyphae/apis-service_center
-              - repo_url: https://github.com/hyphae/apis-dcdc_batt_comm
-              - repo_url: https://github.com/hyphae/apis-emulator
-              - repo_url: https://github.com/hyphae/apis-tester
           - item:
             name: OpenDSM
             homepage_url: https://lfenergy.org/projects/opendsm/
@@ -15537,6 +15506,7 @@ landscape:
             license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/opendsm/eeweather
+              - repo_url: https://github.com/opendsm/caltrack
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/openeemeter/eemeter/tree/master
             extra:
@@ -15591,6 +15561,8 @@ landscape:
             project: incubating
             repo_url: https://github.com/gridfm/gridfm-datakit
             license: Other
+            additional_repos:
+              - repo_url: https://github.com/gridfm/gridfm-graphkit
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-10-29'
@@ -15622,8 +15594,6 @@ landscape:
                 - Fine-tune a pretrained model on a utility's own grid and operating data
                 - Build models for fast N-1 and N-k contingency screening, with flagged cases passed to a conventional AC solver
               youtube_url: https://www.youtube.com/playlist?list=PLJmPvT6FAZr8
-            additional_repos:
-              - repo_url: https://github.com/gridfm/gridfm-graphkit
           - item:
             name: OpenLEADR
             homepage_url: https://www.lfenergy.org/projects/openleadr/
@@ -15757,7 +15727,6 @@ landscape:
             license: Apache-2.0
             additional_repos:
               - repo_url: https://github.com/shapeshifter/shapeshifter-specification
-              - repo_url: https://github.com/shapeshifter/shapeshifter-library-python
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             url_for_bestpractices: https://github.com/shapeshifter/shapeshifter-library
             extra:
@@ -15813,6 +15782,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/ainetus/ExpertOp4Grid
             license: MPL-2.0
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2026-03-05'
@@ -15845,17 +15815,6 @@ landscape:
                 - Judge whether to trust an AI recommendation from its explanation, uncertainty estimate, and failure forecast
                 - Review alerts and AI recommendations in one interface, with the final decision left to the operator
                 - Train and benchmark grid control agents on shared scenarios, including how they cope with conditions unlike their training data
-            additional_repos:
-              - repo_url: https://github.com/ainetus/InteractiveAI
-              - repo_url: https://github.com/ainetus/InteractiveAI-API
-              - repo_url: https://github.com/ainetus/Co-Study4Grid
-              - repo_url: https://github.com/ainetus/Expert_op4grid_recommender
-              - repo_url: https://github.com/ainetus/T2.1_deep_expert
-              - repo_url: https://github.com/ainetus/GridExplainer
-              - repo_url: https://github.com/ainetus/RL-agent-uncertainty-prediction-module
-              - repo_url: https://github.com/ainetus/RL_agent_failure_forecast
-              - repo_url: https://github.com/ainetus/grid2op-scenario
-              - repo_url: https://github.com/ainetus/agent-as-a-service-trace-rl
           - item:
             name: Arras
             homepage_url: https://arras.energy/
@@ -15871,11 +15830,7 @@ landscape:
             repo_url: https://github.com/arras-energy/tsc
             license: Other
             additional_repos:
-              - repo_url: https://github.com/arras-energy/arras
-              - repo_url: https://github.com/arras-energy/converters
-              - repo_url: https://github.com/arras-energy/tools
-              - repo_url: https://github.com/arras-energy/geodata
-              - repo_url: https://github.com/arras-energy/gridlabd-modules
+              - repo_url: https://github.com/arras-energy/gridlabd
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2022-07-12'
@@ -16065,7 +16020,6 @@ landscape:
             project: sandbox
             repo_url: https://github.com/covXtreme/covXtreme
             license: Apache-2.0
-            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-01-05'
@@ -16108,6 +16062,9 @@ landscape:
             project: sandbox
             repo_url: https://github.com/cupid-project/Legacy-Protocol-Converter
             license: MIT
+            additional_repos:
+              - repo_url: https://github.com/cupid-project/Client-Server
+              - repo_url: https://github.com/cupid-project/interoperability-common
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-05-13'
@@ -16138,9 +16095,6 @@ landscape:
                 - Send real-time power set points from an aggregator's flexibility platform to the batteries and other DERs it bids into balancing and intraday markets
                 - Dispatch hybrid energy storage systems for fast peak shaving and frequency regulation
               youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpuMbEm36AweGlVmYZA_4Vzl
-            additional_repos:
-              - repo_url: https://github.com/cupid-project/Client-Server
-              - repo_url: https://github.com/cupid-project/interoperability-common
           - item:
             name: EnerGNN
             homepage_url: https://lfenergy.org/projects/energnn/
@@ -16155,8 +16109,6 @@ landscape:
             license: MPL-2.0
             additional_repos:
               - repo_url: https://github.com/energnn/pypowsybl-to-energnn
-              - repo_url: https://github.com/energnn/pandapower-to-energnn
-              - repo_url: https://github.com/energnn/energnn-feature-store
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2026-04-27'
@@ -16199,6 +16151,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/fidopower/optimal_sizing_placement
             license: BSD-3-Clause
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-01-17'
@@ -16226,8 +16179,6 @@ landscape:
                 - Check whether existing generation can serve a grid model's demand without shedding load, and how much would be shed if not
                 - Review an Arras model's equipment, properties, and geographic layout before running studies on it
                 - Share a study as a notebook that colleagues or reviewers can rerun with their own cost and limit assumptions
-            additional_repos:
-              - repo_url: https://github.com/fidopower/model_viewer
           - item:
             name: Grid Edge Interoperability & Security Alliance (GEISA)
             homepage_url: https://lfenergy.org/projects/geisa/
@@ -16242,8 +16193,9 @@ landscape:
             repo_url: https://github.com/geisa/specification
             license: Apache-2.0
             additional_repos:
-              - repo_url: https://github.com/geisa/conformance
               - repo_url: https://github.com/geisa/community
+              - repo_url: https://github.com/geisa/conformance
+              - repo_url: https://github.com/geisa/schemas
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-10-08'
@@ -16360,6 +16312,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/lfe-sef/generic-adapter
             license: Apache-2.0
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-04-23'
@@ -16392,8 +16345,6 @@ landscape:
                 - Coordinate green and smart EV charging with home energy management
                 - Exchange flexibility requests and price signals between a DSO and home or building energy management systems
               youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpvZm8f-DtJ5YUf3fZyNT6Bh
-            additional_repos:
-              - repo_url: https://github.com/lfe-sef/knowledge-engine
           - item:
             name: NODE Collective
             homepage_url: https://www.nodecollective.org/
@@ -16512,6 +16463,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
             license: TBD / NA
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2024-03-12'
@@ -16542,8 +16494,6 @@ landscape:
                 - Keep critical loads powered during grid outages by shedding others and running in island mode
                 - Check whether DER interface standards can limit and audit what an autonomous AI agent may do on a microgrid, before letting agents control batteries
               youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkptZHTyanIHHxUOuo3GYQEfo
-            additional_repos:
-              - repo_url: https://github.com/open-renewable-energy-systems/AI-audit-benchmark
           - item:
             name: Power Stability Wide Area Monitoring Protection (p-SWAMP)
             homepage_url: https://lfenergy.org/projects/p-swamp/
@@ -16652,6 +16602,7 @@ landscape:
             project: sandbox
             repo_url: https://github.com/rtc-tools/rtc-tools
             license: Other
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-10-01'
@@ -16685,8 +16636,6 @@ landscape:
                 - Schedule pumps and gates in canals, polders, and reservoirs to keep water levels in range at lower energy cost
                 - Design district heating networks and multi-energy systems, sizing and placing their components
               youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9Xkpvv-xOv8bOIWgqOjOd3fYyL
-            additional_repos:
-              - repo_url: https://github.com/rtc-tools/rtc-tools-casadi-plugins
           - item:
             name: Smart HEMS Benchmark
             homepage_url: https://lfenergy.org/projects/smart-hems-benchmark/
@@ -16733,8 +16682,8 @@ landscape:
             logo: varen.svg
             description: Open source Python library that turns vehicle LiDAR scans of overhead distribution lines into asset and vegetation data, so utilities don't have to interpret the scans by hand.
             second_path:
-              - Distribution / Planning & Analysis
               - SIG / AI SIG
+              - Distribution / Planning & Analysis
               - Asset Management / Asset Supervision
             project: sandbox
             repo_url: https://github.com/varen-project/varen
