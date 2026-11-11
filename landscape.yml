@@ -16936,8 +16936,7 @@ landscape:
             project: working-group
             repo_url: https://github.com/trolie/spec
             license: Apache-2.0
-            additional_repos:
-              - repo_url: https://github.com/trolie/java-client-sdk
+            additional_repos: []
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2023-09-06'
@@ -16984,6 +16983,8 @@ landscape:
             project: working-group
             repo_url: https://github.com/urpx-org/urpx-wg
             license: Apache-2.0
+            additional_repos:
+              - repo_url: https://github.com/urpx-org/urpx-wg
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
               accepted: '2025-11-05'
@@ -17016,8 +17017,6 @@ landscape:
                 - Check which rate plans and add-ons a customer qualifies for from their customer and service point profile
                 - Schedule EVs, batteries, heat pumps, and other DERs against the customer's actual rate plan, such as by sending computed hourly prices to energy management systems over OpenADR 3
                 - Review rate cases and compare rate designs and their affordability across jurisdictions
-            additional_repos:
-              - repo_url: https://github.com/urpx-org/urpx-wg
   - category:
     name: Not LFESS Member
     subcategories:
