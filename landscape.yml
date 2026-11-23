@@ -16446,7 +16446,7 @@ landscape:
                 - Develop and benchmark topology optimization, power flow, and injection reconstruction methods on a full-size real transmission network
               youtube_url: https://www.youtube.com/playlist?list=PLKyFf1J9XkpsiAoi14NmdERoFpOi7Irlh
           - item:
-            name: ORES (Open Renewal Energy Systems)
+            name: ORES (Open Renewable Energy Systems)
             homepage_url: https://lfenergy.org/projects/ores-open-renewable-energy-systems/
             logo: ores_open_renewal_energy_systems.svg
             description: Open source architecture and API specification for home solar panels, batteries, and controllers from different manufacturers to work together, so households can build and grow systems in modules.
@@ -16456,6 +16456,11 @@ landscape:
               - Shared / Systems Governance
             project: sandbox
             repo_url: https://github.com/open-renewable-energy-systems/ores
+            additional_repos:
+              - repo_url: https://github.com/open-renewable-energy-systems/gaifare
+              - repo_url: https://github.com/open-renewable-energy-systems/gaifare_demo
+              - repo_url: https://github.com/open-renewable-energy-systems/gaifare-hyphae-apis-demo
+              - repo_url: https://github.com/open-renewable-energy-systems/AI-audit-benchmark
             license: TBD / NA
             crunchbase: https://www.crunchbase.com/organization/lf-energy
             extra:
