@@ -3528,6 +3528,14 @@ landscape:
             extra:
               topics: co2-emissions,decarbonization,electrical-grid,energy,python
           - item:
+            name: jourtempo
+            description: Python client for French electricity demand-response signals - EDF Tempo day colour (RTE data), EJP days and RTE peak (PP) days - plus daily CSV histories since 2014, from a free open API without key.
+            homepage_url: https://jourtempo.fr/api/#english
+            repo_url: https://github.com/jourtempo/jourtempo-python
+            logo: jourtempo.svg
+            extra:
+              topics: demand-response,electricity-tariff,france,open-data,python,rte
+          - item:
             name: KoaVTracker
             description: Energy targets in the coalition agreement of the German government vs. where we stand today.
             homepage_url: https://gitlab.com/diw-evu/koavtracker
